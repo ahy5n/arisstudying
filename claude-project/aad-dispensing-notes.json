@@ -1,0 +1,982 @@
+{
+ "module": "AaD",
+ "verifyNote": "Written from standard UK dispensing knowledge. Always check against Dr Hallam's slides. Department conventions (e.g. which allowance to use for minimum blank size) win over this page.",
+ "topics": [
+  {
+   "id": "aad-frame-measurement",
+   "title": "The boxing system & frame measurements",
+   "summary": "Every UK frame and lens is measured with the boxing system: draw the smallest rectangle (box) that encloses each lens shape, then measure from it. The numbers on a frame arm (e.g. 52□18 140) are the horizontal box lens size, the distance between lenses and the side length.",
+   "keyPoints": [
+    "Horizontal box lens size (A) = width of the box around one lens, in mm.",
+    "Vertical box lens size (B) = height of that box.",
+    "Distance between lenses (DBL) = horizontal gap between the two boxes at the bridge.",
+    "Box centre = the geometric centre of the box (where the horizontal and vertical centre lines cross).",
+    "Box centre distance (BCD, also called frame PD) = A + DBL.",
+    "Horizontal centre line (HCL) = line joining the two box centres.",
+    "Effective diameter (ED) = twice the longest radius from the box centre to the lens edge — needed for blank size."
+   ],
+   "examTraps": [
+    "Writing BCD as A + 2×DBL — it is A + DBL.",
+    "Confusing B (vertical box size) with the 'depth' at a particular point of the shape.",
+    "Measuring DBL at the narrowest point of the bridge rather than between the boxes."
+   ],
+   "diagram": {
+    "id": "boxing-system",
+    "description": "Front view of a pair of lens shapes, each enclosed in a dashed rectangle. Label A across the top of the right box, B down its side, DBL between the boxes, the box centre (×) in each, the horizontal centre line joining them and BCD from × to ×.",
+    "labels": [
+     "A (horizontal box lens size)",
+     "B (vertical box lens size)",
+     "DBL",
+     "Box centre",
+     "Horizontal centre line",
+     "Box centre distance (BCD)",
+     "Effective diameter (ED)"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Why the box matters",
+     "body": "Lens shapes are irregular, so the box gives a fixed reference. Optical centres, segment tops and fitting crosses are all positioned relative to the box centre or the bottom of the box (the 'datum' for heights). Because the lab cuts lenses using the box, any measurement you send must use the same reference."
+    },
+    {
+     "heading": "Reading a frame",
+     "body": "A frame marked 54□17 145 has A = 54 mm, DBL = 17 mm and a 145 mm side (from the dowel screw to the tip). Its BCD is 54 + 17 = 71 mm. The □ symbol tells you the measurements are boxed. B is usually not printed and needs measuring with a rule."
+    },
+    {
+     "heading": "Effective diameter",
+     "body": "Measure from the box centre to the furthest point of the lens shape and double it. Shapes with long corners (e.g. rectangular or cat-eye) have a larger ED than their A suggests, which pushes up the blank size you need."
+    }
+   ],
+   "labelDiagram": {
+    "diagramId": "boxing-system",
+    "targets": [
+     "A (horizontal box lens size)",
+     "B (vertical box lens size)",
+     "DBL",
+     "Box centre",
+     "Box centre distance (BCD)"
+    ]
+   },
+   "flashcards": [
+    {
+     "front": "What do the numbers 52□18 140 mean?",
+     "back": "A (horizontal box lens size) 52 mm, DBL 18 mm, side length 140 mm."
+    },
+    {
+     "front": "Box centre distance formula",
+     "back": "BCD = A + DBL"
+    },
+    {
+     "front": "What is the effective diameter?",
+     "back": "Twice the longest radius from the box centre to the edge of the lens shape."
+    },
+    {
+     "front": "What is the horizontal centre line?",
+     "back": "The line joining the two box centres; heights are referenced to the box."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-fm-1",
+     "q": "A frame is marked 50□20 140. What is its box centre distance?",
+     "options": [
+      {
+       "text": "70 mm",
+       "correct": true,
+       "feedback": "Right: BCD = A + DBL = 50 + 20."
+      },
+      {
+       "text": "90 mm",
+       "correct": false,
+       "feedback": "That adds DBL twice. The box centres are each A/2 from the inner edge, so BCD = A + DBL."
+      },
+      {
+       "text": "60 mm",
+       "correct": false,
+       "feedback": "That's A + DBL/2. Add the full DBL."
+      },
+      {
+       "text": "140 mm",
+       "correct": false,
+       "feedback": "140 is the side (temple) length, not a lens measurement."
+      }
+     ],
+     "explanation": "Each box centre sits A/2 from its inner edge, so the distance between centres is A/2 + DBL + A/2 = A + DBL.",
+     "link": "aad-frame-measurement#reading-a-frame"
+    },
+    {
+     "id": "aad-fm-2",
+     "q": "Which measurement do you need to work out the minimum blank size?",
+     "options": [
+      {
+       "text": "Effective diameter",
+       "correct": true,
+       "feedback": "Yes, the ED tells you how big the uncut lens must be to fill the shape."
+      },
+      {
+       "text": "Side length",
+       "correct": false,
+       "feedback": "Side length affects fit over the ears, not the lens blank."
+      },
+      {
+       "text": "Vertical box lens size only",
+       "correct": false,
+       "feedback": "B alone misses the corners of the shape; ED captures the longest radius."
+      },
+      {
+       "text": "Vertex distance",
+       "correct": false,
+       "feedback": "Vertex distance matters for effective power, not blank size."
+      }
+     ],
+     "explanation": "Minimum blank size depends on the ED plus any decentration (see Centration & prism).",
+     "link": "aad-frame-measurement#effective-diameter"
+    }
+   ],
+   "cases": [],
+   "links": [
+    {
+     "label": "ABDO: dispensing resources",
+     "url": "https://www.abdo.org.uk/"
+    },
+    {
+     "label": "Aston Library",
+     "url": "https://www.aston.ac.uk/library"
+    }
+   ],
+   "askClaude": "Explain the boxing system for frames, then quiz me with 3 quick calculations using A, DBL and BCD."
+  },
+  {
+   "id": "aad-facial-measurements",
+   "title": "Facial measurements: PD, heights & vertex distance",
+   "summary": "To put optical centres in front of the pupils you measure the patient's interpupillary distance (PD), for distance and near, and for multifocals or varifocals also the monocular PDs and fitting heights. Vertex distance and pantoscopic tilt matter for higher powers.",
+   "keyPoints": [
+    "Distance PD: binocular measurement with a PD rule at about 40 cm, or with a pupillometer.",
+    "Near PD is smaller than distance PD, typically by around 3–4 mm for a near working distance of about 40 cm.",
+    "Monocular PDs (bridge centre to each pupil) are essential for varifocals and asymmetric faces.",
+    "Fitting height: vertical distance from the pupil centre (or the reference point, e.g. lower lid for a bifocal) to the bottom of the box, measured with the chosen frame adjusted on the face.",
+    "Vertex distance = back surface of lens to the cornea. Matters for powers above about ±4.00 D.",
+    "Pantoscopic tilt: optical centres are lowered by about 1 mm for every 2° of tilt, so the optical axis passes through the eye's centre of rotation."
+   ],
+   "examTraps": [
+    "Measuring near PD with the practitioner's eyes switching — for near both measurements use the same practitioner eye.",
+    "Taking fitting heights without the frame properly adjusted first.",
+    "Forgetting that a positive lens moved closer to the eye needs MORE plus to keep the same effect."
+   ],
+   "diagram": {
+    "id": "pd-measurement",
+    "description": "Practitioner and patient facing each other at about 40 cm with a PD rule on the patient's nose. Step 1: practitioner closes their right eye; patient looks at the practitioner's left eye; zero aligned with the patient's right pupil centre. Step 2: practitioner closes their left eye and opens the right; patient looks at that eye; read the scale at the patient's left pupil centre.",
+    "labels": [
+     "PD rule",
+     "Patient right pupil (zero)",
+     "Patient left pupil (reading)",
+     "Practitioner open eye",
+     "~40 cm"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Distance PD with a rule (method)",
+     "body": "Sit at the patient's eye level about 40 cm away. Close your right eye and ask the patient to look at your open left eye. Line up the zero of the rule with the centre of the patient's right pupil (or the temporal limbus). Then close your left eye, open your right, ask the patient to look at it and read off the centre of their left pupil (or the nasal limbus if you used the temporal one). Your switching eyes mean the patient's lines of sight are parallel, as if looking into the distance."
+    },
+    {
+     "heading": "Near PD",
+     "body": "Keep one eye (usually your dominant one) open and positioned in the midline at the patient's working distance. The patient looks at that eye throughout, so they converge as they would when reading. Read both pupil centres with the same eye."
+    },
+    {
+     "heading": "Effectivity and vertex distance",
+     "body": "If a lens of power F is moved a distance d (in metres) towards the eye, the new power needed for the same effect is Fc = F / (1 − dF). Example: +10.00 D refracted at 12 mm, worn at 10 mm (d = 0.002 m): Fc = 10 / (1 − 0.02) = +10.20 D. For −10.00 D: Fc = −10 / (1 + 0.02) = −9.80 D. This is why the refraction vertex distance should be written on the prescription for high powers."
+    },
+    {
+     "heading": "Pantoscopic tilt",
+     "body": "Most frames tilt the bottom of the lens towards the cheeks. If the optical centre stayed at pupil height the optical axis would miss the eye's centre of rotation, adding unwanted oblique astigmatism. The rule of thumb is to lower the OC by 1 mm per 2° of pantoscopic tilt (e.g. 8° tilt → about 4 mm below the pupil)."
+    }
+   ],
+   "checklist": {
+    "id": "chk-pd-rule",
+    "title": "Measuring distance PD with a PD rule",
+    "steps": [
+     "Explain what you're about to do and why.",
+     "Sit at the same eye level as the patient, about 40 cm away.",
+     "Rest the rule on the bridge of the nose, scale facing you.",
+     "Close your right eye; ask the patient to look at your left eye.",
+     "Line up zero with the centre of the patient's right pupil (or temporal limbus).",
+     "Close your left eye and open your right; ask the patient to look at your right eye.",
+     "Read the scale at the centre of the patient's left pupil (or nasal limbus).",
+     "Repeat to check repeatability; take monocular readings from the bridge centre if needed.",
+     "Measure near PD with one eye in the midline at the working distance.",
+     "Record distance PD, near PD and monocular PDs clearly."
+    ]
+   },
+   "flashcards": [
+    {
+     "front": "Effectivity formula when moving a lens towards the eye",
+     "back": "Fc = F / (1 − dF), with d in metres."
+    },
+    {
+     "front": "Pantoscopic tilt rule of thumb",
+     "back": "Lower the optical centres about 1 mm for every 2° of tilt."
+    },
+    {
+     "front": "Above what power does vertex distance become important?",
+     "back": "Roughly ±4.00 D and above."
+    },
+    {
+     "front": "Why switch eyes for distance PD?",
+     "back": "So the patient's lines of sight are parallel, mimicking distance fixation."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-fa-1",
+     "q": "A +12.00 D lens was refracted at a vertex distance of 14 mm. The new frame sits at 10 mm. What power is needed?",
+     "options": [
+      {
+       "text": "About +12.60 D",
+       "correct": true,
+       "feedback": "Correct: d = 0.004 m, Fc = 12 / (1 − 0.048) ≈ +12.60 D."
+      },
+      {
+       "text": "About +11.45 D",
+       "correct": false,
+       "feedback": "That's the answer for moving the lens AWAY from the eye. Moving a plus lens closer needs more plus."
+      },
+      {
+       "text": "+12.00 D (no change)",
+       "correct": false,
+       "feedback": "At this power a 4 mm change is clinically significant."
+      },
+      {
+       "text": "About +12.05 D",
+       "correct": false,
+       "feedback": "Check your units: d must be in metres (0.004 m)."
+      }
+     ],
+     "explanation": "Moving a plus lens towards the eye reduces its effective power, so you compensate with more plus: Fc = F / (1 − dF).",
+     "link": "aad-facial-measurements#effectivity-and-vertex-distance"
+    },
+    {
+     "id": "aad-fa-2",
+     "q": "A frame has 10° of pantoscopic tilt. Where should the optical centres be placed?",
+     "options": [
+      {
+       "text": "About 5 mm below the pupil centres",
+       "correct": true,
+       "feedback": "Yes: 1 mm per 2° of tilt."
+      },
+      {
+       "text": "At the pupil centres",
+       "correct": false,
+       "feedback": "With tilt, OCs at the pupil mean the optical axis misses the centre of rotation."
+      },
+      {
+       "text": "About 10 mm below the pupil centres",
+       "correct": false,
+       "feedback": "That's 1 mm per degree; the rule is 1 mm per 2°."
+      },
+      {
+       "text": "About 5 mm above the pupil centres",
+       "correct": false,
+       "feedback": "The bottom of the lens tilts in, so the OC moves down, not up."
+      }
+     ],
+     "explanation": "Lowering the OC 1 mm per 2° of pantoscopic tilt keeps the optical axis passing through the eye's centre of rotation.",
+     "link": "aad-facial-measurements#pantoscopic-tilt"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A patient's distance PD reads 64 mm but the monocular PDs are R 30 / L 34. They've chosen varifocals.",
+     "question": "Which PD values do you send to the lab, and why?",
+     "modelAnswer": "Send the monocular PDs (R 30, L 34). Varifocal corridors are narrow, so each fitting cross must sit exactly in front of its own pupil. Splitting 64 into 32/32 would put the right corridor 2 mm temporal and the left 2 mm nasal, narrowing the clear intermediate and near zones."
+    }
+   ],
+   "links": [
+    {
+     "label": "College of Optometrists: Guidance for Professional Practice",
+     "url": "https://guidance.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Walk me through measuring distance and near PD with a PD rule like an examiner would watch it, then ask me why each step matters."
+  },
+  {
+   "id": "aad-centration-prism",
+   "title": "Centration, decentration & Prentice's rule",
+   "summary": "If the patient doesn't look through the optical centre of a lens, the lens acts as a prism. Prentice's rule gives the prism: P = c × F (c in cm, F in dioptres). Centration means putting the OCs where the pupils are; decentration is how far you move each OC from the box centre to get there.",
+   "keyPoints": [
+    "Prentice's rule: P (Δ) = c (cm) × F (D).",
+    "Plus lenses act like two prisms base-to-base (base towards the OC); minus lenses base-to-apex (base away from the OC).",
+    "Decentration per eye = (BCD − PD) / 2, or with monocular PDs: (BCD / 2) − monocular PD.",
+    "Usually decentration is inwards (nasal) because most frames' BCD exceeds the patient's PD.",
+    "Minimum blank size (MBS) = ED + 2 × decentration + an allowance for edging (often 2 mm — use your department's figure).",
+    "For astigmatic lenses, use the power in the meridian of the decentration (e.g. horizontal power for horizontal decentration)."
+   ],
+   "examTraps": [
+    "Using millimetres instead of centimetres in Prentice's rule (gives a 10× error).",
+    "Getting base direction backwards: looking above the OC of a minus lens gives base UP; above the OC of a plus lens gives base DOWN.",
+    "Using the sphere power for an astigmatic lens instead of the power in the relevant meridian."
+   ],
+   "diagram": {
+    "id": "prentice",
+    "description": "Two lens cross-sections side by side. Left: plus lens drawn as two prisms base-to-base, with a ray passing 5 mm below the OC deviated upwards (base up). Right: minus lens drawn as two prisms apex-to-apex, with a ray 5 mm below the OC deviated downward (base down). Labels: OC, c (decentration), base direction.",
+    "labels": [
+     "Optical centre (OC)",
+     "Decentration c",
+     "Base direction",
+     "Plus lens = base-to-base",
+     "Minus lens = apex-to-apex"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Working out decentration",
+     "body": "Frame 52□18 → BCD 70 mm. Patient PD 62 mm. Total decentration = 70 − 62 = 8 mm, so 4 mm in for each eye. With monocular PDs R 30 / L 32: R = 35 − 30 = 5 mm in, L = 35 − 32 = 3 mm in."
+    },
+    {
+     "heading": "Minimum blank size",
+     "body": "MBS = ED + 2 × decentration + allowance. With ED 56 mm, 4 mm decentration and a 2 mm allowance: 56 + 8 + 2 = 66 mm. If each eye decentres differently, work each eye separately."
+    },
+    {
+     "heading": "Induced prism and the two eyes",
+     "body": "Horizontal prism in the two eyes adds if the bases point the same way relative to the face (both in or both out), and subtracts otherwise. Vertical prism matters most: if the two eyes get different vertical prism (e.g. anisometropia while reading through the lower part of single-vision lenses), the net vertical difference can cause diplopia or discomfort even when small."
+    },
+    {
+     "heading": "Base direction memory aid",
+     "body": "Plus lenses 'point' towards the OC (thickest in the middle, so base is towards the centre). Minus lenses are thickest at the edge, so base is away from the centre. If the eye is 4 mm above the OC of a −5.00 D lens, the eye sees through the thicker upper part: 0.4 × 5 = 2Δ base up."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Prentice's rule",
+     "back": "P = c × F, where c is in cm and F in dioptres."
+    },
+    {
+     "front": "Base direction above the OC of a plus lens",
+     "back": "Base down (the base of a plus lens points towards the OC)."
+    },
+    {
+     "front": "Decentration per eye (binocular PD)",
+     "back": "(BCD − PD) / 2"
+    },
+    {
+     "front": "Minimum blank size",
+     "back": "ED + 2 × decentration + allowance"
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-cp-1",
+     "q": "A patient looks 6 mm below the OC of a −4.00 D lens. What prism do they experience?",
+     "options": [
+      {
+       "text": "2.4Δ base down",
+       "correct": true,
+       "feedback": "Yes: 0.6 cm × 4 D = 2.4Δ; below a minus OC the lens is thicker below, so base down."
+      },
+      {
+       "text": "2.4Δ base up",
+       "correct": false,
+       "feedback": "Right amount, wrong direction. Minus lenses have their base away from the OC, so below the OC → base down."
+      },
+      {
+       "text": "24Δ base down",
+       "correct": false,
+       "feedback": "Use centimetres: 6 mm = 0.6 cm."
+      },
+      {
+       "text": "0.67Δ base down",
+       "correct": false,
+       "feedback": "That divides instead of multiplies. P = c × F."
+      }
+     ],
+     "explanation": "Prentice's rule with c = 0.6 cm. Minus lens = base away from the OC.",
+     "link": "aad-centration-prism#base-direction-memory-aid"
+    },
+    {
+     "id": "aad-cp-2",
+     "q": "Frame 54□16, PD 64 mm. How much decentration per eye, and which way?",
+     "options": [
+      {
+       "text": "3 mm in",
+       "correct": true,
+       "feedback": "BCD 70 − PD 64 = 6 mm total, 3 mm in per eye."
+      },
+      {
+       "text": "3 mm out",
+       "correct": false,
+       "feedback": "The frame centres are wider than the pupils, so the OCs move inwards."
+      },
+      {
+       "text": "6 mm in",
+       "correct": false,
+       "feedback": "6 mm is the total; split it between the two eyes."
+      },
+      {
+       "text": "5 mm in",
+       "correct": false,
+       "feedback": "Check BCD: 54 + 16 = 70 mm."
+      }
+     ],
+     "explanation": "Decentration per eye = (BCD − PD) / 2 = (70 − 64) / 2 = 3 mm nasally.",
+     "link": "aad-centration-prism#working-out-decentration"
+    },
+    {
+     "id": "aad-cp-3",
+     "q": "R +3.00 D, L +3.00 D. Both OCs are placed 1.5 mm temporal of each pupil. What total horizontal prism results?",
+     "options": [
+      {
+       "text": "0.9Δ base out",
+       "correct": true,
+       "feedback": "Each eye looks 0.15 cm nasal of a plus lens OC. Plus lens bases point towards the OC (temporal) → 0.45Δ base out each, 0.9Δ base out total."
+      },
+      {
+       "text": "0.9Δ base in",
+       "correct": false,
+       "feedback": "Plus lens = base towards the OC. The OC is temporal, so the base is out."
+      },
+      {
+       "text": "9Δ base out",
+       "correct": false,
+       "feedback": "Use cm: 1.5 mm = 0.15 cm."
+      },
+      {
+       "text": "No prism, it cancels",
+       "correct": false,
+       "feedback": "Both eyes get base out, so it adds rather than cancels."
+      }
+     ],
+     "explanation": "P = 0.15 × 3 = 0.45Δ per eye; same base direction relative to the face (both out), so they add.",
+     "link": "aad-centration-prism#induced-prism-and-the-two-eyes"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "R −6.00 DS, L −2.00 DS. Patient reads 10 mm below the OCs of their single-vision specs and complains of discomfort when reading.",
+     "question": "Calculate the vertical prism imbalance and suggest what could help.",
+     "modelAnswer": "R: 1.0 × 6 = 6Δ base down. L: 1.0 × 2 = 2Δ base down. Imbalance = 4Δ (R base down relative to L). Options: separate reading specs centred for near, slab-off (bi-prism) on the more minus lens, or contact lenses. Check with your lecturer which solutions the department expects you to discuss."
+    }
+   ],
+   "links": [
+    {
+     "label": "Optometry Today",
+     "url": "https://www.aop.org.uk/ot"
+    }
+   ],
+   "askClaude": "Give me 5 Prentice's rule problems of increasing difficulty (including vertical imbalance), one at a time, and check my working."
+  },
+  {
+   "id": "aad-lens-materials",
+   "title": "Lens materials",
+   "summary": "Lens materials are compared by refractive index (higher = thinner), Abbe number (higher = less chromatic aberration), density (weight), impact resistance and UV absorption. CR39 is the standard plastic; polycarbonate and Trivex are the safety choices; high-index plastics suit stronger prescriptions.",
+   "keyPoints": [
+    "Refractive index (n): higher index bends light more, so the lens can be thinner for the same power.",
+    "Abbe number (V): measures dispersion. Higher V means less colour fringing (transverse chromatic aberration) off-axis.",
+    "As index rises, Abbe number generally falls — the classic trade-off.",
+    "Reflectance per surface ≈ ((n − 1)/(n + 1))². For n = 1.5 that's about 4% per surface.",
+    "Typical values (check your slides): CR39 n ≈ 1.50, V ≈ 58; crown glass n ≈ 1.52, V ≈ 59; Trivex n ≈ 1.53, V ≈ 43–45; polycarbonate n ≈ 1.59, V ≈ 30; 1.67 plastic V ≈ 32.",
+    "Polycarbonate and Trivex: high impact resistance, recommended for children, sports and safety use.",
+    "Higher-index materials reflect more light, so anti-reflection coating matters more."
+   ],
+   "examTraps": [
+    "Saying high index lenses are always lighter — thinner, yes, but density varies (high-index glass is heavy).",
+    "Recommending polycarbonate to someone very sensitive to colour fringing without mentioning the low Abbe number.",
+    "Forgetting that thickness savings matter most at the edge of minus lenses and the centre of plus lenses."
+   ],
+   "diagram": {
+    "id": "materials-chart",
+    "description": "Scatter chart: x-axis refractive index (1.49–1.75), y-axis Abbe number (25–60). Points for CR39, crown glass, Trivex, polycarbonate, 1.60, 1.67, 1.74. Shows the downward trend.",
+    "labels": [
+     "CR39",
+     "Crown glass",
+     "Trivex",
+     "Polycarbonate",
+     "1.60",
+     "1.67",
+     "1.74"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Why index affects thickness",
+     "body": "Surface power F = (n − 1)/r. With a higher n you can achieve the same power with a flatter curve (bigger r), so the sag of the surface and hence the thickness difference between centre and edge shrinks."
+    },
+    {
+     "heading": "Abbe number in practice",
+     "body": "Chromatic aberration is only noticeable when looking away from the optical centre, especially with strong prescriptions. A low-Abbe lens (e.g. polycarbonate) in a high prescription can give coloured fringes around objects in peripheral gaze. Accurate centration reduces the problem."
+    },
+    {
+     "heading": "Choosing a material for a patient",
+     "body": "Think: power, frame size and type (rimless needs a tough material such as polycarbonate or Trivex to avoid cracking at drill holes), age and lifestyle (children → impact resistance), cosmetic concerns (thickness), and budget."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "What does a high Abbe number mean?",
+     "back": "Low dispersion — less chromatic aberration."
+    },
+    {
+     "front": "Reflectance formula (one surface)",
+     "back": "R = ((n − 1)/(n + 1))²"
+    },
+    {
+     "front": "Best material choice for a child's specs?",
+     "back": "Polycarbonate or Trivex, for impact resistance."
+    },
+    {
+     "front": "CR39 index and Abbe",
+     "back": "About 1.50 and 58."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-lm-1",
+     "q": "Which material is best for a rimless (drilled) frame for an active 10-year-old?",
+     "options": [
+      {
+       "text": "Trivex",
+       "correct": true,
+       "feedback": "Tough, impact resistant, resists cracking at drill holes and has a better Abbe number than polycarbonate."
+      },
+      {
+       "text": "Crown glass",
+       "correct": false,
+       "feedback": "Glass is heavy and can shatter, so it's unsuitable for children or drilled mounts."
+      },
+      {
+       "text": "CR39",
+       "correct": false,
+       "feedback": "CR39 can crack around drill holes and has lower impact resistance."
+      },
+      {
+       "text": "1.74 high index",
+       "correct": false,
+       "feedback": "Not needed for most child prescriptions, and less impact resistant than Trivex or polycarbonate."
+      }
+     ],
+     "explanation": "For children and drilled frames, impact resistance comes first: Trivex or polycarbonate.",
+     "link": "aad-lens-materials#choosing-a-material-for-a-patient"
+    },
+    {
+     "id": "aad-lm-2",
+     "q": "Approximately what percentage of light is reflected from one surface of an uncoated lens with n = 1.6?",
+     "options": [
+      {
+       "text": "About 5.3%",
+       "correct": true,
+       "feedback": "((0.6)/(2.6))² ≈ 0.053."
+      },
+      {
+       "text": "About 4%",
+       "correct": false,
+       "feedback": "That's for n = 1.5."
+      },
+      {
+       "text": "About 10.6%",
+       "correct": false,
+       "feedback": "That's roughly both surfaces combined, not one."
+      },
+      {
+       "text": "About 1%",
+       "correct": false,
+       "feedback": "That's closer to a coated surface."
+      }
+     ],
+     "explanation": "R = ((n − 1)/(n + 1))². Higher-index lenses reflect more, so they benefit more from anti-reflection coating.",
+     "link": "aad-lens-materials"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A patient with R −7.50 / L −7.75 wants a large rectangular frame and hates thick edges.",
+     "question": "What would you advise on material and frame?",
+     "modelAnswer": "Suggest a high-index material (e.g. 1.67 or 1.74) with an anti-reflection coating, and explain the lower Abbe number. Gently recommend a smaller, rounder frame with a BCD close to their PD to reduce decentration and edge thickness; a thicker acetate rim can hide the edge. Aspheric design also helps."
+    }
+   ],
+   "links": [
+    {
+     "label": "ABDO",
+     "url": "https://www.abdo.org.uk/"
+    }
+   ],
+   "askClaude": "Help me build a comparison table of CR39, Trivex, polycarbonate and 1.67 plastic, then give me 3 patient scenarios to choose a material for."
+  },
+  {
+   "id": "aad-lens-form-coatings",
+   "title": "Lens form, aspherics, coatings & tints",
+   "summary": "Lens form is the choice of front and back curves for a given power. 'Best form' curves minimise oblique astigmatism; aspheric designs let you use flatter curves for thinner, better-looking lenses. Coatings and tints then tailor the lens to the patient: anti-reflection, hard coat, UV protection, photochromic, polarised.",
+   "keyPoints": [
+    "Meniscus (curved) forms are used for spectacles; the base curve is the reference front curve.",
+    "Best-form lenses reduce oblique astigmatism for off-axis gaze.",
+    "Aspheric surfaces flatten the lens without losing off-axis quality — thinner, lighter, less magnification change.",
+    "Anti-reflection coatings use thin-film interference to cut surface reflections, improving transmission, cosmetics and glare.",
+    "Hard coats protect plastic lenses from scratches; usually applied under AR.",
+    "Photochromics darken with UV; many darken less behind a car windscreen (which blocks UV).",
+    "Polarised lenses block horizontally polarised glare (water, roads) — great for driving and fishing, but can make some LCD screens look dark."
+   ],
+   "examTraps": [
+    "Recommending standard photochromics as a driving solution without warning about windscreen UV filtering.",
+    "Saying an AR coat makes a lens 'more scratch resistant' — the hard coat does that.",
+    "Forgetting that tints must meet driving standards (very dark or certain tints aren't suitable for night driving)."
+   ],
+   "diagram": {
+    "id": "ar-interference",
+    "description": "Light hitting a lens with a thin coating. Two reflected rays (from the air–coating and coating–lens boundaries) half a wavelength out of step, cancelling. Labels: incident light, coating (quarter-wave thickness), reflected rays cancel, transmitted light increases.",
+    "labels": [
+     "Incident light",
+     "Coating (¼ wavelength thick)",
+     "Reflected rays out of phase",
+     "Transmitted light"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Why aspherics are thinner",
+     "body": "A spherical high-plus lens needs a steep front curve to stay in best form, which makes it bulge and magnify. An aspheric front surface flattens towards the edge, so a flatter base curve can be used while still controlling off-axis errors. Result: thinner centre (plus) or edge (minus), and less of the 'bug-eye' or 'pin-eye' look."
+    },
+    {
+     "heading": "How anti-reflection works",
+     "body": "A single coating layer about a quarter-wavelength thick makes the two reflections (from its top and bottom surfaces) cancel by destructive interference. Multi-layer coatings extend this across the visible spectrum. The residual reflection gives the coating its slight colour (often green or blue)."
+    },
+    {
+     "heading": "Matching coatings to lifestyle",
+     "body": "Night driver → AR coat (less glare from headlights). Screen worker → AR coat; blue-filter claims should be discussed honestly using current evidence. Outdoor sports → polarised or photochromic. Children → hard coat and impact-resistant material."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Main benefit of an aspheric lens",
+     "back": "Flatter and thinner with less magnification change, while controlling off-axis errors."
+    },
+    {
+     "front": "What does a polarised lens block?",
+     "back": "Horizontally polarised reflected glare (water, roads, snow)."
+    },
+    {
+     "front": "Photochromic limitation in cars",
+     "back": "Windscreens block much UV, so many photochromics darken less while driving."
+    },
+    {
+     "front": "AR coating principle",
+     "back": "Thin-film destructive interference between reflections."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-lc-1",
+     "q": "A keen angler wants to see into the water better. What would you recommend?",
+     "options": [
+      {
+       "text": "Polarised lenses",
+       "correct": true,
+       "feedback": "They cut the horizontally polarised glare from the water's surface."
+      },
+      {
+       "text": "Clear lenses with AR coat",
+       "correct": false,
+       "feedback": "AR reduces reflections from the lens, not glare from the water."
+      },
+      {
+       "text": "Standard photochromics",
+       "correct": false,
+       "feedback": "They reduce brightness but don't remove polarised glare."
+      },
+      {
+       "text": "A pale pink fashion tint",
+       "correct": false,
+       "feedback": "Light tints barely change glare."
+      }
+     ],
+     "explanation": "Reflected glare is horizontally polarised; vertically oriented polarising filters block it.",
+     "link": "aad-lens-form-coatings#matching-coatings-to-lifestyle"
+    }
+   ],
+   "cases": [],
+   "links": [
+    {
+     "label": "College of Optometrists guidance",
+     "url": "https://guidance.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Role-play a patient choosing lens options (I'm the student). Ask me about coatings, tints and materials, then give me feedback on how I explained them."
+  },
+  {
+   "id": "aad-multifocals",
+   "title": "Bifocals, varifocals & occupational lenses",
+   "summary": "Presbyopes need extra power for near. Bifocals give two zones with a visible segment; varifocals (progressive addition lenses, PALs) blend distance, intermediate and near power along a corridor with no line. Occupational lenses give wider intermediate and near zones for desk work.",
+   "keyPoints": [
+    "Bifocal segment top for general use is normally set at the lower lid margin (lower limbus); higher for near-heavy work.",
+    "Image jump happens at the segment top: jump (Δ) = distance from seg top to seg OC (cm) × add.",
+    "Flat-top (D) segments have their OC close to the top, so less image jump than round segments.",
+    "Varifocal fitting: monocular PDs and fitting heights measured to the pupil centres, with the frame adjusted.",
+    "Varifocal lenses have unwanted astigmatism (distortion) on either side of the corridor — patients turn their head, not their eyes.",
+    "Short corridors suit shallow frames; make sure the frame has enough depth below the fitting cross for the near zone.",
+    "Occupational (office) lenses: large intermediate and near zones, limited or no distance."
+   ],
+   "examTraps": [
+    "Using a binocular PD for varifocals.",
+    "Choosing a frame too shallow for the corridor length.",
+    "Confusing image jump (at the segment line) with differential vertical prism at near."
+   ],
+   "diagram": {
+    "id": "pal-zones",
+    "description": "Front view of a varifocal lens. Labels: distance reference circle, fitting cross (at pupil centre), prism reference point, corridor, near reference circle, zones of unwanted astigmatism either side, engraved markings (logo and add) on the horizontal line.",
+    "labels": [
+     "Distance reference point",
+     "Fitting cross",
+     "Prism reference point",
+     "Progressive corridor",
+     "Near reference point",
+     "Peripheral distortion",
+     "Engravings"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Image jump",
+     "body": "When the eye moves down across a bifocal line, it suddenly meets the prism of the segment. A round 22 mm segment has its OC 11 mm below its top; with a +2.00 add the jump is 1.1 × 2 = 2.2Δ base down at the line — objects appear to jump. A flat-top with its OC about 5 mm below the line gives only 1Δ. That's why flat-tops are the usual choice."
+    },
+    {
+     "heading": "Varifocal markings",
+     "body": "Temporary ink markings show the fitting cross, distance check circle, prism reference point and near check circle. Permanent engravings (usually about 17 mm apart, either side of the prism reference point) let you re-mark the lens with the manufacturer's template — check your slides for the exact convention you'll be examined on."
+    },
+    {
+     "heading": "Choosing between options",
+     "body": "Bifocals: cheaper, wide near zone, but visible line and no intermediate. Varifocals: cosmetically better and give intermediate, but need adaptation and accurate fitting. Occupational: ideal for computer users, but not for walking or driving."
+    }
+   ],
+   "checklist": {
+    "id": "chk-varifocal-fit",
+    "title": "Measuring for varifocals",
+    "steps": [
+     "Help the patient choose a frame with enough depth for the corridor.",
+     "Adjust the frame fully on the face first (pantoscopic tilt, bridge, sides).",
+     "Sit at the patient's eye level; ask them to look straight at your eye.",
+     "Measure monocular PDs from the centre of the bridge to each pupil centre (or use a pupillometer).",
+     "Mark each pupil centre on the demo lens (or dot) with the patient in natural head posture.",
+     "Measure fitting height from each pupil centre to the bottom of the box.",
+     "Check both eyes separately for asymmetry.",
+     "Record vertex distance, pantoscopic tilt and wrap if a personalised design.",
+     "Explain adaptation: head movement, looking down for near, 1–2 weeks to adapt."
+    ]
+   },
+   "flashcards": [
+    {
+     "front": "Image jump formula",
+     "back": "Jump (Δ) = distance from seg top to seg OC (cm) × add (D)."
+    },
+    {
+     "front": "Where is a general-use bifocal segment set?",
+     "back": "At the lower lid margin / lower limbus."
+    },
+    {
+     "front": "Where does the varifocal fitting cross go?",
+     "back": "Over the pupil centre in the primary position."
+    },
+    {
+     "front": "Why monocular PDs for varifocals?",
+     "back": "Each narrow corridor must line up with its own pupil."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-mf-1",
+     "q": "Round segment 24 mm diameter, add +2.50. What is the image jump?",
+     "options": [
+      {
+       "text": "3Δ",
+       "correct": true,
+       "feedback": "OC is 12 mm below the top: 1.2 × 2.5 = 3Δ."
+      },
+      {
+       "text": "6Δ",
+       "correct": false,
+       "feedback": "Use the radius (12 mm), not the full diameter."
+      },
+      {
+       "text": "30Δ",
+       "correct": false,
+       "feedback": "Convert to cm: 12 mm = 1.2 cm."
+      },
+      {
+       "text": "0Δ",
+       "correct": false,
+       "feedback": "Only segments with their OC at the top line give zero jump."
+      }
+     ],
+     "explanation": "For a round segment the OC is at its geometric centre, one radius below the top.",
+     "link": "aad-multifocals#image-jump"
+    },
+    {
+     "id": "aad-mf-2",
+     "q": "A patient's new varifocals give clear distance but blurred reading. Which fitting error is most likely?",
+     "options": [
+      {
+       "text": "Fitting crosses set too high",
+       "correct": false,
+       "feedback": "Too high usually blurs distance (looking through the corridor) — reading may still be reachable."
+      },
+      {
+       "text": "Fitting crosses set too low",
+       "correct": true,
+       "feedback": "If set too low the near zone sits too low to reach comfortably, so reading blurs."
+      },
+      {
+       "text": "Anti-reflection coating",
+       "correct": false,
+       "feedback": "Coatings don't affect zone positions."
+      },
+      {
+       "text": "Side length too long",
+       "correct": false,
+       "feedback": "May let the frame slip, which can cause it, but the direct cause is low zone position."
+      }
+     ],
+     "explanation": "Low fitting heights push the near zone below where the eyes naturally drop to read.",
+     "link": "aad-multifocals#varifocal-markings"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 58-year-old accountant spends 8 hours a day on two monitors and drives home. Current specs are bifocals.",
+     "question": "What would you suggest, and how would you explain it?",
+     "modelAnswer": "A pair of occupational (office) lenses for work, giving wide intermediate for the monitors and near for paperwork, plus varifocals or keeping the bifocals for driving and general use. Explain that one lens can't give wide zones at all distances, and that office lenses aren't suitable for driving."
+    }
+   ],
+   "links": [
+    {
+     "label": "Optometry Today",
+     "url": "https://www.aop.org.uk/ot"
+    }
+   ],
+   "askClaude": "Quiz me on varifocal markings and fitting problems: describe a complaint and let me diagnose the fitting error."
+  },
+  {
+   "id": "aad-verification-fitting",
+   "title": "Verification, transposition & fitting",
+   "summary": "Before glasses go to the patient they're checked against the prescription and order: powers and axes on the focimeter, optical centres or fitting points, prism, segment heights and physical condition, against BS EN ISO tolerances. Then the frame is adjusted on the face so it sits as measured.",
+   "keyPoints": [
+    "Transposition: add the sphere and cyl for the new sphere, change the cyl sign, rotate the axis by 90°.",
+    "Example: +1.00 / −2.00 × 30 transposes to −1.00 / +2.00 × 120.",
+    "Focimeter: focus eyepiece first, check zero, measure back vertex power with the lens back surface against the stop.",
+    "Mark the optical centres with the focimeter and check centration and any prism against the order.",
+    "Varifocals are verified at the distance and near reference points — not at the fitting cross.",
+    "Check against tolerances from BS EN ISO 21987 (mounted lenses) — learn the version on your slides.",
+    "Fitting: the frame should be level, sit at the measured vertex distance, have even pressure behind the ears and correct pantoscopic tilt."
+   ],
+   "examTraps": [
+    "Reading the power on a focimeter with the lens front-surface-down (gives front vertex power).",
+    "Checking a varifocal's power at the fitting cross.",
+    "Forgetting to check the frame for damage, stress marks and correct sides before handover."
+   ],
+   "diagram": {
+    "id": "focimeter",
+    "description": "Labelled focimeter: eyepiece, lens stop, lens table, power wheel, axis wheel, marking device, prism scale. Shows the spectacles placed back surface down with the lens table touching the bottom rims.",
+    "labels": [
+     "Eyepiece",
+     "Lens stop",
+     "Lens table",
+     "Power wheel",
+     "Axis wheel",
+     "Marking device",
+     "Prism scale"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Transposition practice",
+     "body": "−2.25 / +1.50 × 165 → sphere: −2.25 + 1.50 = −0.75; cyl: −1.50; axis: 165 − 90 = 75. Answer: −0.75 / −1.50 × 75. Axes stay between 1 and 180, so add or subtract 90 accordingly."
+    },
+    {
+     "heading": "Focimeter routine",
+     "body": "Focus the eyepiece graticule (turn fully anticlockwise and then slowly in until sharp). Check the instrument reads zero with no lens. Place spectacles back surface towards the stop, lens table touching both lower rims so axes are referenced to the frame's horizontal. Find the first line focus, read sphere and axis, then the second line for the cyl. Centre the target and mark the OC."
+    },
+    {
+     "heading": "Collection and fitting",
+     "body": "Look from the front (level, OCs or fitting crosses aligned with pupils), from the side (pantoscopic tilt, vertex distance, sides following the head) and from above (face form, side splay). Heat acetate frames gently; adjust metal frames with the correct pliers. Ask the patient to look down and shake their head gently to check stability."
+    }
+   ],
+   "checklist": {
+    "id": "chk-focimeter",
+    "title": "Verifying single-vision specs on the focimeter",
+    "steps": [
+     "Clean the lenses and check the frame for damage.",
+     "Focus the eyepiece graticule and check the zero reading.",
+     "Place the right lens back surface against the stop.",
+     "Bring the lens table up to touch both lower rims.",
+     "Find the first line focus; record its power and axis.",
+     "Find the second line focus; work out the cylinder (difference).",
+     "Centre the target and mark the optical centre.",
+     "Repeat for the left lens without moving the lens table.",
+     "Measure the distance between the OCs and compare with the PD ordered.",
+     "Check any prism, heights and tolerances against the order; record the result."
+    ]
+   },
+   "flashcards": [
+    {
+     "front": "Transpose +1.00 / −2.00 × 30",
+     "back": "−1.00 / +2.00 × 120"
+    },
+    {
+     "front": "Which vertex power does a focimeter normally measure?",
+     "back": "Back vertex power (back surface against the stop)."
+    },
+    {
+     "front": "Where do you verify varifocal powers?",
+     "back": "At the distance and near reference circles, not the fitting cross."
+    },
+    {
+     "front": "Main standard for mounted lens tolerances",
+     "back": "BS EN ISO 21987."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-vf-1",
+     "q": "Transpose −0.50 / +1.25 × 10.",
+     "options": [
+      {
+       "text": "+0.75 / −1.25 × 100",
+       "correct": true,
+       "feedback": "Sphere −0.50 + 1.25 = +0.75; cyl sign flips; axis +90."
+      },
+      {
+       "text": "+0.75 / −1.25 × 10",
+       "correct": false,
+       "feedback": "Remember to rotate the axis by 90°."
+      },
+      {
+       "text": "−1.75 / −1.25 × 100",
+       "correct": false,
+       "feedback": "Add the cyl to the sphere with its sign: −0.50 + (+1.25)."
+      },
+      {
+       "text": "+1.75 / −1.25 × 100",
+       "correct": false,
+       "feedback": "−0.50 + 1.25 = +0.75, not +1.75."
+      }
+     ],
+     "explanation": "Three steps: new sphere = sphere + cyl, flip the cyl sign, axis ± 90.",
+     "link": "aad-verification-fitting#transposition-practice"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "On collection, a patient says their new specs feel like they 'pull' and the floor looks tilted. The focimeter shows the powers are correct.",
+     "question": "What would you check next?",
+     "modelAnswer": "Check centration and prism against the order (OC distance and heights), axis orientation (was the lens table touching both rims?), vertex distance and pantoscopic tilt compared with the old specs, and whether the base curve or lens form has changed. Also check frame alignment on the face (level, sides). Explain adaptation if everything's within tolerance, and re-check at a follow-up."
+    }
+   ],
+   "links": [
+    {
+     "label": "ABDO",
+     "url": "https://www.abdo.org.uk/"
+    },
+    {
+     "label": "Aston Library",
+     "url": "https://www.aston.ac.uk/library"
+    }
+   ],
+   "askClaude": "Give me 10 rapid-fire transposition questions, then 3 'my new glasses feel wrong' scenarios to troubleshoot."
+  }
+ ]
+}

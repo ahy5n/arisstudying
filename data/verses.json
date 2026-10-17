@@ -1,0 +1,69 @@
+{
+ "_note": "Build step must fetch exact Arabic (text_uthmani) and Sahih International (translation id 20) from https://api.quran.com/api/v4/verses/by_key/{ref}?translations=20&fields=text_uthmani and store them. Where the page shows only part of an ayah (marked ...), show the matching part and keep the full reference. English here is a fallback only.",
+ "verses": [
+  {
+   "ref": "94:5",
+   "englishFallback": "For indeed, with hardship [will be] ease [i.e., relief]."
+  },
+  {
+   "ref": "94:6",
+   "englishFallback": "Indeed, with hardship [will be] ease."
+  },
+  {
+   "ref": "2:286",
+   "englishFallback": "Allah does not charge a soul except [with that within] its capacity."
+  },
+  {
+   "ref": "20:114",
+   "englishFallback": "...and say, \"My Lord, increase me in knowledge.\""
+  },
+  {
+   "ref": "65:3",
+   "englishFallback": "And whoever relies upon Allah - then He is sufficient for him."
+  },
+  {
+   "ref": "2:153",
+   "englishFallback": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient."
+  },
+  {
+   "ref": "53:39",
+   "englishFallback": "And that there is not for man except that [good] for which he strives."
+  },
+  {
+   "ref": "13:28",
+   "englishFallback": "Unquestionably, by the remembrance of Allah hearts are assured."
+  },
+  {
+   "ref": "3:139",
+   "englishFallback": "So do not weaken and do not grieve, and you will be superior if you are [true] believers."
+  },
+  {
+   "ref": "58:11",
+   "englishFallback": "Allah will raise those who have believed among you and those who were given knowledge, by degrees."
+  },
+  {
+   "ref": "39:9",
+   "englishFallback": "Say, \"Are those who know equal to those who do not know?\""
+  },
+  {
+   "ref": "96:1",
+   "englishFallback": "Recite in the name of your Lord who created"
+  },
+  {
+   "ref": "12:87",
+   "englishFallback": "...and despair not of relief from Allah."
+  },
+  {
+   "ref": "11:88",
+   "englishFallback": "And my success is not but through Allah."
+  },
+  {
+   "ref": "40:60",
+   "englishFallback": "Call upon Me; I will respond to you."
+  },
+  {
+   "ref": "8:46",
+   "englishFallback": "And be patient. Indeed, Allah is with the patient."
+  }
+ ]
+}

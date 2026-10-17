@@ -1,0 +1,176 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-rounded: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-arabic: 'Amiri', 'Scheherazade New', 'Geeza Pro', serif;
+
+  --color-paper: #fbf7f4;
+  --color-card: #ffffff;
+  --color-ink: #2e2a33;
+  --color-muted: #675e6d;
+  --color-faint: #736a78;
+  --color-line: #ece4df;
+  --color-wash: #f5efeb;
+
+  --color-rose: #f6c9d0;
+  --color-rose-soft: #fcebee;
+  --color-rose-ink: #9a4560;
+  --color-sage: #d9f0e3;
+  --color-sage-soft: #eef8f2;
+  --color-sage-ink: #2c6a4d;
+  --color-lilac: #e5daf5;
+  --color-lilac-soft: #f4effb;
+  --color-lilac-ink: #5a4590;
+  --color-butter: #fbefd0;
+  --color-butter-soft: #fdf7e8;
+  --color-butter-ink: #77510f;
+  --color-sky: #cfe3f7;
+  --color-sky-soft: #eef5fc;
+  --color-sky-ink: #2d5a85;
+
+  --radius-card: 22px;
+  --shadow-soft: 0 1px 2px rgb(60 40 50 / 0.04), 0 6px 24px -8px rgb(90 60 75 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(60 40 50 / 0.05), 0 14px 36px -10px rgb(90 60 75 / 0.22);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-padding-top: 84px;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-rounded);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+  :focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-rose-ink) 55%, transparent);
+    outline-offset: 2px;
+    border-radius: 10px;
+  }
+  button { cursor: pointer; }
+  button:disabled { cursor: default; }
+  summary { cursor: pointer; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+}
+
+@layer components {
+  .card {
+    background: var(--color-card);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-soft);
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0 1.1rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: transform 0.12s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+    user-select: none;
+  }
+  .btn:active:not(:disabled) { transform: scale(0.97); }
+  .btn-primary { background: var(--color-rose-ink); color: #fff; }
+  .btn-primary:hover:not(:disabled) { background: #85394f; }
+  .btn-soft { background: var(--color-rose-soft); color: var(--color-rose-ink); }
+  .btn-soft:hover:not(:disabled) { background: #f9dfe4; }
+  .btn-ghost { background: transparent; color: var(--color-muted); }
+  .btn-ghost:hover:not(:disabled) { background: var(--color-wash); }
+  .btn-quiet { background: var(--color-wash); color: var(--color-ink); }
+  .btn-quiet:hover:not(:disabled) { background: #eee5df; }
+  .btn:disabled { opacity: 0.5; }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    font-size: 13px;
+    font-weight: 650;
+    color: #2e2a33;
+    white-space: nowrap;
+  }
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .field {
+    width: 100%;
+    min-height: 48px;
+    border-radius: 14px;
+    border: 1.5px solid var(--color-line);
+    background: #fff;
+    padding: 0.6rem 0.9rem;
+    font-size: 17px;
+    color: var(--color-ink);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .field:focus {
+    outline: none;
+    border-color: color-mix(in srgb, var(--color-rose-ink) 60%, white);
+    box-shadow: 0 0 0 4px var(--color-rose-soft);
+  }
+  .prose-soft p + p { margin-top: 0.75rem; }
+}
+
+@layer utilities {
+  .toast-in { animation: toast-in 0.25s ease-out; }
+  .fade-in { animation: fade-in 0.3s ease-out; }
+  .flip-card { perspective: 1200px; }
+  .flip-inner {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.3, 0.7, 0.3, 1);
+  }
+  .flip-inner.flipped { transform: rotateY(180deg); }
+  .flip-face {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-back { transform: rotateY(180deg); }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ── Print / "Save for GoodNotes" ───────────────────────────────────── */
+@media print {
+  @page { size: A4 portrait; margin: 16mm 16mm 18mm 16mm; }
+  html, body { background: #fff !important; font-size: 11pt; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .no-print { display: none !important; }
+  .print-sheet { box-shadow: none !important; padding: 0 !important; margin: 0 !important; max-width: none !important; }
+  .print-break { break-before: page; }
+  .avoid-break { break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}

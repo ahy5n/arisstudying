@@ -1,0 +1,29 @@
+{
+  "name": "arisstudying",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/fetch-verses.mjs && node scripts/check-content.mjs",
+    "build": "next build",
+    "start": "next start",
+    "verses": "node scripts/fetch-verses.mjs",
+    "check-content": "node scripts/check-content.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc lib/leitner.ts lib/tracker.ts lib/dates.ts lib/slug.ts --outDir .test-build --module commonjs --target es2022 --skipLibCheck && node tests/logic.test.cjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "5.9"
+  }
+}

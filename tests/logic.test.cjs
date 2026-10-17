@@ -1,0 +1,41 @@
+// Unit tests for the pure logic in lib/. Run: npm test
+const assert = require('node:assert/strict')
+const { schedule, isDue } = require('../.test-build/leitner.js')
+const { summarise } = require('../.test-build/tracker.js')
+const { addDays, mondayOf, weekdayIndex, todayISO, fmtRange } = require('../.test-build/dates.js')
+const { slugify } = require('../.test-build/slug.js')
+let n = 0; const t = (name, fn) => { fn(); n++; console.log('ok', name) }
+
+const D = '2026-10-19'
+t('correct, never wrong → nothing stored', () => assert.equal(schedule(undefined, 'q', 'mcq', true, D), null))
+t('wrong → box 1 due tomorrow', () => assert.deepEqual(schedule(undefined, 'q', 'mcq', false, D), { itemId: 'q', itemType: 'mcq', box: 1, dueDate: '2026-10-20', lastResult: 'wrong' }))
+let r = schedule(undefined, 'q', 'mcq', false, D)
+t('not due yet → schedule unchanged', () => assert.equal(schedule(r, 'q', 'mcq', true, D).box, 1))
+r = schedule(r, 'q', 'mcq', true, '2026-10-20'); t('box1→2, +3 days', () => assert.deepEqual([r.box, r.dueDate], [2, '2026-10-23']))
+r = schedule(r, 'q', 'mcq', true, '2026-10-23'); t('box2→3, +7', () => assert.deepEqual([r.box, r.dueDate], [3, '2026-10-30']))
+r = schedule(r, 'q', 'mcq', true, '2026-10-30'); t('box3→4, +14', () => assert.deepEqual([r.box, r.dueDate], [4, '2026-11-13']))
+const r4 = r
+r = schedule(r, 'q', 'mcq', true, '2026-11-13'); t('box4→retired', () => { assert.equal(r.box, 5); assert.equal(r.dueDate, null); assert.equal(isDue(r, '2027-01-01'), false) })
+t('wrong from box 4 → back to box 1', () => assert.equal(schedule(r4, 'q', 'mcq', false, '2026-11-01').box, 1))
+t('wrong after retired → box 1', () => assert.equal(schedule(r, 'q', 'mcq', false, '2027-01-01').box, 1))
+t('overdue items are due', () => assert.equal(isDue({ box: 2, dueDate: '2026-10-01' }, D), true))
+
+const A = (weight, mark, passFail = false) => ({ id: Math.random() + '', name: 'x', module: '', weight, mark, passFail, date: null })
+t('empty tracker', () => assert.equal(summarise([]).state, 'empty'))
+t('needed maths', () => { const s = summarise([A(50, 60), A(50, null)]); assert.equal(s.average, 60); assert.equal(s.needed, 80); assert.equal(s.state, 'stretch') })
+t('on track', () => { const s = summarise([A(50, 80), A(50, null)]); assert.equal(s.needed, 60); assert.equal(s.state, 'on-track') })
+t('secured', () => { const s = summarise([A(80, 95), A(20, null)]); assert.ok(s.needed <= 0); assert.equal(s.state, 'secured') })
+t('out of reach', () => assert.equal(summarise([A(90, 40), A(10, null)]).state, 'out-of-reach'))
+t('pass/fail excluded', () => { const s = summarise([A(50, 70), A(null, 100, true), A(50, null)]); assert.equal(s.average, 70); assert.equal(s.needed, 70) })
+t('unweighted marks counted separately', () => { const s = summarise([A(null, 65)]); assert.equal(s.unweightedMarked, 1); assert.equal(s.average, null) })
+t('one mark in, rest unweighted → not "done"', () => { const s = summarise([A(20, 74), A(null, null), A(null, null)]); assert.equal(s.state, 'empty'); assert.equal(s.unweightedPending, 2); assert.equal(s.average, 74) })
+t('pending unweighted noted alongside a target', () => { const s = summarise([A(20, 74), A(30, null), A(null, null)]); assert.equal(s.state, 'on-track'); assert.equal(s.unweightedPending, 1) })
+t('done', () => { const s = summarise([A(30, 72), A(70, 68)]); assert.equal(s.state, 'done'); assert.ok(Math.abs(s.average - 69.2) < 1e-9) })
+
+t('weekday + monday', () => { assert.equal(weekdayIndex('2026-10-19'), 0); assert.equal(mondayOf('2026-10-25'), '2026-10-19'); assert.equal(weekdayIndex('2026-10-17'), 5) })
+t('addDays across month', () => assert.equal(addDays('2026-10-30', 3), '2026-11-02'))
+t('UK date at 23:30 UTC in BST is next day', () => assert.equal(todayISO(new Date('2026-07-01T23:30:00Z')), '2026-07-02'))
+t('UK date in GMT', () => assert.equal(todayISO(new Date('2026-12-01T23:30:00Z')), '2026-12-01'))
+t('range format', () => { assert.equal(fmtRange('2026-10-19', '2026-10-23'), '19–23 Oct'); assert.equal(fmtRange('2026-11-30', '2026-12-04'), '30 Nov – 4 Dec') })
+t('slugs match content anchors', () => { assert.equal(slugify('Reading a frame'), 'reading-a-frame'); assert.equal(slugify('Effectivity and vertex distance'), 'effectivity-and-vertex-distance'); assert.equal(slugify('Distance PD with a rule (method)'), 'distance-pd-with-a-rule-method') })
+console.log(`\n${n} passed`)
