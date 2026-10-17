@@ -28,8 +28,8 @@ export function LoginScreen() {
       <div aria-hidden className="absolute -bottom-32 -right-16 size-96 rounded-full bg-lilac/70 blur-3xl" />
       <div aria-hidden className="absolute bottom-10 left-1/4 size-56 rounded-full bg-sage/70 blur-3xl" />
       <main className="card relative w-full max-w-sm p-8 sm:p-10">
-        <h1 className="text-center font-rounded text-[28px] font-semibold">arisstudying</h1>
-        <p className="mt-1 text-center text-muted">Your study space</p>
+        <h1 className="text-center font-rounded text-[28px] font-semibold">Hi Ari 🌷</h1>
+        <p className="mt-1 text-center text-muted">Sign in to your study space</p>
         <form onSubmit={submit} className="mt-8 space-y-4">
           <label className="block">
             <span className="mb-1.5 block text-[15px] font-medium">Username</span>
