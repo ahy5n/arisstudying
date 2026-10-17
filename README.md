@@ -10,6 +10,7 @@ All of v1, v2 and v3 from `BRIEF.md` are built.
 | **v1** | Username + password sign-in · home dashboard (greeting, encouragement, verse, next two weeks) · module library with progress rings · module pages (ticks, sessions, editable names) · full AaD topics (summary, key points, exam traps, SVG diagrams, go deeper, checklists, flashcards, multiple choice, clinical cases, label the diagram, notes, links) · mistakes deck (Leitner) · quick quiz and module quiz · Ask Claude · Flag this · Save for GoodNotes (A4 PDF) |
 | **v2** | 70% tracker (pre-filled from the timetable) · Settings (Claude project link, change password, sign out, your flags) · PWA (manifest + icons, Add to Home Screen) |
 | **v3** | Drop a new `data/content/*.json` file in and it just works. A content checker runs before every build. See [docs/ADDING-A-MODULE.md](docs/ADDING-A-MODULE.md). |
+| **Content** | All 12 modules are full: 69 topics and 408 practice items (MCQs, flashcards, cases), plus checklists and 32 hand-drawn diagrams (5 with label-the-diagram exercises). |
 
 ---
 
@@ -81,7 +82,7 @@ Safari → open the site → **Share → Add to Home Screen**. It opens full scr
 
 - **Content** is read from `data/` at build time (no CMS). `data/` files are used exactly as supplied.
 - **Storage**: `lib/store/` has one interface with two backends: Supabase (when the env vars are set) and browser storage (when they aren't). Saves are optimistic and queued per row, so quick taps always land in order.
-- **Diagrams** are hand-built inline SVGs in `components/diagrams/Diagrams.tsx`, keyed by `diagram.id`. Unknown ids (and the focimeter, which is too complex to draw well) show a “Diagram to sketch” card with the description and labels instead. That card doubles as a GoodNotes prompt.
+- **Diagrams** are hand-built inline SVGs in `components/diagrams/Diagrams.tsx` (AaD) and `MoreDiagrams.tsx` (other modules), keyed by `diagram.id`. Unknown ids (and the focimeter, which is too complex to draw well) show a “Diagram to sketch” card with the description and labels instead. That card doubles as a GoodNotes prompt.
 - **Mistakes deck**: wrong answer, “Again” or “Partly”/“Missed it” → box 1 (tomorrow). Right while due → next box (3 days, 7 days, 14 days) → retired. Wrong at any point → back to box 1. Right when not yet due doesn't skip boxes.
 - **Quick quiz**: 10 questions from all full modules; ones she's ever got wrong are 3× as likely, ones still in the deck 6×.
 - **70% tracker**: weighted average of marked, weighted, graded items; the “needed” figure is `(70 × total weight − points so far) ÷ remaining weight`. Pass/fail items are excluded. Until every upcoming item has a weighting it says “so far” rather than claiming a final result.
@@ -104,6 +105,8 @@ claude-project/      instructions + knowledge files for Ari's Claude project
 ```
 
 ## Notes and known limits
+
+- **Content for the 11 non-AaD modules was written from standard UK optometry knowledge** (College CMGs, NICE, DESP, TFOS DEWS II, GOC) to follow each module's outline. It has *not* been checked against Aston's lecture slides. Every topic shows the "check against your lecture slides" note, and the Flag button exists for exactly this. Numbers that vary by department (fog lens size, Van Herick referral grade, cycloplegic protocols, Abbe values, statistics on sight loss) are hedged in the text.
 
 - Schema addition: `profiles.tracker_seeded` (boolean), so the tracker pre-fills from the timetable only once, even across devices.
 - One content inconsistency to check: in `aad.json`, the centration key points say minus lenses are “base-to-apex”, but the diagram spec (and usual teaching) says **apex-to-apex**. The diagram follows apex-to-apex. Worth checking against Dr Hallam's slides and fixing the text if needed.

@@ -24,12 +24,15 @@ function readJson(rel) {
   }
 }
 
-// Built-in diagram drawings (ids are the keys of DIAGRAMS in components/diagrams/Diagrams.tsx).
-const diagramSrc = fs.readFileSync(path.join(ROOT, 'components/diagrams/Diagrams.tsx'), 'utf8')
-const block = diagramSrc.slice(diagramSrc.indexOf('export const DIAGRAMS'))
-const builtIn = new Set([...block.matchAll(/^\s*'?([\w-]+)'?\s*[:,]/gm)].map((m) => m[1]))
+// Built-in diagram drawings: keys of DIAGRAMS (Diagrams.tsx) and MORE_DIAGRAMS (MoreDiagrams.tsx).
+const diagramSrc = ['Diagrams.tsx', 'MoreDiagrams.tsx']
+  .map((f) => fs.readFileSync(path.join(ROOT, 'components/diagrams', f), 'utf8'))
+  .join('\n')
+const registries = [...diagramSrc.matchAll(/export const (?:MORE_)?DIAGRAMS[^=]*=\s*\{([\s\S]*?)\n\}/g)].map((m) => m[1])
+const registryEntries = registries.flatMap((b) => [...b.matchAll(/^\s*'?([\w-]+)'?\s*(?::\s*(\w+))?\s*,/gm)])
+const builtIn = new Set(registryEntries.map((m) => m[1]))
 const spotsFor = (id) => {
-  const name = [...block.matchAll(/^\s*'?([\w-]+)'?\s*:\s*(\w+)/gm)].find((m) => m[1] === id)?.[2] ?? id
+  const name = registryEntries.find((m) => m[1] === id)?.[2] ?? id
   const def = diagramSrc.slice(diagramSrc.indexOf(`const ${name}: DiagramDef`))
   const spots = def.slice(def.indexOf('spots:'), def.indexOf('render:'))
   return new Set([...spots.matchAll(/^\s*'?([^':]+?)'?\s*:\s*\{\s*x:/gm)].map((m) => m[1]))

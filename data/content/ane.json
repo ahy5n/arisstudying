@@ -23,7 +23,15 @@
       "diagram": {
         "id": "optic-section",
         "description": "Top view of the slit lamp: illumination arm at about 45–60° to the microscope, narrow beam entering the cornea. Inset shows the resulting optic section: a curved bright band through the cornea with tear film, epithelium, stroma and endothelium layers, then the dark anterior chamber and the iris.",
-        "labels": ["Illumination arm", "Microscope", "Optic section", "Tear film / epithelium", "Stroma", "Endothelium", "Anterior chamber"]
+        "labels": [
+          "Illumination arm",
+          "Microscope",
+          "Optic section",
+          "Tear film / epithelium",
+          "Stroma",
+          "Endothelium",
+          "Anterior chamber"
+        ]
       },
       "goDeeper": [
         {
@@ -55,20 +63,48 @@
         ]
       },
       "flashcards": [
-        { "front": "Technique for depth of a corneal scar", "back": "Optic section (very narrow direct focal beam)." },
-        { "front": "Technique for AC cells", "back": "Conical beam, dark room, high magnification." },
-        { "front": "Technique for endothelium", "back": "Specular reflection." },
-        { "front": "Technique for central corneal oedema", "back": "Sclerotic scatter." }
+        {
+          "front": "Technique for depth of a corneal scar",
+          "back": "Optic section (very narrow direct focal beam)."
+        },
+        {
+          "front": "Technique for AC cells",
+          "back": "Conical beam, dark room, high magnification."
+        },
+        {
+          "front": "Technique for endothelium",
+          "back": "Specular reflection."
+        },
+        {
+          "front": "Technique for central corneal oedema",
+          "back": "Sclerotic scatter."
+        }
       ],
       "mcq": [
         {
           "id": "ane-sl-1",
           "q": "Which technique best shows epithelial microcysts?",
           "options": [
-            { "text": "Retro-illumination", "correct": true, "feedback": "Yes — they show up as small dots against the lit background." },
-            { "text": "Diffuse illumination", "correct": false, "feedback": "Too broad and low-mag to see them." },
-            { "text": "Conical beam", "correct": false, "feedback": "That's for AC cells." },
-            { "text": "Sclerotic scatter", "correct": false, "feedback": "Useful for generalised haze, not tiny microcysts." }
+            {
+              "text": "Retro-illumination",
+              "correct": true,
+              "feedback": "Yes — they show up as small dots against the lit background."
+            },
+            {
+              "text": "Diffuse illumination",
+              "correct": false,
+              "feedback": "Too broad and low-mag to see them."
+            },
+            {
+              "text": "Conical beam",
+              "correct": false,
+              "feedback": "That's for AC cells."
+            },
+            {
+              "text": "Sclerotic scatter",
+              "correct": false,
+              "feedback": "Useful for generalised haze, not tiny microcysts."
+            }
           ],
           "explanation": "Microcysts are translucent; light reflected back from behind (retro-illumination) makes them stand out.",
           "link": "ane-slit-lamp-illumination#choosing-a-technique"
@@ -77,10 +113,26 @@
           "id": "ane-sl-2",
           "q": "For specular reflection, how is the slit lamp set up?",
           "options": [
-            { "text": "Angle of illumination equals angle of observation", "correct": true, "feedback": "Right — like a mirror." },
-            { "text": "Illumination at 90° to the microscope", "correct": false, "feedback": "That's not a specular angle." },
-            { "text": "Beam on the limbus", "correct": false, "feedback": "That's sclerotic scatter." },
-            { "text": "Diffuser in place, low magnification", "correct": false, "feedback": "Specular needs high magnification." }
+            {
+              "text": "Angle of illumination equals angle of observation",
+              "correct": true,
+              "feedback": "Right — like a mirror."
+            },
+            {
+              "text": "Illumination at 90° to the microscope",
+              "correct": false,
+              "feedback": "That's not a specular angle."
+            },
+            {
+              "text": "Beam on the limbus",
+              "correct": false,
+              "feedback": "That's sclerotic scatter."
+            },
+            {
+              "text": "Diffuser in place, low magnification",
+              "correct": false,
+              "feedback": "Specular needs high magnification."
+            }
           ],
           "explanation": "Specular reflection uses the mirror-like reflection from a smooth surface: angle of incidence = angle of reflection.",
           "link": "ane-slit-lamp-illumination#specular-reflection"
@@ -88,8 +140,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Describe a finding and ask me which slit lamp illumination technique I'd use to see it best, then explain why for 6 different findings."
     },
@@ -114,7 +172,15 @@
       "diagram": {
         "id": "anterior-eye-layers",
         "description": "Cross-section of the anterior eye labelled from front to back: eyelids with meibomian glands, conjunctiva, limbus, cornea (epithelium, Bowman's layer, stroma, Descemet's membrane, endothelium), anterior chamber, iris, lens.",
-        "labels": ["Eyelid and meibomian glands", "Conjunctiva", "Limbus", "Cornea", "Anterior chamber", "Iris", "Lens"]
+        "labels": [
+          "Eyelid and meibomian glands",
+          "Conjunctiva",
+          "Limbus",
+          "Cornea",
+          "Anterior chamber",
+          "Iris",
+          "Lens"
+        ]
       },
       "goDeeper": [
         {
@@ -149,20 +215,48 @@
         ]
       },
       "flashcards": [
-        { "front": "General order of the anterior eye exam", "back": "Outside in, front to back: lids → conjunctiva → cornea → tear film → AC → iris → lens." },
-        { "front": "When to use fluorescein in the routine", "back": "After the white-light examination." },
-        { "front": "Demodex sign at the lashes", "back": "Cylindrical dandruff (sleeves) around the lash base." },
-        { "front": "Technique to place a corneal finding by depth", "back": "Optic section." }
+        {
+          "front": "General order of the anterior eye exam",
+          "back": "Outside in, front to back: lids → conjunctiva → cornea → tear film → AC → iris → lens."
+        },
+        {
+          "front": "When to use fluorescein in the routine",
+          "back": "After the white-light examination."
+        },
+        {
+          "front": "Demodex sign at the lashes",
+          "back": "Cylindrical dandruff (sleeves) around the lash base."
+        },
+        {
+          "front": "Technique to place a corneal finding by depth",
+          "back": "Optic section."
+        }
       ],
       "mcq": [
         {
           "id": "ane-sys-1",
           "q": "Why do you check the tear film before instilling fluorescein for staining?",
           "options": [
-            { "text": "Fluorescein changes the tear film and what you see", "correct": true, "feedback": "Yes — so do the non-invasive checks first." },
-            { "text": "Fluorescein stains the iris", "correct": false, "feedback": "It doesn't stain the iris." },
-            { "text": "It's only a convention", "correct": false, "feedback": "There's a real reason: the dye alters tear film stability." },
-            { "text": "Fluorescein is only for contact lens wearers", "correct": false, "feedback": "It's used for everyone who needs staining assessed." }
+            {
+              "text": "Fluorescein changes the tear film and what you see",
+              "correct": true,
+              "feedback": "Yes — so do the non-invasive checks first."
+            },
+            {
+              "text": "Fluorescein stains the iris",
+              "correct": false,
+              "feedback": "It doesn't stain the iris."
+            },
+            {
+              "text": "It's only a convention",
+              "correct": false,
+              "feedback": "There's a real reason: the dye alters tear film stability."
+            },
+            {
+              "text": "Fluorescein is only for contact lens wearers",
+              "correct": false,
+              "feedback": "It's used for everyone who needs staining assessed."
+            }
           ],
           "explanation": "Instilling any drop disturbs the tear film, so non-invasive tear film assessment comes first.",
           "link": "ane-systematic-exam#recording"
@@ -170,8 +264,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Test me on the anterior eye routine: ask me what I'd look at next and with which illumination, and catch me if I skip a structure."
     },
@@ -196,7 +296,12 @@
       "diagram": {
         "id": "van-herick",
         "description": "Slit lamp view of the temporal limbus with a narrow beam. The bright curved band is the corneal section; next to it a dark gap (peripheral AC), then the beam lands on the iris. Four mini panels show grades 4, 3, 2 and 1 with the dark gap getting smaller relative to the corneal band.",
-        "labels": ["Corneal section (thickness)", "Dark gap (peripheral AC depth)", "Iris", "Grade 4 → 1"]
+        "labels": [
+          "Corneal section (thickness)",
+          "Dark gap (peripheral AC depth)",
+          "Iris",
+          "Grade 4 → 1"
+        ]
       },
       "goDeeper": [
         {
@@ -213,20 +318,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Van Herick illumination angle", "back": "60° between illumination and microscope." },
-        { "front": "Van Herick grade 4", "back": "Peripheral AC depth ≥ corneal thickness." },
-        { "front": "Van Herick grade 1", "back": "Less than ¼ corneal thickness (narrow)." },
-        { "front": "Gold standard for angle assessment", "back": "Gonioscopy." }
+        {
+          "front": "Van Herick illumination angle",
+          "back": "60° between illumination and microscope."
+        },
+        {
+          "front": "Van Herick grade 4",
+          "back": "Peripheral AC depth ≥ corneal thickness."
+        },
+        {
+          "front": "Van Herick grade 1",
+          "back": "Less than ¼ corneal thickness (narrow)."
+        },
+        {
+          "front": "Gold standard for angle assessment",
+          "back": "Gonioscopy."
+        }
       ],
       "mcq": [
         {
           "id": "ane-vh-1",
           "q": "The peripheral AC gap looks about a quarter of the corneal thickness. What's the Van Herick grade?",
           "options": [
-            { "text": "Grade 2", "correct": true, "feedback": "Yes — ¼ corneal thickness is grade 2." },
-            { "text": "Grade 3", "correct": false, "feedback": "Grade 3 is ¼ to ½." },
-            { "text": "Grade 1", "correct": false, "feedback": "Grade 1 is less than ¼." },
-            { "text": "Grade 4", "correct": false, "feedback": "Grade 4 is equal to or more than the corneal thickness." }
+            {
+              "text": "Grade 2",
+              "correct": true,
+              "feedback": "Yes — ¼ corneal thickness is grade 2."
+            },
+            {
+              "text": "Grade 3",
+              "correct": false,
+              "feedback": "Grade 3 is ¼ to ½."
+            },
+            {
+              "text": "Grade 1",
+              "correct": false,
+              "feedback": "Grade 1 is less than ¼."
+            },
+            {
+              "text": "Grade 4",
+              "correct": false,
+              "feedback": "Grade 4 is equal to or more than the corneal thickness."
+            }
           ],
           "explanation": "Grade 4 ≥ 1 CT, grade 3 ¼–½ CT, grade 2 = ¼ CT, grade 1 < ¼ CT.",
           "link": "ane-van-herick#technique"
@@ -235,10 +368,26 @@
           "id": "ane-vh-2",
           "q": "Which patient is most at risk of a narrow angle?",
           "options": [
-            { "text": "A 68-year-old hyperopic woman", "correct": true, "feedback": "Right — hyperopia, age and female sex are risk factors." },
-            { "text": "A 25-year-old myopic man", "correct": false, "feedback": "Myopes tend to have deeper chambers." },
-            { "text": "A 40-year-old emmetrope with a deep AC", "correct": false, "feedback": "Deep AC means low risk." },
-            { "text": "A child with no family history", "correct": false, "feedback": "Children rarely have narrow angles." }
+            {
+              "text": "A 68-year-old hyperopic woman",
+              "correct": true,
+              "feedback": "Right — hyperopia, age and female sex are risk factors."
+            },
+            {
+              "text": "A 25-year-old myopic man",
+              "correct": false,
+              "feedback": "Myopes tend to have deeper chambers."
+            },
+            {
+              "text": "A 40-year-old emmetrope with a deep AC",
+              "correct": false,
+              "feedback": "Deep AC means low risk."
+            },
+            {
+              "text": "A child with no family history",
+              "correct": false,
+              "feedback": "Children rarely have narrow angles."
+            }
           ],
           "explanation": "Short eyes and a thickening lens with age crowd the angle.",
           "link": "ane-van-herick#who-is-at-risk-of-angle-closure"
@@ -246,8 +395,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists (Clinical Management Guidelines)", "url": "https://www.college-optometrists.org/" },
-        { "label": "NICE: glaucoma guideline (NG81)", "url": "https://www.nice.org.uk/guidance/ng81" }
+        {
+          "label": "College of Optometrists (Clinical Management Guidelines)",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "NICE: glaucoma guideline (NG81)",
+          "url": "https://www.nice.org.uk/guidance/ng81"
+        }
       ],
       "askClaude": "Explain Van Herick grading with a diagram I can sketch, then ask me about risk factors for angle closure and when dilation needs extra care."
     },
@@ -272,7 +427,13 @@
       "diagram": {
         "id": "corneal-zones",
         "description": "Cornea divided into five zones: central circle and four peripheral segments (superior, inferior, nasal, temporal). Example staining dots drawn in the inferior zone, labelled 'inferior punctate staining, grade 1'.",
-        "labels": ["Central", "Superior", "Inferior", "Nasal", "Temporal"]
+        "labels": [
+          "Central",
+          "Superior",
+          "Inferior",
+          "Nasal",
+          "Temporal"
+        ]
       },
       "goDeeper": [
         {
@@ -289,20 +450,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Fluorescein shows…", "back": "Disrupted or missing epithelium (cell junction damage) and pooling in defects." },
-        { "front": "Lissamine green shows…", "back": "Damaged/devitalised cells and mucus, especially on the conjunctiva." },
-        { "front": "Barrier filter for fluorescein", "back": "Yellow (Wratten 12) with cobalt blue light." },
-        { "front": "3 and 9 o'clock staining is linked to…", "back": "RGP lens wear (peripheral drying)." }
+        {
+          "front": "Fluorescein shows…",
+          "back": "Disrupted or missing epithelium (cell junction damage) and pooling in defects."
+        },
+        {
+          "front": "Lissamine green shows…",
+          "back": "Damaged/devitalised cells and mucus, especially on the conjunctiva."
+        },
+        {
+          "front": "Barrier filter for fluorescein",
+          "back": "Yellow (Wratten 12) with cobalt blue light."
+        },
+        {
+          "front": "3 and 9 o'clock staining is linked to…",
+          "back": "RGP lens wear (peripheral drying)."
+        }
       ],
       "mcq": [
         {
           "id": "ane-stain-1",
           "q": "You see fine vertical linear staining on the upper cornea. Next step?",
           "options": [
-            { "text": "Evert the upper lid to look for a foreign body", "correct": true, "feedback": "Yes — the pattern points to a subtarsal FB." },
-            { "text": "Diagnose dry eye", "correct": false, "feedback": "Dry eye staining is usually inferior or interpalpebral." },
-            { "text": "Instil lissamine green and discharge", "correct": false, "feedback": "Find the cause first." },
-            { "text": "Refer for herpes simplex", "correct": false, "feedback": "HSV gives a dendrite, not vertical lines." }
+            {
+              "text": "Evert the upper lid to look for a foreign body",
+              "correct": true,
+              "feedback": "Yes — the pattern points to a subtarsal FB."
+            },
+            {
+              "text": "Diagnose dry eye",
+              "correct": false,
+              "feedback": "Dry eye staining is usually inferior or interpalpebral."
+            },
+            {
+              "text": "Instil lissamine green and discharge",
+              "correct": false,
+              "feedback": "Find the cause first."
+            },
+            {
+              "text": "Refer for herpes simplex",
+              "correct": false,
+              "feedback": "HSV gives a dendrite, not vertical lines."
+            }
           ],
           "explanation": "A foreign body under the upper lid scratches the cornea with every blink, creating vertical lines.",
           "link": "ane-staining#recognising-staining-patterns"
@@ -311,10 +500,26 @@
           "id": "ane-stain-2",
           "q": "Which light do you use to view lissamine green?",
           "options": [
-            { "text": "White light (ideally with a red filter)", "correct": true, "feedback": "Right." },
-            { "text": "Cobalt blue with a yellow filter", "correct": false, "feedback": "That's for fluorescein." },
-            { "text": "Red-free (green) light", "correct": false, "feedback": "That reduces the contrast of green dye." },
-            { "text": "Ultraviolet", "correct": false, "feedback": "Not used for lissamine green." }
+            {
+              "text": "White light (ideally with a red filter)",
+              "correct": true,
+              "feedback": "Right."
+            },
+            {
+              "text": "Cobalt blue with a yellow filter",
+              "correct": false,
+              "feedback": "That's for fluorescein."
+            },
+            {
+              "text": "Red-free (green) light",
+              "correct": false,
+              "feedback": "That reduces the contrast of green dye."
+            },
+            {
+              "text": "Ultraviolet",
+              "correct": false,
+              "feedback": "Not used for lissamine green."
+            }
           ],
           "explanation": "Lissamine green absorbs red light, so white light (with a red filter to boost contrast) shows it best.",
           "link": "ane-staining#practical-tips"
@@ -322,8 +527,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "TFOS DEWS II report", "url": "https://www.tfosdewsreport.org/" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "TFOS DEWS II report",
+          "url": "https://www.tfosdewsreport.org/"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Describe corneal staining patterns (location and shape) and ask me the likely cause and what I'd do next for each."
     },
@@ -348,7 +559,12 @@
       "diagram": {
         "id": "tear-film-layers",
         "description": "Cross-section of the tear film on the corneal epithelium: outer lipid layer (from meibomian glands), middle aqueous layer (lacrimal gland), inner mucin/glycocalyx layer (goblet cells, epithelium).",
-        "labels": ["Lipid layer (meibomian glands)", "Aqueous layer (lacrimal gland)", "Mucin layer (goblet cells)", "Corneal epithelium"]
+        "labels": [
+          "Lipid layer (meibomian glands)",
+          "Aqueous layer (lacrimal gland)",
+          "Mucin layer (goblet cells)",
+          "Corneal epithelium"
+        ]
       },
       "goDeeper": [
         {
@@ -364,21 +580,58 @@
           "body": "Use a small amount of fluorescein, ask the patient to blink a few times, then stop blinking. Start timing from the last blink and stop at the first dry spot under cobalt blue with the barrier filter. Repeat three times and take the average."
         }
       ],
+      "labelDiagram": {
+        "diagramId": "tear-film-layers",
+        "targets": [
+          "Lipid layer (meibomian glands)",
+          "Aqueous layer (lacrimal gland)",
+          "Mucin layer (goblet cells)",
+          "Corneal epithelium"
+        ]
+      },
       "flashcards": [
-        { "front": "Abnormal NIBUT (DEWS II)", "back": "Under 10 seconds." },
-        { "front": "Abnormal Schirmer I (no anaesthetic)", "back": "≤5 mm in 5 minutes." },
-        { "front": "Three tear film layers", "back": "Lipid (outer), aqueous (middle), mucin (inner)." },
-        { "front": "OSDI cut-off for dry eye symptoms", "back": "13 or more." }
+        {
+          "front": "Abnormal NIBUT (DEWS II)",
+          "back": "Under 10 seconds."
+        },
+        {
+          "front": "Abnormal Schirmer I (no anaesthetic)",
+          "back": "≤5 mm in 5 minutes."
+        },
+        {
+          "front": "Three tear film layers",
+          "back": "Lipid (outer), aqueous (middle), mucin (inner)."
+        },
+        {
+          "front": "OSDI cut-off for dry eye symptoms",
+          "back": "13 or more."
+        }
       ],
       "mcq": [
         {
           "id": "ane-tf-1",
           "q": "A patient has OSDI 22, NIBUT 6 s and a normal tear meniscus. Meibomian glands are capped. Most likely subtype?",
           "options": [
-            { "text": "Evaporative dry eye (MGD)", "correct": true, "feedback": "Yes — fast break-up with normal volume and MGD signs." },
-            { "text": "Aqueous deficient dry eye", "correct": false, "feedback": "The meniscus is normal, so volume isn't the main problem." },
-            { "text": "No dry eye", "correct": false, "feedback": "Symptoms plus NIBUT <10 s meets DEWS II criteria." },
-            { "text": "Allergic conjunctivitis", "correct": false, "feedback": "Nothing here suggests allergy." }
+            {
+              "text": "Evaporative dry eye (MGD)",
+              "correct": true,
+              "feedback": "Yes — fast break-up with normal volume and MGD signs."
+            },
+            {
+              "text": "Aqueous deficient dry eye",
+              "correct": false,
+              "feedback": "The meniscus is normal, so volume isn't the main problem."
+            },
+            {
+              "text": "No dry eye",
+              "correct": false,
+              "feedback": "Symptoms plus NIBUT <10 s meets DEWS II criteria."
+            },
+            {
+              "text": "Allergic conjunctivitis",
+              "correct": false,
+              "feedback": "Nothing here suggests allergy."
+            }
           ],
           "explanation": "Symptoms + reduced NIBUT = dry eye. Normal volume and capped glands point to an evaporative (MGD) cause.",
           "link": "ane-tear-film#evaporative-vs-aqueous-deficient"
@@ -387,10 +640,26 @@
           "id": "ane-tf-2",
           "q": "Why measure NIBUT before fluorescein TBUT?",
           "options": [
-            { "text": "Instilling fluorescein disturbs the tear film", "correct": true, "feedback": "Right — non-invasive first." },
-            { "text": "NIBUT is always longer", "correct": false, "feedback": "Order isn't about which is longer." },
-            { "text": "Fluorescein must wait 30 minutes", "correct": false, "feedback": "No such rule." },
-            { "text": "NIBUT needs anaesthetic", "correct": false, "feedback": "It doesn't." }
+            {
+              "text": "Instilling fluorescein disturbs the tear film",
+              "correct": true,
+              "feedback": "Right — non-invasive first."
+            },
+            {
+              "text": "NIBUT is always longer",
+              "correct": false,
+              "feedback": "Order isn't about which is longer."
+            },
+            {
+              "text": "Fluorescein must wait 30 minutes",
+              "correct": false,
+              "feedback": "No such rule."
+            },
+            {
+              "text": "NIBUT needs anaesthetic",
+              "correct": false,
+              "feedback": "It doesn't."
+            }
           ],
           "explanation": "Any drop alters tear stability and volume, so non-invasive measures come first.",
           "link": "ane-tear-film#doing-a-good-tbut"
@@ -404,8 +673,14 @@
         }
       ],
       "links": [
-        { "label": "TFOS DEWS II report", "url": "https://www.tfosdewsreport.org/" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "TFOS DEWS II report",
+          "url": "https://www.tfosdewsreport.org/"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Give me 3 dry eye patients with test results and ask me whether each meets TFOS DEWS II criteria and which subtype it is."
     },
@@ -430,7 +705,11 @@
       "diagram": {
         "id": "lid-eversion",
         "description": "Three-step side view: (1) patient looks down, lashes held, bud placed at the upper border of the tarsal plate; (2) lid folded up over the bud; (3) everted lid held against the brow, showing the tarsal conjunctiva.",
-        "labels": ["Patient looks down", "Cotton bud at upper tarsal border", "Everted tarsal conjunctiva"]
+        "labels": [
+          "Patient looks down",
+          "Cotton bud at upper tarsal border",
+          "Everted tarsal conjunctiva"
+        ]
       },
       "goDeeper": [
         {
@@ -458,20 +737,48 @@
         ]
       },
       "flashcards": [
-        { "front": "Where to place the bud", "back": "Upper border of the tarsal plate, about 10 mm above the lid margin." },
-        { "front": "Where should the patient look?", "back": "Down, throughout." },
-        { "front": "Papillae vs follicles", "back": "Papillae have a central vessel (allergy/CL); follicles are pale and avascular (viral/chlamydial)." },
-        { "front": "Corneal sign of a subtarsal FB", "back": "Vertical linear staining." }
+        {
+          "front": "Where to place the bud",
+          "back": "Upper border of the tarsal plate, about 10 mm above the lid margin."
+        },
+        {
+          "front": "Where should the patient look?",
+          "back": "Down, throughout."
+        },
+        {
+          "front": "Papillae vs follicles",
+          "back": "Papillae have a central vessel (allergy/CL); follicles are pale and avascular (viral/chlamydial)."
+        },
+        {
+          "front": "Corneal sign of a subtarsal FB",
+          "back": "Vertical linear staining."
+        }
       ],
       "mcq": [
         {
           "id": "ane-lid-1",
           "q": "A contact lens wearer has itch, mucus and lens decentration. What does lid eversion most likely show?",
           "options": [
-            { "text": "Papillae on the upper tarsal conjunctiva", "correct": true, "feedback": "Yes — contact lens papillary conjunctivitis." },
-            { "text": "Follicles in the lower fornix", "correct": false, "feedback": "Follicles suggest viral or chlamydial causes." },
-            { "text": "A dendritic ulcer", "correct": false, "feedback": "That's on the cornea, and with HSV." },
-            { "text": "Nothing — eversion isn't useful here", "correct": false, "feedback": "Eversion is exactly how you find papillary conjunctivitis." }
+            {
+              "text": "Papillae on the upper tarsal conjunctiva",
+              "correct": true,
+              "feedback": "Yes — contact lens papillary conjunctivitis."
+            },
+            {
+              "text": "Follicles in the lower fornix",
+              "correct": false,
+              "feedback": "Follicles suggest viral or chlamydial causes."
+            },
+            {
+              "text": "A dendritic ulcer",
+              "correct": false,
+              "feedback": "That's on the cornea, and with HSV."
+            },
+            {
+              "text": "Nothing — eversion isn't useful here",
+              "correct": false,
+              "feedback": "Eversion is exactly how you find papillary conjunctivitis."
+            }
           ],
           "explanation": "CL papillary conjunctivitis causes papillae on the upper tarsal plate, with itch, mucus and lens movement.",
           "link": "ane-lid-eversion#papillae-vs-follicles"
@@ -479,8 +786,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Talk me through lid eversion like an examiner watching me, then quiz me on papillae vs follicles."
     },
@@ -505,7 +818,13 @@
       "diagram": {
         "id": "lid-margin",
         "description": "Close-up of the lower lid margin: lashes at the front with crusts and collarettes (anterior blepharitis); meibomian gland orifices behind the grey line, some capped, one expressing thick secretion (MGD); telangiectatic vessels along the margin.",
-        "labels": ["Lashes with collarettes", "Grey line", "Capped meibomian gland orifices", "Thick secretion", "Telangiectasia"]
+        "labels": [
+          "Lashes with collarettes",
+          "Grey line",
+          "Capped meibomian gland orifices",
+          "Thick secretion",
+          "Telangiectasia"
+        ]
       },
       "goDeeper": [
         {
@@ -522,20 +841,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Key symptom of allergic conjunctivitis", "back": "Itch." },
-        { "front": "Viral conjunctivitis signs", "back": "Watery discharge, follicles, preauricular node, very contagious." },
-        { "front": "MGD signs", "back": "Capped orifices, thick toothpaste secretions, lid margin telangiectasia." },
-        { "front": "Demodex sign", "back": "Cylindrical dandruff around the lash base." }
+        {
+          "front": "Key symptom of allergic conjunctivitis",
+          "back": "Itch."
+        },
+        {
+          "front": "Viral conjunctivitis signs",
+          "back": "Watery discharge, follicles, preauricular node, very contagious."
+        },
+        {
+          "front": "MGD signs",
+          "back": "Capped orifices, thick toothpaste secretions, lid margin telangiectasia."
+        },
+        {
+          "front": "Demodex sign",
+          "back": "Cylindrical dandruff around the lash base."
+        }
       ],
       "mcq": [
         {
           "id": "ane-cc-1",
           "q": "A patient has a red eye with watery discharge, follicles and a tender preauricular node. Her partner had the same last week. Most likely?",
           "options": [
-            { "text": "Adenoviral conjunctivitis", "correct": true, "feedback": "Yes — the classic picture, and it spreads easily." },
-            { "text": "Bacterial conjunctivitis", "correct": false, "feedback": "Bacterial usually has mucopurulent discharge and papillae." },
-            { "text": "Allergic conjunctivitis", "correct": false, "feedback": "Allergy is itchy with papillae and isn't contagious." },
-            { "text": "Episcleritis", "correct": false, "feedback": "No discharge or follicles in episcleritis." }
+            {
+              "text": "Adenoviral conjunctivitis",
+              "correct": true,
+              "feedback": "Yes — the classic picture, and it spreads easily."
+            },
+            {
+              "text": "Bacterial conjunctivitis",
+              "correct": false,
+              "feedback": "Bacterial usually has mucopurulent discharge and papillae."
+            },
+            {
+              "text": "Allergic conjunctivitis",
+              "correct": false,
+              "feedback": "Allergy is itchy with papillae and isn't contagious."
+            },
+            {
+              "text": "Episcleritis",
+              "correct": false,
+              "feedback": "No discharge or follicles in episcleritis."
+            }
           ],
           "explanation": "Watery discharge + follicles + preauricular lymphadenopathy + contact history = adenovirus.",
           "link": "ane-common-conditions#red-eye-differential-in-one-minute"
@@ -544,10 +891,26 @@
           "id": "ane-cc-2",
           "q": "Which red eye feature should make you refer urgently rather than manage in practice?",
           "options": [
-            { "text": "Photophobia with AC cells", "correct": true, "feedback": "Right — that suggests anterior uveitis." },
-            { "text": "Itchy eyes in hay fever season", "correct": false, "feedback": "Typical allergic conjunctivitis — manageable." },
-            { "text": "Crusting at the lash base", "correct": false, "feedback": "Anterior blepharitis — manageable." },
-            { "text": "A painless flat red patch", "correct": false, "feedback": "Likely subconjunctival haemorrhage (check BP if recurrent)." }
+            {
+              "text": "Photophobia with AC cells",
+              "correct": true,
+              "feedback": "Right — that suggests anterior uveitis."
+            },
+            {
+              "text": "Itchy eyes in hay fever season",
+              "correct": false,
+              "feedback": "Typical allergic conjunctivitis — manageable."
+            },
+            {
+              "text": "Crusting at the lash base",
+              "correct": false,
+              "feedback": "Anterior blepharitis — manageable."
+            },
+            {
+              "text": "A painless flat red patch",
+              "correct": false,
+              "feedback": "Likely subconjunctival haemorrhage (check BP if recurrent)."
+            }
           ],
           "explanation": "Pain, photophobia, reduced vision and AC activity are red flags.",
           "link": "ane-common-conditions#red-eye-differential-in-one-minute"
@@ -561,8 +924,14 @@
         }
       ],
       "links": [
-        { "label": "College of Optometrists (Clinical Management Guidelines)", "url": "https://www.college-optometrists.org/" },
-        { "label": "TFOS DEWS II report", "url": "https://www.tfosdewsreport.org/" }
+        {
+          "label": "College of Optometrists (Clinical Management Guidelines)",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "TFOS DEWS II report",
+          "url": "https://www.tfosdewsreport.org/"
+        }
       ],
       "askClaude": "Give me 5 red eye patients (history and signs) and ask me for the most likely diagnosis, what I'd advise and whether to refer."
     }

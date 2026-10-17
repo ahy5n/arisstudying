@@ -23,7 +23,13 @@
       "diagram": {
         "id": "history-structure",
         "description": "A funnel: wide at the top with open questions (reason for visit), narrowing through symptom details, ocular history, general health and medication, family history, and lifestyle, ending in a short list of hypotheses at the bottom.",
-        "labels": ["Open questions", "Symptom details", "Ocular and general health", "Medication and family history", "Hypotheses"]
+        "labels": [
+          "Open questions",
+          "Symptom details",
+          "Ocular and general health",
+          "Medication and family history",
+          "Hypotheses"
+        ]
       },
       "goDeeper": [
         {
@@ -56,20 +62,48 @@
         ]
       },
       "flashcards": [
-        { "front": "SOCRATES", "back": "Site, onset, character, radiation, associations, time course, exacerbating/relieving, severity." },
-        { "front": "Medication linked to maculopathy", "back": "Hydroxychloroquine." },
-        { "front": "Medication linked to cataract and raised IOP", "back": "Corticosteroids." },
-        { "front": "GCA red flags", "back": "Over 50, headache, scalp tenderness, jaw claudication, sudden vision loss." }
+        {
+          "front": "SOCRATES",
+          "back": "Site, onset, character, radiation, associations, time course, exacerbating/relieving, severity."
+        },
+        {
+          "front": "Medication linked to maculopathy",
+          "back": "Hydroxychloroquine."
+        },
+        {
+          "front": "Medication linked to cataract and raised IOP",
+          "back": "Corticosteroids."
+        },
+        {
+          "front": "GCA red flags",
+          "back": "Over 50, headache, scalp tenderness, jaw claudication, sudden vision loss."
+        }
       ],
       "mcq": [
         {
           "id": "syd-hx-1",
           "q": "A 72-year-old mentions new headaches, pain when chewing and a brief episode of vision loss in one eye. What's the priority?",
           "options": [
-            { "text": "Suspect giant cell arteritis — same-day referral", "correct": true, "feedback": "Yes — GCA can cause permanent sight loss quickly." },
-            { "text": "Routine refraction and review in a year", "correct": false, "feedback": "This history has red flags." },
-            { "text": "Advise painkillers and rest", "correct": false, "feedback": "This could delay urgent treatment." },
-            { "text": "Refer routinely to the GP", "correct": false, "feedback": "It needs same-day assessment." }
+            {
+              "text": "Suspect giant cell arteritis — same-day referral",
+              "correct": true,
+              "feedback": "Yes — GCA can cause permanent sight loss quickly."
+            },
+            {
+              "text": "Routine refraction and review in a year",
+              "correct": false,
+              "feedback": "This history has red flags."
+            },
+            {
+              "text": "Advise painkillers and rest",
+              "correct": false,
+              "feedback": "This could delay urgent treatment."
+            },
+            {
+              "text": "Refer routinely to the GP",
+              "correct": false,
+              "feedback": "It needs same-day assessment."
+            }
           ],
           "explanation": "Headache, jaw claudication and transient vision loss in an older person suggest GCA, a sight-threatening emergency needing urgent blood tests and steroids.",
           "link": "syd-case-history#red-flags-in-the-history"
@@ -77,8 +111,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists (Clinical Management Guidelines)", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists (Clinical Management Guidelines)",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Be a patient with a hidden diagnosis. Let me take a full case history by asking you questions, then tell me what I forgot to ask."
     },
@@ -103,7 +143,14 @@
       "diagram": {
         "id": "red-eye-differential",
         "description": "Table-style diagram comparing red eye causes across columns: pain, photophobia, vision, discharge, pupil, cornea, IOP. Rows: conjunctivitis, subconjunctival haemorrhage, episcleritis, scleritis, anterior uveitis, keratitis, acute angle closure.",
-        "labels": ["Conjunctivitis", "Episcleritis", "Scleritis", "Anterior uveitis", "Keratitis", "Acute angle closure"]
+        "labels": [
+          "Conjunctivitis",
+          "Episcleritis",
+          "Scleritis",
+          "Anterior uveitis",
+          "Keratitis",
+          "Acute angle closure"
+        ]
       },
       "goDeeper": [
         {
@@ -120,20 +167,48 @@
         }
       ],
       "flashcards": [
-        { "front": "What is a 'can't miss' diagnosis?", "back": "A serious condition that must stay on the list until ruled out, even if less likely." },
-        { "front": "Premature closure", "back": "Stopping at the first diagnosis that seems to fit." },
-        { "front": "Key test for optic nerve vs retinal cause of vision loss", "back": "Pupils — look for a relative afferent pupil defect (RAPD)." },
-        { "front": "Pinhole improves VA →", "back": "Likely refractive cause." }
+        {
+          "front": "What is a 'can't miss' diagnosis?",
+          "back": "A serious condition that must stay on the list until ruled out, even if less likely."
+        },
+        {
+          "front": "Premature closure",
+          "back": "Stopping at the first diagnosis that seems to fit."
+        },
+        {
+          "front": "Key test for optic nerve vs retinal cause of vision loss",
+          "back": "Pupils — look for a relative afferent pupil defect (RAPD)."
+        },
+        {
+          "front": "Pinhole improves VA →",
+          "back": "Likely refractive cause."
+        }
       ],
       "mcq": [
         {
           "id": "syd-ddx-1",
           "q": "A red eye with photophobia, ciliary flush, normal IOP and cells in the AC. Most likely?",
           "options": [
-            { "text": "Anterior uveitis", "correct": true, "feedback": "Yes — cells in the AC are the key sign." },
-            { "text": "Bacterial conjunctivitis", "correct": false, "feedback": "No photophobia or AC cells in simple conjunctivitis." },
-            { "text": "Acute angle closure", "correct": false, "feedback": "IOP would be very high." },
-            { "text": "Episcleritis", "correct": false, "feedback": "No AC activity or significant photophobia." }
+            {
+              "text": "Anterior uveitis",
+              "correct": true,
+              "feedback": "Yes — cells in the AC are the key sign."
+            },
+            {
+              "text": "Bacterial conjunctivitis",
+              "correct": false,
+              "feedback": "No photophobia or AC cells in simple conjunctivitis."
+            },
+            {
+              "text": "Acute angle closure",
+              "correct": false,
+              "feedback": "IOP would be very high."
+            },
+            {
+              "text": "Episcleritis",
+              "correct": false,
+              "feedback": "No AC activity or significant photophobia."
+            }
           ],
           "explanation": "Photophobia, ciliary flush and AC cells/flare point to anterior uveitis; it needs prompt referral.",
           "link": "syd-differential#writing-it-down"
@@ -147,8 +222,14 @@
         }
       ],
       "links": [
-        { "label": "College of Optometrists (Clinical Management Guidelines)", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists (Clinical Management Guidelines)",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Give me a presenting symptom and a few signs, ask me for a ranked differential including a 'can't miss' diagnosis, then reveal more findings one at a time."
     },
@@ -173,7 +254,16 @@
       "diagram": {
         "id": "diabetic-retinopathy",
         "description": "Fundus drawing showing: microaneurysms (tiny red dots), blot haemorrhages, hard exudates (yellow, near the macula), cotton wool spots (white fluffy), venous beading, IRMA, and new vessels at the disc (NVD) and elsewhere (NVE).",
-        "labels": ["Microaneurysm", "Blot haemorrhage", "Hard exudate", "Cotton wool spot", "Venous beading", "IRMA", "NVD", "NVE"]
+        "labels": [
+          "Microaneurysm",
+          "Blot haemorrhage",
+          "Hard exudate",
+          "Cotton wool spot",
+          "Venous beading",
+          "IRMA",
+          "NVD",
+          "NVE"
+        ]
       },
       "goDeeper": [
         {
@@ -189,21 +279,59 @@
           "body": "Check that patients with diabetes are attending DESP, examine the fundus (dilated where appropriate), recognise sight-threatening signs between screenings and refer accordingly, and give lifestyle messages: blood sugar, blood pressure, cholesterol, smoking, attending screening."
         }
       ],
+      "labelDiagram": {
+        "diagramId": "diabetic-retinopathy",
+        "targets": [
+          "Microaneurysm",
+          "Blot haemorrhage",
+          "Hard exudate",
+          "Cotton wool spot",
+          "NVD"
+        ]
+      },
       "flashcards": [
-        { "front": "Earliest sign of diabetic retinopathy", "back": "Microaneurysms." },
-        { "front": "R3A means…", "back": "Active proliferative retinopathy (new vessels, pre-retinal/vitreous haemorrhage) — urgent referral." },
-        { "front": "M1 (maculopathy) example", "back": "Exudate within 1 disc diameter of the fovea." },
-        { "front": "Hard exudate vs cotton wool spot", "back": "Exudate: yellow, well-defined (lipid). CWS: white, fluffy (nerve fibre layer infarct)." }
+        {
+          "front": "Earliest sign of diabetic retinopathy",
+          "back": "Microaneurysms."
+        },
+        {
+          "front": "R3A means…",
+          "back": "Active proliferative retinopathy (new vessels, pre-retinal/vitreous haemorrhage) — urgent referral."
+        },
+        {
+          "front": "M1 (maculopathy) example",
+          "back": "Exudate within 1 disc diameter of the fovea."
+        },
+        {
+          "front": "Hard exudate vs cotton wool spot",
+          "back": "Exudate: yellow, well-defined (lipid). CWS: white, fluffy (nerve fibre layer infarct)."
+        }
       ],
       "mcq": [
         {
           "id": "syd-dm-1",
           "q": "A patient has venous beading and IRMA in two quadrants, but no new vessels. DESP grade?",
           "options": [
-            { "text": "R2 (pre-proliferative)", "correct": true, "feedback": "Yes — venous beading and IRMA are R2 features." },
-            { "text": "R1", "correct": false, "feedback": "R1 doesn't include venous beading or IRMA." },
-            { "text": "R3A", "correct": false, "feedback": "R3A needs new vessels or pre-retinal/vitreous haemorrhage." },
-            { "text": "M1", "correct": false, "feedback": "M grades describe the macula." }
+            {
+              "text": "R2 (pre-proliferative)",
+              "correct": true,
+              "feedback": "Yes — venous beading and IRMA are R2 features."
+            },
+            {
+              "text": "R1",
+              "correct": false,
+              "feedback": "R1 doesn't include venous beading or IRMA."
+            },
+            {
+              "text": "R3A",
+              "correct": false,
+              "feedback": "R3A needs new vessels or pre-retinal/vitreous haemorrhage."
+            },
+            {
+              "text": "M1",
+              "correct": false,
+              "feedback": "M grades describe the macula."
+            }
           ],
           "explanation": "Venous changes, IRMA and multiple deep blot haemorrhages define pre-proliferative (R2) retinopathy.",
           "link": "syd-diabetes#desp-grading-in-brief"
@@ -212,10 +340,26 @@
           "id": "syd-dm-2",
           "q": "A newly diagnosed type 2 diabetic reports her distance vision has blurred over the last month and wants new glasses. Best advice?",
           "options": [
-            { "text": "Delay new glasses until blood sugar has stabilised, and explain why", "correct": true, "feedback": "Right — refraction can shift while control changes." },
-            { "text": "Prescribe the full new Rx today", "correct": false, "feedback": "It may change again within weeks." },
-            { "text": "Refer as an emergency", "correct": false, "feedback": "Not without sight-threatening signs." },
-            { "text": "Tell her diabetes doesn't affect vision", "correct": false, "feedback": "It can affect refraction and the retina." }
+            {
+              "text": "Delay new glasses until blood sugar has stabilised, and explain why",
+              "correct": true,
+              "feedback": "Right — refraction can shift while control changes."
+            },
+            {
+              "text": "Prescribe the full new Rx today",
+              "correct": false,
+              "feedback": "It may change again within weeks."
+            },
+            {
+              "text": "Refer as an emergency",
+              "correct": false,
+              "feedback": "Not without sight-threatening signs."
+            },
+            {
+              "text": "Tell her diabetes doesn't affect vision",
+              "correct": false,
+              "feedback": "It can affect refraction and the retina."
+            }
           ],
           "explanation": "Fluctuating glucose changes the lens; wait for stability (and check the fundus) before finalising a prescription.",
           "link": "syd-diabetes#diabetes-and-refraction"
@@ -223,8 +367,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "NHS Diabetic Eye Screening Programme", "url": "https://www.gov.uk/government/collections/diabetic-eye-screening-commission-and-provide" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "NHS Diabetic Eye Screening Programme",
+          "url": "https://www.gov.uk/government/collections/diabetic-eye-screening-commission-and-provide"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Describe 5 diabetic fundi in words and ask me to give each a DESP R and M grade and the referral action."
     },
@@ -249,7 +399,12 @@
       "diagram": {
         "id": "av-nipping",
         "description": "Close-up of an artery crossing over a vein. Normal crossing: vein continuous. AV nipping: vein appears narrowed/hidden either side of the artery and deflected. Copper wiring: artery with a broad orange light reflex; silver wiring: artery appears white.",
-        "labels": ["Normal crossing", "AV nipping", "Copper wiring", "Silver wiring"]
+        "labels": [
+          "Normal crossing",
+          "AV nipping",
+          "Copper wiring",
+          "Silver wiring"
+        ]
       },
       "goDeeper": [
         {
@@ -262,20 +417,48 @@
         }
       ],
       "flashcards": [
-        { "front": "AV nipping", "back": "Narrowing/deflection of a vein where an artery crosses it — a chronic hypertensive sign." },
-        { "front": "Macular star", "back": "Radiating hard exudates around the fovea — seen in severe hypertension." },
-        { "front": "NICE same-day threshold", "back": "BP ≥180/120 with retinal haemorrhage or papilloedema." },
-        { "front": "Eye conditions hypertension increases risk of", "back": "Retinal vein and artery occlusion, ischaemic optic neuropathy." }
+        {
+          "front": "AV nipping",
+          "back": "Narrowing/deflection of a vein where an artery crosses it — a chronic hypertensive sign."
+        },
+        {
+          "front": "Macular star",
+          "back": "Radiating hard exudates around the fovea — seen in severe hypertension."
+        },
+        {
+          "front": "NICE same-day threshold",
+          "back": "BP ≥180/120 with retinal haemorrhage or papilloedema."
+        },
+        {
+          "front": "Eye conditions hypertension increases risk of",
+          "back": "Retinal vein and artery occlusion, ischaemic optic neuropathy."
+        }
       ],
       "mcq": [
         {
           "id": "syd-htn-1",
           "q": "A patient has bilateral disc swelling, flame haemorrhages and a macular star. BP measured in practice is 210/125. Action?",
           "options": [
-            { "text": "Same-day referral (accelerated/malignant hypertension)", "correct": true, "feedback": "Yes — this is a medical emergency." },
-            { "text": "Routine letter to the GP", "correct": false, "feedback": "Far too slow for these findings." },
-            { "text": "Repeat BP next month", "correct": false, "feedback": "It needs action today." },
-            { "text": "Refer to DESP", "correct": false, "feedback": "That's diabetic screening, not relevant here." }
+            {
+              "text": "Same-day referral (accelerated/malignant hypertension)",
+              "correct": true,
+              "feedback": "Yes — this is a medical emergency."
+            },
+            {
+              "text": "Routine letter to the GP",
+              "correct": false,
+              "feedback": "Far too slow for these findings."
+            },
+            {
+              "text": "Repeat BP next month",
+              "correct": false,
+              "feedback": "It needs action today."
+            },
+            {
+              "text": "Refer to DESP",
+              "correct": false,
+              "feedback": "That's diabetic screening, not relevant here."
+            }
           ],
           "explanation": "NICE NG136: BP ≥180/120 with papilloedema or retinal haemorrhages needs same-day specialist assessment.",
           "link": "syd-hypertension#what-to-do"
@@ -283,8 +466,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "NICE: hypertension in adults (NG136)", "url": "https://www.nice.org.uk/guidance/ng136" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "NICE: hypertension in adults (NG136)",
+          "url": "https://www.nice.org.uk/guidance/ng136"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Help me tell diabetic and hypertensive retinopathy apart. Describe mixed fundi and ask me which signs belong to which, and what I'd do."
     },
@@ -309,7 +498,14 @@
       "diagram": {
         "id": "visual-pathway-defects",
         "description": "Visual pathway from eyes through optic nerves, chiasm, optic tracts, LGN and radiations to occipital cortex, with lesion sites numbered. Beside each, the matching field defect: 1 optic nerve → monocular loss; 2 chiasm → bitemporal hemianopia; 3 optic tract → homonymous hemianopia; 4 temporal radiation → superior quadrantanopia; 5 parietal → inferior quadrantanopia; 6 occipital → homonymous hemianopia with macular sparing.",
-        "labels": ["Optic nerve", "Chiasm: bitemporal", "Optic tract: homonymous", "Temporal: superior quadrantanopia", "Parietal: inferior quadrantanopia", "Occipital: macular sparing"]
+        "labels": [
+          "Optic nerve",
+          "Chiasm: bitemporal",
+          "Optic tract: homonymous",
+          "Temporal: superior quadrantanopia",
+          "Parietal: inferior quadrantanopia",
+          "Occipital: macular sparing"
+        ]
       },
       "goDeeper": [
         {
@@ -326,20 +522,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Bitemporal hemianopia lesion site", "back": "Optic chiasm." },
-        { "front": "Homonymous hemianopia lesion site", "back": "Behind the chiasm (tract, radiations or occipital cortex)." },
-        { "front": "MD vs PSD", "back": "MD = overall depression; PSD = irregularity/localised loss." },
-        { "front": "First thing to check on a visual field", "back": "Reliability indices." }
+        {
+          "front": "Bitemporal hemianopia lesion site",
+          "back": "Optic chiasm."
+        },
+        {
+          "front": "Homonymous hemianopia lesion site",
+          "back": "Behind the chiasm (tract, radiations or occipital cortex)."
+        },
+        {
+          "front": "MD vs PSD",
+          "back": "MD = overall depression; PSD = irregularity/localised loss."
+        },
+        {
+          "front": "First thing to check on a visual field",
+          "back": "Reliability indices."
+        }
       ],
       "mcq": [
         {
           "id": "syd-data-1",
           "q": "A field shows a right superior quadrantanopia in both eyes, matching closely. Most likely lesion site?",
           "options": [
-            { "text": "Left temporal lobe (Meyer's loop)", "correct": true, "feedback": "Yes — 'pie in the sky', contralateral temporal lesion." },
-            { "text": "Optic chiasm", "correct": false, "feedback": "Chiasm gives bitemporal defects." },
-            { "text": "Right optic nerve", "correct": false, "feedback": "That affects one eye only." },
-            { "text": "Right parietal lobe", "correct": false, "feedback": "Parietal lesions give inferior quadrantanopias on the opposite side." }
+            {
+              "text": "Left temporal lobe (Meyer's loop)",
+              "correct": true,
+              "feedback": "Yes — 'pie in the sky', contralateral temporal lesion."
+            },
+            {
+              "text": "Optic chiasm",
+              "correct": false,
+              "feedback": "Chiasm gives bitemporal defects."
+            },
+            {
+              "text": "Right optic nerve",
+              "correct": false,
+              "feedback": "That affects one eye only."
+            },
+            {
+              "text": "Right parietal lobe",
+              "correct": false,
+              "feedback": "Parietal lesions give inferior quadrantanopias on the opposite side."
+            }
           ],
           "explanation": "Inferior fibres loop through the temporal lobe (Meyer's loop) and carry the superior field; a left-sided lesion affects the right field.",
           "link": "syd-clinical-data#structuring-your-answer"
@@ -348,10 +572,26 @@
           "id": "syd-data-2",
           "q": "A field has 30% false positives and shows an 'excellent' result. How should you treat it?",
           "options": [
-            { "text": "As unreliable — repeat it", "correct": true, "feedback": "Right — high false positives make fields look falsely good." },
-            { "text": "As normal", "correct": false, "feedback": "It can't be trusted." },
-            { "text": "As glaucomatous", "correct": false, "feedback": "There's no evidence of that from this test." },
-            { "text": "Ignore the reliability indices", "correct": false, "feedback": "Always check reliability first." }
+            {
+              "text": "As unreliable — repeat it",
+              "correct": true,
+              "feedback": "Right — high false positives make fields look falsely good."
+            },
+            {
+              "text": "As normal",
+              "correct": false,
+              "feedback": "It can't be trusted."
+            },
+            {
+              "text": "As glaucomatous",
+              "correct": false,
+              "feedback": "There's no evidence of that from this test."
+            },
+            {
+              "text": "Ignore the reliability indices",
+              "correct": false,
+              "feedback": "Always check reliability first."
+            }
           ],
           "explanation": "False positives (pressing without a stimulus) inflate sensitivity, hiding real defects.",
           "link": "syd-clinical-data#visual-field-reliability"
@@ -365,8 +605,14 @@
         }
       ],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Give me a PC-lab style case with VA, refraction, IOP, disc and field results. Let me interpret it step by step, then mark my answer."
     },
@@ -391,7 +637,11 @@
       "diagram": {
         "id": "referral-urgency",
         "description": "Three columns: Emergency (same day) — RD, acute angle closure, GCA, MK, chemical injury, papilloedema. Urgent — wet AMD fast-track, anterior uveitis, new field loss. Routine — cataract, COAG suspect, stable conditions.",
-        "labels": ["Emergency: same day", "Urgent", "Routine"]
+        "labels": [
+          "Emergency: same day",
+          "Urgent",
+          "Routine"
+        ]
       },
       "goDeeper": [
         {
@@ -408,20 +658,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Emergency (same day) examples", "back": "RD, acute angle closure, suspected GCA, microbial keratitis, chemical injury, papilloedema." },
-        { "front": "Wet AMD referral", "back": "Urgent via the fast-track pathway." },
-        { "front": "England NHS referral form from a sight test", "back": "GOS 18 (or the local electronic equivalent)." },
-        { "front": "Safety-netting", "back": "Telling the patient what symptoms to watch for and what to do if they happen." }
+        {
+          "front": "Emergency (same day) examples",
+          "back": "RD, acute angle closure, suspected GCA, microbial keratitis, chemical injury, papilloedema."
+        },
+        {
+          "front": "Wet AMD referral",
+          "back": "Urgent via the fast-track pathway."
+        },
+        {
+          "front": "England NHS referral form from a sight test",
+          "back": "GOS 18 (or the local electronic equivalent)."
+        },
+        {
+          "front": "Safety-netting",
+          "back": "Telling the patient what symptoms to watch for and what to do if they happen."
+        }
       ],
       "mcq": [
         {
           "id": "syd-ref-1",
           "q": "A 58-year-old has new flashes, a shower of floaters and a shadow in the upper field of the right eye. Urgency?",
           "options": [
-            { "text": "Emergency — same day", "correct": true, "feedback": "Yes — suspected retinal detachment." },
-            { "text": "Routine", "correct": false, "feedback": "A shadow suggests detachment — far too slow." },
-            { "text": "Urgent within a week", "correct": false, "feedback": "RD can progress to involve the macula quickly." },
-            { "text": "Review in 6 weeks", "correct": false, "feedback": "Not safe." }
+            {
+              "text": "Emergency — same day",
+              "correct": true,
+              "feedback": "Yes — suspected retinal detachment."
+            },
+            {
+              "text": "Routine",
+              "correct": false,
+              "feedback": "A shadow suggests detachment — far too slow."
+            },
+            {
+              "text": "Urgent within a week",
+              "correct": false,
+              "feedback": "RD can progress to involve the macula quickly."
+            },
+            {
+              "text": "Review in 6 weeks",
+              "correct": false,
+              "feedback": "Not safe."
+            }
           ],
           "explanation": "Flashes + floaters + a field shadow = suspected RD; same-day referral to eye casualty.",
           "link": "syd-referral#safety-netting"
@@ -430,10 +708,26 @@
           "id": "syd-ref-2",
           "q": "Which line belongs in a referral letter?",
           "options": [
-            { "text": "'IOP R 26, L 18 mmHg (Goldmann, 10:30); L disc C/D 0.4, R 0.65 with inferior thinning.'", "correct": true, "feedback": "Specific, measurable and relevant." },
-            { "text": "'Pressures a bit high, please check.'", "correct": false, "feedback": "Too vague to act on." },
-            { "text": "'Patient definitely has glaucoma.'", "correct": false, "feedback": "Diagnosis is for the specialist; describe findings." },
-            { "text": "'See attached notes.'", "correct": false, "feedback": "The key findings should be in the letter." }
+            {
+              "text": "'IOP R 26, L 18 mmHg (Goldmann, 10:30); L disc C/D 0.4, R 0.65 with inferior thinning.'",
+              "correct": true,
+              "feedback": "Specific, measurable and relevant."
+            },
+            {
+              "text": "'Pressures a bit high, please check.'",
+              "correct": false,
+              "feedback": "Too vague to act on."
+            },
+            {
+              "text": "'Patient definitely has glaucoma.'",
+              "correct": false,
+              "feedback": "Diagnosis is for the specialist; describe findings."
+            },
+            {
+              "text": "'See attached notes.'",
+              "correct": false,
+              "feedback": "The key findings should be in the letter."
+            }
           ],
           "explanation": "Good referrals give precise findings with method, time and comparison between eyes.",
           "link": "syd-referral#a-good-referral-letter"
@@ -441,8 +735,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists (Clinical Management Guidelines)", "url": "https://www.college-optometrists.org/" },
-        { "label": "Royal College of Ophthalmologists", "url": "https://www.rcophth.ac.uk/" }
+        {
+          "label": "College of Optometrists (Clinical Management Guidelines)",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Royal College of Ophthalmologists",
+          "url": "https://www.rcophth.ac.uk/"
+        }
       ],
       "askClaude": "Give me 6 short scenarios and ask me the referral urgency and destination for each, then help me write one full referral letter."
     }
