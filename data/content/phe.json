@@ -1,0 +1,205 @@
+{
+  "module": "PHE",
+  "verifyNote": "Written from UK public health and eye health sources (RNIB, NHS, NICE, professional guidance). Figures are approximate and updated regularly — always check against Dr Sheppard's slides and the latest published statistics.",
+  "topics": [
+    {
+      "id": "phe-sight-loss-uk",
+      "title": "Causes of sight loss in the UK",
+      "summary": "Around 2 million people in the UK live with sight loss that affects their daily lives, and a large share of it is avoidable. The main causes are uncorrected refractive error, cataract, age-related macular degeneration (AMD), glaucoma and diabetic eye disease.",
+      "keyPoints": [
+        "RNIB estimates more than 2 million people in the UK are living with sight loss; numbers are expected to rise as the population ages.",
+        "A large proportion (often quoted as around half) of sight loss is thought to be avoidable or treatable.",
+        "Main causes: uncorrected refractive error, cataract, AMD, glaucoma, diabetic retinopathy.",
+        "AMD is the leading cause of sight impairment certification in older adults.",
+        "In working-age adults in England and Wales, inherited retinal disease has overtaken diabetic retinopathy as the leading cause of certification (reported in 2014).",
+        "Certification (CVI) is done by a consultant ophthalmologist: sight impaired (partially sighted) or severely sight impaired (blind).",
+        "Sight loss is linked to falls, depression, loss of independence and reduced employment."
+      ],
+      "examTraps": [
+        "Forgetting that uncorrected refractive error and cataract are major (and correctable) causes.",
+        "Saying optometrists certify sight impairment — it's done by consultant ophthalmologists.",
+        "Quoting old statistics without a source or date."
+      ],
+      "diagram": {
+        "id": "sight-loss-causes",
+        "description": "Horizontal bar chart (illustrative, not exact) of main causes of sight loss in the UK: uncorrected refractive error, cataract, AMD, glaucoma, diabetic eye disease, other. Bars for refractive error and cataract are labelled 'largely correctable'.",
+        "labels": ["Uncorrected refractive error", "Cataract", "AMD", "Glaucoma", "Diabetic eye disease"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Avoidable sight loss",
+          "body": "Refractive error is corrected with glasses or contact lenses; cataract with surgery; diabetic retinopathy is detected through screening and treated (laser, injections); glaucoma is detected and managed to slow progression; wet AMD can be treated with anti-VEGF injections if caught early. Regular eye examinations are central to preventing avoidable sight loss."
+        },
+        {
+          "heading": "Certification and registration",
+          "body": "A consultant ophthalmologist completes a Certificate of Vision Impairment (CVI) when criteria are met. This lets the person be registered with their local council as sight impaired or severely sight impaired, unlocking support (e.g. rehabilitation, benefits, concessions). Optometrists can signpost to low vision services and charities such as RNIB."
+        }
+      ],
+      "flashcards": [
+        { "front": "Approximate number living with sight loss in the UK", "back": "More than 2 million (RNIB estimate)." },
+        { "front": "Leading cause of certification in older adults", "back": "Age-related macular degeneration (AMD)." },
+        { "front": "Who completes a CVI?", "back": "A consultant ophthalmologist." },
+        { "front": "Two major correctable causes of sight loss", "back": "Uncorrected refractive error and cataract." }
+      ],
+      "mcq": [
+        {
+          "id": "phe-sl-1",
+          "q": "Which cause of sight loss is most easily corrected?",
+          "options": [
+            { "text": "Uncorrected refractive error", "correct": true, "feedback": "Yes — glasses or contact lenses." },
+            { "text": "Advanced dry AMD", "correct": false, "feedback": "There's currently no cure for advanced dry AMD." },
+            { "text": "End-stage glaucoma", "correct": false, "feedback": "Lost vision from glaucoma can't be restored." },
+            { "text": "Retinitis pigmentosa", "correct": false, "feedback": "An inherited retinal disease, not easily corrected." }
+          ],
+          "explanation": "Uncorrected refractive error is a leading and easily corrected cause, which is why access to eye tests matters.",
+          "link": "phe-sight-loss-uk#avoidable-sight-loss"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "RNIB", "url": "https://www.rnib.org.uk/" },
+        { "label": "Royal College of Ophthalmologists", "url": "https://www.rcophth.ac.uk/" }
+      ],
+      "askClaude": "Summarise the main causes of sight loss in the UK and which are avoidable, then quiz me — and remind me to check the latest figures in my slides."
+    },
+    {
+      "id": "phe-inequalities",
+      "title": "Health inequalities and access to eye care",
+      "summary": "Eye health isn't equal across society. People in deprived areas, some ethnic groups, people with learning disabilities, care home residents and those facing language or mobility barriers are more likely to have undetected eye disease and less likely to get eye tests.",
+      "keyPoints": [
+        "Deprivation is linked to lower uptake of eye tests and later presentation of conditions like glaucoma.",
+        "People with learning disabilities are much more likely to have serious sight problems (often quoted as around 10 times more likely) and often go undiagnosed.",
+        "Higher risk groups: Black African and Caribbean people (glaucoma); South Asian people (diabetes and its eye complications).",
+        "Barriers: perceived cost of glasses, low awareness of the need for eye tests, mobility, language, fear, and practice accessibility.",
+        "NHS sight tests in England are free for many groups, e.g. under 16s, 16–18s in full-time education, over 60s, people with diabetes or glaucoma, and people aged 40+ with a parent/sibling/child with glaucoma, plus those on certain benefits.",
+        "Domiciliary (home) eye tests are available for people who can't get to a practice unaccompanied.",
+        "The 'inverse care law': those who need care most often get the least."
+      ],
+      "examTraps": [
+        "Assuming everyone knows eye tests are free for them.",
+        "Forgetting reasonable adjustments (time, communication aids, easy-read materials).",
+        "Treating inequality as only about money."
+      ],
+      "diagram": {
+        "id": "barriers-to-care",
+        "description": "Patient on one side and an optometry practice on the other, with barriers in between drawn as hurdles: cost worries, awareness, mobility/transport, language, fear, disability access. Bridges over each hurdle: free NHS tests, health promotion, domiciliary care, interpreters, reasonable adjustments.",
+        "labels": ["Cost worries", "Awareness", "Mobility", "Language", "Reasonable adjustments", "Domiciliary care"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Reasonable adjustments",
+          "body": "Under the Equality Act 2010, services must make reasonable adjustments for disabled people. In practice: longer appointments, quieter times, easy-read information, objective tests when subjective ones aren't possible, involving carers, and accessible premises. SeeAbility has resources on eye care for people with learning disabilities."
+        },
+        {
+          "heading": "Making Every Contact Count",
+          "body": "Every visit is a chance to check whether family members are eligible for free tests, whether a patient with diabetes is attending screening, and whether someone needs signposting to support. Small conversations can reduce inequality."
+        }
+      ],
+      "flashcards": [
+        { "front": "Inverse care law", "back": "Those who most need care are least likely to receive it." },
+        { "front": "Who gets free NHS sight tests in England? (examples)", "back": "Under 16s, 16–18s in full-time education, over 60s, people with diabetes or glaucoma, 40+ with a first-degree relative with glaucoma, certain benefits." },
+        { "front": "Domiciliary eye care", "back": "Eye tests at home for people who can't get to a practice unaccompanied." },
+        { "front": "Law requiring reasonable adjustments", "back": "Equality Act 2010." }
+      ],
+      "mcq": [
+        {
+          "id": "phe-ineq-1",
+          "q": "A 45-year-old whose mother has glaucoma says she can't afford an eye test. What should you tell her?",
+          "options": [
+            { "text": "She's likely eligible for a free NHS sight test in England", "correct": true, "feedback": "Yes — 40+ with a first-degree relative with glaucoma." },
+            { "text": "Eye tests are only free for children", "correct": false, "feedback": "Many adults are eligible too." },
+            { "text": "She doesn't need tests until 60", "correct": false, "feedback": "Her family history increases her risk now." },
+            { "text": "Glaucoma isn't hereditary", "correct": false, "feedback": "Family history is a major risk factor." }
+          ],
+          "explanation": "In England, people aged 40+ with a parent, sibling or child with glaucoma qualify for free NHS sight tests.",
+          "link": "phe-inequalities#making-every-contact-count"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "NHS: free NHS eye tests and optical vouchers", "url": "https://www.nhs.uk/nhs-services/opticians/free-nhs-eye-tests-and-optical-vouchers/" },
+        { "label": "SeeAbility", "url": "https://www.seeability.org/" }
+      ],
+      "askClaude": "Help me think through barriers to eye care for 4 different groups (e.g. older people in care homes, people with learning disabilities) and what an optometrist could do about each."
+    },
+    {
+      "id": "phe-health-promotion",
+      "title": "Health promotion in practice",
+      "summary": "Optometrists see many people who don't see their GP often, so small health conversations can make a real difference: smoking, UV, diet, screen habits, diabetes screening and regular eye tests. Behaviour-change models help you pitch advice to where the patient is.",
+      "keyPoints": [
+        "Smoking is a major modifiable risk factor for AMD (smokers are several times more likely to develop it) and cataract.",
+        "Very Brief Advice on smoking (NCSCT): Ask, Advise, Act — takes under a minute.",
+        "UV protection (sunglasses meeting standards, hats) helps protect the eyes and eyelid skin.",
+        "Diet: a diet rich in leafy greens and fish is often advised for macular health; specific supplements (AREDS2) are for certain AMD stages.",
+        "Encourage people with diabetes to attend diabetic eye screening and manage blood sugar, BP and cholesterol.",
+        "Models: stages of change (precontemplation → contemplation → preparation → action → maintenance), health belief model, COM-B (capability, opportunity, motivation).",
+        "Making Every Contact Count (MECC): use routine contacts for brief, opportunistic health advice."
+      ],
+      "examTraps": [
+        "Lecturing a patient who isn't ready to change.",
+        "Recommending supplements to everyone without an indication.",
+        "Forgetting to record the advice given."
+      ],
+      "diagram": {
+        "id": "stages-of-change",
+        "description": "Circular diagram of the stages of change: precontemplation → contemplation → preparation → action → maintenance, with a side arrow for relapse returning to an earlier stage.",
+        "labels": ["Precontemplation", "Contemplation", "Preparation", "Action", "Maintenance", "Relapse"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Very Brief Advice in the chair",
+          "body": "Ask: 'Do you smoke?' Advise: 'The best thing you can do for your eyes and your health is to stop — and the most effective way is with support from a stop smoking service.' Act: offer details of the local service or refer if available, and record it. Keep it non-judgemental."
+        },
+        {
+          "heading": "Matching advice to readiness",
+          "body": "Someone in precontemplation needs information and a nudge to think about it; someone preparing to change needs practical help (services, plans); someone in action needs encouragement. Asking 'How do you feel about…?' tells you where they are."
+        }
+      ],
+      "flashcards": [
+        { "front": "Very Brief Advice (smoking)", "back": "Ask, Advise, Act." },
+        { "front": "Stages of change", "back": "Precontemplation, contemplation, preparation, action, maintenance (and relapse)." },
+        { "front": "COM-B", "back": "Capability, Opportunity, Motivation → Behaviour." },
+        { "front": "Main modifiable risk factor for AMD", "back": "Smoking." }
+      ],
+      "mcq": [
+        {
+          "id": "phe-hp-1",
+          "q": "A smoker with early AMD says she isn't interested in stopping. Best approach?",
+          "options": [
+            { "text": "Give brief, non-judgemental advice and offer support if she changes her mind", "correct": true, "feedback": "Yes — respect where she is (precontemplation), plant the seed." },
+            { "text": "Refuse to continue the eye test", "correct": false, "feedback": "Inappropriate." },
+            { "text": "Lecture her about all the risks at length", "correct": false, "feedback": "Unlikely to help at this stage." },
+            { "text": "Say nothing about smoking", "correct": false, "feedback": "You'd miss an important opportunity." }
+          ],
+          "explanation": "Very Brief Advice works even with people not ready to quit; it raises awareness and opens the door later.",
+          "link": "phe-health-promotion#matching-advice-to-readiness"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "NCSCT: Very Brief Advice", "url": "https://www.ncsct.co.uk/" },
+        { "label": "RNIB", "url": "https://www.rnib.org.uk/" }
+      ],
+      "askClaude": "Role-play 3 patients at different stages of change (smoking or diabetes screening). Let me give brief advice and tell me how well I matched their readiness."
+    },
+    {
+      "id": "phe-task-a",
+      "title": "Task A (see the drop-in, week 11)",
+      "summary": "Task A is the PHE task with a drop-in session in week 11. The details come from your module materials and the drop-in itself — this page just keeps the date handy and lets you tick it off.",
+      "keyPoints": [
+        "Drop-in: Thursday 3 December, 13:00–14:00, VSG40, with Dr Amy Sheppard.",
+        "Bring your questions about Task A to the drop-in.",
+        "Check your module page on the university's learning platform for the brief and deadline."
+      ],
+      "examTraps": [],
+      "goDeeper": [],
+      "flashcards": [],
+      "mcq": [],
+      "cases": [],
+      "links": [
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "I'm working on a public health and eye health task for my optometry course. Ask me what the brief is, then help me plan it without writing it for me."
+    }
+  ]
+}

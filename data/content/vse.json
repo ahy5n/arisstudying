@@ -1,0 +1,334 @@
+{
+  "module": "VSE",
+  "verifyNote": "Written from standard research methods and evidence-based practice teaching. Always check against Dr Collins's slides and the library workshop materials — terminology and preferred tests can differ.",
+  "topics": [
+    {
+      "id": "vse-research-design",
+      "title": "Research design",
+      "summary": "The design of a study decides what it can tell you. Experimental studies (like randomised controlled trials) can test cause and effect; observational studies (cohort, case-control, cross-sectional) describe and find associations. Bias and confounding are what you're always looking out for.",
+      "keyPoints": [
+        "Hierarchy of evidence (roughly): systematic reviews/meta-analyses → RCTs → cohort → case-control → cross-sectional → case series/reports → expert opinion.",
+        "RCT: participants randomly allocated to interventions; randomisation balances known and unknown confounders.",
+        "Masking (blinding) of participants, clinicians and assessors reduces performance and detection bias.",
+        "Cohort study: follow people with and without an exposure forward in time (prospective) or using past records (retrospective).",
+        "Case-control: start with people who have the outcome and compare past exposures with controls — good for rare conditions.",
+        "Cross-sectional: a snapshot at one time point — prevalence and associations, not cause.",
+        "Bias types: selection, measurement/observer, recall, attrition; confounding is a third factor linked to both exposure and outcome."
+      ],
+      "examTraps": [
+        "Saying a cross-sectional study shows cause.",
+        "Confusing blinding with randomisation.",
+        "Mixing up cohort (exposure → outcome) and case-control (outcome → look back at exposure)."
+      ],
+      "diagram": {
+        "id": "evidence-pyramid",
+        "description": "Pyramid with layers from bottom to top: expert opinion; case reports/series; cross-sectional; case-control; cohort; randomised controlled trials; systematic reviews and meta-analyses at the top.",
+        "labels": ["Systematic reviews / meta-analyses", "RCTs", "Cohort", "Case-control", "Cross-sectional", "Case reports", "Expert opinion"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Confounding with an eye example",
+          "body": "A study finds children who use screens more are more myopic. But children who use screens more may also spend less time outdoors — and time outdoors is protective. Outdoor time is a potential confounder. Designs and analyses (randomisation, matching, adjustment in regression) try to deal with confounders."
+        },
+        {
+          "heading": "Repeatability and validity",
+          "body": "Repeatability: does the same test give the same result when repeated under the same conditions? Validity: does it measure what it claims to? A tonometer can be highly repeatable but consistently read 3 mmHg high (precise but biased). Agreement between two instruments is assessed with Bland–Altman analysis, not correlation."
+        }
+      ],
+      "flashcards": [
+        { "front": "Purpose of randomisation", "back": "To balance known and unknown confounders between groups." },
+        { "front": "Best design for a rare disease's risk factors", "back": "Case-control study." },
+        { "front": "Cross-sectional study shows…", "back": "Prevalence and associations at one time point (not cause)." },
+        { "front": "Confounder", "back": "A third factor linked to both the exposure and the outcome." }
+      ],
+      "mcq": [
+        {
+          "id": "vse-rd-1",
+          "q": "Researchers compare 200 people with keratoconus and 200 without, asking about past eye rubbing. What design is this?",
+          "options": [
+            { "text": "Case-control", "correct": true, "feedback": "Yes — start with the outcome, look back at exposure." },
+            { "text": "Cohort", "correct": false, "feedback": "A cohort starts from exposure and follows forward." },
+            { "text": "RCT", "correct": false, "feedback": "Nothing is randomly allocated." },
+            { "text": "Case series", "correct": false, "feedback": "There's a control group." }
+          ],
+          "explanation": "Case-control studies start with people who have the condition and compare past exposures with controls.",
+          "link": "vse-research-design#confounding-with-an-eye-example"
+        },
+        {
+          "id": "vse-rd-2",
+          "q": "Which method assesses agreement between two tonometers?",
+          "options": [
+            { "text": "Bland–Altman analysis", "correct": true, "feedback": "Right — it plots differences against means." },
+            { "text": "Pearson correlation", "correct": false, "feedback": "High correlation doesn't mean agreement." },
+            { "text": "Chi-squared test", "correct": false, "feedback": "That's for categorical data." },
+            { "text": "A t-test alone", "correct": false, "feedback": "It can show bias but not limits of agreement." }
+          ],
+          "explanation": "Bland–Altman shows mean bias and 95% limits of agreement between two measurement methods.",
+          "link": "vse-research-design#repeatability-and-validity"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "Cochrane Library", "url": "https://www.cochranelibrary.com/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Describe 5 eye research studies in one sentence each and ask me to name the design and one possible bias for each."
+    },
+    {
+      "id": "vse-statistics",
+      "title": "Descriptive and inferential statistics",
+      "summary": "Descriptive statistics summarise data (averages, spread); inferential statistics use a sample to draw conclusions about a population (confidence intervals, p-values, hypothesis tests). Choosing the right test depends on the data type, distribution and whether groups are paired.",
+      "keyPoints": [
+        "Central tendency: mean (normal data), median (skewed data), mode.",
+        "Spread: standard deviation (normal data), interquartile range (skewed data).",
+        "Normal distribution: about 68% within ±1 SD, 95% within ±1.96 SD, 99.7% within ±3 SD.",
+        "Standard error = SD ÷ √n; a 95% confidence interval ≈ mean ± 1.96 × SE.",
+        "p-value: the probability of results at least this extreme if the null hypothesis were true; commonly significant if p < 0.05.",
+        "Type I error = false positive (α); type II error = false negative (β); power = 1 − β.",
+        "Common tests: paired/unpaired t-test (normal data), Wilcoxon signed-rank / Mann–Whitney U (non-parametric), chi-squared (categorical), ANOVA (3+ groups), Pearson/Spearman correlation."
+      ],
+      "examTraps": [
+        "Saying p = 0.03 means a 3% chance the null hypothesis is true.",
+        "Using a parametric test on clearly skewed data.",
+        "Treating 'not significant' as 'no difference' (it may be underpowered)."
+      ],
+      "diagram": {
+        "id": "normal-curve",
+        "description": "Bell-shaped normal distribution with the mean at the centre and shaded bands at ±1 SD (68%), ±2 SD (95%) and ±3 SD (99.7%).",
+        "labels": ["Mean", "±1 SD: 68%", "±2 SD: 95%", "±3 SD: 99.7%"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Choosing a test",
+          "body": "Ask: What type of data (continuous, ordinal, categorical)? Is it normally distributed? How many groups? Are the measurements paired (same people twice, or two eyes of one person) or independent? E.g. IOP before and after a drop in the same people, normal data → paired t-test; VA (often skewed) in two separate groups → Mann–Whitney U."
+        },
+        {
+          "heading": "Sensitivity and specificity",
+          "body": "Sensitivity: proportion of people with the disease that the test correctly flags (true positive rate). Specificity: proportion without the disease correctly cleared (true negative rate). Positive predictive value depends on how common the disease is — screening tests for rare conditions produce many false positives even with good specificity."
+        },
+        {
+          "heading": "Confidence intervals over p-values",
+          "body": "A confidence interval shows the size and precision of an effect: 'myopia progression slowed by 0.30 D (95% CI 0.18 to 0.42)' tells you much more than 'p < 0.001'. If a 95% CI for a difference crosses zero, the result isn't significant at the 5% level."
+        }
+      ],
+      "flashcards": [
+        { "front": "Standard error formula", "back": "SE = SD ÷ √n." },
+        { "front": "Type I error", "back": "False positive (rejecting a true null hypothesis)." },
+        { "front": "Test for paired normal data", "back": "Paired t-test." },
+        { "front": "Non-parametric test for two independent groups", "back": "Mann–Whitney U." }
+      ],
+      "mcq": [
+        {
+          "id": "vse-st-1",
+          "q": "IOP is measured in the same 30 people before and after a new drop; the differences are normally distributed. Which test?",
+          "options": [
+            { "text": "Paired t-test", "correct": true, "feedback": "Yes — same people, normal data." },
+            { "text": "Unpaired t-test", "correct": false, "feedback": "The measurements are paired." },
+            { "text": "Chi-squared", "correct": false, "feedback": "IOP is continuous, not categorical." },
+            { "text": "Mann–Whitney U", "correct": false, "feedback": "That's for independent, non-normal data." }
+          ],
+          "explanation": "Repeated measures on the same participants with normally distributed differences → paired t-test.",
+          "link": "vse-statistics#choosing-a-test"
+        },
+        {
+          "id": "vse-st-2",
+          "q": "A screening test has high sensitivity. What does that mean?",
+          "options": [
+            { "text": "It correctly identifies most people who have the condition", "correct": true, "feedback": "Right — few false negatives." },
+            { "text": "It correctly clears most people without the condition", "correct": false, "feedback": "That's specificity." },
+            { "text": "A positive result is almost always correct", "correct": false, "feedback": "That's positive predictive value, which depends on prevalence." },
+            { "text": "It gives the same answer when repeated", "correct": false, "feedback": "That's repeatability." }
+          ],
+          "explanation": "Sensitivity = true positives ÷ all with the disease.",
+          "link": "vse-statistics#sensitivity-and-specificity"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "Cochrane Library", "url": "https://www.cochranelibrary.com/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Give me 6 mini research questions with data descriptions and ask me which statistical test to use and why."
+    },
+    {
+      "id": "vse-critique",
+      "title": "Reading and critiquing a paper",
+      "summary": "Critical appraisal means judging whether a study's results are trustworthy and useful. Use a structured checklist (such as CASP) and work through the question, design, methods, results and how far you can apply them to your patients.",
+      "keyPoints": [
+        "Papers usually follow IMRaD: Introduction, Methods, Results and Discussion.",
+        "Is there a clear, focused question (PICO: Population, Intervention, Comparison, Outcome)?",
+        "Is the design appropriate for the question?",
+        "Methods: how were participants selected? Randomised? Masked? Was follow-up complete?",
+        "Results: how big is the effect and how precise (confidence intervals)? Is it clinically meaningful, not just statistically significant?",
+        "Applicability: are the participants like your patients? Are the outcomes relevant?",
+        "Check funding, conflicts of interest, peer review and the journal's credibility."
+      ],
+      "examTraps": [
+        "Appraising from the abstract alone.",
+        "Equating statistical significance with clinical importance.",
+        "Ignoring dropouts and loss to follow-up."
+      ],
+      "diagram": {
+        "id": "imrad",
+        "description": "A paper shaped like an hourglass: broad Introduction narrowing to the specific question, Methods and Results in the narrow middle, Discussion widening back out to implications. Side notes list appraisal questions for each part.",
+        "labels": ["Introduction: question (PICO)", "Methods: design and bias", "Results: size and precision", "Discussion: applicability"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Clinical vs statistical significance",
+          "body": "A huge study can find a 'significant' IOP difference of 0.3 mmHg that makes no difference to patients. A small study may find a large, important effect that isn't statistically significant because it's underpowered. Look at the effect size and its confidence interval, and ask whether it would change what you do."
+        },
+        {
+          "heading": "Spotting weak evidence",
+          "body": "Warning signs: no control group, outcomes chosen after seeing the data, large dropouts, small samples with big claims, results only reported as p-values, industry funding with no independent replication, or conclusions that go beyond the data."
+        }
+      ],
+      "flashcards": [
+        { "front": "IMRaD", "back": "Introduction, Methods, Results and Discussion." },
+        { "front": "PICO", "back": "Population, Intervention, Comparison, Outcome." },
+        { "front": "A widely used UK appraisal checklist", "back": "CASP (Critical Appraisal Skills Programme)." },
+        { "front": "What shows size and precision of an effect?", "back": "The effect size with its confidence interval." }
+      ],
+      "mcq": [
+        {
+          "id": "vse-cr-1",
+          "q": "A trial of 5,000 people reports a statistically significant 0.1 D difference in refraction between two lenses. Best interpretation?",
+          "options": [
+            { "text": "Statistically significant but probably not clinically meaningful", "correct": true, "feedback": "Yes — 0.1 D is below what most patients notice." },
+            { "text": "A major clinical breakthrough", "correct": false, "feedback": "Large samples can make tiny effects significant." },
+            { "text": "Not trustworthy because it's significant", "correct": false, "feedback": "Significance itself isn't the problem." },
+            { "text": "Proof the lenses are identical", "correct": false, "feedback": "It shows a small difference." }
+          ],
+          "explanation": "Statistical significance tells you the effect probably isn't zero, not that it matters clinically.",
+          "link": "vse-critique#clinical-vs-statistical-significance"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "CASP checklists", "url": "https://casp-uk.net/casp-tools-checklists/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Give me a short made-up abstract of an optometry study with a few deliberate weaknesses. Let me critique it with CASP-style questions, then reveal what I missed."
+    },
+    {
+      "id": "vse-ebp",
+      "title": "Evidence-based practice",
+      "summary": "Evidence-based practice means combining the best available research with your clinical expertise and the patient's values and circumstances. Guidelines (NICE, College CMGs) do much of the evidence-gathering for you, but you still need to apply them thoughtfully.",
+      "keyPoints": [
+        "Definition (after Sackett): integrating best research evidence with clinical expertise and patient values.",
+        "Five steps: Ask (a focused question), Acquire (search), Appraise, Apply, Assess (evaluate the outcome).",
+        "Frame questions with PICO.",
+        "Use pre-appraised sources first: guidelines, systematic reviews (e.g. Cochrane), College CMGs.",
+        "Patient values matter: the best treatment on paper may not suit a patient's life, budget or preferences.",
+        "Evidence changes — keep up to date through CPD.",
+        "Audit your own practice: are you doing what the evidence and guidelines say?"
+      ],
+      "examTraps": [
+        "Defining EBP as 'just following research'.",
+        "Ignoring patient preferences.",
+        "Relying on a single study when a systematic review exists."
+      ],
+      "diagram": {
+        "id": "ebp-venn",
+        "description": "Three overlapping circles: best research evidence, clinical expertise, patient values and preferences. The overlap in the middle is labelled evidence-based practice.",
+        "labels": ["Research evidence", "Clinical expertise", "Patient values", "Evidence-based practice"]
+      },
+      "goDeeper": [
+        {
+          "heading": "A PICO example",
+          "body": "P: children aged 6–12 with progressing myopia. I: myopia-control spectacle lenses. C: single vision spectacles. O: change in axial length over 2 years. Turning a vague question ('do these lenses work?') into PICO makes searching and appraising much easier."
+        },
+        {
+          "heading": "Guidelines in UK optometry",
+          "body": "NICE guidelines (e.g. NG81 for glaucoma) and the College of Optometrists' Clinical Management Guidelines bring the evidence together for common conditions. Use them as your default, record when and why you depart from them, and check the date — guidelines are updated."
+        }
+      ],
+      "flashcards": [
+        { "front": "Three parts of EBP", "back": "Research evidence, clinical expertise, patient values." },
+        { "front": "Five steps of EBP", "back": "Ask, Acquire, Appraise, Apply, Assess." },
+        { "front": "Source of pre-appraised systematic reviews", "back": "The Cochrane Library." },
+        { "front": "UK optometry condition guidance", "back": "College of Optometrists Clinical Management Guidelines." }
+      ],
+      "mcq": [
+        {
+          "id": "vse-ebp-1",
+          "q": "Which is the best first source for a clinical question about managing blepharitis in UK practice?",
+          "options": [
+            { "text": "The College of Optometrists' Clinical Management Guidelines", "correct": true, "feedback": "Yes — pre-appraised, UK-specific guidance." },
+            { "text": "A single case report", "correct": false, "feedback": "Lowest level of evidence." },
+            { "text": "A manufacturer's advert", "correct": false, "feedback": "Not independent evidence." },
+            { "text": "A social media post", "correct": false, "feedback": "Not a reliable source." }
+          ],
+          "explanation": "Start with high-quality pre-appraised sources (guidelines, systematic reviews) before individual studies.",
+          "link": "vse-ebp#guidelines-in-uk-optometry"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "Cochrane Library", "url": "https://www.cochranelibrary.com/" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Help me turn 3 clinical questions I might have in clinic into PICO format, then suggest where I'd search for the answers."
+    },
+    {
+      "id": "vse-literature-search",
+      "title": "Using the library and literature search",
+      "summary": "A good search is planned: break your question into concepts, list synonyms, combine them with Boolean operators, and use the right databases and filters. Keep a record of what you searched so it's reproducible. The library workshop (with Giada Zanella) is your chance to practise.",
+      "keyPoints": [
+        "Databases: PubMed/MEDLINE, Embase, Scopus, Web of Science, Cochrane Library; Google Scholar for a broad sweep.",
+        "Break the question into concepts (e.g. PICO) and list synonyms and spelling variants for each.",
+        "Boolean: OR within a concept (widens), AND between concepts (narrows), NOT to exclude (use carefully).",
+        "Truncation (e.g. myop* finds myopia, myopic) and phrase searching (\"contact lens\").",
+        "Subject headings (MeSH in PubMed) catch papers that use different words.",
+        "Filters: date, language, study type, humans.",
+        "Use a reference manager and the referencing style your module asks for; record your search strategy."
+      ],
+      "examTraps": [
+        "Searching one keyword in Google and stopping there.",
+        "Using AND between synonyms (narrows instead of widening).",
+        "Not recording the search, so it can't be repeated or described in your methods."
+      ],
+      "diagram": {
+        "id": "boolean",
+        "description": "Venn diagrams: 'myopia OR nearsightedness' (both circles shaded — wider), 'myopia AND children' (only the overlap shaded — narrower), 'myopia NOT adults' (one circle shaded minus the overlap).",
+        "labels": ["OR: wider", "AND: narrower", "NOT: excludes"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Building a search string",
+          "body": "Question: does orthokeratology slow myopia in children? Concepts: orthokeratology; myopia; children. String: (orthokeratology OR ortho-k OR \"corneal reshaping\") AND (myop* OR nearsighted*) AND (child* OR paediatric OR pediatric). Add filters for systematic reviews or RCTs if you want the strongest evidence first."
+        },
+        {
+          "heading": "Judging sources",
+          "body": "Prefer peer-reviewed journals and established databases. Be wary of predatory journals (aggressive emails, very fast acceptance, unclear peer review). Check who wrote and funded a piece. Professional magazines (e.g. Optometry Today) are useful for clinical updates but aren't primary research."
+        }
+      ],
+      "flashcards": [
+        { "front": "OR vs AND", "back": "OR widens (synonyms); AND narrows (combines concepts)." },
+        { "front": "Truncation example", "back": "myop* → myopia, myopic, myopes." },
+        { "front": "PubMed subject headings", "back": "MeSH (Medical Subject Headings)." },
+        { "front": "Why record your search?", "back": "So it's reproducible and can be reported in your methods." }
+      ],
+      "mcq": [
+        {
+          "id": "vse-ls-1",
+          "q": "Which search finds the MOST results?",
+          "options": [
+            { "text": "glaucoma OR \"ocular hypertension\"", "correct": true, "feedback": "Yes — OR widens the search." },
+            { "text": "glaucoma AND \"ocular hypertension\"", "correct": false, "feedback": "AND requires both, narrowing it." },
+            { "text": "glaucoma NOT \"ocular hypertension\"", "correct": false, "feedback": "NOT removes results." },
+            { "text": "\"glaucoma ocular hypertension\"", "correct": false, "feedback": "An exact phrase is very narrow." }
+          ],
+          "explanation": "OR combines synonyms or related terms and returns anything with either.",
+          "link": "vse-literature-search#building-a-search-string"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" },
+        { "label": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/" }
+      ],
+      "askClaude": "Help me build a PubMed search string for a question I'm working on: ask me the question, break it into concepts and synonyms, then build the Boolean string."
+    }
+  ]
+}

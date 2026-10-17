@@ -1,0 +1,186 @@
+{
+  "module": "DoC",
+  "verifyNote": "Written from the joint professional duty of candour statement, GOC guidance and UK law. Always check against Dr Bartlett's session and the current GOC guidance on optical.org.",
+  "topics": [
+    {
+      "id": "doc-what-it-requires",
+      "title": "What the professional duty of candour requires",
+      "summary": "Every healthcare professional must be open and honest with patients when something goes wrong with their care that causes, or could cause, harm or distress. The UK healthcare regulators (including the GOC) set this out together in a joint statement on the professional duty of candour.",
+      "keyPoints": [
+        "Tell the patient (or their carer/advocate) when something has gone wrong.",
+        "Apologise.",
+        "Offer an appropriate remedy or support to put matters right if possible.",
+        "Explain fully the short- and long-term effects of what has happened.",
+        "Be open and honest with colleagues, employers and regulators; take part in reviews and investigations.",
+        "Report adverse incidents and near misses through the right systems so lessons are learned.",
+        "The professional duty applies to individuals; there's also a separate statutory duty of candour for organisations (e.g. Regulation 20 in England, overseen by the CQC)."
+      ],
+      "examTraps": [
+        "Thinking candour only applies when actual harm occurs — it includes potential harm and distress.",
+        "Mixing up the professional (individual) duty with the statutory (organisational) duty.",
+        "Believing an apology admits legal liability."
+      ],
+      "diagram": {
+        "id": "candour-steps",
+        "description": "Four steps in a row with arrows: Tell → Apologise → Put right / support → Explain effects. Below: 'Report and learn' feeding back into practice.",
+        "labels": ["Tell", "Apologise", "Put right", "Explain", "Report and learn"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Examples in optometry",
+          "body": "Wrong prescription dispensed; lenses glazed with the wrong axis; a missed or delayed referral; a corneal abrasion from contact tonometry; an allergic reaction to drops; records sent to the wrong patient. Each needs honesty with the patient, an apology, practical steps to put it right and reporting."
+        },
+        {
+          "heading": "As a student",
+          "body": "If something goes wrong in clinic, tell your supervisor straight away — don't try to hide or fix it alone. The supervisor will help with talking to the patient and recording it. Being candid as a student is part of the GOC Standards for Optical Students."
+        }
+      ],
+      "flashcards": [
+        { "front": "Four things the duty of candour requires with patients", "back": "Tell, apologise, offer remedy/support, explain effects." },
+        { "front": "Professional vs statutory duty", "back": "Professional = individuals (regulators); statutory = organisations (e.g. CQC Regulation 20 in England)." },
+        { "front": "Does candour apply to potential harm?", "back": "Yes — harm or potential harm and distress." },
+        { "front": "What to do as a student when something goes wrong", "back": "Tell your supervisor immediately." }
+      ],
+      "mcq": [
+        {
+          "id": "doc-req-1",
+          "q": "You realise you gave a patient the wrong axis on their prescription last week. What does candour require?",
+          "options": [
+            { "text": "Contact the patient, explain, apologise, put it right and report it", "correct": true, "feedback": "Yes — that's the duty in full." },
+            { "text": "Wait to see if they notice", "correct": false, "feedback": "That isn't open or honest." },
+            { "text": "Quietly change the record", "correct": false, "feedback": "Altering records to hide errors is serious misconduct." },
+            { "text": "Only tell them if they complain", "correct": false, "feedback": "Candour is proactive." }
+          ],
+          "explanation": "Be open, apologise, fix it (e.g. remake the glasses), explain any effects and report through the right system.",
+          "link": "doc-what-it-requires#examples-in-optometry"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "General Optical Council: standards and guidance", "url": "https://optical.org/" },
+        { "label": "CQC: Regulation 20 duty of candour", "url": "https://www.cqc.org.uk/guidance-providers/regulations/regulation-20-duty-candour" }
+      ],
+      "askClaude": "Explain the professional duty of candour simply, then give me 3 clinic mistakes and ask me exactly what I'd say and do."
+    },
+    {
+      "id": "doc-apologising",
+      "title": "Apologising and explaining when things go wrong",
+      "summary": "A good apology is prompt, sincere and specific, and comes with a clear explanation and a plan. Saying sorry is not an admission of legal liability. Patients mostly want to know what happened, that someone cares, and that it won't happen again.",
+      "keyPoints": [
+        "Apologise as soon as practical, ideally face to face, in a private space.",
+        "Be specific: 'I'm sorry that your glasses were made with the wrong prescription.'",
+        "Explain what happened in plain language, without jargon or blame.",
+        "Say what you'll do now and what support is available.",
+        "Listen and answer questions; give a point of contact.",
+        "In England and Wales, an apology doesn't of itself amount to an admission of negligence (Compensation Act 2006, s.2).",
+        "Record the conversation and follow up as promised."
+      ],
+      "examTraps": [
+        "A non-apology ('I'm sorry you feel that way').",
+        "Blaming colleagues or the lab in front of the patient.",
+        "Promising outcomes you can't guarantee."
+      ],
+      "diagram": {
+        "id": "apology-structure",
+        "description": "Speech bubble template split into parts: 'I'm sorry that…' (specific) → 'What happened was…' (explanation) → 'What we'll do now is…' (remedy) → 'If you have any questions…' (support and contact).",
+        "labels": ["Specific apology", "Explanation", "Remedy", "Support and contact"]
+      },
+      "goDeeper": [
+        {
+          "heading": "An example conversation",
+          "body": "'Mrs Ahmed, thank you for coming back in. I'm sorry — your new glasses were made with the wrong strength in the right lens, which is why things looked blurry. That was our error. We'll remake them as a priority at no cost, and I'll check them myself before you collect. In the meantime your old glasses are safe to use. Do you have any questions? Here's my direct number if anything else worries you.'"
+        },
+        {
+          "heading": "After the conversation",
+          "body": "Record what happened, what you said and agreed, and report the incident through your practice's system. Reflect on it (what caused it, what will prevent it) — it's also good material for CPD reflection once you're qualified."
+        }
+      ],
+      "flashcards": [
+        { "front": "Does an apology admit liability?", "back": "No — Compensation Act 2006, s.2 (England & Wales)." },
+        { "front": "Features of a good apology", "back": "Prompt, sincere, specific, with explanation and a plan." },
+        { "front": "A 'non-apology' example", "back": "'I'm sorry you feel that way.'" },
+        { "front": "After apologising", "back": "Record it, report the incident, follow up, reflect." }
+      ],
+      "mcq": [
+        {
+          "id": "doc-apol-1",
+          "q": "Which is the best opening line?",
+          "options": [
+            { "text": "'I'm sorry your glasses were made to the wrong prescription — that was our mistake.'", "correct": true, "feedback": "Specific, sincere and takes responsibility." },
+            { "text": "'Sorry if you're unhappy.'", "correct": false, "feedback": "Vague and conditional." },
+            { "text": "'The lab must have messed up.'", "correct": false, "feedback": "Blames others and isn't an apology." },
+            { "text": "'These things happen.'", "correct": false, "feedback": "Dismissive." }
+          ],
+          "explanation": "Good apologies name the problem and own it, without blame.",
+          "link": "doc-apologising#an-example-conversation"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" },
+        { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" }
+      ],
+      "askClaude": "Role-play an upset patient whose glasses were made wrongly. Let me apologise and explain, then score me on honesty, clarity and empathy."
+    },
+    {
+      "id": "doc-raising-concerns",
+      "title": "Raising concerns",
+      "summary": "If you're worried that patients could be put at risk — by a colleague, a system, or a practice — you have a professional duty to raise it. Start with the right person locally, keep records, and know where to go if that doesn't work. Whistleblowers are legally protected.",
+      "keyPoints": [
+        "You must raise concerns about patient safety, even as a student.",
+        "Start locally: your supervisor, clinic lead or manager; at university, the clinic or programme lead.",
+        "If immediate patient safety is at risk, act straight away.",
+        "Write down what you saw, when, and who you told.",
+        "If local routes fail or aren't appropriate, escalate (e.g. employer's senior management, NHS Freedom to Speak Up Guardians, the regulator).",
+        "The Public Interest Disclosure Act 1998 protects workers who raise genuine concerns in the public interest.",
+        "Concerns about yourself (health, competence) should also be raised — seeking help is professional."
+      ],
+      "examTraps": [
+        "Going straight to social media or the press.",
+        "Waiting until you have 'proof' when patients are at risk.",
+        "Thinking students don't have this duty."
+      ],
+      "diagram": {
+        "id": "raising-concerns-ladder",
+        "description": "A ladder of escalation from bottom to top: Supervisor or clinic lead → Practice/clinic manager or programme lead → Organisation's senior management or Freedom to Speak Up Guardian → Regulator (e.g. GOC). Side note: if immediate risk, act now.",
+        "labels": ["Supervisor / clinic lead", "Manager / programme lead", "Senior management / Speak Up Guardian", "Regulator (GOC)"]
+      },
+      "goDeeper": [
+        {
+          "heading": "A student example",
+          "body": "You notice a practitioner at a placement repeatedly skipping fundus examination on patients with diabetes. Note what you've seen (dates, no patient-identifiable details outside records). Raise it with your placement supervisor or university placement lead. They're there to help you handle it safely and fairly."
+        },
+        {
+          "heading": "Why speaking up matters",
+          "body": "Many serious failures in healthcare were noticed by someone who felt unable to speak. A culture where people can raise concerns early — without blame — protects patients and staff. Raising a concern is about safety, not about getting someone into trouble."
+        }
+      ],
+      "flashcards": [
+        { "front": "First person to raise a clinic concern with (student)", "back": "Your supervisor or clinic lead." },
+        { "front": "Law protecting whistleblowers", "back": "Public Interest Disclosure Act 1998." },
+        { "front": "If patient safety is at immediate risk", "back": "Act straight away." },
+        { "front": "NHS role for supporting staff to raise concerns", "back": "Freedom to Speak Up Guardian." }
+      ],
+      "mcq": [
+        {
+          "id": "doc-rc-1",
+          "q": "On placement you see a colleague reuse a single-use tonometer tip between patients. Best first step?",
+          "options": [
+            { "text": "Raise it promptly with your placement supervisor", "correct": true, "feedback": "Yes — start with the local route." },
+            { "text": "Post about it anonymously online", "correct": false, "feedback": "Inappropriate and doesn't fix the problem." },
+            { "text": "Say nothing — you're only a student", "correct": false, "feedback": "Students have a duty to raise concerns." },
+            { "text": "Report straight to the press", "correct": false, "feedback": "Not an appropriate first step." }
+          ],
+          "explanation": "Infection-control risks affect patient safety; raise it with the right person promptly and record it.",
+          "link": "doc-raising-concerns#a-student-example"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" },
+        { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" }
+      ],
+      "askClaude": "Give me 3 placement situations where something feels wrong and ask me whether and how I'd raise a concern, step by step."
+    }
+  ]
+}

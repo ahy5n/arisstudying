@@ -1,0 +1,250 @@
+{
+  "module": "PPD",
+  "verifyNote": "Written from GOC standards and UK professional practice guidance. Always check against Dr Aujla's and Mr Chowdhury's sessions and the current GOC documents on optical.org — standards are updated from time to time.",
+  "topics": [
+    {
+      "id": "ppd-goc-standards",
+      "title": "GOC Standards for Optical Students",
+      "summary": "The General Optical Council (GOC) regulates optometrists, dispensing opticians and students in training. As a registered student you're expected to meet the GOC's Standards for Optical Students: putting patients first, communicating well, getting consent, working within your competence, being honest, and behaving professionally — in and out of clinic, including online.",
+      "keyPoints": [
+        "Optometry students in the UK must be registered with the GOC while training.",
+        "The Standards for Optical Students set out the behaviour expected; they mirror the Standards of Practice for registrants.",
+        "Themes include: listening to patients and putting them first, communicating effectively, obtaining valid consent, showing care and respect, protecting confidentiality, working within your competence and under supervision.",
+        "Also: being honest and trustworthy, being candid when things go wrong, raising concerns about patient safety, and maintaining public confidence in the profession.",
+        "Professional behaviour applies outside clinic too — including social media.",
+        "Concerns about a student's fitness to train can be raised with the university and the GOC.",
+        "Check optical.org for the current version (new standards came into effect from January 2025)."
+      ],
+      "examTraps": [
+        "Thinking the standards only apply in clinic.",
+        "Forgetting that students must be GOC-registered.",
+        "Quoting old wording — always refer to the current version."
+      ],
+      "diagram": {
+        "id": "goc-themes",
+        "description": "A circle labelled 'The patient' in the centre, surrounded by segments: communication, consent, care and respect, confidentiality, competence and supervision, honesty and candour, raising concerns, professionalism (including online).",
+        "labels": ["Communication", "Consent", "Confidentiality", "Competence", "Candour", "Raising concerns", "Professionalism"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Working within your competence",
+          "body": "As a student you work under supervision. Know what you're allowed to do, ask when unsure, never present yourself as qualified, and make sure patients know you're a student. If something is beyond you, stop and get your supervisor — that's professional, not a weakness."
+        },
+        {
+          "heading": "Social media and conduct",
+          "body": "Don't post about patients (even 'anonymised' stories can identify people), don't share clinic photos with patient information, and think about how posts reflect on the profession. Conduct outside clinic — including academic honesty — counts towards fitness to train."
+        }
+      ],
+      "flashcards": [
+        { "front": "Who regulates optometry students in the UK?", "back": "The General Optical Council (GOC)." },
+        { "front": "Must optometry students register?", "back": "Yes — with the GOC, while training." },
+        { "front": "Do the standards apply online?", "back": "Yes — professional behaviour includes social media." },
+        { "front": "Where to find the current standards", "back": "optical.org (GOC website)." }
+      ],
+      "mcq": [
+        {
+          "id": "ppd-goc-1",
+          "q": "A classmate posts a funny story about a clinic patient without their name. What's the issue?",
+          "options": [
+            { "text": "It may still identify the patient and breaches confidentiality and professionalism", "correct": true, "feedback": "Yes — details can identify people, and it undermines trust." },
+            { "text": "No issue — no name was used", "correct": false, "feedback": "Other details can still identify someone." },
+            { "text": "Only an issue if the patient sees it", "correct": false, "feedback": "The breach happens when it's posted." },
+            { "text": "Standards don't apply to students", "correct": false, "feedback": "They do — there are specific Standards for Optical Students." }
+          ],
+          "explanation": "Confidentiality and professional conduct apply online and offline; 'anonymised' stories can still identify patients.",
+          "link": "ppd-goc-standards#social-media-and-conduct"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" },
+        { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" }
+      ],
+      "askClaude": "Give me 5 professionalism dilemmas a 2nd-year optometry student might face and ask me what the GOC standards would expect me to do."
+    },
+    {
+      "id": "ppd-communication-consent",
+      "title": "Communication and consent",
+      "summary": "Valid consent must be voluntary, informed and given by someone with capacity. Good communication makes consent meaningful: explain what you'll do and why, check understanding, and respect the answer.",
+      "keyPoints": [
+        "Valid consent: voluntary (no pressure), informed (benefits, risks, alternatives), and the person has capacity.",
+        "Consent can be verbal, written or implied — but implied consent shouldn't be assumed for anything invasive (e.g. drops, contact tonometry).",
+        "Mental Capacity Act 2005 (England & Wales): assume capacity unless shown otherwise; a person lacks capacity for a decision if they can't understand, retain, use/weigh the information, or communicate a decision.",
+        "Children: parental consent, or the child's own consent if Gillick competent.",
+        "Consent is specific and ongoing — patients can withdraw at any time.",
+        "Communication skills: open questions, active listening, no jargon, check understanding (teach-back), non-verbal cues, interpreters when needed.",
+        "Record consent and important information given."
+      ],
+      "examTraps": [
+        "Assuming a signature equals informed consent.",
+        "Using a family member as an interpreter for sensitive information without thought.",
+        "Forgetting that capacity is decision-specific."
+      ],
+      "diagram": {
+        "id": "consent-triangle",
+        "description": "Triangle with three corners: voluntary, informed, capacity — 'valid consent' in the centre. Under 'capacity', four boxes: understand, retain, use/weigh, communicate.",
+        "labels": ["Voluntary", "Informed", "Capacity", "Understand / retain / weigh / communicate"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Consent for eye drops",
+          "body": "Before dilating: explain why, the effects (blur, light sensitivity, not driving until vision is clear), rare risks (e.g. angle closure symptoms to watch for), and alternatives. Ask if they have questions, check they agree, and record it. If they decline, record that and the implications you explained."
+        },
+        {
+          "heading": "Teach-back",
+          "body": "Instead of 'Do you understand?', ask 'Just so I know I've explained it well, can you tell me what you'll do if your eye gets red and painful?' It checks understanding without making the patient feel tested."
+        },
+        {
+          "heading": "Across the UK",
+          "body": "Capacity law differs between nations (e.g. the Adults with Incapacity (Scotland) Act 2000 in Scotland). The principles — presume capacity, support decision-making, act in the person's best interests when they lack capacity — are similar."
+        }
+      ],
+      "flashcards": [
+        { "front": "Three elements of valid consent", "back": "Voluntary, informed, capacity." },
+        { "front": "Four capacity abilities (MCA 2005)", "back": "Understand, retain, use/weigh, communicate." },
+        { "front": "Gillick competence", "back": "A child with enough understanding and maturity can consent for themselves." },
+        { "front": "Teach-back", "back": "Asking the patient to explain back in their own words to check understanding." }
+      ],
+      "mcq": [
+        {
+          "id": "ppd-con-1",
+          "q": "A patient agrees to drops after you say 'I'm just going to put some drops in'. Is this valid consent?",
+          "options": [
+            { "text": "No — they weren't informed of purpose, effects and risks", "correct": true, "feedback": "Right — consent must be informed." },
+            { "text": "Yes — they didn't object", "correct": false, "feedback": "Not objecting isn't informed consent." },
+            { "text": "Yes — drops never need consent", "correct": false, "feedback": "They do." },
+            { "text": "Only if they sign a form", "correct": false, "feedback": "Verbal consent can be valid if it's informed." }
+          ],
+          "explanation": "Patients need to know why, what to expect and the risks before they can give valid consent.",
+          "link": "ppd-communication-consent#consent-for-eye-drops"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" },
+        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" }
+      ],
+      "askClaude": "Role-play a patient unsure about having dilating drops. Let me explain and gain consent, then give me feedback on clarity and what I missed."
+    },
+    {
+      "id": "ppd-ipl",
+      "title": "Interprofessional learning (IPL)",
+      "summary": "Interprofessional learning brings students from different health professions together to learn with, from and about each other, so they can work better as teams and improve patient care. Your IPL session is compulsory.",
+      "keyPoints": [
+        "Definition (CAIPE): when two or more professions learn with, from and about each other to improve collaboration and the quality of care.",
+        "Your IPL session: Thu 19 Nov, 14:00–16:00 (rooms G77/79/81) — compulsory.",
+        "Know other eye-care roles: dispensing opticians, orthoptists, ophthalmologists, ophthalmic nurses, GPs, pharmacists.",
+        "Optometrists often refer to and work alongside GPs, pharmacists and hospital eye services.",
+        "Clear communication between professions (e.g. SBAR: Situation, Background, Assessment, Recommendation) reduces errors.",
+        "Respect for each profession's expertise and scope is central to good teamwork.",
+        "Reflect on what you learned about other roles and how it changes your practice."
+      ],
+      "examTraps": [
+        "Treating IPL as just 'meeting other students' rather than learning about roles and teamwork.",
+        "Not knowing what orthoptists and dispensing opticians do.",
+        "Forgetting it's compulsory."
+      ],
+      "diagram": {
+        "id": "eye-care-team",
+        "description": "A patient in the centre connected to: optometrist, dispensing optician, orthoptist, ophthalmologist, GP, pharmacist, ophthalmic nurse — with arrows showing typical referral and communication routes.",
+        "labels": ["Optometrist", "Dispensing optician", "Orthoptist", "Ophthalmologist", "GP", "Pharmacist"]
+      },
+      "goDeeper": [
+        {
+          "heading": "SBAR in eye care",
+          "body": "Situation: 'I'm calling about Mrs X, who has a painful red eye and reduced vision.' Background: 'She wears monthly contact lenses and slept in them.' Assessment: 'There's a 2 mm central infiltrate with an epithelial defect — I suspect microbial keratitis.' Recommendation: 'Could she be seen in eye casualty today?' Clear and quick for the person receiving it."
+        },
+        {
+          "heading": "Who does what",
+          "body": "Dispensing opticians fit and dispense spectacles (and with extra qualification, contact lenses). Orthoptists specialise in binocular vision and eye movement disorders (e.g. amblyopia treatment). Ophthalmologists are medical doctors specialising in eye disease and surgery. Pharmacists advise on medicines, including eye drops and side effects."
+        }
+      ],
+      "flashcards": [
+        { "front": "CAIPE definition of IPL", "back": "Two or more professions learning with, from and about each other to improve collaboration and care." },
+        { "front": "SBAR", "back": "Situation, Background, Assessment, Recommendation." },
+        { "front": "Orthoptist's specialism", "back": "Binocular vision and eye movement disorders." },
+        { "front": "Your IPL session", "back": "Thu 19 Nov, 14:00–16:00 — compulsory." }
+      ],
+      "mcq": [
+        {
+          "id": "ppd-ipl-1",
+          "q": "Which professional mainly manages amblyopia treatment programmes in UK hospitals?",
+          "options": [
+            { "text": "Orthoptist", "correct": true, "feedback": "Yes — alongside ophthalmologists." },
+            { "text": "Dispensing optician", "correct": false, "feedback": "They dispense spectacles." },
+            { "text": "Pharmacist", "correct": false, "feedback": "They advise on medicines." },
+            { "text": "GP", "correct": false, "feedback": "GPs refer but don't manage amblyopia treatment." }
+          ],
+          "explanation": "Orthoptists specialise in binocular vision and run amblyopia treatment within hospital eye services.",
+          "link": "ppd-ipl#who-does-what"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "CAIPE", "url": "https://www.caipe.org/" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Help me practise SBAR: give me 3 eye scenarios and let me phone through a referral to you as the receiving doctor, then give feedback."
+    },
+    {
+      "id": "ppd-reflection",
+      "title": "Reflective practice",
+      "summary": "Reflection turns experience into learning: what happened, what you thought and felt, what it means, and what you'll do differently. It's a core professional skill and part of the GOC's continuing professional development (CPD) requirements once you qualify.",
+      "keyPoints": [
+        "Gibbs' cycle: description → feelings → evaluation → analysis → conclusion → action plan.",
+        "Driscoll: What? So what? Now what?",
+        "Kolb's cycle: concrete experience → reflective observation → abstract conceptualisation → active experimentation.",
+        "Schön: reflection-in-action (during) vs reflection-on-action (after).",
+        "Good reflection is honest, specific and leads to a concrete action (make it SMART).",
+        "Keep patient details out of reflective writing — anonymise properly.",
+        "Qualified registrants complete CPD that includes reflection (with peer review elements) in the GOC scheme."
+      ],
+      "examTraps": [
+        "Writing a description with no analysis or action.",
+        "Including identifiable patient details.",
+        "Only reflecting on things that went wrong — good experiences are worth reflecting on too."
+      ],
+      "diagram": {
+        "id": "gibbs-cycle",
+        "description": "Circular diagram with six stages and arrows: Description, Feelings, Evaluation, Analysis, Conclusion, Action plan, returning to Description.",
+        "labels": ["Description", "Feelings", "Evaluation", "Analysis", "Conclusion", "Action plan"]
+      },
+      "goDeeper": [
+        {
+          "heading": "A short Gibbs example",
+          "body": "Description: my retinoscopy took too long in the presbyope clinic. Feelings: flustered, worried about running over. Evaluation: the subjective went well once I moved on. Analysis: I kept re-checking neutral in a dull reflex; I hadn't practised high-hyperopic reflexes. Conclusion: I need a time limit and more practice on tricky reflexes. Action: practise ret on 3 classmates with plus lenses this week, and set myself a 10-minute cap."
+        },
+        {
+          "heading": "SMART actions",
+          "body": "Specific, Measurable, Achievable, Relevant, Time-bound. 'Get better at JCC' becomes 'Practise 5 JCC routines on the practice heads before Friday's lab and time each one'."
+        }
+      ],
+      "flashcards": [
+        { "front": "Gibbs' six stages", "back": "Description, feelings, evaluation, analysis, conclusion, action plan." },
+        { "front": "Driscoll's model", "back": "What? So what? Now what?" },
+        { "front": "Reflection-in-action vs on-action", "back": "In-action = during the event; on-action = afterwards (Schön)." },
+        { "front": "SMART", "back": "Specific, Measurable, Achievable, Relevant, Time-bound." }
+      ],
+      "mcq": [
+        {
+          "id": "ppd-ref-1",
+          "q": "Which stage of Gibbs' cycle asks 'why did it happen?' and links to theory?",
+          "options": [
+            { "text": "Analysis", "correct": true, "feedback": "Yes — making sense of the situation." },
+            { "text": "Description", "correct": false, "feedback": "That's what happened." },
+            { "text": "Feelings", "correct": false, "feedback": "That's what you thought and felt." },
+            { "text": "Action plan", "correct": false, "feedback": "That's what you'll do next time." }
+          ],
+          "explanation": "Analysis is where you explore causes and connect the experience to knowledge and theory.",
+          "link": "ppd-reflection#a-short-gibbs-example"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Help me write a short Gibbs reflection on a clinic or lab experience I'll describe. Ask me questions for each stage rather than writing it for me."
+    }
+  ]
+}

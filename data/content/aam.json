@@ -1,0 +1,674 @@
+{
+  "module": "AaM",
+  "verifyNote": "Written from standard UK refraction practice. Always check against Dr Sheppard's slides — clinic routines (fog size, JCC power, balancing method) can differ between departments.",
+  "topics": [
+    {
+      "id": "aam-retinoscopy",
+      "title": "Retinoscopy: refinement and the working-distance lens",
+      "summary": "Retinoscopy gives an objective starting point for the subjective. You neutralise the reflex in each principal meridian, then take off the working-distance allowance: at 67 cm that's 1.50 D, so the net result is the gross result minus +1.50 D.",
+      "keyPoints": [
+        "Working distance allowance = 1 / working distance (m). At 67 cm it's +1.50 D; at 50 cm it's +2.00 D.",
+        "Net Rx = gross (lenses in the trial frame at neutral) − working-distance lens. E.g. gross +3.50 at 67 cm → net +2.00.",
+        "'With' movement → add plus. 'Against' movement → add minus.",
+        "Near neutral the reflex gets brighter, faster and wider; at neutral the pupil fills with no movement.",
+        "With a streak retinoscope, find the two principal meridians by rotating the streak until the reflex lines up with it (no 'break').",
+        "Patient fixates a distant target with both eyes open (e.g. a green or red target at 6 m) to relax accommodation.",
+        "Keep your eyes in line with the patient's visual axis: right eye for their right, left eye for their left."
+      ],
+      "examTraps": [
+        "Forgetting to subtract the working-distance lens (or adding it instead).",
+        "Recording 'neutral' too early — check by moving slightly forward (should see with) and back (should see against).",
+        "Letting the patient look at the light: accommodation creeps in and the result goes too minus."
+      ],
+      "diagram": {
+        "id": "ret-reflex",
+        "description": "Three pupils side by side. Left: 'with' movement — the reflex moves the same way as the streak (add plus). Middle: 'against' movement — the reflex moves the opposite way (add minus). Right: neutral — the pupil is filled with a bright reflex and no movement.",
+        "labels": ["With movement → add plus", "Against movement → add minus", "Neutral: pupil filled, no movement", "Streak direction"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Why the working-distance lens exists",
+          "body": "At neutral, the patient's far point is at your retinoscope's peephole, not at infinity. If you sit at 67 cm, the lenses in the trial frame have made the eye 1.50 D myopic (focused at 67 cm). Taking off +1.50 D gives the Rx that focuses the eye at infinity. Some practitioners put a +1.50 working-distance lens in the frame during ret so the gross reading in the other lenses is already the net result — check which method your clinic expects."
+        },
+        {
+          "heading": "Finding the axis with a streak",
+          "body": "Sweep the streak at 90° to its length. If the reflex inside the pupil isn't parallel to the streak (it looks 'broken'), rotate the sleeve until they line up: that's a principal meridian. Neutralise it with spheres, then turn the streak 90° and neutralise the other meridian. The difference between the two is the cylinder; its axis is the meridian you neutralised with the more positive sphere when writing the Rx in minus-cylinder form."
+        },
+        {
+          "heading": "Tricky reflexes",
+          "body": "A dull, slow reflex usually means a large error — try a big lens (±4.00 or more) to find which way you're going. A 'scissors' reflex (two bands moving towards each other) is seen in keratoconus and some high astigmatism. Small pupils and media opacities make the reflex dim; dimming the room and asking the patient to keep looking past you helps."
+        }
+      ],
+      "checklist": {
+        "id": "chk-retinoscopy",
+        "title": "Static retinoscopy routine",
+        "steps": [
+          "Explain what you're doing and ask the patient to look at the distant target, both eyes open.",
+          "Dim the room lights; put on the trial frame and check its PD and height.",
+          "Sit at your working distance (e.g. 67 cm), level with the patient, slightly off-axis.",
+          "Use your right eye for their right eye; sweep to judge with/against and speed.",
+          "Rotate the streak to find the principal meridians.",
+          "Neutralise the first meridian with spheres; confirm neutral by moving forward and back.",
+          "Turn the streak 90° and neutralise the second meridian (sphere or cylinder lens).",
+          "Repeat for the left eye with your left eye.",
+          "Subtract the working-distance lens and record the net result (and VA with it).",
+          "Use the result as the starting point for subjective refraction."
+        ]
+      },
+      "flashcards": [
+        { "front": "Working-distance lens at 67 cm", "back": "+1.50 D (1 / 0.67 m). Subtract it from the gross result." },
+        { "front": "'With' movement means…", "back": "Add plus (the far point is behind you)." },
+        { "front": "'Against' movement means…", "back": "Add minus (the far point is between you and the patient)." },
+        { "front": "What does neutral look like?", "back": "The pupil fills with a bright reflex and there's no movement as you sweep." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-ret-1",
+          "q": "Working at 67 cm you neutralise both meridians of the right eye with +2.75 DS. What is the net prescription?",
+          "options": [
+            { "text": "+1.25 DS", "correct": true, "feedback": "Right: +2.75 − 1.50 = +1.25 DS." },
+            { "text": "+4.25 DS", "correct": false, "feedback": "That adds the working-distance lens. You subtract it." },
+            { "text": "+2.75 DS", "correct": false, "feedback": "That's the gross result. Take off the +1.50 working-distance allowance." },
+            { "text": "+0.75 DS", "correct": false, "feedback": "That subtracts +2.00, which is the allowance for 50 cm, not 67 cm." }
+          ],
+          "explanation": "Net = gross − 1/working distance. At 0.67 m the allowance is +1.50 D.",
+          "link": "aam-retinoscopy#why-the-working-distance-lens-exists"
+        },
+        {
+          "id": "aam-ret-2",
+          "q": "With +1.00 DS in the frame you see a fast 'with' movement. What do you do next?",
+          "options": [
+            { "text": "Add more plus", "correct": true, "feedback": "Yes — 'with' means more plus is needed to reach neutral." },
+            { "text": "Add minus", "correct": false, "feedback": "Minus is for 'against' movement." },
+            { "text": "Record neutral", "correct": false, "feedback": "Neutral has no movement. A fast 'with' means you're close but not there." },
+            { "text": "Move further away", "correct": false, "feedback": "Changing distance changes the allowance; stay at your working distance and change lenses." }
+          ],
+          "explanation": "A faster, brighter, wider reflex tells you you're getting close to neutral; keep adding plus in small steps.",
+          "link": "aam-retinoscopy#tricky-reflexes"
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "Working at 50 cm, you neutralise the horizontal meridian with +1.00 DS and the vertical meridian with +2.50 DS.",
+          "question": "What is the net prescription in minus-cylinder form?",
+          "modelAnswer": "Allowance at 50 cm is +2.00 D. Net horizontal = −1.00, net vertical = +0.50. The more positive meridian is vertical (90), so in minus-cyl form: +0.50 / −1.50 × 90."
+        }
+      ],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Give me 5 retinoscopy practice questions (different working distances and astigmatic results) and check my net Rx in minus-cyl form."
+    },
+    {
+      "id": "aam-subjective",
+      "title": "Subjective refraction: best vision sphere, fogging and duochrome",
+      "summary": "The aim of the spherical part of the subjective is the most plus (least minus) that gives the best acuity. Fogging relaxes accommodation first, then you reduce the plus until vision is best; the duochrome checks you haven't over-minused.",
+      "keyPoints": [
+        "Best vision sphere (BVS) / maximum plus to maximum visual acuity (MPMVA): the most positive sphere that gives the best VA.",
+        "Fog first (e.g. +0.75 to +1.00 over the ret result) so accommodation relaxes, then reduce plus in 0.25 D steps.",
+        "Each −0.25 D should buy about one line of acuity; if it doesn't, don't give it.",
+        "Duochrome: red clearer → add minus (−0.25); green clearer → add plus (+0.25). Aim for equal, or red slightly clearer.",
+        "The duochrome works on chromatic aberration, so it still works in most colour vision deficient patients.",
+        "Pinhole: if VA improves through a pinhole, the reduced VA is likely refractive.",
+        "Use the +1.00 blur test at the end: VA should drop to about 6/12–6/18 (unaided-check of over-minus)."
+      ],
+      "examTraps": [
+        "Over-minusing: young patients will accept extra minus by accommodating and say it's 'darker/smaller but sharper'.",
+        "Reversing the duochrome rule — red clearer means the image is in front of the retina, so add minus.",
+        "Forgetting to re-check the sphere after finding the cylinder (maintain the spherical equivalent)."
+      ],
+      "diagram": {
+        "id": "duochrome",
+        "description": "Eye with light entering. Green focus falls in front of red focus because of longitudinal chromatic aberration. Left panel: myopic (under-minused) — red focus nearer retina, red looks clearer, add minus. Right panel: over-minused — green clearer, add plus. Centre: balanced — retina sits between red and green foci (yellow light on the retina).",
+        "labels": ["Green focus", "Red focus", "Retina", "Red clearer → add minus", "Green clearer → add plus"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Why fogging works",
+          "body": "Putting the eye artificially myopic (fogging) means accommodation can only make things blurrier, so the patient relaxes it. As you reduce the plus, vision improves until you reach the far point. Going past that point the patient has to accommodate to keep things clear, which is why extra minus 'feels' fine to young eyes but causes asthenopia later."
+        },
+        {
+          "heading": "Duochrome in practice",
+          "body": "Ask: 'Are the letters clearer on the red or the green, or are they the same?' Use the black rings or letters a line above the best VA. Red clearer: add −0.25. Green clearer: add +0.25. If it flips with a single 0.25 step, choose the red-clearer end for younger patients (relaxed accommodation) and the green end can be acceptable for presbyopes doing near work — check your clinic's convention."
+        },
+        {
+          "heading": "Recording the result",
+          "body": "Record each eye's sphere, cylinder and axis with the VA achieved, e.g. R +1.25/−0.50 × 180 6/5. Note the method (e.g. 'BVS, duochrome balanced') if your clinic asks for it, and the final binocular VA."
+        }
+      ],
+      "flashcards": [
+        { "front": "Duochrome: red clearer", "back": "Add minus (−0.25 D)." },
+        { "front": "Duochrome: green clearer", "back": "Add plus (+0.25 D)." },
+        { "front": "What is BVS / MPMVA?", "back": "The most plus (least minus) sphere giving the best visual acuity." },
+        { "front": "Rule of thumb for each −0.25 D", "back": "It should improve VA by about one line; if not, don't prescribe it." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-sub-1",
+          "q": "On the duochrome, a patient says the letters on the green are clearer. What do you do?",
+          "options": [
+            { "text": "Add +0.25 DS", "correct": true, "feedback": "Correct: green clearer suggests over-minus, so add plus." },
+            { "text": "Add −0.25 DS", "correct": false, "feedback": "That's the response for red clearer." },
+            { "text": "Leave it — green is the goal", "correct": false, "feedback": "The aim is equal or red slightly clearer, not green." },
+            { "text": "Add −0.25 cylinder", "correct": false, "feedback": "The duochrome checks the sphere, not the cylinder." }
+          ],
+          "explanation": "Shorter (green) wavelengths focus in front of longer (red). Green clearer means the image is too far back — the eye is over-minused.",
+          "link": "aam-subjective#duochrome-in-practice"
+        },
+        {
+          "id": "aam-sub-2",
+          "q": "A 22-year-old reads one more letter with an extra −0.25 DS but says it looks 'smaller and darker'. Best action?",
+          "options": [
+            { "text": "Don't give the extra minus", "correct": true, "feedback": "Yes — 'smaller and darker' is the classic sign of over-minus being accommodated through." },
+            { "text": "Give it, because VA improved", "correct": false, "feedback": "One letter isn't a line, and the description points to accommodation." },
+            { "text": "Give −0.50 extra to be safe", "correct": false, "feedback": "That makes the over-minus worse." },
+            { "text": "Switch to a +1.00 fog and start again", "correct": false, "feedback": "Not needed; just stop at the most plus that gives best VA." }
+          ],
+          "explanation": "The end point is the most plus giving best VA. Minus that doesn't add a full line, or that makes letters smaller and darker, is accommodation.",
+          "link": "aam-subjective#why-fogging-works"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Role-play a subjective refraction with me: you're the patient, I'll give lens changes and ask duochrome questions, and you answer realistically (including a bit of over-minus)."
+    },
+    {
+      "id": "aam-jcc",
+      "title": "Jackson cross-cylinder: axis then power",
+      "summary": "The JCC refines the cylinder: first its axis, then its power. A JCC is a lens with equal and opposite powers in its two meridians (e.g. +0.25/−0.50 × the handle at 45°), flipped to present two choices.",
+      "keyPoints": [
+        "Always refine axis before power — an axis error makes the power look wrong.",
+        "Axis check: hold the JCC so its handle lies along the cylinder axis (the JCC axes 'straddle' it at 45°).",
+        "Turn the cylinder axis towards the minus axis of the preferred JCC position (when using minus cylinders) — 'follow the red/minus dot'.",
+        "Use bigger steps for low cylinders and smaller steps for high cylinders (e.g. 15° for −0.50, 5° for −2.00).",
+        "Power check: line up one JCC axis with the cylinder axis. Minus preferred → add −0.25 cyl; plus preferred → reduce cyl by 0.25.",
+        "Keep the spherical equivalent: for every −0.50 D cylinder added, add +0.25 DS.",
+        "Use a round target (circles or a block of letters one line above best VA)."
+      ],
+      "examTraps": [
+        "Doing power before axis.",
+        "Turning the axis the wrong way (towards the plus axis).",
+        "Changing cylinder power without adjusting the sphere to keep the circle of least confusion on the retina."
+      ],
+      "diagram": {
+        "id": "jcc",
+        "description": "Circle representing a JCC lens with a handle at 45° to its two principal meridians. One meridian marked with red dots (minus axis), the other white dots (plus axis). Two small panels: 'axis check' with the handle along the trial cyl axis; 'power check' with the red-dot axis aligned to the trial cyl axis.",
+        "labels": ["Handle", "Minus axis (red dots)", "Plus axis (white dots)", "Axis check: handle on cyl axis", "Power check: JCC axis on cyl axis"]
+      },
+      "goDeeper": [
+        {
+          "heading": "What the JCC does optically",
+          "body": "A ±0.25 JCC is +0.25 DS / −0.50 DC. Placed in front of a correctly corrected eye it creates equal blur in both flip positions. If the trial cylinder is off-axis, one position combines with the residual astigmatism to make less blur and the patient prefers it. The preferred minus axis points to where the true axis lies."
+        },
+        {
+          "heading": "Bracketing the axis",
+          "body": "Move the axis towards the preferred minus axis, check again, and keep going until the preference reverses. Then split the difference ('bracket') until both positions look the same. Patients often find the two choices very similar near the end point — 'they look the same' is a valid answer and usually means you're there."
+        },
+        {
+          "heading": "Finding a cylinder nobody suspected",
+          "body": "If ret showed no cylinder, check with the JCC at 90/180 and then at 45/135. If the patient consistently prefers a position, put in −0.25 DC at that minus axis and refine axis and power as usual."
+        }
+      ],
+      "checklist": {
+        "id": "chk-jcc",
+        "title": "JCC routine (minus cylinder)",
+        "steps": [
+          "Start from the best vision sphere with the ret cylinder in place.",
+          "Show a round target one line above best VA.",
+          "Axis: put the handle along the cylinder axis; flip and ask 'one or two, which is clearer?'",
+          "Rotate the cylinder axis towards the minus axis of the preferred position.",
+          "Repeat, bracketing with smaller steps, until both positions look equal.",
+          "Power: align the JCC minus axis with the cylinder axis; flip and ask again.",
+          "Minus preferred: add −0.25 DC (and +0.25 DS for every −0.50 DC added). Plus preferred: reduce cylinder.",
+          "Stop when both positions look equal.",
+          "Re-check the best vision sphere and record the final result with VA."
+        ]
+      },
+      "flashcards": [
+        { "front": "JCC: which comes first?", "back": "Axis, then power." },
+        { "front": "Axis check: where's the handle?", "back": "Along the trial cylinder axis." },
+        { "front": "Rotating the axis (minus cyl)", "back": "Turn towards the minus (red) axis of the preferred position." },
+        { "front": "Adding −0.50 DC: what happens to the sphere?", "back": "Add +0.25 DS to keep the spherical equivalent." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-jcc-1",
+          "q": "During the power check the patient prefers the JCC position with its minus axis aligned to the trial cylinder (−1.00 × 180). What's the next trial lens?",
+          "options": [
+            { "text": "−1.25 × 180 (and +0.25 DS every −0.50 DC added)", "correct": true, "feedback": "Yes — minus preferred means more minus cylinder." },
+            { "text": "−0.75 × 180", "correct": false, "feedback": "That's the response when the plus axis is preferred." },
+            { "text": "−1.00 × 90", "correct": false, "feedback": "The power check doesn't change the axis." },
+            { "text": "−1.00 × 180 with −0.25 DS", "correct": false, "feedback": "The sphere goes up (+0.25 per −0.50 DC), not down." }
+          ],
+          "explanation": "Power check: align a JCC axis with the cylinder; preferred minus → add minus cylinder, adjusting the sphere to hold the spherical equivalent.",
+          "link": "aam-jcc#what-the-jcc-does-optically"
+        },
+        {
+          "id": "aam-jcc-2",
+          "q": "Why is the axis refined before the power?",
+          "options": [
+            { "text": "An axis error leaves residual astigmatism that makes the power reading unreliable", "correct": true, "feedback": "Right — off-axis cylinders create a resultant cylinder at an oblique axis." },
+            { "text": "Because axis is easier for patients", "correct": false, "feedback": "Ease isn't the reason; accuracy is." },
+            { "text": "It isn't — the order doesn't matter", "correct": false, "feedback": "It does: power refinement assumes the axis is right." },
+            { "text": "To keep the spherical equivalent constant", "correct": false, "feedback": "That's about sphere adjustment during the power check." }
+          ],
+          "explanation": "An off-axis cylinder combines with the eye's astigmatism to leave a new cylinder; you can't judge power properly until the axis is right.",
+          "link": "aam-jcc#bracketing-the-axis"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Explain the Jackson cross-cylinder like I'm about to do it in clinic tomorrow, then give me 3 'patient prefers position 1/2' scenarios and ask what I'd change."
+    },
+    {
+      "id": "aam-binocular-balance",
+      "title": "Binocular balancing: Humphriss and prism dissociation",
+      "summary": "Balancing makes sure both eyes are equally relaxed (equally 'fogged' or equally focused) so accommodation is balanced between them. You can do it with fusion kept (Humphriss immediate contrast) or by dissociating with prisms.",
+      "keyPoints": [
+        "Aim: equal accommodative state in both eyes, then a final binocular best vision sphere.",
+        "Humphriss immediate contrast (HIC): fog the eye not being tested (about +0.75 to +1.00), so it acts as a 'psychological septum' while fusion is kept.",
+        "With the HIC fog in place, refine the other eye's sphere with ±0.25 ('better with or without?'), then swap.",
+        "Prism dissociation: e.g. 3Δ base up before one eye and 3Δ base down before the other, giving two images; fog both with about +0.75 and compare.",
+        "Add +0.25 to the clearer eye until both lines look equally (slightly) blurred, then remove the fog together.",
+        "Finish with a binocular +0.25 check: if VA stays the same, give the plus (to the limit of best VA).",
+        "Balancing isn't possible to 'equal' if VAs differ markedly; balance to equal blur rather than equal clarity."
+      ],
+      "examTraps": [
+        "Balancing without fogging — equal clarity can hide unequal accommodation.",
+        "Forgetting to remove the fog/prisms before the final binocular check.",
+        "Trying to force a balance in an amblyopic eye with poorer VA."
+      ],
+      "diagram": {
+        "id": "prism-dissociation",
+        "description": "Chart seen by the patient: two copies of the same letter line, one above the other, produced by 3Δ base up in front of the right eye and 3Δ base down in front of the left eye. Labels show which image belongs to which eye (base up before right eye → right eye sees the lower image).",
+        "labels": ["3Δ base up (right eye)", "3Δ base down (left eye)", "Upper image (left eye)", "Lower image (right eye)"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Humphriss immediate contrast",
+          "body": "Humphriss described that a modest plus lens in front of one eye suppresses its central detail while keeping peripheral fusion. With the other eye open and fusing, you refine its sphere using quick 'with or without +0.25/−0.25' comparisons. It's quick and keeps the patient in a natural binocular state, which is why many UK clinics favour it."
+        },
+        {
+          "heading": "Which image belongs to which eye?",
+          "body": "Images are displaced towards the apex of a prism. Base up in front of the right eye moves the right eye's image down; base down in front of the left eye moves the left eye's image up. So the right eye sees the lower line and the left eye the upper line."
+        },
+        {
+          "heading": "Finishing binocularly",
+          "body": "After balancing, remove the fog and do a binocular best vision sphere: add +0.25 to both eyes; if VA doesn't drop, keep it. Then record binocular VA, which is usually a little better than the better eye alone."
+        }
+      ],
+      "flashcards": [
+        { "front": "Purpose of binocular balancing", "back": "To equalise the accommodative state of the two eyes." },
+        { "front": "HIC fog lens size", "back": "About +0.75 to +1.00 D in front of the eye not being tested (check your clinic's value)." },
+        { "front": "Base up in front of the right eye: which image does it see?", "back": "The lower one (images shift towards the apex)." },
+        { "front": "Final binocular step", "back": "Binocular +0.25 check — give the extra plus if VA doesn't drop." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-bal-1",
+          "q": "With 3Δ base up in front of the right eye and 3Δ base down in front of the left eye, the patient says the top line is clearer. Which eye do you add +0.25 to?",
+          "options": [
+            { "text": "Left eye", "correct": true, "feedback": "Yes — the left eye sees the upper line, so it's the clearer (less fogged) eye." },
+            { "text": "Right eye", "correct": false, "feedback": "The right eye (base up) sees the lower line." },
+            { "text": "Both eyes", "correct": false, "feedback": "You blur the clearer eye only, until they match." },
+            { "text": "Neither — add −0.25 to the right eye", "correct": false, "feedback": "Balancing under fog is done by adding plus to the clearer eye." }
+          ],
+          "explanation": "Images move towards the prism apex. Base down before the left eye pushes its image up, so the top line is the left eye's.",
+          "link": "aam-binocular-balance#which-image-belongs-to-which-eye"
+        },
+        {
+          "id": "aam-bal-2",
+          "q": "What's the main advantage of Humphriss immediate contrast over prism dissociation?",
+          "options": [
+            { "text": "Fusion is kept, so it's closer to natural binocular viewing", "correct": true, "feedback": "Right — HIC doesn't break fusion." },
+            { "text": "It needs no lenses at all", "correct": false, "feedback": "It uses a fogging lens." },
+            { "text": "It measures the phoria too", "correct": false, "feedback": "That's not what HIC is for." },
+            { "text": "It works only for presbyopes", "correct": false, "feedback": "It's used across ages." }
+          ],
+          "explanation": "Keeping the patient binocular avoids the accommodation and vergence changes that can follow dissociation.",
+          "link": "aam-binocular-balance#humphriss-immediate-contrast"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Walk me through Humphriss immediate contrast and prism-dissociated balancing step by step, then quiz me on which eye to add plus to."
+    },
+    {
+      "id": "aam-accommodation",
+      "title": "Accommodation: amplitude, lag and near point",
+      "summary": "Amplitude of accommodation is how much focusing power an eye has in reserve, usually measured by push-up to the near point. Lag is how far behind the target the eye actually focuses. Both drop with age and help you judge near symptoms and add requirements.",
+      "keyPoints": [
+        "Amplitude (D) = 1 / near point (m), measured with the full distance correction in place.",
+        "Push-up (e.g. on an RAF rule): move a small target closer until the patient reports first sustained blur.",
+        "Measure monocularly and binocularly; binocular is usually a little higher (convergence-driven accommodation).",
+        "Hofstetter: minimum = 15 − 0.25 × age; average = 18.5 − 0.3 × age; maximum = 25 − 0.4 × age.",
+        "An amplitude 2 D or more below the minimum for age suggests accommodative insufficiency.",
+        "Lag of accommodation: normally about +0.25 to +0.75 D at 40 cm; measured with MEM or Nott dynamic retinoscopy.",
+        "A larger lag than expected can point to accommodative insufficiency or latent hyperopia; a lead (negative lag) to accommodative excess."
+      ],
+      "examTraps": [
+        "Measuring push-up without the distance correction in place.",
+        "Forgetting the push-up method overestimates amplitude (target magnification and depth of focus); push-down/pull-away gives lower values.",
+        "Mixing up near point of accommodation (blur) and near point of convergence (diplopia or eye turning out)."
+      ],
+      "diagram": {
+        "id": "rule-push-up",
+        "description": "Side view of an RAF rule resting on the cheeks with a sliding target. Arrow shows the target moving towards the eye until first blur. The near point distance is marked and converted to dioptres (e.g. 10 cm = 10 D).",
+        "labels": ["RAF rule", "Sliding target", "Near point of accommodation", "Amplitude = 1 / near point (m)"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Worked amplitude example",
+          "body": "A 40-year-old reports first blur at 22 cm. Amplitude = 1/0.22 ≈ 4.5 D. Hofstetter minimum for 40 = 15 − 10 = 5 D, average = 18.5 − 12 = 6.5 D. So this is a bit below the minimum for age — worth asking about near symptoms and thinking about early presbyopia or insufficiency."
+        },
+        {
+          "heading": "MEM and Nott retinoscopy",
+          "body": "In MEM (monocular estimate method) the patient reads a card on the retinoscope at their working distance; you briefly interpose lenses to neutralise the reflex and estimate the lag. In Nott retinoscopy the target stays fixed and you move the retinoscope back until neutral; the dioptric difference between target and neutral point is the lag."
+        },
+        {
+          "heading": "Using amplitude for near adds",
+          "body": "A common rule is to keep half the amplitude in reserve: if a patient has 2 D of amplitude and reads at 40 cm (2.50 D demand), they can comfortably use 1 D, so the tentative add is 2.50 − 1.00 = +1.50. Always refine with range of clear vision and the patient's real tasks."
+        }
+      ],
+      "flashcards": [
+        { "front": "Amplitude formula", "back": "Amplitude (D) = 1 / near point (m)." },
+        { "front": "Hofstetter minimum amplitude", "back": "15 − 0.25 × age." },
+        { "front": "Normal lag at 40 cm", "back": "About +0.25 to +0.75 D." },
+        { "front": "Two ways to measure lag", "back": "MEM retinoscopy and Nott dynamic retinoscopy." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-acc-1",
+          "q": "A patient's near point of accommodation is 12.5 cm. What is the amplitude?",
+          "options": [
+            { "text": "8 D", "correct": true, "feedback": "Right: 1 / 0.125 = 8 D." },
+            { "text": "12.5 D", "correct": false, "feedback": "That's the distance in cm, not dioptres." },
+            { "text": "0.08 D", "correct": false, "feedback": "Convert cm to metres first: 12.5 cm = 0.125 m." },
+            { "text": "4 D", "correct": false, "feedback": "4 D would be a near point of 25 cm." }
+          ],
+          "explanation": "Amplitude in dioptres is the reciprocal of the near point in metres.",
+          "link": "aam-accommodation#worked-amplitude-example"
+        },
+        {
+          "id": "aam-acc-2",
+          "q": "Using Hofstetter's formula, what's the minimum expected amplitude for a 20-year-old?",
+          "options": [
+            { "text": "10 D", "correct": true, "feedback": "Yes: 15 − 0.25 × 20 = 10 D." },
+            { "text": "12.5 D", "correct": false, "feedback": "That's the average (18.5 − 0.3 × 20)." },
+            { "text": "17 D", "correct": false, "feedback": "That's the maximum (25 − 0.4 × 20)." },
+            { "text": "5 D", "correct": false, "feedback": "That's the minimum for a 40-year-old." }
+          ],
+          "explanation": "Minimum = 15 − 0.25 × age; average = 18.5 − 0.3 × age; maximum = 25 − 0.4 × age.",
+          "link": "aam-accommodation#worked-amplitude-example"
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 19-year-old student complains of blur and headaches after reading. Distance VA is 6/5 with a small hyperopic Rx she doesn't wear. Monocular push-up amplitude is 7 D in each eye.",
+          "question": "Is her amplitude normal, and what might explain her symptoms?",
+          "modelAnswer": "Hofstetter minimum for 19 is about 10.25 D, so 7 D is reduced by more than 2 D — suggests accommodative insufficiency. Uncorrected hyperopia adds to the accommodative demand. Check lag (MEM) and binocular vision, consider prescribing her hyperopic correction for near work, and review; refer if amplitude is unexpectedly low with no cause."
+        }
+      ],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Quiz me on amplitude of accommodation: give me ages and near points, ask me to compare them with Hofstetter's values, and explain what each result means clinically."
+    },
+    {
+      "id": "aam-presbyopia-add",
+      "title": "Presbyopia and near add determination",
+      "summary": "Presbyopia is the age-related loss of accommodation that makes near work hard, usually from the mid-40s. You start with a tentative add (age or amplitude), refine it (plus build-up, binocular methods) and always check the range of clear vision at her real working distance.",
+      "keyPoints": [
+        "Near demand at 40 cm is 2.50 D; at 33 cm it's 3.00 D.",
+        "Tentative add from age is only a guide (roughly +1.00 mid-40s rising to about +2.50 by 60) — check the table you're taught.",
+        "Tentative add from amplitude: keep half the amplitude in reserve.",
+        "Plus build-up: add plus binocularly in 0.25 steps until the near target is comfortably clear.",
+        "Range of clear vision: measure nearest and furthest clear points with the add; the working distance should sit near the middle.",
+        "Too much add shrinks the range and brings the far point in — monitors and music stands go blurry.",
+        "Always ask about tasks and working distances: reading, phone, computer, hobbies."
+      ],
+      "examTraps": [
+        "Giving an add by age alone without checking range.",
+        "Measuring the add monocularly only — final adds are refined binocularly.",
+        "Forgetting that intermediate (computer) needs a lower add than reading."
+      ],
+      "diagram": {
+        "id": "range-clear-vision",
+        "description": "A horizontal line from the eye outwards showing the near point and far point of clear vision with a given add. The working distance (e.g. 40 cm) is marked near the middle of the range. A second line with a stronger add shows a shorter range shifted closer.",
+        "labels": ["Near point of clear vision", "Far point of clear vision", "Working distance", "Range with stronger add (shorter, closer)"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Worked add example",
+          "body": "A 52-year-old with amplitude 1.50 D reads at 40 cm. Demand = 2.50 D; half amplitude in reserve means she can use 0.75 D. Tentative add = 2.50 − 0.75 = +1.75. With +1.75 her far point of clear vision is about 1/1.75 = 57 cm, and her near point is about 1/(1.75 + 1.50) ≈ 31 cm. 40 cm sits comfortably inside that range."
+        },
+        {
+          "heading": "Intermediate and occupational adds",
+          "body": "Computer screens are often 60–70 cm away (about 1.50 D demand). A full reading add can put the screen beyond the far point. Options include a lower 'intermediate' add, occupational/office lenses or varifocals with a suitable corridor. Ask about the exact distances she uses."
+        },
+        {
+          "heading": "Explaining presbyopia to patients",
+          "body": "Keep it simple: the lens inside the eye gradually stiffens with age so it can't change focus as easily; it's normal, it affects everyone and it's not a sign of disease. Explain the options (single vision readers, bifocals, varifocals, contact lens options) and that adds usually increase over the next 10–15 years."
+        }
+      ],
+      "flashcards": [
+        { "front": "Near demand at 40 cm", "back": "2.50 D." },
+        { "front": "Half amplitude in reserve — formula", "back": "Add = near demand − (amplitude ÷ 2)." },
+        { "front": "Effect of too strong an add", "back": "Shorter range of clear vision, brought closer; intermediate goes blurry." },
+        { "front": "Plus build-up", "back": "Add plus binocularly in 0.25 steps until near is comfortably clear." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-add-1",
+          "q": "A patient with 2.00 D amplitude reads at 40 cm. Using half amplitude in reserve, what's the tentative add?",
+          "options": [
+            { "text": "+1.50 D", "correct": true, "feedback": "Right: 2.50 − (2.00 ÷ 2) = +1.50." },
+            { "text": "+0.50 D", "correct": false, "feedback": "That subtracts the full amplitude." },
+            { "text": "+2.50 D", "correct": false, "feedback": "That ignores the accommodation she still has." },
+            { "text": "+2.00 D", "correct": false, "feedback": "That's the amplitude, not the add." }
+          ],
+          "explanation": "Demand at 40 cm = 2.50 D; she can comfortably use half her 2.00 D amplitude (1.00 D), leaving +1.50 to be supplied by the add.",
+          "link": "aam-presbyopia-add#worked-add-example"
+        },
+        {
+          "id": "aam-add-2",
+          "q": "A new presbyope says her reading glasses are great for books but her computer screen is blurry. Most likely reason?",
+          "options": [
+            { "text": "The add is too strong for intermediate distance", "correct": true, "feedback": "Yes — the screen is beyond the far point of clear vision with a full reading add." },
+            { "text": "The add is too weak", "correct": false, "feedback": "A weak add would blur near, not intermediate." },
+            { "text": "Her distance Rx is wrong", "correct": false, "feedback": "Possible, but the pattern fits the add's limited range." },
+            { "text": "She needs prism", "correct": false, "feedback": "Prism doesn't explain blur at one distance." }
+          ],
+          "explanation": "An add sets a range of clear vision; a reading add centred on 40 cm usually doesn't reach a screen at 60–70 cm.",
+          "link": "aam-presbyopia-add#intermediate-and-occupational-adds"
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 47-year-old accountant has never worn glasses. Distance VA 6/5 unaided. She struggles with small print in the evening and works on two monitors at about 65 cm.",
+          "question": "How would you approach her near and intermediate correction?",
+          "modelAnswer": "Confirm the distance Rx, measure amplitude and work out a tentative add (likely around +1.00 to +1.25). Refine binocularly with plus build-up and check range of clear vision at 40 cm and 65 cm. A reading-only add may not cover the monitors; consider a lower add for work or occupational lenses, and explain presbyopia and that her add will increase."
+        }
+      ],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Give me 3 presbyope scenarios with ages, amplitudes and working distances. Ask me for the tentative add and the range of clear vision, then check my working."
+    },
+    {
+      "id": "aam-prescribing",
+      "title": "Prescribing decisions: when to change, partial prescribing and anisometropia",
+      "summary": "Finding the refractive error is only half the job; deciding what to prescribe is the other half. Weigh up symptoms, the size of the change, VA benefit, occupation and driving, and how well she'll adapt — and be especially careful with big cylinder changes and anisometropia.",
+      "keyPoints": [
+        "Compare with the habitual Rx and VA. Small changes (e.g. ≤0.25–0.50 D) with no symptoms and no VA gain are often not worth changing.",
+        "Driving standard (DVLA): read a modern number plate at 20 m and have at least 6/12 binocular VA (with glasses if needed).",
+        "Large changes in cylinder power or axis can cause distortion — consider partial prescribing (part of the change now, the rest later).",
+        "Young hyperopes may not need (or accept) the full plus; prescribe for symptoms, BV status and near demand.",
+        "Myopes: don't over-minus; children shouldn't be deliberately under-corrected for myopia control.",
+        "Anisometropia causes aniseikonia (image size difference, roughly 1% per dioptre in spectacles) and differential prism away from the optical centres.",
+        "Contact lenses reduce aniseikonia and prismatic effects in anisometropia."
+      ],
+      "examTraps": [
+        "Prescribing every 0.25 D change just because you found it.",
+        "Ignoring the habitual cylinder axis when the new one differs by a lot in a high cylinder.",
+        "Forgetting vertical prism in downgaze for anisometropic presbyopes in bifocals or varifocals."
+      ],
+      "diagram": {
+        "id": "aniseikonia",
+        "description": "Two eyes looking at the same object through spectacle lenses of very different power (e.g. R +1.00, L +4.00). The right eye's retinal image is drawn smaller than the left eye's, labelled 'aniseikonia'. In downgaze, arrows show different vertical prism through each lens.",
+        "labels": ["Weaker lens: smaller image", "Stronger lens: larger image", "Aniseikonia", "Differential vertical prism in downgaze"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Partial prescribing",
+          "body": "If an adult has worn −0.75 × 180 for years and you now find −2.00 × 170, the full change may feel like the floor is tilted. Options: give part of the cylinder increase, keep closer to the old axis, or give the full Rx with a clear explanation of adaptation and a review. Use trial frame walk-arounds before deciding. Adjust the sphere to keep the spherical equivalent."
+        },
+        {
+          "heading": "Anisometropia in practice",
+          "body": "Symptoms can include eyestrain, diplopia or a feeling of depth distortion. With spectacles, think about aniseikonia and induced prism (Prentice's rule): looking 10 mm below the optical centres of R +1.00 / L +4.00 lenses gives 1Δ and 4Δ base up — a 3Δ vertical imbalance. Solutions: contact lenses, single vision readers (so the eyes look near the OCs), slab-off prism or lower segment tops. In children, anisometropia is an amblyopia risk."
+        },
+        {
+          "heading": "Explaining a new prescription",
+          "body": "Tell her what's changed and why, what to expect (a few days to adapt, especially with cylinder or varifocals), when to wear the glasses and when to come back if things don't settle. Record what you advised."
+        }
+      ],
+      "flashcards": [
+        { "front": "DVLA vision standard", "back": "Read a number plate at 20 m and at least 6/12 binocular VA (with correction if needed)." },
+        { "front": "Aniseikonia rule of thumb (spectacles)", "back": "About 1% image size difference per dioptre of anisometropia." },
+        { "front": "When to consider partial prescribing", "back": "Large cylinder power or axis changes in adults, especially with symptoms of distortion in the trial frame." },
+        { "front": "Best optical option in high anisometropia", "back": "Contact lenses (less aniseikonia and no differential prism)." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-rx-1",
+          "q": "A presbyope wears R +1.00 / L +3.50 varifocals and reads about 8 mm below the OCs. What vertical prism imbalance results?",
+          "options": [
+            { "text": "2Δ (L more base up)", "correct": true, "feedback": "Right: R 0.8 × 1.00 = 0.8Δ, L 0.8 × 3.50 = 2.8Δ, difference 2Δ." },
+            { "text": "0.8Δ", "correct": false, "feedback": "That's the right eye only." },
+            { "text": "3.6Δ", "correct": false, "feedback": "That adds the two eyes' prism instead of subtracting." },
+            { "text": "None — varifocals have no prism", "correct": false, "feedback": "Prentice's rule applies to any lens viewed away from its optical centre." }
+          ],
+          "explanation": "Prentice: P = cF with c in cm. Both lenses are plus, so both give base up below the OC; the imbalance is the difference.",
+          "link": "aam-prescribing#anisometropia-in-practice"
+        },
+        {
+          "id": "aam-rx-2",
+          "q": "A patient's VA is 6/6 in both old and new Rx; the new Rx differs by −0.25 DS in one eye and she has no symptoms. Best plan?",
+          "options": [
+            { "text": "No change needed; explain and review routinely", "correct": true, "feedback": "Yes — no VA gain, no symptoms, tiny change." },
+            { "text": "Prescribe the new Rx anyway", "correct": false, "feedback": "There's no benefit to justify the cost and adaptation." },
+            { "text": "Refer to the GP", "correct": false, "feedback": "There's nothing to refer." },
+            { "text": "Prescribe +0.25 to balance", "correct": false, "feedback": "Not indicated." }
+          ],
+          "explanation": "Prescribing decisions weigh benefit (VA, symptoms, tasks) against cost and adaptation. A small, symptom-free change usually isn't needed.",
+          "link": "aam-prescribing#explaining-a-new-prescription"
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 58-year-old has worn R −1.00/−0.50 × 90 for 10 years. Today you find R −1.00/−1.75 × 75 with VA improving from 6/9 to 6/6. In the trial frame she says the room 'leans'.",
+          "question": "What would you prescribe and why?",
+          "modelAnswer": "Consider a partial prescription: increase the cylinder part-way (e.g. −1.25 × 80–85) with the sphere adjusted to hold the spherical equivalent, check VA and comfort in the trial frame, explain why, and review — moving to the full Rx later if needed. Also ask why the cylinder has changed (e.g. cataract, corneal change) and check the anterior eye."
+        }
+      ],
+      "links": [
+        { "label": "DVLA: eyesight rules for driving", "url": "https://www.gov.uk/driving-eyesight-rules" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Give me 4 'old Rx vs new Rx' scenarios and ask me whether to prescribe the change in full, in part or not at all. Push back on my reasoning."
+    },
+    {
+      "id": "aam-presbyope-clinic",
+      "title": "Presbyope clinic: running a full refraction",
+      "summary": "In the presbyope clinic you put everything together on a real patient: history, vision, retinoscopy, subjective, balancing, near add, range of clear vision, final Rx and advice. Time management and clear communication matter as much as technique.",
+      "keyPoints": [
+        "One session per student between weeks 8 and 12 — check the rota for yours.",
+        "Start with a focused history: symptoms, visual tasks and distances, current glasses, health and medication.",
+        "Measure habitual VA (distance and near) before changing anything.",
+        "Objective (ret) → subjective (BVS, JCC, sphere check) → binocular balance → binocular BVS.",
+        "Near add: tentative from age/amplitude, refine binocularly, then check range of clear vision at her real distances.",
+        "Trial-frame the final Rx and let her look at her phone or a book before deciding.",
+        "Finish with clear advice (lens types, adaptation) and a clear record, signed off by your supervisor."
+      ],
+      "examTraps": [
+        "Running out of time on the subjective and rushing the add.",
+        "Not measuring habitual VA, so you can't show the improvement.",
+        "Prescribing an add without checking the patient's real tasks."
+      ],
+      "diagram": {
+        "id": "refraction-flow",
+        "description": "Flowchart of a full refraction: History → Habitual VA → Retinoscopy → Subjective (BVS → JCC → sphere check) → Binocular balance → Binocular BVS → Near add → Range of clear vision → Trial frame check → Advice and recording.",
+        "labels": ["History", "Retinoscopy", "Subjective", "Binocular balance", "Near add", "Range of clear vision", "Advice and recording"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Keeping to time",
+          "body": "Practise the routine until the order is automatic. A rough split for a teaching clinic might be: history and VAs 10 min, ret 10 min, subjective and balance 20 min, near add and range 10 min, trial frame, advice and records 10 min — your supervisors will tell you the real time limits. If ret is hard, don't get stuck: move on to the subjective."
+        },
+        {
+          "heading": "Talking to a real patient",
+          "body": "Introduce yourself as a student, explain what you'll do, and get consent. Use plain language ('which is clearer, one or two — or the same?'). Older patients may need more time to answer; don't rush them. Check understanding at the end and invite questions."
+        },
+        {
+          "heading": "What to record",
+          "body": "Habitual Rx and VAs, ret result, subjective result per eye with VA, binocular VA, add, near VA, range of clear vision, final Rx prescribed and why, advice given, and your supervisor's sign-off."
+        }
+      ],
+      "checklist": {
+        "id": "chk-presbyope",
+        "title": "Presbyope clinic run-through",
+        "steps": [
+          "Introduce yourself as a student and get consent.",
+          "Take a history: symptoms, tasks and distances, current specs, health, meds.",
+          "Measure habitual distance and near VA.",
+          "Retinoscopy (net result recorded).",
+          "Subjective: BVS, JCC axis then power, sphere check, duochrome.",
+          "Binocular balance and binocular BVS.",
+          "Measure amplitude or use age to get a tentative add.",
+          "Refine the add binocularly at her working distance.",
+          "Check range of clear vision (and intermediate if needed).",
+          "Trial-frame the final Rx and check real tasks.",
+          "Explain the result and options; record everything and get sign-off."
+        ]
+      },
+      "flashcards": [
+        { "front": "When is the presbyope clinic?", "back": "One session per student in weeks 8–12 (check the rota)." },
+        { "front": "First measurement before changing anything", "back": "Habitual VA (distance and near)." },
+        { "front": "Last check before prescribing an add", "back": "Range of clear vision at her real working distances." },
+        { "front": "If ret is going badly", "back": "Don't get stuck — move on to the subjective and keep to time." }
+      ],
+      "mcq": [
+        {
+          "id": "aam-pc-1",
+          "q": "Which order is correct for the main refraction steps?",
+          "options": [
+            { "text": "Ret → BVS → JCC → binocular balance → near add", "correct": true, "feedback": "Yes, that's the usual sequence." },
+            { "text": "Near add → ret → JCC → BVS", "correct": false, "feedback": "The add is found after the distance Rx is finalised." },
+            { "text": "JCC → ret → BVS → near add", "correct": false, "feedback": "Ret comes first as the objective starting point." },
+            { "text": "Binocular balance → ret → near add → JCC", "correct": false, "feedback": "Balancing happens after each eye is refined." }
+          ],
+          "explanation": "Objective first, then refine each eye (sphere, cylinder), balance, then build the add on the final distance Rx.",
+          "link": "aam-presbyope-clinic#keeping-to-time"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Pretend you're my presbyope clinic patient (age 61, reads a lot, uses a tablet). Let me run the whole refraction by asking you questions, then mark my routine."
+    }
+  ]
+}

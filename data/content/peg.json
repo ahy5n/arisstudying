@@ -1,0 +1,532 @@
+{
+  "module": "PEG",
+  "verifyNote": "Written from standard UK posterior eye practice (College of Optometrists, NICE NG81). Always check against Dr Aujla's slides and the current NICE guideline — referral thresholds and local pathways change.",
+  "topics": [
+    {
+      "id": "peg-direct-ophthalmoscopy",
+      "title": "Direct ophthalmoscopy technique",
+      "summary": "The direct ophthalmoscope gives a highly magnified (about 15×), upright view of a small area of fundus. It's portable and quick, but the field is small and there's no stereo, so it's best for a focused look at the disc, vessels and macula.",
+      "keyPoints": [
+        "Your right eye and right hand for their right eye; left for left.",
+        "Dim the room; patient fixates a distant target and keeps still.",
+        "Start at about arm's length with a low plus lens to see the red reflex (media opacities show as dark shadows).",
+        "Approach along a line about 15° temporal to the patient's line of sight to land on the optic disc.",
+        "Turn the focusing wheel to compensate for both your and the patient's refractive errors.",
+        "Examine: disc → follow each of the four vascular arcades out → periphery → macula last (ask them to look at the light).",
+        "Image is virtual and upright; field is small (a few degrees), so build up the picture section by section."
+      ],
+      "examTraps": [
+        "Using your right eye for the patient's left eye (noses collide, and you block their fixation).",
+        "Starting with the macula — the light makes the pupil constrict and the patient uncomfortable.",
+        "Forgetting the red reflex step."
+      ],
+      "diagram": {
+        "id": "direct-oph-approach",
+        "description": "Top view of examiner and patient. Examiner's right eye is close to the patient's right eye, approaching from about 15° temporally. A dashed line shows the patient's line of sight to a distant target past the examiner's shoulder.",
+        "labels": ["Patient's line of sight", "15° temporal approach", "Examiner's right eye", "Distant fixation target"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Red reflex first",
+          "body": "From about 30–50 cm, shine the light into the pupil and look for an even orange-red reflex. Dark spots or spokes are media opacities (e.g. cataract, vitreous floaters). Asking the patient to look up then straight ahead helps tell fixed lens opacities from floating vitreous ones. In children, an absent or white reflex (leukocoria) needs urgent referral."
+        },
+        {
+          "heading": "Describing the disc",
+          "body": "Use a consistent order: size, shape, colour, margins, cup-to-disc ratio (vertical and horizontal), neuroretinal rim (ISNT), vessels at the disc, and anything around it (peripapillary atrophy, haemorrhages). Drawing it helps — and drawing it in GoodNotes is great practice."
+        },
+        {
+          "heading": "Limits of direct ophthalmoscopy",
+          "body": "Small field, no stereo, easily affected by small pupils and media opacities. Slit lamp biomicroscopy with a condensing lens (and photography/OCT) gives a wider, stereoscopic view. Most clinics use direct ophthalmoscopy as part of the routine but rely on slit lamp indirect for detailed assessment."
+        }
+      ],
+      "checklist": {
+        "id": "chk-direct-oph",
+        "title": "Direct ophthalmoscopy routine",
+        "steps": [
+          "Explain the procedure; dim the room.",
+          "Ask the patient to look at a distant target and keep still.",
+          "Your right eye and hand for their right eye.",
+          "Check the red reflex from about 30–50 cm.",
+          "Approach 15° temporally until the disc comes into view; focus.",
+          "Assess the disc: size, shape, colour, margins, C/D, rim.",
+          "Follow each vascular arcade outwards (superotemporal, inferotemporal, superonasal, inferonasal).",
+          "Look at the periphery as far as possible.",
+          "Ask the patient to look at the light to view the macula last.",
+          "Repeat for the left eye and record (with a drawing)."
+        ]
+      },
+      "flashcards": [
+        { "front": "Magnification of a direct ophthalmoscope", "back": "About 15×." },
+        { "front": "Image in direct ophthalmoscopy", "back": "Virtual and upright." },
+        { "front": "Approach angle for the disc", "back": "About 15° temporal to the patient's line of sight." },
+        { "front": "Why examine the macula last?", "back": "The light constricts the pupil and dazzles the patient." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-do-1",
+          "q": "You're examining the patient's left eye. Which eye and hand do you use?",
+          "options": [
+            { "text": "Your left eye and left hand", "correct": true, "feedback": "Yes — same side as the patient's eye." },
+            { "text": "Your right eye and right hand", "correct": false, "feedback": "That's for their right eye." },
+            { "text": "Either — whichever is more comfortable", "correct": false, "feedback": "Using the matching side avoids blocking fixation and bumping noses." },
+            { "text": "Your dominant eye", "correct": false, "feedback": "Dominance doesn't decide it." }
+          ],
+          "explanation": "Matching sides keeps your head out of the patient's line of sight so they can fixate the distant target.",
+          "link": "peg-direct-ophthalmoscopy#limits-of-direct-ophthalmoscopy"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Ask me to talk you through direct ophthalmoscopy step by step as an examiner would, and point out anything I miss."
+    },
+    {
+      "id": "peg-indirect-volk",
+      "title": "Indirect fundus examination with slit lamp and Volk lens",
+      "summary": "Slit lamp indirect ophthalmoscopy with a handheld condensing lens (60, 78 or 90 D) gives a wide, stereoscopic view of the fundus. The image is real, inverted and laterally reversed — up is down and left is right.",
+      "keyPoints": [
+        "90 D: widest field, lowest magnification (good for an overview and small pupils).",
+        "78 D: a good all-rounder.",
+        "60 D: highest magnification, smaller field — best for disc and macula detail.",
+        "Image is real, inverted and laterally reversed.",
+        "Set a narrow-ish beam, low intensity, illumination coaxial with the microscope, low magnification to start.",
+        "Hold the lens close to the eye (a few mm to about 1 cm, depending on power), centred on the pupil, then pull the slit lamp back to focus.",
+        "Dilation (e.g. tropicamide 1%) gives a much better view, especially of the periphery — check the angle first."
+      ],
+      "examTraps": [
+        "Forgetting the image is inverted when recording (e.g. writing 'superior' for something that's inferior).",
+        "Using full light intensity — it's uncomfortable and constricts the pupil.",
+        "Holding the lens too far from the eye."
+      ],
+      "diagram": {
+        "id": "volk-optics",
+        "description": "Side view: slit lamp beam passing through a handheld condensing lens into the eye; rays from the fundus emerge and form a real, inverted aerial image between the lens and the slit lamp, where the microscope focuses.",
+        "labels": ["Slit lamp", "Condensing lens (60/78/90 D)", "Aerial image (real, inverted)", "Fundus"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Getting the view",
+          "body": "Align the beam with the pupil without the lens first. Then place the lens in front of the eye, steady your hand on the chin rest or patient's cheek, and slowly pull the slit lamp back until the fundus comes into focus. Tilt the lens slightly to get rid of reflections. To look at the periphery, ask the patient to look in that direction."
+        },
+        {
+          "heading": "Measuring the disc",
+          "body": "Shorten the slit beam until it just spans the vertical disc diameter, read the beam height, then multiply by the lens's correction factor (roughly 0.9–1.0 for a 60 D, about 1.1 for a 78 D and about 1.3 for a 90 D — check the manufacturer's figures). An average disc is about 1.8–1.9 mm vertically; small discs under about 1.5 mm, large over about 2.2 mm."
+        },
+        {
+          "heading": "Recording inverted images",
+          "body": "Remember the image is flipped both ways. A haemorrhage you see at the top-right of the view is actually inferior-nasal or inferior-temporal depending on the eye. Many clinicians mentally flip the image before drawing; others draw what they see and flip the drawing. Pick one method and use it every time."
+        }
+      ],
+      "flashcards": [
+        { "front": "Volk image orientation", "back": "Real, inverted and laterally reversed." },
+        { "front": "Best lens for disc/macula detail", "back": "60 D (highest magnification)." },
+        { "front": "Best lens for a wide view or small pupil", "back": "90 D." },
+        { "front": "Average vertical disc diameter", "back": "About 1.8–1.9 mm." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-volk-1",
+          "q": "With a 90 D lens you see a cotton wool spot at the top of the view. Where is it in the eye?",
+          "options": [
+            { "text": "Inferior retina", "correct": true, "feedback": "Yes — the image is inverted." },
+            { "text": "Superior retina", "correct": false, "feedback": "That's how it appears, not where it is." },
+            { "text": "At the macula", "correct": false, "feedback": "Position is inverted, not centralised." },
+            { "text": "Impossible to say", "correct": false, "feedback": "You can — just flip it." }
+          ],
+          "explanation": "Indirect images are real and inverted (and laterally reversed), so top of view = inferior fundus.",
+          "link": "peg-indirect-volk#recording-inverted-images"
+        },
+        {
+          "id": "peg-volk-2",
+          "q": "Which condensing lens gives the highest magnification?",
+          "options": [
+            { "text": "60 D", "correct": true, "feedback": "Right — lower power, higher magnification." },
+            { "text": "78 D", "correct": false, "feedback": "In between." },
+            { "text": "90 D", "correct": false, "feedback": "Widest field, lowest magnification." },
+            { "text": "They're all the same", "correct": false, "feedback": "Magnification falls as lens power rises." }
+          ],
+          "explanation": "Higher-power condensing lenses give a wider field at lower magnification.",
+          "link": "peg-indirect-volk#measuring-the-disc"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Explain why the Volk image is inverted using simple optics, then quiz me on where findings really are when I see them in different parts of the view."
+    },
+    {
+      "id": "peg-optic-disc",
+      "title": "Optic disc assessment: size, C/D, rim and ISNT",
+      "summary": "Assess the disc in a fixed order: size first (it changes how you read everything else), then cup-to-disc ratio, neuroretinal rim (ISNT rule), colour, margins and surrounding signs. Asymmetry between eyes is an important clue.",
+      "keyPoints": [
+        "Size first: large discs have larger cups normally; small discs with 'normal' cups can hide damage.",
+        "Cup-to-disc ratio (C/D): judge the cup by the bend of vessels (contour), not just the pale area. Record vertical and horizontal.",
+        "ISNT rule: neuroretinal rim is usually thickest Inferiorly, then Superiorly, Nasally, and thinnest Temporally.",
+        "Rim thinning or notching (especially inferior or superior) is a glaucoma sign.",
+        "C/D asymmetry of more than about 0.2 between eyes (with similar disc sizes) is suspicious.",
+        "Other glaucoma signs: disc haemorrhage (Drance), peripapillary atrophy (beta zone), baring of circumlinear vessels, bayoneting.",
+        "Pallor of the rim (rather than the cup) suggests non-glaucomatous optic neuropathy; swollen discs with blurred margins need urgent assessment."
+      ],
+      "examTraps": [
+        "Judging the cup by colour (pallor) instead of contour.",
+        "Ignoring disc size.",
+        "Missing a small flame haemorrhage at the disc margin."
+      ],
+      "diagram": {
+        "id": "optic-disc",
+        "description": "Front view of an optic disc: outer disc margin, inner cup, neuroretinal rim between them labelled I, S, N, T with the rim thickest inferiorly and thinnest temporally. Vessels emerge from the cup and bend over the rim. A second smaller drawing shows an inferior notch with a flame haemorrhage at the margin.",
+        "labels": ["Disc margin", "Cup", "Neuroretinal rim", "ISNT", "Notch", "Disc haemorrhage"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Why disc size matters",
+          "body": "The number of nerve fibres is broadly similar between eyes of different disc sizes, so a big disc spreads the same rim over a bigger area and has a bigger cup. A C/D of 0.6 can be normal in a large disc and suspicious in a small one. Measure disc size with the slit lamp beam and a condensing lens, or use OCT."
+        },
+        {
+          "heading": "Glaucomatous vs other cupping",
+          "body": "Glaucoma: rim lost focally (notching) or diffusely, with the remaining rim keeping its normal colour. Compressive or other optic neuropathies: rim pallor out of proportion to cupping, colour vision loss and a relative afferent pupil defect — needs referral and investigation."
+        },
+        {
+          "heading": "Swollen discs",
+          "body": "Bilateral swollen discs with headache (worse lying down or in the morning), nausea or transient visual obscurations could be papilloedema from raised intracranial pressure — an emergency referral. Check pupils, fields and BP. Pseudo-swelling (e.g. disc drusen, small crowded hyperopic discs) is a common mimic."
+        }
+      ],
+      "flashcards": [
+        { "front": "ISNT rule", "back": "Rim thickest Inferior, then Superior, Nasal, thinnest Temporal." },
+        { "front": "How to judge the cup", "back": "By contour (vessel bending), not pallor." },
+        { "front": "Suspicious C/D asymmetry", "back": "More than about 0.2 between eyes with similar disc sizes." },
+        { "front": "Drance haemorrhage", "back": "Flame haemorrhage at the disc margin — a glaucoma risk sign." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-disc-1",
+          "q": "Which rim appearance breaks the ISNT rule and is most suspicious?",
+          "options": [
+            { "text": "Inferior rim thinner than the temporal rim", "correct": true, "feedback": "Yes — the inferior rim should be thickest." },
+            { "text": "Temporal rim thinnest", "correct": false, "feedback": "That's normal." },
+            { "text": "Inferior rim thickest", "correct": false, "feedback": "That's normal." },
+            { "text": "Nasal rim thicker than temporal", "correct": false, "feedback": "That's normal." }
+          ],
+          "explanation": "Glaucoma often thins the inferior and superior rim first, so an inferior rim thinner than temporal is a red flag.",
+          "link": "peg-optic-disc#glaucomatous-vs-other-cupping"
+        },
+        {
+          "id": "peg-disc-2",
+          "q": "Two patients both have C/D 0.6. One has a large disc, one a small disc. Which is more concerning?",
+          "options": [
+            { "text": "The small disc", "correct": true, "feedback": "Right — a 0.6 cup is less expected in a small disc." },
+            { "text": "The large disc", "correct": false, "feedback": "Large discs normally have larger cups." },
+            { "text": "Both equally", "correct": false, "feedback": "Disc size changes the interpretation." },
+            { "text": "Neither — 0.6 is always normal", "correct": false, "feedback": "Context (size, asymmetry, rim) matters." }
+          ],
+          "explanation": "Cup size scales with disc size; the same ratio means relatively more rim loss in a small disc.",
+          "link": "peg-optic-disc#why-disc-size-matters"
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 63-year-old of Black Caribbean heritage. R C/D 0.4, L C/D 0.7 with an inferior notch and a small flame haemorrhage at the inferior disc margin. IOPs R 19, L 23 mmHg (non-contact).",
+          "question": "What's concerning and what would you do?",
+          "modelAnswer": "Asymmetric cupping (0.3 difference), an inferior notch and a disc haemorrhage in a higher-risk patient suggest glaucoma in the left eye even though IOP is under 24. Repeat IOP with Goldmann-type tonometry, do visual fields and OCT if available, and refer for suspected optic nerve damage (COAG/suspect) according to NICE NG81 and local pathways. Explain and record."
+        }
+      ],
+      "links": [
+        { "label": "NICE: glaucoma guideline (NG81)", "url": "https://www.nice.org.uk/guidance/ng81" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Describe 4 optic discs in words (size, C/D, rim, haemorrhages) and ask me which look glaucomatous and why. Then help me draw one in GoodNotes."
+    },
+    {
+      "id": "peg-macula-vessels",
+      "title": "Macula and retinal vessels: what normal looks like",
+      "summary": "You need to know normal well to spot abnormal. The macula is darker with a bright foveal reflex in younger eyes; arteries are thinner and lighter than veins (about 2:3); and the fundus colour varies a lot with pigmentation and refractive error.",
+      "keyPoints": [
+        "Macula: about 2 disc diameters temporal to the disc; fovea at its centre with a foveal reflex (often fainter with age).",
+        "The fovea has no retinal vessels (foveal avascular zone).",
+        "Arteries: narrower, lighter red, brighter central light reflex. Veins: wider, darker.",
+        "Normal artery-to-vein (A:V) width ratio about 2:3.",
+        "At normal AV crossings the vein isn't narrowed or deflected.",
+        "Spontaneous venous pulsation at the disc is seen in many normal eyes (its absence alone isn't diagnostic).",
+        "Fundus appearance varies: tessellated (tigroid) in myopes and lightly pigmented eyes; darker, more uniform in darker-pigmented eyes."
+      ],
+      "examTraps": [
+        "Calling a normal tessellated myopic fundus abnormal.",
+        "Mixing up arteries and veins (look at width, colour and reflex).",
+        "Not looking at the macula because the patient finds the light uncomfortable."
+      ],
+      "diagram": {
+        "id": "normal-fundus",
+        "description": "Right fundus: optic disc on the right of the image (nasal), macula about two disc diameters to the left with a foveal pit at the centre. Four vascular arcades: superotemporal, inferotemporal, superonasal, inferonasal. Arteries drawn thinner and lighter, veins wider and darker.",
+        "labels": ["Optic disc", "Macula", "Fovea", "Artery", "Vein", "Superotemporal arcade"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Normal vs early abnormal at the macula",
+          "body": "Normal: even colour, foveal reflex present in young eyes, no spots. Early AMD: drusen (yellow deposits), pigment changes. Signs that need prompt referral: new distortion (Amsler), haemorrhage, exudate, fluid or a grey-green membrane — possible wet AMD, which needs fast-track referral."
+        },
+        {
+          "heading": "Reading the vessels",
+          "body": "Look for calibre (narrowing, dilation), reflex (copper or silver wiring in arteriosclerosis), AV crossing changes (nipping, deflection), tortuosity, emboli (bright plaques at bifurcations), and anything around the vessels (haemorrhages, cotton wool spots, sheathing)."
+        }
+      ],
+      "flashcards": [
+        { "front": "Normal A:V ratio", "back": "About 2:3." },
+        { "front": "Distance from disc to fovea", "back": "About 2 disc diameters temporal." },
+        { "front": "Artery vs vein", "back": "Artery: narrower, lighter, brighter reflex. Vein: wider, darker." },
+        { "front": "Tessellated (tigroid) fundus", "back": "Visible choroidal vessels — common and normal in myopes and lightly pigmented eyes." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-mac-1",
+          "q": "A 30-year-old −6.00 D myope has visible choroidal vessels throughout the fundus and otherwise normal findings. This is most likely…",
+          "options": [
+            { "text": "A normal tessellated fundus", "correct": true, "feedback": "Yes — common in myopes." },
+            { "text": "Choroidal melanoma", "correct": false, "feedback": "That's a raised pigmented lesion, not a diffuse pattern." },
+            { "text": "Retinitis pigmentosa", "correct": false, "feedback": "RP shows bone-spicule pigment and attenuated vessels." },
+            { "text": "Hypertensive retinopathy", "correct": false, "feedback": "That affects vessel calibre and causes haemorrhages/exudates." }
+          ],
+          "explanation": "A thinner RPE/choroid stretched in myopia lets the choroidal vessels show through.",
+          "link": "peg-macula-vessels#reading-the-vessels"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Help me learn a normal fundus: describe what I should see in a right eye, then quiz me on artery vs vein and normal variations."
+    },
+    {
+      "id": "peg-tonometry",
+      "title": "Tonometry: Goldmann applanation and non-contact",
+      "summary": "Goldmann applanation tonometry (GAT) is the reference standard for IOP. It flattens a 3.06 mm diameter area of cornea and uses the Imbert–Fick principle. Non-contact tonometry (NCT) is quicker and needs no anaesthetic, so it's widely used for screening.",
+      "keyPoints": [
+        "Imbert–Fick principle: pressure = force ÷ area (W = P × A) for a thin, flat, dry membrane.",
+        "GAT flattens a 3.06 mm diameter area, where corneal rigidity and tear film surface tension roughly cancel out.",
+        "GAT needs topical anaesthetic and fluorescein; view with cobalt blue light.",
+        "End point: inner edges of the two green semicircles (mires) just touch; dial reading × 10 = mmHg.",
+        "Thick corneas over-read IOP; thin corneas under-read (CCT matters).",
+        "NCT: an air puff flattens the cornea; take several readings and average them.",
+        "Normal IOP is roughly 10–21 mmHg; it varies through the day (often highest in the morning)."
+      ],
+      "examTraps": [
+        "Mire rings too thick (too much fluorescein) → over-reading.",
+        "Pressing on the lids or the patient holding their breath, raising IOP.",
+        "Forgetting to disinfect the prism (or use a disposable tip)."
+      ],
+      "diagram": {
+        "id": "gat-mires",
+        "description": "Three views of the Goldmann mires through the slit lamp: (a) semicircles apart — IOP higher than the dial setting; (b) inner edges just touching — correct end point; (c) overlapping — dial set too high.",
+        "labels": ["Too low a setting: mires apart", "End point: inner edges touch", "Too high a setting: overlap"]
+      },
+      "goDeeper": [
+        {
+          "heading": "GAT step by step",
+          "body": "Check for contraindications (e.g. corneal infection or abrasion, recent surgery), explain, instil anaesthetic and fluorescein, set the dial to about 10 mmHg, cobalt blue light with the beam fully open at about 60°, bring the prism gently to touch the central cornea, then adjust the dial until the inner edges of the mires meet. Read, multiply by 10, repeat, and record time and method."
+        },
+        {
+          "heading": "Corneal thickness and IOP",
+          "body": "GAT assumes an average central corneal thickness (about 520–540 µm). Thick corneas resist flattening and give falsely high readings; thin corneas (including after refractive surgery) give falsely low readings. Thin CCT is also an independent risk factor for glaucoma. Don't use simple correction formulas as exact — consider CCT in your overall risk assessment."
+        },
+        {
+          "heading": "When NCT isn't enough",
+          "body": "NCT can be affected by tear film, blinking and anxiety, and is less accurate at high pressures. Raised NCT readings should be repeated and confirmed with Goldmann-type (contact) tonometry before acting, in line with NICE NG81."
+        }
+      ],
+      "checklist": {
+        "id": "chk-gat",
+        "title": "Goldmann applanation tonometry",
+        "steps": [
+          "Check history: contraindications, allergies, CL wear (remove lenses).",
+          "Explain the procedure and get consent.",
+          "Disinfect the prism or fit a disposable tip; check calibration as per clinic protocol.",
+          "Instil topical anaesthetic and fluorescein.",
+          "Set cobalt blue light, wide beam, at about 60°; set the dial to about 10 mmHg.",
+          "Ask the patient to look straight ahead, eyes wide, breathe normally.",
+          "Bring the prism to the central cornea without touching lashes.",
+          "Adjust the dial until the inner edges of the mires touch.",
+          "Read (× 10 = mmHg), repeat, and do the other eye.",
+          "Record IOP, method and time; advise not to rub eyes while anaesthetised."
+        ]
+      },
+      "flashcards": [
+        { "front": "GAT flattened area diameter", "back": "3.06 mm." },
+        { "front": "Imbert–Fick principle", "back": "P = W / A (pressure = force ÷ area)." },
+        { "front": "GAT end point", "back": "Inner edges of the semicircles just touch." },
+        { "front": "Effect of a thick cornea on GAT", "back": "Overestimates IOP." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-ton-1",
+          "q": "The GAT dial reads 1.8 at the end point. What's the IOP?",
+          "options": [
+            { "text": "18 mmHg", "correct": true, "feedback": "Yes — multiply by 10." },
+            { "text": "1.8 mmHg", "correct": false, "feedback": "Multiply the dial reading by 10." },
+            { "text": "180 mmHg", "correct": false, "feedback": "That's × 100." },
+            { "text": "9 mmHg", "correct": false, "feedback": "There's no halving." }
+          ],
+          "explanation": "The GAT dial is in grams; × 10 converts it to mmHg.",
+          "link": "peg-tonometry#gat-step-by-step"
+        },
+        {
+          "id": "peg-ton-2",
+          "q": "A patient had LASIK. Her GAT reading is 14 mmHg. What should you bear in mind?",
+          "options": [
+            { "text": "Her true IOP may be higher (thin cornea under-reads)", "correct": true, "feedback": "Right." },
+            { "text": "Her true IOP is lower", "correct": false, "feedback": "Thin corneas under-read, so true IOP may be higher." },
+            { "text": "LASIK has no effect on tonometry", "correct": false, "feedback": "It thins the cornea, which matters." },
+            { "text": "GAT can't be done after LASIK", "correct": false, "feedback": "It can; just interpret it with care." }
+          ],
+          "explanation": "LASIK thins the central cornea, so applanation tends to underestimate IOP.",
+          "link": "peg-tonometry#corneal-thickness-and-iop"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "NICE: glaucoma guideline (NG81)", "url": "https://www.nice.org.uk/guidance/ng81" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Walk me through Goldmann tonometry as if you're my clinic supervisor watching, and ask me why each step matters."
+    },
+    {
+      "id": "peg-glaucoma-referral",
+      "title": "Glaucoma risk factors and referral criteria",
+      "summary": "Primary open-angle glaucoma is a progressive optic neuropathy with characteristic disc and field changes; raised IOP is the main modifiable risk factor but not the definition. Know the risk factors and when NICE says to refer.",
+      "keyPoints": [
+        "Risk factors: raised IOP, older age, family history (first-degree relative), Black African or Caribbean ethnicity, myopia, thin central corneas.",
+        "Glaucoma is diagnosed on optic nerve damage and visual field loss, not IOP alone.",
+        "NICE NG81: refer if there are signs of optic nerve damage or a repeatable visual field defect consistent with glaucoma.",
+        "NICE NG81: refer for raised IOP when it's 24 mmHg or more on repeat measurement with Goldmann-type (contact) tonometry.",
+        "Suspected angle closure (narrow angles with symptoms or signs) is referred too; acute angle closure is an emergency.",
+        "Many areas have repeat measurement or enhanced referral schemes run by optometrists — follow the local pathway.",
+        "Family history: first-degree relatives of people with glaucoma aged 40+ get free NHS sight tests in England."
+      ],
+      "examTraps": [
+        "Referring on one high NCT reading without repeating with contact tonometry.",
+        "Not referring a suspicious disc because IOP is 'normal' (normal-tension glaucoma exists).",
+        "Missing angle-closure symptoms in the history."
+      ],
+      "diagram": {
+        "id": "glaucoma-referral-flow",
+        "description": "Flowchart: IOP measured → if ≥24 mmHg repeat with contact tonometry → still ≥24 refer (OHT). Separately: suspicious disc or repeatable field defect → refer (suspected COAG) regardless of IOP. Narrow angle with symptoms → refer; acute angle closure → emergency.",
+        "labels": ["IOP ≥24 on repeat (contact) → refer", "Disc damage or repeatable field defect → refer", "Acute angle closure → emergency"]
+      },
+      "goDeeper": [
+        {
+          "heading": "What NICE NG81 says (in short)",
+          "body": "Before referring for suspected COAG or ocular hypertension, use the full set of tests you have (IOP, disc assessment, visual fields, and angle assessment). Refer if there's suspected optic nerve damage or a repeatable visual field defect, or if IOP is 24 mmHg or more using Goldmann-type applanation after repeat measurement. Guidelines are updated, so check the current version and your local scheme."
+        },
+        {
+          "heading": "Acute angle closure",
+          "body": "Symptoms: sudden severe eye pain, headache, nausea or vomiting, blurred vision, haloes around lights. Signs: red eye, hazy (oedematous) cornea, mid-dilated poorly reactive pupil, shallow AC, very high IOP. This is an emergency — same-day referral to eye casualty. Don't dilate."
+        },
+        {
+          "heading": "Talking to patients about referral",
+          "body": "Explain calmly: 'Some of the measurements suggest we should get the pressure and the nerve at the back of your eye checked by the hospital eye team.' Avoid saying 'you have glaucoma' — that's for the specialist to diagnose. Tell them what happens next and how long it may take."
+        }
+      ],
+      "flashcards": [
+        { "front": "NICE NG81 IOP referral threshold", "back": "24 mmHg or more on repeat (Goldmann-type) measurement." },
+        { "front": "Main modifiable risk factor for POAG", "back": "Raised IOP." },
+        { "front": "Ethnic group at higher POAG risk", "back": "Black African and Caribbean." },
+        { "front": "Acute angle closure: urgency", "back": "Emergency — same-day referral." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-glc-1",
+          "q": "NCT readings are 26 and 25 mmHg in the right eye; discs and fields look normal. What do you do next?",
+          "options": [
+            { "text": "Repeat with Goldmann-type contact tonometry before deciding", "correct": true, "feedback": "Yes — NICE refers on repeat contact tonometry ≥24." },
+            { "text": "Refer immediately as an emergency", "correct": false, "feedback": "Raised IOP alone with normal discs isn't an emergency." },
+            { "text": "Reassure; IOP alone doesn't matter", "correct": false, "feedback": "It does matter if confirmed ≥24 mmHg." },
+            { "text": "Repeat in two years", "correct": false, "feedback": "It needs confirming now." }
+          ],
+          "explanation": "Confirm raised NCT readings with contact tonometry; refer if still ≥24 mmHg.",
+          "link": "peg-glaucoma-referral#what-nice-ng81-says-in-short"
+        },
+        {
+          "id": "peg-glc-2",
+          "q": "Which presentation needs same-day referral?",
+          "options": [
+            { "text": "Painful red eye, haloes, hazy cornea and a mid-dilated pupil", "correct": true, "feedback": "Right — acute angle closure." },
+            { "text": "IOP 25 mmHg with a normal disc", "correct": false, "feedback": "Routine referral after confirmation." },
+            { "text": "C/D 0.5 symmetrical in large discs", "correct": false, "feedback": "Likely normal." },
+            { "text": "Family history of glaucoma", "correct": false, "feedback": "A risk factor, not an emergency." }
+          ],
+          "explanation": "Acute angle closure can cause rapid, permanent vision loss and needs emergency treatment.",
+          "link": "peg-glaucoma-referral#acute-angle-closure"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "NICE: glaucoma guideline (NG81)", "url": "https://www.nice.org.uk/guidance/ng81" },
+        { "label": "College of Optometrists (Clinical Management Guidelines)", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Quiz me on glaucoma referral: give me patients with IOP, disc, field and history details, and ask if, how urgently and why I'd refer under NICE NG81."
+    },
+    {
+      "id": "peg-imaging",
+      "title": "Fundus photography and OCT basics",
+      "summary": "Fundus photos document what you see and help spot change over time. OCT (optical coherence tomography) gives cross-sections of the retina and measures layer thickness — invaluable for the macula and for nerve fibre layer analysis in glaucoma, as long as you know its pitfalls.",
+      "keyPoints": [
+        "Fundus cameras: typically 45° field; widefield systems image much more of the retina in one shot.",
+        "Red-free (green) photos improve contrast of vessels, haemorrhages and the nerve fibre layer.",
+        "OCT uses low-coherence interferometry with near-infrared light to make cross-sectional images (like ultrasound, but with light).",
+        "Retinal layers seen on OCT include RNFL, ganglion cell layer, photoreceptor layers (ellipsoid zone) and RPE.",
+        "Macular OCT shows fluid, drusen, epiretinal membranes, macular holes and thickness maps.",
+        "RNFL and ganglion cell analysis are compared with a normative database (green/amber/red).",
+        "Check scan quality, centration and segmentation before trusting the colours ('red disease' and 'green disease')."
+      ],
+      "examTraps": [
+        "Trusting the coloured normative map without checking scan quality.",
+        "Forgetting high myopes may fall outside the normative database.",
+        "Assuming a normal OCT rules out every disease."
+      ],
+      "diagram": {
+        "id": "oct-macula",
+        "description": "Cross-sectional OCT of a normal macula: foveal pit in the centre, layers stacked from the vitreous side down: RNFL, ganglion cell layer, inner plexiform, inner nuclear, outer plexiform, outer nuclear, external limiting membrane, ellipsoid zone, RPE, choroid.",
+        "labels": ["Foveal pit", "RNFL", "Ganglion cell layer", "Ellipsoid zone", "RPE", "Choroid"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Reading a macular OCT",
+          "body": "Start with the foveal contour (is there a normal pit?). Then go layer by layer: anything above the retina (ERM, vitreomacular traction), within it (cysts, fluid), beneath it (subretinal fluid, drusen, PED). Compare the thickness map with the other eye and with previous scans."
+        },
+        {
+          "heading": "'Red disease' and 'green disease'",
+          "body": "Red disease: the scan flags thinning that isn't real (poor signal, segmentation errors, myopic eyes, floaters). Green disease: the scan looks normal but there's real pathology (early or focal loss, or a patient whose baseline was above average). Always combine OCT with the clinical picture, fields and photos."
+        }
+      ],
+      "flashcards": [
+        { "front": "OCT works by…", "back": "Low-coherence interferometry with near-infrared light." },
+        { "front": "Red-free photography highlights…", "back": "Vessels, haemorrhages and the nerve fibre layer." },
+        { "front": "'Red disease'", "back": "False abnormal flags on OCT from artefacts or atypical eyes." },
+        { "front": "'Green disease'", "back": "A normal-looking OCT despite real pathology." }
+      ],
+      "mcq": [
+        {
+          "id": "peg-oct-1",
+          "q": "A −9.00 D myope's RNFL OCT is red in several sectors but the discs and fields look normal. Best interpretation?",
+          "options": [
+            { "text": "Possible artefact — myopic eyes often fall outside the normative database", "correct": true, "feedback": "Yes — consider 'red disease'." },
+            { "text": "Definite glaucoma", "correct": false, "feedback": "OCT alone doesn't diagnose glaucoma." },
+            { "text": "The machine is broken", "correct": false, "feedback": "More likely a database and anatomy issue." },
+            { "text": "Ignore OCT in all myopes", "correct": false, "feedback": "It's still useful, especially for change over time." }
+          ],
+          "explanation": "Normative databases often exclude high myopes, and myopic anatomy can lead to false thinning flags.",
+          "link": "peg-imaging#red-disease-and-green-disease"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Teach me to read a macular OCT layer by layer, then describe 3 OCT scans in words and ask me what each shows."
+    }
+  ]
+}

@@ -15,7 +15,15 @@
       "contentStatus": "full",
       "contentFile": "content/aad.json",
       "colour": "#F6C9D0",
-      "topics": ["aad-frame-measurement", "aad-facial-measurements", "aad-centration-prism", "aad-lens-materials", "aad-lens-form-coatings", "aad-multifocals", "aad-verification-fitting"]
+      "topics": [
+        "aad-frame-measurement",
+        "aad-facial-measurements",
+        "aad-centration-prism",
+        "aad-lens-materials",
+        "aad-lens-form-coatings",
+        "aad-multifocals",
+        "aad-verification-fitting"
+      ]
     },
     {
       "code": "AaM",
@@ -23,7 +31,7 @@
       "theme": "Management",
       "lead": "AS",
       "confidence": "medium",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#CFE3F7",
       "outline": [
         "Retinoscopy refinement and working-distance lens",
@@ -34,6 +42,17 @@
         "Presbyopia and near add determination (age guide, plus-build-up, range of clear vision)",
         "Prescribing decisions: when to change, partial prescribing, anisometropia",
         "Presbyope clinic: running a full refraction on a real presbyopic patient"
+      ],
+      "contentFile": "content/aam.json",
+      "topics": [
+        "aam-retinoscopy",
+        "aam-subjective",
+        "aam-jcc",
+        "aam-binocular-balance",
+        "aam-accommodation",
+        "aam-presbyopia-add",
+        "aam-prescribing",
+        "aam-presbyope-clinic"
       ]
     },
     {
@@ -42,7 +61,7 @@
       "theme": "Management",
       "lead": "DD",
       "confidence": "high",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#D9F0E3",
       "outline": [
         "Keratometry and corneal topography for lens selection",
@@ -53,6 +72,17 @@
         "Care regimes, hygiene and patient instruction (insertion, removal)",
         "Aftercare and complications: CLPU, CLARE, microbial keratitis, neovascularisation, GPC",
         "Grading scales (Efron / CCLRU) and recording findings"
+      ],
+      "contentFile": "content/clb.json",
+      "topics": [
+        "clb-keratometry",
+        "clb-soft-materials",
+        "clb-soft-fitting",
+        "clb-rgp-fitting",
+        "clb-vertex-power",
+        "clb-care-hygiene",
+        "clb-complications",
+        "clb-grading"
       ]
     },
     {
@@ -61,7 +91,7 @@
       "theme": "Patient",
       "lead": "SN / MA",
       "confidence": "high",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#FBE3C8",
       "outline": [
         "Slit lamp illumination techniques: diffuse, direct focal, parallelepiped, optic section, specular, retro-illumination, sclerotic scatter",
@@ -71,6 +101,16 @@
         "Tear film assessment: TBUT, NIBUT, tear meniscus, Schirmer",
         "Lid eversion technique",
         "Common conditions: blepharitis, MGD, dry eye, conjunctivitis types"
+      ],
+      "contentFile": "content/ane.json",
+      "topics": [
+        "ane-slit-lamp-illumination",
+        "ane-systematic-exam",
+        "ane-van-herick",
+        "ane-staining",
+        "ane-tear-film",
+        "ane-lid-eversion",
+        "ane-common-conditions"
       ]
     },
     {
@@ -79,7 +119,7 @@
       "theme": "Patient",
       "lead": "MA",
       "confidence": "medium",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#E5DAF5",
       "outline": [
         "Direct ophthalmoscopy technique",
@@ -89,6 +129,16 @@
         "Tonometry: Goldmann applanation and non-contact",
         "Glaucoma risk factors and referral criteria (check NICE / College guidance)",
         "Fundus photography and OCT basics"
+      ],
+      "contentFile": "content/peg.json",
+      "topics": [
+        "peg-direct-ophthalmoscopy",
+        "peg-indirect-volk",
+        "peg-optic-disc",
+        "peg-macula-vessels",
+        "peg-tonometry",
+        "peg-glaucoma-referral",
+        "peg-imaging"
       ]
     },
     {
@@ -97,7 +147,7 @@
       "theme": "Patient",
       "lead": "SB",
       "confidence": "low",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#F2F0C9",
       "outline": [
         "Case history and diagnostic reasoning",
@@ -106,6 +156,15 @@
         "Hypertension and the eye",
         "Interpreting clinical data in PC-lab cases",
         "Referral urgency and writing referrals"
+      ],
+      "contentFile": "content/syd.json",
+      "topics": [
+        "syd-case-history",
+        "syd-differential",
+        "syd-diabetes",
+        "syd-hypertension",
+        "syd-clinical-data",
+        "syd-referral"
       ]
     },
     {
@@ -114,9 +173,23 @@
       "theme": "Management",
       "lead": "AS",
       "confidence": "medium",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#CDEFF0",
-      "outline": ["Heterophoria and heterotropia", "Cover test", "Fixation disparity and Mallett unit", "Convergence insufficiency", "Prism prescribing basics"]
+      "outline": [
+        "Heterophoria and heterotropia",
+        "Cover test",
+        "Fixation disparity and Mallett unit",
+        "Convergence insufficiency",
+        "Prism prescribing basics"
+      ],
+      "contentFile": "content/bvp.json",
+      "topics": [
+        "bvp-phoria-tropia",
+        "bvp-cover-test",
+        "bvp-mallett",
+        "bvp-ci",
+        "bvp-prism"
+      ]
     },
     {
       "code": "PaP",
@@ -124,9 +197,23 @@
       "theme": "Management",
       "lead": "PBB",
       "confidence": "medium",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#FAD6E8",
-      "outline": ["Visual development", "Assessing vision in children (preferential looking, Kay pictures, Cardiff cards)", "Cycloplegic refraction", "Amblyopia", "Myopia onset and myopia management"]
+      "outline": [
+        "Visual development",
+        "Assessing vision in children (preferential looking, Kay pictures, Cardiff cards)",
+        "Cycloplegic refraction",
+        "Amblyopia",
+        "Myopia onset and myopia management"
+      ],
+      "contentFile": "content/pap.json",
+      "topics": [
+        "pap-visual-development",
+        "pap-assessing-vision",
+        "pap-cycloplegic",
+        "pap-amblyopia",
+        "pap-myopia"
+      ]
     },
     {
       "code": "VSE",
@@ -134,9 +221,23 @@
       "theme": "Professional",
       "lead": "HC",
       "confidence": "low",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#DDE7D0",
-      "outline": ["Research design", "Descriptive and inferential statistics", "Reading and critiquing a paper", "Evidence-based practice", "Using the library and literature search"]
+      "outline": [
+        "Research design",
+        "Descriptive and inferential statistics",
+        "Reading and critiquing a paper",
+        "Evidence-based practice",
+        "Using the library and literature search"
+      ],
+      "contentFile": "content/vse.json",
+      "topics": [
+        "vse-research-design",
+        "vse-statistics",
+        "vse-critique",
+        "vse-ebp",
+        "vse-literature-search"
+      ]
     },
     {
       "code": "PPD",
@@ -144,9 +245,21 @@
       "theme": "Professional",
       "lead": "MA / AC",
       "confidence": "medium",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#EDE3DA",
-      "outline": ["GOC Standards for Optical Students", "Communication and consent", "Interprofessional learning (IPL)", "Reflective practice"]
+      "outline": [
+        "GOC Standards for Optical Students",
+        "Communication and consent",
+        "Interprofessional learning (IPL)",
+        "Reflective practice"
+      ],
+      "contentFile": "content/ppd.json",
+      "topics": [
+        "ppd-goc-standards",
+        "ppd-communication-consent",
+        "ppd-ipl",
+        "ppd-reflection"
+      ]
     },
     {
       "code": "DoC",
@@ -154,9 +267,19 @@
       "theme": "Professional",
       "lead": "HB",
       "confidence": "medium",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#EDE3DA",
-      "outline": ["What the professional duty of candour requires", "Apologising and explaining when things go wrong", "Raising concerns"]
+      "outline": [
+        "What the professional duty of candour requires",
+        "Apologising and explaining when things go wrong",
+        "Raising concerns"
+      ],
+      "contentFile": "content/doc.json",
+      "topics": [
+        "doc-what-it-requires",
+        "doc-apologising",
+        "doc-raising-concerns"
+      ]
     },
     {
       "code": "PHE",
@@ -164,9 +287,21 @@
       "theme": "Professional",
       "lead": "AS",
       "confidence": "low",
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#EDE3DA",
-      "outline": ["Causes of sight loss in the UK", "Health inequalities and access to eye care", "Health promotion in practice", "Task A (see drop-in, week 11)"]
+      "outline": [
+        "Causes of sight loss in the UK",
+        "Health inequalities and access to eye care",
+        "Health promotion in practice",
+        "Task A (see drop-in, week 11)"
+      ],
+      "contentFile": "content/phe.json",
+      "topics": [
+        "phe-sight-loss-uk",
+        "phe-inequalities",
+        "phe-health-promotion",
+        "phe-task-a"
+      ]
     }
   ]
 }

@@ -1,0 +1,320 @@
+{
+  "module": "PaP",
+  "verifyNote": "Written from standard UK paediatric optometry practice (College guidance, PEDIG and myopia-control evidence). Always check against Dr Bhogal-Bhamra's slides — drug protocols, test ages and prescribing rules vary.",
+  "topics": [
+    {
+      "id": "pap-visual-development",
+      "title": "Visual development",
+      "summary": "Babies are born with poor acuity that improves fast over the first year and reaches adult-like levels in early childhood. Binocular vision, accommodation and refraction all develop too. The sensitive period for amblyopia runs through early childhood, which is why early detection matters.",
+      "keyPoints": [
+        "Newborn acuity is very poor (roughly 6/120 to 6/240 equivalent) and improves rapidly over the first months.",
+        "Fix and follow is usually present by about 6–8 weeks.",
+        "Stereopsis typically emerges at around 3–6 months.",
+        "Optotype acuity reaches adult-like levels around 3–5 years (grating acuity matures earlier).",
+        "Newborns are typically mildly hyperopic (around +2.00 D) and astigmatism is common; most emmetropise over the first 1–2 years.",
+        "The sensitive period for amblyopia extends through early childhood (roughly up to 7–8 years), with greatest plasticity when youngest.",
+        "Anything that blurs or disrupts vision in one eye early (cataract, ptosis, high anisometropia, strabismus) risks amblyopia."
+      ],
+      "examTraps": [
+        "Expecting a 2-year-old to show 6/6 optotype acuity.",
+        "Treating normal infant hyperopia as needing glasses.",
+        "Forgetting that an absent or white red reflex in a baby needs urgent referral."
+      ],
+      "diagram": {
+        "id": "acuity-development",
+        "description": "Graph of visual acuity (y-axis, from poor to 6/6) against age (x-axis, birth to 6 years). Grating acuity curve rises steeply in the first year; optotype acuity curve lags behind, reaching adult levels around 3–5 years. Shaded band marks the sensitive period for amblyopia.",
+        "labels": ["Grating acuity", "Optotype acuity", "Sensitive period", "Adult level"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Emmetropisation",
+          "body": "Early on, the eye's growth and the cornea/lens powers adjust so that most children move towards a low hyperopia by school age. Children with higher hyperopia, significant astigmatism or anisometropia that doesn't reduce are at risk of amblyopia and strabismus, and may need glasses."
+        },
+        {
+          "heading": "Red reflex in babies",
+          "body": "Newborn and infant checks look for an even red reflex in both eyes. An absent, white (leukocoria) or asymmetric reflex can mean congenital cataract or retinoblastoma and needs urgent referral. Parents noticing a white glint in photos should always be taken seriously."
+        }
+      ],
+      "flashcards": [
+        { "front": "Typical newborn refraction", "back": "Mild hyperopia (around +2.00 D), often with astigmatism." },
+        { "front": "When does stereopsis emerge?", "back": "Around 3–6 months." },
+        { "front": "When is optotype acuity adult-like?", "back": "Around 3–5 years." },
+        { "front": "White pupillary reflex in a child", "back": "Leukocoria — urgent referral (cataract, retinoblastoma)." }
+      ],
+      "mcq": [
+        {
+          "id": "pap-dev-1",
+          "q": "A parent says a white reflex appears in one of their baby's eyes in flash photos. Action?",
+          "options": [
+            { "text": "Urgent referral", "correct": true, "feedback": "Yes — leukocoria can mean retinoblastoma or cataract." },
+            { "text": "Reassure; it's a camera artefact", "correct": false, "feedback": "Never assume that without examination." },
+            { "text": "Review in a year", "correct": false, "feedback": "Far too long." },
+            { "text": "Prescribe glasses", "correct": false, "feedback": "Not the issue." }
+          ],
+          "explanation": "Leukocoria needs urgent assessment to exclude retinoblastoma and congenital cataract.",
+          "link": "pap-visual-development#red-reflex-in-babies"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Give me a timeline of visual development milestones from birth to age 6, then quiz me on what's normal at different ages."
+    },
+    {
+      "id": "pap-assessing-vision",
+      "title": "Assessing vision in children",
+      "summary": "Choose the test for the child's age and ability: preferential looking for infants, Cardiff cards for toddlers, picture or letter-matching tests (Kay, Keeler, Sonksen) for preschoolers. Crowded tests are better for detecting amblyopia.",
+      "keyPoints": [
+        "Preferential looking (e.g. Keeler/Teller acuity cards): infants look towards a grating rather than a blank area; gives grating acuity.",
+        "Cardiff acuity cards: vanishing-optotype pictures, around 1–3 years, at 50 cm or 1 m; examiner watches which way the child looks.",
+        "Kay pictures: picture optotypes (crowded and single), matching or naming, from around 2–3 years.",
+        "Letter-matching tests (Keeler crowded logMAR, Sonksen logMAR): from around 3–4 years.",
+        "Crowded tests detect amblyopia better than single optotypes.",
+        "Grating acuity can overestimate acuity in amblyopia.",
+        "Make it a game, test the better eye last if attention is short, and check occlusion isn't being peeked around."
+      ],
+      "examTraps": [
+        "Using single optotypes when amblyopia is suspected.",
+        "Recording a test result without the test name and distance.",
+        "Letting the child peek around the occluder."
+      ],
+      "diagram": {
+        "id": "child-tests-by-age",
+        "description": "Timeline from 0 to 6 years with test bands: preferential looking cards (0–2), Cardiff cards (1–3), Kay pictures (2–4), letter-matching tests such as Sonksen/Keeler crowded logMAR (3+).",
+        "labels": ["Preferential looking", "Cardiff cards", "Kay pictures", "Letter matching (logMAR)"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Preverbal children",
+          "body": "Besides acuity cards, look at fixation behaviour: is it central, steady and maintained (CSM) in each eye? Does the child object to having one eye covered more than the other (suggesting poorer vision in the uncovered eye)? The 10Δ fixation test (a base-down prism to create diplopia-driven fixation switches) can show fixation preference in children with straight eyes."
+        },
+        {
+          "heading": "Recording",
+          "body": "Write the test, distance and result for each eye and binocularly, plus how cooperative the child was ('good co-operation', 'limited attention'). This makes results comparable at the next visit and with orthoptic or hospital records."
+        }
+      ],
+      "flashcards": [
+        { "front": "Test for infants (grating acuity)", "back": "Preferential looking cards (e.g. Keeler/Teller)." },
+        { "front": "Cardiff cards age range and distance", "back": "About 1–3 years; 50 cm or 1 m." },
+        { "front": "Why use crowded tests?", "back": "They detect amblyopia better." },
+        { "front": "CSM", "back": "Central, steady, maintained fixation." }
+      ],
+      "mcq": [
+        {
+          "id": "pap-va-1",
+          "q": "Which is the most suitable acuity test for a cooperative 18-month-old?",
+          "options": [
+            { "text": "Cardiff acuity cards", "correct": true, "feedback": "Yes — designed for toddlers." },
+            { "text": "Snellen chart", "correct": false, "feedback": "Needs letter knowledge." },
+            { "text": "Sonksen logMAR", "correct": false, "feedback": "Usually from around 3–4 years." },
+            { "text": "Pelli-Robson chart", "correct": false, "feedback": "That's contrast sensitivity for adults." }
+          ],
+          "explanation": "Cardiff cards use preferential looking with vanishing pictures, ideal for about 1–3 years.",
+          "link": "pap-assessing-vision#preverbal-children"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Give me children of different ages and abilities, and ask me which vision test I'd use and how I'd make it work."
+    },
+    {
+      "id": "pap-cycloplegic",
+      "title": "Cycloplegic refraction",
+      "summary": "Children accommodate strongly, so a 'dry' refraction can hide hyperopia. Cyclopentolate temporarily paralyses accommodation so you can measure the full refractive error — essential in esotropia, suspected amblyopia and when results don't add up.",
+      "keyPoints": [
+        "Indications: strabismus (especially esotropia), suspected amblyopia, reduced VA, high or unexplained hyperopia, first full assessment of young children.",
+        "Cyclopentolate is the usual drug: commonly 1% (0.5% in very young infants — follow your protocol).",
+        "Retinoscopy at peak effect, about 30–60 minutes after instillation; effect can last up to 24 hours.",
+        "Check the angle and ask about allergies and health conditions before instilling.",
+        "Warn parents about blur (especially near), light sensitivity and occasional side effects like flushing or drowsiness.",
+        "Rarely, cyclopentolate can cause CNS effects (more likely in younger children) — know your clinic's procedure.",
+        "Prescribing from a cycloplegic result needs judgement: full plus for esotropia; partial in some others."
+      ],
+      "examTraps": [
+        "Doing retinoscopy too soon after instillation.",
+        "Forgetting to warn parents about blur and light sensitivity.",
+        "Prescribing the full cycloplegic hyperopia to every child without considering BV and symptoms."
+      ],
+      "diagram": {
+        "id": "cyclo-timeline",
+        "description": "Timeline after instilling cyclopentolate: 0 min drops in; 30–60 min peak cycloplegia (do retinoscopy); several hours of near blur and dilation; up to 24 h for full recovery.",
+        "labels": ["Instil", "Peak: 30–60 min (ret now)", "Recovery up to 24 h"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Prescribing after cycloplegia",
+          "body": "With esotropia (especially accommodative), prescribe the full cycloplegic hyperopia to reduce accommodative convergence. For a straight-eyed child with moderate hyperopia and good VA, many clinicians give a partial correction or monitor, depending on age, symptoms and BV. Some apply a small 'tonus' allowance; conventions vary, so follow your department's rules."
+        },
+        {
+          "heading": "Explaining it to parents",
+          "body": "'These drops relax the focusing muscle so we can see the true prescription. Your child's vision will be blurry up close and they may be sensitive to light for the rest of the day — sunglasses or a hat help. It wears off by tomorrow.' Ask about allergies and health first, and record consent."
+        }
+      ],
+      "flashcards": [
+        { "front": "Usual cycloplegic drug for children", "back": "Cyclopentolate." },
+        { "front": "When to do retinoscopy after cyclopentolate", "back": "At peak effect, about 30–60 minutes." },
+        { "front": "How long does cyclopentolate last?", "back": "Up to about 24 hours." },
+        { "front": "Key indication for full hyperopic Rx", "back": "Esotropia (accommodative)." }
+      ],
+      "mcq": [
+        {
+          "id": "pap-cyc-1",
+          "q": "A 4-year-old with an intermittent esotropia has a dry ret of +1.00 DS. Next step?",
+          "options": [
+            { "text": "Cycloplegic refraction", "correct": true, "feedback": "Yes — latent hyperopia is likely to be driving the esotropia." },
+            { "text": "Prescribe +1.00 DS", "correct": false, "feedback": "The dry result may underestimate the hyperopia." },
+            { "text": "No action; +1.00 is normal", "correct": false, "feedback": "Esotropia needs the full hyperopia measured." },
+            { "text": "Prescribe base-out prism", "correct": false, "feedback": "Correct the refractive cause first." }
+          ],
+          "explanation": "Esotropia with hyperopia often has a large latent component that only cycloplegia reveals.",
+          "link": "pap-cycloplegic#prescribing-after-cycloplegia"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+      ],
+      "askClaude": "Role-play a worried parent asking about eye drops for their child's test. Let me explain cycloplegic refraction, then tell me what I left out."
+    },
+    {
+      "id": "pap-amblyopia",
+      "title": "Amblyopia",
+      "summary": "Amblyopia is reduced best-corrected vision in one (or both) eyes caused by abnormal visual input during the sensitive period, with no structural cause that explains it. Treatment starts with full-time glasses, then occlusion or atropine penalisation if needed.",
+      "keyPoints": [
+        "Types: strabismic, anisometropic, ametropic (bilateral high Rx) and stimulus deprivation (e.g. cataract, ptosis).",
+        "Commonly defined as a two-line (or more) interocular difference in best-corrected VA.",
+        "Rough amblyogenic anisometropia: about 1.00 D hyperopic, 1.50 D astigmatic or 3.00 D myopic difference (check your criteria).",
+        "Step 1: full-time glasses (refractive adaptation) — VA often improves over about 16–18 weeks.",
+        "Step 2: patching — PEDIG trials found 2 hours/day as effective as 6 for moderate amblyopia; 6 hours as effective as full-time for severe.",
+        "Alternative: atropine penalisation of the better eye.",
+        "Crowding: amblyopic eyes do worse with crowded optotypes; use crowded tests to monitor."
+      ],
+      "examTraps": [
+        "Patching before giving glasses time to work.",
+        "Diagnosing amblyopia without ruling out structural disease.",
+        "Using single optotypes to monitor treatment."
+      ],
+      "diagram": {
+        "id": "amblyopia-types",
+        "description": "Four small panels: strabismic (one eye turned), anisometropic (one blurred image), ametropic (both images blurred), deprivation (cataract blocking one eye).",
+        "labels": ["Strabismic", "Anisometropic", "Ametropic", "Deprivation"]
+      },
+      "goDeeper": [
+        {
+          "heading": "Why glasses first",
+          "body": "A clear image in the amblyopic eye is the first treatment. Many children improve substantially with glasses alone, and some reach good acuity without needing patching. Monitor every 6–8 weeks or so with the same crowded test."
+        },
+        {
+          "heading": "Compliance and the family",
+          "body": "Treatment only works if it's done. Explain why, make it fun (patching during activities that need focus, like drawing or tablet games), give a diary, and be positive. Treatment is most effective in younger children, but older children can still improve."
+        },
+        {
+          "heading": "Who manages it",
+          "body": "In the UK, amblyopia treatment is often managed by hospital orthoptic and ophthalmology services. Optometrists detect it, refract, prescribe glasses and refer according to local pathways."
+        }
+      ],
+      "flashcards": [
+        { "front": "Four types of amblyopia", "back": "Strabismic, anisometropic, ametropic, deprivation." },
+        { "front": "First-line treatment", "back": "Full-time glasses (refractive adaptation)." },
+        { "front": "PEDIG: moderate amblyopia patching dose", "back": "2 hours a day was as effective as 6 hours." },
+        { "front": "Alternative to patching", "back": "Atropine penalisation of the better eye." }
+      ],
+      "mcq": [
+        {
+          "id": "pap-amb-1",
+          "q": "A 5-year-old has R +4.00 DS, L +0.50 DS, VA R 6/24 L 6/6, straight eyes, healthy fundi. Best first step?",
+          "options": [
+            { "text": "Prescribe full-time glasses and review VA in a few weeks", "correct": true, "feedback": "Yes — refractive adaptation first." },
+            { "text": "Patch the left eye 6 hours a day straight away", "correct": false, "feedback": "Glasses come first." },
+            { "text": "No treatment — she's too old", "correct": false, "feedback": "5 is still very treatable." },
+            { "text": "Prescribe glasses for reading only", "correct": false, "feedback": "Full-time wear is needed." }
+          ],
+          "explanation": "Anisometropic amblyopia is treated first with full correction worn full-time; patching follows if improvement plateaus.",
+          "link": "pap-amblyopia#why-glasses-first"
+        }
+      ],
+      "cases": [],
+      "links": [
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
+        { "label": "Royal College of Ophthalmologists", "url": "https://www.rcophth.ac.uk/" }
+      ],
+      "askClaude": "Give me 3 children with refractions and VAs, ask me whether each is amblyopic, which type, and the first treatment step."
+    },
+    {
+      "id": "pap-myopia",
+      "title": "Myopia onset and myopia management",
+      "summary": "Myopia is becoming more common and starting younger. Every dioptre matters, because higher myopia raises lifelong risks (myopic maculopathy, retinal detachment, glaucoma). Prevention focuses on outdoor time; management uses myopia-control spectacles, contact lenses, orthokeratology and low-dose atropine.",
+      "keyPoints": [
+        "Risk factors for onset: myopic parents, lots of near work, less time outdoors, early schooling intensity.",
+        "Time outdoors (around 2 hours a day is often suggested) helps delay onset.",
+        "Higher myopia increases the risk of myopic maculopathy, retinal detachment, glaucoma and cataract.",
+        "Options shown to slow progression include: myopia-control spectacle lenses (e.g. DIMS/HAL designs), dual-focus or multifocal soft contact lenses, orthokeratology and low-dose atropine.",
+        "Typical trial results show slowing of roughly a third to over half compared with single vision correction — results vary by child.",
+        "Deliberately under-correcting myopia is not recommended.",
+        "Measure progression (refraction, ideally axial length), discuss options with parents and agree a plan; follow College guidance."
+      ],
+      "examTraps": [
+        "Under-correcting to 'slow' myopia — evidence suggests it doesn't help.",
+        "Promising a treatment will stop myopia completely.",
+        "Ignoring outdoor time and lifestyle advice."
+      ],
+      "diagram": {
+        "id": "myopia-control",
+        "description": "Eye cross-sections: single vision lens focuses the central image on the retina but peripheral images fall behind it (hyperopic defocus). Myopia-control lens: central focus on the retina and peripheral images in front of the retina (myopic defocus), thought to signal the eye to slow its growth.",
+        "labels": ["Central focus on the retina", "Peripheral hyperopic defocus (single vision)", "Peripheral myopic defocus (myopia control)", "Axial length"]
+      },
+      "goDeeper": [
+        {
+          "heading": "How the optical options work",
+          "body": "Most optical myopia-control designs give clear central vision while adding myopic defocus (images focused in front of the retina) across much of the field. This is thought to reduce the signal that drives the eye to elongate. Spectacle designs, dual-focus daily disposable soft lenses and orthokeratology all use versions of this idea."
+        },
+        {
+          "heading": "Talking to parents",
+          "body": "Explain that myopia usually progresses through childhood, that slowing it reduces lifelong risks, and what each option involves (cost, wear, aftercare, expected effect). Be honest that treatments slow progression rather than stop it and that individual responses vary. Lifestyle advice (outdoor time, breaks from near work) applies to everyone."
+        },
+        {
+          "heading": "Monitoring",
+          "body": "Review regularly (often every 6 months), measuring refraction (cycloplegic when appropriate) and, if available, axial length — axial length is a more direct measure of eye growth. Record the plan and discuss changes if progression continues."
+        }
+      ],
+      "flashcards": [
+        { "front": "Main lifestyle factor that delays myopia onset", "back": "Time outdoors." },
+        { "front": "Four main myopia management options", "back": "Myopia-control spectacles, myopia-control soft CLs, orthokeratology, low-dose atropine." },
+        { "front": "Is under-correction recommended?", "back": "No." },
+        { "front": "Best direct measure of myopia progression", "back": "Axial length." }
+      ],
+      "mcq": [
+        {
+          "id": "pap-myo-1",
+          "q": "Parents of a 9-year-old −1.50 D myope (both parents myopic) ask how to slow it down. Best response?",
+          "options": [
+            { "text": "Discuss outdoor time and evidence-based options like myopia-control lenses, ortho-k or low-dose atropine", "correct": true, "feedback": "Yes — lifestyle plus an evidence-based treatment discussion." },
+            { "text": "Under-correct her by 0.50 D", "correct": false, "feedback": "Under-correction isn't recommended." },
+            { "text": "Nothing can be done", "correct": false, "feedback": "Several options have evidence for slowing progression." },
+            { "text": "Wait until she reaches −3.00 D", "correct": false, "feedback": "Earlier intervention has more lifetime benefit." }
+          ],
+          "explanation": "Young age at onset and myopic parents mean higher progression risk; discuss management early.",
+          "link": "pap-myopia#talking-to-parents"
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "An 8-year-old's myopia has gone from −0.75 to −2.00 D in a year. She spends most evenings on a tablet and little time outside.",
+          "question": "What would you advise and offer?",
+          "modelAnswer": "Explain that progression is fast and why slowing it matters. Advise more time outdoors and regular breaks from close work. Discuss myopia management options (myopia-control spectacles or soft CLs, ortho-k, or referral for low-dose atropine where available), with honest expectations, costs and aftercare. Fully correct the current myopia and review in about 6 months, measuring axial length if possible."
+        }
+      ],
+      "links": [
+        { "label": "International Myopia Institute", "url": "https://myopiainstitute.org/" },
+        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+      ],
+      "askClaude": "Explain myopia management options and how each is thought to work, then role-play a parent so I can practise explaining them."
+    }
+  ]
+}
