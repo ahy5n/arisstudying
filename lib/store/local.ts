@@ -129,4 +129,7 @@ export const localBackend: Backend = {
   async addFlag(user, f) {
     mutate(user, (d) => void d.flags.push({ ...f, createdAt: new Date().toISOString() }))
   },
+  async savePlacement(user, id, p) {
+    mutate(user, (d) => void ((d.placements ??= {})[id] = p))
+  },
 }

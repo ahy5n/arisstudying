@@ -100,7 +100,7 @@ export const supabaseBackend: Backend = {
 
   async load(user) {
     const c = sb()
-    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags] = await Promise.all([
+    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements] = await Promise.all([
       c.from('profiles').select('username, claude_project_url, tracker_seeded').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
       c.from('checklist_progress').select('checklist_id, done_steps'),
@@ -109,6 +109,7 @@ export const supabaseBackend: Backend = {
       c.from('assessments').select('id, name, module, weight, mark, pass_fail, date').order('date', { nullsFirst: false }),
       c.from('module_overrides').select('module_code, name'),
       c.from('flags').select('topic_id, item_id, message, created_at').order('created_at', { ascending: false }).limit(50),
+      c.from('placement_progress').select('placement_id, status, interview_date, interview_time'),
     ])
     const d: UserData = emptyData(user.username)
     const p = check(profile)
@@ -136,6 +137,17 @@ export const supabaseBackend: Backend = {
     }
     d.assessments = (check(assessments) ?? []).map(rowToAssessment)
     for (const r of check(overrides) ?? []) d.overrides[r.module_code] = r.name
+    // Placements came later than the other tables: if the table hasn't been
+    // created yet, carry on without it rather than failing the whole load.
+    if (!placements.error) {
+      for (const r of placements.data ?? []) {
+        d.placements[r.placement_id] = {
+          status: r.status,
+          interviewDate: r.interview_date,
+          interviewTime: r.interview_time,
+        }
+      }
+    }
     d.flags = (check(flags) ?? []).map((r) => ({
       topicId: r.topic_id,
       itemId: r.item_id,
@@ -214,6 +226,19 @@ export const supabaseBackend: Backend = {
     } else {
       check(await sb().from('module_overrides').delete().eq('module_code', code))
     }
+  },
+
+  async savePlacement(user, id, p) {
+    check(
+      await sb().from('placement_progress').upsert({
+        user_id: user.id,
+        placement_id: id,
+        status: p.status,
+        interview_date: p.interviewDate,
+        interview_time: p.interviewTime,
+        updated_at: nowIso(),
+      }),
+    )
   },
 
   async addFlag(user, f) {

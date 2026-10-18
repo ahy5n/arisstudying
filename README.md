@@ -10,6 +10,7 @@ All of v1, v2 and v3 from `BRIEF.md` are built.
 | **v1** | Username + password sign-in · home dashboard (greeting, encouragement, verse, next two weeks) · module library with progress rings · module pages (ticks, sessions, editable names) · full AaD topics (summary, key points, exam traps, SVG diagrams, go deeper, checklists, flashcards, multiple choice, clinical cases, label the diagram, notes, links) · mistakes deck (Leitner) · quick quiz and module quiz · Ask Claude · Flag this · Save for GoodNotes (A4 PDF) |
 | **v2** | 70% tracker (pre-filled from the timetable) · Settings (Claude project link, change password, sign out, your flags) · PWA (manifest + icons, Add to Home Screen) |
 | **v3** | Drop a new `data/content/*.json` file in and it just works. A content checker runs before every build. See [docs/ADDING-A-MODULE.md](docs/ADDING-A-MODULE.md). |
+| **Placements** | 40 work-experience contacts from Ari's Birmingham & Solihull list, grouped by type. Tap one for details, phone, email and website; track each as not contacted / emailed / interview / confirmed, with an optional interview date and time. |
 | **Content** | All 12 modules are full: 69 topics and 408 practice items (MCQs, flashcards, cases), plus checklists and 32 hand-drawn diagrams (5 with label-the-diagram exercises). |
 
 ---
@@ -108,7 +109,7 @@ claude-project/      instructions + knowledge files for Ari's Claude project
 
 - **Content for the 11 non-AaD modules was written from standard UK optometry knowledge** (College CMGs, NICE, DESP, TFOS DEWS II, GOC) to follow each module's outline. It has *not* been checked against Aston's lecture slides. Every topic shows the "check against your lecture slides" note, and the Flag button exists for exactly this. Numbers that vary by department (fog lens size, Van Herick referral grade, cycloplegic protocols, Abbe values, statistics on sight loss) are hedged in the text.
 
-- Schema addition: `profiles.tracker_seeded` (boolean), so the tracker pre-fills from the timetable only once, even across devices.
+- Schema additions: `placement_progress` table for the placements tracker — **if you ran `schema.sql` before, run it again** (it's safe to re-run) — and `profiles.tracker_seeded` (boolean), so the tracker pre-fills from the timetable only once, even across devices.
 - One content inconsistency to check: in `aad.json`, the centration key points say minus lenses are “base-to-apex”, but the diagram spec (and usual teaching) says **apex-to-apex**. The diagram follows apex-to-apex. Worth checking against Dr Hallam's slides and fixing the text if needed.
 - The 1.60 and 1.74 points on the materials chart use typical Abbe values (≈42 and ≈33), shown as dashed “approximate” points. The other values come from the content file.
 - No offline service worker: Add to Home Screen works, but the site needs a connection. That's deliberate, so new content always shows up.

@@ -3,7 +3,15 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { todayISO } from '@/lib/dates'
 import { schedule } from '@/lib/leitner'
-import { backend, type AuthUser, type FlagRecord, type NewAssessment, type Progress, type UserData } from '@/lib/store'
+import {
+  backend,
+  type AuthUser,
+  type FlagRecord,
+  type NewAssessment,
+  type PlacementProgress,
+  type Progress,
+  type UserData,
+} from '@/lib/store'
 import type { Assessment } from '@/lib/tracker'
 import type { ItemKind } from '@/lib/types'
 
@@ -32,6 +40,7 @@ interface AppState {
   setClaudeUrl(url: string): Promise<void>
   markTrackerSeeded(): void
   flag(f: Omit<FlagRecord, 'createdAt'>): Promise<void>
+  setPlacement(placementId: string, patch: Partial<PlacementProgress>): void
   toast(message: string): void
 }
 
@@ -227,6 +236,17 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       markTrackerSeeded() {
         update((d) => ({ ...d, profile: { ...d.profile, trackerSeeded: true } }))
         persist(backend.saveProfile(u, { trackerSeeded: true }))
+      },
+
+      setPlacement(id, patch) {
+        const cur: PlacementProgress = dataRef.current?.placements?.[id] ?? {
+          status: 'not-contacted',
+          interviewDate: null,
+          interviewTime: null,
+        }
+        const next = { ...cur, ...patch }
+        update((d) => ({ ...d, placements: { ...d.placements, [id]: next } }))
+        serial(`placement:${id}`, () => backend.savePlacement(u, id, next))
       },
 
       async flag(f) {

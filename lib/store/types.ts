@@ -24,6 +24,16 @@ export interface FlagRecord {
   createdAt: string
 }
 
+export type PlacementStatus = 'not-contacted' | 'emailed' | 'interview' | 'confirmed'
+
+export interface PlacementProgress {
+  status: PlacementStatus
+  /** YYYY-MM-DD */
+  interviewDate: string | null
+  /** HH:mm (optional) */
+  interviewTime: string | null
+}
+
 export interface UserData {
   profile: Profile
   progress: Record<string, Progress>
@@ -33,6 +43,7 @@ export interface UserData {
   assessments: Assessment[]
   overrides: Record<string, string>
   flags: FlagRecord[]
+  placements: Record<string, PlacementProgress>
 }
 
 export type NewAssessment = Omit<Assessment, 'id'>
@@ -55,6 +66,7 @@ export interface Backend {
   deleteAssessment(user: AuthUser, id: string): Promise<void>
   saveOverride(user: AuthUser, moduleCode: string, name: string | null): Promise<void>
   addFlag(user: AuthUser, f: Omit<FlagRecord, 'createdAt'>): Promise<void>
+  savePlacement(user: AuthUser, placementId: string, p: PlacementProgress): Promise<void>
 }
 
 export function emptyData(username: string): UserData {
@@ -67,6 +79,7 @@ export function emptyData(username: string): UserData {
     assessments: [],
     overrides: {},
     flags: [],
+    placements: {},
   }
 }
 

@@ -84,6 +84,17 @@ create table if not exists public.flags (
   created_at timestamptz not null default now()
 );
 
+create table if not exists public.placement_progress (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  placement_id text not null,
+  status text not null default 'not-contacted'
+    check (status in ('not-contacted', 'emailed', 'interview', 'confirmed')),
+  interview_date date,
+  interview_time text,
+  updated_at timestamptz not null default now(),
+  primary key (user_id, placement_id)
+);
+
 create index if not exists quiz_attempts_user_idx on public.quiz_attempts (user_id, item_id);
 create index if not exists assessments_user_idx on public.assessments (user_id);
 create index if not exists flags_user_idx on public.flags (user_id);
@@ -100,7 +111,7 @@ declare t text;
 begin
   foreach t in array array[
     'topic_progress', 'checklist_progress', 'notes', 'review_items',
-    'quiz_attempts', 'assessments', 'module_overrides', 'flags'
+    'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress'
   ] loop
     execute format('alter table public.%I enable row level security', t);
     execute format('drop policy if exists "own rows" on public.%I', t);

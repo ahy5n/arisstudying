@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { inkColour } from '@/lib/colour'
-import { addDays, mondayOf, weekdayIndex } from '@/lib/dates'
+import { addDays, fmtDayLong, mondayOf, weekdayIndex } from '@/lib/dates'
 import { isDue } from '@/lib/leitner'
 import { type LibraryModule, moduleProgress } from '@/lib/progress'
 import type { WeekInfo } from '@/lib/types'
@@ -107,9 +107,30 @@ export function Library({
         <Tile href="/tracker" title="70% tracker" tone="butter">
           Your marks and what’s left
         </Tile>
+        <Tile href="/placements" title="Placements" tone="sky" wide>
+          {placementSummary(data.placements ?? {}, today)}
+        </Tile>
       </div>
     </section>
   )
+}
+
+function placementSummary(
+  placements: Record<string, { status: string; interviewDate: string | null }>,
+  today: string,
+) {
+  const list = Object.values(placements)
+  const confirmed = list.filter((p) => p.status === 'confirmed').length
+  const inProgress = list.filter((p) => p.status === 'emailed' || p.status === 'interview').length
+  const next = list
+    .map((p) => p.interviewDate)
+    .filter((d): d is string => !!d && d >= today)
+    .sort()[0]
+  const parts: string[] = []
+  if (confirmed) parts.push(`${confirmed} confirmed`)
+  if (inProgress) parts.push(`${inProgress} in progress`)
+  if (next) parts.push(`next interview ${fmtDayLong(next)}`)
+  return parts.length ? parts.join(' · ') : 'Work experience contacts in Birmingham & Solihull'
 }
 
 const TONES = {
@@ -117,23 +138,26 @@ const TONES = {
   lilac: 'bg-lilac-soft text-lilac-ink',
   sage: 'bg-sage-soft text-sage-ink',
   butter: 'bg-butter-soft text-butter-ink',
+  sky: 'bg-sky-soft text-sky-ink',
 }
 
 function Tile({
   href,
   title,
   tone,
+  wide = false,
   children,
 }: {
   href: string
   title: string
   tone: keyof typeof TONES
+  wide?: boolean
   children: React.ReactNode
 }) {
   return (
     <Link
       href={href}
-      className="card flex min-h-[72px] items-center justify-between gap-3 px-5 py-4 transition-shadow hover:shadow-[var(--shadow-lift)]"
+      className={`${wide ? 'sm:col-span-2 ' : ''}card flex min-h-[72px] items-center justify-between gap-3 px-5 py-4 transition-shadow hover:shadow-[var(--shadow-lift)]`}
     >
       <div>
         <p className="font-rounded text-[17px] font-semibold">{title}</p>

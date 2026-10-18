@@ -1,0 +1,466 @@
+{
+  "_source": "Ari_Optometry_Work_Experience_Birmingham_Solihull.pdf",
+  "title": "Optometry work experience",
+  "subtitle": "Birmingham & Solihull — beyond the high street. Hospitals, surgical and community eye care, specialist independents, and sight loss charities.",
+  "checkedNote": "Contact details checked 18 October 2026 from each organisation's own site or official listings. Confirm before sending.",
+  "howTo": [
+    "Lead with being an Aston optometry student — say your year, when you're free, and what you'd like to observe (e.g. glaucoma clinic, contact lens fits, low vision).",
+    "Where there's no public email, call and ask for the practice manager or clinical lead, then follow up by email.",
+    "For NHS trusts, contact both the work experience/volunteering team and the eye department. Expect paperwork (DBS, occupational health, confidentiality).",
+    "Ask your Aston placement team too — several places here already have links with the university."
+  ],
+  "startWith": [
+    { "id": "focus-birmingham", "why": "Already runs a low vision partnership with Aston, so it's an open door." },
+    { "id": "bmec", "why": "The big hospital option, with its own optometry department." },
+    { "id": "edgbaston-eye-clinic", "why": "Run by an optometrist who became an Advanced Clinical Practitioner in ophthalmology, so it shows where an optometry career can go. (Not to be confused with Edgbaston Eye Consultants.)" }
+  ],
+  "beforeYouSend": [
+    "Some places have no public email. Private surgical clinics like SpaMedica, Optegra and Midland Eye only have contact forms — call and ask for the practice manager. Dickens Eye Clinic is the opposite: an email but no phone number.",
+    "Double-check a few phone numbers. The Optical Express and ACES numbers come from their CQC (health regulator) registrations, the Perspective Opticians number from an online directory, and the Solihull Talking Newspaper details from the Charity Commission register — not their own websites.",
+    "University Hospitals Birmingham: the work experience email came from one of its older pages, so use the online request form as well.",
+    "BMEC's trust scheme is currently closed. That's why a direct, polite approach to the optometry department is the best route for now."
+  ],
+  "categories": [
+    {
+      "id": "hospital",
+      "title": "Hospital eye departments",
+      "intro": "Biggest learning value. NHS trusts usually route student requests through a work experience or volunteering team, so contact both that team and the department.",
+      "places": [
+        {
+          "id": "bmec",
+          "name": "Birmingham and Midland Eye Centre (BMEC)",
+          "address": "City Health Campus (formerly City Hospital), Dudley Road, Birmingham B18 7QH",
+          "org": "Sandwell & West Birmingham NHS Trust",
+          "description": "One of the largest eye centres in Europe. Eye A&E plus cataract, cornea, glaucoma, oculoplastics, paediatrics, vitreo-retinal and visual electrophysiology. Its own optometry department does complex and paediatric refraction, medical contact lenses, low vision aids and glaucoma / medical retina shared care.",
+          "phones": [{ "number": "0121 507 4440", "note": "Mon–Fri, 9am–4pm — ask for the Optometry Department (open 8.30am–4.30pm)" }],
+          "emails": [{ "address": "swbh.volunteer@nhs.net", "label": "Trust volunteering" }],
+          "emailNote": "No department email published.",
+          "web": "swbh.nhs.uk/services/birmingham-midland-eye-centre",
+          "tip": "The trust's formal work experience scheme opens in rounds online and is currently closed — so a direct, polite approach to the optometry team is worth trying in the meantime."
+        },
+        {
+          "id": "uhb-ophthalmology",
+          "name": "University Hospitals Birmingham — Ophthalmology",
+          "address": "Heartlands Hospital (Bordesley Green East, B9 5ST), Solihull Hospital (Lode Lane, B91 2JL) and Good Hope Hospital eye clinic",
+          "description": "Around 80 staff including ophthalmologists, optometrists, orthoptists, ophthalmic nurses, medical photographers and technicians. Sub-specialties include cornea, glaucoma, cataract, medical retina / diabetes, macular degeneration, squints, oculoplastics and artificial eyes.",
+          "phones": [{ "number": "0121 424 2000", "note": "Switchboard — ask for Ophthalmology" }],
+          "emails": [{ "address": "Work.Experience@uhb.nhs.uk", "label": "UHB work experience team" }],
+          "web": "jobs.uhb.nhs.uk/our-opportunities/work-experience",
+          "webNote": "Online request form",
+          "tip": "UHB says it closes applications when oversubscribed, so apply early. The email above is from an older UHB page — use the online form too."
+        },
+        {
+          "id": "qehb",
+          "name": "Queen Elizabeth Hospital Birmingham (QEHB) — Ophthalmology",
+          "address": "Mindelsohn Way, Edgbaston, Birmingham B15 2WB",
+          "org": "University Hospitals Birmingham",
+          "description": "Major teaching hospital with its own ophthalmology department in Outpatients Area 1: 14 consultant ophthalmologists, outpatient clinics and day-case surgery, supported by orthoptics, optometry, a Low Vision Refraction Service and a Low Vision Nurse Service.",
+          "phones": [{ "number": "0121 371 2000", "note": "Switchboard — ask for Ophthalmology / Outpatients Area 1" }],
+          "emails": [{ "address": "Work.Experience@uhb.nhs.uk", "label": "UHB work experience team — same trust as above" }],
+          "web": "jobs.uhb.nhs.uk/our-opportunities/work-experience",
+          "tip": "QEHB is a short trip from Aston and the low vision refraction service is a great fit for an optometry student."
+        },
+        {
+          "id": "bch-eye",
+          "name": "Birmingham Children's Hospital — Eye Department",
+          "address": "Steelhouse Lane, Birmingham B4 6NH",
+          "org": "Birmingham Women's & Children's NHS FT",
+          "description": "Specialist paediatric eye unit with nationally commissioned retinoblastoma and paediatric ocular oncology services. Team of 4 consultant ophthalmologists, 12 orthoptists, 2 nurses and 3 optometrists; also runs retinopathy of prematurity screening at the Women's Hospital.",
+          "phones": [{ "number": "0121 333 9462", "note": "Mon–Fri, 8.15am–5pm" }],
+          "emails": [
+            { "address": "bwc.eyedepartment@nhs.net", "label": "Eye department" },
+            { "address": "bwc.workexperience@nhs.net", "label": "Work experience team" }
+          ],
+          "web": "bwc.nhs.uk/eye-department",
+          "tip": "BWC doesn't run placements in school holidays or weekends, and caps them at two weeks."
+        }
+      ]
+    },
+    {
+      "id": "surgical",
+      "title": "Surgical and community eye care",
+      "intro": "Cataract, laser and community ophthalmology providers employ optometrists for pre- and post-op checks, so they're great for seeing the clinical side outside a hospital.",
+      "places": [
+        {
+          "id": "spamedica",
+          "name": "SpaMedica — Birmingham & Solihull",
+          "address": "Apex House, 3 Embassy Drive, Calthorpe Rd, Edgbaston B15 1TR | Cornwall House, Blythe Valley Park, Solihull B90 8AF",
+          "description": "The UK's largest provider of NHS cataract surgery. Both sites also treat wet AMD, diabetic macular oedema and retinal vein occlusion, and do YAG laser. Runs an accredited partner programme and CPD for community optometrists.",
+          "phones": [{ "number": "0330 058 4280" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call (the form has a 'Job/careers enquiry' option).",
+          "web": "spamedica.co.uk/contact"
+        },
+        {
+          "id": "optegra",
+          "name": "Optegra Eye Hospital Birmingham",
+          "address": "Aston University Campus, Coleshill Street, Birmingham B4 7ET",
+          "description": "Dedicated eye hospital doing laser eye surgery, lens replacement and cataract surgery for NHS and private patients. It sits on Aston's own campus and has sponsored Aston optometry and ophthalmology workshops.",
+          "phones": [
+            { "number": "0121 204 3800", "note": "Local line" },
+            { "number": "0800 086 1064", "note": "Patient services" }
+          ],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "optegra.com/birmingham",
+          "tip": "Being on her campus is a natural opener — mention you're an Aston optometry student."
+        },
+        {
+          "id": "newmedica",
+          "name": "Newmedica Birmingham",
+          "address": "Aqueous One, Aston Cross Business Village, Rocky Lane, Birmingham B6 5RQ",
+          "description": "Consultant-led eye clinic and surgical centre doing NHS and private cataract surgery, glaucoma, AMD, epiretinal membrane / vitreoretinal surgery, oculoplastics and YAG laser. Open Mon–Fri 8am–6pm.",
+          "phones": [{ "number": "0121 270 5048" }],
+          "emails": [{ "address": "birmingham@newmedica.co.uk" }],
+          "web": "newmedica.co.uk/clinics/birmingham"
+        },
+        {
+          "id": "chec",
+          "name": "CHEC (Community Health and Eyecare) — Kings Norton",
+          "address": "Kingsgate House, Pershore Road, Kings Norton, Birmingham B30 3EP",
+          "description": "One of the larger community ophthalmology providers in the UK, delivering NHS cataract surgery and ophthalmology outside hospital. Also has a West Bromwich site just outside Birmingham.",
+          "phones": [{ "number": "0344 264 4160" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "chec.uk.com"
+        },
+        {
+          "id": "midland-eye",
+          "name": "Midland Eye",
+          "address": "50 Lode Lane, Solihull B91 2AW",
+          "description": "Private eye surgery centre set up by teaching-hospital consultant surgeons. Laser eye surgery, cataract, lens exchange, ICL, glaucoma, keratoconus, retinal and oculoplastic treatment. CQC rated Good, with Well-led rated Outstanding.",
+          "phones": [{ "number": "0121 711 2020" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "midlandeye.com"
+        },
+        {
+          "id": "optical-express",
+          "name": "Optical Express — Birmingham Hospital",
+          "address": "16 Corporation Street, Birmingham B2 4RN",
+          "description": "Laser and refractive surgery clinic rated Outstanding overall by the CQC. A good place to see refractive assessments and post-op care.",
+          "phones": [{ "number": "0870 220 2020", "note": "As listed with the CQC — double-check" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "opticalexpress.co.uk"
+        },
+        {
+          "id": "edgbaston-eye-consultants",
+          "name": "Edgbaston Eye Consultants",
+          "address": "The George Road Clinic, 22 George Road, Edgbaston B15 1PJ",
+          "description": "Consultant-led private ophthalmology clinic: cataract, glaucoma, oculoplastics, intravitreal injections, retina, neuro-ophthalmology, refractive surgery, ICL and dry eye. CQC rated Good, with Effective rated Outstanding.",
+          "phones": [{ "number": "0121 314 4490", "note": "Mon–Fri, 9am–5pm" }],
+          "emails": [{ "address": "admin@edgbastoneye.co.uk" }],
+          "web": "edgbastoneye.co.uk"
+        },
+        {
+          "id": "westbourne-centre",
+          "name": "The Westbourne Centre (Ramsay Health Care)",
+          "address": "53 Church Road, Edgbaston, Birmingham B15 3SJ",
+          "description": "Private day-surgery and outpatient centre where consultant ophthalmologists see NHS and private patients for cataracts, lens replacement, corneal problems, YAG laser and laser eye surgery.",
+          "phones": [
+            { "number": "0121 456 0894", "note": "Administration" },
+            { "number": "0121 456 8149", "note": "Private patient team" }
+          ],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call (staff emails exist but are personal — call admin first).",
+          "web": "ramsayhealth.co.uk",
+          "webNote": "Search 'Westbourne Centre'"
+        },
+        {
+          "id": "spire-little-aston",
+          "name": "Spire Little Aston Hospital — Eye Surgery",
+          "address": "Little Aston Hall Drive, Sutton Coldfield B74 3UP (just over the Birmingham boundary, near Mere Green)",
+          "description": "Private hospital with a large ophthalmology team: cataract and multifocal lens surgery, cornea and keratoconus cross-linking, complex and minimally invasive glaucoma surgery, refractive and laser surgery, eyelid and orbital surgery, thyroid eye disease, retina and intravitreal injections.",
+          "phones": [{ "number": "0121 353 2444", "note": "Main hospital line" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "spirehealthcare.com/spire-little-aston-hospital",
+          "tip": "Technically in Staffordshire, but it has a Sutton Coldfield address and is easy to reach from north Birmingham."
+        },
+        {
+          "id": "optimax",
+          "name": "Optimax — Birmingham City Centre",
+          "address": "Edmund House, 12–22 Newhall Street, Birmingham B3 3AS",
+          "description": "Laser and lens surgery provider. The city-centre clinic handles consultations and aftercare, which is where optometrists do refractive assessments and post-op checks.",
+          "phones": [{ "number": "0800 093 1110" }],
+          "emails": [{ "address": "enquiry@optimax.co.uk" }],
+          "web": "optimax.co.uk/clinic-locations/birmingham-city-centre"
+        },
+        {
+          "id": "midland-health",
+          "name": "Midland Health — Dry Eye Laser Clinic",
+          "address": "78–79 Francis Road, Edgbaston B16 8SP and Harborne Hospital, Mindelsohn Way B15 2FQ",
+          "description": "Private clinic running a dry eye service with Edgbaston Eye Consultants: IPL laser for meibomian gland dysfunction, LipiFlow thermal pulsation, and consultant ophthalmology consultations, plus paediatric ophthalmology.",
+          "phones": [{ "number": "0121 769 0999" }],
+          "emails": [{ "address": "hello@midlandhealth.co.uk" }],
+          "web": "midlandhealth.co.uk/dry-eye-laser"
+        },
+        {
+          "id": "spire-parkway",
+          "name": "Spire Parkway Hospital — Eye Surgery",
+          "address": "1 Damson Parkway, Solihull B91 2PP",
+          "description": "Private hospital with a busy ophthalmology team offering rapid-access eye care. Treats cataract, glaucoma (including trabeculectomy), AMD, retinal detachment and macular holes, squint, keratoconus (corneal cross-linking), dry eye, eyelid problems, laser eye surgery and refractive lens exchange.",
+          "phones": [{ "number": "0121 704 1451", "note": "Main hospital line" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "spirehealthcare.com/spire-parkway-hospital",
+          "tip": "Ask for the outpatients or ophthalmology manager — private hospitals often host students via a consultant who agrees to be shadowed."
+        },
+        {
+          "id": "priory-hospital",
+          "name": "The Priory Hospital (Circle Health Group)",
+          "address": "Priory Road, Edgbaston, Birmingham B5 7UG",
+          "description": "The largest private hospital in Birmingham. Its outpatient department hosts consultant ophthalmologists, with imaging on site for fast diagnosis.",
+          "phones": [{ "number": "0121 440 2323" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "circlehealthgroup.co.uk/hospitals/the-priory-hospital"
+        },
+        {
+          "id": "aces-birmingham",
+          "name": "ACES Birmingham (Anglia Community Eye Service)",
+          "address": "16 Corporation Street, Birmingham B2 4RN",
+          "description": "Community eye service delivering NHS ophthalmology outside hospital — diagnostic tests, treatment and minor surgical procedures for adults referred by optometrists and GPs.",
+          "phones": [{ "number": "0333 188 2937", "note": "As listed with the CQC — double-check" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "nhs.uk",
+          "webNote": "Search 'ACES Birmingham'"
+        },
+        {
+          "id": "bchc-paediatric-eye",
+          "name": "Birmingham Community Healthcare — Paediatric Eye Service",
+          "address": "Clinics at Broadmeadow (Kings Norton), Northfield, Quinton Lane and Hall Green health centres",
+          "description": "NHS community team of orthoptists and paediatric optometrists assessing and treating children's vision and eye co-ordination problems across South Birmingham. Runs eye care in six special schools, a Down syndrome clinic, and clinics at child development centres.",
+          "phones": [{ "number": "0121 466 3551", "note": "Admin team, 9.30am–1.30pm, answerphone" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "bhamcommunity.nhs.uk/paediatric-eye-service",
+          "tip": "Brilliant for paediatric and special-needs experience you won't get on the high street."
+        }
+      ]
+    },
+    {
+      "id": "independent",
+      "title": "Specialist independent practices",
+      "intro": "Independents focused on contact lenses, myopia management or dry eye — more likely to take a student than chains, and more interesting cases.",
+      "places": [
+        {
+          "id": "edgbaston-eye-clinic",
+          "name": "Edgbaston Eye Clinic",
+          "address": "The Consulting Rooms, 38 Harborne Road, Edgbaston B15 3HE",
+          "description": "Founded in 2017 by Don Williams, an optometrist who became an Advanced Clinical Practitioner in ophthalmology and previously worked at BMEC. Glaucoma, dry eye, keratoconus, medical retina, eye moles, YAG and SLT laser, plus specialist contact lenses (RGP, scleral, ortho-K referrals).",
+          "phones": [{ "number": "0121 726 3199" }],
+          "emails": [{ "address": "info@edgbastoneyeclinic.com" }],
+          "web": "edgbastoneyeclinic.com",
+          "tip": "A brilliant example of how far an optometry career can go — worth saying that in her email."
+        },
+        {
+          "id": "james-ernest",
+          "name": "James Ernest Optometry",
+          "address": "26 The Circle, Harborne, Birmingham B17 9DY",
+          "description": "Specialist practice run by Bradley Warwick, an Aston graduate and specialist independent prescribing optometrist. Myopia management, ortho-K, scleral lenses, binocular vision, glaucoma, and community ophthalmology with a UHB consultant.",
+          "phones": [{ "number": "0121 448 6606" }],
+          "emails": [{ "address": "jeoptometry@gmail.com" }],
+          "web": "jamesernestoptometry.com"
+        },
+        {
+          "id": "eye-opticians-edgbaston",
+          "name": "EYE Opticians — Edgbaston",
+          "address": "44 Islington Row, Edgbaston, Birmingham B15 1LD",
+          "description": "Family-run independent with 40 years in Birmingham. Dry eye clinic with OptiLight IPL, visual stress / colorimetry, myopia control, a contact lens centre for complex fits, and OCT and visual field testing.",
+          "phones": [{ "number": "0121 456 5676" }],
+          "emails": [{ "address": "edgbaston@eyeopticians.co.uk" }],
+          "web": "eyeopticians.co.uk"
+        },
+        {
+          "id": "dickens-eye-clinic",
+          "name": "Dickens Eye Clinic",
+          "address": "39 Main Street, Dickens Heath, Solihull B90 1UB",
+          "description": "Boutique independent in Solihull doing ortho-K, myopia control, specialist contact lens fitting, OCT scanning and eye health monitoring. Open Tue–Sat, 9am–5pm.",
+          "phones": [],
+          "phoneNote": "Not listed on their website — email first.",
+          "emails": [{ "address": "hello@dickenseyeclinic.co.uk" }],
+          "web": "dickenseyeclinic.co.uk"
+        },
+        {
+          "id": "pabari-opticians",
+          "name": "Pabari Opticians",
+          "address": "14 St Mary's Row, Moseley, Birmingham B13 8JG",
+          "description": "Family-run practice for over 40 years. Myopia management, specialised contact lens fitting with corneal topography, OCT and Optomap imaging, colorimetry and children's eye exams.",
+          "phones": [{ "number": "0121 449 0845" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "pabari.co.uk/contact"
+        },
+        {
+          "id": "aston-eye-clinic",
+          "name": "Aston University Eye Clinic",
+          "address": "Vision Sciences, Aston University, Aston Triangle, Birmingham B4 7ET",
+          "description": "Her own uni's clinic — around 8,000 patient episodes a year, open to the public, with low vision assessments and specialist clinics. Worth asking about extra shadowing, research assistant or clinic support roles.",
+          "phones": [{ "number": "0121 204 3900" }],
+          "emails": [],
+          "emailNote": "Ask via your course team or the clinic directly.",
+          "web": "aston.ac.uk/hls/aston-eye-and-hearing-clinics"
+        },
+        {
+          "id": "contact-lens-practice",
+          "name": "The Contact Lens Practice",
+          "address": "5 Lower Temple Street (1st floor), Birmingham B2 4JD",
+          "description": "City-centre specialist contact lens practice that takes referrals from the eye hospital. Keratoconus (RGP, hybrid, piggyback, scleral and semi-scleral lenses, plus cross-linking referrals), ortho-K, myopia control, bespoke lenses for complex prescriptions and corneal dystrophy.",
+          "phones": [{ "number": "0121 643 3848" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "thecontactlenspractice.co.uk",
+          "tip": "Ideal if she's keen on contact lenses — specialty fitting like this is hard to see anywhere else."
+        },
+        {
+          "id": "perspective-opticians",
+          "name": "Perspective Opticians",
+          "address": "High Street, Knowle, Solihull B93 0LF",
+          "description": "Award-winning independent in Solihull since 2005. Advanced eye examinations with OCT 3D scans, myopia control, children's eye care and advanced contact lens fitting.",
+          "phones": [{ "number": "0121 709 1000", "note": "From an online directory listing — check on their website" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "perspectiveopticians.co.uk"
+        },
+        {
+          "id": "kings-opticians",
+          "name": "Kings Opticians",
+          "address": "1–3 Pershore Road South, Cotteridge, Birmingham B30 3EE",
+          "description": "Independent practice with a dry eye clinic, myopia control, OCT eye scans, children's eye tests, contact lenses, and the NHS CUES urgent eye care service.",
+          "phones": [{ "number": "0121 486 2404" }],
+          "emails": [{ "address": "hello@kingsopticians.co.uk" }],
+          "web": "kingsopticians.co.uk"
+        },
+        {
+          "id": "eye-collective-harborne",
+          "name": "The Eye Collective — Harborne",
+          "address": "154 High Street, Harborne, Birmingham B17 9PN",
+          "description": "Sister practice to The Contact Lens Practice. Myopia management plans for children, dry eye assessments, contact lens aftercare, comprehensive and children's eye exams, and bespoke digitally measured lenses.",
+          "phones": [{ "number": "0121 427 3535" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "eyecollective.co.uk/branch/harborne"
+        },
+        {
+          "id": "andrew-martin",
+          "name": "Andrew Martin & Associates",
+          "address": "66 Boldmere Road, Sutton Coldfield B73 5TJ (plus a second practice on Lichfield Road)",
+          "description": "Long-established independent (dating back to the 1960s) offering the NHS Minor Eye Conditions Service — red or sore eyes, flashes and floaters, sudden vision loss, foreign bodies — alongside digital eye photography and contact lenses.",
+          "phones": [
+            { "number": "0121 354 6411", "note": "Boldmere Road" },
+            { "number": "0121 308 1886", "note": "Lichfield Road" }
+          ],
+          "emails": [{ "address": "enquiries@andrew-martin.co.uk" }],
+          "web": "andrew-martin.co.uk",
+          "tip": "Minor eye conditions work is real clinical decision-making — great to observe."
+        },
+        {
+          "id": "neil-berry",
+          "name": "Neil Berry Opticians",
+          "address": "6 Holland Street, Sutton Coldfield B72 1RR",
+          "description": "Independent with 30+ years' experience and a City & Guilds approved centre for digital diabetic eye screening. Also does glaucoma checks, retinal photography and OCT imaging.",
+          "phones": [{ "number": "0121 355 6895" }],
+          "emails": [],
+          "emailNote": "No public email found — use the website contact form or call.",
+          "web": "neilberryopticians.co.uk"
+        },
+        {
+          "id": "lad-turner",
+          "name": "Lad & Turner Opticians",
+          "address": "The Lanes Shopping Centre, Wylde Green, Sutton Coldfield B72 1YG",
+          "description": "Independent offering urgent eye care, dry eye support, home eye tests for people who can't get to the practice, contact lenses, and hearing care.",
+          "phones": [{ "number": "0121 350 5872" }],
+          "emails": [{ "address": "info@ladturneroptical.co.uk" }],
+          "web": "ladturneropticians.co.uk"
+        },
+        {
+          "id": "walford-round",
+          "name": "Walford & Round Opticians",
+          "address": "Dovehouse Parade, 363 Warwick Road, Solihull B91 1BQ",
+          "description": "Family-owned Solihull practice listed in SeeAbility's directory of optometrists who welcome people with learning disabilities, with wheelchair access to the testing room.",
+          "phones": [{ "number": "0121 706 4522" }],
+          "emails": [{ "address": "sol@walford-and-round.co.uk" }],
+          "web": "seeability.org/optometrists",
+          "webNote": "SeeAbility directory listing",
+          "tip": "Good for learning how to adapt eye exams for patients with learning disabilities or autism."
+        }
+      ]
+    },
+    {
+      "id": "charity",
+      "title": "Low vision and sight loss charities",
+      "intro": "Volunteering here builds communication skills and low vision understanding, and many roles are flexible around uni.",
+      "places": [
+        {
+          "id": "focus-birmingham",
+          "name": "Focus Birmingham",
+          "address": "48–62 Woodville Road, Harborne, Birmingham B17 9AT",
+          "description": "Birmingham's main sight loss charity, going since 1846. Runs a Low Vision Centre and clinic, counselling, befriending, rehabilitation, and an aids and technology shop. It already partners with Aston to train optometry students in a real low vision setting, and advertises volunteer roles like telephone befriender.",
+          "phones": [{ "number": "0121 393 4849", "note": "Mon–Fri, 9am–4.30pm" }],
+          "emails": [{ "address": "info@focusbirmingham.org.uk" }],
+          "web": "focusbirmingham.org.uk/jobs",
+          "webNote": "Jobs and volunteering",
+          "tip": "Probably the strongest fit on this list — ask specifically about the low vision clinic."
+        },
+        {
+          "id": "qac",
+          "name": "Queen Alexandra College (QAC)",
+          "address": "Court Oak Road, Harborne, Birmingham B17 9TG",
+          "description": "National specialist college for 16–25 year olds, originally founded to educate blind and visually impaired young people. Has a Visual Impairment Training Officer and rehabilitation and travel trainers on site, and runs the Sight Village assistive technology exhibitions.",
+          "phones": [{ "number": "0121 428 5050" }],
+          "emails": [{ "address": "info@qac.ac.uk" }],
+          "web": "qac.ac.uk"
+        },
+        {
+          "id": "bid-services",
+          "name": "BID Services",
+          "address": "Deaf Cultural Centre, Ladywood Road, Birmingham B16 8SZ",
+          "description": "Sensory impairment charity that runs Birmingham Sensory Services (with Focus Birmingham) and Solihull Sensory Services, including sight loss rehabilitation and mobility training.",
+          "phones": [{ "number": "0121 246 6100" }],
+          "emails": [{ "address": "info@bid.org.uk" }],
+          "web": "bid.org.uk"
+        },
+        {
+          "id": "guide-dogs",
+          "name": "Guide Dogs — Birmingham team",
+          "address": "Midlands region",
+          "description": "As well as guide dogs, runs 'My Guide', matching volunteer sighted guides with visually impaired people. Volunteers must be 18+ and have an enhanced DBS check.",
+          "phones": [{ "number": "0345 143 0194" }],
+          "emails": [{ "address": "VolunteerMidlands@guidedogs.org.uk" }],
+          "web": "guidedogs.org.uk"
+        },
+        {
+          "id": "rnib-eclo",
+          "name": "RNIB Eye Care Support Service (Eye Clinic Liaison Officers)",
+          "address": "Based in Birmingham's eye clinics — BMEC, QEHB, Heartlands, Solihull and Good Hope",
+          "description": "RNIB's Eye Clinic Liaison Officers sit inside hospital eye clinics and support newly diagnosed patients with information, emotional support, registration and benefits advice. Shadowing one shows the human side of sight loss diagnoses.",
+          "phones": [{ "number": "07716 701998", "note": "BMEC ECLO team" }],
+          "emails": [{ "address": "swbh.eclobmec@nhs.net", "label": "BMEC ECLO team" }],
+          "web": "rnib.org.uk",
+          "tip": "These are patient support lines — keep the message short and ask if a student could shadow for a day."
+        },
+        {
+          "id": "birmingham-talking-newspapers",
+          "name": "Birmingham Talking Newspapers",
+          "address": "PO Box 15733, Sutton Coldfield B73 9TB",
+          "description": "Free audio news service for blind and partially sighted people in and around Birmingham. Volunteers read local newspaper content, sent out online or on USB sticks.",
+          "phones": [{ "number": "0300 330 1404" }],
+          "emails": [{ "address": "info@btnbvi.org" }],
+          "web": "btnbvi.org"
+        },
+        {
+          "id": "solihull-talking-newspaper",
+          "name": "Solihull Borough Talking Newspaper Association",
+          "address": "Dorridge, Solihull",
+          "description": "Small volunteer-run charity producing a weekly recorded newspaper for blind and partially sighted people across the Solihull borough.",
+          "phones": [{ "number": "01564 776734", "note": "As listed on the Charity Commission register" }],
+          "emails": [{ "address": "mcdonaldjohn001@gmail.com", "label": "As listed on the Charity Commission register" }],
+          "webNote": "No website — charity number 506328"
+        }
+      ]
+    }
+  ]
+}
