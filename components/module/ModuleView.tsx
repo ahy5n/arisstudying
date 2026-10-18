@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { inkColour } from '@/lib/colour'
+import type { MaterialLink } from '@/lib/slides'
 import type { ModuleView as ModuleData, Session, StaffMember } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { BackLink, type ColourMap, ProgressRing } from '../bits'
@@ -18,6 +19,8 @@ export function ModuleView({
   colours,
   verifyNote,
   questionCount,
+  materials,
+  decks,
 }: {
   module: ModuleData
   leads: (StaffMember & { initials: string })[]
@@ -25,6 +28,8 @@ export function ModuleView({
   colours: ColourMap
   verifyNote?: string
   questionCount: number
+  materials: Record<string, MaterialLink[]>
+  decks: { id: string; title: string; week: number; kind: string; outlined: boolean; status: string | null }[]
 }) {
   const { today, setProgress, setOverride } = useApp()
   const data = useData()
@@ -176,7 +181,7 @@ export function ModuleView({
             {upcoming.length === 0 && <p className="py-3 text-[15px] text-muted">No more sessions this term.</p>}
             <ul>
               {upcoming.map((s, i) => (
-                <SessionRow key={i} s={s} colours={colours} showDate />
+                <SessionRow key={i} s={s} colours={colours} showDate materials={materials} />
               ))}
             </ul>
             {past.length > 0 && (
@@ -187,12 +192,38 @@ export function ModuleView({
                 </summary>
                 <ul className="opacity-80">
                   {past.map((s, i) => (
-                    <SessionRow key={i} s={s} colours={colours} showDate />
+                    <SessionRow key={i} s={s} colours={colours} showDate materials={materials} />
                   ))}
                 </ul>
               </details>
             )}
           </div>
+          {decks.length > 0 && (
+            <div className="mt-6">
+              <h2 className="text-[22px] font-semibold">Slides & materials</h2>
+              <ul className="card mt-3 divide-y divide-line/80">
+                {decks.map((d) => (
+                  <li key={d.id}>
+                    <Link href={`/slides/${d.id}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-wash/50 sm:px-5">
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-[13px] font-semibold text-muted">
+                          Week {d.week} · {d.kind}
+                        </span>
+                        <span className="block font-medium leading-snug">{d.title}</span>
+                        <span className={`block text-[13px] ${d.outlined ? 'font-semibold text-sage-ink' : 'text-muted'}`}>
+                          {d.outlined ? 'Outlined slide by slide' : d.status === 'after-lecture' ? 'Released after the lecture' : 'Not uploaded yet'}
+                        </span>
+                      </span>
+                      <ChevronRight className="mt-1 size-[18px] shrink-0 text-faint group-hover:text-ink" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/slides" className="mt-2 inline-flex min-h-11 items-center text-[14px] font-semibold text-rose-ink underline-offset-4 hover:underline">
+                All slides by week
+              </Link>
+            </div>
+          )}
         </aside>
       </div>
     </div>

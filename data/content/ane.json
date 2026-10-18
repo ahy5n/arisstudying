@@ -5,20 +5,23 @@
     {
       "id": "ane-slit-lamp-illumination",
       "title": "Slit lamp illumination techniques",
-      "summary": "Each slit lamp illumination technique shows different things. Start broad (diffuse) to survey, then narrow the beam to look at layers and depth (direct focal), and use indirect methods (retro-illumination, sclerotic scatter, specular) for subtle changes.",
+      "summary": "Each slit lamp illumination technique shows different things. Start broad (diffuse) to survey, narrow the beam to look at layers and depth (direct focal: parallelepiped, optic section, conical beam), and use indirect methods — indirect illumination, retro-illumination, specular reflection, sclerotic scatter and tangential — for subtle changes.",
       "keyPoints": [
-        "Diffuse: wide beam with a diffuser, low magnification — overall survey of lids, conjunctiva and cornea.",
-        "Direct focal, parallelepiped: beam about 1–2 mm wide, focused on the cornea — shows the surface and stroma in 3D.",
-        "Direct focal, optic section: very narrow beam — a cross-section to judge depth, thickness and layer (e.g. how deep a scar is).",
-        "Conical beam: tiny spot, high magnification, dark room — looks for cells and flare in the anterior chamber.",
-        "Specular reflection: angle of illumination equals angle of observation, high magnification — endothelial mosaic and tear film.",
-        "Retro-illumination: light bounced off the iris or fundus behind the area — shows microcysts, vacuoles, KPs and lens opacities.",
-        "Sclerotic scatter: beam on the limbus; light travels through the cornea by internal reflection and makes central haze (e.g. oedema) glow."
+        "Diffuse: diffuser in place, wide beam, low magnification (typically 6× or 10×) — overall view of the eye and adnexa.",
+        "Optic section (direct): thin beam, low to high magnification — shows depth: AC depth and localising nerve fibres, vessels, infiltrates and cataracts.",
+        "Parallelepiped (direct): broader beam lighting a block of cornea — corneal nerve fibres, punctate keratitis.",
+        "Conical beam (direct): small circular, short narrow beam at 45–60°, medium magnification, darkened room so the pupil is a dark background (Tyndall effect) — AC cells and flare.",
+        "Indirect: look to the side of the beam (decouple the observation system) — epithelial vesicles and erosions, iris pathology, iris sphincter, limbal vessels.",
+        "Retro-illumination: light reflected from the iris or fundus, moderately wide beam, decoupled, medium to high magnification — microcysts (appear 'reversed'), vacuoles, lens opacities, CL deposits, vascularisation.",
+        "Specular reflection: angle of illumination = angle of observation, medium to high magnification, seen in one eyepiece only — tear film debris and flow, endothelium, lens 'orange peel'.",
+        "Sclerotic scatter: 1–1.5 mm slit on the limbus, total internal reflection, observation decoupled and focused on the cornea, low magnification — scars, oedema, corneal foreign bodies.",
+        "Tangential: illumination and observation almost at right angles (about 70°), low to medium magnification, wide beam — iris freckles, tumours, general integrity of cornea and iris."
       ],
       "examTraps": [
-        "Using high magnification for the first look — start with diffuse, low mag.",
-        "Mixing up direct and indirect retro-illumination.",
-        "Looking down the eyepieces for sclerotic scatter — you look at the cornea with the naked eye or low mag."
+        "Using high magnification for the first look — start with diffuse at low magnification.",
+        "Setting conical beam at high magnification in a lit room — it's medium magnification in a darkened room.",
+        "Forgetting to decouple for indirect, retro-illumination and sclerotic scatter (you look beside the beam, not at it).",
+        "Looking for specular reflection with both eyes — it's only visible through one eyepiece."
       ],
       "diagram": {
         "id": "optic-section",
@@ -35,30 +38,39 @@
       },
       "goDeeper": [
         {
+          "heading": "Setting up the slit lamp",
+          "body": "Clean the headrest and chinrest and adjust the table height. With a focusing rod: turn each eyepiece anticlockwise to maximum plus, put the rod in place at the shared axis of the illumination and observation systems, narrow the slit, and turn each eyepiece in turn until the slit is just in focus; then set the IPD, position the patient and adjust the chinrest. Without a rod: position the patient first, then focus on the closed eyelid — rotate the illumination arm and watch the slit; if it moves 'against', move the slit lamp closer; if 'with', move it away; when it doesn't move, the eyelid is at the shared focus and you can focus the eyepieces on the slit, then set the IPD."
+        },
+        {
+          "heading": "Coupled and decoupled",
+          "body": "Normally the illumination and observation systems are coupled — both focused on the same point, so you look at what the beam lights. For indirect illumination, retro-illumination and sclerotic scatter you decouple them, so the microscope focuses beside the beam. The direct beam can 'bleach' subtle defects from view, which is why looking beside it shows things like epithelial vesicles and erosions better."
+        },
+        {
           "heading": "Choosing a technique",
           "body": "Survey with diffuse. Then ask what you want to know: depth or thickness → optic section; texture of a surface or stroma → parallelepiped; something faint or translucent (microcysts, vacuoles, KPs) → retro-illumination; generalised corneal haze → sclerotic scatter; endothelium or tear film detail → specular; AC cells → conical beam."
         },
         {
           "heading": "Looking for cells and flare",
-          "body": "Dim the room fully, use a short (1 × 1 mm) bright beam at about 45–60°, high magnification, focused in the AC between cornea and lens. Cells look like dust in a sunbeam; flare looks like a smoky haze (protein). They're signs of anterior uveitis — grade them (e.g. SUN scheme) and refer as your guidance says."
+          "body": "Dim the room fully so the pupil acts as a dark background. Use a short, narrow circular beam at about 45–60°, medium magnification, focused in the AC between the cornea and lens. Cells look like dust in a sunbeam; flare looks like a smoky haze (the Tyndall effect, from protein). They're signs of anterior uveitis — grade them and refer as your guidance says."
         },
         {
           "heading": "Specular reflection",
-          "body": "Find the bright corneal reflex of the slit beam, then position the beam so the angle of illumination equals the angle of observation. At high magnification and on the back surface of the cornea you'll see the endothelial mosaic (only in one eyepiece). Dark gaps are guttata or polymegethism."
+          "body": "Focus on the area of interest, then swing the illumination arm until the bright mirror-like reflection (a Purkinje image from the tear film) appears — angle of illumination equals angle of observation. Use medium to high magnification; it's only visible through one eyepiece at a time. Reduce the angle to look at deeper structures such as the endothelium (dark gaps suggest guttata or polymegethism) or the lens surface ('orange peel')."
         }
       ],
       "checklist": {
         "id": "chk-slit-lamp-setup",
-        "title": "Slit lamp set-up",
+        "title": "Slit lamp set-up and routine",
         "steps": [
-          "Clean chin rest and forehead band; explain the procedure.",
-          "Set your eyepieces (focus each and set PD).",
-          "Adjust table and chin rest so the patient's canthus aligns with the mark.",
-          "Start with diffuse illumination at low magnification.",
-          "Survey lids, lashes, conjunctiva and cornea.",
-          "Switch to direct focal (parallelepiped, then optic section) for the cornea.",
-          "Use conical beam in a dark room to check the AC.",
-          "Use retro-illumination and sclerotic scatter where useful.",
+          "Clean the headrest and chinrest; adjust the table height.",
+          "Focus the eyepieces: turn each to maximum plus, then focus on the slit using the focusing rod (or on the closed eyelid if there's no rod).",
+          "Set your IPD.",
+          "Position the patient and adjust the chinrest so the canthus lines up with the mark.",
+          "Diffuse illumination, low magnification: survey lids, lashes, conjunctiva and cornea.",
+          "Direct focal: parallelepiped scan of the cornea, then optic section for anything found.",
+          "Indirect, retro-illumination and sclerotic scatter (decoupled) where useful.",
+          "Conical beam in a darkened room, medium magnification, for AC cells and flare.",
+          "Tangential (~70°) to view the iris.",
           "Repeat for the other eye and record findings with grades."
         ]
       },
@@ -78,6 +90,18 @@
         {
           "front": "Technique for central corneal oedema",
           "back": "Sclerotic scatter."
+        },
+        {
+          "front": "Tangential illumination: angle and use",
+          "back": "About 70° (illumination and observation almost at right angles) — iris freckles, tumours, integrity of cornea and iris."
+        },
+        {
+          "front": "Sclerotic scatter set-up",
+          "back": "1–1.5 mm slit on the limbus, observation decoupled and focused on the cornea, low magnification."
+        },
+        {
+          "front": "Conical beam magnification and angle",
+          "back": "Medium magnification, 45–60°, darkened room (Tyndall effect)."
         }
       ],
       "mcq": [
@@ -136,6 +160,62 @@
           ],
           "explanation": "Specular reflection uses the mirror-like reflection from a smooth surface: angle of incidence = angle of reflection.",
           "link": "ane-slit-lamp-illumination#specular-reflection"
+        },
+        {
+          "id": "ane-sl-3",
+          "q": "Which set-up matches conical beam illumination for AC cells?",
+          "options": [
+            {
+              "text": "Short narrow circular beam at 45–60°, medium magnification, darkened room",
+              "correct": true,
+              "feedback": "Yes — the dark pupil behind the AC makes cells and flare visible (Tyndall effect)."
+            },
+            {
+              "text": "Wide diffuse beam, low magnification, room lights on",
+              "correct": false,
+              "feedback": "That's diffuse illumination — far too much light to see cells."
+            },
+            {
+              "text": "Slit on the limbus, observation decoupled",
+              "correct": false,
+              "feedback": "That's sclerotic scatter, for corneal opacities and oedema."
+            },
+            {
+              "text": "Illumination and observation at about 70°",
+              "correct": false,
+              "feedback": "That's tangential illumination, used for the iris."
+            }
+          ],
+          "explanation": "Conical beam: circular, narrow and short beam at 45–60°, medium magnification, in a darkened room so the pupil is a dark background.",
+          "link": "ane-slit-lamp-illumination#looking-for-cells-and-flare"
+        },
+        {
+          "id": "ane-sl-4",
+          "q": "When is the observation system decoupled from the illumination?",
+          "options": [
+            {
+              "text": "Indirect illumination, retro-illumination and sclerotic scatter",
+              "correct": true,
+              "feedback": "Right — you focus beside the beam rather than on it."
+            },
+            {
+              "text": "Optic section and parallelepiped",
+              "correct": false,
+              "feedback": "Those are direct (coupled) techniques."
+            },
+            {
+              "text": "Diffuse illumination only",
+              "correct": false,
+              "feedback": "Diffuse is used coupled at low magnification."
+            },
+            {
+              "text": "Never — they're always coupled",
+              "correct": false,
+              "feedback": "Decoupling is how indirect techniques work."
+            }
+          ],
+          "explanation": "Direct techniques look at what the beam lights; indirect techniques look beside it, which needs the systems decoupled.",
+          "link": "ane-slit-lamp-illumination#coupled-and-decoupled"
         }
       ],
       "cases": [],
@@ -278,14 +358,14 @@
     {
       "id": "ane-van-herick",
       "title": "Van Herick anterior chamber angle grading",
-      "summary": "Van Herick compares the depth of the peripheral anterior chamber with the thickness of the cornea next to it, using a narrow beam at the limbus. It's a quick screen for narrow angles — not a substitute for gonioscopy.",
+      "summary": "Van Herick compares the depth of the peripheral anterior chamber with the thickness of the cornea next to it, using a low-magnification optic section at the limbus with the illumination at about 60°. It's a quick screen for narrow angles — not a substitute for gonioscopy.",
       "keyPoints": [
-        "Narrow optic section placed at the temporal (and nasal) limbus, illumination at 60° to the microscope, microscope straight ahead.",
+        "Optic section at the limbus, low magnification; microscope straight ahead, illumination at about 60°.",
         "Compare the dark gap (peripheral AC depth) with the bright corneal section (thickness).",
-        "Grade 4: AC depth ≥ corneal thickness (wide open).",
-        "Grade 3: ¼ to ½ corneal thickness.",
-        "Grade 2: ¼ corneal thickness.",
-        "Grade 1: less than ¼ corneal thickness (narrow).",
+        "Grade 4: 1:1 (AC depth equal to corneal thickness or more) — wide open.",
+        "Grade 3: 1:½ — open.",
+        "Grade 2: 1:¼ — narrow.",
+        "Grade 1: less than ¼ — dangerously narrow.",
         "Low grades (2 and especially 1) suggest the angle may be capable of closure — follow guidance (gonioscopy/referral) and take care with dilation."
       ],
       "examTraps": [
@@ -320,15 +400,15 @@
       "flashcards": [
         {
           "front": "Van Herick illumination angle",
-          "back": "60° between illumination and microscope."
+          "back": "About 60° between illumination and microscope (microscope straight ahead)."
         },
         {
-          "front": "Van Herick grade 4",
-          "back": "Peripheral AC depth ≥ corneal thickness."
+          "front": "Van Herick grade 3",
+          "back": "1:½ — open."
         },
         {
           "front": "Van Herick grade 1",
-          "back": "Less than ¼ corneal thickness (narrow)."
+          "back": "Less than ¼ — dangerously narrow."
         },
         {
           "front": "Gold standard for angle assessment",
@@ -341,27 +421,27 @@
           "q": "The peripheral AC gap looks about a quarter of the corneal thickness. What's the Van Herick grade?",
           "options": [
             {
-              "text": "Grade 2",
+              "text": "Grade 2 (narrow)",
               "correct": true,
-              "feedback": "Yes — ¼ corneal thickness is grade 2."
+              "feedback": "Yes — 1:¼ is grade 2."
             },
             {
-              "text": "Grade 3",
+              "text": "Grade 3 (open)",
               "correct": false,
-              "feedback": "Grade 3 is ¼ to ½."
+              "feedback": "Grade 3 is 1:½."
             },
             {
-              "text": "Grade 1",
+              "text": "Grade 1 (dangerously narrow)",
               "correct": false,
               "feedback": "Grade 1 is less than ¼."
             },
             {
-              "text": "Grade 4",
+              "text": "Grade 4 (wide open)",
               "correct": false,
-              "feedback": "Grade 4 is equal to or more than the corneal thickness."
+              "feedback": "Grade 4 is 1:1."
             }
           ],
-          "explanation": "Grade 4 ≥ 1 CT, grade 3 ¼–½ CT, grade 2 = ¼ CT, grade 1 < ¼ CT.",
+          "explanation": "Grade 4 = 1:1 (wide open), grade 3 = 1:½ (open), grade 2 = 1:¼ (narrow), grade 1 = <¼ (dangerously narrow).",
           "link": "ane-van-herick#technique"
         },
         {
@@ -411,7 +491,7 @@
       "title": "Fluorescein and lissamine green staining",
       "summary": "Sodium fluorescein shows where the corneal (and conjunctival) epithelium is disrupted or missing; lissamine green shows damaged or devitalised cells and mucus, especially on the conjunctiva. Grade staining by location, type and extent with a named scale.",
       "keyPoints": [
-        "Sodium fluorescein (NaFl): view with cobalt blue light and a yellow barrier filter; stains where cell junctions are broken or cells missing and pools in defects.",
+        "Sodium fluorescein (NaFl): view with a broad beam, cobalt blue light and a yellow (Wratten) barrier filter — cornea, conjunctiva and TBUT. It stains where cell junctions are broken or cells missing and pools in defects.",
         "Look at the cornea soon after instillation, before it diffuses into the stroma.",
         "Lissamine green: view with white light (a red filter helps); best for conjunctival staining; look 1–4 minutes after instillation.",
         "Describe staining: type (punctate, diffuse, coalescent, patch), depth, location (zones or clock hours) and extent.",
@@ -689,13 +769,13 @@
       "title": "Lid eversion technique",
       "summary": "Everting the upper lid shows the upper tarsal conjunctiva, where foreign bodies hide and where papillae and follicles show up. It's quick and comfortable when done smoothly and explained well.",
       "keyPoints": [
-        "Explain first: it feels strange but shouldn't hurt.",
+        "Prepare the slit lamp first, and explain: it feels strange but shouldn't hurt.",
         "Ask the patient to look down (and keep looking down) throughout.",
+        "Use a cotton bud (or your finger); push the lashes apart with the bud if needed.",
         "Hold the upper lashes and pull the lid gently down and away from the eye.",
-        "Place a cotton bud or glass rod at the upper edge of the tarsal plate (about 10 mm above the lid margin).",
-        "Fold the lid up over the bud and hold it against the brow with the lashes.",
-        "Examine with diffuse white light, then with fluorescein for papillae and FBs.",
-        "To return the lid: ask the patient to look up and blink, or ease the lashes forward."
+        "Place the bud at the top of the tarsal plate (about 10 mm above the lid margin).",
+        "Fold the lid up over the bud with a 'down and round' motion of the lashes and bud.",
+        "Look with white light and with blue light (after fluorescein); to return the lid, ask the patient to look up and blink."
       ],
       "examTraps": [
         "Asking the patient to look up during eversion (makes it impossible).",
@@ -725,14 +805,14 @@
         "id": "chk-lid-eversion",
         "title": "Upper lid eversion",
         "steps": [
-          "Explain what you're doing and get consent.",
+          "Prepare the slit lamp; explain what you're doing and get consent.",
           "Wash hands; have a cotton bud ready.",
           "Ask the patient to look down and keep looking down.",
           "Hold the upper lashes and pull the lid gently down and forward.",
-          "Place the bud at the upper border of the tarsal plate.",
-          "Fold the lid up over the bud; hold the lashes against the brow.",
-          "Examine in white light, then with fluorescein.",
-          "Return the lid: patient looks up and blinks.",
+          "Place the bud at the top of the tarsal plate.",
+          "Down and round: fold the lid over the bud; hold the lashes against the brow.",
+          "Examine with white light, then blue light with fluorescein.",
+          "Return the lid: patient looks up and blinks to straighten it.",
           "Record findings (papillae/follicles, grading, any FB)."
         ]
       },

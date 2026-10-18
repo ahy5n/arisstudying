@@ -19,7 +19,17 @@ import { NotesBox } from './NotesBox'
 
 export const VERIFY_NOTE = 'Written from standard optometry knowledge. Check against your lecture slides.'
 
+export interface TopicDeck {
+  id: string
+  title: string
+  week: number
+  kind: string
+  checked: boolean
+  outlined: boolean
+}
+
 interface Props {
+  decks?: TopicDeck[]
   topic: Topic
   moduleCode: string
   moduleName: string
@@ -32,7 +42,7 @@ interface Props {
 
 type Tab = 'flashcards' | 'mcq' | 'cases' | 'label'
 
-export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, index, total, prev, next }: Props) {
+export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, index, total, prev, next, decks = [] }: Props) {
   const { setProgress } = useApp()
   const data = useData()
   const p = data.progress[t.id] ?? { covered: false, revised: false }
@@ -96,6 +106,25 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
               <span aria-hidden>📎</span>
               {VERIFY_NOTE}
             </p>
+            {decks.length > 0 && (
+              <div className="mt-3 rounded-2xl bg-rose-soft/70 px-4 py-3">
+                <p className="text-[13px] font-semibold uppercase tracking-wide text-rose-ink">From your lectures</p>
+                <ul className="mt-1 space-y-1">
+                  {decks.map((d) => (
+                    <li key={d.id} className="text-[15px]">
+                      <Link href={`/slides/${d.id}`} className="font-medium underline-offset-4 hover:underline">
+                        📎 {d.title}
+                      </Link>
+                      <span className="text-muted">
+                        {' '}
+                        · week {d.week} {d.kind.toLowerCase()}
+                        {d.checked ? ' · this page is checked against it ✓' : d.outlined ? '' : ' · not uploaded yet'}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <div className="mt-4 flex flex-wrap gap-2 lg:hidden">
               <TickButton label="Covered" tone="sage" on={p.covered} onToggle={() => setProgress(t.id, 'covered', !p.covered)} />
               <TickButton label="Revised" tone="lilac" on={p.revised} onToggle={() => setProgress(t.id, 'revised', !p.revised)} />

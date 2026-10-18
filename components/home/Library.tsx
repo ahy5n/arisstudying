@@ -107,6 +107,9 @@ export function Library({
         <Tile href="/tracker" title="70% tracker" tone="butter">
           Your marks and what’s left
         </Tile>
+        <Tile href="/slides" title="Slides & materials" tone="rose" wide>
+          Every lecture deck and worksheet, by week — with slide-by-slide outlines
+        </Tile>
         <Tile href="/placements" title="Placements" tone="sky" wide>
           {placementSummary(data.placements ?? {}, today)}
         </Tile>

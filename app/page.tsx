@@ -4,6 +4,7 @@ import { Library } from '@/components/home/Library'
 import { NextTwoWeeks } from '@/components/home/NextTwoWeeks'
 import { VerseCard } from '@/components/home/VerseCard'
 import { toLibraryModule } from '@/lib/progress'
+import { materialsBySession } from '@/lib/slides'
 import { getChecklists, getEncouragements, getModules, getPracticeItems, getTimetable, getVerses } from '@/lib/content'
 
 const TUTOR_PROMPT =
@@ -18,7 +19,7 @@ export default function HomePage() {
       <div className="min-w-0 space-y-6">
         <Greeting lines={getEncouragements()} />
         <VerseCard verses={getVerses()} />
-        <NextTwoWeeks weeks={weeks} sessions={sessions} colours={colours} />
+        <NextTwoWeeks weeks={weeks} sessions={sessions} colours={colours} materials={materialsBySession()} />
         <AskClaudeButton text={TUTOR_PROMPT} label="Ask my tutor" variant="primary" className="w-full sm:w-auto" />
       </div>
       <div className="min-w-0 lg:pt-2">

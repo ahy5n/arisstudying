@@ -291,13 +291,13 @@ const vertexDistance: DiagramDef = {
 
 const vanHerick: DiagramDef = {
   viewBox: [680, 330],
-  caption: 'Narrow beam at the limbus, illumination at 60°. Compare the dark gap (peripheral AC) with the corneal section (CT).',
+  caption: 'Optic section at the limbus, low magnification, illumination at about 60°. Compare the dark gap (peripheral AC) with the corneal section (CT).',
   render: (L) => {
     const grades: [number, string, string][] = [
-      [1.0, 'Grade 4', '≥ 1 CT'],
-      [0.4, 'Grade 3', '¼–½ CT'],
-      [0.25, 'Grade 2', '¼ CT'],
-      [0.12, 'Grade 1', '< ¼ CT'],
+      [1.0, 'Grade 4', '1:1 wide open'],
+      [0.5, 'Grade 3', '1:½ open'],
+      [0.25, 'Grade 2', '1:¼ narrow'],
+      [0.12, 'Grade 1', '< ¼ dangerously narrow'],
     ]
     const CT = 34
     return (
@@ -1341,6 +1341,39 @@ const candourSteps: DiagramDef = {
   },
 }
 
+const clHistory: DiagramDef = {
+  viewBox: [700, 260],
+  caption: 'From Dr Dutta’s CLB Lecture 1. Early ideas didn’t really describe contact lenses; Young and Herschel get more credit.',
+  render: (L) => {
+    const events: [number, string, string, string][] = [
+      [60, 'Early ideas', 'Celsus · Da Vinci · Descartes 1637 · de la Hire 1685', MUTED],
+      [200, '1801', 'Thomas Young', SKY],
+      [320, '1827', 'John Herschel: a jelly-filled glass capsule or a corneal mould', LILAC],
+      [470, '1880s', 'Fick · Kalt · Müller (−14 D, ~30 min wear)', ROSE],
+      [620, 'Later', 'Zeiss lathe-cut lenses, first trial sets', SAGE],
+    ]
+    return (
+      <g>
+        <Arrowheads />
+        <line x1={30} y1={120} x2={676} y2={120} stroke={INK} strokeWidth={2} markerEnd="url(#ah)" />
+        {events.map(([x, when, what, c], i) => (
+          <g key={when}>
+            <circle cx={x} cy={120} r={9} fill="white" stroke={c} strokeWidth={3} />
+            <T x={x} y={i % 2 ? 160 : 82} size={15} fill={c}>
+              {when}
+            </T>
+            {L && (
+              <foreignObject x={x - 70} y={i % 2 ? 172 : 14} width={140} height={60}>
+                <div style={{ fontSize: 12, lineHeight: 1.25, textAlign: 'center', color: INK, fontWeight: 500 }}>{what}</div>
+              </foreignObject>
+            )}
+          </g>
+        ))}
+      </g>
+    )
+  },
+}
+
 export const MORE_DIAGRAMS: Record<string, DiagramDef> = {
   'ret-reflex': retReflex,
   duochrome,
@@ -1368,4 +1401,5 @@ export const MORE_DIAGRAMS: Record<string, DiagramDef> = {
   'stages-of-change': stagesOfChange,
   'consent-triangle': consentTriangle,
   'candour-steps': candourSteps,
+  'cl-history-timeline': clHistory,
 }

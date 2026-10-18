@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ModuleView } from '@/components/module/ModuleView'
 import { getModule, getModules, getPracticeItems, getStaff, getTimetable, getVerifyNote } from '@/lib/content'
+import { decksForModule, materialsBySession } from '@/lib/slides'
 
 export const dynamicParams = false
 
@@ -37,6 +38,8 @@ export default async function ModulePage({ params }: { params: Promise<{ code: s
       colours={colours}
       verifyNote={getVerifyNote(m.code)}
       questionCount={getPracticeItems(m.code).filter((i) => i.kind === 'mcq').length}
+      materials={materialsBySession()}
+      decks={decksForModule(m.code)}
     />
   )
 }

@@ -116,6 +116,21 @@ for (const t of topicsById.values()) {
   }
 }
 
+// Slides library: every deck must point at real sessions and topics.
+const timetable = readJson('timetable.json')
+const sessionKeys = new Set((timetable?.sessions ?? []).map((x) => `${x.date}T${x.start}`))
+const slides = readJson('slides.json')
+const deckIds = new Set()
+for (const d of slides?.decks ?? []) {
+  const where = `slides.json › ${d.id ?? '(no id)'}`
+  for (const k of ['id', 'title', 'file', 'module', 'kind', 'week']) if (d[k] === undefined) err(`${where}: missing "${k}"`)
+  if (deckIds.has(d.id)) err(`${where}: duplicate deck id`)
+  deckIds.add(d.id)
+  for (const ref of [...(d.sessions ?? []), ...(d.alsoUseful ?? [])])
+    if (!sessionKeys.has(`${ref.date}T${ref.start}`)) err(`${where}: no timetable session on ${ref.date} at ${ref.start}`)
+  for (const t of d.topics ?? []) if (!topicsById.has(t)) err(`${where}: unknown topic "${t}"`)
+}
+
 for (const w of warnings) console.warn(`  warn  ${w}`)
 for (const e of errors) console.error(`  ERROR ${e}`)
 console.log(`[content] ${topicsById.size} topics, ${itemIds.size} practice items · ${errors.length} errors, ${warnings.length} warnings`)

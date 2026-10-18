@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { TopicView } from '@/components/topic/TopicView'
 import { getAllTopics, getModuleTopics, getTopic } from '@/lib/content'
+import { decksForTopic } from '@/lib/slides'
 
 export const dynamicParams = false
 
@@ -33,6 +34,7 @@ export default async function TopicPage({ params }: { params: Promise<{ topicId:
       total={siblings.length}
       prev={prev && { id: prev.id, title: prev.title }}
       next={next && { id: next.id, title: next.title }}
+      decks={decksForTopic(topic.id)}
     />
   )
 }

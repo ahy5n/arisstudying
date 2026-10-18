@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { addDays, fmtDay, fmtDayLong, fmtRange, fmtShort, mondayOf, weekdayIndex } from '@/lib/dates'
+import type { MaterialLink } from '@/lib/slides'
 import type { Session, WeekInfo } from '@/lib/types'
 import { useApp } from '../AppProvider'
 import { type ColourMap, ModuleChip, splitModules, typeLabel } from '../bits'
@@ -39,10 +40,12 @@ export function NextTwoWeeks({
   weeks,
   sessions,
   colours,
+  materials,
 }: {
   weeks: WeekInfo[]
   sessions: Session[]
   colours: ColourMap
+  materials?: Record<string, MaterialLink[]>
 }) {
   const { today } = useApp()
   const blocks = buildWeeks(today, weeks, sessions)
@@ -61,7 +64,7 @@ export function NextTwoWeeks({
       ) : (
         <div className="mt-3 space-y-4">
           {blocks.map((b) => (
-            <WeekCard key={b.monday} block={b} today={today} colours={colours} />
+            <WeekCard key={b.monday} block={b} today={today} colours={colours} materials={materials} />
           ))}
         </div>
       )}
@@ -69,7 +72,17 @@ export function NextTwoWeeks({
   )
 }
 
-function WeekCard({ block, today, colours }: { block: WeekBlock; today: string; colours: ColourMap }) {
+function WeekCard({
+  block,
+  today,
+  colours,
+  materials,
+}: {
+  block: WeekBlock
+  today: string
+  colours: ColourMap
+  materials?: Record<string, MaterialLink[]>
+}) {
   const { info } = block
   const title = info ? `Week ${info.week} · ${fmtRange(block.monday, addDays(block.monday, 4))}` : fmtRange(block.monday, addDays(block.monday, 4))
 
@@ -107,7 +120,7 @@ function WeekCard({ block, today, colours }: { block: WeekBlock; today: string; 
               </p>
               <ul className="mt-1">
                 {d.sessions.map((s, i) => (
-                  <SessionRow key={i} s={s} colours={colours} />
+                  <SessionRow key={i} s={s} colours={colours} materials={materials} />
                 ))}
               </ul>
             </li>
@@ -127,7 +140,36 @@ function WeekHeader({ label, title }: { label: string; title: string }) {
   )
 }
 
-export function SessionRow({ s, colours, showDate = false }: { s: Session; colours: ColourMap; showDate?: boolean }) {
+export function SessionMaterials({ items }: { items?: MaterialLink[] }) {
+  if (!items?.length) return null
+  return (
+    <div className="-mt-1 mb-1 flex flex-wrap gap-1.5 pl-[88px] sm:pl-[108px]">
+      {items.map((m) => (
+        <Link
+          key={m.id}
+          href={`/slides/${m.id}`}
+          className="inline-flex min-h-8 items-start gap-1 rounded-xl bg-wash px-2.5 py-1.5 text-left text-[12px] font-semibold leading-snug text-muted hover:bg-rose-soft hover:text-rose-ink"
+        >
+          <span aria-hidden>📎</span>
+          {m.title}
+        </Link>
+      ))}
+    </div>
+  )
+}
+
+export function SessionRow({
+  s,
+  colours,
+  showDate = false,
+  materials,
+}: {
+  s: Session
+  colours: ColourMap
+  showDate?: boolean
+  materials?: Record<string, MaterialLink[]>
+}) {
+  const mats = materials?.[`${s.date}T${s.start}`]
   if (s.type === 'Independent Study') {
     return (
       <li className="py-1.5 text-[14px] text-faint">
@@ -177,6 +219,7 @@ export function SessionRow({ s, colours, showDate = false }: { s: Session; colou
       ) : (
         body
       )}
+      <SessionMaterials items={mats} />
     </li>
   )
 }
