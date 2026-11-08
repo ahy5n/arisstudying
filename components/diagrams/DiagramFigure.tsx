@@ -6,7 +6,7 @@ export function DiagramFigure({ diagram, print = false }: { diagram: NonNullable
   if (!def) {
     // Too complex to draw well: describe it instead of drawing it badly.
     return (
-      <figure className="avoid-break rounded-[22px] border-2 border-dashed border-line bg-wash/60 p-5 sm:p-6">
+      <figure className="avoid-break rounded-[22px] border-2 border-dashed border-border bg-bg/60 p-5 sm:p-6">
         <p className="eyebrow">Diagram to sketch</p>
         <p className="mt-2 text-[16px] leading-relaxed">{diagram.description}</p>
         {diagram.labels.length > 0 && (
@@ -14,7 +14,7 @@ export function DiagramFigure({ diagram, print = false }: { diagram: NonNullable
             <p className="mt-4 text-[14px] font-semibold text-muted">Label these:</p>
             <ul className="mt-2 flex flex-wrap gap-2">
               {diagram.labels.map((l) => (
-                <li key={l} className="rounded-full bg-card px-3 py-1 text-[14px] shadow-[var(--shadow-soft)]">
+                <li key={l} className="rounded-full bg-surface px-3 py-1 text-[14px] shadow-[var(--shadow-soft)]">
                   {l}
                 </li>
               ))}
@@ -28,7 +28,7 @@ export function DiagramFigure({ diagram, print = false }: { diagram: NonNullable
   const [w, h] = def.viewBox
   return (
     <figure className="avoid-break">
-      <div className={print ? '' : 'card overflow-x-auto p-3 sm:p-5'}>
+      <div className={print ? '' : 'card overflow-x-auto bg-fig p-3 sm:p-5'}>
         <svg
           viewBox={`0 0 ${w} ${h}`}
           role="img"
@@ -38,7 +38,7 @@ export function DiagramFigure({ diagram, print = false }: { diagram: NonNullable
           {def.render(true)}
         </svg>
       </div>
-      {!print && <p className="mt-2 text-center text-[13px] text-faint sm:hidden">Swipe sideways to see the whole diagram</p>}
+      {!print && <p className="mt-2 text-center text-[13px] text-muted sm:hidden">Swipe sideways to see the whole diagram</p>}
       {(def.legend || def.caption) && (
         <figcaption className="mt-3 space-y-2 text-[15px] text-muted">
           {def.legend && (

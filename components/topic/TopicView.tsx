@@ -45,6 +45,8 @@ type Tab = 'flashcards' | 'mcq' | 'cases' | 'label'
 export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, index, total, prev, next, decks = [] }: Props) {
   const { setProgress } = useApp()
   const data = useData()
+  // Slides she uploaded and tagged with this topic.
+  const uploads = data.decks.filter((d) => d.topics.includes(t.id))
   const p = data.progress[t.id] ?? { covered: false, revised: false }
   const moduleLabel = data.overrides[moduleCode] || moduleName
 
@@ -102,13 +104,13 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
               Topic {index + 1} of {total}
             </p>
             <h1 className="mt-2 text-[32px] font-semibold sm:text-[38px]">{t.title}</h1>
-            <p className="mt-3 inline-flex items-start gap-2 rounded-xl bg-butter-soft px-3 py-2 text-[14px] text-butter-ink">
+            <p className="mt-3 inline-flex items-start gap-2 rounded-xl bg-warn-soft px-3 py-2 text-[14px] text-warn-ink">
               <span aria-hidden>📎</span>
               {VERIFY_NOTE}
             </p>
-            {decks.length > 0 && (
-              <div className="mt-3 rounded-2xl bg-rose-soft/70 px-4 py-3">
-                <p className="text-[13px] font-semibold uppercase tracking-wide text-rose-ink">From your lectures</p>
+            {(decks.length > 0 || uploads.length > 0) && (
+              <div className="mt-3 rounded-2xl bg-accent-soft/70 px-4 py-3">
+                <p className="text-[13px] font-semibold uppercase tracking-wide text-accent-strong">From your lectures</p>
                 <ul className="mt-1 space-y-1">
                   {decks.map((d) => (
                     <li key={d.id} className="text-[15px]">
@@ -120,6 +122,14 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
                         · week {d.week} {d.kind.toLowerCase()}
                         {d.checked ? ' · this page is checked against it ✓' : d.outlined ? '' : ' · not uploaded yet'}
                       </span>
+                    </li>
+                  ))}
+                  {uploads.map((d) => (
+                    <li key={d.id} className="text-[15px]">
+                      <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="font-medium underline-offset-4 hover:underline">
+                        📎 {d.title}
+                      </Link>
+                      <span className="text-muted"> · your upload, {d.slides.length} {d.slides.length === 1 ? 'slide' : 'slides'}</span>
                     </li>
                   ))}
                 </ul>
@@ -140,7 +150,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
                 <ul className="mt-3 space-y-2.5">
                   {t.keyPoints.map((k, i) => (
                     <li key={i} className="flex gap-3 text-[17px] leading-relaxed">
-                      <span aria-hidden className="mt-[0.6em] size-2 shrink-0 rounded-full" style={{ background: moduleColour, boxShadow: 'inset 0 0 0 1.5px rgb(0 0 0 / 0.15)' }} />
+                      <span aria-hidden className="mt-[0.6em] size-2 shrink-0 rounded-full" style={{ background: moduleColour, boxShadow: 'inset 0 0 0 1.5px color-mix(in srgb, var(--subject-ink) 15%, transparent)' }} />
                       <span>{k}</span>
                     </li>
                   ))}
@@ -148,14 +158,14 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
               </div>
             )}
             {t.examTraps.length > 0 && (
-              <div className="mt-4 rounded-[22px] bg-butter-soft p-5 ring-1 ring-butter sm:p-6">
-                <h2 className="flex items-center gap-2 text-[20px] font-semibold text-butter-ink">
+              <div className="mt-4 rounded-[22px] bg-warn-soft p-5 ring-1 ring-warn sm:p-6">
+                <h2 className="flex items-center gap-2 text-[20px] font-semibold text-warn-ink">
                   <span aria-hidden>⚠︎</span> Exam traps
                 </h2>
                 <ul className="mt-3 space-y-2.5">
                   {t.examTraps.map((k, i) => (
                     <li key={i} className="flex gap-3 text-[17px] leading-relaxed">
-                      <span aria-hidden className="mt-[0.15em] font-bold text-butter-ink">
+                      <span aria-hidden className="mt-[0.15em] font-bold text-warn-ink">
                         ✗
                       </span>
                       <span>{k}</span>
@@ -194,7 +204,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
           {tabs.length > 0 && (
             <section id="practice" className="mt-10">
               <h2 className="text-[22px] font-semibold">Practice</h2>
-              <div role="tablist" aria-label="Practice type" className="no-scrollbar -mx-1 mt-3 flex gap-1 overflow-x-auto rounded-full bg-wash p-1">
+              <div role="tablist" aria-label="Practice type" className="no-scrollbar -mx-1 mt-3 flex gap-1 overflow-x-auto rounded-full bg-bg p-1">
                 {tabs.map((x) => (
                   <button
                     key={x.key}
@@ -202,11 +212,11 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
                     aria-selected={tab === x.key}
                     onClick={() => setTab(x.key)}
                     className={`min-h-11 shrink-0 flex-1 whitespace-nowrap rounded-full px-4 text-[15px] font-semibold transition-all ${
-                      tab === x.key ? 'bg-card text-ink shadow-[var(--shadow-soft)]' : 'text-muted hover:text-ink'
+                      tab === x.key ? 'bg-surface text-ink shadow-[var(--shadow-soft)]' : 'text-muted hover:text-ink'
                     }`}
                   >
                     {x.label}
-                    {x.count != null && <span className="ml-1.5 text-faint">{x.count}</span>}
+                    {x.count != null && <span className="ml-1.5 text-muted">{x.count}</span>}
                   </button>
                 ))}
               </div>
@@ -236,7 +246,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
                       href={l.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex min-h-11 items-center gap-2 rounded-full bg-card px-4 text-[15px] font-medium shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)]"
+                      className="inline-flex min-h-11 items-center gap-2 rounded-full bg-surface px-4 text-[15px] font-medium shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)]"
                     >
                       {l.label}
                       <ExternalIcon className="size-4 text-muted" />
@@ -249,7 +259,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
           )}
 
           {/* 9. Actions */}
-          <div className="mt-10 border-t border-line pt-6 lg:hidden">{actions}</div>
+          <div className="mt-10 border-t border-border pt-6 lg:hidden">{actions}</div>
 
           <nav className="mt-8 grid gap-3 sm:grid-cols-2" aria-label="Other topics">
             {prev ? (

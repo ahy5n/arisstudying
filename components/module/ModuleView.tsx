@@ -2,14 +2,14 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { inkColour } from '@/lib/colour'
+import { inkColour, subjectWash } from '@/lib/colour'
 import type { MaterialLink } from '@/lib/slides'
 import type { ModuleView as ModuleData, Session, StaffMember } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { BackLink, type ColourMap, ProgressRing } from '../bits'
-import { SessionRow } from '../home/NextTwoWeeks'
+import { SessionRow, useMaterials } from '../home/NextTwoWeeks'
 import { ChevronDown, ChevronRight, PencilIcon } from '../icons'
-import { moduleProgress } from '@/lib/progress'
+import { moduleProgress, yearLabel } from '@/lib/progress'
 import { TickButton } from './TickButton'
 
 export function ModuleView({
@@ -34,6 +34,8 @@ export function ModuleView({
   const { today, setProgress, setOverride } = useApp()
   const data = useData()
   const override = data.overrides[m.code]
+  const allMaterials = useMaterials(materials)
+  const uploads = data.decks.filter((d) => d.module === m.code)
   const name = override || m.name
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState(name)
@@ -51,11 +53,11 @@ export function ModuleView({
 
       <header
         className="card mt-2 overflow-hidden"
-        style={{ background: `linear-gradient(150deg, ${m.colour} 0%, ${m.colour}66 50%, #fff 100%)` }}
+        style={subjectWash(m.colour, inkColour(m.colour), 150, 40)}
       >
         <div className="flex items-start justify-between gap-4 p-6 sm:p-8">
           <div className="min-w-0">
-            <p className="font-rounded text-[17px] font-bold" style={{ color: inkColour(m.colour) }}>
+            <p className="subject-code font-rounded text-[17px] font-bold">
               {m.code} · {m.theme}
             </p>
             {editing ? (
@@ -97,30 +99,31 @@ export function ModuleView({
                 </p>
               ) : (
                 <button
-                  className="mt-2 inline-flex min-h-11 items-center gap-1.5 rounded-full bg-white/70 px-3.5 text-[14px] font-medium text-ink hover:bg-white"
+                  className="mt-2 inline-flex min-h-11 items-center gap-1.5 rounded-full bg-surface/70 px-3.5 text-[14px] font-medium text-ink hover:bg-surface"
                   onClick={() => {
                     setDraft(name)
                     setEditing(true)
                   }}
                 >
                   <PencilIcon className="size-4" />
-                  Name inferred ({m.confidence} confidence) — tap to correct
+                  {m.confidence ? `Name inferred (${m.confidence} confidence) — tap to correct` : 'Edit module name'}
                 </button>
               ))}
           </div>
           <ProgressRing value={pct} colour={m.colour} size={64} stroke={6} label={`${Math.round(pct * 100)}% ticked`} />
         </div>
-        <div className="flex flex-wrap gap-x-6 gap-y-2 border-t border-white/60 bg-white/50 px-6 py-4 text-[15px] sm:px-8">
+        <div className="flex flex-wrap gap-x-6 gap-y-2 border-t border-surface/60 bg-surface/50 px-6 py-4 text-[15px] sm:px-8">
           {leads.map((l) => (
             <p key={l.initials}>
               <span className="text-muted">Lead · </span>
               <span className="font-medium">{l.name}</span>{' '}
-              <a className="text-rose-ink underline-offset-4 hover:underline" href={`mailto:${l.email}`}>
+              <a className="text-accent-strong underline-offset-4 hover:underline" href={`mailto:${l.email}`}>
                 {l.email}
               </a>
             </p>
           ))}
-          {leads.length === 0 && <p className="text-muted">Lead: {m.lead}</p>}
+          {leads.length === 0 && m.lead && <p className="text-muted">Lead: {m.lead}</p>}
+          <p className="text-muted">Usually taught in {yearLabel(m.years)} of a UK optometry degree</p>
         </div>
       </header>
 
@@ -137,24 +140,24 @@ export function ModuleView({
             )}
           </div>
           {!m.hasContent && (
-            <p className="mt-2 rounded-2xl bg-butter-soft px-4 py-3 text-[15px] text-butter-ink">
+            <p className="mt-2 rounded-2xl bg-warn-soft px-4 py-3 text-[15px] text-warn-ink">
               Content coming soon. For now this is the topic outline — you can still tick what you’ve covered and revised.
             </p>
           )}
-          <ol className="card mt-3 divide-y divide-line/80">
+          <ol className="card mt-3 divide-y divide-border/80">
             {m.rows.map((r, i) => {
               const p = data.progress[r.id] ?? { covered: false, revised: false }
               const titleId = `row-${r.id}`
               return (
                 <li key={r.id} className="flex flex-col gap-2 px-4 py-3.5 sm:flex-row sm:items-center sm:px-5">
                   <div className="flex min-w-0 flex-1 items-start gap-3">
-                    <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full bg-wash text-[13px] font-semibold text-muted">
+                    <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full bg-bg text-[13px] font-semibold text-muted">
                       {i + 1}
                     </span>
                     {r.full ? (
-                      <Link id={titleId} href={`/t/${r.id}`} className="group flex min-h-11 flex-1 items-start gap-1 pt-0.5 font-medium hover:text-rose-ink">
+                      <Link id={titleId} href={`/t/${r.id}`} className="group flex min-h-11 flex-1 items-start gap-1 pt-0.5 font-medium hover:text-accent">
                         <span className="flex-1">{r.title}</span>
-                        <ChevronRight className="mt-0.5 size-[18px] shrink-0 text-faint group-hover:text-rose-ink" />
+                        <ChevronRight className="mt-0.5 size-[18px] shrink-0 text-muted group-hover:text-accent" />
                       </Link>
                     ) : (
                       <span id={titleId} className="flex-1 pt-0.5">
@@ -181,45 +184,57 @@ export function ModuleView({
             {upcoming.length === 0 && <p className="py-3 text-[15px] text-muted">No more sessions this term.</p>}
             <ul>
               {upcoming.map((s, i) => (
-                <SessionRow key={i} s={s} colours={colours} showDate materials={materials} />
+                <SessionRow key={i} s={s} colours={colours} showDate materials={allMaterials} />
               ))}
             </ul>
             {past.length > 0 && (
-              <details className="group border-t border-line/80 py-2">
+              <details className="group border-t border-border/80 py-2">
                 <summary className="flex min-h-11 items-center gap-1 text-[15px] font-medium text-muted">
                   <ChevronDown className="size-4 transition-transform group-open:rotate-180" />
                   Earlier sessions ({past.length})
                 </summary>
                 <ul className="opacity-80">
                   {past.map((s, i) => (
-                    <SessionRow key={i} s={s} colours={colours} showDate materials={materials} />
+                    <SessionRow key={i} s={s} colours={colours} showDate materials={allMaterials} />
                   ))}
                 </ul>
               </details>
             )}
           </div>
-          {decks.length > 0 && (
+          {(decks.length > 0 || uploads.length > 0) && (
             <div className="mt-6">
               <h2 className="text-[22px] font-semibold">Slides & materials</h2>
-              <ul className="card mt-3 divide-y divide-line/80">
+              <ul className="card mt-3 divide-y divide-border/80">
                 {decks.map((d) => (
                   <li key={d.id}>
-                    <Link href={`/slides/${d.id}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-wash/50 sm:px-5">
+                    <Link href={`/slides/${d.id}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-bg/50 sm:px-5">
                       <span className="min-w-0 flex-1">
                         <span className="block text-[13px] font-semibold text-muted">
                           Week {d.week} · {d.kind}
                         </span>
                         <span className="block font-medium leading-snug">{d.title}</span>
-                        <span className={`block text-[13px] ${d.outlined ? 'font-semibold text-sage-ink' : 'text-muted'}`}>
+                        <span className={`block text-[13px] ${d.outlined ? 'font-semibold text-good-ink' : 'text-muted'}`}>
                           {d.outlined ? 'Outlined slide by slide' : d.status === 'after-lecture' ? 'Released after the lecture' : 'Not uploaded yet'}
                         </span>
                       </span>
-                      <ChevronRight className="mt-1 size-[18px] shrink-0 text-faint group-hover:text-ink" />
+                      <ChevronRight className="mt-1 size-[18px] shrink-0 text-muted group-hover:text-ink" />
+                    </Link>
+                  </li>
+                ))}
+                {uploads.map((d) => (
+                  <li key={d.id}>
+                    <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-bg/50 sm:px-5">
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-[13px] font-semibold text-muted">Your upload</span>
+                        <span className="block font-medium leading-snug">{d.title}</span>
+                        <span className="block text-[13px] font-semibold text-good-ink">Outlined slide by slide</span>
+                      </span>
+                      <ChevronRight className="mt-1 size-[18px] shrink-0 text-muted group-hover:text-ink" />
                     </Link>
                   </li>
                 ))}
               </ul>
-              <Link href="/slides" className="mt-2 inline-flex min-h-11 items-center text-[14px] font-semibold text-rose-ink underline-offset-4 hover:underline">
+              <Link href="/slides" className="mt-2 inline-flex min-h-11 items-center text-[14px] font-semibold text-accent underline-offset-4 hover:underline">
                 All slides by week
               </Link>
             </div>

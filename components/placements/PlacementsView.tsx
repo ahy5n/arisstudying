@@ -10,10 +10,10 @@ import { BackLink } from '../bits'
 import { CheckIcon, ChevronDown, CloseIcon, ExternalIcon, PlusIcon } from '../icons'
 
 const STATUSES: { key: PlacementStatus; label: string; pill: string; dot: string }[] = [
-  { key: 'not-contacted', label: 'Not contacted', pill: 'bg-wash text-muted', dot: 'bg-faint/50' },
-  { key: 'emailed', label: 'Emailed', pill: 'bg-sky-soft text-sky-ink', dot: 'bg-sky-ink' },
-  { key: 'interview', label: 'Interview', pill: 'bg-lilac-soft text-lilac-ink', dot: 'bg-lilac-ink' },
-  { key: 'confirmed', label: 'Confirmed', pill: 'bg-sage-soft text-sage-ink', dot: 'bg-sage-ink' },
+  { key: 'not-contacted', label: 'Not contacted', pill: 'bg-bg text-muted', dot: 'bg-muted/50' },
+  { key: 'emailed', label: 'Emailed', pill: 'bg-accent-soft text-accent-strong', dot: 'bg-accent' },
+  { key: 'interview', label: 'Interview', pill: 'bg-accent-soft text-accent-strong', dot: 'bg-accent' },
+  { key: 'confirmed', label: 'Confirmed', pill: 'bg-good-soft text-good-ink', dot: 'bg-good-ink' },
 ]
 const statusMeta = (s: PlacementStatus) => STATUSES.find((x) => x.key === s)!
 
@@ -109,7 +109,7 @@ export function PlacementsView({ data }: { data: PlacementsData }) {
                   {ci + 1}. {cat.title}
                 </h2>
                 <p className="mt-1 text-[15px] text-muted">{cat.intro}</p>
-                <ul className="card mt-3 divide-y divide-line/80 overflow-hidden">
+                <ul className="card mt-3 divide-y divide-border/80 overflow-hidden">
                   {places.map((p) => (
                     <PlaceRow
                       key={p.id}
@@ -166,9 +166,9 @@ export function PlacementsView({ data }: { data: PlacementsData }) {
                       <li key={p.id}>
                         <button
                           onClick={() => open(p.id)}
-                          className={`w-full rounded-xl px-2 py-2 text-left hover:bg-wash ${past ? 'opacity-60' : ''}`}
+                          className={`w-full rounded-xl px-2 py-2 text-left hover:bg-bg ${past ? 'opacity-60' : ''}`}
                         >
-                          <span className="block text-[13px] font-semibold text-lilac-ink">
+                          <span className="block text-[13px] font-semibold text-accent">
                             {fmtInterview(pr)}
                             {pr.interviewDate === today ? ' · today' : ''}
                           </span>
@@ -191,7 +191,7 @@ export function PlacementsView({ data }: { data: PlacementsData }) {
                     const meta = statusMeta(progressOf(p.id).status)
                     return (
                       <li key={p.id}>
-                        <button onClick={() => open(p.id)} className="flex w-full items-center gap-2 rounded-xl px-2 py-2 text-left hover:bg-wash">
+                        <button onClick={() => open(p.id)} className="flex w-full items-center gap-2 rounded-xl px-2 py-2 text-left hover:bg-bg">
                           <span aria-hidden className={`size-2.5 shrink-0 rounded-full ${meta.dot}`} />
                           <span className="min-w-0 flex-1 truncate text-[15px] font-medium">{p.name}</span>
                           <span className={`shrink-0 rounded-full px-2 py-0.5 text-[12px] font-semibold ${meta.pill}`}>{meta.label}</span>
@@ -212,13 +212,13 @@ export function PlacementsView({ data }: { data: PlacementsData }) {
 function Guidance({ data, onOpen, byId }: { data: PlacementsData; onOpen: (id: string) => void; byId: Map<string, Placement> }) {
   return (
     <div className="space-y-3">
-      <div className="card bg-gradient-to-br from-rose-soft via-white to-white p-5">
+      <div className="card bg-gradient-to-br from-accent-soft via-surface to-surface p-5">
         <p className="eyebrow">Start with these three</p>
         <ul className="mt-2 space-y-2">
           {data.startWith.map((s) => (
             <li key={s.id}>
-              <button onClick={() => onOpen(s.id)} className="w-full rounded-xl px-1 py-1 text-left hover:bg-white/70">
-                <span className="font-semibold text-rose-ink">★ {byId.get(s.id)?.name}</span>
+              <button onClick={() => onOpen(s.id)} className="w-full rounded-xl px-1 py-1 text-left hover:bg-surface/70">
+                <span className="font-semibold text-accent">★ {byId.get(s.id)?.name}</span>
                 <span className="block text-[15px] text-muted">{s.why}</span>
               </button>
             </li>
@@ -267,11 +267,11 @@ function PlaceRow({
   const meta = statusMeta(progress.status)
   return (
     <li id={`place-${p.id}`} className="scroll-mt-24">
-      <button onClick={onToggle} aria-expanded={open} aria-controls={`place-${p.id}-body`} className="flex min-h-16 w-full items-center gap-3 px-4 py-3 text-left hover:bg-wash/50 sm:px-5">
+      <button onClick={onToggle} aria-expanded={open} aria-controls={`place-${p.id}-body`} className="flex min-h-16 w-full items-center gap-3 px-4 py-3 text-left hover:bg-bg/50 sm:px-5">
         <span className="min-w-0 flex-1">
           <span className="block font-medium leading-snug">
             {starWhy && (
-              <span className="mr-1 text-rose-ink" aria-label="Recommended first">
+              <span className="mr-1 text-accent" aria-label="Recommended first">
                 ★
               </span>
             )}
@@ -296,7 +296,7 @@ function PlaceDetail({ place: p, progress }: { place: Placement; progress: Place
   const dateVisible = showDate || progress.status === 'interview' || !!progress.interviewDate
 
   return (
-    <div id={`place-${p.id}-body`} className="fade-in border-t border-line/60 bg-wash/30 px-4 pb-5 pt-4 sm:px-5">
+    <div id={`place-${p.id}-body`} className="fade-in border-t border-border/60 bg-bg/30 px-4 pb-5 pt-4 sm:px-5">
       <p className="text-[16px] leading-relaxed">{p.description}</p>
       <p className="mt-2 text-[14px] text-muted">
         {p.address}
@@ -309,7 +309,7 @@ function PlaceDetail({ place: p, progress }: { place: Placement; progress: Place
           <dd className="mt-1 space-y-1">
             {p.phones.map((ph) => (
               <p key={ph.number}>
-                <a href={telHref(ph.number)} className="font-semibold text-rose-ink underline-offset-4 hover:underline">
+                <a href={telHref(ph.number)} className="font-semibold text-accent underline-offset-4 hover:underline">
                   {ph.number}
                 </a>
                 {ph.note && <span className="text-muted"> — {ph.note}</span>}
@@ -323,7 +323,7 @@ function PlaceDetail({ place: p, progress }: { place: Placement; progress: Place
           <dd className="mt-1 space-y-1">
             {p.emails.map((e) => (
               <p key={e.address} className="break-words">
-                <a href={`mailto:${e.address}`} className="font-semibold text-rose-ink underline-offset-4 hover:underline">
+                <a href={`mailto:${e.address}`} className="font-semibold text-accent underline-offset-4 hover:underline">
                   {e.address}
                 </a>
                 {e.label && <span className="text-muted"> — {e.label}</span>}
@@ -351,13 +351,13 @@ function PlaceDetail({ place: p, progress }: { place: Placement; progress: Place
       )}
 
       {p.tip && (
-        <p className="mt-4 rounded-2xl bg-butter-soft px-4 py-3 text-[15px] text-butter-ink">
+        <p className="mt-4 rounded-2xl bg-warn-soft px-4 py-3 text-[15px] text-warn-ink">
           <b>Tip:</b> {p.tip}
         </p>
       )}
 
       {/* Tracker controls */}
-      <div className="mt-5 rounded-2xl bg-card p-4 shadow-[var(--shadow-soft)]">
+      <div className="mt-5 rounded-2xl bg-surface p-4 shadow-[var(--shadow-soft)]">
         <p className="eyebrow">Your status</p>
         <div role="radiogroup" aria-label={`Status for ${p.name}`} className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
           {STATUSES.map((s) => {
@@ -369,7 +369,7 @@ function PlaceDetail({ place: p, progress }: { place: Placement; progress: Place
                 aria-checked={on}
                 onClick={() => setPlacement(p.id, { status: s.key })}
                 className={`flex min-h-11 items-center justify-center gap-1.5 rounded-full px-3 text-[14px] font-semibold transition-colors ${
-                  on ? `${s.pill} ring-2 ring-current` : 'bg-wash/70 text-muted hover:text-ink'
+                  on ? `${s.pill} ring-2 ring-current` : 'bg-bg/70 text-muted hover:text-ink'
                 }`}
               >
                 {on && <CheckIcon className="size-4" />}

@@ -1,37 +1,45 @@
 @import 'tailwindcss';
+@import '../styles/themes.css';
+
+/* Tailwind colour names point at the theme tokens in styles/themes.css. */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-border: var(--border);
+  /* Derived: a stronger tint for hover/selected, a pressed accent, and accent text on tints (AA in every theme). */
+  --color-accent-tint: color-mix(in srgb, var(--accent) 18%, var(--accent-soft));
+  --color-accent-hover: color-mix(in srgb, var(--accent) 86%, var(--ink));
+  --color-accent-strong: color-mix(in srgb, var(--accent) 80%, var(--ink));
+  /* Fixed status colours (light/dark only) */
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-good-ink: var(--good-ink);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-warn-ink: var(--warn-ink);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-bad-ink: var(--bad-ink);
+  --color-fig: var(--fig-bg);
+  --color-subject-ink: var(--subject-ink);
+
+  /* Her softer, deeper shadows, now read from the theme. */
+  --shadow-soft: 0 0 0 1px color-mix(in srgb, var(--border) 60%, transparent), 0 6px 24px -8px rgb(0 0 0 / calc(var(--shadow-strength) * 2.4));
+  --shadow-lift: 0 0 0 1px var(--border), 0 14px 36px -10px rgb(0 0 0 / calc(var(--shadow-strength) * 4.4));
+}
+
 
 @theme {
   --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-rounded: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-arabic: 'Amiri', 'Scheherazade New', 'Geeza Pro', serif;
 
-  --color-paper: #fbf7f4;
-  --color-card: #ffffff;
-  --color-ink: #2e2a33;
-  --color-muted: #675e6d;
-  --color-faint: #736a78;
-  --color-line: #ece4df;
-  --color-wash: #f5efeb;
-
-  --color-rose: #f6c9d0;
-  --color-rose-soft: #fcebee;
-  --color-rose-ink: #9a4560;
-  --color-sage: #d9f0e3;
-  --color-sage-soft: #eef8f2;
-  --color-sage-ink: #2c6a4d;
-  --color-lilac: #e5daf5;
-  --color-lilac-soft: #f4effb;
-  --color-lilac-ink: #5a4590;
-  --color-butter: #fbefd0;
-  --color-butter-soft: #fdf7e8;
-  --color-butter-ink: #77510f;
-  --color-sky: #cfe3f7;
-  --color-sky-soft: #eef5fc;
-  --color-sky-ink: #2d5a85;
-
   --radius-card: 22px;
-  --shadow-soft: 0 1px 2px rgb(60 40 50 / 0.04), 0 6px 24px -8px rgb(90 60 75 / 0.12);
-  --shadow-lift: 0 2px 4px rgb(60 40 50 / 0.05), 0 14px 36px -10px rgb(90 60 75 / 0.22);
 }
 
 @layer base {
@@ -41,8 +49,8 @@
     scroll-padding-top: 84px;
   }
   body {
-    background: var(--color-paper);
-    color: var(--color-ink);
+    background: var(--bg);
+    color: var(--ink);
     font-family: var(--font-sans);
     font-size: 17px;
     line-height: 1.55;
@@ -54,10 +62,11 @@
     line-height: 1.2;
   }
   :focus-visible {
-    outline: 3px solid color-mix(in srgb, var(--color-rose-ink) 55%, transparent);
+    outline: 3px solid color-mix(in srgb, var(--accent) 55%, transparent);
     outline-offset: 2px;
     border-radius: 10px;
   }
+  input[type='checkbox'], input[type='radio'] { accent-color: var(--accent); }
   button { cursor: pointer; }
   button:disabled { cursor: default; }
   summary { cursor: pointer; list-style: none; }
@@ -66,7 +75,7 @@
 
 @layer components {
   .card {
-    background: var(--color-card);
+    background: var(--surface);
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-soft);
   }
@@ -84,14 +93,14 @@
     user-select: none;
   }
   .btn:active:not(:disabled) { transform: scale(0.97); }
-  .btn-primary { background: var(--color-rose-ink); color: #fff; }
-  .btn-primary:hover:not(:disabled) { background: #85394f; }
-  .btn-soft { background: var(--color-rose-soft); color: var(--color-rose-ink); }
-  .btn-soft:hover:not(:disabled) { background: #f9dfe4; }
-  .btn-ghost { background: transparent; color: var(--color-muted); }
-  .btn-ghost:hover:not(:disabled) { background: var(--color-wash); }
-  .btn-quiet { background: var(--color-wash); color: var(--color-ink); }
-  .btn-quiet:hover:not(:disabled) { background: #eee5df; }
+  .btn-primary { background: var(--accent); color: var(--on-accent); }
+  .btn-primary:hover:not(:disabled) { background: var(--color-accent-hover); }
+  .btn-soft { background: var(--accent-soft); color: var(--color-accent-strong); }
+  .btn-soft:hover:not(:disabled) { background: var(--color-accent-tint); }
+  .btn-ghost { background: transparent; color: var(--muted); }
+  .btn-ghost:hover:not(:disabled) { background: var(--bg); color: var(--ink); }
+  .btn-quiet { background: var(--bg); color: var(--ink); box-shadow: inset 0 0 0 1px var(--border); }
+  .btn-quiet:hover:not(:disabled) { background: var(--accent-soft); }
   .btn:disabled { opacity: 0.5; }
 
   .chip {
@@ -102,7 +111,8 @@
     padding: 0.1rem 0.6rem;
     font-size: 13px;
     font-weight: 650;
-    color: #2e2a33;
+    /* Subject chips are fixed pastels, so their text stays dark in every theme. */
+    color: var(--subject-ink);
     white-space: nowrap;
   }
   .eyebrow {
@@ -110,23 +120,23 @@
     font-weight: 650;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--color-muted);
+    color: var(--muted);
   }
   .field {
     width: 100%;
     min-height: 48px;
     border-radius: 14px;
-    border: 1.5px solid var(--color-line);
-    background: #fff;
+    border: 1.5px solid color-mix(in srgb, var(--border) 70%, var(--muted));
+    background: var(--surface);
     padding: 0.6rem 0.9rem;
     font-size: 17px;
-    color: var(--color-ink);
+    color: var(--ink);
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
   }
   .field:focus {
     outline: none;
-    border-color: color-mix(in srgb, var(--color-rose-ink) 60%, white);
-    box-shadow: 0 0 0 4px var(--color-rose-soft);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-soft);
   }
   .prose-soft p + p { margin-top: 0.75rem; }
 }
@@ -166,7 +176,7 @@
 /* ── Print / "Save for GoodNotes" ───────────────────────────────────── */
 @media print {
   @page { size: A4 portrait; margin: 16mm 16mm 18mm 16mm; }
-  html, body { background: #fff !important; font-size: 11pt; }
+  html, body { background: var(--fig-bg) !important; font-size: 11pt; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .no-print { display: none !important; }
   .print-sheet { box-shadow: none !important; padding: 0 !important; margin: 0 !important; max-width: none !important; }

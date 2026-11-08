@@ -4,7 +4,10 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { type ColourMap, ModuleChip, typeLabel } from '../bits'
 import { BackLink } from '../bits'
+import type { ModuleOption } from '@/lib/moduleOptions'
 import { ChevronRight } from '../icons'
+import type { SessionChoice } from './AddDeck'
+import { YourUploads } from './YourUploads'
 
 export interface LibDeck {
   id: string
@@ -38,22 +41,36 @@ export interface LibWeek {
 export function KindBadge({ kind }: { kind: string }) {
   const cls =
     kind === 'Lecture'
-      ? 'bg-rose-soft text-rose-ink'
+      ? 'bg-accent-soft text-accent-strong'
       : kind === 'Tutorial'
-        ? 'bg-lilac-soft text-lilac-ink'
+        ? 'bg-accent-soft text-accent-strong'
         : kind === 'Practice questions'
-          ? 'bg-sage-soft text-sage-ink'
-          : 'bg-butter-soft text-butter-ink'
+          ? 'bg-good-soft text-good-ink'
+          : 'bg-warn-soft text-warn-ink'
   return <span className={`rounded-full px-2 py-0.5 text-[12px] font-semibold ${cls}`}>{kind}</span>
 }
 
 export function DeckStatus({ d }: { d: Pick<LibDeck, 'outlined' | 'slideCount' | 'status'> }) {
-  if (d.outlined) return <span className="text-[13px] font-semibold text-sage-ink">Outlined{d.slideCount ? ` · ${d.slideCount} slides` : ''}</span>
+  if (d.outlined) return <span className="text-[13px] font-semibold text-good-ink">Outlined{d.slideCount ? ` · ${d.slideCount} slides` : ''}</span>
   if (d.status === 'after-lecture') return <span className="text-[13px] text-muted">Slides released after the lecture</span>
   return <span className="text-[13px] text-muted">Not uploaded yet — open it on Blackboard</span>
 }
 
-export function SlidesLibrary({ weeks, colours, total, outlinedCount }: { weeks: LibWeek[]; colours: ColourMap; total: number; outlinedCount: number }) {
+export function SlidesLibrary({
+  weeks,
+  colours,
+  total,
+  outlinedCount,
+  uploadModules,
+  sessions,
+}: {
+  weeks: LibWeek[]
+  colours: ColourMap
+  total: number
+  outlinedCount: number
+  uploadModules: ModuleOption[]
+  sessions: SessionChoice[]
+}) {
   const modules = [...new Set(weeks.flatMap((w) => w.sessions.flatMap((s) => s.decks.map((d) => d.module))))].sort()
   const [mod, setMod] = useState<string | null>(null)
 
@@ -69,6 +86,10 @@ export function SlidesLibrary({ weeks, colours, total, outlinedCount }: { weeks:
         {total} items · {outlinedCount} outlined
       </p>
 
+      <YourUploads modules={uploadModules} sessions={sessions} colours={colours} />
+
+      <h2 className="mt-10 text-[22px] font-semibold">Lecture library</h2>
+
       <div role="group" aria-label="Filter by module" className="no-scrollbar -mx-1 mt-4 flex gap-2 overflow-x-auto px-1 pb-1">
         {[null, ...modules].map((m) => {
           const on = mod === m
@@ -77,7 +98,7 @@ export function SlidesLibrary({ weeks, colours, total, outlinedCount }: { weeks:
               key={m ?? 'all'}
               onClick={() => setMod(m)}
               aria-pressed={on}
-              className={`min-h-11 shrink-0 rounded-full px-4 text-[15px] font-semibold transition-colors ${on ? 'bg-ink text-white' : 'bg-card text-muted shadow-[var(--shadow-soft)] hover:text-ink'}`}
+              className={`min-h-11 shrink-0 rounded-full px-4 text-[15px] font-semibold transition-colors ${on ? 'bg-accent text-on-accent' : 'bg-surface text-muted shadow-[var(--shadow-soft)] hover:text-ink'}`}
             >
               {m ?? 'All'}
             </button>
@@ -96,7 +117,7 @@ export function SlidesLibrary({ weeks, colours, total, outlinedCount }: { weeks:
             <div className="mt-3 space-y-4">
               {sessions.map((s) => (
                 <div key={s.key} className="card overflow-hidden">
-                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b border-line/70 bg-wash/40 px-5 py-3">
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b border-border/70 bg-bg/40 px-5 py-3">
                     <span className="text-[14px] font-semibold text-ink">{s.dayLabel}</span>
                     <span className="text-[14px] tabular-nums text-muted">
                       {s.start}–{s.end}
@@ -107,21 +128,21 @@ export function SlidesLibrary({ weeks, colours, total, outlinedCount }: { weeks:
                     ))}
                     {s.room && <span className="text-[13px] text-muted">{s.room}</span>}
                   </div>
-                  <ul className="divide-y divide-line/70">
+                  <ul className="divide-y divide-border/70">
                     {s.decks.map((d) => (
                       <li key={d.id}>
-                        <Link href={`/slides/${d.id}`} className="group flex items-start gap-3 px-5 py-3.5 hover:bg-wash/50">
+                        <Link href={`/slides/${d.id}`} className="group flex items-start gap-3 px-5 py-3.5 hover:bg-bg/50">
                           <div className="min-w-0 flex-1">
                             <div className="flex flex-wrap items-center gap-2">
                               <KindBadge kind={d.kind} />
                               <span className="font-medium leading-snug">{d.title}</span>
                             </div>
-                            <p className="mt-0.5 break-all text-[12px] text-faint">{d.file}</p>
+                            <p className="mt-0.5 break-all text-[12px] text-muted">{d.file}</p>
                             <div className="mt-1">
                               <DeckStatus d={d} />
                             </div>
                           </div>
-                          <ChevronRight className="mt-1 size-5 shrink-0 text-faint group-hover:text-ink" />
+                          <ChevronRight className="mt-1 size-5 shrink-0 text-muted group-hover:text-ink" />
                         </Link>
                       </li>
                     ))}

@@ -59,7 +59,7 @@ export function GoDeeper({ sections }: { sections: { heading: string; body: stri
           <section
             key={id}
             id={id}
-            className={`card overflow-hidden transition-shadow ${flash === id ? 'ring-2 ring-sky shadow-[var(--shadow-lift)]' : ''}`}
+            className={`card overflow-hidden transition-shadow ${flash === id ? 'ring-2 ring-accent-tint shadow-[var(--shadow-lift)]' : ''}`}
           >
             <h3>
               <button

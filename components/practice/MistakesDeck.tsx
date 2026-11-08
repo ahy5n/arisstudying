@@ -1,10 +1,11 @@
 'use client'
 
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { addDays, fmtDayLong } from '@/lib/dates'
 import { isDue, RETIRED } from '@/lib/leitner'
 import type { PracticeItem } from '@/lib/types'
+import { cardSetItems } from '@/lib/userCards'
 import { useApp, useData } from '../AppProvider'
 import { BackLink } from '../bits'
 import { PracticeRunner } from './PracticeRunner'
@@ -12,9 +13,11 @@ import { shuffle } from './shuffle'
 
 const BOX_LABEL = ['', 'back tomorrow', 'every 3 days', 'every week', 'every 2 weeks']
 
-export function MistakesDeck({ items }: { items: PracticeItem[] }) {
+export function MistakesDeck({ items: builtIn }: { items: PracticeItem[] }) {
   const { today } = useApp()
   const data = useData()
+  // Her own flashcards come back here too.
+  const items = useMemo(() => [...builtIn, ...cardSetItems(data.cardSets)], [builtIn, data.cardSets])
   // Snapshot what's due when the page opens, so answering doesn't reshuffle the session.
   const [session, setSession] = useState<PracticeItem[] | null>(null)
   const snapshot = () =>
@@ -73,8 +76,8 @@ export function MistakesDeck({ items }: { items: PracticeItem[] }) {
                 </p>
               </li>
             ))}
-            <li className="card bg-sage-soft px-4 py-3">
-              <p className="font-rounded text-[24px] font-semibold text-sage-ink">{retired}</p>
+            <li className="card bg-good-soft px-4 py-3">
+              <p className="font-rounded text-[24px] font-semibold text-good-ink">{retired}</p>
               <p className="text-[13px] text-muted">Retired — learnt</p>
             </li>
           </ul>

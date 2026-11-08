@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useApp } from './AppProvider'
+import { Logo } from './Logo'
 
 export function LoginScreen() {
   const { signIn, mode } = useApp()
@@ -24,11 +25,14 @@ export function LoginScreen() {
 
   return (
     <div className="relative grid min-h-dvh place-items-center overflow-hidden px-4">
-      <div aria-hidden className="absolute -left-24 -top-24 size-80 rounded-full bg-rose/60 blur-3xl" />
-      <div aria-hidden className="absolute -bottom-32 -right-16 size-96 rounded-full bg-lilac/70 blur-3xl" />
-      <div aria-hidden className="absolute bottom-10 left-1/4 size-56 rounded-full bg-sage/70 blur-3xl" />
+      <div aria-hidden className="absolute -left-24 -top-24 size-80 rounded-full bg-accent-tint/60 blur-3xl" />
+      <div aria-hidden className="absolute -bottom-32 -right-16 size-96 rounded-full bg-accent-tint/70 blur-3xl" />
+      <div aria-hidden className="absolute bottom-10 left-1/4 size-56 rounded-full bg-good/70 blur-3xl" />
       <main className="card relative w-full max-w-sm p-8 sm:p-10">
-        <h1 className="text-center font-rounded text-[28px] font-semibold">Hi Ari 🌷</h1>
+        <div className="flex justify-center">
+          <Logo size={44} withWordmark={false} />
+        </div>
+        <h1 className="mt-4 text-center font-rounded text-[28px] font-semibold">Hi Ari 🌷</h1>
         <p className="mt-1 text-center text-muted">Sign in to your study space</p>
         <form onSubmit={submit} className="mt-8 space-y-4">
           <label className="block">
@@ -56,7 +60,7 @@ export function LoginScreen() {
             />
           </label>
           {error && (
-            <p role="alert" className="rounded-xl bg-rose-soft px-3 py-2 text-[15px] text-rose-ink">
+            <p role="alert" className="rounded-xl bg-bad-soft px-3 py-2 text-[15px] text-bad-ink">
               {error}
             </p>
           )}

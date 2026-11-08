@@ -111,7 +111,7 @@ function Summary({ s }: { s: ReturnType<typeof summarise> }) {
 
   return (
     <div className="card mt-6 overflow-hidden">
-      <div className="grid gap-6 bg-gradient-to-br from-butter-soft via-white to-rose-soft p-6 sm:grid-cols-[1fr_auto] sm:p-8">
+      <div className="grid gap-6 bg-gradient-to-br from-warn-soft via-surface to-accent-soft p-6 sm:grid-cols-[1fr_auto] sm:p-8">
         <div>
           <p className="eyebrow">Towards 70%</p>
           <p className="mt-2 font-rounded text-[30px] font-semibold leading-tight sm:text-[34px]">{headline}</p>
@@ -133,8 +133,8 @@ function Summary({ s }: { s: ReturnType<typeof summarise> }) {
       </div>
       {avg != null && (
         <div className="px-6 pb-6 pt-1 sm:px-8">
-          <div className="relative h-3 rounded-full bg-wash" role="img" aria-label={`Average ${fmt(avg)}%, target 70%`}>
-            <div className="h-full rounded-full bg-gradient-to-r from-rose to-rose-ink/70 transition-all" style={{ width: `${pct}%` }} />
+          <div className="relative h-3 rounded-full bg-bg" role="img" aria-label={`Average ${fmt(avg)}%, target 70%`}>
+            <div className="h-full rounded-full bg-gradient-to-r from-accent-tint to-accent/70 transition-all" style={{ width: `${pct}%` }} />
             <div className="absolute -top-1.5 h-6 w-0.5 rounded bg-ink/60" style={{ left: '70%' }} />
           </div>
           <div className="relative mt-1 h-4 text-[12px] text-muted">
@@ -145,12 +145,12 @@ function Summary({ s }: { s: ReturnType<typeof summarise> }) {
         </div>
       )}
       {s.state !== 'empty' && s.unweightedPending > 0 && (
-        <p className="border-t border-line px-6 py-3 text-[14px] text-muted sm:px-8">
+        <p className="border-t border-border px-6 py-3 text-[14px] text-muted sm:px-8">
           {s.unweightedPending} upcoming {s.unweightedPending === 1 ? 'assessment has' : 'assessments have'} no weighting yet, so {s.unweightedPending === 1 ? 'it isn’t' : 'they aren’t'} in this sum.
         </p>
       )}
       {s.unweightedMarked > 0 && (
-        <p className="border-t border-line px-6 py-3 text-[14px] text-muted sm:px-8">
+        <p className="border-t border-border px-6 py-3 text-[14px] text-muted sm:px-8">
           {s.unweightedMarked} marked {s.unweightedMarked === 1 ? 'item has' : 'items have'} no weighting yet, so {s.unweightedMarked === 1 ? 'it isn’t' : 'they aren’t'} counted.
         </p>
       )}
@@ -189,7 +189,7 @@ function AssessmentRow({ a, moduleCodes }: { a: Assessment; moduleCodes: string[
           aria-label="Assessment name"
         />
         <button
-          className={`btn px-3 ${confirm ? 'bg-rose-soft text-rose-ink' : 'btn-ghost'}`}
+          className={`btn px-3 ${confirm ? 'bg-accent-soft text-accent' : 'btn-ghost'}`}
           onClick={() => (confirm ? deleteAssessment(a.id) : setConfirm(true))}
           onBlur={() => setConfirm(false)}
           aria-label={confirm ? 'Tap again to remove' : `Remove ${a.name}`}

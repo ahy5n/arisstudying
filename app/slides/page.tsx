@@ -1,6 +1,7 @@
 import { SlidesLibrary, type LibWeek } from '@/components/slides/SlidesLibrary'
 import { getModules, getTimetable, getTopic } from '@/lib/content'
 import { addDays, fmtDayLong, fmtRange } from '@/lib/dates'
+import { getModuleOptions } from '@/lib/moduleOptions'
 import { getDecks, isOutlined, sessionKey } from '@/lib/slides'
 
 export const metadata = { title: 'Slides & materials' }
@@ -42,5 +43,19 @@ export default function SlidesPage() {
     if (wkSessions.length) byWeek.push({ week: w.week, range: fmtRange(w.monday, addDays(w.monday, 4)), sessions: wkSessions })
   }
 
-  return <SlidesLibrary weeks={byWeek} colours={colours} total={decks.length} outlinedCount={decks.filter(isOutlined).length} />
+  // Lectures an upload can be linked to.
+  const choices = sessions
+    .filter((s) => s.type !== 'Independent Study')
+    .map((s) => ({ date: s.date, start: s.start, module: s.module, label: `${s.type}${s.module ? ` · ${s.module}` : ''}` }))
+
+  return (
+    <SlidesLibrary
+      weeks={byWeek}
+      colours={colours}
+      total={decks.length}
+      outlinedCount={decks.filter(isOutlined).length}
+      uploadModules={getModuleOptions()}
+      sessions={choices}
+    />
+  )
 }

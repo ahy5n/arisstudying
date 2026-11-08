@@ -4,6 +4,7 @@
 // Unknown ids fall back to a description card.
 
 import { Arrowheads, Cross, Dim, INK, LILAC, MUTED, ROSE, SAGE, SKY, T, type DiagramDef } from './kit'
+import { FIG } from './palette'
 import { MORE_DIAGRAMS } from './MoreDiagrams'
 
 export type { DiagramDef, Spot } from './kit'
@@ -36,8 +37,8 @@ const boxing: DiagramDef = {
       {/* ED circle around the left lens */}
       <circle cx={180} cy={165} r={103} fill="none" stroke={LILAC} strokeWidth={1.3} strokeDasharray="3 5" opacity={0.75} />
       {/* lens shapes */}
-      <rect x={80} y={90} width={200} height={150} rx={62} ry={56} fill="#fcebee" stroke={ROSE} strokeWidth={2.4} />
-      <rect x={340} y={90} width={200} height={150} rx={62} ry={56} fill="#fcebee" stroke={ROSE} strokeWidth={2.4} />
+      <rect x={80} y={90} width={200} height={150} rx={62} ry={56} fill={FIG.red50} stroke={ROSE} strokeWidth={2.4} />
+      <rect x={340} y={90} width={200} height={150} rx={62} ry={56} fill={FIG.red50} stroke={ROSE} strokeWidth={2.4} />
       {/* boxes */}
       <rect x={80} y={90} width={200} height={150} fill="none" stroke={INK} strokeWidth={1.4} strokeDasharray="6 5" />
       <rect x={340} y={90} width={200} height={150} fill="none" stroke={INK} strokeWidth={1.4} strokeDasharray="6 5" />
@@ -104,7 +105,7 @@ function Eye({ x, y, open, pupil = true, scale = 1, look = 0 }: { x: number; y: 
   return (
     <g>
       <path d={`M${x - w} ${y} Q ${x} ${y - h * 2} ${x + w} ${y} Q ${x} ${y + h * 2} ${x - w} ${y} Z`} fill="white" stroke={INK} strokeWidth={1.8} />
-      <circle cx={x + look} cy={y} r={10 * scale} fill="#cfe3f7" stroke={SKY} strokeWidth={1.4} />
+      <circle cx={x + look} cy={y} r={10 * scale} fill={FIG.blue100} stroke={SKY} strokeWidth={1.4} />
       {pupil && <circle cx={x + look} cy={y} r={4.2 * scale} fill={INK} />}
     </g>
   )
@@ -140,7 +141,7 @@ function PdPanel({ ox, step, L }: { ox: number; step: 1 | 2; L: boolean }) {
         ~40 cm
       </T>
       {/* patient face */}
-      <ellipse cx={ox + 155} cy={250} rx={128} ry={78} fill="#fbefd0" opacity={0.55} />
+      <ellipse cx={ox + 155} cy={250} rx={128} ry={78} fill={FIG.amber100} opacity={0.55} />
       <Eye x={pL} y={212} open look={0} />
       <Eye x={pR} y={212} open look={0} />
       <T x={pL} y={186} size={11} weight={500} fill={MUTED}>
@@ -177,7 +178,7 @@ const pd: DiagramDef = {
     <g>
       <Arrowheads />
       <PdPanel ox={0} step={1} L={L} />
-      <line x1={320} y1={20} x2={320} y2={300} stroke="#ece4df" strokeWidth={1.5} />
+      <line x1={320} y1={20} x2={320} y2={300} stroke={FIG.orange100b} strokeWidth={1.5} />
       <PdPanel ox={330} step={2} L={L} />
     </g>
   ),
@@ -199,7 +200,7 @@ const prentice: DiagramDef = {
           <T x={170} y={24} size={16} weight={700} fill={ROSE} show={L}>
             Plus lens = base-to-base
           </T>
-          <path d={`M170 ${oy - 120} Q 222 ${oy} 170 ${oy + 120} Q 118 ${oy} 170 ${oy - 120} Z`} fill="#fcebee" stroke={ROSE} strokeWidth={1.6} opacity={0.9} />
+          <path d={`M170 ${oy - 120} Q 222 ${oy} 170 ${oy + 120} Q 118 ${oy} 170 ${oy - 120} Z`} fill={FIG.red50} stroke={ROSE} strokeWidth={1.6} opacity={0.9} />
           <path d={`M170 ${oy - 120} L 205 ${oy} L 135 ${oy} Z`} fill="none" stroke={ROSE} strokeWidth={2} strokeLinejoin="round" />
           <path d={`M170 ${oy + 120} L 205 ${oy} L 135 ${oy} Z`} fill="none" stroke={ROSE} strokeWidth={2} strokeLinejoin="round" />
           {/* OC */}
@@ -223,13 +224,13 @@ const prentice: DiagramDef = {
             base up
           </T>
         </g>
-        <line x1={330} y1={40} x2={330} y2={330} stroke="#ece4df" strokeWidth={1.5} />
+        <line x1={330} y1={40} x2={330} y2={330} stroke={FIG.orange100b} strokeWidth={1.5} />
         {/* MINUS: two prisms apex-to-apex */}
         <g>
           <T x={490} y={24} size={16} weight={700} fill={SKY} show={L}>
             Minus lens = apex-to-apex
           </T>
-          <path d={`M455 ${oy - 120} L 525 ${oy - 120} Q 498 ${oy} 525 ${oy + 120} L 455 ${oy + 120} Q 482 ${oy} 455 ${oy - 120} Z`} fill="#eef5fc" stroke={SKY} strokeWidth={1.6} />
+          <path d={`M455 ${oy - 120} L 525 ${oy - 120} Q 498 ${oy} 525 ${oy + 120} L 455 ${oy + 120} Q 482 ${oy} 455 ${oy - 120} Z`} fill={FIG.blue50} stroke={SKY} strokeWidth={1.6} />
           <path d={`M490 ${oy} L 525 ${oy - 120} L 455 ${oy - 120} Z`} fill="none" stroke={SKY} strokeWidth={2} strokeLinejoin="round" />
           <path d={`M490 ${oy} L 525 ${oy + 120} L 455 ${oy + 120} Z`} fill="none" stroke={SKY} strokeWidth={2} strokeLinejoin="round" />
           <circle cx={490} cy={oy} r={4.5} fill={INK} />
@@ -281,7 +282,7 @@ const materials: DiagramDef = {
         {/* grid */}
         {[30, 40, 50, 60].map((v) => (
           <g key={v}>
-            <line x1={x0} y1={sy(v)} x2={x1} y2={sy(v)} stroke="#ece4df" />
+            <line x1={x0} y1={sy(v)} x2={x1} y2={sy(v)} stroke={FIG.orange100b} />
             <T x={x0 - 10} y={sy(v)} anchor="end" size={12} weight={500} fill={MUTED}>
               {v}
             </T>
@@ -307,7 +308,7 @@ const materials: DiagramDef = {
         <line x1={sx(1.495)} y1={sy(60)} x2={sx(1.75)} y2={sy(29)} stroke={LILAC} strokeWidth={2} strokeDasharray="8 7" opacity={0.6} />
         {MATERIALS.map((m) => (
           <g key={m.name}>
-            <circle cx={sx(m.n)} cy={sy(m.v)} r={7} fill={m.approx ? 'white' : '#f6c9d0'} stroke={ROSE} strokeWidth={2} strokeDasharray={m.approx ? '3 2' : undefined} />
+            <circle cx={sx(m.n)} cy={sy(m.v)} r={7} fill={m.approx ? 'white' : FIG.red100b} stroke={ROSE} strokeWidth={2} strokeDasharray={m.approx ? '3 2' : undefined} />
             <T x={sx(m.n) + (m.dx ?? 0)} y={sy(m.v) + (m.dy ?? 0)} anchor={m.anchor} size={13}>
               {m.name}
             </T>
@@ -341,8 +342,8 @@ const arCoating: DiagramDef = {
     <g>
       <Arrowheads />
       {/* lens and coating */}
-      <rect x={40} y={200} width={560} height={130} fill="#eef5fc" stroke={SKY} strokeWidth={1.5} />
-      <rect x={40} y={176} width={560} height={24} fill="#e5daf5" stroke={LILAC} strokeWidth={1.5} />
+      <rect x={40} y={200} width={560} height={130} fill={FIG.blue50} stroke={SKY} strokeWidth={1.5} />
+      <rect x={40} y={176} width={560} height={24} fill={FIG.violet100b} stroke={LILAC} strokeWidth={1.5} />
       <T x={590} y={265} anchor="end" size={13} fill={SKY} show={L}>
         lens
       </T>
@@ -395,17 +396,17 @@ const palZones: DiagramDef = {
           </clipPath>
         </defs>
         {/* lens outline */}
-        <ellipse cx={262} cy={192} rx={206} ry={158} fill="#fbf7f4" />
+        <ellipse cx={262} cy={192} rx={206} ry={158} fill={FIG.grey50b} />
         {/* distortion zones either side of the corridor */}
         <g clipPath="url(#pal-lens)">
-          <path d="M40 236 C 120 206, 196 226, 226 300 C 232 330, 200 360, 150 362 L 40 362 Z" fill="#e5daf5" opacity={0.85} />
-          <path d="M484 236 C 404 206, 318 226, 290 300 C 284 330, 316 360, 366 362 L 484 362 Z" fill="#e5daf5" opacity={0.85} />
+          <path d="M40 236 C 120 206, 196 226, 226 300 C 232 330, 200 360, 150 362 L 40 362 Z" fill={FIG.violet100b} opacity={0.85} />
+          <path d="M484 236 C 404 206, 318 226, 290 300 C 284 330, 316 360, 366 362 L 484 362 Z" fill={FIG.violet100b} opacity={0.85} />
         </g>
         <ellipse cx={262} cy={192} rx={206} ry={158} fill="none" stroke={INK} strokeWidth={1.8} />
         {/* corridor: narrow below the fitting cross, opening into the near zone */}
         <path
           d={`M${cx - 12} 162 C ${cx - 6} 200, ${cx - 8} 236, ${cx - 42} 292 Q ${cx - 12} 310 ${cx + 18} 292 C ${cx + 4} 236, ${cx + 6} 200, ${cx + 12} 162 Z`}
-          fill="#d9f0e3"
+          fill={FIG.green100b}
           opacity={0.9}
           stroke={SAGE}
           strokeWidth={1.2}

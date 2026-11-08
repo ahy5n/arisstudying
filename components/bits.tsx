@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { ringColour } from '@/lib/colour'
 import { ChevronLeft } from './icons'
 
 export type ColourMap = Record<string, string>
@@ -7,7 +6,8 @@ export type ColourMap = Record<string, string>
 export function ModuleChip({ code, colours, link = false }: { code: string; colours: ColourMap; link?: boolean }) {
   const colour = colours[code]
   const chip = (
-    <span className="chip" style={{ background: colour ?? '#ece4df' }}>
+    // Subject chips are fixed pastels; anything without a subject colour follows the theme.
+    <span className={colour ? 'chip' : 'chip bg-bg text-ink ring-1 ring-border'} style={colour ? { background: colour } : undefined}>
       {code}
     </span>
   )
@@ -25,15 +25,15 @@ export function splitModules(m: string | null): string[] {
   return m ? m.split('/').map((s) => s.trim()).filter(Boolean) : []
 }
 
+/** Progress always draws in the theme accent; `colour` (the subject's) is no longer used. */
 export function ProgressRing({
   value,
-  colour,
   size = 44,
   stroke = 5,
   label,
 }: {
   value: number
-  colour: string
+  colour?: string
   size?: number
   stroke?: number
   label: string
@@ -43,13 +43,13 @@ export function ProgressRing({
   const pct = Math.max(0, Math.min(1, value))
   return (
     <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} role="img" aria-label={label}>
-      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="rgb(0 0 0 / 0.07)" strokeWidth={stroke} />
+      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--border)" strokeWidth={stroke} />
       <circle
         cx={size / 2}
         cy={size / 2}
         r={r}
         fill="none"
-        stroke={ringColour(colour)}
+        stroke="var(--accent)"
         strokeWidth={stroke}
         strokeLinecap="round"
         strokeDasharray={`${c * pct} ${c}`}
@@ -63,7 +63,7 @@ export function ProgressRing({
         textAnchor="middle"
         fontSize={size * 0.27}
         fontWeight={650}
-        fill="#4a4350"
+        fill="var(--ink)"
       >
         {Math.round(pct * 100)}%
       </text>

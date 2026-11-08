@@ -126,6 +126,18 @@ export const localBackend: Backend = {
       else delete d.overrides[code]
     })
   },
+  async saveDeck(user, deck) {
+    mutate(user, (d) => void (d.decks = [...(d.decks ?? []).filter((x) => x.id !== deck.id), deck]))
+  },
+  async deleteDeck(user, id) {
+    mutate(user, (d) => void (d.decks = (d.decks ?? []).filter((x) => x.id !== id)))
+  },
+  async saveCardSet(user, set) {
+    mutate(user, (d) => void (d.cardSets = [...(d.cardSets ?? []).filter((x) => x.id !== set.id), set]))
+  },
+  async deleteCardSet(user, id) {
+    mutate(user, (d) => void (d.cardSets = (d.cardSets ?? []).filter((x) => x.id !== id)))
+  },
   async addFlag(user, f) {
     mutate(user, (d) => void d.flags.push({ ...f, createdAt: new Date().toISOString() }))
   },

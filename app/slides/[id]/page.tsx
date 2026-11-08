@@ -47,7 +47,7 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
           Week {d.week}
         </p>
         <h1 className="mt-2 text-[30px] font-semibold sm:text-[34px]">{d.title}</h1>
-        <p className="mt-1 break-all text-[13px] text-faint">{d.file}</p>
+        <p className="mt-1 break-all text-[13px] text-muted">{d.file}</p>
         <p className="mt-2 text-[15px] text-muted">
           {lead ? lead.name : d.lead}
           {main.map((s) => ` · ${fmtDayLong(s.date)}, ${s.start} ${typeLabel(s.type).toLowerCase()}${s.room ? ` (${s.room})` : ''}`).join('')}
@@ -63,7 +63,7 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
       </header>
 
       {!outlined && (
-        <div className="mt-6 rounded-[22px] bg-butter-soft p-5 text-[15px] text-butter-ink">
+        <div className="mt-6 rounded-[22px] bg-warn-soft p-5 text-[15px] text-warn-ink">
           {d.status === 'after-lecture'
             ? 'The lecturer releases these slides after the session.'
             : 'This file is listed on Blackboard but hasn’t been added here yet.'}{' '}
@@ -80,12 +80,12 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
       )}
 
       {d.takeaways && (
-        <section className="mt-4 rounded-[22px] bg-sage-soft p-5 sm:p-6">
-          <h2 className="text-[20px] font-semibold text-sage-ink">Key takeaways</h2>
+        <section className="mt-4 rounded-[22px] bg-good-soft p-5 sm:p-6">
+          <h2 className="text-[20px] font-semibold text-good-ink">Key takeaways</h2>
           <ul className="mt-2 space-y-2">
             {d.takeaways.map((t, i) => (
               <li key={i} className="flex gap-3 text-[16px] leading-relaxed">
-                <span aria-hidden className="mt-[0.55em] size-2 shrink-0 rounded-full bg-sage-ink/60" />
+                <span aria-hidden className="mt-[0.55em] size-2 shrink-0 rounded-full bg-good-ink/60" />
                 {t}
               </li>
             ))}
@@ -99,13 +99,13 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
           {d.checked && outlined && (
             <p className="mt-1 text-[14px] text-muted">These topic pages have been cross-checked against this deck.</p>
           )}
-          <ul className="card mt-3 divide-y divide-line/70">
+          <ul className="card mt-3 divide-y divide-border/70">
             {topics.map(({ topic, module }) => (
               <li key={topic.id}>
-                <Link href={`/t/${topic.id}`} className="group flex min-h-14 items-center gap-3 px-5 py-3 hover:bg-wash/50">
+                <Link href={`/t/${topic.id}`} className="group flex min-h-14 items-center gap-3 px-5 py-3 hover:bg-bg/50">
                   <ModuleChip code={module.code} colours={colours} />
                   <span className="flex-1 font-medium">{topic.title}</span>
-                  <ChevronRight className="size-5 text-faint group-hover:text-ink" />
+                  <ChevronRight className="size-5 text-muted group-hover:text-ink" />
                 </Link>
               </li>
             ))}
@@ -122,7 +122,7 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
             {d.outline!.map((o) => (
               <li key={o.slides} className="card p-4 sm:p-5">
                 <div className="flex items-start gap-3">
-                  <span className="shrink-0 rounded-full bg-wash px-2.5 py-1 text-[12px] font-bold tabular-nums text-muted">
+                  <span className="shrink-0 rounded-full bg-bg px-2.5 py-1 text-[12px] font-bold tabular-nums text-muted">
                     {o.slides.includes('–') ? 'Slides' : 'Slide'} {o.slides}
                   </span>
                   <h3 className="pt-0.5 font-rounded text-[17px] font-semibold">{o.title}</h3>
@@ -130,7 +130,7 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
                 <ul className="mt-2 space-y-1.5 pl-1">
                   {o.points.map((p, i) => (
                     <li key={i} className="flex gap-2.5 text-[16px] leading-relaxed">
-                      <span aria-hidden className="mt-[0.6em] size-1.5 shrink-0 rounded-full bg-faint" />
+                      <span aria-hidden className="mt-[0.6em] size-1.5 shrink-0 rounded-full bg-muted" />
                       {p}
                     </li>
                   ))}
@@ -141,7 +141,7 @@ export default async function DeckPage({ params }: { params: Promise<{ id: strin
         </section>
       )}
 
-      <div className="mt-8 flex flex-wrap gap-2 border-t border-line pt-6">
+      <div className="mt-8 flex flex-wrap gap-2 border-t border-border pt-6">
         <AskClaudeButton
           text={`Quiz me on my lecture "${d.title}" (${d.module}, week ${d.week}). ${d.summary ?? ''} Ask one question at a time and explain anything I get wrong.`}
           label="Ask Claude to quiz me on this"

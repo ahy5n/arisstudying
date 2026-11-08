@@ -1,0 +1,546 @@
+{
+ "module": "CLP",
+ "verifyNote": "Written from GOC standards and College of Optometrists guidance. How the final clinical year is organised depends on your route: integrated MOptom programmes run their own clinical learning in practice under the GOC's 2021 Education and Training Requirements, while some students complete the College of Optometrists' Scheme for Registration. Always follow your own programme's handbook.",
+ "topics": [
+  {
+   "id": "clp-structure",
+   "title": "How the final placement year works",
+   "summary": "The final clinical year turns a student into a safe, independent optometrist. You work with real patients in practice or hospital under the supervision of a registered optometrist, build up a record of patient episodes across a wide range of patients, and are assessed against the outcomes needed to join the GOC register. Your university (or the College, on the Scheme for Registration) sets the exact rules.",
+   "keyPoints": [
+    "You must be registered with the GOC as a student optometrist throughout, and follow the GOC Standards for Optical Students.",
+    "A named supervisor (a registered optometrist) oversees your work and signs off your progress.",
+    "Supervision starts close (supervisor present or checking every patient) and becomes more distant as you show competence.",
+    "You build a portfolio: patient episodes, reflective entries, feedback and evidence against the required outcomes.",
+    "You need experience with a wide range of patients: children, older people, contact lens wearers, people with binocular vision problems, eye disease and low vision.",
+    "Final assessment leads to eligibility to register as a fully qualified optometrist."
+   ],
+   "examTraps": [
+    "Thinking a supervisor's presence removes your own responsibility: you are accountable for your actions as a student.",
+    "Waiting until the end of the year to fill gaps in your patient log.",
+    "Treating reflection as box-ticking: assessors look for what you learned and changed."
+   ],
+   "diagram": {
+    "id": "placement-year-timeline",
+    "description": "A timeline across the final year: induction and close supervision → building patient episodes and reflections → interim review with supervisor/university → more independent practice and filling gaps → final assessment → GOC registration as an optometrist.",
+    "labels": ["Induction", "Close supervision", "Patient episodes and reflection", "Interim review", "Increasing independence", "Final assessment", "GOC registration"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Working with your supervisor",
+     "body": "Agree early how you'll work: which patients you'll see, when they'll check, how you'll get feedback and how you'll raise concerns. Ask for direct observation regularly, not just sign-offs. If something worries you about a patient, stop and ask: safe practice always comes before speed. If the placement isn't working, use your university's (or the College's) support routes early."
+    },
+    {
+     "heading": "GOC Standards for Optical Students",
+     "body": "As a student you must, among other things: listen to patients and put them first, communicate effectively, get valid consent, work within your competence, keep your knowledge up to date, keep accurate records, protect confidentiality, be honest and open when things go wrong, and raise concerns about patient safety. These continue into the Standards of Practice once you qualify."
+    },
+    {
+     "heading": "Old and new routes",
+     "body": "Under the GOC's 2021 Education and Training Requirements, approved MOptom programmes integrate clinical learning in practice and the university assesses you. Students on older degree routes may instead complete the College of Optometrists' Scheme for Registration, with its own stages and final assessment. The aim is the same: safe, independent practice at the point of registration."
+    }
+   ],
+   "flashcards": [
+    { "front": "Who must you be registered with during the placement year?", "back": "The GOC, as a student optometrist." },
+    { "front": "Which GOC standards apply to students?", "back": "The Standards for Optical Students." },
+    { "front": "What does a supervisor do?", "back": "Oversees your patients, gives feedback and signs off progress; you remain accountable for your own actions." },
+    { "front": "What goes in your portfolio?", "back": "Patient episodes, reflections, feedback and evidence against outcomes." }
+   ],
+   "mcq": [
+    {
+     "id": "clp-st-1",
+     "q": "During a test, you're unsure whether a retinal finding needs referral. Your supervisor is with another patient. What should you do?",
+     "options": [
+      { "text": "Pause and ask your supervisor before the patient leaves", "correct": true, "feedback": "Patient safety comes before keeping to time." },
+      { "text": "Let the patient go and mention it next week", "correct": false, "feedback": "The patient could come to harm." },
+      { "text": "Refer as routine to be safe without telling anyone", "correct": false, "feedback": "Discuss it so the urgency is right and supervised." },
+      { "text": "Leave it out of the record", "correct": false, "feedback": "Records must be accurate and complete." }
+     ],
+     "explanation": "Work within your competence and seek supervision when unsure.",
+     "link": "clp-structure#working-with-your-supervisor"
+    },
+    {
+     "id": "clp-st-2",
+     "q": "Which is a GOC Standard for Optical Students?",
+     "options": [
+      { "text": "Be honest and open when things go wrong", "correct": true, "feedback": "Candour applies to students as well as registrants." },
+      { "text": "Only follow your supervisor's instructions", "correct": false, "feedback": "You have your own professional responsibilities." },
+      { "text": "Avoid recording mistakes", "correct": false, "feedback": "Records must be accurate." },
+      { "text": "Choose only patients you find easy", "correct": false, "feedback": "You need breadth of experience." }
+     ],
+     "explanation": "The student standards mirror the Standards of Practice.",
+     "link": "clp-structure#goc-standards-for-optical-students"
+    },
+    {
+     "id": "clp-st-3",
+     "q": "Halfway through the year you've seen very few children. What's the best plan?",
+     "options": [
+      { "text": "Tell your supervisor and plan sessions to see more children now", "correct": true, "feedback": "Fill gaps early so you meet the requirements." },
+      { "text": "Wait until the last month", "correct": false, "feedback": "There may not be time." },
+      { "text": "Record adults as children", "correct": false, "feedback": "That would be dishonest." },
+      { "text": "Ignore it: children aren't required", "correct": false, "feedback": "Breadth across age groups is expected." }
+     ],
+     "explanation": "Track your log and plan around gaps.",
+     "link": "clp-structure#working-with-your-supervisor"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "GOC: Standards for Optical Students", "url": "https://optical.org/standards-and-guidance/" },
+    { "label": "College of Optometrists: students and pre-registration", "url": "https://www.college-optometrists.org/" }
+   ],
+   "askClaude": "Help me plan my final placement year: ask me about my placement and what patient groups I've seen so far, then suggest how to fill the gaps."
+  },
+  {
+   "id": "clp-patient-log",
+   "title": "Your patient log and reflective practice",
+   "summary": "Your patient log is the evidence that you've seen enough patients, of enough kinds, and handled them safely. Reflection turns that experience into learning: thinking about what happened, why, and what you'd do differently. Both are assessed, and both become habits you'll need for CPD throughout your career.",
+   "keyPoints": [
+    "Log each patient episode as your programme requires: date, age band, what you did, findings, management and supervision level.",
+    "Never include identifiable patient details in your portfolio; anonymise everything.",
+    "Aim for breadth: different ages, refractive errors, binocular vision, contact lenses, low vision, eye disease and referrals.",
+    "Reflective models such as Gibbs' cycle (description, feelings, evaluation, analysis, conclusion, action plan) give structure.",
+    "Good reflection is specific and leads to action: what you'll do differently and how you'll check it worked.",
+    "Ask for written feedback after observed episodes and reflect on it."
+   ],
+   "examTraps": [
+    "Writing reflections that only describe what happened.",
+    "Putting names, dates of birth or addresses in your log.",
+    "Logging lots of similar routine patients and missing whole categories."
+   ],
+   "diagram": {
+    "id": "gibbs-cycle",
+    "description": "Gibbs' reflective cycle drawn as a circle of six steps with arrows: Description → Feelings → Evaluation → Analysis → Conclusion → Action plan → back to Description.",
+    "labels": ["Description", "Feelings", "Evaluation", "Analysis", "Conclusion", "Action plan"]
+   },
+   "goDeeper": [
+    {
+     "heading": "A good reflection",
+     "body": "Description: 'I missed a small inferior retinal haemorrhage that my supervisor found.' Feelings: 'I felt embarrassed and worried.' Evaluation: 'The rest of the exam went well; my fundus view of the periphery was rushed.' Analysis: 'I was running late and skipped asking the patient to look down.' Conclusion: 'Time pressure led me to cut corners.' Action: 'I'll follow a set sequence of gaze positions every time and ask for help with time management.'"
+    },
+    {
+     "heading": "Confidentiality in your portfolio",
+     "body": "Use age bands rather than dates of birth, and no names, addresses, NHS numbers or unusual details that could identify someone. Keep your portfolio secure, follow your practice's data protection policy and never photograph records or screens with patient details on your own phone."
+    },
+    {
+     "heading": "From log to CPD",
+     "body": "Once registered, the GOC's CPD scheme expects you to plan your learning, take part in activities across your scope, do peer review and reflect on your practice. Keeping a reflective log as a student makes this natural rather than a last-minute task."
+    }
+   ],
+   "flashcards": [
+    { "front": "Six stages of Gibbs' reflective cycle", "back": "Description, feelings, evaluation, analysis, conclusion, action plan." },
+    { "front": "Use age bands or dates of birth in your log?", "back": "Age bands; never identifiable details." },
+    { "front": "What makes reflection useful?", "back": "Specific analysis that leads to a concrete action you can check." },
+    { "front": "Why log breadth of cases?", "back": "To show competence across all patient groups required for registration." }
+   ],
+   "mcq": [
+    {
+     "id": "clp-pl-1",
+     "q": "Which reflection entry is strongest?",
+     "options": [
+      { "text": "'I rushed peripheral fundus checks when late; I'll use a fixed sequence and ask for scheduling help.'", "correct": true, "feedback": "Specific, honest, with a clear action." },
+      { "text": "'Saw a patient with a haemorrhage. It was interesting.'", "correct": false, "feedback": "Description only, no learning." },
+      { "text": "'Everything went fine today.'", "correct": false, "feedback": "No reflection." },
+      { "text": "'My supervisor found something I missed but it wasn't my fault.'", "correct": false, "feedback": "Avoids learning from it." }
+     ],
+     "explanation": "Strong reflections end with a specific action.",
+     "link": "clp-patient-log#a-good-reflection"
+    },
+    {
+     "id": "clp-pl-2",
+     "q": "Which detail is acceptable in your patient log?",
+     "options": [
+      { "text": "'Female, 60–69, new presbyope'", "correct": true, "feedback": "Anonymised with an age band." },
+      { "text": "The patient's full name", "correct": false, "feedback": "Identifiable." },
+      { "text": "Their date of birth and postcode", "correct": false, "feedback": "Identifiable." },
+      { "text": "A photo of their record card", "correct": false, "feedback": "Breaches confidentiality." }
+     ],
+     "explanation": "Keep portfolios anonymised.",
+     "link": "clp-patient-log#confidentiality-in-your-portfolio"
+    },
+    {
+     "id": "clp-pl-3",
+     "q": "What's the main purpose of a reflective model like Gibbs?",
+     "options": [
+      { "text": "To structure learning from experience into actions", "correct": true, "feedback": "It moves you from what happened to what you'll change." },
+      { "text": "To record patient details", "correct": false, "feedback": "That's the clinical record." },
+      { "text": "To replace supervision", "correct": false, "feedback": "It works alongside supervision." },
+      { "text": "To grade patients", "correct": false, "feedback": "Not its purpose." }
+     ],
+     "explanation": "Reflection drives improvement.",
+     "link": "clp-patient-log#from-log-to-cpd"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "GOC: CPD", "url": "https://optical.org/" }
+   ],
+   "askClaude": "I'll describe something that went wrong in clinic. Help me write a Gibbs-style reflection, then tell me how to make the action plan more specific."
+  },
+  {
+   "id": "clp-routine-exam",
+   "title": "Running a full routine eye examination",
+   "summary": "By the end of the year you should run a complete eye examination safely and efficiently on your own: a focused history, vision and refraction, binocular vision, a full eye health check with any extra tests needed, and a clear explanation and plan for the patient. The skill is in tailoring the exam to each person while never missing the essentials.",
+   "keyPoints": [
+    "History: reason for visit and symptoms, previous eye history, general health, medicines, allergies, family history, work, hobbies, driving and screen use.",
+    "Vision and refraction: unaided and habitual acuity, objective (retinoscopy or autorefraction) and subjective refraction, near and intermediate needs.",
+    "Binocular vision: cover test, motility, near point of convergence and other tests guided by symptoms.",
+    "Eye health: external eye and anterior segment (slit lamp), pupils, fundus examination, with IOP and visual fields as indicated by age, risk or findings.",
+    "Management: explain findings, prescribe or not, advise, refer if needed, set a recall interval and record everything.",
+    "In the NHS: check eligibility for a NHS sight test (GOS in England; in Scotland NHS eye examinations are free for everyone)."
+   ],
+   "examTraps": [
+    "Doing every test on every patient without thinking, and running out of time for what matters.",
+    "Prescribing a small change that won't help: 'not prescribing' can be the right choice.",
+    "Forgetting to explain results and next steps clearly to the patient."
+   ],
+   "diagram": {
+    "id": "eye-exam-flow",
+    "description": "A flow chart of a routine eye examination: History → Vision → Objective refraction → Subjective refraction → Binocular vision → Anterior eye → Pupils → Posterior eye → Additional tests (IOP, fields, OCT) → Management, advice, recall → Records.",
+    "labels": ["History", "Vision and refraction", "Binocular vision", "Anterior eye", "Posterior eye", "Additional tests", "Management and records"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Tailoring the examination",
+     "body": "Let the history lead. A headache at the computer points you to near and intermediate refraction and binocular vision. A family history of glaucoma means IOP, disc assessment and fields. Flashes and floaters mean a dilated peripheral retinal examination. Diabetes means a careful look for retinopathy and checking screening attendance. Keep a core routine, then add what the patient needs."
+    },
+    {
+     "heading": "Deciding whether to prescribe",
+     "body": "Compare the new result with the old prescription and the patient's symptoms. Small changes in an asymptomatic patient often don't need new glasses. Consider adaptation (big cylinder or axis changes), occupation, driving vision standards and binocular status. Explain your reasoning; the patient's informed choice matters."
+    },
+    {
+     "heading": "Recall intervals",
+     "body": "Recall is based on clinical need: commonly every two years for adults, and more often for children, older people, people with diabetes or a family history of glaucoma, and anyone being monitored. Check local NHS rules for how often a funded sight test is allowed. Always advise patients to come back sooner if their vision or eyes change."
+    }
+   ],
+   "checklist": {
+    "id": "chk-clp-routine-exam",
+    "title": "Routine eye examination (outline)",
+    "steps": [
+     "Confirm identity, consent and NHS eligibility; review previous records.",
+     "Take a focused history: symptoms, eye and general health, medicines, allergies, family history, lifestyle and driving.",
+     "Measure unaided and habitual vision at distance and near.",
+     "Perform objective then subjective refraction, including near and intermediate needs.",
+     "Assess binocular vision (cover test, motility, NPC and others as indicated).",
+     "Examine external eye and anterior segment, and pupils.",
+     "Examine the fundus (dilate if indicated), with IOP, fields and imaging as indicated.",
+     "Explain findings, prescribe or advise, refer if needed and agree a recall interval.",
+     "Complete clear, contemporaneous records and any NHS paperwork."
+    ]
+   },
+   "flashcards": [
+    { "front": "Key parts of a routine history", "back": "Reason for visit, eye history, general health, medicines, allergies, family history, lifestyle." },
+    { "front": "Is 'no new prescription' an acceptable outcome?", "back": "Yes, if a change wouldn't help; explain why." },
+    { "front": "Who gets free NHS eye examinations in Scotland?", "back": "Everyone." },
+    { "front": "What should guide recall intervals?", "back": "Clinical need (age, risk, findings), plus local NHS rules." }
+   ],
+   "mcq": [
+    {
+     "id": "clp-re-1",
+     "q": "A 45-year-old reports new flashes and a shower of floaters in one eye. Which addition to the routine exam is essential?",
+     "options": [
+      { "text": "Dilated examination of the peripheral retina", "correct": true, "feedback": "To look for a retinal tear or detachment." },
+      { "text": "Colour vision testing", "correct": false, "feedback": "Not the priority." },
+      { "text": "Stereoacuity", "correct": false, "feedback": "Not relevant to these symptoms." },
+      { "text": "Nothing extra", "correct": false, "feedback": "These symptoms need a dilated check." }
+     ],
+     "explanation": "Flashes and floaters: dilated peripheral retinal examination.",
+     "link": "clp-routine-exam#tailoring-the-examination"
+    },
+    {
+     "id": "clp-re-2",
+     "q": "A patient's prescription has changed by −0.25 D in one eye; they have no symptoms and see 6/5. Best approach?",
+     "options": [
+      { "text": "Explain a change isn't needed and let them choose", "correct": true, "feedback": "Small, asymptomatic changes rarely need new glasses." },
+      { "text": "Insist on new glasses", "correct": false, "feedback": "Not clinically justified." },
+      { "text": "Refer to hospital", "correct": false, "feedback": "No reason to refer." },
+      { "text": "Don't mention the change", "correct": false, "feedback": "Explain your findings." }
+     ],
+     "explanation": "Prescribe when it helps the patient.",
+     "link": "clp-routine-exam#deciding-whether-to-prescribe"
+    },
+    {
+     "id": "clp-re-3",
+     "q": "Which patient is most likely to need a shorter recall interval?",
+     "options": [
+      { "text": "A 55-year-old whose mother has glaucoma", "correct": true, "feedback": "First-degree family history raises risk." },
+      { "text": "A 30-year-old emmetrope with healthy eyes", "correct": false, "feedback": "Usual interval is fine." },
+      { "text": "A 25-year-old stable myope", "correct": false, "feedback": "Usual interval is fine." },
+      { "text": "A 40-year-old with no history or symptoms", "correct": false, "feedback": "Usual interval is fine." }
+     ],
+     "explanation": "Base recall on clinical risk.",
+     "link": "clp-routine-exam#recall-intervals"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" }
+   ],
+   "askClaude": "Play a patient coming for a routine eye test. Don't tell me why you're really there; let me take a history and decide which tests to add, then give me feedback."
+  },
+  {
+   "id": "clp-referrals",
+   "title": "Referral letters and communicating with other professionals",
+   "summary": "Knowing when to refer, how urgently, and how to write a clear referral is one of the most important skills an optometrist has. Good referrals give the receiving clinician everything they need, at the right urgency, through the right local pathway, and keep the patient informed and safe in the meantime.",
+   "keyPoints": [
+    "Decide urgency: emergency (same day), urgent (within about a week) or routine, using College of Optometrists Clinical Management Guidelines and local protocols.",
+    "Use local pathways where they exist: community urgent eye care services, glaucoma repeat measures, cataract direct referral, and so on.",
+    "A referral should include patient details, reason and urgency, relevant history, findings (with both eyes' acuities, IOP, fields as relevant), medicines, allergies and your contact details.",
+    "Emergency referrals should be made by phone (and followed up in writing), not just by letter.",
+    "Tell the patient why you're referring, how urgent it is, what to expect and what to do if things get worse; give them a copy where appropriate.",
+    "Record the referral, the urgency and the advice given."
+   ],
+   "examTraps": [
+    "Sending an emergency referral by post or email only.",
+    "Writing 'please see' with no findings or reason.",
+    "Forgetting to give safety-net advice to the patient."
+   ],
+   "diagram": {
+    "id": "referral-urgency",
+    "description": "Three columns: Emergency (same day, phone first: e.g. acute angle closure, retinal detachment, CRAO, giant cell arteritis, chemical injury), Urgent (within about a week: e.g. suspected wet AMD per local fast-track, very high IOP without symptoms per guidance), Routine (e.g. cataract affecting daily life, stable glaucoma suspect via pathway).",
+    "labels": ["Emergency: same day", "Urgent: within about a week", "Routine", "Phone first", "Local pathways", "Safety-net advice"]
+   },
+   "goDeeper": [
+    {
+     "heading": "What a good referral letter looks like",
+     "body": "Start with the urgency and the question: 'Urgent referral: suspected wet AMD, right eye.' Then: symptoms and duration; relevant history; findings for both eyes (VA, refraction if relevant, IOP with method and time, disc/macula description, fields, OCT if done); medicines and allergies; what you've told the patient; your name, GOC number and contact details. Keep it clear, factual and easy to scan."
+    },
+    {
+     "heading": "Structured communication",
+     "body": "For phone referrals, a structure such as SBAR helps: Situation (who you are, who the patient is, what's happening), Background (history), Assessment (your findings and what you think it is) and Recommendation (what you want: for example 'please see today'). Write down who you spoke to, when and what was agreed."
+    },
+    {
+     "heading": "Safety-netting",
+     "body": "Tell the patient exactly what to do if symptoms change: for example 'If you notice a curtain coming across your vision, go to the eye emergency department today.' Make sure they know how and when they'll hear about their appointment, and what to do if they don't. Record this advice."
+    }
+   ],
+   "flashcards": [
+    { "front": "How should emergency referrals be made?", "back": "By phone first, then confirmed in writing." },
+    { "front": "SBAR stands for…", "back": "Situation, Background, Assessment, Recommendation." },
+    { "front": "Three referral urgencies", "back": "Emergency (same day), urgent (about a week), routine." },
+    { "front": "What is safety-netting?", "back": "Telling the patient what to do if symptoms change, and recording it." }
+   ],
+   "mcq": [
+    {
+     "id": "clp-rf-1",
+     "q": "A patient has a new 'curtain' over their lower vision with flashes since yesterday. How do you refer?",
+     "options": [
+      { "text": "Phone the eye emergency service today and send them with a letter", "correct": true, "feedback": "Suspected retinal detachment is an emergency." },
+      { "text": "Routine letter to the GP", "correct": false, "feedback": "Far too slow." },
+      { "text": "Email the hospital and ask them to book a routine appointment", "correct": false, "feedback": "Needs same-day assessment." },
+      { "text": "Review in two weeks", "correct": false, "feedback": "Vision could be lost." }
+     ],
+     "explanation": "Emergencies: phone, same day, written follow-up.",
+     "link": "clp-referrals#structured-communication"
+    },
+    {
+     "id": "clp-rf-2",
+     "q": "Which referral opening is best?",
+     "options": [
+      { "text": "'Urgent referral: suspected wet AMD, right eye, VA dropped from 6/9 to 6/24 in 2 weeks.'", "correct": true, "feedback": "Urgency, question and key findings up front." },
+      { "text": "'Please see this patient.'", "correct": false, "feedback": "No reason or urgency." },
+      { "text": "'Patient has an eye problem.'", "correct": false, "feedback": "Too vague." },
+      { "text": "'Dear Doctor, I hope you are well.'", "correct": false, "feedback": "Get to the point first." }
+     ],
+     "explanation": "Lead with urgency, suspected diagnosis and key findings.",
+     "link": "clp-referrals#what-a-good-referral-letter-looks-like"
+    },
+    {
+     "id": "clp-rf-3",
+     "q": "After making an urgent referral, what else must you do?",
+     "options": [
+      { "text": "Explain it to the patient, give safety-net advice and record everything", "correct": true, "feedback": "Communication and records complete the referral." },
+      { "text": "Nothing: the hospital takes over", "correct": false, "feedback": "You remain responsible for advising the patient." },
+      { "text": "Tell the patient not to worry and to ignore new symptoms", "correct": false, "feedback": "Unsafe." },
+      { "text": "Delete your notes once sent", "correct": false, "feedback": "Records must be kept." }
+     ],
+     "explanation": "Inform, safety-net and record.",
+     "link": "clp-referrals#safety-netting"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 74-year-old reports that straight lines on her door frame look wavy in her right eye for the past week. VA R 6/18 (was 6/9), L 6/9. You see a small haemorrhage and raised area at the right macula.",
+     "question": "How would you refer, and what would you tell her?",
+     "modelAnswer": "Suspected wet (neovascular) AMD: refer urgently via the local fast-track pathway so she's seen quickly (often within about two weeks, sooner if possible), including VA, symptoms, duration, macular findings and OCT if available. Explain why the referral is urgent and that treatment works best early, check she knows how she'll be contacted, and tell her to get in touch if her vision worsens further or she hears nothing. Give an Amsler grid for the other eye and record everything."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Give me five patients with different findings and ask me the referral urgency and route for each; then ask me to write the opening line of one referral."
+  },
+  {
+   "id": "clp-records-consent-safeguarding",
+   "title": "Records, consent and safeguarding in practice",
+   "summary": "Every patient contact must be recorded accurately, every examination needs valid consent, and every optometrist has a duty to protect children and adults at risk. These professional basics are tested throughout your placement and are central to the GOC standards.",
+   "keyPoints": [
+    "Records must be clear, accurate, contemporaneous, dated, signed or attributable, and kept securely for the required period.",
+    "Valid consent must be informed, voluntary and given by someone with capacity; it can be withdrawn at any time.",
+    "Adults are presumed to have capacity (Mental Capacity Act 2005 in England and Wales); if they lack it, act in their best interests.",
+    "Young people under 16 may consent if they understand fully (Gillick competence).",
+    "Safeguarding: recognise signs of abuse or neglect, follow your practice's safeguarding policy, and report concerns to the safeguarding lead or local authority; emergencies go to the police.",
+    "Confidentiality can be breached only in specific circumstances, such as risk of serious harm to the patient or others, or when required by law."
+   ],
+   "examTraps": [
+    "Writing 'normal' without saying what was checked.",
+    "Assuming someone lacks capacity because of a diagnosis such as dementia: capacity is decision-specific.",
+    "Investigating a safeguarding concern yourself instead of reporting it."
+   ],
+   "diagram": {
+    "id": "safeguarding-flow",
+    "description": "A flow chart: Concern about a child or adult → Is anyone in immediate danger? Yes → call 999. No → record what you saw and heard (facts, words used) → speak to the practice safeguarding lead → referral to local authority (children's or adult social care) as advised → record actions.",
+    "labels": ["Concern", "Immediate danger? Call 999", "Record facts", "Safeguarding lead", "Local authority referral", "Record actions"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Good records",
+     "body": "Record what was done and found, not just conclusions: 'Pupils: PERRLA, no RAPD' or 'Fundus: discs C/D 0.3 healthy rims, maculae flat, vessels normal, periphery flat (dilated, Volk 90D)'. Include advice given, drugs used (name, strength, batch, time), referrals and recall. Never alter records after the event without clearly marking and dating the addition."
+    },
+    {
+     "heading": "Consent and capacity",
+     "body": "Explain what you'll do, why, any risks (for example dilation effects) and alternatives. A person has capacity for a decision if they can understand, retain and weigh the information and communicate a decision. If they can't, a decision must be made in their best interests, involving people close to them where possible. Record how consent was obtained."
+    },
+    {
+     "heading": "Recognising safeguarding concerns",
+     "body": "Signs can include unexplained injuries (including around the eyes), a child brought repeatedly with injuries, neglected glasses or missed appointments for a child with a serious condition, an adult who seems frightened of a carer, or someone else answering every question for them. You don't need proof to raise a concern: record facts and pass it on through the right route."
+    }
+   ],
+   "flashcards": [
+    { "front": "Four elements of valid consent", "back": "Informed, voluntary, capacity, (and can be withdrawn at any time)." },
+    { "front": "Is capacity decision-specific?", "back": "Yes: assess it for each decision." },
+    { "front": "Gillick competence", "back": "A child under 16 can consent if they fully understand the decision." },
+    { "front": "First step if someone is in immediate danger", "back": "Call 999." }
+   ],
+   "mcq": [
+    {
+     "id": "clp-rc-1",
+     "q": "A 14-year-old attends alone and understands the eye test well. Can they consent?",
+     "options": [
+      { "text": "Yes, if they are Gillick competent for this decision", "correct": true, "feedback": "Competence depends on understanding, not age alone." },
+      { "text": "Never under 16", "correct": false, "feedback": "Young people can consent if competent." },
+      { "text": "Only with a teacher present", "correct": false, "feedback": "Not a requirement." },
+      { "text": "Only if they bring ID", "correct": false, "feedback": "Not related to consent." }
+     ],
+     "explanation": "Assess the young person's understanding of the specific decision.",
+     "link": "clp-records-consent-safeguarding#consent-and-capacity"
+    },
+    {
+     "id": "clp-rc-2",
+     "q": "You notice bruising around a child's eye; the parent's explanation doesn't match the injury. What should you do?",
+     "options": [
+      { "text": "Record the facts and follow your safeguarding policy (speak to the lead / local authority)", "correct": true, "feedback": "Report concerns; don't investigate yourself." },
+      { "text": "Confront the parent", "correct": false, "feedback": "Could put the child at risk." },
+      { "text": "Ignore it unless certain", "correct": false, "feedback": "You don't need proof to raise a concern." },
+      { "text": "Ask the child detailed leading questions", "correct": false, "feedback": "Leave investigation to trained professionals." }
+     ],
+     "explanation": "Record and refer through safeguarding routes.",
+     "link": "clp-records-consent-safeguarding#recognising-safeguarding-concerns"
+    },
+    {
+     "id": "clp-rc-3",
+     "q": "Which record entry is best?",
+     "options": [
+      { "text": "'IOP 15/16 mmHg Goldmann 10:30, after oxybuprocaine 0.4% batch X'", "correct": true, "feedback": "Specific, timed and complete." },
+      { "text": "'IOPs normal'", "correct": false, "feedback": "No values, method or time." },
+      { "text": "'Eyes fine'", "correct": false, "feedback": "Doesn't say what was checked." },
+      { "text": "'Did pressures'", "correct": false, "feedback": "No result." }
+     ],
+     "explanation": "Record values, methods, times and drugs.",
+     "link": "clp-records-consent-safeguarding#good-records"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" },
+    { "label": "GOC: Standards of Practice", "url": "https://optical.org/standards-and-guidance/" }
+   ],
+   "askClaude": "Give me three tricky consent or safeguarding scenarios from optometric practice and ask how I'd handle each, then give feedback using College guidance."
+  },
+  {
+   "id": "clp-registration",
+   "title": "Final assessments, GOC registration and your first job",
+   "summary": "Passing your final assessments makes you eligible to join the GOC register as an optometrist. From then on you must follow the GOC Standards of Practice, keep up CPD, hold professional indemnity insurance and, to do NHS work in England, join the ophthalmic performers list. Planning these steps early makes the move into your first job smoother.",
+   "keyPoints": [
+    "Final assessment format depends on your route (university assessment within an integrated MOptom, or the College's final assessment on the Scheme for Registration).",
+    "Once eligible, apply to the GOC to join the register; you can't practise as an optometrist until you're registered.",
+    "You must have professional indemnity insurance (often through a professional body or employer).",
+    "The GOC Standards of Practice for Optometrists and Dispensing Opticians replace the student standards.",
+    "CPD: the GOC requires continuing professional development across each three-year cycle, including peer review and reflection; check the current requirements.",
+    "NHS work in England needs inclusion on the ophthalmic performers list; other UK nations have their own lists."
+   ],
+   "examTraps": [
+    "Starting work as an optometrist before your GOC registration is confirmed.",
+    "Leaving CPD until the end of the cycle.",
+    "Assuming your employer's insurance covers all work you do privately or elsewhere."
+   ],
+   "diagram": {
+    "id": "path-to-registration",
+    "description": "Steps from final assessment to first job: Pass final assessment → Apply to GOC register → Professional indemnity insurance → Performers list (for NHS work) → Start work → CPD cycle with peer review and reflection.",
+    "labels": ["Final assessment", "GOC registration", "Indemnity insurance", "Performers list", "First job", "CPD cycle"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Preparing for final assessments",
+     "body": "Know the format early (practical stations, viva, case-based assessment or portfolio review). Practise full routines under time pressure, rehearse explaining findings to patients, and revise emergency recognition and referral thoroughly; safety-critical errors matter most. Use your patient log to spot weaker areas and get observed practice on them."
+    },
+    {
+     "heading": "Your first job",
+     "body": "Look for support: a structured induction, access to an experienced colleague, reasonable testing times at first and protected time for learning. Ask about equipment (OCT, fields), referral pathways and enhanced services. Joining a professional body (for example the College of Optometrists or the Association of Optometrists) gives access to guidance, CPD and advice."
+    },
+    {
+     "heading": "Fitness to practise",
+     "body": "The GOC can investigate concerns about a registrant's conduct, competence or health. Most problems can be prevented by working within your competence, keeping good records, communicating clearly, being honest when things go wrong and asking for help early. Tell the GOC about any cautions or convictions as required."
+    }
+   ],
+   "flashcards": [
+    { "front": "Can you practise as an optometrist before GOC registration?", "back": "No." },
+    { "front": "Which standards apply once qualified?", "back": "GOC Standards of Practice for Optometrists and Dispensing Opticians." },
+    { "front": "What is needed for NHS work in England?", "back": "Inclusion on the ophthalmic performers list." },
+    { "front": "Two required parts of GOC CPD besides learning activities", "back": "Peer review and reflection (check current scheme details)." }
+   ],
+   "mcq": [
+    {
+     "id": "clp-rg-1",
+     "q": "You've passed your final assessment but your GOC registration hasn't been confirmed. Your new employer asks you to start testing alone tomorrow. What should you do?",
+     "options": [
+      { "text": "Wait until your registration is confirmed", "correct": true, "feedback": "Practising as an optometrist without registration isn't allowed." },
+      { "text": "Start: passing the exam is enough", "correct": false, "feedback": "Registration is required." },
+      { "text": "Test under another optometrist's name", "correct": false, "feedback": "That would be dishonest." },
+      { "text": "Only see private patients", "correct": false, "feedback": "Registration is still required." }
+     ],
+     "explanation": "Registration must be in place before practising.",
+     "link": "clp-registration#fitness-to-practise"
+    },
+    {
+     "id": "clp-rg-2",
+     "q": "Which is required before doing NHS sight tests in England?",
+     "options": [
+      { "text": "Inclusion on the ophthalmic performers list", "correct": true, "feedback": "As well as GOC registration." },
+      { "text": "An independent prescribing qualification", "correct": false, "feedback": "Not needed for routine NHS sight tests." },
+      { "text": "Five years' experience", "correct": false, "feedback": "Not required." },
+      { "text": "A glaucoma certificate", "correct": false, "feedback": "Not required for routine testing." }
+     ],
+     "explanation": "NHS work needs performers list inclusion.",
+     "link": "clp-registration#your-first-job"
+    },
+    {
+     "id": "clp-rg-3",
+     "q": "What's the best way to prepare for practical final assessments?",
+     "options": [
+      { "text": "Practise full routines under time pressure and get observed feedback on weaker areas", "correct": true, "feedback": "Targeted, realistic practice works best." },
+      { "text": "Only read textbooks", "correct": false, "feedback": "Practical skills need practice." },
+      { "text": "Avoid observation so you aren't nervous", "correct": false, "feedback": "Observation builds confidence and finds gaps." },
+      { "text": "Focus only on rare conditions", "correct": false, "feedback": "Core safety and routine matter most." }
+     ],
+     "explanation": "Rehearse the real thing and close gaps early.",
+     "link": "clp-registration#preparing-for-final-assessments"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "GOC: registration", "url": "https://optical.org/" },
+    { "label": "Association of Optometrists", "url": "https://www.aop.org.uk/" }
+   ],
+   "askClaude": "Make me a checklist of everything I need to do between passing my final assessment and starting my first NHS job, and quiz me on why each step matters."
+  }
+ ]
+}

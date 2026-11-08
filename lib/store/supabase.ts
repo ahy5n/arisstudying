@@ -2,9 +2,10 @@
 // Row Level Security (supabase/schema.sql) limits every table to the
 // signed-in user's own rows.
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
+import { isMode, isPalette } from '../theme'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
-import type { AuthUser, Backend, UserData } from './types'
+import type { AuthUser, Backend, CardSet, UserDeck, UserData } from './types'
 import { emptyData, normaliseUsername, USERNAME_RE } from './types'
 
 const DOMAIN = process.env.NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN || 'arisstudying.local'
@@ -28,6 +29,65 @@ function check<T>(res: { data: T; error: { message: string } | null }): T {
 }
 
 const nowIso = () => new Date().toISOString()
+
+interface DeckRow {
+  id: string
+  title: string
+  module: string | null
+  session_date: string | null
+  session_start: string | null
+  topics: string[] | null
+  slides: UserDeck['slides'] | null
+  file_name: string
+  created_at: string
+}
+const rowToDeck = (r: DeckRow): UserDeck => ({
+  id: r.id,
+  title: r.title,
+  module: r.module,
+  sessionDate: r.session_date,
+  sessionStart: r.session_start,
+  topics: r.topics ?? [],
+  slides: r.slides ?? [],
+  fileName: r.file_name,
+  createdAt: r.created_at,
+})
+
+interface CardSetRow {
+  id: string
+  name: string
+  module: string | null
+  cards: CardSet['cards'] | null
+  created_at: string
+}
+const rowToCardSet = (r: CardSetRow): CardSet => ({
+  id: r.id,
+  name: r.name,
+  module: r.module,
+  cards: r.cards ?? [],
+  createdAt: r.created_at,
+})
+
+// Databases set up before a profile column was added don't have it until
+// schema.sql is run again. Drop each column Supabase says is missing and
+// retry, so signing in and saving everything else still works.
+const MISSING_COLUMN = /Could not find the '(\w+)' column|column \w+\.(\w+) does not exist/
+
+async function writeProfile(
+  row: Record<string, unknown>,
+  write: (row: Record<string, unknown>) => PromiseLike<{ error: { message: string } | null }>,
+) {
+  const r = { ...row }
+  for (;;) {
+    const { error } = await write(r)
+    const m = error?.message.match(MISSING_COLUMN)
+    const col = m?.[1] ?? m?.[2]
+    if (!error) return
+    if (!col || !(col in r)) throw new Error(error.message)
+    delete r[col]
+    if (Object.keys(r).length === 0) return
+  }
+}
 
 interface AssessmentRow {
   id: number
@@ -100,8 +160,9 @@ export const supabaseBackend: Backend = {
 
   async load(user) {
     const c = sb()
-    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements] = await Promise.all([
-      c.from('profiles').select('username, claude_project_url, tracker_seeded').eq('id', user.id).maybeSingle(),
+    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, decks, cardSets] = await Promise.all([
+      // '*' so a database missing a newer column still loads.
+      c.from('profiles').select('*').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
       c.from('checklist_progress').select('checklist_id, done_steps'),
       c.from('notes').select('topic_id, body'),
@@ -110,6 +171,8 @@ export const supabaseBackend: Backend = {
       c.from('module_overrides').select('module_code, name'),
       c.from('flags').select('topic_id, item_id, message, created_at').order('created_at', { ascending: false }).limit(50),
       c.from('placement_progress').select('placement_id, status, interview_date, interview_time'),
+      c.from('slide_decks').select('id, title, module, session_date, session_start, topics, slides, file_name, created_at'),
+      c.from('flashcard_sets').select('id, name, module, cards, created_at').order('created_at'),
     ])
     const d: UserData = emptyData(user.username)
     const p = check(profile)
@@ -118,6 +181,8 @@ export const supabaseBackend: Backend = {
         username: p.username ?? user.username,
         claudeProjectUrl: p.claude_project_url ?? '',
         trackerSeeded: !!p.tracker_seeded,
+        palette: isPalette(p.palette) ? p.palette : null,
+        colorMode: isMode(p.color_mode) ? p.color_mode : null,
       }
     } else {
       // The signup trigger normally creates this; make sure it exists.
@@ -148,6 +213,9 @@ export const supabaseBackend: Backend = {
         }
       }
     }
+    // Uploaded slides and flashcards came later: carry on without them if the tables aren't there yet.
+    if (!decks.error) d.decks = (decks.data ?? []).map(rowToDeck)
+    if (!cardSets.error) d.cardSets = (cardSets.data ?? []).map(rowToCardSet)
     d.flags = (check(flags) ?? []).map((r) => ({
       topicId: r.topic_id,
       itemId: r.item_id,
@@ -161,7 +229,9 @@ export const supabaseBackend: Backend = {
     const row: Record<string, unknown> = {}
     if (patch.claudeProjectUrl !== undefined) row.claude_project_url = patch.claudeProjectUrl
     if (patch.trackerSeeded !== undefined) row.tracker_seeded = patch.trackerSeeded
-    check(await sb().from('profiles').update(row).eq('id', user.id))
+    if (patch.palette !== undefined) row.palette = patch.palette
+    if (patch.colorMode !== undefined) row.color_mode = patch.colorMode
+    await writeProfile(row, (r) => sb().from('profiles').update(r).eq('id', user.id))
   },
 
   async saveProgress(user, topicId, p) {
@@ -245,5 +315,39 @@ export const supabaseBackend: Backend = {
     check(
       await sb().from('flags').insert({ user_id: user.id, topic_id: f.topicId, item_id: f.itemId, message: f.message }),
     )
+  },
+  async saveDeck(_user, deck) {
+    check(
+      await sb().from('slide_decks').upsert({
+        id: deck.id,
+        title: deck.title,
+        module: deck.module,
+        session_date: deck.sessionDate,
+        session_start: deck.sessionStart,
+        topics: deck.topics,
+        slides: deck.slides,
+        file_name: deck.fileName,
+        created_at: deck.createdAt,
+      }),
+    )
+  },
+  async deleteDeck(_user, id) {
+    check(await sb().from('slide_decks').delete().eq('id', id))
+  },
+  async saveCardSet(_user, set) {
+    const res = await sb().from('flashcard_sets').upsert({
+      id: set.id,
+      name: set.name,
+      module: set.module,
+      cards: set.cards,
+      created_at: set.createdAt,
+    })
+    if (res.error && /flashcard_sets/.test(res.error.message)) {
+      throw new Error('Flashcards can’t be saved until you run the latest supabase/schema.sql.')
+    }
+    check(res)
+  },
+  async deleteCardSet(_user, id) {
+    check(await sb().from('flashcard_sets').delete().eq('id', id))
   },
 }

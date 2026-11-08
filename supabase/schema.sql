@@ -12,6 +12,8 @@ create table if not exists public.profiles (
   created_at timestamptz not null default now()
 );
 alter table public.profiles add column if not exists tracker_seeded boolean not null default false;
+alter table public.profiles add column if not exists palette text;
+alter table public.profiles add column if not exists color_mode text;
 
 create table if not exists public.topic_progress (
   user_id uuid not null default auth.uid() references auth.users on delete cascade,
@@ -95,6 +97,32 @@ create table if not exists public.placement_progress (
   primary key (user_id, placement_id)
 );
 
+-- Lecture decks Ari uploads: the slide-by-slide outline only, never the file.
+create table if not exists public.slide_decks (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  id text not null,
+  title text not null,
+  module text,
+  session_date date,
+  session_start text,
+  topics text[] not null default '{}',
+  slides jsonb not null default '[]',
+  file_name text not null default '',
+  created_at timestamptz not null default now(),
+  primary key (user_id, id)
+);
+
+-- Flashcard sets she imported (Quizlet, Anki, a spreadsheet), made from slides, or typed in.
+create table if not exists public.flashcard_sets (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  id text not null,
+  name text not null,
+  module text,
+  cards jsonb not null default '[]',
+  created_at timestamptz not null default now(),
+  primary key (user_id, id)
+);
+
 create index if not exists quiz_attempts_user_idx on public.quiz_attempts (user_id, item_id);
 create index if not exists assessments_user_idx on public.assessments (user_id);
 create index if not exists flags_user_idx on public.flags (user_id);
@@ -111,7 +139,8 @@ declare t text;
 begin
   foreach t in array array[
     'topic_progress', 'checklist_progress', 'notes', 'review_items',
-    'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress'
+    'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress',
+    'slide_decks', 'flashcard_sets'
   ] loop
     execute format('alter table public.%I enable row level security', t);
     execute format('drop policy if exists "own rows" on public.%I', t);

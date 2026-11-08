@@ -14,13 +14,13 @@ export function ChecklistCard({ checklist, compact = false }: { checklist: Check
 
   return (
     <div className="card overflow-hidden">
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-sage-soft px-5 py-4">
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-good-soft px-5 py-4">
         <div>
-          {!compact && <p className="eyebrow text-sage-ink">Checklist</p>}
+          {!compact && <p className="eyebrow text-good-ink">Checklist</p>}
           <h3 className="font-rounded text-[19px] font-semibold">{checklist.title}</h3>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-[14px] font-medium text-sage-ink" aria-live="polite">
+          <span className="text-[14px] font-medium text-good-ink" aria-live="polite">
             {count} of {checklist.steps.length}
           </span>
           <button className="btn btn-ghost min-h-11 px-3 text-[14px]" onClick={() => setChecklist(checklist.id, [])} disabled={count === 0}>
@@ -29,7 +29,7 @@ export function ChecklistCard({ checklist, compact = false }: { checklist: Check
           </button>
         </div>
       </div>
-      <ol className="divide-y divide-line/70">
+      <ol className="divide-y divide-border/70">
         {checklist.steps.map((step, i) => {
           const on = done.has(i)
           return (
@@ -38,17 +38,17 @@ export function ChecklistCard({ checklist, compact = false }: { checklist: Check
                 role="checkbox"
                 aria-checked={on}
                 onClick={() => toggle(i)}
-                className="flex min-h-14 w-full items-start gap-3.5 px-5 py-3 text-left hover:bg-wash/50"
+                className="flex min-h-14 w-full items-start gap-3.5 px-5 py-3 text-left hover:bg-bg/50"
               >
                 <span
                   className={`mt-0.5 grid size-7 shrink-0 place-items-center rounded-lg border-2 transition-colors ${
-                    on ? 'border-sage-ink bg-sage-ink text-white' : 'border-line bg-white'
+                    on ? 'border-good-ink bg-good-ink text-surface' : 'border-border bg-surface'
                   }`}
                 >
                   {on && <CheckIcon className="size-4" />}
                 </span>
-                <span className={`flex-1 text-[17px] ${on ? 'text-muted line-through decoration-sage-ink/40' : ''}`}>
-                  <span className="mr-1.5 text-[14px] font-semibold text-faint">{i + 1}.</span>
+                <span className={`flex-1 text-[17px] ${on ? 'text-muted line-through decoration-good-ink/40' : ''}`}>
+                  <span className="mr-1.5 text-[14px] font-semibold text-muted">{i + 1}.</span>
                   {step}
                 </span>
               </button>

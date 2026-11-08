@@ -1,0 +1,643 @@
+{
+ "module": "PHA",
+ "verifyNote": "Written from standard UK ocular pharmacology teaching, the BNF, NICE guidance and College of Optometrists guidance. Medicines law, exemptions, product licences and guidance change: always check the current BNF, the College's Clinical Management Guidelines and your lecturer's slides before relying on a dose or legal detail.",
+ "topics": [
+  {
+   "id": "pha-pharmacokinetics",
+   "title": "How eye drops reach their target",
+   "summary": "Only a small fraction of an eye drop gets into the eye. Most overflows or drains down the nasolacrimal duct, where it can be absorbed into the blood. To cross the cornea a drug needs to dissolve in both fats (to pass the epithelium) and water (to pass the stroma). Understanding this explains dosing, side effects and why technique matters.",
+   "keyPoints": [
+    "A typical drop is about 30–50 µl, but the eye holds only about 7–10 µl, so most of it is lost straight away.",
+    "Drainage through the nasolacrimal duct lets drugs reach the bloodstream through the nasal lining, bypassing the liver: this is how eye drops cause systemic side effects.",
+    "The corneal epithelium is lipophilic (fat-loving) and the stroma hydrophilic (water-loving), so the best drugs have both properties.",
+    "Closing the eyes or pressing on the inner corner (punctal occlusion) for 1–2 minutes increases absorption into the eye and reduces systemic absorption.",
+    "Darker irides bind some drugs to melanin, so dilation can be slower and sometimes needs more drops.",
+    "Preservatives such as benzalkonium chloride keep multi-dose bottles sterile but can damage the ocular surface with long-term use."
+   ],
+   "examTraps": [
+    "Assuming eye drops can't cause systemic effects: timolol drops can cause bronchospasm.",
+    "Giving two different drops one immediately after the other: the second washes out the first; wait about 5 minutes.",
+    "Forgetting that a damaged epithelium lets drugs (and toxicity) in much more easily."
+   ],
+   "diagram": {
+    "id": "drop-pathways",
+    "description": "A drop landing on the eye, with arrows showing: overflow onto the cheek, drainage through the punctum and nasolacrimal duct to the nose and bloodstream, and a small arrow passing through the cornea (epithelium, stroma, endothelium) into the anterior chamber. Add a finger pressing the inner corner to show punctal occlusion.",
+    "labels": ["Overflow", "Punctum and nasolacrimal duct", "Systemic absorption", "Corneal epithelium (lipophilic)", "Stroma (hydrophilic)", "Anterior chamber", "Punctal occlusion"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Getting drops in well",
+     "body": "Tilt the head back, pull the lower lid down, look up and put one drop into the pocket without touching the eye or lashes. Close the eye gently for 1–2 minutes (don't blink hard) and press the inner corner. Wait about 5 minutes between different drops, and put ointments in last. Many patients, especially older ones, struggle with technique, so show them and consider aids."
+    },
+    {
+     "heading": "Formulations",
+     "body": "Solutions are quick but short-acting. Suspensions (for example some steroids) need shaking. Gels and ointments stay longer and are useful at night but blur vision. Preservative-free single-use vials suit patients using drops often, those with surface disease, and contact lens wearers. Pro-drugs (such as latanoprost) are changed into the active form inside the eye."
+    },
+    {
+     "heading": "Systemic absorption",
+     "body": "Drug absorbed through the nose goes straight into the circulation without first passing through the liver. That's why a beta-blocker drop can slow the heart or tighten the airways, and why cyclopentolate can occasionally cause behaviour changes in small children. Punctal occlusion and using the lowest effective strength reduce the risk."
+    }
+   ],
+   "flashcards": [
+    { "front": "Rough tear volume the eye can hold", "back": "About 7–10 µl (a drop is 30–50 µl)." },
+    { "front": "Why can eye drops cause systemic side effects?", "back": "Nasolacrimal drainage → nasal absorption → bloodstream, bypassing the liver." },
+    { "front": "How long to wait between two different drops", "back": "About 5 minutes." },
+    { "front": "Ideal drug properties for corneal penetration", "back": "Both lipophilic and hydrophilic (amphipathic)." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-pk-1",
+     "q": "Which advice best reduces the systemic side effects of an eye drop?",
+     "options": [
+      { "text": "Close the eye and press the inner corner for 1–2 minutes", "correct": true, "feedback": "Punctal occlusion reduces drainage into the nose." },
+      { "text": "Blink rapidly afterwards", "correct": false, "feedback": "Blinking pumps more drug into the drainage system." },
+      { "text": "Use two drops each time", "correct": false, "feedback": "Extra drops just overflow or drain away." },
+      { "text": "Lie flat for an hour", "correct": false, "feedback": "Not needed." }
+     ],
+     "explanation": "Punctal occlusion keeps more drug in the eye and less in the blood.",
+     "link": "pha-pharmacokinetics#systemic-absorption"
+    },
+    {
+     "id": "pha-pk-2",
+     "q": "Why might a patient with dark brown irides need longer to dilate with tropicamide?",
+     "options": [
+      { "text": "Melanin binds some of the drug", "correct": true, "feedback": "Pigment binding slows and can reduce the effect." },
+      { "text": "Their corneas are thicker", "correct": false, "feedback": "Corneal thickness isn't linked to iris colour." },
+      { "text": "Their tear film drains faster", "correct": false, "feedback": "Not the reason." },
+      { "text": "Tropicamide doesn't work in dark eyes", "correct": false, "feedback": "It works, but may be slower." }
+     ],
+     "explanation": "Melanin binding delays mydriasis in pigmented irides.",
+     "link": "pha-pharmacokinetics#getting-drops-in-well"
+    },
+    {
+     "id": "pha-pk-3",
+     "q": "A patient uses glaucoma drops four times a day and has a sore, red surface. Which change might help most?",
+     "options": [
+      { "text": "Switching to preservative-free drops (via their prescriber)", "correct": true, "feedback": "Preservatives such as benzalkonium chloride can damage the surface with frequent use." },
+      { "text": "Adding a second preserved drop", "correct": false, "feedback": "More preservative could worsen it." },
+      { "text": "Stopping all drops immediately", "correct": false, "feedback": "Never stop glaucoma treatment without the prescriber." },
+      { "text": "Using the drops only at night", "correct": false, "feedback": "Changing dosing without advice is unsafe." }
+     ],
+     "explanation": "Preservative toxicity is a common cause of surface disease in long-term drop users.",
+     "link": "pha-pharmacokinetics#formulations"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "BNF: eye", "url": "https://bnf.nice.org.uk/" }
+   ],
+   "askClaude": "Explain why most of an eye drop never reaches the inside of the eye, then quiz me on drop technique advice I'd give a patient."
+  },
+  {
+   "id": "pha-diagnostic-drugs",
+   "title": "Diagnostic drugs: mydriatics, cycloplegics, anaesthetics and stains",
+   "summary": "Optometrists use a small set of diagnostic drugs every day. Mydriatics widen the pupil to examine the fundus; cycloplegics relax accommodation for accurate refraction, especially in children; local anaesthetics numb the cornea for contact tonometry; and stains show damage to the ocular surface.",
+   "keyPoints": [
+    "Tropicamide (0.5% or 1%): antimuscarinic mydriatic. Works in about 20–30 minutes, lasts around 4–6 hours, with only mild cycloplegia.",
+    "Phenylephrine (2.5%): sympathomimetic (alpha-1 agonist) that adds dilation; use with care in heart disease, high blood pressure and people taking MAOIs.",
+    "Cyclopentolate (0.5% under about 1 year, 1% in older children): the usual cycloplegic for children. Peak effect after about 30–60 minutes; can last up to 24 hours.",
+    "Local anaesthetics (proxymetacaine, oxybuprocaine, tetracaine, lidocaine with fluorescein) work within seconds and last about 15–20 minutes.",
+    "Fluorescein stains areas where the epithelium is missing and is used for tear break-up time, Goldmann tonometry and the Seidel test; lissamine green stains devitalised cells, especially on the conjunctiva.",
+    "Warn patients about blurred near vision and glare after dilation and advise them not to drive until their vision has recovered."
+   ],
+   "examTraps": [
+    "Using tropicamide alone for a child's cycloplegic refraction: cyclopentolate is needed for full cycloplegia.",
+    "Forgetting to tell patients not to rub their eyes after anaesthetic drops (risk of corneal abrasion).",
+    "Not checking the angle (for example with Van Herick) and asking about risk before dilating."
+   ],
+   "diagram": {
+    "id": "pupil-receptors",
+    "description": "An iris showing the circular sphincter (parasympathetic, muscarinic receptors) and the radial dilator (sympathetic, alpha-1 receptors). Arrows show tropicamide and cyclopentolate blocking the sphincter and ciliary muscle, and phenylephrine stimulating the dilator.",
+    "labels": ["Sphincter pupillae (muscarinic)", "Dilator pupillae (alpha-1)", "Ciliary muscle", "Tropicamide / cyclopentolate block", "Phenylephrine stimulates"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Mydriatics versus cycloplegics",
+     "body": "Antimuscarinics block both the iris sphincter and the ciliary muscle, so they cause dilation and cycloplegia; how much of each depends on the drug and strength. Tropicamide is short-acting with weak cycloplegia, ideal for fundus examination. Cyclopentolate gives strong cycloplegia for refraction. Atropine is the strongest and longest (days), usually used by hospital teams. Phenylephrine dilates without any cycloplegia."
+    },
+    {
+     "heading": "Cycloplegic refraction in children",
+     "body": "Children have large amplitudes of accommodation that can hide hyperopia. Cyclopentolate (with or without tropicamide) relaxes accommodation so the true refractive error can be measured, usually by retinoscopy after 30–45 minutes. Side effects are rare but include flushing, fever, drowsiness or, rarely, hallucinations or unsteadiness; give parents written advice."
+    },
+    {
+     "heading": "Stains and what they show",
+     "body": "Fluorescein glows green under blue light where the epithelium is broken (abrasions, ulcers, punctate staining) and in pooling under rigid contact lenses. A Seidel test uses concentrated fluorescein to show aqueous leaking from a wound. Lissamine green stains damaged or unprotected cells, useful for grading dry eye on the conjunctiva and lid margin, with less stinging than rose bengal."
+    }
+   ],
+   "checklist": {
+    "id": "chk-pha-dilation",
+    "title": "Safe routine dilation",
+    "steps": [
+     "Check history: previous dilation, heart problems, high blood pressure, medicines (for example MAOIs), allergies and pregnancy.",
+     "Assess the angle (Van Herick) and note risk factors for angle closure (hyperopia, older age, narrow angles).",
+     "Explain the purpose, effects (blur, glare) and that they shouldn't drive until vision recovers; get verbal consent.",
+     "Check the drug name, strength, expiry date and that the container is intact.",
+     "Instil the drop(s) and record drug, strength, number of drops, eye, time and batch number.",
+     "Re-check pupils and IOP if indicated after examination, and give written advice about warning symptoms (pain, redness, haloes).",
+     "Tell the patient to seek urgent help if they get a painful red eye or headache with haloes."
+    ]
+   },
+   "flashcards": [
+    { "front": "Drug class and receptor of phenylephrine", "back": "Sympathomimetic, alpha-1 agonist (dilator muscle)." },
+    { "front": "Usual cycloplegic for children's refraction", "back": "Cyclopentolate (0.5% under about 1 year, 1% older)." },
+    { "front": "Duration of corneal anaesthesia from proxymetacaine", "back": "About 15–20 minutes." },
+    { "front": "What does lissamine green stain?", "back": "Devitalised or unprotected cells, especially on the conjunctiva." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-dd-1",
+     "q": "Which drug gives full cycloplegia for a 5-year-old's refraction?",
+     "options": [
+      { "text": "Cyclopentolate 1%", "correct": true, "feedback": "The standard cycloplegic for children over about a year." },
+      { "text": "Phenylephrine 2.5%", "correct": false, "feedback": "It dilates without any cycloplegia." },
+      { "text": "Tropicamide 0.5%", "correct": false, "feedback": "Too weak a cycloplegic for this purpose." },
+      { "text": "Proxymetacaine", "correct": false, "feedback": "That's a local anaesthetic." }
+     ],
+     "explanation": "Cyclopentolate is the routine cycloplegic for children.",
+     "link": "pha-diagnostic-drugs#cycloplegic-refraction-in-children"
+    },
+    {
+     "id": "pha-dd-2",
+     "q": "Why should phenylephrine be used with caution in a patient taking an MAOI antidepressant?",
+     "options": [
+      { "text": "Risk of a dangerous rise in blood pressure", "correct": true, "feedback": "MAOIs increase the pressor effect of sympathomimetics." },
+      { "text": "It stops working", "correct": false, "feedback": "The concern is too much effect, not too little." },
+      { "text": "It causes cycloplegia", "correct": false, "feedback": "Phenylephrine doesn't cause cycloplegia." },
+      { "text": "It stains the cornea", "correct": false, "feedback": "Not a stain." }
+     ],
+     "explanation": "Sympathomimetic + MAOI can cause a hypertensive reaction.",
+     "link": "pha-diagnostic-drugs#mydriatics-versus-cycloplegics"
+    },
+    {
+     "id": "pha-dd-3",
+     "q": "After a penetrating injury, which test shows aqueous leaking from a wound?",
+     "options": [
+      { "text": "Seidel test with fluorescein", "correct": true, "feedback": "Leaking aqueous dilutes the dye into a visible stream." },
+      { "text": "Lissamine green staining", "correct": false, "feedback": "Used for surface damage, not leaks." },
+      { "text": "Van Herick", "correct": false, "feedback": "That estimates angle width." },
+      { "text": "Tear break-up time", "correct": false, "feedback": "That assesses tear stability." }
+     ],
+     "explanation": "A positive Seidel test means a full-thickness wound: emergency referral.",
+     "link": "pha-diagnostic-drugs#stains-and-what-they-show"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 58-year-old with a history of heart disease is booked for routine dilation to examine diabetic retinopathy. His angles are open (Van Herick grade 3).",
+     "question": "Which drops would you use and what advice would you give?",
+     "modelAnswer": "Tropicamide alone (for example 1%) is usually enough and avoids the cardiovascular risk of phenylephrine. Explain blur and glare, advise him not to drive until his vision recovers, and tell him to seek urgent help for a painful red eye, haloes or headache. Record drug, strength, time and batch."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" },
+    { "label": "BNF", "url": "https://bnf.nice.org.uk/" }
+   ],
+   "askClaude": "Make me a quick table comparing tropicamide, cyclopentolate, phenylephrine and atropine (class, use, onset, duration), then quiz me on it."
+  },
+  {
+   "id": "pha-adverse-reactions",
+   "title": "Adverse reactions and contraindications, including angle closure",
+   "summary": "Every drug can cause harm. For diagnostic drops the key risks are triggering acute angle closure in a predisposed eye, allergic reactions, systemic effects and corneal toxicity from anaesthetics. Good history-taking, assessment of the angle and clear advice keep these risks low, and suspected reactions should be reported through the Yellow Card scheme.",
+   "keyPoints": [
+    "The risk of dilation triggering acute angle closure is low, but higher with hyperopia, older age, shallow anterior chambers, a family history and East Asian ethnicity.",
+    "Assess the angle (Van Herick, and gonioscopy if available) before dilating; mid-dilated pupils are the danger point.",
+    "Allergic reactions range from mild lid redness (often to preservatives or neomycin) to rare anaphylaxis.",
+    "Repeated or self-administered anaesthetic drops damage the corneal epithelium: never give patients anaesthetic drops to take home.",
+    "Systemic effects: beta-blocker drops (asthma, slow heart), phenylephrine (blood pressure), cyclopentolate (CNS effects in small children).",
+    "Report suspected adverse drug reactions to the MHRA Yellow Card scheme."
+   ],
+   "examTraps": [
+    "Refusing to dilate anyone with a narrow angle without weighing benefit: sometimes dilation is essential, with precautions and advice.",
+    "Thinking pilocarpine after dilation prevents angle closure: it isn't recommended routinely and can make some situations worse.",
+    "Forgetting to record batch numbers, which are needed if a reaction occurs."
+   ],
+   "diagram": {
+    "id": "angle-closure-mechanism",
+    "description": "Two cross-sections of the anterior chamber. Left: open angle with aqueous flowing to the trabecular meshwork. Right: a mid-dilated pupil with pupil block, the iris bowing forward (iris bombé) and the peripheral iris blocking the meshwork, with an arrow showing IOP rising.",
+    "labels": ["Open angle", "Trabecular meshwork", "Mid-dilated pupil", "Pupil block", "Iris bombé", "Closed angle", "Raised IOP"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Recognising acute angle closure",
+     "body": "Symptoms: painful red eye, blurred vision, haloes around lights, headache, nausea or vomiting. Signs: a fixed mid-dilated pupil, hazy (oedematous) cornea, shallow anterior chamber and very high IOP (often 50 mmHg or more). It's an emergency: arrange same-day assessment at the hospital eye service by phone, following local protocol."
+    },
+    {
+     "heading": "Taking a drug history",
+     "body": "Ask about all medicines, including inhalers, eye drops, over-the-counter and herbal remedies, and recreational drugs. Ask about allergies and what happened. Note conditions that matter: asthma or COPD, heart problems, high blood pressure, pregnancy and breastfeeding. Check the BNF for interactions and contraindications."
+    },
+    {
+     "heading": "Yellow Card reporting",
+     "body": "Any health professional, and patients themselves, can report a suspected adverse reaction to the MHRA through the Yellow Card scheme. Report serious reactions and any reaction to medicines marked with a black triangle (under additional monitoring). You don't need to be certain the drug caused it."
+    }
+   ],
+   "flashcards": [
+    { "front": "Main risk factors for angle closure", "back": "Hyperopia, older age, shallow AC, family history, East Asian ethnicity." },
+    { "front": "Classic pupil in acute angle closure", "back": "Fixed and mid-dilated." },
+    { "front": "Where do you report suspected adverse drug reactions?", "back": "MHRA Yellow Card scheme." },
+    { "front": "Why never give patients anaesthetic drops to take home?", "back": "Repeated use damages the corneal epithelium and masks injury." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-ar-1",
+     "q": "Two hours after dilation, a patient phones with a painful red eye, haloes and vomiting. What should you advise?",
+     "options": [
+      { "text": "Go to emergency eye care now; this may be acute angle closure", "correct": true, "feedback": "This is an emergency needing same-day treatment." },
+      { "text": "Wait until the drops wear off tomorrow", "correct": false, "feedback": "Delay risks permanent sight loss." },
+      { "text": "Take painkillers and rest", "correct": false, "feedback": "This doesn't treat the cause." },
+      { "text": "Use lubricating drops", "correct": false, "feedback": "Not appropriate." }
+     ],
+     "explanation": "Pain, haloes and vomiting after dilation = suspected acute angle closure.",
+     "link": "pha-adverse-reactions#recognising-acute-angle-closure"
+    },
+    {
+     "id": "pha-ar-2",
+     "q": "Which patient is at highest risk of angle closure from dilation?",
+     "options": [
+      { "text": "A 70-year-old hyperope with Van Herick grade 1", "correct": true, "feedback": "Older, hyperopic, very narrow angle." },
+      { "text": "A 25-year-old myope with grade 4 angles", "correct": false, "feedback": "Deep, open angles: very low risk." },
+      { "text": "A 40-year-old emmetrope with grade 3 angles", "correct": false, "feedback": "Open angles: low risk." },
+      { "text": "A 10-year-old with no risk factors", "correct": false, "feedback": "Children rarely have angle closure." }
+     ],
+     "explanation": "Narrow angles in older hyperopes carry the most risk.",
+     "link": "pha-adverse-reactions#recognising-acute-angle-closure"
+    },
+    {
+     "id": "pha-ar-3",
+     "q": "Which question is most important before using a beta-blocker or before referring someone who uses one?",
+     "options": [
+      { "text": "Do you have asthma or other breathing problems?", "correct": true, "feedback": "Beta-blockers can cause bronchospasm, even as drops." },
+      { "text": "Are you short-sighted?", "correct": false, "feedback": "Not relevant to beta-blocker safety." },
+      { "text": "Do you wear contact lenses?", "correct": false, "feedback": "Less important than respiratory history." },
+      { "text": "How much screen time do you have?", "correct": false, "feedback": "Not relevant." }
+     ],
+     "explanation": "Topical beta-blockers are contraindicated in asthma.",
+     "link": "pha-adverse-reactions#taking-a-drug-history"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "MHRA Yellow Card", "url": "https://yellowcard.mhra.gov.uk/" },
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Give me three patients who need dilating with different risk factors and ask me how I'd manage each safely."
+  },
+  {
+   "id": "pha-law",
+   "title": "Medicines law for optometrists",
+   "summary": "UK medicines fall into three legal categories: General Sales List (GSL), Pharmacy (P) and Prescription Only Medicines (POM). All optometrists can use and supply certain medicines in their practice under exemptions in the Human Medicines Regulations 2012. Optometrists with extra qualifications can supply more (Additional Supply), prescribe as supplementary prescribers, or prescribe independently.",
+   "keyPoints": [
+    "Categories: GSL (any shop), P (pharmacy, with a pharmacist), POM (normally needs a prescription).",
+    "All optometrists can sell or supply GSL and P medicines in the course of their professional practice.",
+    "Exemptions let all optometrists use certain POMs in practice (for example some diagnostic drugs) and supply a small list of POMs in an emergency; check the current list.",
+    "Additional Supply (AS) optometrists can supply a wider range of POMs, such as some anti-infectives.",
+    "Independent prescribing (IP) optometrists can prescribe any licensed medicine for conditions of the eye and surrounding tissue within their competence, except controlled drugs.",
+    "IP, AS and supplementary prescribing (SP) are specialist registrations with the GOC."
+   ],
+   "examTraps": [
+    "Saying all optometrists can prescribe POMs: only IP (and SP within a management plan) can prescribe; others use exemptions.",
+    "Forgetting that IP is limited to the optometrist's own competence and to eye conditions.",
+    "Supplying a medicine without recording it properly."
+   ],
+   "diagram": {
+    "id": "medicines-categories",
+    "description": "A pyramid or ladder with three medicine categories (GSL at the bottom, P in the middle, POM at the top) and, beside it, the levels of optometric practice: all optometrists, Additional Supply, Supplementary Prescriber, Independent Prescriber, with arrows showing what each can access.",
+    "labels": ["General Sales List (GSL)", "Pharmacy (P)", "Prescription Only (POM)", "All optometrists", "Additional Supply", "Supplementary Prescribing", "Independent Prescribing"]
+   },
+   "goDeeper": [
+    {
+     "heading": "What 'supply' means",
+     "body": "Supplying a medicine means handing it to the patient (with or without charge) after an assessment, with clear labelling and instructions, and recording it. Optometrists' exemptions only apply in the course of professional practice and, for some POMs, only in an emergency. Wholesale supply or supplying for people you haven't examined isn't covered."
+    },
+    {
+     "heading": "Becoming a prescriber",
+     "body": "IP training includes a College of Optometrists theory qualification, a period of supervised clinical learning with a designated medical practitioner or independent prescriber, and a final assessment, followed by GOC specialist registration. Newer MOptom degrees (for example the five-year courses with prescribing) are starting to build this in. IP optometrists often work in community services for minor eye conditions and in glaucoma clinics."
+    },
+    {
+     "heading": "Patient Group Directions",
+     "body": "In some NHS services, optometrists can supply or give specified medicines under a Patient Group Direction (PGD): a written instruction, signed off by the service, for treating a defined group of patients without an individual prescription. PGDs are common in minor eye condition services. Each PGD lists exactly which drugs, which patients and what training is required."
+    }
+   ],
+   "flashcards": [
+    { "front": "Three UK legal categories of medicines", "back": "GSL, P and POM." },
+    { "front": "Which law contains optometrists' medicines exemptions?", "back": "The Human Medicines Regulations 2012." },
+    { "front": "What can't an IP optometrist prescribe?", "back": "Controlled drugs (and anything outside eye conditions or their competence)." },
+    { "front": "What is a PGD?", "back": "A Patient Group Direction: written instructions to supply or give specified medicines to a defined group without an individual prescription." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-lw-1",
+     "q": "Which optometrists can write a prescription for any licensed eye medicine within their competence (excluding controlled drugs)?",
+     "options": [
+      { "text": "Independent prescribing optometrists", "correct": true, "feedback": "IP is the only category with this authority." },
+      { "text": "All registered optometrists", "correct": false, "feedback": "Most optometrists use exemptions, not prescriptions." },
+      { "text": "Additional Supply optometrists", "correct": false, "feedback": "AS allows supply of a wider list, not prescribing." },
+      { "text": "Dispensing opticians", "correct": false, "feedback": "Not prescribers." }
+     ],
+     "explanation": "IP optometrists are specialist-registered prescribers.",
+     "link": "pha-law#becoming-a-prescriber"
+    },
+    {
+     "id": "pha-lw-2",
+     "q": "A P medicine can be sold by an optometrist:",
+     "options": [
+      { "text": "In the course of their professional practice", "correct": true, "feedback": "Exemptions apply within professional practice." },
+      { "text": "To anyone, without an examination", "correct": false, "feedback": "Supply should follow an assessment." },
+      { "text": "Only with a GP prescription", "correct": false, "feedback": "P medicines don't need a prescription." },
+      { "text": "Never", "correct": false, "feedback": "Optometrists can supply P and GSL medicines." }
+     ],
+     "explanation": "All optometrists can sell or supply P and GSL medicines in practice.",
+     "link": "pha-law#what-supply-means"
+    },
+    {
+     "id": "pha-lw-3",
+     "q": "A minor eye conditions service lets optometrists supply a specified antibiotic to eligible patients without a prescription. This is most likely through:",
+     "options": [
+      { "text": "A Patient Group Direction", "correct": true, "feedback": "PGDs authorise supply to defined patient groups." },
+      { "text": "The Ishihara exemption", "correct": false, "feedback": "There's no such exemption." },
+      { "text": "A GSL licence", "correct": false, "feedback": "GSL is a medicine category, not an authority to supply POMs." },
+      { "text": "Verbal agreement with a GP", "correct": false, "feedback": "Supply must be properly authorised in writing." }
+     ],
+     "explanation": "PGDs are widely used in NHS eye services.",
+     "link": "pha-law#patient-group-directions"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "College of Optometrists: medicines guidance", "url": "https://www.college-optometrists.org/clinical-guidance/guidance" },
+    { "label": "GOC: specialist registration", "url": "https://optical.org/" }
+   ],
+   "askClaude": "Quiz me on what an ordinary optometrist, an AS optometrist and an IP optometrist can each do with medicines, using made-up patients."
+  },
+  {
+   "id": "pha-anti-infectives-inflammatories",
+   "title": "Anti-infectives, anti-allergy drugs and anti-inflammatories",
+   "summary": "Most eye infections and inflammations seen in practice are treated with a handful of drug groups: antibiotics for bacterial infection, antivirals for herpes simplex, anti-allergy drugs for allergic conjunctivitis, and steroids or NSAIDs for inflammation. Knowing when not to treat, and when a steroid could be dangerous, matters as much as knowing what to use.",
+   "keyPoints": [
+    "Most acute bacterial conjunctivitis gets better on its own; a topical antibiotic such as chloramphenicol may speed recovery when it's severe or not settling.",
+    "Contact lens–related keratitis is an emergency because of Pseudomonas and Acanthamoeba risk; it's usually managed in hospital with fluoroquinolones or other intensive treatment.",
+    "Herpes simplex dendritic ulcers are treated with an antiviral (for example aciclovir or ganciclovir), never with a steroid alone.",
+    "Allergic conjunctivitis: mast cell stabilisers (for example sodium cromoglicate) and antihistamines; dual-action drugs (for example olopatadine) do both.",
+    "Topical steroids reduce inflammation but can raise IOP, cause cataract and make herpes or fungal infections much worse.",
+    "Topical NSAIDs (for example ketorolac, nepafenac) are used for pain and inflammation, especially after cataract surgery."
+   ],
+   "examTraps": [
+    "Using a steroid on an undiagnosed red eye: it can turn a herpes ulcer into a sight-threatening one.",
+    "Treating a contact lens ulcer as simple conjunctivitis.",
+    "Expecting a mast cell stabiliser to work straight away: it takes days and works best before exposure."
+   ],
+   "diagram": {
+    "id": "red-eye-treatment",
+    "description": "A flow chart starting at 'red eye'. Branches: bacterial conjunctivitis → often self-limiting, consider chloramphenicol; viral conjunctivitis → supportive care; allergic → mast cell stabiliser / antihistamine; herpes simplex keratitis → antiviral, refer per protocol; contact lens ulcer → emergency referral; anterior uveitis → urgent referral for steroid and cycloplegic.",
+    "labels": ["Bacterial conjunctivitis", "Viral conjunctivitis", "Allergic conjunctivitis", "Herpes simplex keratitis", "Contact lens keratitis", "Anterior uveitis"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Antibiotics",
+     "body": "Chloramphenicol is broad-spectrum and widely used for superficial infections (drops in the day, ointment at night). Fusidic acid works mainly against staphylococci and is used twice daily. Fluoroquinolones (levofloxacin, ofloxacin, moxifloxacin) are reserved for more serious infections such as keratitis. Overuse drives antibiotic resistance, so treat only when there's a clear benefit."
+    },
+    {
+     "heading": "Steroids",
+     "body": "Topical steroids range from potent (dexamethasone, prednisolone acetate 1%) to milder or 'soft' (fluorometholone, loteprednol). They're used for uveitis, after surgery and for some severe allergic or immune conditions, usually under specialist care. Risks: raised IOP in 'steroid responders', posterior subcapsular cataract, delayed healing and worsening of infections. They're tapered rather than stopped suddenly after longer courses."
+    },
+    {
+     "heading": "Anti-allergy drugs",
+     "body": "Mast cell stabilisers (sodium cromoglicate, lodoxamide) stop mast cells releasing histamine, so they are best started before the allergy season and take several days to work. Antihistamines (for example antazoline, azelastine) give quick relief of itch. Dual-action drugs (olopatadine, ketotifen) combine both. Cold compresses and avoiding the allergen help too."
+    }
+   ],
+   "flashcards": [
+    { "front": "Why avoid steroids in an undiagnosed red eye?", "back": "They can make herpes simplex or fungal infections much worse." },
+    { "front": "Antiviral for herpes simplex dendritic ulcer", "back": "Topical aciclovir or ganciclovir (usually managed per protocol/specialist)." },
+    { "front": "Two eye risks of long-term topical steroids", "back": "Raised IOP and posterior subcapsular cataract." },
+    { "front": "When should mast cell stabilisers be started?", "back": "Before allergen exposure (they take days to work)." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-ai-1",
+     "q": "A soft contact lens wearer has a painful red eye, photophobia and a white corneal infiltrate with an epithelial defect. Best action?",
+     "options": [
+      { "text": "Same-day emergency referral to hospital eye services", "correct": true, "feedback": "Suspected microbial keratitis needs urgent specialist care." },
+      { "text": "Chloramphenicol and review in a week", "correct": false, "feedback": "Inadequate for possible Pseudomonas or Acanthamoeba keratitis." },
+      { "text": "Steroid drops", "correct": false, "feedback": "Steroids could worsen an infection." },
+      { "text": "Switch to daily disposable lenses", "correct": false, "feedback": "Stop lens wear and refer; don't refit now." }
+     ],
+     "explanation": "Contact lens keratitis is sight-threatening and needs emergency referral.",
+     "link": "pha-anti-infectives-inflammatories#antibiotics"
+    },
+    {
+     "id": "pha-ai-2",
+     "q": "Which drug is LEAST suitable for a patient with a herpes simplex dendritic ulcer?",
+     "options": [
+      { "text": "A topical steroid on its own", "correct": true, "feedback": "Steroids can make an epithelial herpes ulcer spread and deepen." },
+      { "text": "Topical aciclovir", "correct": false, "feedback": "An appropriate antiviral." },
+      { "text": "Topical ganciclovir", "correct": false, "feedback": "An appropriate antiviral." },
+      { "text": "Lubricating drops for comfort", "correct": false, "feedback": "Can be used for comfort." }
+     ],
+     "explanation": "Never give steroids alone in active epithelial herpes.",
+     "link": "pha-anti-infectives-inflammatories#steroids"
+    },
+    {
+     "id": "pha-ai-3",
+     "q": "A hay fever sufferer wants to prevent itchy eyes this summer. Which advice fits best?",
+     "options": [
+      { "text": "Start a mast cell stabiliser a couple of weeks before the season", "correct": true, "feedback": "They prevent release of histamine but take time to work." },
+      { "text": "Use chloramphenicol daily", "correct": false, "feedback": "Antibiotics don't treat allergy." },
+      { "text": "Use a potent steroid all summer", "correct": false, "feedback": "Not first-line; risks outweigh benefits for routine hay fever." },
+      { "text": "Nothing helps", "correct": false, "feedback": "Several effective options exist." }
+     ],
+     "explanation": "Mast cell stabilisers work best started early.",
+     "link": "pha-anti-infectives-inflammatories#anti-allergy-drugs"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 30-year-old has had a sticky, red left eye for two days. No pain, normal vision, no contact lenses. There's a purulent discharge and the cornea is clear.",
+     "question": "How would you manage this?",
+     "modelAnswer": "Likely acute bacterial conjunctivitis, which is usually self-limiting. Advise lid hygiene, cleaning discharge, not sharing towels and handwashing. If severe or not improving after a few days, a topical antibiotic such as chloramphenicol can be supplied (within the optometrist's legal scope). Advise returning urgently if pain, photophobia or blurred vision develops."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Give me five red-eye scenarios and ask which drug group (if any) is appropriate and whether to refer, one at a time."
+  },
+  {
+   "id": "pha-glaucoma-medicines",
+   "title": "Glaucoma medicines",
+   "summary": "Glaucoma treatment lowers intraocular pressure, either by reducing aqueous production or by increasing outflow. Prostaglandin analogues are the usual first drop; beta-blockers, carbonic anhydrase inhibitors and alpha-agonists are added if needed. NICE now recommends laser trabeculoplasty (SLT) as a first-line option for many patients. Optometrists need to know side effects and contraindications to support patients.",
+   "keyPoints": [
+    "Prostaglandin analogues (latanoprost, bimatoprost, travoprost, tafluprost): increase uveoscleral outflow, once a day at night. Side effects: red eye, longer darker lashes, darker iris, skin around the eye darkening, fat loss around the eye.",
+    "Beta-blockers (timolol, betaxolol): reduce aqueous production. Avoid in asthma/COPD, slow heart rate and heart block.",
+    "Carbonic anhydrase inhibitors: drops (dorzolamide, brinzolamide) reduce production; oral acetazolamide is used short-term (tingling, tiredness, kidney stones, low potassium).",
+    "Alpha-2 agonists (brimonidine): reduce production and increase outflow; allergy is common; avoid in young children.",
+    "NICE NG81 recommends offering selective laser trabeculoplasty (SLT) as first treatment for ocular hypertension (at the treatment threshold) and chronic open-angle glaucoma.",
+    "Adherence is a major problem: forgetting drops, poor technique and side effects all reduce effectiveness."
+   ],
+   "examTraps": [
+    "Forgetting that beta-blocker drops can cause asthma attacks or fainting.",
+    "Telling patients the iris colour change from prostaglandins will go away: it's usually permanent.",
+    "Assuming that once IOP is 'normal' the patient can stop drops."
+   ],
+   "diagram": {
+    "id": "glaucoma-drug-targets",
+    "description": "Cross-section of the anterior eye with labels showing where each drug class acts: carbonic anhydrase inhibitors, beta-blockers and alpha-agonists on the ciliary body (reduce production); prostaglandin analogues on the uveoscleral route; pilocarpine and SLT on the trabecular meshwork (increase conventional outflow).",
+    "labels": ["Ciliary body: beta-blockers, CAIs, alpha-agonists", "Uveoscleral outflow: prostaglandin analogues", "Trabecular meshwork: pilocarpine, SLT", "Aqueous production", "Aqueous outflow"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Choosing and adding treatment",
+     "body": "NICE NG81 recommends offering SLT first for many people with ocular hypertension or COAG; if drops are used, a generic prostaglandin analogue is usually first. If the target IOP isn't reached, treatment is stepped up: another class, a combination drop (fewer bottles helps adherence) or surgery. Preservative-free options are considered for surface problems."
+    },
+    {
+     "heading": "Side effects to watch for",
+     "body": "Prostaglandin analogues: hyperaemia, eyelash growth, iris darkening (permanent), periorbital skin darkening and fat atrophy, and rarely cystoid macular oedema or uveitis. Beta-blockers: bronchospasm, bradycardia, tiredness, low mood. Brimonidine: allergic follicular conjunctivitis, dry mouth, drowsiness (and serious sedation in infants). Dorzolamide: stinging, bitter taste."
+    },
+    {
+     "heading": "Helping with adherence",
+     "body": "Ask how patients use their drops and watch them do it. Simplify regimes, link drops to a daily routine (for example brushing teeth), use reminders and drop aids, and explain that glaucoma has no symptoms until late, so stopping drops is risky. Report suspected side effects to the prescriber rather than advising the patient to stop."
+    }
+   ],
+   "flashcards": [
+    { "front": "First-line glaucoma drop class", "back": "Prostaglandin analogues (once daily at night)." },
+    { "front": "Main contraindication of timolol", "back": "Asthma/COPD (also bradycardia and heart block)." },
+    { "front": "Permanent cosmetic side effect of prostaglandin analogues", "back": "Darkening of the iris." },
+    { "front": "What does NICE NG81 recommend offering first for many OHT/COAG patients?", "back": "Selective laser trabeculoplasty (SLT)." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-gm-1",
+     "q": "A glaucoma patient using timolol has new wheeze and shortness of breath. What should you do?",
+     "options": [
+      { "text": "Suspect a beta-blocker side effect and contact the prescriber/GP promptly", "correct": true, "feedback": "Topical timolol can cause bronchospasm." },
+      { "text": "Tell them to double the dose", "correct": false, "feedback": "That would make it worse." },
+      { "text": "Ignore it: drops can't affect breathing", "correct": false, "feedback": "Systemic absorption is real." },
+      { "text": "Switch them yourself to another drop", "correct": false, "feedback": "Only a prescriber should change treatment." }
+     ],
+     "explanation": "Beta-blocker drops can trigger bronchospasm; involve the prescriber.",
+     "link": "pha-glaucoma-medicines#side-effects-to-watch-for"
+    },
+    {
+     "id": "pha-gm-2",
+     "q": "Latanoprost lowers IOP mainly by:",
+     "options": [
+      { "text": "Increasing uveoscleral outflow", "correct": true, "feedback": "Prostaglandin analogues remodel the ciliary muscle matrix." },
+      { "text": "Reducing aqueous production", "correct": false, "feedback": "That's beta-blockers, CAIs and alpha-agonists." },
+      { "text": "Constricting the pupil", "correct": false, "feedback": "That's pilocarpine." },
+      { "text": "Thinning the cornea", "correct": false, "feedback": "Not a mechanism." }
+     ],
+     "explanation": "Prostaglandin analogues increase uveoscleral outflow.",
+     "link": "pha-glaucoma-medicines#choosing-and-adding-treatment"
+    },
+    {
+     "id": "pha-gm-3",
+     "q": "Why is brimonidine avoided in infants?",
+     "options": [
+      { "text": "It can cause serious drowsiness and breathing problems (CNS depression)", "correct": true, "feedback": "It crosses into the brain more easily in young children." },
+      { "text": "It turns the iris brown", "correct": false, "feedback": "That's prostaglandin analogues." },
+      { "text": "It causes kidney stones", "correct": false, "feedback": "That's oral acetazolamide." },
+      { "text": "It raises IOP", "correct": false, "feedback": "It lowers IOP." }
+     ],
+     "explanation": "Alpha-2 agonists can cause CNS depression in young children.",
+     "link": "pha-glaucoma-medicines#side-effects-to-watch-for"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 68-year-old on latanoprost for two years says one eye now looks browner than the other and his lashes are longer. He wants to stop the drops.",
+     "question": "How would you respond?",
+     "modelAnswer": "Explain these are known effects of prostaglandin analogues: the lash growth may reverse if stopped, but iris darkening is usually permanent. Stress that stopping could let glaucoma progress without symptoms. Don't advise him to stop; check adherence and technique, record the findings and let his glaucoma clinician know his concerns so they can discuss alternatives."
+    }
+   ],
+   "links": [
+    { "label": "NICE NG81: glaucoma", "url": "https://www.nice.org.uk/guidance/ng81" }
+   ],
+   "askClaude": "Make a table of glaucoma drug classes with mechanism, example, main side effects and contraindications, then quiz me."
+  },
+  {
+   "id": "pha-systemic-side-effects",
+   "title": "Systemic medicines with eye side effects",
+   "summary": "Many medicines taken for other conditions affect the eyes. Some cause minor symptoms such as dry eye; others cause serious damage that needs screening, such as hydroxychloroquine retinopathy. Asking about all medicines in every eye examination helps spot these effects early.",
+   "keyPoints": [
+    "Hydroxychloroquine (for lupus and rheumatoid arthritis): retinal toxicity; the Royal College of Ophthalmologists recommends screening after about 5 years of use (or after 1 year with extra risk factors), using OCT and visual fields.",
+    "Corticosteroids (tablets, inhalers, nasal sprays, creams near the eye): posterior subcapsular cataract and raised IOP.",
+    "Amiodarone: whorl-like corneal deposits (vortex keratopathy) and, rarely, optic neuropathy.",
+    "Tamsulosin and similar alpha-blockers: floppy iris syndrome during cataract surgery (tell the surgeon).",
+    "Ethambutol (for TB): optic neuropathy with reduced acuity and colour vision.",
+    "Topiramate: can cause sudden bilateral angle closure and a myopic shift, usually in the first weeks of treatment."
+   ],
+   "examTraps": [
+    "Only asking about eye drops when taking a drug history.",
+    "Forgetting that bilateral acute angle closure in a young person on topiramate is a drug reaction, not typical angle closure.",
+    "Mixing up which drug causes which effect."
+   ],
+   "diagram": {
+    "id": "drug-eye-map",
+    "description": "An outline of the eye with labels pointing to where common drugs act: cornea (amiodarone vortex keratopathy), lens (steroid cataract), angle (topiramate angle closure), iris (tamsulosin floppy iris), retina (hydroxychloroquine maculopathy), optic nerve (ethambutol optic neuropathy).",
+    "labels": ["Cornea: amiodarone", "Lens: corticosteroids", "Angle: topiramate", "Iris: tamsulosin", "Retina: hydroxychloroquine", "Optic nerve: ethambutol"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Hydroxychloroquine screening",
+     "body": "Toxicity is related to daily dose by body weight and to how long the drug has been taken; risk is higher with kidney disease and with tamoxifen. Early damage shows on OCT as thinning of the outer retina around (or in some ethnic groups, further out from) the fovea, before patients notice anything. Damage is permanent, so screening aims to stop the drug before vision is affected. Follow the Royal College of Ophthalmologists' current recommendations."
+    },
+    {
+     "heading": "Other drugs to know",
+     "body": "Antihistamines, antidepressants and antimuscarinics: dry eye and reduced accommodation. Isotretinoin (for acne): dry eye, meibomian gland problems and poor night vision. Sildenafil: temporary blue-tinged vision. Vigabatrin: permanent visual field constriction (fields monitored). Digoxin toxicity: yellow-tinted vision. Bisphosphonates: rarely uveitis or scleritis."
+    },
+    {
+     "heading": "What to do when you suspect a drug effect",
+     "body": "Record the medicine, dose and duration, and examine carefully. Don't tell the patient to stop a medicine they need: write to the prescriber or GP, and refer urgently if vision is threatened (for example drug-induced angle closure or optic neuropathy). Report suspected reactions to the MHRA Yellow Card scheme."
+    }
+   ],
+   "flashcards": [
+    { "front": "Hydroxychloroquine: what to screen and when?", "back": "Retinal toxicity; usually after 5 years of use (1 year if extra risk), with OCT and fields." },
+    { "front": "Drug causing vortex keratopathy", "back": "Amiodarone." },
+    { "front": "Why tell a cataract surgeon about tamsulosin?", "back": "Risk of floppy iris syndrome during surgery." },
+    { "front": "Drug that can cause bilateral acute angle closure in young adults", "back": "Topiramate." }
+   ],
+   "mcq": [
+    {
+     "id": "pha-ss-1",
+     "q": "A 55-year-old has taken hydroxychloroquine for 6 years. Which tests are most useful for screening?",
+     "options": [
+      { "text": "OCT and visual fields", "correct": true, "feedback": "These detect early structural and functional changes." },
+      { "text": "Ishihara only", "correct": false, "feedback": "Colour vision is not sensitive enough." },
+      { "text": "Tonometry only", "correct": false, "feedback": "IOP isn't the concern." },
+      { "text": "Keratometry", "correct": false, "feedback": "Not relevant." }
+     ],
+     "explanation": "OCT and fields pick up hydroxychloroquine retinopathy early.",
+     "link": "pha-systemic-side-effects#hydroxychloroquine-screening"
+    },
+    {
+     "id": "pha-ss-2",
+     "q": "A 28-year-old started topiramate for migraine two weeks ago and now has blurred vision and pain in both eyes. What do you suspect?",
+     "options": [
+      { "text": "Drug-induced bilateral angle closure: refer as an emergency", "correct": true, "feedback": "Topiramate can cause ciliary body swelling and angle closure." },
+      { "text": "Migraine aura", "correct": false, "feedback": "Pain and blurred vision in both eyes after starting topiramate need urgent assessment." },
+      { "text": "Dry eye", "correct": false, "feedback": "Doesn't fit the picture." },
+      { "text": "Presbyopia", "correct": false, "feedback": "Not at 28, and not painful." }
+     ],
+     "explanation": "Topiramate-induced angle closure is an emergency.",
+     "link": "pha-systemic-side-effects#what-to-do-when-you-suspect-a-drug-effect"
+    },
+    {
+     "id": "pha-ss-3",
+     "q": "Long-term steroid inhaler use is most associated with which eye change?",
+     "options": [
+      { "text": "Posterior subcapsular cataract and raised IOP", "correct": true, "feedback": "Steroids from any route can cause both." },
+      { "text": "Vortex keratopathy", "correct": false, "feedback": "That's amiodarone." },
+      { "text": "Blue-tinged vision", "correct": false, "feedback": "That's sildenafil." },
+      { "text": "Floppy iris", "correct": false, "feedback": "That's tamsulosin." }
+     ],
+     "explanation": "Ask about inhaled, nasal, oral and skin steroids.",
+     "link": "pha-systemic-side-effects#other-drugs-to-know"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "Royal College of Ophthalmologists: hydroxychloroquine screening", "url": "https://www.rcophth.ac.uk/" },
+    { "label": "MHRA Yellow Card", "url": "https://yellowcard.mhra.gov.uk/" }
+   ],
+   "askClaude": "List ten systemic medicines and ask me what eye side effect each can cause, then explain any I get wrong."
+  }
+ ]
+}

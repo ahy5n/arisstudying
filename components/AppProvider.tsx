@@ -6,11 +6,14 @@ import { schedule } from '@/lib/leitner'
 import {
   backend,
   type AuthUser,
+  type CardSet,
   type FlagRecord,
   type NewAssessment,
   type PlacementProgress,
+  type Profile,
   type Progress,
   type UserData,
+  type UserDeck,
 } from '@/lib/store'
 import type { Assessment } from '@/lib/tracker'
 import type { ItemKind } from '@/lib/types'
@@ -39,6 +42,11 @@ interface AppState {
   setOverride(code: string, name: string | null): void
   setClaudeUrl(url: string): Promise<void>
   markTrackerSeeded(): void
+  saveProfile(patch: Partial<Omit<Profile, 'username'>>): Promise<void>
+  saveDeck(deck: UserDeck): Promise<void>
+  deleteDeck(id: string): Promise<void>
+  saveCardSet(set: CardSet): Promise<void>
+  deleteCardSet(id: string): Promise<void>
   flag(f: Omit<FlagRecord, 'createdAt'>): Promise<void>
   setPlacement(placementId: string, patch: Partial<PlacementProgress>): void
   toast(message: string): void
@@ -57,6 +65,12 @@ export function useData(): UserData {
   const { data } = useApp()
   if (!data) throw new Error('useData before data loaded')
   return data
+}
+
+/** A module's name as she renamed it, or its built-in name. */
+export function useModuleName(): (code: string, fallback: string) => string {
+  const { overrides } = useData()
+  return (code, fallback) => overrides[code] || fallback
 }
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
@@ -233,6 +247,31 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         update((d) => ({ ...d, profile: { ...d.profile, claudeProjectUrl: url } }))
       },
 
+      async saveDeck(deck) {
+        await backend.saveDeck(u, deck)
+        update((d) => ({ ...d, decks: [...d.decks.filter((x) => x.id !== deck.id), deck] }))
+      },
+
+      async deleteDeck(id) {
+        await backend.deleteDeck(u, id)
+        update((d) => ({ ...d, decks: d.decks.filter((x) => x.id !== id) }))
+      },
+
+      async saveCardSet(set) {
+        await backend.saveCardSet(u, set)
+        update((d) => ({ ...d, cardSets: [...d.cardSets.filter((x) => x.id !== set.id), set] }))
+      },
+
+      async deleteCardSet(id) {
+        await backend.deleteCardSet(u, id)
+        update((d) => ({ ...d, cardSets: d.cardSets.filter((x) => x.id !== id) }))
+      },
+
+      async saveProfile(patch) {
+        await backend.saveProfile(u, patch)
+        update((d) => ({ ...d, profile: { ...d.profile, ...patch } }))
+      },
+
       markTrackerSeeded() {
         update((d) => ({ ...d, profile: { ...d.profile, trackerSeeded: true } }))
         persist(backend.saveProfile(u, { trackerSeeded: true }))
@@ -261,7 +300,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       {children}
       <div aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-6 z-50 flex justify-center px-4">
         {toastMsg && (
-          <div className="toast-in rounded-full bg-ink px-5 py-3 text-[15px] font-medium text-white shadow-lg">
+          <div className="toast-in rounded-full bg-ink px-5 py-3 text-[15px] font-medium text-bg shadow-lg">
             {toastMsg}
           </div>
         )}

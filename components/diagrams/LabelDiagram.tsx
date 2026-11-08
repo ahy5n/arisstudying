@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { FIG } from './palette'
 import { CheckIcon, ResetIcon } from '../icons'
 import { DIAGRAMS } from './Diagrams'
 
@@ -93,7 +94,7 @@ export function LabelDiagram({ diagramId, targets }: { diagramId: string; target
       <p className="text-[15px] text-muted">
         Tap a label, then tap its numbered spot — or drag it there. Then check your answers.
       </p>
-      <div className="card mt-3 overflow-x-auto p-3 sm:p-5">
+      <div className="card mt-3 overflow-x-auto bg-fig p-3 sm:p-5">
         <svg ref={svgRef} viewBox={`0 0 ${w} ${h}`} className="mx-auto block h-auto w-full min-w-[520px] max-w-[760px] select-none" role="group" aria-label="Diagram with numbered spots">
           {def.render(false)}
           {spots.map((s, i) => {
@@ -101,8 +102,8 @@ export function LabelDiagram({ diagramId, targets }: { diagramId: string; target
             const has = placed[s]
             const ok = checked && has === s
             const bad = checked && has && has !== s
-            const fill = ok ? '#d9f0e3' : bad ? '#fcebee' : has ? '#e5daf5' : '#ffffff'
-            const stroke = ok ? '#2c6a4d' : bad ? '#9a4560' : '#5a4590'
+            const fill = ok ? FIG.green100b : bad ? FIG.red50 : has ? FIG.violet100b : FIG.white
+            const stroke = ok ? FIG.green700 : bad ? FIG.pink600 : FIG.violet600
             return (
               <g
                 key={s}
@@ -138,13 +139,13 @@ export function LabelDiagram({ diagramId, targets }: { diagramId: string; target
               data-spot={s}
               onClick={() => selected && place(s, selected)}
               className={`flex min-h-12 items-center gap-3 rounded-2xl px-3 py-2 text-[15px] ${
-                ok ? 'bg-sage-soft' : bad ? 'bg-rose-soft' : 'bg-wash/70'
-              } ${selected ? 'cursor-pointer ring-2 ring-lilac' : ''}`}
+                ok ? 'bg-good-soft' : bad ? 'bg-bad-soft' : 'bg-bg/70'
+              } ${selected ? 'cursor-pointer ring-2 ring-accent-tint' : ''}`}
             >
-              <span className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-[13px] font-bold text-lilac-ink">{i + 1}</span>
-              <span className={`flex-1 ${has ? 'font-medium' : 'text-faint'}`}>{has ?? 'empty'}</span>
-              {ok && <CheckIcon className="size-5 text-sage-ink" />}
-              {bad && <span className="text-[13px] text-rose-ink">→ {s}</span>}
+              <span className="grid size-7 shrink-0 place-items-center rounded-full bg-surface text-[13px] font-bold text-accent">{i + 1}</span>
+              <span className={`flex-1 ${has ? 'font-medium' : 'text-muted'}`}>{has ?? 'empty'}</span>
+              {ok && <CheckIcon className="size-5 text-good-ink" />}
+              {bad && <span className="text-[13px] text-bad-ink">→ {s}</span>}
             </li>
           )
         })}
@@ -168,10 +169,10 @@ export function LabelDiagram({ diagramId, targets }: { diagramId: string; target
               style={{ touchAction: 'none' }}
               className={`min-h-11 rounded-full px-4 text-[15px] font-semibold transition-all ${
                 sel
-                  ? 'bg-lilac-ink text-white shadow-[var(--shadow-lift)]'
+                  ? 'bg-accent text-on-accent shadow-[var(--shadow-lift)]'
                   : used
-                    ? 'bg-wash text-faint line-through decoration-1'
-                    : 'bg-lilac-soft text-lilac-ink hover:bg-lilac'
+                    ? 'bg-bg text-muted line-through decoration-1'
+                    : 'bg-accent-soft text-accent-strong hover:bg-accent-tint'
               }`}
             >
               {label}
@@ -205,7 +206,7 @@ export function LabelDiagram({ diagramId, targets }: { diagramId: string; target
 
       {drag && (
         <div
-          className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-1/2 rounded-full bg-lilac-ink px-4 py-2 text-[15px] font-semibold text-white shadow-[var(--shadow-lift)]"
+          className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent px-4 py-2 text-[15px] font-semibold text-on-accent shadow-[var(--shadow-lift)]"
           style={{ left: drag.x, top: drag.y }}
         >
           {drag.label}

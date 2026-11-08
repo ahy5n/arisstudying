@@ -1,0 +1,1307 @@
+{
+ "module": "OPT",
+ "verifyNote": "Written from standard geometric, visual and physical optics as taught on UK optometry degrees. Sign conventions and the exact form of formulae differ between textbooks and departments: always use the convention your lecturer uses in exams.",
+ "topics": [
+  {
+   "id": "opt-refraction-prisms",
+   "title": "Light, refraction and Snell's law; prisms",
+   "summary": "Light slows down in denser media, and the refractive index n = c/v says by how much. When light crosses a boundary at an angle it bends according to Snell's law, n₁ sin θ₁ = n₂ sin θ₂. A prism uses two inclined surfaces to deviate light towards its base, and its power is measured in prism dioptres (Δ).",
+   "keyPoints": [
+    "Refractive index n = speed of light in vacuum ÷ speed in the medium. Air ≈ 1.000, water 1.333, cornea 1.376, aqueous and vitreous ≈ 1.336, CR39 1.498, crown glass 1.523.",
+    "Snell's law: n₁ sin θ₁ = n₂ sin θ₂, with angles measured from the normal. Going into a denser medium, light bends towards the normal.",
+    "Total internal reflection happens going from dense to less dense when the angle exceeds the critical angle: sin c = n₂ / n₁.",
+    "A prism deviates light towards its base; the image is displaced towards the apex.",
+    "For a thin prism, deviation d ≈ (n − 1) × a, where a is the apical angle.",
+    "1 prism dioptre (1Δ) displaces a ray 1 cm at a distance of 1 m; 1Δ ≈ 0.57°.",
+    "Dispersion: n depends on wavelength, so blue light is deviated more than red."
+   ],
+   "examTraps": [
+    "Measuring angles from the surface instead of from the normal.",
+    "Saying the image moves towards the prism base. Light goes towards the base; the image is seen displaced towards the apex.",
+    "Using the thin-prism formula d = (n − 1)a for large apical angles, where it breaks down."
+   ],
+   "diagram": {
+    "id": "snell-prism",
+    "description": "Left: a ray crossing a flat boundary from air (n₁) into glass (n₂), with the normal dashed and angles θ₁ and θ₂ marked; the refracted ray bends towards the normal. Right: a triangular prism with apex up, a ray entering and leaving, deviated towards the base; the eye on the right sees the object displaced towards the apex.",
+    "labels": [
+     "Normal",
+     "Angle of incidence θ₁",
+     "Angle of refraction θ₂",
+     "Apex",
+     "Base",
+     "Angle of deviation d",
+     "Image displaced towards apex"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Snell's law with numbers",
+     "body": "A ray in air hits CR39 (n = 1.498) at 30° to the normal. sin θ₂ = (1.000 × sin 30°) / 1.498 = 0.5 / 1.498 = 0.334, so θ₂ ≈ 19.5°. Going the other way, from glass to air, the ray bends away from the normal. Critical angle for crown glass to air: sin c = 1 / 1.523 = 0.657, so c ≈ 41°. Beyond that, all the light reflects back inside, which is how fibre optics and some prism reflectors work."
+    },
+    {
+     "heading": "Prism dioptres and degrees",
+     "body": "Prism power P (in Δ) = 100 × tan d, where d is the deviation in degrees. For small angles 1Δ ≈ 0.57° and 1° ≈ 1.75Δ. Clinically, prisms are described by power and base direction (base in, out, up or down). In spectacles, prism comes either from a deliberate prism or from decentring a lens (Prentice's rule, covered in dispensing)."
+    },
+    {
+     "heading": "Dispersion",
+     "body": "Because n is a little higher for short wavelengths, a prism spreads white light into a spectrum, with blue deviated most. The amount of dispersion compared with deviation is described by the Abbe number (V-value): the lower the V-value, the more colour fringing. This becomes important when choosing high-index lens materials."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Snell's law",
+     "back": "n₁ sin θ₁ = n₂ sin θ₂ (angles from the normal)."
+    },
+    {
+     "front": "Critical angle formula",
+     "back": "sin c = n₂ / n₁ (dense → less dense)."
+    },
+    {
+     "front": "Definition of 1 prism dioptre",
+     "back": "Displaces a ray 1 cm at a distance of 1 m (≈ 0.57°)."
+    },
+    {
+     "front": "Thin prism deviation",
+     "back": "d ≈ (n − 1) × apical angle."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-rp-1",
+     "q": "Light passes from air into crown glass (n = 1.523) at 40° to the normal. The refracted ray is closest to:",
+     "options": [
+      {
+       "text": "25°",
+       "correct": true,
+       "feedback": "sin θ₂ = sin 40° / 1.523 = 0.643 / 1.523 = 0.422, so θ₂ ≈ 25°."
+      },
+      {
+       "text": "40°",
+       "correct": false,
+       "feedback": "That would mean no bending, which only happens at normal incidence or with equal indices."
+      },
+      {
+       "text": "61°",
+       "correct": false,
+       "feedback": "Into a denser medium light bends towards the normal, so the angle gets smaller."
+      },
+      {
+       "text": "15°",
+       "correct": false,
+       "feedback": "Too small: check the sine calculation."
+      }
+     ],
+     "explanation": "Into a denser medium the ray bends towards the normal; Snell's law gives about 25°.",
+     "link": "opt-refraction-prisms#snell-s-law-with-numbers"
+    },
+    {
+     "id": "opt-rp-2",
+     "q": "A patient looks through a base-down prism at a target. Where does the target appear?",
+     "options": [
+      {
+       "text": "Displaced upwards",
+       "correct": true,
+       "feedback": "The image is displaced towards the apex, which is up for a base-down prism."
+      },
+      {
+       "text": "Displaced downwards",
+       "correct": false,
+       "feedback": "Light is deviated towards the base, but the image appears displaced towards the apex."
+      },
+      {
+       "text": "Not displaced, only blurred",
+       "correct": false,
+       "feedback": "A prism displaces the image; it doesn't add focusing power."
+      },
+      {
+       "text": "Displaced sideways",
+       "correct": false,
+       "feedback": "Displacement is along the base–apex line."
+      }
+     ],
+     "explanation": "Light bends towards the base, so the eye sees the object displaced towards the apex.",
+     "link": "opt-refraction-prisms#prism-dioptres-and-degrees"
+    },
+    {
+     "id": "opt-rp-3",
+     "q": "Roughly how many prism dioptres is a deviation of 2°?",
+     "options": [
+      {
+       "text": "3.5Δ",
+       "correct": true,
+       "feedback": "100 × tan 2° = 3.49Δ (about 1.75Δ per degree)."
+      },
+      {
+       "text": "2Δ",
+       "correct": false,
+       "feedback": "Prism dioptres and degrees aren't equal: 1° ≈ 1.75Δ."
+      },
+      {
+       "text": "1.1Δ",
+       "correct": false,
+       "feedback": "That's the wrong way round: 1Δ ≈ 0.57°."
+      },
+      {
+       "text": "20Δ",
+       "correct": false,
+       "feedback": "Far too large."
+      }
+     ],
+     "explanation": "P = 100 tan d. For small angles each degree is about 1.75Δ.",
+     "link": "opt-refraction-prisms#prism-dioptres-and-degrees"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A student holds a 6Δ base-out prism in front of one eye while looking at a distant light.",
+     "question": "Which way does the light appear to move, and what do the eyes have to do to keep single vision?",
+     "modelAnswer": "Base-out means the apex points towards the nose, so the image is displaced inwards (towards the apex). To keep the image on the fovea, that eye has to turn inwards: the eyes converge. Base-out prism therefore stimulates convergence, which is why it is used to measure positive fusional reserves."
+    }
+   ],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Explain Snell's law and prism deviation simply, then give me three quick calculations to try (one Snell's law, one critical angle, one prism dioptres to degrees)."
+  },
+  {
+   "id": "opt-vergence-thin-lenses",
+   "title": "Vergence and the thin lens equation",
+   "summary": "Vergence describes how fast light is converging or diverging: L = n / l, in dioptres, with l in metres. A thin lens adds its power to the vergence of the light arriving at it: L′ = L + F. This one equation, with a consistent sign convention, solves most first-year lens problems.",
+   "keyPoints": [
+    "Vergence L = n / l (dioptres), where l is the distance from the wavefront to the point it is coming from or going to, in metres.",
+    "Diverging light has negative vergence; converging light has positive vergence (light travelling left to right, distances to the left negative).",
+    "Lens power F = 1 / f′ in air, where f′ is the second focal length in metres. Positive (convex) lenses converge, negative (concave) lenses diverge.",
+    "Thin lens equation: L′ = L + F, then image distance l′ = n / L′.",
+    "Linear magnification m = L / L′ (equivalently l′ / l in air). Negative m means an inverted image.",
+    "Real images form where light actually converges (positive L′); virtual images where light only appears to come from.",
+    "Hand neutralisation: a lens that makes objects move 'against' is positive; 'with' movement is negative."
+   ],
+   "examTraps": [
+    "Mixing centimetres and metres: always convert to metres before dividing.",
+    "Forgetting the minus sign for a real object placed to the left of the lens.",
+    "Giving the image distance as 1 / L′ but forgetting the refractive index when the image is formed inside a medium."
+   ],
+   "diagram": {
+    "id": "thin-lens-vergence",
+    "description": "A positive thin lens on an optical axis, with an object to the left at distance l and an inverted real image to the right at l′. Draw three rays: parallel ray through F′, ray through the optical centre undeviated, and a ray through F leaving parallel. Mark the sign convention arrow (light left to right).",
+    "labels": [
+     "Object",
+     "Image",
+     "Optical centre",
+     "First focal point F",
+     "Second focal point F′",
+     "l (negative)",
+     "l′ (positive)"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "A worked example",
+     "body": "An object is 50 cm in front of a +5.00 D lens. L = 1 / −0.50 = −2.00 D. L′ = −2.00 + 5.00 = +3.00 D. l′ = 1 / 3.00 = +0.333 m, so a real image forms 33.3 cm behind the lens. Magnification m = L / L′ = −2 / +3 = −0.67: the image is inverted and two-thirds the size."
+    },
+    {
+     "heading": "Sign convention",
+     "body": "Most UK courses use the Cartesian convention: light travels left to right, distances are measured from the lens or surface, and distances to the left are negative, to the right positive. Heights above the axis are positive. Stick to one convention for a whole problem; most lost marks come from a sign flipped halfway."
+    },
+    {
+     "heading": "Hand neutralisation",
+     "body": "Hold the lens at arm's length and look at a cross target through it. Move the lens sideways and up and down. With a plus lens the target moves against the lens; with a minus lens it moves with it. Add trial lenses of the opposite sign until the movement stops: the neutralising lens power is equal and opposite to the unknown lens. Rotation of the cross lines (scissors movement) shows there is cylinder."
+    }
+   ],
+   "checklist": {
+    "id": "chk-opt-hand-neutralisation",
+    "title": "Hand neutralisation of a spherical lens",
+    "steps": [
+     "Hold the unknown lens at arm's length, concave side towards you, and look at a distant cross target.",
+     "Move the lens slowly side to side and up and down.",
+     "Note the movement: 'against' means plus power, 'with' means minus power.",
+     "Rotate the lens: if the cross lines scissor, the lens has cylinder (neutralise each meridian separately).",
+     "Hold trial lenses of the opposite sign in contact with the unknown lens.",
+     "Change trial lenses until no movement is seen.",
+     "Record the unknown power as equal and opposite to the neutralising lens."
+    ]
+   },
+   "flashcards": [
+    {
+     "front": "Vergence formula",
+     "back": "L = n / l (l in metres, signed)."
+    },
+    {
+     "front": "Thin lens equation",
+     "back": "L′ = L + F."
+    },
+    {
+     "front": "Magnification from vergences",
+     "back": "m = L / L′."
+    },
+    {
+     "front": "'Against' movement in hand neutralisation means…",
+     "back": "A plus (converging) lens."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-vt-1",
+     "q": "An object is 25 cm in front of a +6.00 D thin lens. Where is the image?",
+     "options": [
+      {
+       "text": "50 cm behind the lens (real)",
+       "correct": true,
+       "feedback": "L = −4.00 D, L′ = −4 + 6 = +2.00 D, l′ = +0.50 m."
+      },
+      {
+       "text": "10 cm behind the lens",
+       "correct": false,
+       "feedback": "That's 1/10 D: check L = 1/−0.25 = −4.00 D."
+      },
+      {
+       "text": "50 cm in front of the lens (virtual)",
+       "correct": false,
+       "feedback": "L′ is positive, so the image is real and behind the lens."
+      },
+      {
+       "text": "16.7 cm behind the lens",
+       "correct": false,
+       "feedback": "That's the focal length, which is where an object at infinity would focus."
+      }
+     ],
+     "explanation": "Convert to metres, add vergences, then invert: l′ = 1/(+2.00) = +0.50 m.",
+     "link": "opt-vergence-thin-lenses#a-worked-example"
+    },
+    {
+     "id": "opt-vt-2",
+     "q": "Light diverging from a point 20 cm to the left of a surface in air has a vergence of:",
+     "options": [
+      {
+       "text": "−5.00 D",
+       "correct": true,
+       "feedback": "L = 1 / −0.20 = −5.00 D: diverging light is negative."
+      },
+      {
+       "text": "+5.00 D",
+       "correct": false,
+       "feedback": "Diverging light has negative vergence in the usual convention."
+      },
+      {
+       "text": "−0.05 D",
+       "correct": false,
+       "feedback": "Distance must be in metres, not centimetres."
+      },
+      {
+       "text": "−20 D",
+       "correct": false,
+       "feedback": "Vergence is the reciprocal of the distance in metres."
+      }
+     ],
+     "explanation": "Vergence = n / l with l in metres and signed.",
+     "link": "opt-vergence-thin-lenses#sign-convention"
+    },
+    {
+     "id": "opt-vt-3",
+     "q": "During hand neutralisation the target moves 'with' the lens and the cross scissors when rotated. The lens is:",
+     "options": [
+      {
+       "text": "Minus, with cylinder",
+       "correct": true,
+       "feedback": "'With' movement means minus; scissoring means cylinder."
+      },
+      {
+       "text": "Plus, with cylinder",
+       "correct": false,
+       "feedback": "Plus lenses give 'against' movement."
+      },
+      {
+       "text": "Minus, spherical",
+       "correct": false,
+       "feedback": "A purely spherical lens doesn't make the cross scissor."
+      },
+      {
+       "text": "Plano prism",
+       "correct": false,
+       "feedback": "A prism displaces the target but doesn't give with/against movement as you move it."
+      }
+     ],
+     "explanation": "With = minus, against = plus, scissoring = astigmatic (cylindrical) power.",
+     "link": "opt-vergence-thin-lenses#hand-neutralisation"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A magnifier of +10.00 D is held so that a page of text sits 8 cm in front of it.",
+     "question": "Where is the image, is it real or virtual, and how much is it magnified?",
+     "modelAnswer": "L = 1/−0.08 = −12.50 D. L′ = −12.50 + 10.00 = −2.50 D, so l′ = −0.40 m: a virtual, upright image 40 cm in front of the lens (on the same side as the page). m = L / L′ = −12.5 / −2.5 = +5×. Upright and enlarged, which is how a hand magnifier is used when the object sits inside the focal length."
+    }
+   ],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Give me five thin-lens vergence problems of increasing difficulty, one at a time. Wait for my answer each time, then show the working."
+  },
+  {
+   "id": "opt-thick-lenses",
+   "title": "Thick lenses, cardinal points and back vertex power",
+   "summary": "Real lenses have thickness, so their power depends on where you measure from. A thick lens is described by its two surface powers, its thickness and its index, and its cardinal points. Spectacle lenses are specified by back vertex power, the vergence leaving the back surface, which is what the eye actually receives.",
+   "keyPoints": [
+    "Surface power F = (n₂ − n₁) / r, with r in metres and signed (centre of curvature to the right = positive).",
+    "Equivalent power: Fe = F₁ + F₂ − (t/n) F₁F₂ (t in metres).",
+    "Back vertex power: Fv′ = F₁ / (1 − (t/n)F₁) + F₂. This is what a focimeter measures and what is written on a prescription.",
+    "Front vertex power uses the same idea from the front surface and is used, for example, when checking near additions on some lenses.",
+    "Cardinal points: two focal points, two principal points and two nodal points. In air the nodal points coincide with the principal points.",
+    "Reduced thickness t/n is the 'equivalent air distance' through the lens.",
+    "For thin lenses t ≈ 0 and all three powers become F₁ + F₂."
+   ],
+   "examTraps": [
+    "Using millimetres for t in the formula: it must be metres.",
+    "Forgetting to divide thickness by the lens index.",
+    "Assuming back vertex power equals equivalent power; for high plus lenses they can differ by a dioptre or more."
+   ],
+   "diagram": {
+    "id": "thick-lens-cardinal",
+    "description": "A thick biconvex lens with its front and back vertices marked. Show principal planes P and P′ inside the lens, focal points F and F′, and the back vertex focal length (from back vertex to F′) versus the equivalent focal length (from P′ to F′).",
+    "labels": [
+     "Front vertex A₁",
+     "Back vertex A₂",
+     "Principal planes P and P′",
+     "F and F′",
+     "Equivalent focal length f′",
+     "Back vertex focal length fv′",
+     "Thickness t"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Step-along method",
+     "body": "You don't need to memorise every formula: step through the lens surface by surface. Light from infinity has L₁ = 0. After the first surface, L₁′ = F₁. Move through the lens: the vergence arriving at the second surface is L₂ = L₁′ / (1 − (t/n)L₁′). Add the second surface: L₂′ = L₂ + F₂. With L₁ = 0, L₂′ is the back vertex power."
+    },
+    {
+     "heading": "A worked example",
+     "body": "A CR39 lens (n = 1.498) has F₁ = +10.00 D, F₂ = −2.00 D and t = 6 mm. t/n = 0.006 / 1.498 = 0.004 m. Fv′ = 10 / (1 − 0.004 × 10) − 2 = 10 / 0.96 − 2 = 10.42 − 2 = +8.42 D. The thin-lens approximation would give +8.00 D, so thickness adds about 0.42 D here."
+    },
+    {
+     "heading": "Why back vertex power matters",
+     "body": "The eye receives light from the back surface of the spectacle lens, so the useful number is the vergence leaving that surface. A focimeter is designed to measure it, with the lens back surface placed against the lens rest. If a high plus lens is measured the wrong way round (front vertex), the reading will be wrong."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Surface power formula",
+     "back": "F = (n₂ − n₁) / r (r in metres)."
+    },
+    {
+     "front": "Equivalent power of a thick lens",
+     "back": "Fe = F₁ + F₂ − (t/n)F₁F₂."
+    },
+    {
+     "front": "Back vertex power",
+     "back": "Fv′ = F₁ / (1 − (t/n)F₁) + F₂."
+    },
+    {
+     "front": "What power does a focimeter read?",
+     "back": "Back vertex power."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-tk-1",
+     "q": "A lens has F₁ = +8.00 D, F₂ = −1.00 D, t = 5 mm, n = 1.5. Its back vertex power is closest to:",
+     "options": [
+      {
+       "text": "+7.22 D",
+       "correct": true,
+       "feedback": "t/n = 0.00333; 8 / (1 − 0.0267) = 8.22; 8.22 − 1 = +7.22 D."
+      },
+      {
+       "text": "+7.00 D",
+       "correct": false,
+       "feedback": "That's the thin-lens answer, ignoring thickness."
+      },
+      {
+       "text": "+6.79 D",
+       "correct": false,
+       "feedback": "Thickness increases the effect of a plus front surface, it doesn't reduce it."
+      },
+      {
+       "text": "+9.00 D",
+       "correct": false,
+       "feedback": "The back surface is −1.00 D, so subtract it."
+      }
+     ],
+     "explanation": "Step the front-surface vergence through the reduced thickness, then add the back surface.",
+     "link": "opt-thick-lenses#a-worked-example"
+    },
+    {
+     "id": "opt-tk-2",
+     "q": "Which power is written on a spectacle prescription and read by a focimeter?",
+     "options": [
+      {
+       "text": "Back vertex power",
+       "correct": true,
+       "feedback": "Yes: the vergence the eye actually receives."
+      },
+      {
+       "text": "Equivalent power",
+       "correct": false,
+       "feedback": "Equivalent power is measured from the principal planes, not the lens back surface."
+      },
+      {
+       "text": "Front vertex power",
+       "correct": false,
+       "feedback": "Front vertex power is used in specific checks, not as the main lens power."
+      },
+      {
+       "text": "Nominal (surface sum) power",
+       "correct": false,
+       "feedback": "F₁ + F₂ ignores thickness and is only approximate."
+      }
+     ],
+     "explanation": "Prescriptions and focimeters work in back vertex power.",
+     "link": "opt-thick-lenses#why-back-vertex-power-matters"
+    },
+    {
+     "id": "opt-tk-3",
+     "q": "In air, the nodal points of a lens are:",
+     "options": [
+      {
+       "text": "At the same positions as the principal points",
+       "correct": true,
+       "feedback": "When the medium is the same on both sides, nodal and principal points coincide."
+      },
+      {
+       "text": "At the focal points",
+       "correct": false,
+       "feedback": "Focal points are where parallel light focuses."
+      },
+      {
+       "text": "At the centres of curvature",
+       "correct": false,
+       "feedback": "Centres of curvature belong to the surfaces, not the lens system."
+      },
+      {
+       "text": "Always outside the lens",
+       "correct": false,
+       "feedback": "They can be inside or outside depending on lens form."
+      }
+     ],
+     "explanation": "Nodal points differ from principal points only when the media on either side have different indices, as in the eye.",
+     "link": "opt-thick-lenses#step-along-method"
+    }
+   ],
+   "cases": [],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Walk me through the step-along method for a thick lens with my own numbers, then check my answer for back vertex power."
+  },
+  {
+   "id": "opt-mirrors",
+   "title": "Mirrors and reflection",
+   "summary": "Reflection follows a simple rule: the angle of reflection equals the angle of incidence. Curved mirrors have power just like lenses, and the same vergence approach works. Mirrors matter in optometry because the cornea and lens surfaces act as mirrors, forming the Purkinje images used in keratometry and other instruments.",
+   "keyPoints": [
+    "Law of reflection: angle of incidence = angle of reflection, both measured from the normal.",
+    "A plane mirror forms a virtual, upright, same-size image as far behind the mirror as the object is in front.",
+    "Mirror power F = −2n / r in the usual convention: a concave mirror converges (positive power), a convex mirror diverges (negative power).",
+    "Focal length of a mirror is half its radius of curvature.",
+    "The vergence equation still works: L′ = L + F, but after reflection light travels the other way, so watch the signs.",
+    "The keratometer measures corneal radius from the size of the image the cornea forms as a convex mirror (Purkinje image I).",
+    "Rotating a plane mirror by θ rotates the reflected beam by 2θ."
+   ],
+   "examTraps": [
+    "Forgetting the factor of 2: f = r/2, and beam rotation is 2θ.",
+    "Applying the lens sign rules without reversing direction after reflection.",
+    "Calling the corneal reflex a real image: Purkinje image I is virtual."
+   ],
+   "diagram": {
+    "id": "mirror-purkinje",
+    "description": "Left: a concave mirror with centre of curvature C and focal point F at half the radius; rays parallel to the axis converge to F. Right: a cross-section of the eye showing the four Purkinje images: front of cornea (I), back of cornea (II), front of lens (III, larger and upright), back of lens (IV, small and inverted).",
+    "labels": [
+     "Centre of curvature C",
+     "Focal point F",
+     "Radius r",
+     "Purkinje I (anterior cornea)",
+     "Purkinje III (anterior lens)",
+     "Purkinje IV (posterior lens, inverted)"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Mirror power and the cornea",
+     "body": "The front surface of the cornea, radius about 7.8 mm, acts as a convex mirror. Its reflecting power is F = −2/r = −2 / 0.0078 ≈ −256 D, giving a small, virtual, upright image just behind the cornea. Keratometers measure the size of this image to work out r, then convert radius to dioptric power using an assumed 'keratometric index' (commonly 1.3375)."
+    },
+    {
+     "heading": "Purkinje images",
+     "body": "Light reflects from four surfaces in the eye: anterior cornea (I, brightest), posterior cornea (II), anterior lens (III, larger and dimmer) and posterior lens (IV, inverted and real). As the eye accommodates, image III gets smaller and moves because the front of the lens becomes more curved. Purkinje images are used in eye-tracking and to study accommodation."
+    },
+    {
+     "heading": "Plane mirrors in practice",
+     "body": "Consulting rooms often use a mirror to double the test distance: a 3 m room with the chart viewed in a mirror gives an optical test distance of about 6 m. The chart has to be printed reversed so letters read correctly in the mirror."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Focal length of a curved mirror",
+     "back": "Half the radius of curvature (f = r/2)."
+    },
+    {
+     "front": "Mirror power (in air)",
+     "back": "F = −2 / r (concave positive, convex negative in the usual convention)."
+    },
+    {
+     "front": "Which Purkinje image is inverted?",
+     "back": "Image IV (posterior lens surface)."
+    },
+    {
+     "front": "Rotate a plane mirror by 10°. The reflected beam rotates by…",
+     "back": "20°."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-mi-1",
+     "q": "A concave mirror has a radius of curvature of 40 cm. Its focal length is:",
+     "options": [
+      {
+       "text": "20 cm",
+       "correct": true,
+       "feedback": "f = r/2 = 20 cm."
+      },
+      {
+       "text": "40 cm",
+       "correct": false,
+       "feedback": "That's the radius, not the focal length."
+      },
+      {
+       "text": "80 cm",
+       "correct": false,
+       "feedback": "f is half r, not double."
+      },
+      {
+       "text": "2.5 cm",
+       "correct": false,
+       "feedback": "Check units: 2.5 is roughly the power in dioptres of a 40 cm radius, not a length."
+      }
+     ],
+     "explanation": "For mirrors the focal length is half the radius.",
+     "link": "opt-mirrors#mirror-power-and-the-cornea"
+    },
+    {
+     "id": "opt-mi-2",
+     "q": "Which corneal property does a keratometer actually measure?",
+     "options": [
+      {
+       "text": "The radius of curvature of the anterior corneal surface",
+       "correct": true,
+       "feedback": "It measures image size from the corneal 'mirror' and converts it to radius."
+      },
+      {
+       "text": "Total corneal refractive power directly",
+       "correct": false,
+       "feedback": "Power is calculated from radius using an assumed index."
+      },
+      {
+       "text": "Corneal thickness",
+       "correct": false,
+       "feedback": "That's pachymetry."
+      },
+      {
+       "text": "Posterior corneal curvature",
+       "correct": false,
+       "feedback": "Standard keratometry uses Purkinje image I from the front surface."
+      }
+     ],
+     "explanation": "Keratometry treats the front of the cornea as a convex mirror and measures its radius.",
+     "link": "opt-mirrors#mirror-power-and-the-cornea"
+    },
+    {
+     "id": "opt-mi-3",
+     "q": "A test chart is viewed in a mirror 3 m away from the patient. The optical test distance is about:",
+     "options": [
+      {
+       "text": "6 m",
+       "correct": true,
+       "feedback": "Light travels to the mirror and back, so the distance doubles."
+      },
+      {
+       "text": "3 m",
+       "correct": false,
+       "feedback": "The image of the chart appears behind the mirror."
+      },
+      {
+       "text": "1.5 m",
+       "correct": false,
+       "feedback": "A plane mirror doesn't halve the distance."
+      },
+      {
+       "text": "9 m",
+       "correct": false,
+       "feedback": "Only if the chart were 6 m from the mirror."
+      }
+     ],
+     "explanation": "A plane mirror image sits as far behind the mirror as the object is in front.",
+     "link": "opt-mirrors#plane-mirrors-in-practice"
+    }
+   ],
+   "cases": [],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Explain Purkinje images and how a keratometer uses the cornea as a mirror, then ask me two questions."
+  },
+  {
+   "id": "opt-visual-optics",
+   "title": "Visual optics: the schematic eye and ametropia",
+   "summary": "Schematic eyes model the optics of a typical eye so we can calculate image size and refractive error. In the simplest reduced eye, a single surface of +60 D focuses light 22.2 mm behind it. Ametropia happens when the eye's power and length don't match: myopia (too much power for its length), hyperopia (too little), each with a far point that the correcting lens must image to.",
+   "keyPoints": [
+    "Gullstrand's exact eye has a total power of about +58.6 D; the cornea provides about +43 D and the crystalline lens about +19 D.",
+    "The Emsley reduced eye: one surface of +60 D, n = 4/3, axial length = n/F = 22.2 mm.",
+    "Emmetropia: parallel light focuses on the retina with accommodation relaxed.",
+    "Myopia: focus in front of the retina; the far point is a real point in front of the eye. Corrected with minus lenses.",
+    "Hyperopia: focus behind the retina; the far point is virtual, behind the eye. Corrected with plus lenses (or by accommodating).",
+    "Axial ametropia comes from eye length; refractive ametropia from power. As a rough guide 1 mm of axial length ≈ 3 D.",
+    "Ocular refraction K is the vergence needed at the eye; spectacle refraction depends on vertex distance: K = Fsp / (1 − d·Fsp)."
+   ],
+   "examTraps": [
+    "Saying the myopic far point is behind the eye: it's in front.",
+    "Ignoring vertex distance for powers over about ±4.00 D.",
+    "Mixing up axial and refractive ametropia when asked what causes a change (for example cataract can make the eye more myopic by increasing lens power)."
+   ],
+   "diagram": {
+    "id": "ametropia-far-point",
+    "description": "Three eyes side by side, parallel light entering each. Emmetropic: focus on the retina. Myopic: focus in front of the retina, with the far point marked as a real point in front of the eye and a minus lens drawn. Hyperopic: focus behind the retina, far point virtual behind the eye, plus lens drawn.",
+    "labels": [
+     "Emmetropia",
+     "Myopia: focus in front of retina",
+     "Hyperopia: focus behind retina",
+     "Far point (myope, real)",
+     "Far point (hyperope, virtual)",
+     "Correcting lens"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Far point and correcting lenses",
+     "body": "A correcting lens works by forming an image of a distant object at the eye's far point. For a −4.00 D myope the far point is 25 cm in front of the eye, so a lens at the eye of −4.00 D does the job. Moving the lens away from the eye changes the power needed because the lens's second focal point must still land on the far point."
+    },
+    {
+     "heading": "Vertex distance and effectivity",
+     "body": "K (ocular refraction) = Fsp / (1 − d·Fsp), with d the vertex distance in metres. A +10.00 D spectacle lens at 12 mm gives K = 10 / (1 − 0.12) = +11.36 D. A −10.00 D lens at 12 mm gives K = −10 / 1.12 = −8.93 D. That is why a high myope needs less minus in contact lenses and a high hyperope needs more plus."
+    },
+    {
+     "heading": "Retinal image size",
+     "body": "In the reduced eye the nodal point is at the centre of curvature of the single surface, 5.6 mm behind it, so it sits about 16.7 mm in front of the retina. Retinal image size ≈ the angle the object subtends (in radians) × 16.7 mm. A 6/6 letter subtends 5 minutes of arc (0.00145 rad), giving an image about 0.024 mm tall. Spectacles change retinal image size: plus lenses magnify, minus lenses minify, and unequal prescriptions between the eyes can cause aniseikonia."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Power and length of the Emsley reduced eye",
+     "back": "+60 D, n = 4/3, axial length 22.2 mm."
+    },
+    {
+     "front": "Where is a myope's far point?",
+     "back": "A real point in front of the eye (at 1/K metres)."
+    },
+    {
+     "front": "Spectacle to ocular refraction",
+     "back": "K = Fsp / (1 − d·Fsp)."
+    },
+    {
+     "front": "Roughly how many dioptres per mm of axial length?",
+     "back": "About 3 D per mm."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-vo-1",
+     "q": "A patient wears −8.00 D spectacles at a vertex distance of 12 mm. Their ocular refraction is closest to:",
+     "options": [
+      {
+       "text": "−7.30 D",
+       "correct": true,
+       "feedback": "K = −8 / (1 + 0.096) = −7.30 D."
+      },
+      {
+       "text": "−8.00 D",
+       "correct": false,
+       "feedback": "At this power vertex distance makes a real difference."
+      },
+      {
+       "text": "−8.80 D",
+       "correct": false,
+       "feedback": "Moving a minus lens closer to the eye needs less minus, not more."
+      },
+      {
+       "text": "−6.00 D",
+       "correct": false,
+       "feedback": "Too big a change: check the calculation."
+      }
+     ],
+     "explanation": "Use K = Fsp / (1 − d·Fsp) with d = 0.012 m and Fsp = −8.",
+     "link": "opt-visual-optics#vertex-distance-and-effectivity"
+    },
+    {
+     "id": "opt-vo-2",
+     "q": "Where is the far point of an uncorrected −2.00 D myope?",
+     "options": [
+      {
+       "text": "50 cm in front of the eye",
+       "correct": true,
+       "feedback": "1 / 2.00 = 0.5 m, in front of the eye."
+      },
+      {
+       "text": "2 m in front of the eye",
+       "correct": false,
+       "feedback": "The far point is at 1/K, not K metres."
+      },
+      {
+       "text": "50 cm behind the eye",
+       "correct": false,
+       "feedback": "Behind the eye (virtual) is the hyperopic far point."
+      },
+      {
+       "text": "At infinity",
+       "correct": false,
+       "feedback": "That's the far point of an emmetrope."
+      }
+     ],
+     "explanation": "Far point distance = 1/K metres; for myopes it's real, in front of the eye.",
+     "link": "opt-visual-optics#far-point-and-correcting-lenses"
+    },
+    {
+     "id": "opt-vo-3",
+     "q": "Nuclear cataract often makes an older patient's prescription more myopic. This is an example of:",
+     "options": [
+      {
+       "text": "Refractive (index) myopia",
+       "correct": true,
+       "feedback": "The lens index rises, increasing the eye's power without any change in length."
+      },
+      {
+       "text": "Axial myopia",
+       "correct": false,
+       "feedback": "Eye length doesn't change with cataract."
+      },
+      {
+       "text": "Pseudomyopia from accommodation",
+       "correct": false,
+       "feedback": "Older patients have little accommodation left."
+      },
+      {
+       "text": "Night myopia",
+       "correct": false,
+       "feedback": "Night myopia is about low light, not cataract."
+      }
+     ],
+     "explanation": "Changes in the optical power of the media cause refractive ametropia.",
+     "link": "opt-visual-optics#far-point-and-correcting-lenses"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A patient's spectacle prescription is +12.00 D in each eye at 14 mm. They want contact lenses.",
+     "question": "Roughly what contact lens power would correct them, and why is it different?",
+     "modelAnswer": "K = 12 / (1 − 0.014 × 12) = 12 / 0.832 = +14.42 D, so about +14.50 D. A plus lens closer to the eye has less effect, so more plus is needed at the cornea than at 14 mm in front of it."
+    }
+   ],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Quiz me on far points and vertex distance: give me a spectacle prescription and vertex distance, ask for the ocular refraction, then check my working."
+  },
+  {
+   "id": "opt-astigmatism-cylinders",
+   "title": "Astigmatism, cylinders and transposition",
+   "summary": "In astigmatism the eye has different power in different meridians, so a point is imaged as two focal lines rather than a point. Cylindrical and spherocylindrical lenses correct it. Prescriptions can be written in plus or minus cylinder form; transposition converts between them without changing the lens.",
+   "keyPoints": [
+    "A cylinder has power only at 90° to its axis; there is no power along the axis.",
+    "Sturm's conoid: two focal lines with the circle of least confusion at the dioptric midpoint between them.",
+    "Mean sphere (spherical equivalent) = sphere + half the cylinder.",
+    "Transposition: new sphere = sphere + cylinder; change the sign of the cylinder; rotate the axis by 90° (keep it between 1 and 180).",
+    "With-the-rule astigmatism: vertical meridian more powerful (minus cylinder axis around 180). Against-the-rule: horizontal more powerful (minus cyl axis around 90).",
+    "Axis notation in the UK uses the standard (TABO) system, with 180 at the horizontal and angles running anticlockwise as you face the patient.",
+    "Power in an oblique meridian is approximately F = S + C sin²θ, where θ is the angle from the axis."
+   ],
+   "examTraps": [
+    "Forgetting to change the cylinder sign or axis when transposing.",
+    "Writing an axis as 0 or above 180: it should be 1 to 180.",
+    "Reading the power in the axis meridian as sphere + cyl: along the axis it's just the sphere."
+   ],
+   "diagram": {
+    "id": "sturm-conoid",
+    "description": "An astigmatic lens focusing a point source into two perpendicular focal lines along the axis, with the circle of least confusion between them. Below, a power cross for −1.00/−2.00 × 180 showing −1.00 D along 180 and −3.00 D along 90.",
+    "labels": [
+     "Vertical focal line",
+     "Horizontal focal line",
+     "Circle of least confusion",
+     "Interval of Sturm",
+     "Power cross",
+     "Axis meridian",
+     "Power meridian"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Transposition step by step",
+     "body": "Example: +2.00/−1.50 × 30. New sphere = +2.00 + (−1.50) = +0.50. Change the cylinder sign: +1.50. Axis: 30 + 90 = 120. Result: +0.50/+1.50 × 120. It's the same lens: both versions give +2.00 D along 30 and +0.50 D along 120."
+    },
+    {
+     "heading": "Power crosses",
+     "body": "Draw two perpendicular lines for the principal meridians. The sphere power sits on the axis meridian; sphere + cylinder sits on the meridian 90° away. For −1.00/−2.00 × 180: −1.00 D along 180, −3.00 D along 90. Power crosses make adding lenses, checking transposition and understanding effectivity much easier."
+    },
+    {
+     "heading": "Mean sphere and blur",
+     "body": "With the circle of least confusion on the retina, blur is minimised for an uncorrected astigmat. That's why mean sphere (sphere + cyl/2) is used for things like rough refraction estimates, contact lens choice and counting how much someone sees without their full correction."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Transposition rule",
+     "back": "New sphere = sph + cyl; change cyl sign; axis ± 90."
+    },
+    {
+     "front": "Mean sphere (spherical equivalent)",
+     "back": "Sphere + ½ cylinder."
+    },
+    {
+     "front": "Where does a cylinder have no power?",
+     "back": "Along its axis."
+    },
+    {
+     "front": "With-the-rule astigmatism, minus cyl axis is near…",
+     "back": "180 (the vertical meridian is more powerful)."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-as-1",
+     "q": "Transpose −1.25/+2.00 × 75 into minus-cylinder form.",
+     "options": [
+      {
+       "text": "+0.75/−2.00 × 165",
+       "correct": true,
+       "feedback": "−1.25 + 2.00 = +0.75; cyl becomes −2.00; 75 + 90 = 165."
+      },
+      {
+       "text": "+0.75/−2.00 × 75",
+       "correct": false,
+       "feedback": "The axis has to rotate by 90°."
+      },
+      {
+       "text": "−3.25/−2.00 × 165",
+       "correct": false,
+       "feedback": "Add the cylinder to the sphere, don't subtract it."
+      },
+      {
+       "text": "+0.75/+2.00 × 165",
+       "correct": false,
+       "feedback": "The cylinder sign has to change."
+      }
+     ],
+     "explanation": "Add, flip, rotate: sphere + cyl, change the cyl sign, axis ± 90.",
+     "link": "opt-astigmatism-cylinders#transposition-step-by-step"
+    },
+    {
+     "id": "opt-as-2",
+     "q": "What is the mean sphere of +1.00/−3.00 × 90?",
+     "options": [
+      {
+       "text": "−0.50 D",
+       "correct": true,
+       "feedback": "+1.00 + (−3.00 / 2) = −0.50 D."
+      },
+      {
+       "text": "−2.00 D",
+       "correct": false,
+       "feedback": "That adds the whole cylinder: use half."
+      },
+      {
+       "text": "+1.00 D",
+       "correct": false,
+       "feedback": "That ignores the cylinder."
+      },
+      {
+       "text": "−1.00 D",
+       "correct": false,
+       "feedback": "Check the arithmetic: 1 − 1.5."
+      }
+     ],
+     "explanation": "Mean sphere = sphere + half the cylinder.",
+     "link": "opt-astigmatism-cylinders#mean-sphere-and-blur"
+    },
+    {
+     "id": "opt-as-3",
+     "q": "In the lens −2.00/−1.00 × 180, the power in the vertical (90) meridian is:",
+     "options": [
+      {
+       "text": "−3.00 D",
+       "correct": true,
+       "feedback": "Sphere plus full cylinder lies 90° from the axis."
+      },
+      {
+       "text": "−2.00 D",
+       "correct": false,
+       "feedback": "That's the power along the axis (180)."
+      },
+      {
+       "text": "−1.00 D",
+       "correct": false,
+       "feedback": "The cylinder adds to the sphere, it doesn't replace it."
+      },
+      {
+       "text": "−2.50 D",
+       "correct": false,
+       "feedback": "That's the mean sphere."
+      }
+     ],
+     "explanation": "Axis meridian = sphere; perpendicular meridian = sphere + cylinder.",
+     "link": "opt-astigmatism-cylinders#power-crosses"
+    }
+   ],
+   "cases": [],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Give me ten quick transposition questions in a mix of plus and minus cyl form, one at a time, and tell me when I make a sign or axis mistake."
+  },
+  {
+   "id": "opt-accommodation-presbyopia",
+   "title": "Accommodation, presbyopia and reading additions",
+   "summary": "Accommodation is the eye increasing its power to focus near objects, by the ciliary muscle relaxing zonular tension so the lens becomes more curved. Amplitude falls steadily with age until near work becomes difficult in the mid-forties: presbyopia. A reading addition supplies the power the eye can no longer provide comfortably.",
+   "keyPoints": [
+    "Accommodative demand (in dioptres) = 1 / working distance in metres: 40 cm needs 2.50 D, 33 cm about 3.00 D.",
+    "Helmholtz theory: ciliary muscle contracts → zonules relax → lens front surface becomes more curved → power increases.",
+    "Amplitude of accommodation declines with age; Hofstetter's average is about 18.5 − 0.3 × age (D).",
+    "For an emmetrope, the near point distance (m) = 1 / amplitude: an amplitude of 4.00 D means the near point is 25 cm.",
+    "Comfort rule: most people can sustain about half (some say two-thirds) of their amplitude.",
+    "Tentative add = demand − half the amplitude, then refine with range of clear vision.",
+    "Accommodation is linked to convergence and pupil constriction: the near triad."
+   ],
+   "examTraps": [
+    "Giving every 45-year-old the same add: it depends on their amplitude and working distance.",
+    "Forgetting that an uncorrected hyperope uses up accommodation just to see at distance.",
+    "Over-plussing the add so the range of clear vision becomes uncomfortably short."
+   ],
+   "diagram": {
+    "id": "accommodation-age",
+    "description": "A graph of amplitude of accommodation (D, y-axis, 0–15) against age (years, x-axis, 10–70). Plot Hofstetter's minimum, average and maximum lines falling with age, and a horizontal dashed line at about 5 D where reading at 40 cm with half in reserve becomes difficult.",
+    "labels": [
+     "Amplitude (D)",
+     "Age (years)",
+     "Hofstetter average 18.5 − 0.3 × age",
+     "Minimum 15 − 0.25 × age",
+     "Maximum 25 − 0.4 × age",
+     "Onset of presbyopia"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Working out a reading add",
+     "body": "A 50-year-old emmetrope reads at 40 cm (demand 2.50 D) and has a measured amplitude of 2.00 D. Keeping half in reserve, they can comfortably use 1.00 D. Tentative add = 2.50 − 1.00 = +1.50 D. Then check the range of clear vision with the add in place (for example 28–60 cm) and adjust to suit their tasks."
+    },
+    {
+     "heading": "Measuring amplitude",
+     "body": "Push-up method: with full distance correction, move a small target towards the eye until it stays blurred; amplitude ≈ 1 / near point distance (m). It tends to overestimate because of depth of focus and the target getting bigger. Minus-lens method: add minus lenses at a fixed distance until blur; amplitude = total minus added + demand at that distance."
+    },
+    {
+     "heading": "Accommodation and the hyperope",
+     "body": "An uncorrected +2.00 D hyperope must accommodate 2.00 D just to see clearly at distance, and 4.50 D to read at 40 cm. Young hyperopes often cope, but symptoms (headaches, tired eyes) and earlier presbyopia are common. A latent hyperopia can be hidden by accommodation and may need a cycloplegic refraction in children."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Accommodative demand at 40 cm",
+     "back": "2.50 D."
+    },
+    {
+     "front": "Hofstetter's average amplitude",
+     "back": "18.5 − 0.3 × age (D)."
+    },
+    {
+     "front": "Tentative near add",
+     "back": "Demand − half the amplitude, then refine."
+    },
+    {
+     "front": "The near triad",
+     "back": "Accommodation, convergence and miosis."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-ac-1",
+     "q": "A 55-year-old emmetrope with an amplitude of 1.50 D wants to read at 33 cm. Using half the amplitude in reserve, the tentative add is closest to:",
+     "options": [
+      {
+       "text": "+2.25 D",
+       "correct": true,
+       "feedback": "Demand ≈ 3.00 D; usable ≈ 0.75 D; add ≈ 2.25 D."
+      },
+      {
+       "text": "+3.00 D",
+       "correct": false,
+       "feedback": "That ignores the accommodation they still have."
+      },
+      {
+       "text": "+1.50 D",
+       "correct": false,
+       "feedback": "That subtracts the whole amplitude, which wouldn't be comfortable."
+      },
+      {
+       "text": "+0.75 D",
+       "correct": false,
+       "feedback": "That's the usable accommodation, not the add."
+      }
+     ],
+     "explanation": "Add = demand − half amplitude: 3.00 − 0.75 = 2.25 D.",
+     "link": "opt-accommodation-presbyopia#working-out-a-reading-add"
+    },
+    {
+     "id": "opt-ac-2",
+     "q": "During accommodation, which happens?",
+     "options": [
+      {
+       "text": "Ciliary muscle contracts and the zonules relax",
+       "correct": true,
+       "feedback": "Relaxed zonules let the lens round up and gain power."
+      },
+      {
+       "text": "Ciliary muscle relaxes and the zonules tighten",
+       "correct": false,
+       "feedback": "That's the unaccommodated (distance) state."
+      },
+      {
+       "text": "The cornea becomes steeper",
+       "correct": false,
+       "feedback": "Accommodation changes the crystalline lens, not the cornea."
+      },
+      {
+       "text": "The pupil dilates",
+       "correct": false,
+       "feedback": "The pupil constricts as part of the near triad."
+      }
+     ],
+     "explanation": "Helmholtz: contraction of the ciliary muscle relaxes zonular tension.",
+     "link": "opt-accommodation-presbyopia#measuring-amplitude"
+    },
+    {
+     "id": "opt-ac-3",
+     "q": "Why does the push-up test tend to overestimate amplitude?",
+     "options": [
+      {
+       "text": "Depth of focus and the target getting larger as it approaches",
+       "correct": true,
+       "feedback": "Both make the patient report blur later than the true near point."
+      },
+      {
+       "text": "The patient converges too much",
+       "correct": false,
+       "feedback": "Convergence doesn't change the measured blur point much."
+      },
+      {
+       "text": "Because it is done monocularly",
+       "correct": false,
+       "feedback": "Monocular testing is standard and doesn't cause overestimation."
+      },
+      {
+       "text": "Because it uses minus lenses",
+       "correct": false,
+       "feedback": "That's the other method."
+      }
+     ],
+     "explanation": "Depth of focus and angular size increase let the eye tolerate a closer target before reporting blur.",
+     "link": "opt-accommodation-presbyopia#measuring-amplitude"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 42-year-old uncorrected +2.50 D hyperope reports tired eyes reading in the evening and has started holding her phone further away.",
+     "question": "Explain her symptoms and what you would consider.",
+     "modelAnswer": "She has to accommodate 2.50 D for distance plus about 2.50–3.00 D for near, around 5.00–5.50 D in total, while her amplitude at 42 is around 5–6 D. She's using nearly all of it, so near work is tiring and she pushes things away. Full distance correction may help; she may also need a modest reading add. Explain early presbyopia and check binocular vision at near."
+    }
+   ],
+   "links": [
+    {
+     "label": "College of Optometrists: presbyopia",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Give me three patients (age, prescription, working distance, amplitude) and ask me to work out a tentative add for each, then discuss the range of clear vision."
+  },
+  {
+   "id": "opt-aberrations-physical",
+   "title": "Aberrations and physical optics",
+   "summary": "Real lenses don't focus perfectly: aberrations blur or distort the image, and chromatic aberration splits colours. Physical optics treats light as a wave, explaining interference (anti-reflection coatings), diffraction (the limit on resolution through a small pupil) and polarisation (glare-reducing lenses).",
+   "keyPoints": [
+    "Monochromatic (Seidel) aberrations: spherical aberration, coma, oblique astigmatism, curvature of field and distortion.",
+    "In spectacle lens design the most important are oblique astigmatism and curvature of field; best-form and aspheric designs reduce them.",
+    "Chromatic aberration: longitudinal (colours focus at different distances) and transverse (colour fringes off-axis).",
+    "Abbe number V = (nd − 1) / (nF − nC). Low V means more dispersion; transverse chromatic aberration ≈ prism / V.",
+    "Thin-film interference: a quarter-wave coating (thickness λ / 4n) cancels reflections best when its index is about √(n of the lens).",
+    "Diffraction through the pupil gives an Airy disc; minimum resolvable angle θ ≈ 1.22λ / D (Rayleigh).",
+    "Polarised sunglasses block horizontally polarised glare reflected from water and roads (Malus's law: I = I₀ cos²θ)."
+   ],
+   "examTraps": [
+    "Saying a bigger pupil always improves resolution: diffraction improves, but aberrations get worse.",
+    "Assuming high-index lenses always have less colour fringing: they usually have lower Abbe numbers.",
+    "Getting the anti-reflection coating thickness as λ/2 instead of λ/4 (in the coating)."
+   ],
+   "diagram": {
+    "id": "ar-interference",
+    "description": "A lens surface with a thin coating. Two reflected rays, one from the top of the coating and one from the coating–lens boundary, travel back half a wavelength out of step and cancel.",
+    "labels": [
+     "Incident light",
+     "Coating (thickness λ/4n)",
+     "Lens",
+     "Ray 1 reflected",
+     "Ray 2 reflected",
+     "Destructive interference"
+    ]
+   },
+   "goDeeper": [
+    {
+     "heading": "Lens aberrations in spectacles",
+     "body": "When the eye rotates to look through the edge of a lens, oblique rays meet the lens off-axis, causing oblique astigmatism and curvature of field. Choosing a suitable base curve (best form, following Tscherning's ellipse) or making one surface aspheric keeps the edges clear. Flatter aspheric lenses also look thinner and magnify less."
+    },
+    {
+     "heading": "Interference and coatings",
+     "body": "Light reflected from the top and bottom of a thin coating travels slightly different distances. If the coating is a quarter of a wavelength thick (measured inside the coating, λ / 4n), the two reflections are half a wavelength out of step and cancel. They cancel completely only if they are equally bright, which happens when the coating index is √(lens index). Multi-layer coatings use several layers to cancel reflections across more of the spectrum, leaving the faint green or purple residual colour you see on coated lenses."
+    },
+    {
+     "heading": "Chromatic aberration and Abbe number",
+     "body": "Crown glass has V ≈ 59, CR39 ≈ 58, polycarbonate ≈ 30. A patient looking 10 mm off-centre through a −6.00 D polycarbonate lens meets 6Δ of prism (Prentice) and about 6 / 30 = 0.2Δ of transverse chromatic aberration, which some notice as colour fringes. Accurate centration and a higher-Abbe material help."
+    },
+    {
+     "heading": "Diffraction and the pupil",
+     "body": "With a 2 mm pupil and 550 nm light, θ ≈ 1.22 × 550 × 10⁻⁹ / 0.002 ≈ 3.4 × 10⁻⁴ rad ≈ 1.2 minutes of arc. Larger pupils reduce diffraction but increase aberrations, so the eye's best optical quality is usually at a pupil of about 3 mm. A pinhole improves acuity in refractive blur by increasing depth of focus, but too small a pinhole causes diffraction blur."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Abbe number definition",
+     "back": "V = (nd − 1) / (nF − nC); lower V = more dispersion."
+    },
+    {
+     "front": "Ideal single-layer AR coating",
+     "back": "Thickness λ/4 (in the coating), index ≈ √(lens index)."
+    },
+    {
+     "front": "Rayleigh criterion",
+     "back": "θ ≈ 1.22 λ / D."
+    },
+    {
+     "front": "Two aberrations most important in spectacle lens design",
+     "back": "Oblique astigmatism and curvature of field."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "opt-ab-1",
+     "q": "A patient with new polycarbonate lenses reports coloured fringes when looking to the side. The most likely cause is:",
+     "options": [
+      {
+       "text": "Transverse chromatic aberration from the low Abbe number",
+       "correct": true,
+       "feedback": "Polycarbonate has V ≈ 30, so off-axis prism produces noticeable colour fringing."
+      },
+      {
+       "text": "Spherical aberration",
+       "correct": false,
+       "feedback": "Spherical aberration doesn't separate colours."
+      },
+      {
+       "text": "Anti-reflection coating failure",
+       "correct": false,
+       "feedback": "Coatings affect reflections, not colour fringes through the lens."
+      },
+      {
+       "text": "Distortion",
+       "correct": false,
+       "feedback": "Distortion changes shape, not colour."
+      }
+     ],
+     "explanation": "TCA ≈ prism / V; low-V materials fringe more off-axis.",
+     "link": "opt-aberrations-physical#chromatic-aberration-and-abbe-number"
+    },
+    {
+     "id": "opt-ab-2",
+     "q": "For a lens of index 1.6, the ideal single-layer anti-reflection coating index is about:",
+     "options": [
+      {
+       "text": "1.26",
+       "correct": true,
+       "feedback": "√1.6 ≈ 1.26."
+      },
+      {
+       "text": "1.60",
+       "correct": false,
+       "feedback": "A coating of the same index as the lens wouldn't create the second reflection needed."
+      },
+      {
+       "text": "2.56",
+       "correct": false,
+       "feedback": "That's 1.6 squared, not the square root."
+      },
+      {
+       "text": "0.80",
+       "correct": false,
+       "feedback": "No coating has an index below 1."
+      }
+     ],
+     "explanation": "Equal-amplitude reflections cancel when n(coating) = √n(lens).",
+     "link": "opt-aberrations-physical#interference-and-coatings"
+    },
+    {
+     "id": "opt-ab-3",
+     "q": "Why does a very small pinhole (around 0.5 mm) make vision worse rather than better?",
+     "options": [
+      {
+       "text": "Diffraction blur increases as the aperture gets smaller",
+       "correct": true,
+       "feedback": "The Airy disc grows as D falls."
+      },
+      {
+       "text": "It increases spherical aberration",
+       "correct": false,
+       "feedback": "Small apertures reduce spherical aberration."
+      },
+      {
+       "text": "It increases chromatic aberration",
+       "correct": false,
+       "feedback": "Small apertures reduce, not increase, chromatic blur."
+      },
+      {
+       "text": "It causes oblique astigmatism",
+       "correct": false,
+       "feedback": "That's a lens-edge effect."
+      }
+     ],
+     "explanation": "Resolution is limited by θ ≈ 1.22λ/D: smaller D, bigger blur.",
+     "link": "opt-aberrations-physical#diffraction-and-the-pupil"
+    }
+   ],
+   "cases": [],
+   "links": [
+    {
+     "label": "College of Optometrists",
+     "url": "https://www.college-optometrists.org/"
+    }
+   ],
+   "askClaude": "Explain the difference between aberrations and diffraction, and why a pinhole helps with refractive blur, then quiz me on Abbe numbers and anti-reflection coatings."
+  }
+ ]
+}

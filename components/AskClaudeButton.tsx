@@ -70,7 +70,7 @@ export function AskClaudeButton({
   if (variant === 'small') {
     return (
       <button
-        className={`inline-flex min-h-11 items-center gap-1.5 rounded-full bg-lilac-soft px-3.5 text-[14px] font-semibold text-lilac-ink hover:bg-lilac ${className}`}
+        className={`inline-flex min-h-11 items-center gap-1.5 rounded-full bg-accent-soft px-3.5 text-[14px] font-semibold text-accent-strong hover:bg-accent-tint ${className}`}
         onClick={() => ask(text)}
       >
         <SparkleIcon className="size-4" />
@@ -80,7 +80,7 @@ export function AskClaudeButton({
   }
   return (
     <button
-      className={`btn ${variant === 'primary' ? 'bg-lilac-ink text-white hover:bg-[#4b3a7a]' : 'bg-lilac-soft text-lilac-ink hover:bg-lilac'} ${className}`}
+      className={`btn ${variant === 'primary' ? 'bg-accent text-on-accent hover:bg-accent-hover' : 'bg-accent-soft text-accent-strong hover:bg-accent-tint'} ${className}`}
       onClick={() => ask(text)}
     >
       <SparkleIcon className="size-[18px]" />

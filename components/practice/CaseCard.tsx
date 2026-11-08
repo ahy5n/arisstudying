@@ -5,9 +5,9 @@ import type { ClinicalCase } from '@/lib/types'
 import { useApp } from '../AppProvider'
 
 const MARKS = [
-  { key: 'nailed', label: 'Nailed it', correct: true, cls: 'bg-sage text-sage-ink hover:bg-[#c8e8d6]' },
-  { key: 'partly', label: 'Partly', correct: false, cls: 'bg-butter text-butter-ink hover:bg-[#f7e6bb]' },
-  { key: 'missed', label: 'Missed it', correct: false, cls: 'bg-rose-soft text-rose-ink hover:bg-rose' },
+  { key: 'nailed', label: 'Nailed it', correct: true, cls: 'bg-good text-good-ink hover:bg-good/80' },
+  { key: 'partly', label: 'Partly', correct: false, cls: 'bg-warn text-warn-ink hover:bg-warn/80' },
+  { key: 'missed', label: 'Missed it', correct: false, cls: 'bg-bad-soft text-bad-ink hover:bg-bad' },
 ] as const
 
 export function CaseCard({ id, kase, onResult }: { id: string; kase: ClinicalCase; onResult?: (correct: boolean) => void }) {
@@ -18,8 +18,8 @@ export function CaseCard({ id, kase, onResult }: { id: string; kase: ClinicalCas
 
   return (
     <div>
-      <div className="rounded-2xl bg-sky-soft px-5 py-4">
-        <p className="eyebrow text-sky-ink">Patient</p>
+      <div className="rounded-2xl bg-accent-soft px-5 py-4">
+        <p className="eyebrow text-accent">Patient</p>
         <p className="mt-1 text-[17px] leading-relaxed">{kase.scenario}</p>
       </div>
       <p className="mt-4 text-[19px] font-medium leading-snug">{kase.question}</p>
@@ -36,8 +36,8 @@ export function CaseCard({ id, kase, onResult }: { id: string; kase: ClinicalCas
         </button>
       ) : (
         <div className="fade-in mt-4">
-          <div className="rounded-2xl bg-sage-soft px-5 py-4">
-            <p className="eyebrow text-sage-ink">Model answer</p>
+          <div className="rounded-2xl bg-good-soft px-5 py-4">
+            <p className="eyebrow text-good-ink">Model answer</p>
             <p className="mt-1 text-[17px] leading-relaxed">{kase.modelAnswer}</p>
           </div>
           <p className="mt-4 text-[15px] font-medium text-muted">How did you do?</p>

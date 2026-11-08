@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next'
 import { AppProvider } from '@/components/AppProvider'
 import { Shell } from '@/components/Shell'
+import { ThemeSync } from '@/components/useTheme'
+import { THEME_SCRIPT } from '@/lib/theme'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -13,7 +15,6 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#fbf7f4',
   width: 'device-width',
   initialScale: 1,
   viewportFit: 'cover',
@@ -21,8 +22,10 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-GB">
+    // The head script sets data-palette / data-mode before React loads.
+    <html lang="en-GB" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
@@ -30,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <AppProvider>
+          <ThemeSync />
           <Shell>{children}</Shell>
         </AppProvider>
       </body>

@@ -1,0 +1,183 @@
+/*
+ * Colour themes. Every colour in the app comes from these tokens.
+ *
+ * <html data-palette="prism|focus|companion" data-mode="light|dark">
+ * - :root is Prism light, the default.
+ * - data-palette swaps the palette; data-mode is only set when the student
+ *   overrides their device. Without it, prefers-color-scheme decides.
+ * - Status colours (good / warn / bad) are the same in every palette and
+ *   only change between light and dark.
+ * - Lesson diagrams and subject colours are fixed: diagrams sit on a white
+ *   panel, subject chips are pastel with dark text, in every theme.
+ */
+
+:root {
+  color-scheme: light;
+  --bg: #F6F5FA;
+  --surface: #FDFCFF;
+  --ink: #17151F;
+  --muted: #4A4658;
+  --accent: #5638D1;
+  --on-accent: #FFFFFF;
+  --accent-soft: #E5E0FA;
+  --border: #DCD7EC;
+  --good: #d4ece0;
+  --good-soft: #edf7f1;
+  --good-ink: #1b6644;
+  --warn: #f3e6c6;
+  --warn-soft: #faf5e8;
+  --warn-ink: #73500b;
+  --bad: #f6d9d5;
+  --bad-soft: #fcefed;
+  --bad-ink: #b0281a;
+  --fig-bg: #ffffff;
+  --subject-ink: #17151f;
+  --shadow-strength: 0.05;
+  /* How strongly subject pastels show in gradients (her library cards and subject headers). */
+  --subject-strength: 100%;
+}
+
+:root[data-palette="focus"] {
+  --bg: #F5F8F8;
+  --surface: #FCFEFE;
+  --ink: #14232A;
+  --muted: #44575E;
+  --accent: #0E6B70;
+  --on-accent: #FFFFFF;
+  --accent-soft: #D3ECEA;
+  --border: #D2DEDE;
+}
+
+:root[data-palette="companion"] {
+  --bg: #FBF7F4;
+  --surface: #FFFDFB;
+  --ink: #2A2320;
+  --muted: #5A4E48;
+  --accent: #B4532F;
+  --on-accent: #FFFFFF;
+  --accent-soft: #F5DDD2;
+  --border: #EADBD2;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root:not([data-mode="light"]) {
+    color-scheme: dark;
+    --bg: #141221;
+    --surface: #1D1A2E;
+    --ink: #EEEBF8;
+    --muted: #B3ADC9;
+    --accent: #A898F2;
+    --on-accent: #141221;
+    --accent-soft: #2A2448;
+    --border: #2F2A44;
+    --good: #1f3d2e;
+    --good-soft: #18291f;
+    --good-ink: #8fd6ad;
+    --warn: #43361a;
+    --warn-soft: #2b2415;
+    --warn-ink: #e8c477;
+    --bad: #4d2621;
+    --bad-soft: #311b18;
+    --bad-ink: #f3a197;
+    --shadow-strength: 0.35;
+  --subject-strength: 16%;
+  }
+
+  :root[data-palette="focus"]:not([data-mode="light"]) {
+    --bg: #0F1B20;
+    --surface: #16252B;
+    --ink: #EAF3F3;
+    --muted: #A9BEBF;
+    --accent: #7CCFCB;
+    --on-accent: #0F1B20;
+    --accent-soft: #1C3A3D;
+    --border: #26393F;
+  }
+
+  :root[data-palette="companion"]:not([data-mode="light"]) {
+    --bg: #1F1A17;
+    --surface: #2A2420;
+    --ink: #F6EFEA;
+    --muted: #C4B5AC;
+    --accent: #E9A285;
+    --on-accent: #1F1A17;
+    --accent-soft: #3A2A22;
+    --border: #3A302A;
+  }
+
+}
+
+:root[data-mode="dark"] {
+  color-scheme: dark;
+  --bg: #141221;
+  --surface: #1D1A2E;
+  --ink: #EEEBF8;
+  --muted: #B3ADC9;
+  --accent: #A898F2;
+  --on-accent: #141221;
+  --accent-soft: #2A2448;
+  --border: #2F2A44;
+  --good: #1f3d2e;
+  --good-soft: #18291f;
+  --good-ink: #8fd6ad;
+  --warn: #43361a;
+  --warn-soft: #2b2415;
+  --warn-ink: #e8c477;
+  --bad: #4d2621;
+  --bad-soft: #311b18;
+  --bad-ink: #f3a197;
+  --shadow-strength: 0.35;
+  --subject-strength: 16%;
+}
+
+:root[data-mode="dark"][data-palette="focus"] {
+  --bg: #0F1B20;
+  --surface: #16252B;
+  --ink: #EAF3F3;
+  --muted: #A9BEBF;
+  --accent: #7CCFCB;
+  --on-accent: #0F1B20;
+  --accent-soft: #1C3A3D;
+  --border: #26393F;
+}
+
+:root[data-mode="dark"][data-palette="companion"] {
+  --bg: #1F1A17;
+  --surface: #2A2420;
+  --ink: #F6EFEA;
+  --muted: #C4B5AC;
+  --accent: #E9A285;
+  --on-accent: #1F1A17;
+  --accent-soft: #3A2A22;
+  --border: #3A302A;
+}
+
+/* Subject codes: the pastel's dark shade on light themes, the pastel itself on dark ones. */
+.subject-code { color: var(--subject-code-light); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-mode="light"]) .subject-code { color: var(--subject-code-dark); }
+}
+:root[data-mode="dark"] .subject-code { color: var(--subject-code-dark); }
+
+/* The printable sheet is always Prism light, whatever the screen theme. */
+.print-sheet {
+  color-scheme: light;
+  --bg: #F6F5FA; --surface: #ffffff; --ink: #17151F; --muted: #4A4658;
+  --accent: #5638D1; --on-accent: #FFFFFF; --accent-soft: #E5E0FA; --border: #DCD7EC;
+  --good: #d4ece0; --good-soft: #edf7f1; --good-ink: #1b6644;
+  --warn: #f3e6c6; --warn-soft: #faf5e8; --warn-ink: #73500b;
+  --bad: #f6d9d5; --bad-soft: #fcefed; --bad-ink: #b0281a;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+/* A short colour fade when the student switches theme (skipped with reduced motion). */
+@media (prefers-reduced-motion: no-preference) {
+  :root.theme-fade,
+  :root.theme-fade *,
+  :root.theme-fade *::before,
+  :root.theme-fade *::after {
+    transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, fill 150ms ease, stroke 150ms ease !important;
+  }
+}

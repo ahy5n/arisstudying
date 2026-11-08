@@ -6,6 +6,7 @@ import { useApp } from './AppProvider'
 import { FlagButton } from './FlagButton'
 import { GearIcon } from './icons'
 import { LoginScreen } from './LoginScreen'
+import { Logo } from './Logo'
 
 export function Shell({ children }: { children: React.ReactNode }) {
   const { status, error, retry, signOut } = useApp()
@@ -15,7 +16,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
     return (
       <div className="grid min-h-dvh place-items-center" aria-busy="true">
         <div className="flex flex-col items-center gap-3 text-muted">
-          <div className="size-10 animate-pulse rounded-full bg-rose" />
+          <Logo size={40} withWordmark={false} className="animate-pulse" />
           <span className="text-sm">Opening your notes…</span>
         </div>
       </div>
@@ -44,18 +45,13 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const topicId = pathname.startsWith('/t/') ? pathname.split('/')[2] : pathname
   return (
     <>
-      <header className="no-print sticky top-0 z-30 border-b border-line/70 bg-paper/85 backdrop-blur-md supports-[backdrop-filter]:bg-paper/70">
+      <header className="no-print sticky top-0 z-30 border-b border-border/70 bg-bg/85 backdrop-blur-md supports-[backdrop-filter]:bg-bg/70">
         <div className="mx-auto flex h-16 max-w-[1320px] items-center justify-between gap-2 px-4 sm:px-6">
           <Link
             href="/"
-            className="flex min-h-11 items-center gap-2 rounded-xl px-1 font-rounded text-[19px] font-semibold tracking-tight"
+            className="flex min-h-11 items-center rounded-xl px-1"
           >
-            <span aria-hidden className="grid size-8 place-items-center rounded-full bg-rose">
-              <span className="block h-3 w-5 rounded-[50%] border-2 border-rose-ink">
-                <span className="mx-auto mt-[1px] block size-1.5 rounded-full bg-rose-ink" />
-              </span>
-            </span>
-            arisstudying
+            <Logo size={30} />
           </Link>
           <nav className="flex items-center gap-1">
             <FlagButton topicId={topicId} variant="header" />

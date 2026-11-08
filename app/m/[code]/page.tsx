@@ -21,7 +21,7 @@ export default async function ModulePage({ params }: { params: Promise<{ code: s
   const m = getModule(code)
   if (!m) notFound()
   const staff = getStaff()
-  const leads = m.lead
+  const leads = (m.lead ?? '')
     .split('/')
     .map((s) => s.trim())
     .filter((i) => staff[i])

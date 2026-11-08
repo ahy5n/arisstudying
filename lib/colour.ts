@@ -28,3 +28,18 @@ export function shade(hex: string, lightness: number, minSat = 0.25): string {
 
 export const ringColour = (hex: string) => shade(hex, 0.48)
 export const inkColour = (hex: string) => shade(hex, 0.28)
+
+/**
+ * Her subject-colour gradient, fading into the card. In dark themes the
+ * pastel is mixed down (--subject-strength) so light text stays readable,
+ * and .subject-code switches from the dark shade to the pastel itself.
+ */
+export function subjectWash(hex: string, ink: string, angle: number, midPct: number) {
+  const strong = `color-mix(in srgb, ${hex} var(--subject-strength), var(--surface))`
+  const mid = `color-mix(in srgb, ${hex} calc(var(--subject-strength) * ${midPct / 100}), var(--surface))`
+  return {
+    background: `linear-gradient(${angle}deg, ${strong} 0%, ${mid} 50%, var(--surface) 100%)`,
+    '--subject-code-light': ink,
+    '--subject-code-dark': hex,
+  } as React.CSSProperties
+}

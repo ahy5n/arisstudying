@@ -1,0 +1,724 @@
+{
+ "module": "ANA",
+ "verifyNote": "Written from standard ocular anatomy and physiology texts used on UK optometry degrees. Figures such as cell counts and thicknesses vary between sources: learn the values your lecturer gives.",
+ "topics": [
+  {
+   "id": "ana-orbit-lids-lacrimal",
+   "title": "Orbit, eyelids and the lacrimal system",
+   "summary": "The orbit is a bony pyramid that protects the eye and carries its nerves and vessels through a few key openings. The eyelids protect and spread the tear film, opened by levator (CN III) and Müller's muscle (sympathetic) and closed by orbicularis oculi (CN VII). Tears are made mainly by the lacrimal gland and drain through the puncta into the nose.",
+   "keyPoints": [
+    "Seven bones form the orbit: frontal, zygomatic, maxilla, ethmoid, sphenoid, palatine and lacrimal.",
+    "The thin medial wall (lamina papyracea of the ethmoid) and the floor (maxilla) are the weakest parts; a blow-out fracture usually breaks the floor.",
+    "Optic canal: optic nerve and ophthalmic artery. Superior orbital fissure: CN III, IV, VI, branches of V1 and the superior ophthalmic vein.",
+    "Lid opening: levator palpebrae superioris (CN III) and Müller's muscle (sympathetic, about 2 mm of lift). Lid closing: orbicularis oculi (CN VII).",
+    "Lid glands: meibomian (oily tear layer), Zeis (sebaceous, at lash follicles) and Moll (sweat).",
+    "Tear drainage: puncta → canaliculi → lacrimal sac → nasolacrimal duct → inferior meatus of the nose."
+   ],
+   "examTraps": [
+    "Saying the facial nerve opens the eye: CN VII closes it; CN III and sympathetics open it.",
+    "Forgetting Müller's muscle: a mild ptosis with a small pupil points to Horner's syndrome (sympathetic loss).",
+    "Mixing up a stye (Zeis or Moll gland infection) with a chalazion (blocked meibomian gland)."
+   ],
+   "diagram": {
+    "id": "lacrimal-drainage",
+    "description": "Front view of the right eye: the lacrimal gland in the upper outer orbit, tears flowing across the eye to the upper and lower puncta at the inner corner, through the canaliculi into the lacrimal sac and down the nasolacrimal duct into the nose.",
+    "labels": ["Lacrimal gland", "Upper and lower puncta", "Canaliculi", "Lacrimal sac", "Nasolacrimal duct", "Inferior meatus"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Openings of the orbit",
+     "body": "Optic canal (in the lesser wing of the sphenoid): optic nerve with its sheaths, and the ophthalmic artery. Superior orbital fissure: oculomotor (III), trochlear (IV), abducens (VI), the lacrimal, frontal and nasociliary branches of V1, and the superior ophthalmic vein. Inferior orbital fissure: the infraorbital nerve and vessels (V2). Problems at the orbital apex can affect several of these nerves at once."
+    },
+    {
+     "heading": "Eyelid anatomy",
+     "body": "From front to back: skin, orbicularis oculi, the tarsal plate (dense connective tissue holding the meibomian glands), and the palpebral conjunctiva. The lid margin has the grey line between the lashes in front and the meibomian gland openings behind. The levator inserts into the tarsal plate and skin crease; Müller's muscle sits underneath it."
+    },
+    {
+     "heading": "Blow-out fractures",
+     "body": "A blunt blow (a fist or ball) raises orbital pressure and breaks the thin floor. Signs: limited upgaze (inferior rectus or orbital tissue trapped), double vision, numbness of the cheek and upper lip (infraorbital nerve), and sometimes a sunken eye (enophthalmos). This needs same-day referral to hospital."
+    }
+   ],
+   "flashcards": [
+    { "front": "What passes through the optic canal?", "back": "Optic nerve and ophthalmic artery." },
+    { "front": "Muscle and nerve that close the eyelids", "back": "Orbicularis oculi, facial nerve (CN VII)." },
+    { "front": "Which glands make the oily tear layer?", "back": "Meibomian glands (in the tarsal plates)." },
+    { "front": "Order of tear drainage", "back": "Puncta → canaliculi → lacrimal sac → nasolacrimal duct → nose." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-ol-1",
+     "q": "A patient has a mild ptosis and a smaller pupil on the same side. Which structure has most likely lost its nerve supply?",
+     "options": [
+      { "text": "Müller's muscle (sympathetic)", "correct": true, "feedback": "Loss of sympathetic supply gives mild ptosis and miosis: Horner's syndrome." },
+      { "text": "Levator palpebrae (CN III)", "correct": false, "feedback": "CN III palsy causes a large ptosis and often a dilated pupil." },
+      { "text": "Orbicularis oculi (CN VII)", "correct": false, "feedback": "Facial palsy stops the lids closing; it doesn't cause ptosis." },
+      { "text": "Superior rectus", "correct": false, "feedback": "That moves the eye, not the lid." }
+     ],
+     "explanation": "Mild ptosis + small pupil = sympathetic loss (Horner's), which needs investigating.",
+     "link": "ana-orbit-lids-lacrimal#eyelid-anatomy"
+    },
+    {
+     "id": "ana-ol-2",
+     "q": "After being hit by a cricket ball, a patient can't look up with the injured eye and has a numb cheek. The most likely injury is:",
+     "options": [
+      { "text": "Fracture of the orbital floor", "correct": true, "feedback": "Floor fracture traps tissue (limiting upgaze) and damages the infraorbital nerve." },
+      { "text": "Fracture of the orbital roof", "correct": false, "feedback": "The roof is thicker and rarely breaks this way." },
+      { "text": "CN VI palsy", "correct": false, "feedback": "That limits abduction, not upgaze." },
+      { "text": "Optic canal fracture", "correct": false, "feedback": "That would affect vision rather than eye movements and sensation." }
+     ],
+     "explanation": "The floor is thin; blow-out fractures typically break it.",
+     "link": "ana-orbit-lids-lacrimal#blow-out-fractures"
+    },
+    {
+     "id": "ana-ol-3",
+     "q": "Which nerve does NOT pass through the superior orbital fissure?",
+     "options": [
+      { "text": "Optic nerve (CN II)", "correct": true, "feedback": "The optic nerve goes through the optic canal." },
+      { "text": "Abducens nerve (CN VI)", "correct": false, "feedback": "CN VI does pass through the superior orbital fissure." },
+      { "text": "Trochlear nerve (CN IV)", "correct": false, "feedback": "CN IV does pass through it." },
+      { "text": "Nasociliary nerve (V1)", "correct": false, "feedback": "Branches of V1 pass through it." }
+     ],
+     "explanation": "Optic nerve and ophthalmic artery use the optic canal.",
+     "link": "ana-orbit-lids-lacrimal#openings-of-the-orbit"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 70-year-old has watery eyes in the wind. The lower lid of the right eye is lax and the punctum is turned slightly outwards.",
+     "question": "Why might the eye water, and what would you check?",
+     "modelAnswer": "Tears can't reach a punctum that isn't touching the eye (punctal ectropion), so they spill over. Check lid laxity, lid position, puncta, tear film and blinking; also consider blockage of the drainage system and dry eye with reflex tearing. Refer for oculoplastic assessment if the lid malposition is significant."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Quiz me on the openings of the orbit and what passes through each, then on which nerves open and close the eyelids."
+  },
+  {
+   "id": "ana-cornea-conjunctiva-tears",
+   "title": "Cornea, conjunctiva and the tear film",
+   "summary": "The cornea provides about two-thirds of the eye's focusing power and must stay clear, which depends on its regular collagen structure and on the endothelium pumping water out. The conjunctiva lines the lids and covers the white of the eye. The tear film keeps the surface smooth, wet and protected.",
+   "keyPoints": [
+    "Corneal layers: epithelium, Bowman's layer, stroma (about 90% of thickness), Descemet's membrane and endothelium.",
+    "Central corneal thickness is about 0.52–0.55 mm; the horizontal visible iris diameter is about 11.5–12 mm.",
+    "The cornea is avascular and has one of the densest nerve supplies in the body (from V1 via the long ciliary nerves).",
+    "Transparency depends on evenly spaced collagen fibrils and on the endothelium keeping the stroma relatively dehydrated (deturgescence).",
+    "The epithelium regenerates quickly; human endothelial cells don't divide, so their density falls with age, surgery and disease.",
+    "Tear film: lipid (meibomian glands), aqueous (lacrimal glands) and mucin (conjunctival goblet cells). Tear break-up time is usually over 10 seconds."
+   ],
+   "examTraps": [
+    "Saying the stroma pumps water: it's the endothelium.",
+    "Forgetting that the cornea is avascular: new blood vessels growing in (neovascularisation) are abnormal, for example from contact lens hypoxia.",
+    "Mixing up which gland produces which tear layer."
+   ],
+   "diagram": {
+    "id": "cornea-layers",
+    "description": "Cross-section of the cornea from front to back, with the tear film on top. Label each layer and show the endothelium as a single row of hexagonal cells with arrows pumping fluid out of the stroma into the aqueous.",
+    "labels": ["Tear film", "Epithelium", "Bowman's layer", "Stroma", "Descemet's membrane", "Endothelium", "Aqueous humour"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Why the cornea is clear",
+     "body": "Stromal collagen fibrils are thin and evenly spaced, closer together than the wavelength of light, so scattered light cancels out. If the stroma swells (oedema), spacing becomes irregular and the cornea goes hazy. The endothelium uses ion pumps to move water out; when cell density falls too low (for example in Fuchs' dystrophy) the cornea swells."
+    },
+    {
+     "heading": "The tear film",
+     "body": "The outer lipid layer slows evaporation; the aqueous layer carries water, electrolytes, antibacterial proteins (such as lysozyme) and oxygen; the mucin layer helps tears spread over the epithelium. Meibomian gland dysfunction thins the lipid layer and causes evaporative dry eye, the most common type."
+    },
+    {
+     "heading": "Conjunctiva",
+     "body": "The conjunctiva is a thin mucous membrane with three parts: palpebral (lining the lids), forniceal (in the folds) and bulbar (over the sclera, stopping at the limbus). It contains goblet cells and lymphoid tissue. Its blood vessels are what you see as redness in conjunctivitis."
+    }
+   ],
+   "flashcards": [
+    { "front": "Five classic corneal layers", "back": "Epithelium, Bowman's, stroma, Descemet's, endothelium." },
+    { "front": "Which corneal layer keeps the stroma dehydrated?", "back": "The endothelium (pump function)." },
+    { "front": "Approximate central corneal thickness", "back": "0.52–0.55 mm." },
+    { "front": "Three tear film layers and their sources", "back": "Lipid (meibomian), aqueous (lacrimal), mucin (goblet cells)." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-cc-1",
+     "q": "Which corneal layer cannot regenerate in adults?",
+     "options": [
+      { "text": "Endothelium", "correct": true, "feedback": "Lost cells are replaced by neighbours spreading out, not by division." },
+      { "text": "Epithelium", "correct": false, "feedback": "The epithelium regenerates within days." },
+      { "text": "Stroma", "correct": false, "feedback": "Keratocytes can repair the stroma, though scars may form." },
+      { "text": "Tear film", "correct": false, "feedback": "The tear film isn't a corneal layer and is constantly replaced." }
+     ],
+     "explanation": "Endothelial cell density falls over life and can't be restored naturally.",
+     "link": "ana-cornea-conjunctiva-tears#why-the-cornea-is-clear"
+    },
+    {
+     "id": "ana-cc-2",
+     "q": "Evaporative dry eye is most often caused by a problem with which tear layer?",
+     "options": [
+      { "text": "The lipid layer (meibomian glands)", "correct": true, "feedback": "A thin lipid layer lets tears evaporate quickly." },
+      { "text": "The aqueous layer", "correct": false, "feedback": "Low aqueous causes aqueous-deficient dry eye, the less common type." },
+      { "text": "The mucin layer", "correct": false, "feedback": "Mucin problems affect wetting, not mainly evaporation." },
+      { "text": "Descemet's membrane", "correct": false, "feedback": "That's inside the cornea, not part of the tear film." }
+     ],
+     "explanation": "Meibomian gland dysfunction is the commonest cause of dry eye.",
+     "link": "ana-cornea-conjunctiva-tears#the-tear-film"
+    },
+    {
+     "id": "ana-cc-3",
+     "q": "Why does corneal oedema make the cornea hazy?",
+     "options": [
+      { "text": "The regular spacing of stromal collagen is disrupted", "correct": true, "feedback": "Irregular spacing scatters light instead of letting it cancel." },
+      { "text": "Blood vessels grow into it", "correct": false, "feedback": "That's neovascularisation, a different process." },
+      { "text": "The epithelium thickens", "correct": false, "feedback": "Haze from oedema is mainly stromal." },
+      { "text": "The tear film evaporates", "correct": false, "feedback": "Dry eye affects the surface, not stromal clarity." }
+     ],
+     "explanation": "Transparency depends on ordered collagen; swelling disorders it.",
+     "link": "ana-cornea-conjunctiva-tears#why-the-cornea-is-clear"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "TFOS DEWS II (dry eye report)", "url": "https://www.tearfilm.org/" }
+   ],
+   "askClaude": "Explain why the cornea is transparent and what the endothelium does, then ask me three questions."
+  },
+  {
+   "id": "ana-uvea-aqueous",
+   "title": "Uvea, and aqueous production and drainage",
+   "summary": "The uvea is the eye's middle, vascular layer: iris, ciliary body and choroid. The ciliary body makes aqueous humour and controls accommodation. Aqueous flows from the posterior chamber, through the pupil, and drains at the angle, mainly through the trabecular meshwork. The balance between production and drainage sets the intraocular pressure (IOP).",
+   "keyPoints": [
+    "Iris: sphincter pupillae (parasympathetic via CN III) constricts; dilator pupillae (sympathetic) dilates.",
+    "Ciliary body: pars plicata (folds that make aqueous) and pars plana; the ciliary muscle controls accommodation.",
+    "Aqueous is made by the non-pigmented ciliary epithelium, at about 2–3 µl per minute.",
+    "Conventional outflow: trabecular meshwork → Schlemm's canal → aqueous veins (most of the outflow). Uveoscleral outflow takes the rest.",
+    "Normal IOP is roughly 10–21 mmHg in most people; it varies through the day.",
+    "The choroid supplies oxygen to the outer retina and is one of the highest blood flows in the body for its size."
+   ],
+   "examTraps": [
+    "Saying aqueous is made in the anterior chamber: it's made in the posterior chamber by the ciliary body.",
+    "Thinking high IOP and glaucoma are the same thing: glaucoma is optic nerve damage; IOP is the main risk factor.",
+    "Getting the pupil muscles' nerve supply the wrong way round."
+   ],
+   "diagram": {
+    "id": "aqueous-flow",
+    "description": "Cross-section of the front of the eye showing the ciliary body making aqueous in the posterior chamber, arrows flowing through the pupil into the anterior chamber, then out at the angle through the trabecular meshwork into Schlemm's canal, with a smaller uveoscleral route through the ciliary muscle.",
+    "labels": ["Ciliary body (pars plicata)", "Posterior chamber", "Pupil", "Anterior chamber", "Trabecular meshwork", "Schlemm's canal", "Uveoscleral outflow"]
+   },
+   "goDeeper": [
+    {
+     "heading": "The angle and angle closure",
+     "body": "The drainage angle sits between the cornea and the iris root. If the angle is narrow, the iris can be pushed forward and block the meshwork (for example when the pupil is mid-dilated in dim light), so IOP rises fast: acute angle closure. Van Herick's technique estimates angle width at the slit lamp by comparing peripheral anterior chamber depth with corneal thickness."
+    },
+    {
+     "heading": "Pupil control",
+     "body": "Light reflex: retina → optic nerve → pretectal nucleus → both Edinger–Westphal nuclei → CN III → ciliary ganglion → short ciliary nerves → sphincter. Both pupils constrict when one eye is lit (direct and consensual responses). The sympathetic route to the dilator is long: hypothalamus → spinal cord → superior cervical ganglion → along the carotid artery → long ciliary nerves."
+    },
+    {
+     "heading": "What sets IOP",
+     "body": "IOP depends on the rate of aqueous production, the resistance to outflow through the meshwork, and the pressure in the episcleral veins. Glaucoma drops either reduce production (beta-blockers, carbonic anhydrase inhibitors) or increase outflow (prostaglandin analogues increase uveoscleral outflow)."
+    }
+   ],
+   "flashcards": [
+    { "front": "Where is aqueous made?", "back": "Non-pigmented epithelium of the ciliary body (pars plicata), into the posterior chamber." },
+    { "front": "Main aqueous outflow route", "back": "Trabecular meshwork → Schlemm's canal." },
+    { "front": "Nerve supply of the iris sphincter", "back": "Parasympathetic, via CN III and the ciliary ganglion." },
+    { "front": "Rough normal IOP range", "back": "About 10–21 mmHg." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-ua-1",
+     "q": "Prostaglandin analogue drops lower IOP mainly by:",
+     "options": [
+      { "text": "Increasing uveoscleral outflow", "correct": true, "feedback": "They relax the ciliary muscle matrix so more aqueous drains this way." },
+      { "text": "Reducing aqueous production", "correct": false, "feedback": "That's how beta-blockers and carbonic anhydrase inhibitors work." },
+      { "text": "Constricting the pupil", "correct": false, "feedback": "That's pilocarpine." },
+      { "text": "Lowering episcleral venous pressure", "correct": false, "feedback": "Not their main action." }
+     ],
+     "explanation": "Prostaglandin analogues work on the uveoscleral pathway.",
+     "link": "ana-uvea-aqueous#what-sets-iop"
+    },
+    {
+     "id": "ana-ua-2",
+     "q": "A light is shone into the right eye only. What happens to the left pupil normally?",
+     "options": [
+      { "text": "It constricts too (consensual response)", "correct": true, "feedback": "Both Edinger–Westphal nuclei receive input from each eye." },
+      { "text": "It dilates", "correct": false, "feedback": "Normal pupils respond together." },
+      { "text": "Nothing happens", "correct": false, "feedback": "The consensual response makes both pupils constrict." },
+      { "text": "It constricts only if the left eye is also lit", "correct": false, "feedback": "The consensual response needs light in one eye only." }
+     ],
+     "explanation": "The light reflex crosses over in the midbrain, so both pupils constrict.",
+     "link": "ana-uvea-aqueous#pupil-control"
+    },
+    {
+     "id": "ana-ua-3",
+     "q": "Van Herick's technique estimates:",
+     "options": [
+      { "text": "The width of the anterior chamber angle", "correct": true, "feedback": "It compares peripheral chamber depth with corneal thickness." },
+      { "text": "Intraocular pressure", "correct": false, "feedback": "That needs tonometry." },
+      { "text": "Corneal thickness", "correct": false, "feedback": "Thickness is the reference, not the result." },
+      { "text": "Aqueous production rate", "correct": false, "feedback": "That can't be judged at the slit lamp." }
+     ],
+     "explanation": "A narrow Van Herick grade flags a risk of angle closure.",
+     "link": "ana-uvea-aqueous#the-angle-and-angle-closure"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 65-year-old hyperopic woman has a red, painful right eye, blurred vision with haloes, a headache and nausea after an evening at the cinema. The pupil is mid-dilated and doesn't react.",
+     "question": "What is the likely diagnosis and what should you do?",
+     "modelAnswer": "Acute angle closure: the narrow angle closed in dim light as the pupil mid-dilated, so IOP rose suddenly. This is an emergency: refer the same day to hospital eye services (by phone), following local protocol. Small hyperopic eyes with shallow anterior chambers are at higher risk."
+    }
+   ],
+   "links": [
+    { "label": "NICE NG81: glaucoma", "url": "https://www.nice.org.uk/guidance/ng81" }
+   ],
+   "askClaude": "Trace the path of aqueous from where it's made to where it leaves the eye, then quiz me on how glaucoma drops change it."
+  },
+  {
+   "id": "ana-lens",
+   "title": "Crystalline lens and accommodation",
+   "summary": "The crystalline lens is a clear, avascular structure that adds about 19 D of power and changes shape to accommodate. It keeps growing throughout life as new fibres are laid down over old ones, which is one reason it becomes stiffer (presbyopia) and eventually cloudy (cataract).",
+   "keyPoints": [
+    "Structure: capsule (elastic basement membrane), anterior epithelium only, and lens fibres arranged in layers (nucleus in the centre, cortex outside).",
+    "About 10 mm across and 4 mm thick in adults; thickness increases with age.",
+    "Avascular: it gets nutrients from the aqueous and relies on glucose metabolism.",
+    "Transparency comes from tightly packed fibres with few organelles and densely packed crystallin proteins.",
+    "Refractive index is higher in the centre (about 1.41) than the edge (about 1.38): a gradient index.",
+    "Main cataract types: nuclear, cortical and posterior subcapsular."
+   ],
+   "examTraps": [
+    "Saying the lens has epithelium on both sides: it's only on the anterior surface.",
+    "Thinking the lens stops growing in adulthood: it grows all through life.",
+    "Mixing up cataract types and their typical symptoms (for example glare with posterior subcapsular cataract)."
+   ],
+   "diagram": {
+    "id": "lens-structure",
+    "description": "Cross-section of the lens showing the capsule all round, the epithelium on the front surface only, layers of fibres like an onion, the nucleus in the centre and the cortex outside. Zonules attach around the equator to the ciliary body.",
+    "labels": ["Capsule", "Anterior epithelium", "Cortex", "Nucleus", "Equator", "Zonules", "Ciliary body"]
+   },
+   "goDeeper": [
+    {
+     "heading": "How the lens accommodates",
+     "body": "At rest the ciliary muscle is relaxed and the zonules are taut, flattening the lens. When the muscle contracts, the ring of the ciliary body gets smaller, the zonules slacken and the elastic capsule lets the lens become more curved, especially at the front. With age the lens stiffens and grows, so it can't change shape as much: presbyopia."
+    },
+    {
+     "heading": "Cataract types and symptoms",
+     "body": "Nuclear cataract: gradual yellowing and hardening of the centre; distance blur, a myopic shift ('second sight' for reading) and colours looking duller. Cortical: spoke-like opacities from the edge; glare. Posterior subcapsular: a plaque at the back centre; marked glare and near blur, linked to steroids, diabetes and younger patients. Treatment is surgery when vision affects daily life."
+    },
+    {
+     "heading": "Lens metabolism",
+     "body": "With no blood supply, the lens relies on glucose from the aqueous, mostly through anaerobic glycolysis. Antioxidants such as glutathione protect lens proteins. In diabetes, extra glucose is converted to sorbitol inside the lens, drawing in water and contributing to cataract and to fluctuating refraction."
+    }
+   ],
+   "flashcards": [
+    { "front": "Where is the lens epithelium?", "back": "Anterior surface only (under the capsule)." },
+    { "front": "Why does the lens get stiffer with age?", "back": "It keeps adding fibres and the nucleus hardens." },
+    { "front": "Cataract with marked glare in a younger patient on steroids", "back": "Posterior subcapsular cataract." },
+    { "front": "Refractive change typical of nuclear cataract", "back": "Myopic shift." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-le-1",
+     "q": "A 72-year-old says she can now read without her glasses but her distance vision has blurred. The most likely cause is:",
+     "options": [
+      { "text": "Nuclear cataract causing a myopic shift", "correct": true, "feedback": "The denser nucleus raises lens power." },
+      { "text": "Cortical cataract", "correct": false, "feedback": "Cortical cataract mainly causes glare." },
+      { "text": "Improved accommodation", "correct": false, "feedback": "Accommodation doesn't return with age." },
+      { "text": "Corneal flattening", "correct": false, "feedback": "That would cause a hyperopic, not myopic, shift." }
+     ],
+     "explanation": "Index myopia from nuclear sclerosis gives 'second sight'.",
+     "link": "ana-lens#cataract-types-and-symptoms"
+    },
+    {
+     "id": "ana-le-2",
+     "q": "When the ciliary muscle contracts, the zonules:",
+     "options": [
+      { "text": "Slacken, letting the lens round up", "correct": true, "feedback": "Less tension lets the capsule mould the lens to a steeper shape." },
+      { "text": "Tighten, rounding the lens", "correct": false, "feedback": "Tight zonules flatten the lens." },
+      { "text": "Stay the same", "correct": false, "feedback": "Zonular tension is what changes during accommodation." },
+      { "text": "Pull the lens forward without changing its shape", "correct": false, "feedback": "Accommodation mainly changes lens shape." }
+     ],
+     "explanation": "Contraction → zonules relax → lens power increases.",
+     "link": "ana-lens#how-the-lens-accommodates"
+    },
+    {
+     "id": "ana-le-3",
+     "q": "The crystalline lens gets its nutrients mainly from:",
+     "options": [
+      { "text": "The aqueous humour", "correct": true, "feedback": "It's avascular and relies on the aqueous." },
+      { "text": "Its own blood vessels", "correct": false, "feedback": "The adult lens has no blood vessels." },
+      { "text": "The vitreous only", "correct": false, "feedback": "The aqueous at the front is the main source." },
+      { "text": "The choroid", "correct": false, "feedback": "The choroid supplies the outer retina." }
+     ],
+     "explanation": "No blood supply: glucose and oxygen come from the aqueous.",
+     "link": "ana-lens#lens-metabolism"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "NICE NG77: cataracts in adults", "url": "https://www.nice.org.uk/guidance/ng77" }
+   ],
+   "askClaude": "Compare the three main types of cataract by where they are, what causes them and what symptoms they give, then quiz me."
+  },
+  {
+   "id": "ana-retina",
+   "title": "Retina: layers, photoreceptors and phototransduction",
+   "summary": "The retina turns light into nerve signals. Light passes through the inner layers to reach the photoreceptors at the back; their signals travel forwards through bipolar cells to ganglion cells, whose axons form the optic nerve. Rods handle dim light, cones handle colour and fine detail, and the fovea is packed with cones.",
+   "keyPoints": [
+    "Ten layers from outside in: RPE, photoreceptors, external limiting membrane, outer nuclear, outer plexiform, inner nuclear, inner plexiform, ganglion cell layer, nerve fibre layer, internal limiting membrane.",
+    "About 120 million rods and 6 million cones per eye; about 1.2 million ganglion cells.",
+    "The foveola contains only cones and no blood vessels; inner layers are pushed aside to reduce scatter.",
+    "The optic disc has no photoreceptors, which makes the physiological blind spot about 15° temporal to fixation.",
+    "Phototransduction: light changes 11-cis retinal to all-trans → transducin → phosphodiesterase → cGMP falls → sodium channels close → the photoreceptor hyperpolarises.",
+    "Inner retina is supplied by the central retinal artery; outer retina (photoreceptors) by the choroid."
+   ],
+   "examTraps": [
+    "Saying photoreceptors depolarise to light: they hyperpolarise.",
+    "Placing the blind spot nasally in the visual field: it's temporal (the disc is nasal on the retina).",
+    "Forgetting that the RPE is part of the retina and is vital for recycling visual pigment."
+   ],
+   "diagram": {
+    "id": "retina-layers",
+    "description": "A vertical slice through the retina with light arriving from the top (vitreous side). Show the ten layers, a rod and a cone at the bottom next to the RPE, bipolar cells in the middle and ganglion cells near the top with axons running into the nerve fibre layer.",
+    "labels": ["Internal limiting membrane", "Nerve fibre layer", "Ganglion cell layer", "Inner nuclear layer (bipolar cells)", "Outer nuclear layer", "Rods and cones", "Retinal pigment epithelium"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Rods and cones",
+     "body": "Rods contain rhodopsin, are very sensitive, saturate in daylight and give no colour. Many rods feed into one ganglion cell, which boosts sensitivity but lowers detail. Cones come in three types (S, M and L, peaking at about 420, 530 and 560 nm), work in brighter light and give colour and fine detail. At the fovea each cone has a nearly one-to-one route to a ganglion cell."
+    },
+    {
+     "heading": "Phototransduction cascade",
+     "body": "In the dark, cGMP keeps sodium channels open and the photoreceptor is depolarised, releasing glutamate (the 'dark current'). Light isomerises retinal, activating rhodopsin, which activates transducin, which activates phosphodiesterase. cGMP is broken down, channels close and the cell hyperpolarises, reducing glutamate release. The RPE then recycles all-trans retinal back to 11-cis."
+    },
+    {
+     "heading": "Retinal pigment epithelium",
+     "body": "The RPE is a single layer of pigmented cells between the photoreceptors and Bruch's membrane. It absorbs stray light, recycles visual pigment, eats shed photoreceptor outer segments and forms the outer blood–retinal barrier. Problems here underlie age-related macular degeneration."
+    }
+   ],
+   "flashcards": [
+    { "front": "Do photoreceptors hyperpolarise or depolarise to light?", "back": "Hyperpolarise." },
+    { "front": "Rough numbers of rods and cones", "back": "About 120 million rods and 6 million cones." },
+    { "front": "Where is the physiological blind spot in the field?", "back": "About 15° temporal to fixation." },
+    { "front": "What supplies the outer retina?", "back": "The choroid (choriocapillaris)." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-re-1",
+     "q": "What does light do to cGMP levels in a photoreceptor?",
+     "options": [
+      { "text": "Lowers them, closing sodium channels", "correct": true, "feedback": "Phosphodiesterase breaks down cGMP and the cell hyperpolarises." },
+      { "text": "Raises them, opening sodium channels", "correct": false, "feedback": "That's the situation in the dark." },
+      { "text": "Has no effect", "correct": false, "feedback": "cGMP is central to phototransduction." },
+      { "text": "Converts cGMP into rhodopsin", "correct": false, "feedback": "Rhodopsin is the light-absorbing pigment, not made from cGMP." }
+     ],
+     "explanation": "Light → rhodopsin → transducin → PDE → cGMP falls → hyperpolarisation.",
+     "link": "ana-retina#phototransduction-cascade"
+    },
+    {
+     "id": "ana-re-2",
+     "q": "Why is visual acuity best at the fovea?",
+     "options": [
+      { "text": "Densely packed cones with almost one-to-one connections to ganglion cells", "correct": true, "feedback": "Little convergence preserves fine detail." },
+      { "text": "It has the most rods", "correct": false, "feedback": "The foveola has no rods." },
+      { "text": "Its blood vessels are largest", "correct": false, "feedback": "The foveola is avascular." },
+      { "text": "The nerve fibre layer is thickest", "correct": false, "feedback": "Inner layers are pushed aside at the fovea." }
+     ],
+     "explanation": "Cone density and low convergence give the highest resolution.",
+     "link": "ana-retina#rods-and-cones"
+    },
+    {
+     "id": "ana-re-3",
+     "q": "Which structure forms the outer blood–retinal barrier?",
+     "options": [
+      { "text": "Retinal pigment epithelium", "correct": true, "feedback": "Tight junctions between RPE cells form the outer barrier." },
+      { "text": "Internal limiting membrane", "correct": false, "feedback": "That's the inner boundary of the retina." },
+      { "text": "Nerve fibre layer", "correct": false, "feedback": "No barrier function here." },
+      { "text": "Sclera", "correct": false, "feedback": "The sclera is outside the choroid." }
+     ],
+     "explanation": "Inner barrier: retinal capillary endothelium. Outer barrier: RPE.",
+     "link": "ana-retina#retinal-pigment-epithelium"
+    }
+   ],
+   "cases": [],
+   "links": [
+    { "label": "Macular Society", "url": "https://www.macularsociety.org/" }
+   ],
+   "askClaude": "Take me through phototransduction step by step, then test me by leaving out a step and asking me what's missing."
+  },
+  {
+   "id": "ana-visual-pathway",
+   "title": "Visual pathway: optic nerve, chiasm, LGN and visual cortex",
+   "summary": "Ganglion cell axons leave the eye as the optic nerve. At the chiasm the nasal fibres from each eye cross, so each side of the brain receives the opposite half of the visual field. The pathway continues through the optic tract, the lateral geniculate nucleus and the optic radiations to the primary visual cortex. Where damage happens determines the shape of the field defect.",
+   "keyPoints": [
+    "Nasal retinal fibres cross at the chiasm; temporal fibres stay on the same side.",
+    "Lesions before the chiasm affect one eye; at the chiasm typically cause a bitemporal hemianopia; after it, a homonymous defect.",
+    "The lateral geniculate nucleus has six layers: 1–2 magnocellular, 3–6 parvocellular (with koniocellular cells between).",
+    "Meyer's loop carries lower-retina fibres through the temporal lobe; damage gives a superior homonymous quadrantanopia ('pie in the sky').",
+    "Parietal radiation damage tends to give an inferior homonymous quadrantanopia.",
+    "Occipital lesions often spare the macula because the occipital pole may have a dual blood supply."
+   ],
+   "examTraps": [
+    "Calling a pituitary tumour defect 'binasal': it's bitemporal.",
+    "Forgetting that homonymous means the same side of the field in both eyes.",
+    "Mixing up which lobe Meyer's loop passes through (temporal)."
+   ],
+   "diagram": {
+    "id": "visual-pathway",
+    "description": "View from above of both eyes, optic nerves, chiasm (nasal fibres crossing), optic tracts, LGN, optic radiations (Meyer's loop curving into the temporal lobe) and the occipital cortex. Mark numbered lesion sites with the matching visual field defect next to each: optic nerve, chiasm, optic tract, Meyer's loop, parietal radiations, occipital cortex.",
+    "labels": ["Optic nerve", "Optic chiasm", "Optic tract", "Lateral geniculate nucleus", "Meyer's loop", "Optic radiations", "Primary visual cortex (V1)"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Field defects by site",
+     "body": "Optic nerve: loss in one eye (for example a central scotoma in optic neuritis). Chiasm: bitemporal hemianopia, often starting superiorly with a pituitary adenoma pressing from below. Optic tract: incongruous homonymous hemianopia. Temporal lobe (Meyer's loop): superior homonymous quadrantanopia. Parietal: inferior homonymous quadrantanopia. Occipital: congruous homonymous hemianopia, often with macular sparing."
+    },
+    {
+     "heading": "Congruity",
+     "body": "The further back in the pathway, the more the defects in the two eyes match each other in shape (congruous), because fibres from corresponding points in each eye run closer together. Optic tract lesions give incongruous defects; occipital lesions give very congruous ones."
+    },
+    {
+     "heading": "Beyond V1",
+     "body": "From the primary visual cortex, information splits into a ventral stream (towards the temporal lobe: 'what', recognition, colour, faces) and a dorsal stream (towards the parietal lobe: 'where/how', motion and spatial awareness). Damage to these areas causes problems such as face blindness or motion blindness without loss of acuity."
+    }
+   ],
+   "flashcards": [
+    { "front": "Which retinal fibres cross at the chiasm?", "back": "Nasal fibres." },
+    { "front": "Typical field defect from a pituitary tumour", "back": "Bitemporal hemianopia (often superior first)." },
+    { "front": "Meyer's loop damage causes…", "back": "Superior homonymous quadrantanopia ('pie in the sky')." },
+    { "front": "Which LGN layers are magnocellular?", "back": "Layers 1 and 2." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-vp-1",
+     "q": "A patient has lost the left half of the visual field in both eyes, with very matched defects and macular sparing. The lesion is most likely in the:",
+     "options": [
+      { "text": "Right occipital cortex", "correct": true, "feedback": "Congruous homonymous hemianopia with macular sparing points to the occipital lobe on the opposite side." },
+      { "text": "Left occipital cortex", "correct": false, "feedback": "A left-sided field defect comes from the right side of the brain." },
+      { "text": "Optic chiasm", "correct": false, "feedback": "Chiasmal lesions give bitemporal defects." },
+      { "text": "Right optic nerve", "correct": false, "feedback": "That would affect the right eye only." }
+     ],
+     "explanation": "Homonymous = post-chiasmal; congruous + macular sparing = occipital.",
+     "link": "ana-visual-pathway#field-defects-by-site"
+    },
+    {
+     "id": "ana-vp-2",
+     "q": "Which defect would a lesion of the left temporal lobe (Meyer's loop) cause?",
+     "options": [
+      { "text": "Right superior homonymous quadrantanopia", "correct": true, "feedback": "Meyer's loop carries lower-retina fibres, which see the upper field, on the opposite side." },
+      { "text": "Left superior homonymous quadrantanopia", "correct": false, "feedback": "The defect is on the opposite side to the lesion." },
+      { "text": "Right inferior homonymous quadrantanopia", "correct": false, "feedback": "Inferior defects usually come from parietal lesions." },
+      { "text": "Bitemporal hemianopia", "correct": false, "feedback": "That's a chiasmal pattern." }
+     ],
+     "explanation": "Temporal lobe → 'pie in the sky' on the opposite side.",
+     "link": "ana-visual-pathway#field-defects-by-site"
+    },
+    {
+     "id": "ana-vp-3",
+     "q": "As you move further back along the visual pathway, homonymous field defects become:",
+     "options": [
+      { "text": "More congruous (better matched between the eyes)", "correct": true, "feedback": "Fibres from corresponding points lie closer together further back." },
+      { "text": "Less congruous", "correct": false, "feedback": "Incongruous defects are typical of the optic tract." },
+      { "text": "Monocular", "correct": false, "feedback": "Post-chiasmal lesions affect both eyes." },
+      { "text": "Always central", "correct": false, "feedback": "Occipital lesions often spare the centre." }
+     ],
+     "explanation": "Congruity increases towards the occipital cortex.",
+     "link": "ana-visual-pathway#congruity"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 45-year-old man keeps bumping into door frames on both sides and has had headaches for months. Acuity is 6/6 in each eye. Fields show loss in the outer half of both fields, worse above.",
+     "question": "Where is the problem likely to be and what do you do?",
+     "modelAnswer": "A bitemporal hemianopia, worse superiorly, suggests compression of the chiasm from below, typically a pituitary adenoma. Normal acuity doesn't rule it out. Refer urgently (same day or as local protocol says) for neuro-imaging via the GP or hospital eye service, and send the field plots."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Give me five descriptions of visual field defects and ask me where each lesion is, one at a time."
+  },
+  {
+   "id": "ana-eom-nerves",
+   "title": "Extraocular muscles and cranial nerves",
+   "summary": "Six muscles move each eye: four recti and two obliques. Three cranial nerves supply them: CN VI to lateral rectus, CN IV to superior oblique, and CN III to the rest (plus levator and the pupil). Knowing each muscle's actions explains how to test them and what a palsy looks like.",
+   "keyPoints": [
+    "Innervation: LR6, SO4, rest 3 (CN III supplies MR, SR, IR, IO and levator).",
+    "Primary actions: MR adducts, LR abducts, SR elevates, IR depresses, SO intorts, IO extorts.",
+    "The SR and IR act best as elevator and depressor with the eye abducted; the obliques act best with the eye adducted.",
+    "The four recti start from the annulus of Zinn; the superior oblique runs through the trochlea.",
+    "Hering's law: yoke muscles in both eyes get equal innervation. Sherrington's law: when a muscle contracts, its antagonist relaxes.",
+    "CN III palsy: eye 'down and out', ptosis, and sometimes a dilated pupil (which suggests compression and is urgent)."
+   ],
+   "examTraps": [
+    "Testing SO by asking the patient to look down and out: SO is tested looking down and in.",
+    "Forgetting that a CN IV palsy patient often tilts the head to the opposite side.",
+    "Missing that a painful CN III palsy with a dilated pupil can be an aneurysm (emergency)."
+   ],
+   "diagram": {
+    "id": "eom-h-pattern",
+    "description": "The H-shaped pattern used to test eye movements from the patient's view, with the six cardinal positions labelled with the muscle tested in each eye: right gaze (RLR, LMR), up-right (RSR, LIO), down-right (RIR, LSO), left gaze (LLR, RMR), up-left (LSR, RIO), down-left (LIR, RSO).",
+    "labels": ["Lateral rectus", "Medial rectus", "Superior rectus", "Inferior rectus", "Superior oblique", "Inferior oblique", "Primary position"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Actions of each muscle",
+     "body": "MR: adduction. LR: abduction. SR: elevation, intorsion, adduction. IR: depression, extorsion, adduction. SO: intorsion, depression, abduction. IO: extorsion, elevation, abduction. A helpful memory aid: superior muscles intort (SIN: superior = intorsion), and the obliques abduct while the vertical recti adduct (RAD: recti adduct)."
+    },
+    {
+     "heading": "Recognising palsies",
+     "body": "CN VI: esotropia worse looking towards the affected side, limited abduction, horizontal double vision worse at distance. CN IV: hypertropia of the affected eye, worse looking down and in (reading, stairs), vertical or tilted double vision, compensating head tilt away from the affected side. CN III: ptosis, eye down and out, limited elevation, depression and adduction, possible pupil involvement."
+    },
+    {
+     "heading": "Yoke muscles",
+     "body": "Each muscle in one eye has a partner in the other eye that moves the eyes in the same direction (for example RLR and LMR for right gaze). By Hering's law they get equal innervation. In a paralytic squint, fixing with the affected eye causes extra innervation to its yoke partner, so the deviation looks bigger (secondary deviation greater than primary)."
+    }
+   ],
+   "flashcards": [
+    { "front": "Nerve supply of the extraocular muscles", "back": "LR6, SO4, all others CN III." },
+    { "front": "Primary action of the superior oblique", "back": "Intorsion (plus depression and abduction)." },
+    { "front": "Position to test the superior oblique", "back": "Looking down and in." },
+    { "front": "Hering's law", "back": "Yoke muscles in both eyes receive equal innervation." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-em-1",
+     "q": "A patient has horizontal double vision worse when looking to the right, and the right eye won't move outwards fully. Which nerve is affected?",
+     "options": [
+      { "text": "Right abducens (CN VI)", "correct": true, "feedback": "CN VI supplies the right lateral rectus, which abducts the right eye." },
+      { "text": "Right trochlear (CN IV)", "correct": false, "feedback": "CN IV causes vertical diplopia." },
+      { "text": "Left abducens", "correct": false, "feedback": "That would limit the left eye looking left." },
+      { "text": "Right oculomotor (CN III)", "correct": false, "feedback": "CN III palsy limits adduction, not abduction." }
+     ],
+     "explanation": "Limited abduction + horizontal diplopia worse on that side = CN VI.",
+     "link": "ana-eom-nerves#recognising-palsies"
+    },
+    {
+     "id": "ana-em-2",
+     "q": "Which muscle is the main elevator when the eye is abducted?",
+     "options": [
+      { "text": "Superior rectus", "correct": true, "feedback": "The SR lines up with the visual axis in abduction." },
+      { "text": "Inferior oblique", "correct": false, "feedback": "The IO elevates best in adduction." },
+      { "text": "Superior oblique", "correct": false, "feedback": "The SO depresses." },
+      { "text": "Lateral rectus", "correct": false, "feedback": "LR abducts; it doesn't elevate." }
+     ],
+     "explanation": "Vertical recti work best in abduction; obliques in adduction.",
+     "link": "ana-eom-nerves#actions-of-each-muscle"
+    },
+    {
+     "id": "ana-em-3",
+     "q": "A patient with sudden ptosis, an eye that is down and out, a dilated pupil and a severe headache most needs:",
+     "options": [
+      { "text": "Emergency referral: possible aneurysm compressing CN III", "correct": true, "feedback": "A pupil-involving painful CN III palsy is an emergency." },
+      { "text": "Routine referral", "correct": false, "feedback": "This could be life-threatening." },
+      { "text": "Prism glasses and review in 3 months", "correct": false, "feedback": "The cause must be found urgently first." },
+      { "text": "Lubricating drops", "correct": false, "feedback": "Not relevant to a nerve palsy." }
+     ],
+     "explanation": "Compressive CN III lesions affect the pupil fibres, which run on the outside of the nerve.",
+     "link": "ana-eom-nerves#recognising-palsies"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "After a minor head injury, a 30-year-old cyclist has vertical double vision that is worst going down stairs. She tilts her head to the left.",
+     "question": "Which muscle and nerve are likely affected, and on which side?",
+     "modelAnswer": "Right superior oblique (right CN IV). The right eye is higher, worse looking down and to the left (where the right SO acts), and tilting the head away from the affected side (to the left) reduces the need for the weak SO to intort. CN IV is long and thin, so it's vulnerable in head injuries. Refer for assessment; prisms may help while it recovers."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Describe a patient with a cranial nerve palsy and ask me which nerve and side it is; do five of these."
+  },
+  {
+   "id": "ana-blood-supply",
+   "title": "Blood supply of the eye and orbit",
+   "summary": "The ophthalmic artery, the first branch of the internal carotid, supplies almost everything in the orbit. The central retinal artery feeds the inner retina, and the ciliary arteries feed the choroid, optic nerve head and front of the eye. Blood drains through the central retinal vein, vortex veins and ophthalmic veins to the cavernous sinus.",
+   "keyPoints": [
+    "Ophthalmic artery: first branch of the internal carotid; enters the orbit through the optic canal.",
+    "Central retinal artery: enters the optic nerve and supplies the inner retina. It's an end artery, so blockage causes sudden painless loss.",
+    "Short posterior ciliary arteries: choroid and optic nerve head. Long posterior ciliary arteries: iris and ciliary body.",
+    "A cilioretinal artery (from the ciliary circulation) is present in a minority of eyes and can spare the macula in a central retinal artery occlusion.",
+    "Venous drainage: central retinal vein; the choroid drains through the vortex veins (usually four); both lead to the ophthalmic veins and cavernous sinus.",
+    "The retina has two blood supplies: inner retina from the central retinal artery, outer retina from the choroid."
+   ],
+   "examTraps": [
+    "Saying the central retinal artery supplies the photoreceptors: they're fed by the choroid.",
+    "Forgetting that the optic nerve head is supplied by the short posterior ciliary arteries (important in ischaemic optic neuropathy).",
+    "Mixing up artery and vein occlusion appearances."
+   ],
+   "diagram": {
+    "id": "ocular-blood-supply",
+    "description": "Side view of the eye with the internal carotid giving off the ophthalmic artery, which branches into the central retinal artery (entering the optic nerve), the short and long posterior ciliary arteries, and muscular branches leading to the anterior ciliary arteries. Show vortex veins leaving the choroid and the central retinal vein leaving through the nerve.",
+    "labels": ["Internal carotid artery", "Ophthalmic artery", "Central retinal artery", "Short posterior ciliary arteries", "Long posterior ciliary arteries", "Anterior ciliary arteries", "Vortex veins"]
+   },
+   "goDeeper": [
+    {
+     "heading": "Central retinal artery occlusion",
+     "body": "Sudden, painless, severe loss of vision in one eye. The retina looks pale and swollen with a 'cherry-red spot' at the fovea, where the thin retina lets the intact choroid show through. It's an eye stroke: refer immediately as an emergency (local protocol, often to a stroke service) because of the risk to the brain and heart. A cilioretinal artery, if present, may keep some central vision."
+    },
+    {
+     "heading": "Retinal vein occlusion",
+     "body": "Blockage of the central or a branch retinal vein causes widespread or sectoral haemorrhages, dilated tortuous veins, cotton wool spots and macular oedema. Risk factors include high blood pressure, diabetes, high cholesterol and raised IOP. Referral urgency depends on vision and signs; patients also need their general health checked."
+    },
+    {
+     "heading": "Optic nerve head supply",
+     "body": "The optic nerve head is fed mainly by the short posterior ciliary arteries (the circle of Zinn–Haller). Reduced flow here causes anterior ischaemic optic neuropathy: sudden painless loss with a swollen disc. In people over 50 the arteritic form from giant cell arteritis is an emergency because the other eye can be affected within days."
+    }
+   ],
+   "flashcards": [
+    { "front": "First branch of the internal carotid", "back": "The ophthalmic artery." },
+    { "front": "What supplies the outer retina?", "back": "The choroid (via the short posterior ciliary arteries)." },
+    { "front": "Classic sign of central retinal artery occlusion", "back": "Pale retina with a cherry-red spot at the fovea." },
+    { "front": "What drains the choroid?", "back": "Vortex veins (usually four)." }
+   ],
+   "mcq": [
+    {
+     "id": "ana-bs-1",
+     "q": "A 75-year-old has sudden painless loss of vision in one eye; the retina is pale with a cherry-red spot. What is the correct action?",
+     "options": [
+      { "text": "Emergency referral the same day, as for a stroke", "correct": true, "feedback": "CRAO is an eye stroke and needs immediate assessment." },
+      { "text": "Routine referral", "correct": false, "feedback": "This needs emergency referral." },
+      { "text": "Review in 2 weeks", "correct": false, "feedback": "Delay risks further vascular events." },
+      { "text": "New spectacles", "correct": false, "feedback": "This isn't a refractive problem." }
+     ],
+     "explanation": "Central retinal artery occlusion: urgent vascular work-up, following local stroke pathways.",
+     "link": "ana-blood-supply#central-retinal-artery-occlusion"
+    },
+    {
+     "id": "ana-bs-2",
+     "q": "Why might a patient with a central retinal artery occlusion keep some central vision?",
+     "options": [
+      { "text": "A cilioretinal artery from the ciliary circulation supplies part of the macula", "correct": true, "feedback": "It isn't blocked because it comes from a different source." },
+      { "text": "The fovea has its own retinal artery", "correct": false, "feedback": "The foveola has no retinal vessels." },
+      { "text": "The vortex veins reverse flow", "correct": false, "feedback": "Veins don't supply the retina." },
+      { "text": "The lens supplies oxygen", "correct": false, "feedback": "The lens is avascular." }
+     ],
+     "explanation": "A cilioretinal artery, present in some eyes, can spare the macula.",
+     "link": "ana-blood-supply#central-retinal-artery-occlusion"
+    },
+    {
+     "id": "ana-bs-3",
+     "q": "The optic nerve head is supplied mainly by:",
+     "options": [
+      { "text": "The short posterior ciliary arteries", "correct": true, "feedback": "Via the circle of Zinn–Haller." },
+      { "text": "The central retinal artery only", "correct": false, "feedback": "It passes through the disc but isn't its main supply." },
+      { "text": "The anterior ciliary arteries", "correct": false, "feedback": "These supply the front of the eye." },
+      { "text": "The vortex veins", "correct": false, "feedback": "Veins drain blood; they don't supply it." }
+     ],
+     "explanation": "Short posterior ciliary arteries feed the choroid and optic nerve head.",
+     "link": "ana-blood-supply#optic-nerve-head-supply"
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "A 78-year-old woman has sudden loss of vision in her left eye this morning. She mentions pain when combing her hair, pain in her jaw when eating, and feeling unwell. The left disc is pale and swollen.",
+     "question": "What do you suspect and how urgent is it?",
+     "modelAnswer": "Arteritic anterior ischaemic optic neuropathy from giant cell arteritis (scalp tenderness, jaw claudication, malaise). It's an emergency: same-day referral so she can start high-dose steroids, because the other eye is at high risk of going blind within days."
+    }
+   ],
+   "links": [
+    { "label": "College of Optometrists: Clinical Management Guidelines", "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines" }
+   ],
+   "askClaude": "Quiz me on which artery supplies each part of the eye, then give me a sudden-vision-loss case to work through."
+  }
+ ]
+}

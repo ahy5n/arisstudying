@@ -4,7 +4,9 @@ import Link from 'next/link'
 import { addDays, fmtDay, fmtDayLong, fmtRange, fmtShort, mondayOf, weekdayIndex } from '@/lib/dates'
 import type { MaterialLink } from '@/lib/slides'
 import type { Session, WeekInfo } from '@/lib/types'
-import { useApp } from '../AppProvider'
+import { useMemo } from 'react'
+import { materialsFrom } from '@/lib/timetable'
+import { useApp, useData } from '../AppProvider'
 import { type ColourMap, ModuleChip, splitModules, typeLabel } from '../bits'
 import { LeafIcon } from '../icons'
 
@@ -36,6 +38,16 @@ export function buildWeeks(today: string, weeks: WeekInfo[], sessions: Session[]
   })
 }
 
+/** The built-in materials plus any slides she uploaded and linked to a session. */
+export function useMaterials(builtIn?: Record<string, MaterialLink[]>): Record<string, MaterialLink[]> {
+  const { decks } = useData()
+  return useMemo(() => {
+    const merged: Record<string, MaterialLink[]> = { ...builtIn }
+    for (const [key, list] of Object.entries(materialsFrom(decks))) merged[key] = [...(merged[key] ?? []), ...list]
+    return merged
+  }, [builtIn, decks])
+}
+
 export function NextTwoWeeks({
   weeks,
   sessions,
@@ -48,6 +60,7 @@ export function NextTwoWeeks({
   materials?: Record<string, MaterialLink[]>
 }) {
   const { today } = useApp()
+  const allMaterials = useMaterials(materials)
   const blocks = buildWeeks(today, weeks, sessions)
   const lastMonday = weeks[weeks.length - 1]?.monday
   const termOver = !!lastMonday && blocks[0].monday > lastMonday
@@ -64,7 +77,7 @@ export function NextTwoWeeks({
       ) : (
         <div className="mt-3 space-y-4">
           {blocks.map((b) => (
-            <WeekCard key={b.monday} block={b} today={today} colours={colours} materials={materials} />
+            <WeekCard key={b.monday} block={b} today={today} colours={colours} materials={allMaterials} />
           ))}
         </div>
       )}
@@ -90,12 +103,12 @@ function WeekCard({
     return (
       <div className="card overflow-hidden">
         <WeekHeader label={block.label} title={title} />
-        <div className="flex items-center gap-3 bg-sage-soft px-5 py-5 sm:px-6">
-          <span className="grid size-11 shrink-0 place-items-center rounded-full bg-sage text-sage-ink">
+        <div className="flex items-center gap-3 bg-good-soft px-5 py-5 sm:px-6">
+          <span className="grid size-11 shrink-0 place-items-center rounded-full bg-good text-good-ink">
             <LeafIcon />
           </span>
           <div>
-            <p className="font-rounded text-[19px] font-semibold text-sage-ink">Reading week 🌿</p>
+            <p className="font-rounded text-[19px] font-semibold text-good-ink">Reading week 🌿</p>
             <p className="text-[15px] text-muted">No timetabled sessions. The module library is all yours.</p>
           </div>
         </div>
@@ -109,13 +122,13 @@ function WeekCard({
       {block.days.length === 0 ? (
         <p className="px-5 pb-5 text-[15px] text-muted sm:px-6">Nothing timetabled.</p>
       ) : (
-        <ol className="divide-y divide-line/80">
+        <ol className="divide-y divide-border/80">
           {block.days.map((d) => (
             <li key={d.date} className="px-5 py-3 sm:px-6">
               <p className="flex items-center gap-2 text-[14px] font-semibold text-muted">
                 {fmtDayLong(d.date)}
                 {d.date === today && (
-                  <span className="rounded-full bg-rose-soft px-2 py-0.5 text-[12px] text-rose-ink">Today</span>
+                  <span className="rounded-full bg-accent-soft px-2 py-0.5 text-[12px] text-accent-strong">Today</span>
                 )}
               </p>
               <ul className="mt-1">
@@ -147,8 +160,8 @@ export function SessionMaterials({ items }: { items?: MaterialLink[] }) {
       {items.map((m) => (
         <Link
           key={m.id}
-          href={`/slides/${m.id}`}
-          className="inline-flex min-h-8 items-start gap-1 rounded-xl bg-wash px-2.5 py-1.5 text-left text-[12px] font-semibold leading-snug text-muted hover:bg-rose-soft hover:text-rose-ink"
+          href={m.href ?? `/slides/${m.id}`}
+          className="inline-flex min-h-8 items-start gap-1 rounded-xl bg-bg px-2.5 py-1.5 text-left text-[12px] font-semibold leading-snug text-muted hover:bg-accent-soft hover:text-accent-strong"
         >
           <span aria-hidden>📎</span>
           {m.title}
@@ -172,7 +185,7 @@ export function SessionRow({
   const mats = materials?.[`${s.date}T${s.start}`]
   if (s.type === 'Independent Study') {
     return (
-      <li className="py-1.5 text-[14px] text-faint">
+      <li className="py-1.5 text-[14px] text-muted">
         {showDate && <span className="mr-2">{fmtDayLong(s.date)} ·</span>}
         Independent study · {s.start}–{s.end}
       </li>
@@ -197,8 +210,8 @@ export function SessionRow({
             <ModuleChip key={c} code={c} colours={colours} />
           ))}
           {s.isAssessment && (
-            <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-lilac-ink">
-              <span aria-hidden className="size-2 rounded-full bg-lilac-ink/70" />
+            <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-accent">
+              <span aria-hidden className="size-2 rounded-full bg-accent/70" />
               Assessment
             </span>
           )}
@@ -213,7 +226,7 @@ export function SessionRow({
   return (
     <li>
       {target ? (
-        <Link href={`/m/${target}`} className="-mx-2 block rounded-xl px-2 hover:bg-wash/70 active:bg-wash">
+        <Link href={`/m/${target}`} className="-mx-2 block rounded-xl px-2 hover:bg-bg/70 active:bg-bg">
           {body}
         </Link>
       ) : (

@@ -5,6 +5,7 @@ import { fmtShort } from '@/lib/dates'
 import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
 import { BackLink } from '../bits'
+import { AboutApp, Appearance } from './Appearance'
 
 function isClaudeUrl(v: string) {
   try {
@@ -46,6 +47,8 @@ export function Settings() {
       <BackLink href="/">Home</BackLink>
       <h1 className="mt-2 text-[32px] font-semibold">Settings</h1>
 
+      <Appearance />
+
       <section className="card mt-6 p-6" aria-labelledby="claude">
         <h2 id="claude" className="text-[20px] font-semibold">
           Your Claude project link
@@ -63,7 +66,7 @@ export function Settings() {
             aria-describedby="claude-help"
           />
           {error && (
-            <p role="alert" className="mt-2 text-[14px] text-rose-ink">
+            <p role="alert" className="mt-2 text-[14px] text-bad-ink">
               {error}
             </p>
           )}
@@ -116,6 +119,8 @@ export function Settings() {
           </ul>
         </section>
       )}
+
+      <AboutApp />
     </div>
   )
 }
@@ -158,7 +163,7 @@ function PasswordCard() {
           <input className="field" type="password" autoComplete="new-password" minLength={6} required value={next} onChange={(e) => setNext(e.target.value)} />
         </label>
         {error && (
-          <p role="alert" className="text-[14px] text-rose-ink sm:col-span-2">
+          <p role="alert" className="text-[14px] text-bad-ink sm:col-span-2">
             {error}
           </p>
         )}

@@ -35,6 +35,8 @@ export interface MaterialLink {
   title: string
   kind: string
   outlined: boolean
+  /** Where the link goes; defaults to the built-in deck page. */
+  href?: string
 }
 
 export const sessionKey = (s: SessionRef) => `${s.date}T${s.start}`

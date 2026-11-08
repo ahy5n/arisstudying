@@ -12,7 +12,7 @@ import { VERIFY_NOTE } from './TopicView'
 const LETTERS = 'ABCDEFGH'
 
 function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mb-2 mt-7 border-b border-line pb-1 font-rounded text-[17pt] font-semibold print:text-[14pt]">{children}</h2>
+  return <h2 className="mb-2 mt-7 border-b border-border pb-1 font-rounded text-[17pt] font-semibold print:text-[14pt]">{children}</h2>
 }
 
 /** A4, wide right margin for handwriting; answers at the end for self-testing. */
@@ -48,7 +48,7 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
         </div>
       </div>
 
-      <article className="print-sheet card mx-auto max-w-[210mm] bg-white p-[14mm] text-[11.5pt] leading-[1.55] text-ink sm:p-[16mm]">
+      <article className="print-sheet card mx-auto max-w-[210mm] p-[14mm] text-[11.5pt] leading-[1.55] text-ink sm:p-[16mm]">
         {/* Content column leaves ~55mm on the right for handwriting */}
         <div className="grid grid-cols-[1fr_50mm] gap-[6mm]">
           <div className="min-w-0">
@@ -73,8 +73,8 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
             )}
 
             {t.examTraps.length > 0 && (
-              <div className="avoid-break mt-5 rounded-xl border border-butter bg-butter-soft p-4">
-                <p className="font-semibold text-butter-ink">Exam traps</p>
+              <div className="avoid-break mt-5 rounded-xl border border-warn bg-warn-soft p-4">
+                <p className="font-semibold text-warn-ink">Exam traps</p>
                 <ul className="mt-1 list-disc space-y-1 pl-5">
                   {t.examTraps.map((k, i) => (
                     <li key={i}>{k}</li>
@@ -83,7 +83,7 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
               </div>
             )}
           </div>
-          <div aria-hidden className="border-l border-dashed border-line" />
+          <div aria-hidden className="border-l border-dashed border-border" />
         </div>
 
         {t.diagram && (
@@ -164,7 +164,7 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
               </div>
             )}
           </div>
-          <div aria-hidden className="border-l border-dashed border-line" />
+          <div aria-hidden className="border-l border-dashed border-border" />
         </div>
 
         {(t.mcq.length > 0 || t.flashcards.length > 0 || t.cases.length > 0) && (

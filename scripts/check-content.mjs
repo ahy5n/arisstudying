@@ -48,7 +48,8 @@ const seenItem = (id, where) => {
 
 for (const m of modulesFile?.modules ?? []) {
   for (const k of ['code', 'name', 'theme', 'colour', 'contentStatus']) if (!m[k]) err(`modules.json: module ${m.code ?? '?'} is missing "${k}"`)
-  if (!['Management', 'Patient', 'Professional'].includes(m.theme)) warn(`modules.json: ${m.code} has unknown theme "${m.theme}"`)
+  if (!['Foundations', 'Management', 'Patient', 'Professional'].includes(m.theme)) warn(`modules.json: ${m.code} has unknown theme "${m.theme}"`)
+  if (!Array.isArray(m.years) || !m.years.length || m.years.some((y) => !(y >= 1 && y <= 5))) err(`modules.json: ${m.code} needs "years" (1–5)`)
   if (m.contentStatus !== 'full') {
     if (!m.outline?.length) warn(`modules.json: ${m.code} is an outline module with no outline topics`)
     continue

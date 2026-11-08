@@ -16,7 +16,7 @@ export function VerseCard({ verses }: { verses: ResolvedVerse[] }) {
   const canExpand = v.partial && !!(v.arabic || v.englishFull)
 
   return (
-    <figure className="card relative overflow-hidden bg-gradient-to-br from-white via-white to-rose-soft">
+    <figure className="card relative overflow-hidden bg-gradient-to-br from-surface via-surface to-accent-soft">
       <button
         className="block w-full px-6 pb-5 pt-6 text-left sm:px-7"
         onClick={() => {
@@ -36,7 +36,7 @@ export function VerseCard({ verses }: { verses: ResolvedVerse[] }) {
             — {v.surah ? `Surah ${v.surah} ` : 'Qur’an '}
             {v.ref}
           </span>
-          <span aria-hidden className="shrink-0 text-[12px] text-faint">
+          <span aria-hidden className="shrink-0 text-[12px] text-muted">
             tap for another
           </span>
         </figcaption>
@@ -44,14 +44,14 @@ export function VerseCard({ verses }: { verses: ResolvedVerse[] }) {
       {canExpand && (
         <div className="-mt-2 px-6 pb-5 sm:px-7">
           <button
-            className="text-[14px] font-semibold text-rose-ink underline-offset-4 hover:underline"
+            className="text-[14px] font-semibold text-accent underline-offset-4 hover:underline"
             onClick={() => setFull((f) => !f)}
             aria-expanded={full}
           >
             {full ? 'Hide the full ayah' : 'Read the full ayah'}
           </button>
           {full && (
-            <div className="fade-in mt-3 space-y-3 border-t border-line pt-3">
+            <div className="fade-in mt-3 space-y-3 border-t border-border pt-3">
               {v.arabic && (
                 <p dir="rtl" lang="ar" className="font-arabic text-[24px] leading-[1.9]">
                   {v.arabic}

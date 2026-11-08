@@ -2,16 +2,17 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { inkColour } from '@/lib/colour'
+import { inkColour, subjectWash } from '@/lib/colour'
 import { addDays, fmtDayLong, mondayOf, weekdayIndex } from '@/lib/dates'
 import { isDue } from '@/lib/leitner'
-import { type LibraryModule, moduleProgress } from '@/lib/progress'
+import { type LibraryModule, moduleProgress, yearLabel } from '@/lib/progress'
 import type { WeekInfo } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { ProgressRing } from '../bits'
 import { ChevronRight } from '../icons'
 
-const THEMES = ['Management', 'Patient', 'Professional'] as const
+const THEMES = ['Foundations', 'Management', 'Patient', 'Professional'] as const
+const YEARS = [1, 2, 3, 4, 5] as const
 
 export function Library({
   modules,
@@ -27,6 +28,7 @@ export function Library({
   const { today } = useApp()
   const data = useData()
   const [theme, setTheme] = useState<string | null>(null)
+  const [year, setYear] = useState<number | null>(null)
 
   const weekend = weekdayIndex(today) >= 5
   const thisMonday = weekend ? addDays(mondayOf(today), 7) : mondayOf(today)
@@ -35,18 +37,18 @@ export function Library({
   const known = new Set(knownItemIds)
   const due = Object.values(data.reviews).filter((r) => known.has(r.itemId) && isDue(r, today)).length
   const inDeck = Object.values(data.reviews).filter((r) => known.has(r.itemId) && r.box < 5).length
-  const shown = theme ? modules.filter((m) => m.theme === theme) : modules
+  const shown = modules.filter((m) => (!theme || m.theme === theme) && (!year || m.years.includes(year)))
 
   return (
     <section
       aria-labelledby="library"
-      className={readingWeek ? 'rounded-[28px] bg-sage-soft/80 p-3 ring-2 ring-sage sm:p-4' : ''}
+      className={readingWeek ? 'rounded-[28px] bg-good-soft/80 p-3 ring-2 ring-good sm:p-4' : ''}
     >
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="library" className="text-[22px] font-semibold">
           Module library
         </h2>
-        {readingWeek && <p className="text-[14px] font-medium text-sage-ink">Reading week — pick anything you like</p>}
+        {readingWeek && <p className="text-[14px] font-medium text-good-ink">Reading week — pick anything you like</p>}
       </div>
 
       <div role="group" aria-label="Filter by theme" className="no-scrollbar -mx-1 mt-3 flex gap-2 overflow-x-auto px-1 pb-1">
@@ -58,7 +60,7 @@ export function Library({
               onClick={() => setTheme(t)}
               aria-pressed={active}
               className={`min-h-11 shrink-0 rounded-full px-4 text-[15px] font-semibold transition-colors ${
-                active ? 'bg-ink text-white' : 'bg-card text-muted shadow-[var(--shadow-soft)] hover:text-ink'
+                active ? 'bg-accent text-on-accent' : 'bg-surface text-muted shadow-[var(--shadow-soft)] hover:text-ink'
               }`}
             >
               {t ?? 'All'}
@@ -66,6 +68,26 @@ export function Library({
           )
         })}
       </div>
+
+      <div role="group" aria-label="Filter by year" className="no-scrollbar -mx-1 mt-2 flex items-center gap-2 overflow-x-auto px-1 pb-1">
+        <span className="shrink-0 text-[13px] font-semibold text-muted">Year</span>
+        {[null, ...YEARS].map((y) => {
+          const active = year === y
+          return (
+            <button
+              key={y ?? 'any'}
+              onClick={() => setYear(y)}
+              aria-pressed={active}
+              className={`min-h-9 shrink-0 rounded-full px-3.5 text-[14px] font-semibold transition-colors ${
+                active ? 'bg-accent text-on-accent' : 'bg-surface text-muted shadow-[var(--shadow-soft)] hover:text-ink'
+              }`}
+            >
+              {y ?? 'Any'}
+            </button>
+          )
+        })}
+      </div>
+      {shown.length === 0 && <p className="mt-3 text-[14px] text-muted">No modules match those filters.</p>}
 
       <ul className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
         {shown.map((m) => {
@@ -76,17 +98,20 @@ export function Library({
               <Link
                 href={`/m/${m.code}`}
                 className="card group flex h-full min-h-[132px] flex-col justify-between overflow-hidden p-4 transition-shadow hover:shadow-[var(--shadow-lift)]"
-                style={{ background: `linear-gradient(160deg, ${m.colour} 0%, ${m.colour}55 55%, #fff 100%)` }}
+                style={subjectWash(m.colour, inkColour(m.colour), 160, 33)}
               >
                 <div className="flex items-start justify-between gap-2">
-                  <span className="font-rounded text-[22px] font-bold" style={{ color: inkColour(m.colour) }}>
+                  <span className="subject-code font-rounded text-[22px] font-bold">
                     {m.code}
                   </span>
                   <ProgressRing value={pct} colour={m.colour} label={`${m.code} ${Math.round(pct * 100)}% ticked`} />
                 </div>
                 <div>
                   <p className="text-[15px] font-medium leading-snug text-ink">{name}</p>
-                  {!m.hasContent && <p className="mt-0.5 text-[12px] text-muted">Content coming soon</p>}
+                  <p className="mt-0.5 text-[12px] text-muted">
+                    {yearLabel(m.years)}
+                    {!m.hasContent && ' · content coming soon'}
+                  </p>
                 </div>
               </Link>
             </li>
@@ -103,6 +128,11 @@ export function Library({
         </Tile>
         <Tile href="/checklists" title="Checklists" tone="sage">
           {checklistCount} practical {checklistCount === 1 ? 'routine' : 'routines'}
+        </Tile>
+        <Tile href="/flashcards" title="Your flashcards" tone="lilac" wide>
+          {data.cardSets.length
+            ? `${data.cardSets.reduce((n, s) => n + s.cards.length, 0)} cards in ${data.cardSets.length} ${data.cardSets.length === 1 ? 'set' : 'sets'}`
+            : 'Import from Quizlet, Anki or your slides'}
         </Tile>
         <Tile href="/tracker" title="70% tracker" tone="butter">
           Your marks and what’s left
@@ -137,11 +167,11 @@ function placementSummary(
 }
 
 const TONES = {
-  rose: 'bg-rose-soft text-rose-ink',
-  lilac: 'bg-lilac-soft text-lilac-ink',
-  sage: 'bg-sage-soft text-sage-ink',
-  butter: 'bg-butter-soft text-butter-ink',
-  sky: 'bg-sky-soft text-sky-ink',
+  rose: 'bg-accent-soft text-accent-strong',
+  lilac: 'bg-accent-soft text-accent-strong',
+  sage: 'bg-accent-soft text-accent-strong',
+  butter: 'bg-accent-soft text-accent-strong',
+  sky: 'bg-accent-soft text-accent-strong',
 }
 
 function Tile({

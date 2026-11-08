@@ -21,13 +21,13 @@ export function FlashcardCard({ id, card, onResult }: { id: string; card: Flashc
         aria-label={flipped ? 'Show the question' : 'Flip to see the answer'}
       >
         <div className={`flip-inner grid min-h-[220px] ${flipped ? 'flipped' : ''}`}>
-          <div className="flip-face col-start-1 row-start-1 flex flex-col justify-between rounded-[22px] bg-gradient-to-br from-lilac-soft to-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-lilac/60">
-            <p className="eyebrow text-lilac-ink">Question</p>
+          <div className="flip-face col-start-1 row-start-1 flex flex-col justify-between rounded-[22px] bg-gradient-to-br from-accent-soft to-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-accent-tint/60">
+            <p className="eyebrow text-accent">Question</p>
             <p className="my-4 text-center font-rounded text-[22px] font-semibold leading-snug">{card.front}</p>
             <p className="text-center text-[13px] text-muted">Tap to flip</p>
           </div>
-          <div className="flip-face flip-back col-start-1 row-start-1 flex flex-col justify-between rounded-[22px] bg-gradient-to-br from-sage-soft to-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-sage">
-            <p className="eyebrow text-sage-ink">Answer</p>
+          <div className="flip-face flip-back col-start-1 row-start-1 flex flex-col justify-between rounded-[22px] bg-gradient-to-br from-good-soft to-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-good">
+            <p className="eyebrow text-good-ink">Answer</p>
             <p className="my-4 text-center text-[19px] leading-snug">{card.back}</p>
             <p className="text-center text-[13px] text-muted">Tap to flip back</p>
           </div>
@@ -37,7 +37,7 @@ export function FlashcardCard({ id, card, onResult }: { id: string; card: Flashc
         <button className="btn btn-soft min-h-12" onClick={() => mark(false)} tabIndex={flipped ? 0 : -1}>
           Again
         </button>
-        <button className="btn min-h-12 bg-sage text-sage-ink hover:bg-[#c8e8d6]" onClick={() => mark(true)} tabIndex={flipped ? 0 : -1}>
+        <button className="btn min-h-12 bg-good text-good-ink hover:bg-good/80" onClick={() => mark(true)} tabIndex={flipped ? 0 : -1}>
           Got it
         </button>
       </div>

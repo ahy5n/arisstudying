@@ -1,7 +1,29 @@
-// The app icon: a soft eye on a pastel gradient. Drawn for ImageResponse,
-// so it stays inside the maskable safe zone (centre 80%).
-export function IconArt({ size, rounded = false }: { size: number; rounded?: boolean }) {
-  const eye = size * 0.62
+// Static icons for ImageResponse. They can't follow the theme, so they use
+// the fixed Prism colours: the favicon is the ink mark on the Prism
+// background; app icons are the light mark on a violet square.
+
+const FAVICON = { bg: '#F6F5FA', ring: '#17151F', dot: '#5638D1' }
+const APP = { bg: '#5638D1', ring: '#FDFCFF', dot: '#E5E0FA' }
+
+function Mark({ size, ring, dot }: { size: number; ring: string; dot: string }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 96 96">
+      <circle cx="48" cy="48" r="40" fill="none" stroke={ring} strokeWidth="7" />
+      <circle cx="48" cy="48" r="24" fill="none" stroke={ring} strokeWidth="7" />
+      <circle cx="56" cy="40" r="10" fill={dot} />
+    </svg>
+  )
+}
+
+/**
+ * kind "favicon": the mark filling a soft Prism tile.
+ * kind "app": rounded violet square (home-screen icon).
+ * kind "full-bleed": square violet tile with the mark in the maskable
+ *   safe zone, for maskable and Apple icons (the OS rounds the corners).
+ */
+export function IconArt({ size, kind }: { size: number; kind: 'favicon' | 'app' | 'full-bleed' }) {
+  const c = kind === 'favicon' ? FAVICON : APP
+  const mark = size * (kind === 'favicon' ? 0.86 : kind === 'app' ? 0.64 : 0.56)
   return (
     <div
       style={{
@@ -10,16 +32,11 @@ export function IconArt({ size, rounded = false }: { size: number; rounded?: boo
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'linear-gradient(145deg, #f9d8de 0%, #f6c9d0 45%, #e5daf5 100%)',
-        borderRadius: rounded ? size * 0.22 : 0,
+        background: c.bg,
+        borderRadius: kind === 'full-bleed' ? 0 : size * 0.22,
       }}
     >
-      <svg width={eye} height={eye} viewBox="0 0 100 100">
-        <path d="M8 50 Q 50 8 92 50 Q 50 92 8 50 Z" fill="#ffffff" stroke="#9a4560" strokeWidth="5" strokeLinejoin="round" />
-        <circle cx="50" cy="50" r="17" fill="#cfe3f7" stroke="#2d5a85" strokeWidth="3.5" />
-        <circle cx="50" cy="50" r="7.5" fill="#2e2a33" />
-        <circle cx="55" cy="45" r="3" fill="#ffffff" />
-      </svg>
+      <Mark size={mark} ring={c.ring} dot={c.dot} />
     </div>
   )
 }

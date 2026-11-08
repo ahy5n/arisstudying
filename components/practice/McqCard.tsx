@@ -46,17 +46,17 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
                 aria-pressed={isChosen}
                 className={`flex min-h-14 w-full items-center gap-3 rounded-2xl border-2 px-4 py-3 text-left text-[17px] transition-colors ${
                   showRight
-                    ? 'border-sage-ink/40 bg-sage-soft'
+                    ? 'border-good-ink/40 bg-good-soft'
                     : showWrong
-                      ? 'border-rose-ink/40 bg-rose-soft'
+                      ? 'border-bad-ink/40 bg-bad-soft'
                       : answered
-                        ? 'border-transparent bg-wash/60 text-muted'
-                        : 'border-line bg-card hover:border-lilac hover:bg-lilac-soft/50'
+                        ? 'border-transparent bg-bg/60 text-muted'
+                        : 'border-border bg-surface hover:border-accent-tint hover:bg-accent-soft/50'
                 }`}
               >
                 <span
                   className={`grid size-8 shrink-0 place-items-center rounded-full text-[14px] font-bold ${
-                    showRight ? 'bg-sage text-sage-ink' : showWrong ? 'bg-rose text-rose-ink' : 'bg-wash text-muted'
+                    showRight ? 'bg-good text-good-ink' : showWrong ? 'bg-bad text-bad-ink' : 'bg-bg text-muted'
                   }`}
                 >
                   {showRight ? <CheckIcon className="size-4" /> : showWrong ? <CloseIcon className="size-4" /> : LETTERS[pos]}
@@ -70,8 +70,8 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
 
       {answered && (
         <div className="fade-in mt-5 space-y-3" role="status">
-          <div className={`rounded-2xl px-4 py-3.5 ${correct ? 'bg-sage-soft' : 'bg-rose-soft'}`}>
-            <p className={`font-rounded text-[17px] font-semibold ${correct ? 'text-sage-ink' : 'text-rose-ink'}`}>
+          <div className={`rounded-2xl px-4 py-3.5 ${correct ? 'bg-good-soft' : 'bg-bad-soft'}`}>
+            <p className={`font-rounded text-[17px] font-semibold ${correct ? 'text-good-ink' : 'text-bad-ink'}`}>
               {correct ? 'Correct' : 'Not quite'}
             </p>
             <p className="mt-1 text-[16px]">{mcq.options[chosen].feedback}</p>
@@ -85,7 +85,7 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
               {mcq.link && (
                 <Link
                   href={`/t/${mcq.link}`}
-                  className="inline-flex min-h-11 items-center gap-1 rounded-full bg-sky-soft px-3.5 text-[14px] font-semibold text-sky-ink hover:bg-sky"
+                  className="inline-flex min-h-11 items-center gap-1 rounded-full bg-accent-soft px-3.5 text-[14px] font-semibold text-accent-strong hover:bg-accent-tint"
                 >
                   Read more
                   <ChevronRight className="size-4" />

@@ -3,6 +3,7 @@
 // label-the-diagram exercise).
 
 import type { ReactNode } from 'react'
+import { FIG } from './palette'
 import {
   Arrowheads,
   BUTTER,
@@ -22,7 +23,7 @@ import {
   T,
 } from './kit'
 
-const DARK = '#1f1b24'
+const DARK = FIG.grey900b
 
 function Box({
   x,
@@ -66,9 +67,9 @@ const retReflex: DiagramDef = {
       <g key={kind}>
         <circle cx={cx} cy={110} r={62} fill={DARK} />
         {kind === 'neutral' ? (
-          <circle cx={cx} cy={110} r={56} fill="#f2a64a" opacity={0.9} />
+          <circle cx={cx} cy={110} r={56} fill={FIG.orange400b} opacity={0.9} />
         ) : (
-          <rect x={cx - 34} y={52} width={30} height={116} rx={4} fill="#f2a64a" opacity={0.9} transform={`rotate(0 ${cx} 110)`} />
+          <rect x={cx - 34} y={52} width={30} height={116} rx={4} fill={FIG.orange400b} opacity={0.9} transform={`rotate(0 ${cx} 110)`} />
         )}
         <circle cx={cx} cy={110} r={62} fill="none" stroke={INK} strokeWidth={2} />
         {kind !== 'neutral' && (
@@ -111,8 +112,8 @@ const duochrome: DiagramDef = {
   viewBox: [660, 270],
   caption: 'Green focuses in front of red (longitudinal chromatic aberration). Aim for the retina between them.',
   render: (L) => {
-    const GREEN = '#2f8a55'
-    const RED = '#c0392b'
+    const GREEN = FIG.green600
+    const RED = FIG.red500b
     const panel = (ox: number, title: string, g: number, r: number, verdict: string) => (
       <g key={title}>
         <T x={ox + 100} y={20} size={14} fill={INK} show={L}>
@@ -224,7 +225,7 @@ const rgpFluorescein: DiagramDef = {
   viewBox: [660, 270],
   caption: 'Under cobalt blue with a yellow barrier filter: green = tear layer (clearance), dark = touch.',
   render: (L) => {
-    const FL = '#8ef0a0'
+    const FL = FIG.green300b
     const panel = (cx: number, id: string, title: string, stops: [number, number][], edge: number) => (
       <g key={id}>
         <defs>
@@ -234,10 +235,10 @@ const rgpFluorescein: DiagramDef = {
             ))}
           </radialGradient>
         </defs>
-        <circle cx={cx} cy={120} r={96} fill="#1d2552" />
+        <circle cx={cx} cy={120} r={96} fill={FIG.indigo800} />
         <circle cx={cx} cy={120} r={80} fill={`url(#${id})`} />
         <circle cx={cx} cy={120} r={80 - edge / 2} fill="none" stroke={FL} strokeWidth={edge} opacity={0.95} />
-        <circle cx={cx} cy={120} r={80} fill="none" stroke="#c9d4ff" strokeWidth={1} opacity={0.5} />
+        <circle cx={cx} cy={120} r={80} fill="none" stroke={FIG.indigo100} strokeWidth={1} opacity={0.5} />
         <T x={cx} y={240} size={14} fill={INK} show={L}>
           {title}
         </T>
@@ -310,24 +311,24 @@ const vanHerick: DiagramDef = {
             <g key={g}>
               <rect x={ox} y={30} width={150} height={220} rx={14} fill={DARK} />
               {/* corneal section */}
-              <path d={`M${cx} 50 L ${cx + CT} 50 L ${cx + CT - 12} 230 L ${cx - 12} 230 Z`} fill="#e9f2fc" opacity={0.95} />
+              <path d={`M${cx} 50 L ${cx + CT} 50 L ${cx + CT - 12} 230 L ${cx - 12} 230 Z`} fill={FIG.blue50b} opacity={0.95} />
               {/* iris band */}
               <path
                 d={`M${cx + CT + gap} 50 L ${cx + CT + gap + 40} 50 L ${cx + CT + gap + 28} 230 L ${cx + CT + gap - 12} 230 Z`}
-                fill="#e2b98f"
+                fill={FIG.orange300c}
                 opacity={0.95}
               />
               {i === 0 && L && (
                 <g>
-                  <line x1={cx} y1={42} x2={cx + CT} y2={42} stroke="#ffffff" strokeWidth={1.5} />
-                  <text x={cx + CT / 2} y={36} textAnchor="middle" fontSize={12} fontWeight={700} fill="#ffffff">
+                  <line x1={cx} y1={42} x2={cx + CT} y2={42} stroke={FIG.white} strokeWidth={1.5} />
+                  <text x={cx + CT / 2} y={36} textAnchor="middle" fontSize={12} fontWeight={700} fill={FIG.white}>
                     CT
                   </text>
                   <line x1={cx + CT} y1={258} x2={cx + CT + gap} y2={258} stroke={INK} strokeWidth={1.5} />
                   <text x={cx + CT + gap / 2} y={272} textAnchor="middle" fontSize={11} fontWeight={700} fill={INK}>
                     AC
                   </text>
-                  <text x={cx + CT + gap + 46} y={140} fontSize={11} fontWeight={600} fill="#ffffff">
+                  <text x={cx + CT + gap + 46} y={140} fontSize={11} fontWeight={600} fill={FIG.white}>
                     iris
                   </text>
                 </g>
@@ -425,7 +426,7 @@ const cornealZones: DiagramDef = {
         ))}
         <circle cx={cx} cy={cy} r={r} fill={ROSE_SOFT} stroke={INK} strokeWidth={1.2} />
         {[[150, 226], [168, 234], [186, 230], [140, 218], [200, 220], [175, 222]].map(([x, y], i) => (
-          <circle key={i} cx={x} cy={y} r={3} fill="#2f8a55" />
+          <circle key={i} cx={x} cy={y} r={3} fill={FIG.green600} />
         ))}
         {L && (
           <g>
@@ -445,7 +446,7 @@ const cornealZones: DiagramDef = {
               Temporal
             </T>
             <Lead x1={204} y1={224} x2={330} y2={270} />
-            <T x={336} y={270} anchor="start" size={13} fill="#2f8a55">
+            <T x={336} y={270} anchor="start" size={13} fill={FIG.green600}>
               e.g. inferior punctate staining
             </T>
             <T x={336} y={70} anchor="start" size={12} weight={500} fill={MUTED}>
@@ -476,16 +477,16 @@ const opticDisc: DiagramDef = {
   render: (L) => {
     const disc = (cx: number, cy: number, notch: boolean) => (
       <g>
-        <ellipse cx={cx} cy={cy} rx={108} ry={122} fill="#f4c7a1" stroke="#c98d63" strokeWidth={2} />
+        <ellipse cx={cx} cy={cy} rx={108} ry={122} fill={FIG.orange200b} stroke={FIG.orange400c} strokeWidth={2} />
         {notch ? (
           <path
             d={`M${cx - 70} ${cy - 10} C ${cx - 70} ${cy - 70}, ${cx + 30} ${cy - 76}, ${cx + 40} ${cy - 20} C ${cx + 46} ${cy + 20}, ${cx + 18} ${cy + 50}, ${cx + 14} ${cy + 110} L ${cx - 6} ${cy + 112} C ${cx - 14} ${cy + 60}, ${cx - 70} ${cy + 40}, ${cx - 70} ${cy - 10} Z`}
-            fill="#fbe9d6"
-            stroke="#e0b48c"
+            fill={FIG.orange100c}
+            stroke={FIG.orange300d}
             strokeWidth={1.5}
           />
         ) : (
-          <ellipse cx={cx - 20} cy={cy - 14} rx={56} ry={62} fill="#fbe9d6" stroke="#e0b48c" strokeWidth={1.5} />
+          <ellipse cx={cx - 20} cy={cy - 14} rx={56} ry={62} fill={FIG.orange100c} stroke={FIG.orange300d} strokeWidth={1.5} />
         )}
         {/* vessels emerging from the cup and bending over the rim */}
         {[
@@ -494,7 +495,7 @@ const opticDisc: DiagramDef = {
           `M${cx + 14} ${cy - 16} C ${cx + 60} ${cy - 40}, ${cx + 100} ${cy - 60}, ${cx + 140} ${cy - 100}`,
           `M${cx + 14} ${cy - 4} C ${cx + 60} ${cy + 20}, ${cx + 100} ${cy + 50}, ${cx + 140} ${cy + 90}`,
         ].map((d, i) => (
-          <path key={i} d={d} fill="none" stroke={i % 2 ? '#a8343a' : '#cc5a50'} strokeWidth={i % 2 ? 6 : 4.5} strokeLinecap="round" />
+          <path key={i} d={d} fill="none" stroke={i % 2 ? FIG.red600b : FIG.red400} strokeWidth={i % 2 ? 6 : 4.5} strokeLinecap="round" />
         ))}
       </g>
     )
@@ -511,7 +512,7 @@ const opticDisc: DiagramDef = {
         <g clipPath="url(#disc-clip-a)">{disc(180, 178, false)}</g>
         <g clipPath="url(#disc-clip-b)">{disc(500, 178, true)}</g>
         {/* flame haemorrhage at the inferior margin of the notched disc */}
-        <path d="M468 286 q 8 10 2 22 q -10 -8 -2 -22 Z" fill="#b3202a" />
+        <path d="M468 286 q 8 10 2 22 q -10 -8 -2 -22 Z" fill={FIG.red600d} />
         {L && (
           <g>
             <T x={180} y={22} size={14} fill={INK}>
@@ -540,7 +541,7 @@ const opticDisc: DiagramDef = {
               notch
             </T>
             <Lead x1={462} y1={298} x2={400} y2={322} />
-            <T x={396} y={322} anchor="end" size={12} fill="#b3202a">
+            <T x={396} y={322} anchor="end" size={12} fill={FIG.red600d}>
               disc haemorrhage
             </T>
           </g>
@@ -557,9 +558,9 @@ function FundusBase({ id }: { id: string }) {
     <g>
       <defs>
         <radialGradient id={`${id}-bg`} cx="45%" cy="50%" r="60%">
-          <stop offset="0%" stopColor="#f5c9a2" />
-          <stop offset="80%" stopColor="#e9a77c" />
-          <stop offset="100%" stopColor="#d98d63" />
+          <stop offset="0%" stopColor={FIG.orange200} />
+          <stop offset="80%" stopColor={FIG.orange300} />
+          <stop offset="100%" stopColor={FIG.orange400} />
         </radialGradient>
         <clipPath id={`${id}-clip`}>
           <circle cx={320} cy={190} r={170} />
@@ -578,13 +579,13 @@ function FundusBase({ id }: { id: string }) {
           [`M${disc.x + 2} ${disc.y - 16} C 460 130, 480 100, 500 60`, 'a'],
           [`M${disc.x + 2} ${disc.y + 16} C 460 250, 480 280, 500 320`, 'a'],
         ].map(([d, k], i) => (
-          <path key={i} d={d} fill="none" stroke={k === 'v' ? '#9e2f35' : '#cf5f55'} strokeWidth={k === 'v' ? 6 : 4} strokeLinecap="round" />
+          <path key={i} d={d} fill="none" stroke={k === 'v' ? FIG.red600c : FIG.red400b} strokeWidth={k === 'v' ? 6 : 4} strokeLinecap="round" />
         ))}
-        <ellipse cx={disc.x} cy={disc.y} rx={30} ry={34} fill="#fbe2c2" stroke="#e7b98d" strokeWidth={1.5} />
-        <ellipse cx={disc.x - 5} cy={disc.y - 3} rx={12} ry={14} fill="#fff4e6" />
+        <ellipse cx={disc.x} cy={disc.y} rx={30} ry={34} fill={FIG.orange100} stroke={FIG.orange300b} strokeWidth={1.5} />
+        <ellipse cx={disc.x - 5} cy={disc.y - 3} rx={12} ry={14} fill={FIG.orange50} />
         {/* macula and fovea */}
-        <circle cx={250} cy={196} r={44} fill="#c9784f" opacity={0.35} />
-        <circle cx={250} cy={196} r={6} fill="#8a4a2e" />
+        <circle cx={250} cy={196} r={44} fill={FIG.orange500} opacity={0.35} />
+        <circle cx={250} cy={196} r={6} fill={FIG.orange600} />
       </g>
       <circle cx={320} cy={190} r={170} fill="none" stroke={INK} strokeWidth={1.5} />
     </g>
@@ -619,11 +620,11 @@ const normalFundus: DiagramDef = {
             Macula
           </T>
           <Lead x1={330} y1={103} x2={360} y2={20} />
-          <T x={366} y={20} anchor="start" size={13} fill="#cf5f55">
+          <T x={366} y={20} anchor="start" size={13} fill={FIG.red400b}>
             Artery (thinner, lighter)
           </T>
           <Lead x1={300} y1={300} x2={360} y2={366} />
-          <T x={366} y={366} anchor="start" size={13} fill="#9e2f35">
+          <T x={366} y={366} anchor="start" size={13} fill={FIG.red600c}>
             Vein (wider, darker)
           </T>
         </g>
@@ -647,33 +648,33 @@ const diabeticRetinopathy: DiagramDef = {
       <FundusBase id="dr" />
       {/* microaneurysms */}
       {[[300, 230], [312, 214], [282, 244], [214, 150], [330, 250]].map(([x, y], i) => (
-        <circle key={i} cx={x} cy={y} r={2.6} fill="#8f1d24" />
+        <circle key={i} cx={x} cy={y} r={2.6} fill={FIG.red700} />
       ))}
       {/* blot haemorrhages */}
       {[[200, 250], [176, 168], [356, 280]].map(([x, y], i) => (
-        <circle key={i} cx={x} cy={y} r={8} fill="#a3252d" opacity={0.9} />
+        <circle key={i} cx={x} cy={y} r={8} fill={FIG.red600} opacity={0.9} />
       ))}
       {/* hard exudates near the macula */}
       {[[276, 172], [284, 178], [270, 182], [290, 168], [278, 186], [268, 170]].map(([x, y], i) => (
-        <circle key={i} cx={x} cy={y} r={3.4} fill="#f7e27a" stroke="#c9a92a" strokeWidth={0.8} />
+        <circle key={i} cx={x} cy={y} r={3.4} fill={FIG.amber300} stroke={FIG.amber500} strokeWidth={0.8} />
       ))}
       {/* cotton wool spots */}
       {[[338, 128], [370, 252]].map(([x, y], i) => (
-        <ellipse key={i} cx={x} cy={y} rx={13} ry={9} fill="#fffaf0" opacity={0.92} />
+        <ellipse key={i} cx={x} cy={y} rx={13} ry={9} fill={FIG.amber50} opacity={0.92} />
       ))}
       {/* venous beading on the inferior vein */}
       {[[350, 288], [334, 293], [318, 297]].map(([x, y], i) => (
-        <circle key={i} cx={x} cy={y} r={5.5} fill="#9e2f35" />
+        <circle key={i} cx={x} cy={y} r={5.5} fill={FIG.red600c} />
       ))}
       {/* IRMA */}
-      <path d="M220 110 q 6 -8 12 0 q 6 8 12 0 q 6 -8 12 0" fill="none" stroke="#b73b3b" strokeWidth={1.4} />
+      <path d="M220 110 q 6 -8 12 0 q 6 8 12 0 q 6 -8 12 0" fill="none" stroke={FIG.red500} strokeWidth={1.4} />
       {/* NVD: fine new vessels on the disc */}
       {[0, 60, 120, 180, 240, 300].map((a) => (
         <path
           key={a}
           d={`M440 190 q ${16 * Math.cos((a * Math.PI) / 180)} ${16 * Math.sin((a * Math.PI) / 180) - 10} ${28 * Math.cos((a * Math.PI) / 180)} ${28 * Math.sin((a * Math.PI) / 180)}`}
           fill="none"
-          stroke="#c0283a"
+          stroke={FIG.red500c}
           strokeWidth={1.3}
         />
       ))}
@@ -717,14 +718,14 @@ const gatMires: DiagramDef = {
   viewBox: [660, 250],
   caption: 'Turn the dial until the inner edges of the two semicircles just touch. Dial reading × 10 = IOP in mmHg.',
   render: (L) => {
-    const FL = '#7fe08f'
+    const FL = FIG.green300
     const panel = (cx: number, s: number, title: string) => {
       const R = 40
       const t = 9
       return (
         <g key={title}>
-          <circle cx={cx} cy={110} r={92} fill="#1d2552" />
-          <line x1={cx - 92} y1={110} x2={cx + 92} y2={110} stroke="#c9d4ff" strokeWidth={0.8} opacity={0.5} />
+          <circle cx={cx} cy={110} r={92} fill={FIG.indigo800} />
+          <line x1={cx - 92} y1={110} x2={cx + 92} y2={110} stroke={FIG.indigo100} strokeWidth={0.8} opacity={0.5} />
           {/* upper semicircle (shifted left), lower semicircle (shifted right) */}
           <path d={`M${cx - s - R} 110 A ${R} ${R} 0 0 1 ${cx - s + R} 110`} fill="none" stroke={FL} strokeWidth={t} />
           <path d={`M${cx + s - R} 110 A ${R} ${R} 0 0 0 ${cx + s + R} 110`} fill="none" stroke={FL} strokeWidth={t} />
@@ -753,15 +754,15 @@ const octMacula: DiagramDef = {
     const pit = (x: number) => Math.exp(-(((x - 250) / 52) ** 2))
     // [name, base thickness, thins at fovea?, colour]
     const layers: [string, number, boolean, string][] = [
-      ['RNFL', 16, true, '#f2f2f2'],
-      ['Ganglion cell layer', 18, true, '#8c8c8c'],
-      ['Inner plexiform', 14, true, '#d6d6d6'],
-      ['Inner nuclear', 16, true, '#6f6f6f'],
-      ['Outer plexiform', 10, true, '#cfcfcf'],
-      ['Outer nuclear', 34, false, '#4b4b4b'],
-      ['Ellipsoid zone', 8, false, '#f0f0f0'],
-      ['RPE', 10, false, '#ffffff'],
-      ['Choroid', 40, false, '#5d5d5d'],
+      ['RNFL', 16, true, FIG.grey100b],
+      ['Ganglion cell layer', 18, true, FIG.grey500],
+      ['Inner plexiform', 14, true, FIG.grey200b],
+      ['Inner nuclear', 16, true, FIG.grey600c],
+      ['Outer plexiform', 10, true, FIG.grey200],
+      ['Outer nuclear', 34, false, FIG.grey700],
+      ['Ellipsoid zone', 8, false, FIG.grey100],
+      ['RPE', 10, false, FIG.white],
+      ['Choroid', 40, false, FIG.grey600b],
     ]
     const top = (x: number) => 70 + 46 * pit(x)
     const paths: ReactNode[] = []
@@ -780,14 +781,14 @@ const octMacula: DiagramDef = {
     })
     return (
       <g>
-        <rect x={x0} y={20} width={x1 - x0} height={290} fill="#151515" />
+        <rect x={x0} y={20} width={x1 - x0} height={290} fill={FIG.grey900} />
         {paths}
         {L && (
           <g>
-            <text x={250} y={40} textAnchor="middle" fontSize={12} fontWeight={600} fill="#ffffff">
+            <text x={250} y={40} textAnchor="middle" fontSize={12} fontWeight={600} fill={FIG.white}>
               vitreous
             </text>
-            <Lead x1={250} y1={112} x2={250} y2={50} colour="#ffffff" />
+            <Lead x1={250} y1={112} x2={250} y2={50} colour={FIG.white} />
             {label.map((l, i) => {
               const ly = 40 + i * 30
               return (
@@ -799,7 +800,7 @@ const octMacula: DiagramDef = {
                 </g>
               )
             })}
-            <text x={300} y={104} fontSize={11} fontWeight={600} fill="#ffffff">
+            <text x={300} y={104} fontSize={11} fontWeight={600} fill={FIG.white}>
               foveal pit
             </text>
           </g>
@@ -820,7 +821,7 @@ const visualPathway: DiagramDef = {
       return (
         <g>
           <circle cx={cx} cy={cy} r={r} fill="white" stroke={MUTED} strokeWidth={1.3} />
-          {shade && <path d={shade} fill="#4a4350" opacity={0.85} />}
+          {shade && <path d={shade} fill={FIG.grey700b} opacity={0.85} />}
           {spare && <circle cx={cx} cy={cy} r={6} fill="white" />}
           <circle cx={cx} cy={cy} r={r} fill="none" stroke={MUTED} strokeWidth={1.3} />
         </g>
@@ -1051,7 +1052,7 @@ const evidencePyramid: DiagramDef = {
   viewBox: [640, 360],
   render: () => {
     const levels = ['Systematic reviews & meta-analyses', 'Randomised controlled trials', 'Cohort studies', 'Case-control studies', 'Cross-sectional studies', 'Case series & reports', 'Expert opinion']
-    const fills = ['#f6c9d0', '#f8d6dc', '#e5daf5', '#ece4f8', '#cfe3f7', '#dde9f6', '#e7efe0']
+    const fills = [FIG.red100b, FIG.red100, FIG.violet100b, FIG.violet100, FIG.blue100, FIG.blue100b, FIG.green100]
     return (
       <g>
         {levels.map((l, i) => {
@@ -1098,8 +1099,8 @@ const normalCurve: DiagramDef = {
       <g>
         <Arrowheads />
         <path d={area(-3, 3)} fill={SKY_SOFT} />
-        <path d={area(-2, 2)} fill="#dbe9f8" />
-        <path d={area(-1, 1)} fill="#c3dbf3" />
+        <path d={area(-2, 2)} fill={FIG.blue100d} />
+        <path d={area(-1, 1)} fill={FIG.blue100c} />
         <path d={curve} fill="none" stroke={SKY} strokeWidth={2.5} />
         <line x1={x0} y1={base} x2={x1} y2={base} stroke={INK} strokeWidth={1.2} />
         {[-3, -2, -1, 0, 1, 2, 3].map((z) => (
@@ -1157,7 +1158,7 @@ const boolean: DiagramDef = {
               <circle cx={b.x} cy={b.y} r={R} fill={LILAC_SOFT} />
             </>
           )}
-          {kind === 'and' && <circle cx={b.x} cy={b.y} r={R} fill="#cdbdf0" clipPath={`url(#${id}-a)`} />}
+          {kind === 'and' && <circle cx={b.x} cy={b.y} r={R} fill={FIG.violet200} clipPath={`url(#${id}-a)`} />}
           {kind === 'not' && (
             <>
               <circle cx={a.x} cy={a.y} r={R} fill={LILAC_SOFT} />
@@ -1250,7 +1251,7 @@ const gibbsCycle: DiagramDef = {
         cx={310}
         cy={210}
         r={160}
-        colours={[ROSE_SOFT, LILAC_SOFT, SKY_SOFT, SAGE_SOFT, BUTTER, '#f6e3ec']}
+        colours={[ROSE_SOFT, LILAC_SOFT, SKY_SOFT, SAGE_SOFT, BUTTER, FIG.pink100]}
       />
     </g>
   ),

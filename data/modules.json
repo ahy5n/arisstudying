@@ -1,15 +1,82 @@
 {
   "_note": "Module names are inferred from the timetable (session lead, room, session type) because Aston does not publish the code meanings. 'confidence' says how sure the inference is. Every module page must show a small 'Names inferred — check against your module handbook' note until Ari confirms it via the edit button.",
   "themes": {
+    "Foundations": "The science underneath: optics, anatomy, how vision works",
     "Management": "Clinical management: dispensing, refraction, contact lenses, binocular vision, paediatrics",
     "Patient": "Examining the patient: anterior eye, posterior eye, diagnosis",
     "Professional": "Evidence, professionalism and public health"
   },
   "modules": [
     {
+      "code": "OPT",
+      "name": "Optics & Ophthalmic Lenses",
+      "theme": "Foundations",
+      "years": [
+        1
+      ],
+      "contentStatus": "full",
+      "colour": "#DCE3EE",
+      "contentFile": "content/opt.json",
+      "topics": [
+        "opt-refraction-prisms",
+        "opt-vergence-thin-lenses",
+        "opt-thick-lenses",
+        "opt-mirrors",
+        "opt-visual-optics",
+        "opt-astigmatism-cylinders",
+        "opt-accommodation-presbyopia",
+        "opt-aberrations-physical"
+      ]
+    },
+    {
+      "code": "ANA",
+      "name": "Ocular Anatomy & Physiology",
+      "theme": "Foundations",
+      "years": [
+        1
+      ],
+      "contentStatus": "full",
+      "colour": "#E6E1D3",
+      "contentFile": "content/ana.json",
+      "topics": [
+        "ana-orbit-lids-lacrimal",
+        "ana-cornea-conjunctiva-tears",
+        "ana-uvea-aqueous",
+        "ana-lens",
+        "ana-retina",
+        "ana-visual-pathway",
+        "ana-eom-nerves",
+        "ana-blood-supply"
+      ]
+    },
+    {
+      "code": "VPE",
+      "name": "Visual Perception & Vision Science",
+      "theme": "Foundations",
+      "years": [
+        1
+      ],
+      "contentStatus": "full",
+      "colour": "#D9E6E9",
+      "contentFile": "content/vpe.json",
+      "topics": [
+        "vpe-acuity-contrast",
+        "vpe-colour-vision",
+        "vpe-adaptation",
+        "vpe-visual-fields",
+        "vpe-stereopsis",
+        "vpe-motion-form",
+        "vpe-psychophysics"
+      ]
+    },
+    {
       "code": "AaD",
       "name": "Optical Dispensing",
       "theme": "Management",
+      "years": [
+        1,
+        2
+      ],
       "lead": "EH",
       "confidence": "high",
       "contentStatus": "full",
@@ -29,6 +96,10 @@
       "code": "AaM",
       "name": "Refraction & Management of Refractive Error",
       "theme": "Management",
+      "years": [
+        1,
+        2
+      ],
       "lead": "AS",
       "confidence": "medium",
       "contentStatus": "full",
@@ -59,6 +130,10 @@
       "code": "CLB",
       "name": "Contact Lenses",
       "theme": "Management",
+      "years": [
+        2,
+        3
+      ],
       "lead": "DD",
       "confidence": "high",
       "contentStatus": "full",
@@ -90,6 +165,9 @@
       "code": "AnE",
       "name": "Anterior Eye Examination",
       "theme": "Patient",
+      "years": [
+        2
+      ],
       "lead": "SN / MA",
       "confidence": "high",
       "contentStatus": "full",
@@ -118,6 +196,10 @@
       "code": "PEG",
       "name": "Posterior Eye (and Glaucoma)",
       "theme": "Patient",
+      "years": [
+        2,
+        3
+      ],
       "lead": "MA",
       "confidence": "medium",
       "contentStatus": "full",
@@ -146,6 +228,10 @@
       "code": "SyD",
       "name": "Diagnosis & Systemic Disease",
       "theme": "Patient",
+      "years": [
+        2,
+        3
+      ],
       "lead": "SB",
       "confidence": "low",
       "contentStatus": "full",
@@ -172,6 +258,10 @@
       "code": "BVP",
       "name": "Binocular Vision",
       "theme": "Management",
+      "years": [
+        2,
+        3
+      ],
       "lead": "AS",
       "confidence": "medium",
       "contentStatus": "full",
@@ -196,6 +286,10 @@
       "code": "PaP",
       "name": "Paediatrics",
       "theme": "Management",
+      "years": [
+        2,
+        3
+      ],
       "lead": "PBB",
       "confidence": "medium",
       "contentStatus": "full",
@@ -220,6 +314,11 @@
       "code": "VSE",
       "name": "Vision Science & Evidence",
       "theme": "Professional",
+      "years": [
+        1,
+        2,
+        3
+      ],
       "lead": "HC",
       "confidence": "low",
       "contentStatus": "full",
@@ -244,6 +343,12 @@
       "code": "PPD",
       "name": "Professional & Personal Development",
       "theme": "Professional",
+      "years": [
+        1,
+        2,
+        3,
+        4
+      ],
       "lead": "MA / AC",
       "confidence": "medium",
       "contentStatus": "full",
@@ -266,6 +371,10 @@
       "code": "DoC",
       "name": "Duty of Candour",
       "theme": "Professional",
+      "years": [
+        2,
+        3
+      ],
       "lead": "HB",
       "confidence": "medium",
       "contentStatus": "full",
@@ -286,6 +395,9 @@
       "code": "PHE",
       "name": "Public Health & Eye Health",
       "theme": "Professional",
+      "years": [
+        3
+      ],
       "lead": "AS",
       "confidence": "low",
       "contentStatus": "full",
@@ -302,6 +414,85 @@
         "phe-inequalities",
         "phe-health-promotion",
         "phe-task-a"
+      ]
+    },
+    {
+      "code": "PHA",
+      "name": "Ocular Pharmacology & Therapeutics",
+      "theme": "Patient",
+      "years": [
+        2,
+        3
+      ],
+      "contentStatus": "full",
+      "colour": "#ECE0D9",
+      "contentFile": "content/pha.json",
+      "topics": [
+        "pha-pharmacokinetics",
+        "pha-diagnostic-drugs",
+        "pha-adverse-reactions",
+        "pha-law",
+        "pha-anti-infectives-inflammatories",
+        "pha-glaucoma-medicines",
+        "pha-systemic-side-effects"
+      ]
+    },
+    {
+      "code": "LVA",
+      "name": "Low Vision",
+      "theme": "Management",
+      "years": [
+        3
+      ],
+      "contentStatus": "full",
+      "colour": "#DDE5D6",
+      "contentFile": "content/lva.json",
+      "topics": [
+        "lva-causes-impact",
+        "lva-assessment",
+        "lva-magnification",
+        "lva-aids",
+        "lva-lighting-nonoptical",
+        "lva-certification-support"
+      ]
+    },
+    {
+      "code": "CLP",
+      "name": "Clinical Learning in Practice (Placement Year)",
+      "theme": "Professional",
+      "years": [
+        4
+      ],
+      "contentStatus": "full",
+      "colour": "#E4DDE9",
+      "contentFile": "content/clp.json",
+      "topics": [
+        "clp-structure",
+        "clp-patient-log",
+        "clp-routine-exam",
+        "clp-referrals",
+        "clp-records-consent-safeguarding",
+        "clp-registration"
+      ]
+    },
+    {
+      "code": "HQ",
+      "name": "Glaucoma, Medical Retina & Prescribing",
+      "theme": "Patient",
+      "years": [
+        4,
+        5
+      ],
+      "contentStatus": "full",
+      "colour": "#E1E6E1",
+      "contentFile": "content/hq.json",
+      "topics": [
+        "hq-higher-qualifications",
+        "hq-glaucoma",
+        "hq-medical-retina",
+        "hq-acute-eye-care",
+        "hq-additional-supply-sp",
+        "hq-independent-prescribing"
       ]
     }
   ]

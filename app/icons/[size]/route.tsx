@@ -12,5 +12,5 @@ export function generateStaticParams() {
 export async function GET(_req: Request, { params }: { params: Promise<{ size: string }> }) {
   const { size } = await params
   const px = size.endsWith('512') ? 512 : 192
-  return new ImageResponse(<IconArt size={px} />, { width: px, height: px })
+  return new ImageResponse(<IconArt size={px} kind={size.startsWith('maskable') ? 'full-bleed' : 'app'} />, { width: px, height: px })
 }

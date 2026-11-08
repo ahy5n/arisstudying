@@ -34,7 +34,7 @@ export function Modal({
         if (e.target === ref.current) onClose()
       }}
       aria-label={title}
-      className="m-auto w-[min(520px,calc(100vw-32px))] rounded-[22px] bg-card p-0 text-ink shadow-[var(--shadow-lift)] backdrop:bg-ink/25 backdrop:backdrop-blur-[2px]"
+      className="m-auto w-[min(520px,calc(100vw-32px))] rounded-[22px] bg-surface p-0 text-ink shadow-[var(--shadow-lift)] backdrop:bg-ink/25 backdrop:backdrop-blur-[2px]"
     >
       {open && (
         <div className="p-6">

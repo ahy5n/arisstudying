@@ -46,7 +46,7 @@ export function FlagButton({
       </button>
     ) : variant === 'link' ? (
       <button
-        className="inline-flex min-h-11 items-center gap-1.5 rounded-lg px-1 text-[14px] text-faint hover:text-muted"
+        className="inline-flex min-h-11 items-center gap-1.5 rounded-lg px-1 text-[14px] text-muted hover:text-muted"
         onClick={() => setOpen(true)}
       >
         <FlagIcon className="size-4" />
