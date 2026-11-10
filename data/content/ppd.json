@@ -311,24 +311,19 @@
     {
       "id": "ppd-reflection",
       "title": "Reflective practice",
-      "summary": "Reflection turns experience into learning: what happened, what you thought and felt, what it means, and what you'll do differently. It's a core professional skill and part of the GOC's continuing professional development (CPD) requirements once you qualify.",
+      "summary": "From the week 3 PPD lecture: reflection turns experience into learning. The GOC expects critical reflection throughout your career, so know the models, what good academic reflective writing looks like, and how to write a CPD reflection.",
       "keyPoints": [
-        "Gibbs' cycle: description → feelings → evaluation → analysis → conclusion → action plan.",
-        "Driscoll: What? So what? Now what?",
-        "Kolb's cycle: concrete experience → reflective observation → abstract conceptualisation → active experimentation.",
-        "Schön: reflection-in-action (during) vs reflection-on-action (after).",
-        "Good reflection is honest, specific and leads to a concrete action (make it SMART).",
-        "Keep patient details out of reflective writing — anonymise properly.",
-        "Qualified registrants complete CPD that includes reflection (with peer review elements) in the GOC scheme.",
-        "GOC definition (CPD guide, 2024): reflective practice is thinking analytically about your experiences to gain insight and improve the way you work and the care you give.",
-        "Critical reflection helps you evaluate current practice, think about what is desirable, consider what is possible, and form new understanding that informs action."
+        "GOC definition (CPD guide, 2024): thinking analytically about your experiences to gain insight and improve the way you work and the care you give. Linked to GOC outcomes 7.4 and 5.1.",
+        "Critical reflection moves from describing to analysing: evaluate current practice, consider what's desirable and what's possible, and form new understanding that changes what you do.",
+        "Models: Driscoll (2000) / Rolfe et al. (2001), 'What? So what? Now what?', and Gibbs' reflective cycle (1988): description, feelings, evaluation, analysis, conclusion, action plan.",
+        "Academic reflective writing isn't just description, a diary, self-disclosure, flattery of the course or uncritical referencing. It needs structure, formal language and evidence of learning and how you'll use it.",
+        "Benefits: embeds good practice, improves quality of care and assures the public.",
+        "CPD reflections: what you expected, what you learned, and whether and how you'll apply it. Anonymise: nothing that identifies a patient or practitioner.",
+        "Prompt questions: what happened, key takeaways, how issues were addressed, what you'd do differently, the impact, quick changes and longer-term gaps."
       ],
       "examTraps": [
-        "Writing a description with no analysis or action.",
-        "Including identifiable patient details.",
-        "Only reflecting on things that went wrong — good experiences are worth reflecting on too.",
-        "Writing a reflection that only describes what happened. Description is the foundation; the marks are for analysis and what you will do next.",
-        "Including details that could identify a patient or practitioner. CPD reflections must be anonymised."
+        "Writing a reflection that only describes what happened.",
+        "Including details that could identify a patient or colleague."
       ],
       "diagram": {
         "id": "gibbs-cycle",
@@ -344,12 +339,8 @@
       },
       "goDeeper": [
         {
-          "heading": "A short Gibbs example",
-          "body": "Description: my retinoscopy took too long in the presbyope clinic. Feelings: flustered, worried about running over. Evaluation: the subjective went well once I moved on. Analysis: I kept re-checking neutral in a dull reflex; I hadn't practised high-hyperopic reflexes. Conclusion: I need a time limit and more practice on tricky reflexes. Action: practise ret on 3 classmates with plus lenses this week, and set myself a 10-minute cap."
-        },
-        {
-          "heading": "SMART actions",
-          "body": "Specific, Measurable, Achievable, Relevant, Time-bound. 'Get better at JCC' becomes 'Practise 5 JCC routines on the practice heads before Friday's lab and time each one'."
+          "heading": "Not in the slides: other models",
+          "body": "Kolb's cycle (experience, reflective observation, abstract conceptualisation, active experimentation) and Schön's reflection-in-action (during) versus reflection-on-action (after). Making your action plan SMART (specific, measurable, achievable, relevant, time-bound) keeps it concrete."
         }
       ],
       "flashcards": [
@@ -404,8 +395,7 @@
               "feedback": "That's what you'll do next time."
             }
           ],
-          "explanation": "Analysis is where you explore causes and connect the experience to knowledge and theory.",
-          "link": "ppd-reflection#a-short-gibbs-example"
+          "explanation": "Analysis is where you explore causes and connect the experience to knowledge and theory."
         },
         {
           "id": "ppd-refl-w3-1",
@@ -446,7 +436,8 @@
           "url": "https://www.college-optometrists.org/"
         }
       ],
-      "askClaude": "Help me write a short Gibbs reflection on a clinic or lab experience I'll describe. Ask me questions for each stage rather than writing it for me."
+      "askClaude": "Help me write a short Gibbs reflection on a clinic or lab experience I'll describe. Ask me questions for each stage rather than writing it for me.",
+      "fromSlides": true
     }
   ]
 }

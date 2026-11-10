@@ -67,6 +67,8 @@ export interface Topic {
   cases: ClinicalCase[]
   links: { label: string; url: string }[]
   askClaude: string
+  /** Written from Ari's lecture slides rather than general knowledge. */
+  fromSlides?: boolean
 }
 
 export interface ModuleContent {

@@ -5,20 +5,18 @@
     {
       "id": "bvp-phoria-tropia",
       "title": "Heterophoria and heterotropia",
-      "summary": "A heterophoria is a latent deviation held straight by fusion; a heterotropia is a manifest deviation present with both eyes open. The question with a phoria isn't 'is there one?' (most people have a small one) but 'is it compensated?'",
+      "summary": "From the week 11 BV essentials lecture: a phoria is a latent deviation held by fusion; a tropia is manifest with both eyes open. The cover test is the only objective test that tells them apart, and the real question with a phoria is whether it's compensated.",
       "keyPoints": [
-        "Heterophoria: eyes deviate only when fusion is broken (e.g. under a cover).",
-        "Heterotropia (strabismus): one eye is deviated with both eyes open.",
-        "Directions: eso (in), exo (out), hyper/hypo (up/down), cyclo (torsional).",
-        "Normal: near-orthophoria at distance; a small exophoria at near (physiological exophoria) is common.",
-        "Decompensated phoria symptoms: eyestrain, headaches, blur, intermittent diplopia, words moving, especially with sustained tasks.",
-        "Measure phorias with the cover test, Maddox rod (distance), Maddox wing (near) or prism methods.",
-        "Compensation is judged with fusional reserves (Sheard's/Percival's criteria) and fixation disparity (e.g. Mallett unit)."
+        "Covering one eye dissociates the eyes: fusion stops, so the covered eye moves to its passive position, revealing any phoria.",
+        "Tropia on cover/uncover of the other eye: the deviated eye moves to fixate: out for esotropia, in for exotropia, down for hypertropia, up for hypotropia.",
+        "Phoria on uncovering: out = esophoria, in = exophoria, down = hyper on that side, up = hypo; phorias are usually similar in size in each eye. Smooth fast recovery suggests compensation.",
+        "The alternating cover test reveals the total deviation (as when tired or stressed) and any intermittent tropia; cover/uncover shows the habitual one.",
+        "Decompensated phoria can give fixation disparity, measured with the Mallett unit.",
+        "Prescription changes affect phorias: more minus can decompensate esophoria, more plus exophoria."
       ],
       "examTraps": [
-        "Treating any phoria as abnormal — what matters is compensation and symptoms.",
-        "Mixing up eso and exo direction.",
-        "Forgetting to measure at both distance and near."
+        "Mixing up the direction: the eye moving outwards to take up fixation means it was turned in (eso).",
+        "Treating any phoria as abnormal: what matters is compensation and symptoms."
       ],
       "diagram": {
         "id": "phoria-tropia",
@@ -31,16 +29,8 @@
       },
       "goDeeper": [
         {
-          "heading": "Sheard and Percival criteria",
-          "body": "Sheard: the fusional reserve opposing the phoria (to blur, or break if there's no blur) should be at least twice the phoria. For an exophoria that's the positive (convergent, base-out) reserve. Prism to relieve = (2/3 × phoria) − (1/3 × compensating reserve). Percival: the patient should be in the middle third of their total vergence range. Sheard tends to suit exophoria, Percival esophoria."
-        },
-        {
-          "heading": "Worked Sheard example",
-          "body": "Near exophoria 9Δ; base-out reserve to blur 12Δ. Sheard needs 18Δ, so it fails. Prism = (2/3 × 9) − (1/3 × 12) = 6 − 4 = 2Δ base in (split between the eyes, e.g. 1Δ BI each). Exercises to build the reserve are often tried first."
-        },
-        {
-          "heading": "Causes of decompensation",
-          "body": "Uncorrected refractive error, new or changed prescriptions, presbyopia, fatigue, illness, stress, long periods of near work and alcohol can all tip a phoria into decompensation. Correcting the refractive error is often the first step."
+          "heading": "Not in the slides: compensation criteria",
+          "body": "Sheard's criterion (fusional reserve opposing the phoria should be at least twice the phoria) and Percival's criterion are common ways to judge compensation alongside symptoms and fixation disparity. Decompensated phoria typically causes eyestrain, headaches, blur and intermittent diplopia with sustained tasks."
         }
       ],
       "flashcards": [
@@ -87,8 +77,7 @@
               "feedback": "Sheard can be applied on its own."
             }
           ],
-          "explanation": "Sheard: compensating (opposing) reserve ≥ 2 × phoria. For exo, the compensating reserve is convergent (base-out).",
-          "link": "bvp-phoria-tropia#sheard-and-percival-criteria"
+          "explanation": "Sheard: compensating (opposing) reserve ≥ 2 × phoria. For exo, the compensating reserve is convergent (base-out)."
         },
         {
           "id": "bvp-pt-2",
@@ -115,8 +104,7 @@
               "feedback": "12Δ is less than 2 × 12Δ, so it fails Sheard."
             }
           ],
-          "explanation": "Sheard prism = 2/3 phoria − 1/3 reserve; base direction is base in for exo.",
-          "link": "bvp-phoria-tropia#worked-sheard-example"
+          "explanation": "Sheard prism = 2/3 phoria − 1/3 reserve; base direction is base in for exo."
         }
       ],
       "cases": [],
@@ -130,28 +118,24 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Give me phoria measurements with fusional reserves and ask me whether each meets Sheard's criterion and what prism (if any) it suggests."
+      "askClaude": "Give me phoria measurements with fusional reserves and ask me whether each meets Sheard's criterion and what prism (if any) it suggests.",
+      "fromSlides": true
     },
     {
       "id": "bvp-cover-test",
       "title": "The cover test",
-      "summary": "The cover test is the key objective binocular vision test. Cover–uncover detects a tropia; alternate cover reveals the total deviation (phoria plus any tropia). Watch which way the eye moves, how big the movement is and how well it recovers.",
+      "summary": "From the week 11 BV essentials lecture: the cover test is objective and the only test that distinguishes phoria from tropia. Do it in three stages at distance and near, first with the habitual and then the optimal correction.",
       "keyPoints": [
-        "Use an accommodative target (letters) at distance and near, with the habitual correction.",
-        "Cover–uncover: cover one eye and watch the other. If the uncovered eye moves to take up fixation, there's a tropia.",
-        "If the uncovered eye doesn't move, there's no tropia in that eye — then watch the covered eye as you uncover it (phoria recovery).",
-        "Alternate cover: move the cover quickly between eyes to break fusion and show the full deviation.",
-        "Exophoria: covered eye drifts out, recovers inwards on uncovering. Esophoria: drifts in, recovers outwards.",
-        "Grade recovery: rapid and smooth (well compensated) vs slow or jerky (possibly decompensated).",
-        "Measure the size with a prism bar (prism cover test): base in for exo, base out for eso.",
-        "Stage 1 (cover/uncover the other eye) detects tropia: the deviated eye moves to fixate (out for eso, in for exo, down for hyper, up for hypo).",
-        "Stage 2 (watch the covered eye on uncovering) detects phoria; smooth fast recovery suggests it's compensated.",
-        "Stage 3 (alternating cover) breaks fusion and shows the total deviation and any intermittent tropia.",
-        "Use a target one line larger than the worse eye's VA (spotlight if worse than about 6/18), at distance and near, with habitual then optimal Rx."
+        "Set-up: room lights on, a lamp can help you see the eyes, target one line larger than the worse eye's VA (spotlight if worse than about 6/18), primary gaze.",
+        "Stage 1, cover/uncover for tropia: cover the left, watch the right for 2–3 seconds; uncover and watch it return; then repeat the other way.",
+        "Stage 2, cover/uncover for phoria (only if no tropia): watch the covered eye as it's uncovered; it recovers to the active position.",
+        "Stage 3, alternating cover: move the cover quickly between eyes for 10–30 seconds to stop fusion and show the total deviation and any intermittent tropia.",
+        "Near: same steps with the near correction, a detailed target on a near stick; consider looking down if there are near symptoms.",
+        "Size: estimate (1 cm at 1 m = 1Δ) or neutralise with a prism bar during the alternating cover (base in for exo, base out for eso) to find the objective angle."
       ],
       "examTraps": [
-        "Doing the alternate cover first (it can break down a well-controlled phoria before you've checked for a tropia).",
-        "Using a light as the target (doesn't control accommodation).",
+        "Doing the alternating cover first: it can break down a phoria before you've checked for a tropia.",
+        "Using a light at distance when VA allows letters: you lose control of accommodation.",
         "Getting the prism base direction backwards."
       ],
       "diagram": {
@@ -166,12 +150,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Spotting a tropia",
-          "body": "Cover the eye you think is fixing. If the other eye moves to take up fixation, it was deviated: moving in means it was turned out (exotropia); moving out means it was turned in (esotropia); moving down means it was up (hypertropia). Then cover the other eye too, to check for an alternating tropia."
+          "heading": "Worked SAQ: right esotropia",
+          "body": "Cover LE: RE moves out to fixate and LE moves in under the cover (Hering's law). Uncover LE: RE moves back in and LE moves out. Cover RE: no movement. Uncover RE: no movement."
         },
         {
-          "heading": "Estimating size",
-          "body": "With practice you can estimate the movement in prism dioptres, but measuring with a prism bar is better. Hold the prism over one eye during alternate cover and increase it until there's no movement (then slightly beyond to see reversal). Exo → base in; eso → base out; hyper → base down over the hyper eye."
+          "heading": "Versional recovery",
+          "body": "Some patients with large phorias or marked dominance recover with a version (both eyes move) followed by a vergence, which obeys Hering's law, instead of only the covered eye moving."
         }
       ],
       "checklist": {
@@ -241,8 +225,7 @@
               "feedback": "Movement on cover–uncover means a tropia."
             }
           ],
-          "explanation": "On cover–uncover, a movement of the uncovered eye means it wasn't fixating — a tropia. Inward movement means it was out (exo).",
-          "link": "bvp-cover-test#spotting-a-tropia"
+          "explanation": "On cover–uncover, a movement of the uncovered eye means it wasn't fixating — a tropia. Inward movement means it was out (exo)."
         }
       ],
       "cases": [
@@ -262,27 +245,24 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Describe what you see during cover tests (which eye moves, which way, on cover or uncover) and ask me to name the deviation each time."
+      "askClaude": "Describe what you see during cover tests (which eye moves, which way, on cover or uncover) and ask me to name the deviation each time.",
+      "fromSlides": true
     },
     {
       "id": "bvp-mallett",
       "title": "Fixation disparity and the Mallett unit",
-      "summary": "Fixation disparity is a tiny misalignment of the eyes within Panum's fusional area — a sign the vergence system is under stress. The Mallett unit shows it as a 'slip' of polarised nonius lines and lets you find the aligning prism that removes it.",
+      "summary": "From the week 11 BV essentials lecture: within Panum's fusional area the eyes can be slightly misaligned and still see singly. This fixation disparity is likely with a decompensated phoria, and the Mallett unit measures the aligning prism that removes it.",
       "keyPoints": [
-        "Fixation disparity: a small over- or under-convergence that still allows single vision (within Panum's area).",
-        "Mallett unit: patient wears polarised filters; the OXO is seen by both eyes, each nonius strip by one eye only.",
-        "Ask whether the two lines are exactly in line with the X; any offset is a 'slip'.",
-        "Aligning prism (associated heterophoria): the smallest prism (or lens change) that brings the lines back into line.",
-        "A slip with symptoms suggests a decompensated heterophoria.",
-        "Test horizontal and vertical slips, at distance and near.",
-        "Even a small vertical slip can be significant; vertical aligning prism is often worth prescribing if symptomatic.",
-        "Fixation disparity: a small misalignment within Panum's fusional area, likely with decompensated phoria. The prism that removes it is the aligning prism.",
-        "Use the smallest base-in prism for an exo slip and base-out for an eso slip; check the vertical OXO and ask about tilt (cyclodeviation).",
+        "Panum's fusional area: each retinal point corresponds to an area on the other retina; single vision is kept over a small space in front of and behind the horopter (Panum's fusional space).",
+        "Fixation disparity: a small misalignment within Panum's area; exo, eso, hyper or hypo slip.",
+        "Aligning prism (once called associated phoria): the prism that removes the fixation disparity.",
+        "Near Mallett set-up: polaroid visor over the near Rx, text matching their near VA, check both nonius strips are seen.",
+        "Ask if the strips line up with the X; if not, find the smallest base-in prism (exo slip) or base-out prism (eso slip) that aligns them. Repeat with the vertical OXO and vertical prism, and ask about tilt (cyclodeviation).",
         "At near, extra plus can remove an eso slip by reducing accommodative convergence."
       ],
       "examTraps": [
         "Asking leading questions ('Is the line moving to the left?').",
-        "Forgetting to test the vertical slip.",
+        "Forgetting the vertical test.",
         "Confusing the aligning prism with the dissociated phoria from the cover test."
       ],
       "diagram": {
@@ -297,12 +277,8 @@
       },
       "goDeeper": [
         {
-          "heading": "Doing the test well",
-          "body": "Use the patient's correction with the polarised visor, and good lighting. Ask: 'Are the two lines exactly in line with the X, or is either one off to the side?' Watch for a slip that comes and goes. Then introduce prism in small steps (or ± spheres at near for eso/exo with accommodation) until the lines align: that's the aligning prism."
-        },
-        {
-          "heading": "Dissociated vs associated phoria",
-          "body": "The cover test and Maddox methods break fusion completely and measure the dissociated phoria (often large). The Mallett unit keeps fusion and measures the associated phoria (aligning prism, usually small). A large dissociated phoria with no slip is usually well compensated; a small phoria with a slip may be decompensated."
+          "heading": "When are prisms indicated?",
+          "body": "The answer sheet notes that good prism adaptation argues against prescribing prism for a slip with asthenopia. Consider the slip together with symptoms and other compensation tests."
         }
       ],
       "flashcards": [
@@ -349,8 +325,7 @@
               "feedback": "This combination is common."
             }
           ],
-          "explanation": "Compensation depends on how well fusion copes, not the dissociated size. No slip, no symptoms → compensated.",
-          "link": "bvp-mallett#dissociated-vs-associated-phoria"
+          "explanation": "Compensation depends on how well fusion copes, not the dissociated size. No slip, no symptoms → compensated."
         },
         {
           "id": "bvp-w11-1",
@@ -392,7 +367,8 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Explain fixation disparity and the Mallett unit simply, then give me 3 patients with cover test, Mallett and symptom results and ask what I'd do."
+      "askClaude": "Explain fixation disparity and the Mallett unit simply, then give me 3 patients with cover test, Mallett and symptom results and ask what I'd do.",
+      "fromSlides": true
     },
     {
       "id": "bvp-ci",

@@ -18,6 +18,12 @@ import { GoDeeper } from './GoDeeper'
 import { NotesBox } from './NotesBox'
 
 export const VERIFY_NOTE = 'Written from standard optometry knowledge. Check against your lecture slides.'
+export const SLIDES_NOTE = 'Written from your lecture slides. Sections marked “Not in the slides” are extra background.'
+
+/** The source note for a topic: from Ari's slides, or general knowledge to check. */
+export function sourceNote(t: Topic): string {
+  return t.fromSlides ? SLIDES_NOTE : VERIFY_NOTE
+}
 
 export interface TopicDeck {
   id: string
@@ -104,9 +110,11 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
               Topic {index + 1} of {total}
             </p>
             <h1 className="mt-2 text-[32px] font-semibold sm:text-[38px]">{t.title}</h1>
-            <p className="mt-3 inline-flex items-start gap-2 rounded-xl bg-warn-soft px-3 py-2 text-[14px] text-warn-ink">
+            <p
+              className={`mt-3 inline-flex items-start gap-2 rounded-xl px-3 py-2 text-[14px] ${t.fromSlides ? 'bg-accent-soft text-accent-strong' : 'bg-warn-soft text-warn-ink'}`}
+            >
               <span aria-hidden>📎</span>
-              {VERIFY_NOTE}
+              {sourceNote(t)}
             </p>
             {(decks.length > 0 || uploads.length > 0) && (
               <div className="mt-3 rounded-2xl bg-accent-soft/70 px-4 py-3">

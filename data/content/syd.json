@@ -4,25 +4,24 @@
   "topics": [
     {
       "id": "syd-case-history",
-      "title": "Case history and diagnostic reasoning",
-      "summary": "The history is where most diagnoses start. A structured history — reason for visit, symptoms explored in detail, ocular and general health, medication, family history and lifestyle — gives you hypotheses that your tests then confirm or rule out.",
+      "title": "History and symptoms",
+      "summary": "From Dr Sheppard's week 8 lecture and seminar: the history is the most important part of the eye examination (over 70% of diagnoses can come from it). Take it in a logical order, follow up every symptom with LOFTSEA, ask everyone the standard symptom check, and record negatives.",
       "keyPoints": [
-        "Structure: reason for visit / chief complaint → history of the presenting complaint → ocular history → general health → medication and allergies → family ocular and medical history → social history and visual needs.",
-        "Start open ('What brings you in today?'), then narrow with closed questions.",
-        "Explore each symptom: onset, duration, frequency, one or both eyes, severity, what helps or worsens it, associated symptoms.",
-        "For pain, a framework like SOCRATES (site, onset, character, radiation, associations, time course, exacerbating/relieving, severity) helps.",
-        "Ask about red flags: sudden vision loss, flashes and floaters, curtain, pain, double vision, headache with visual symptoms.",
-        "Medications matter: e.g. steroids (cataract, raised IOP), hydroxychloroquine (maculopathy), antihistamines (dry eye), anticholinergics (angle closure risk).",
-        "Diagnostic reasoning combines pattern recognition with hypothesis testing: what fits, what doesn't, and what can't be missed.",
-        "Follow up every symptom with LOFTSEA: Location, Onset, Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms.",
-        "Ask every patient about distance and near vision, eyestrain, headaches, pain or burning, diplopia, and flashes and floaters; record negatives (no record means not asked).",
-        "Suggested order: general information, last eye exam, reason for visit, ocular history, family ocular history, general health and medication, family medical history, symptom check, occupation, hobbies, driving and smoking."
+        "Ask permission to take the history; show empathy, listen actively, keep open body language and don't interrupt. Patients' uninterrupted talking time is usually 30 seconds to a minute.",
+        "General observation matters: appearance, head posture, facial asymmetry, lids, eyes, speech and emotional state; age, sex and ethnicity change the likelihood of some conditions.",
+        "Reason for visit: open with 'Is there any particular reason for your visit today?' and record it in the patient's words. Return to it at the end.",
+        "LOFTSEA: Location, Onset (sudden can mean serious), Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms. Visual problems tend to come with eye use, on weekdays, building through the day.",
+        "Ask everyone about distance and near vision, eyestrain, headaches, pain or burning, diplopia, and flashes and floaters (especially high myopes).",
+        "Ocular history: each pair of spectacles, contact lens wear and care, low vision aids, past injuries, infections, surgery or patching, and the last eye exam.",
+        "General health: ask specifically about high blood pressure and diabetes (how long, last check), medication (including drops, hay fever and contraceptive pills; check the BNF) and allergies or reactions to drops.",
+        "Family history: strabismus, glaucoma, hypertension and diabetes. Lifestyle: occupation, sport, hobbies, driving and smoking (the strongest environmental risk factor for AMD).",
+        "Suggested order: general information, last eye exam, reason for visit, ocular history, family ocular history, general health, family medical history, symptom check, occupation and lifestyle.",
+        "Record in pen, legibly and fully, including negatives (no record means not asked), using only accepted abbreviations."
       ],
       "examTraps": [
-        "Asking a checklist of closed questions and missing the patient's actual concern.",
-        "Not asking about medications and general health.",
-        "Forgetting visual needs (driving, screens, hobbies) that shape management.",
-        "Accepting 'double vision' at face value: many patients mean blur. Ask if they see two of everything, and whether it goes when one eye is closed."
+        "Accepting 'double vision' at face value: ask if they see two of everything and whether it goes with one eye closed.",
+        "Not following up a headache because the patient says it isn't their eyes.",
+        "Assuming old records are still current."
       ],
       "diagram": {
         "id": "history-structure",
@@ -37,16 +36,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Hypothesis-driven history",
-          "body": "As soon as you hear the main complaint, start forming possible explanations and use your questions to test them. 'Blurred near vision at 46' suggests presbyopia — but ask about distance vision, diabetes and medication to check for alternatives. Keep an open mind until the tests are done."
+          "heading": "Symptom clues",
+          "body": "Constant distance blur: myopia, or nuclear sclerosis in older people. Intermittent: young diabetics, pseudomyopia. Near blur fine in good light: presbyopia. Both: astigmatism or pathology. Visual headaches are mild to moderate, dull, above or behind the eyes and linked to eye use. Pain or burning often means dry eye. Diplopia that persists with one eye closed is monocular (cataract, irregular astigmatism); pathological or traumatic diplopia is more often vertical."
         },
         {
-          "heading": "Red flags in the history",
-          "body": "Sudden painless vision loss (vascular, retinal detachment, GCA), new flashes and floaters (PVD/RD), curtain or shadow (RD), new double vision (cranial nerve palsy), headache with jaw claudication or scalp tenderness in over-50s (GCA), painful red eye with photophobia (uveitis, keratitis), haloes with pain (angle closure). These change the urgency of everything that follows."
-        },
-        {
-          "heading": "Recording the history",
-          "body": "Record in the patient's words where useful, use standard abbreviations your clinic accepts, note negatives that matter ('no flashes/floaters, no headaches'), and list all medications with doses if known. A good record shows why you did the tests you did."
+          "heading": "Not in the slides: SOCRATES and red flags",
+          "body": "For pain, SOCRATES (site, onset, character, radiation, associations, time course, exacerbating and relieving factors, severity) is another framework. Red flags include sudden vision loss, flashes with a curtain, a painful red eye, new diplopia, and headache with visual or neurological symptoms."
         }
       ],
       "checklist": {
@@ -125,8 +120,7 @@
               "feedback": "It needs same-day assessment."
             }
           ],
-          "explanation": "Headache, jaw claudication and transient vision loss in an older person suggest GCA, a sight-threatening emergency needing urgent blood tests and steroids.",
-          "link": "syd-case-history#red-flags-in-the-history"
+          "explanation": "Headache, jaw claudication and transient vision loss in an older person suggest GCA, a sight-threatening emergency needing urgent blood tests and steroids."
         }
       ],
       "cases": [],
@@ -140,7 +134,8 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Be a patient with a hidden diagnosis. Let me take a full case history by asking you questions, then tell me what I forgot to ask."
+      "askClaude": "Be a patient with a hidden diagnosis. Let me take a full case history by asking you questions, then tell me what I forgot to ask.",
+      "fromSlides": true
     },
     {
       "id": "syd-differential",
@@ -875,7 +870,8 @@
         }
       ],
       "links": [],
-      "askClaude": "Explain The non-traumatic red eye to me step by step, then quiz me on it."
+      "askClaude": "Explain The non-traumatic red eye to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "syd-lids-orbit",
@@ -952,7 +948,8 @@
       ],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Lids and orbit: lagophthalmos and proptosis to me step by step, then quiz me on it."
+      "askClaude": "Explain Lids and orbit: lagophthalmos and proptosis to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "syd-diplopia",
@@ -1022,7 +1019,8 @@
       ],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Diplopia to me step by step, then quiz me on it."
+      "askClaude": "Explain Diplopia to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "syd-headache-pain",
@@ -1085,7 +1083,8 @@
       "goDeeper": [],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Headache and pain in or around the eye to me step by step, then quiz me on it."
+      "askClaude": "Explain Headache and pain in or around the eye to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "syd-field-loss",
@@ -1149,7 +1148,8 @@
       "goDeeper": [],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Visual field loss: causes and urgency to me step by step, then quiz me on it."
+      "askClaude": "Explain Visual field loss: causes and urgency to me step by step, then quiz me on it.",
+      "fromSlides": true
     }
   ]
 }

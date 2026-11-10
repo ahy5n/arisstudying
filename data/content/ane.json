@@ -357,27 +357,21 @@
     },
     {
       "id": "ane-van-herick",
-      "title": "Van Herick anterior chamber angle grading",
-      "summary": "Van Herick compares the depth of the peripheral anterior chamber with the thickness of the cornea next to it, using a low-magnification optic section at the limbus with the illumination at about 60°. It's a quick screen for narrow angles — not a substitute for gonioscopy.",
+      "title": "Anterior chamber angle assessment",
+      "summary": "From Dr Aujla's week 5 lecture: dilating can trigger acute angle closure, so assess the angle first. Van Herick is the routine screen; the pen torch and Smith's method are cruder; imaging gives cross-sections; only gonioscopy shows the angle directly.",
       "keyPoints": [
-        "Optic section at the limbus, low magnification; microscope straight ahead, illumination at about 60°.",
-        "Compare the dark gap (peripheral AC depth) with the bright corneal section (thickness).",
-        "Grade 4: 1:1 (AC depth equal to corneal thickness or more) — wide open.",
-        "Grade 3: 1:½ — open.",
-        "Grade 2: 1:¼ — narrow.",
-        "Grade 1: less than ¼ — dangerously narrow.",
-        "Low grades (2 and especially 1) suggest the angle may be capable of closure — follow guidance (gonioscopy/referral) and take care with dilation.",
-        "Van Herick grades: 4 = 1:1 or more (closure impossible), 3 = 1:½ (unlikely), 2 = 1:¼ (possible, dilation could cause closure), 1 = under 1:¼ (very likely), 0 = closed.",
-        "Pen torch method: light from the temporal side parallel to the iris; nasal iris in shadow 0/25/50/75/100% gives grades 4 to 0.",
-        "Smith's method: chamber depth ≈ slit length × 1.4; under 2 mm suggests a risk of closure.",
-        "Gonioscopy is the gold standard and the only technique that views the angle directly. Structures from front to back: Schwalbe's line, unpigmented then pigmented trabecular meshwork, scleral spur, ciliary body.",
-        "Angle-closure risk factors: shallow chamber, forward or thick lens, small cornea, short eye, steep cornea, older age, female (4:1), East Asian."
+        "Aqueous inflates the eye, feeds the avascular tissues, defends against pathogens and keeps the refractive index; 80–90% drains through the trabecular meshwork, 10–20% by the uveoscleral route.",
+        "Acute angle closure: pain, blurred vision with coloured haloes, nausea and vomiting, an emergency. Warn patients before dilating.",
+        "Risk factors: shallow chamber, forward or thick lens, small cornea, short eye, steep cornea, age, female sex (4:1) and East Asian ethnicity.",
+        "Van Herick: 10–16x, narrow bright slit at 60° temporal, at the limbus; compare peripheral chamber depth with corneal thickness. Grade 4 (1:1 or more, closure impossible), 3 (1:½, unlikely), 2 (1:¼, possible), 1 (under 1:¼, very likely), 0 (closed).",
+        "Pen torch: light from the temporal side parallel to the iris; nasal iris in shadow 0/25/50/75/100% gives grades 4 to 0. Very crude.",
+        "Smith's method: horizontal 1–2 mm slit at 60°; chamber depth ≈ slit length × 1.4; under 2 mm suggests risk.",
+        "Ultrasound, Scheimpflug imaging (Pentacam) and AS-OCT give cross-sections but don't view the angle directly.",
+        "Gonioscopy (direct Koeppe or indirect mirror lenses) is the gold standard. Structures front to back: Schwalbe's line, unpigmented and pigmented trabecular meshwork, scleral spur, ciliary body. The superior angle is usually the narrowest."
       ],
       "examTraps": [
-        "Placing the beam too far onto the sclera or too far into the cornea.",
-        "Using the wrong angle between illumination and microscope (it should be 60°).",
-        "Treating Van Herick as a diagnosis — it's a screening estimate.",
-        "Saying the inferior angle is the narrowest. The superior angle usually is; examine the inferior first because it is easier to identify structures.",
+        "Treating van Herick as a diagnosis rather than a screen.",
+        "Saying the inferior angle is the narrowest.",
         "Pressing hard on a corneal gonio lens: it folds Descemet's membrane and can falsely widen the angle."
       ],
       "diagram": {
@@ -392,16 +386,8 @@
       },
       "goDeeper": [
         {
-          "heading": "Technique",
-          "body": "Microscope straight ahead, illumination at 60° from the temporal side when looking at the temporal angle. Make the beam as narrow as possible and place it just inside the limbus, perpendicular to the cornea. Focus, then judge the ratio of the dark gap to the corneal section. Repeat nasally."
-        },
-        {
-          "heading": "Who is at risk of angle closure?",
-          "body": "Hyperopes (shorter eyes), older age (the lens thickens), female sex, East Asian ethnicity, and family history. Symptoms of intermittent closure include episodes of headache, haloes and blur in dim light. Acute angle closure is an emergency: painful red eye, haloes, nausea, hazy cornea, mid-dilated unreactive pupil, very high IOP."
-        },
-        {
-          "heading": "Dilating eyes with narrow angles",
-          "body": "Dilation with tropicamide carries a small risk of precipitating angle closure in susceptible eyes. Assess the angle before dilating, weigh the benefit, warn the patient about symptoms to watch for, and follow your clinic's protocol."
+          "heading": "Gonioscopy in practice",
+          "body": "Indications include narrow angles on van Herick (grade 2 or less), glaucoma, pigment dispersion or pseudoexfoliation, neovascular risk, trauma and after iridotomy; not after recent trauma or surgery. Scleral (Goldmann) lenses need coupling fluid; corneal four-mirror lenses (Posner, Zeiss, Sussman) are about 9 mm. Use low magnification with a 2–3 mm parallelepiped, put the mirror opposite the quadrant you want, start inferiorly and grade all 360°."
         }
       ],
       "flashcards": [
@@ -456,8 +442,7 @@
               "feedback": "Grade 4 is 1:1."
             }
           ],
-          "explanation": "Grade 4 = 1:1 (wide open), grade 3 = 1:½ (open), grade 2 = 1:¼ (narrow), grade 1 = <¼ (dangerously narrow).",
-          "link": "ane-van-herick#technique"
+          "explanation": "Grade 4 = 1:1 (wide open), grade 3 = 1:½ (open), grade 2 = 1:¼ (narrow), grade 1 = <¼ (dangerously narrow)."
         },
         {
           "id": "ane-vh-2",
@@ -484,8 +469,7 @@
               "feedback": "Children rarely have narrow angles."
             }
           ],
-          "explanation": "Short eyes and a thickening lens with age crowd the angle.",
-          "link": "ane-van-herick#who-is-at-risk-of-angle-closure"
+          "explanation": "Short eyes and a thickening lens with age crowd the angle."
         },
         {
           "id": "ane-ac-1",
@@ -553,7 +537,8 @@
           "url": "https://www.nice.org.uk/guidance/ng81"
         }
       ],
-      "askClaude": "Explain Van Herick grading with a diagram I can sketch, then ask me about risk factors for angle closure and when dilation needs extra care."
+      "askClaude": "Explain Van Herick grading with a diagram I can sketch, then ask me about risk factors for angle closure and when dilation needs extra care.",
+      "fromSlides": true
     },
     {
       "id": "ane-staining",
@@ -689,21 +674,19 @@
     },
     {
       "id": "ane-tear-film",
-      "title": "Tear film assessment: TBUT, NIBUT, meniscus and Schirmer",
-      "summary": "Tear film tests look at stability (break-up time), volume (meniscus height, Schirmer) and quality. Do non-invasive tests first. TFOS DEWS II diagnoses dry eye on symptoms plus at least one sign of tear film or ocular surface disturbance.",
+      "title": "Tear film assessment",
+      "summary": "From Dr Dutta's week 8 lecture: know where each tear layer comes from, how blinking and drainage work, and the tests for tear quantity, stability, lipid layer, surface damage and symptoms.",
       "keyPoints": [
-        "NIBUT (non-invasive break-up time): watch a projected grid or Placido rings for distortion; under 10 s is abnormal (TFOS DEWS II).",
-        "TBUT (fluorescein break-up time): time from a blink to the first dark spot; under about 10 s is generally considered abnormal.",
-        "Tear meniscus height: under about 0.2 mm suggests low tear volume.",
-        "Schirmer I (without anaesthetic): 5 minutes; ≤5 mm wetting is low. It's invasive and variable.",
-        "Osmolarity: ≥308 mOsm/L or an inter-eye difference >8 mOsm/L supports dry eye (DEWS II).",
-        "Symptoms questionnaire: OSDI ≥13 or DEQ-5 ≥6 (DEWS II triggering scores).",
-        "Order: questionnaire → NIBUT → meniscus → osmolarity (if available) → fluorescein (TBUT, staining) → lissamine green."
+        "Lipid (0.1–0.2 µm): meibomian glands and glands of Zeis and Moll; reduces evaporation. Aqueous (about 7 µm): main lacrimal gland (reflex) and accessory glands of Krause and Wolfring (basal). Mucin (about 0.05 µm): goblet cells and corneal epithelium; makes the surface wettable.",
+        "Volume about 7 µl, produced at 1.2 µl/min, turned over every 5 minutes; open-eye osmolarity about 315 mOsm/kg.",
+        "Blink rate about 12/min, raised by conversation, anxiety, tiredness and dry environments, lowered by reading, hard tasks and screens.",
+        "Quantity: Schirmer (only useful for comparison), phenol red thread, meniscus height. Stability: fluorescein TBUT (which adds volume) and non-invasive break-up (NIBUT).",
+        "Lipid layer: Tearscope interference patterns. Surface damage: fluorescein, rose bengal (dead or degenerate cells and poor mucin cover; irritating) and lissamine green. Symptoms: e.g. OSDI.",
+        "Also check tear debris, meniscus shape, lid wiper and meibomian glands. Meibomian gland dysfunction and blepharitis destabilise the lipid layer and cause dry, itchy eyes and lens intolerance."
       ],
       "examTraps": [
-        "Doing fluorescein TBUT before NIBUT.",
-        "Forgetting dry eye diagnosis needs symptoms as well as signs.",
-        "Using lots of fluorescein, which artificially lengthens TBUT."
+        "Calling TBUT a secretion test: it measures stability.",
+        "Doing fluorescein TBUT before non-invasive tests."
       ],
       "diagram": {
         "id": "tear-film-layers",
@@ -717,16 +700,8 @@
       },
       "goDeeper": [
         {
-          "heading": "TFOS DEWS II diagnosis",
-          "body": "Dry eye is diagnosed when there are symptoms (OSDI ≥13 or DEQ-5 ≥6) plus at least one of: NIBUT under 10 s, raised or asymmetric osmolarity, or ocular surface staining (more than 5 corneal spots, more than 9 conjunctival spots, or lid margin staining ≥2 mm long and ≥25% wide). Then subtype it: aqueous deficient vs evaporative (often both)."
-        },
-        {
-          "heading": "Evaporative vs aqueous deficient",
-          "body": "Evaporative dry eye (commonest) is usually from meibomian gland dysfunction: poor lipid layer, fast break-up, normal meniscus. Aqueous deficient: low meniscus, low Schirmer; think Sjögren's syndrome and other systemic causes, especially with dry mouth. Management differs (lid hygiene and warm compresses vs lubricants and, where needed, medical referral)."
-        },
-        {
-          "heading": "Doing a good TBUT",
-          "body": "Use a small amount of fluorescein, ask the patient to blink a few times, then stop blinking. Start timing from the last blink and stop at the first dry spot under cobalt blue with the barrier filter. Repeat three times and take the average."
+          "heading": "Not in the slides: TFOS DEWS II cut-offs",
+          "body": "Dry eye is diagnosed on symptoms (OSDI ≥ 13 or DEQ-5 ≥ 6) plus at least one sign: NIBUT under 10 s, osmolarity ≥ 308 mOsm/L or an inter-eye difference over 8, or ocular surface staining. A meniscus under about 0.2 mm suggests low volume; Schirmer I of 5 mm or less in 5 minutes is low. Do non-invasive tests first."
         }
       ],
       "labelDiagram": {
@@ -782,8 +757,7 @@
               "feedback": "Nothing here suggests allergy."
             }
           ],
-          "explanation": "Symptoms + reduced NIBUT = dry eye. Normal volume and capped glands point to an evaporative (MGD) cause.",
-          "link": "ane-tear-film#evaporative-vs-aqueous-deficient"
+          "explanation": "Symptoms + reduced NIBUT = dry eye. Normal volume and capped glands point to an evaporative (MGD) cause."
         },
         {
           "id": "ane-tf-2",
@@ -810,8 +784,7 @@
               "feedback": "It doesn't."
             }
           ],
-          "explanation": "Any drop alters tear stability and volume, so non-invasive measures come first.",
-          "link": "ane-tear-film#doing-a-good-tbut"
+          "explanation": "Any drop alters tear stability and volume, so non-invasive measures come first."
         }
       ],
       "cases": [
@@ -831,7 +804,8 @@
           "url": "https://www.college-optometrists.org/"
         }
       ],
-      "askClaude": "Give me 3 dry eye patients with test results and ask me whether each meets TFOS DEWS II criteria and which subtype it is."
+      "askClaude": "Give me 3 dry eye patients with test results and ask me whether each meets TFOS DEWS II criteria and which subtype it is.",
+      "fromSlides": true
     },
     {
       "id": "ane-lid-eversion",
@@ -1160,7 +1134,8 @@
       ],
       "cases": [],
       "links": [],
-      "askClaude": "Explain The crystalline lens and cataract to me step by step, then quiz me on it."
+      "askClaude": "Explain The crystalline lens and cataract to me step by step, then quiz me on it.",
+      "fromSlides": true
     }
   ]
 }

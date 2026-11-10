@@ -436,28 +436,23 @@
     },
     {
       "id": "aam-binocular-balance",
-      "title": "Binocular balancing: Humphriss and prism dissociation",
-      "summary": "Balancing makes sure both eyes are equally relaxed (equally 'fogged' or equally focused) so accommodation is balanced between them. You can do it with fusion kept (Humphriss immediate contrast) or by dissociating with prisms.",
+      "title": "Binocular balancing, binocular addition and binocular refraction",
+      "summary": "From Dr Sheppard's week 3 lecture: binocular balancing makes sure accommodation is balanced between the eyes after a monocular subjective. With a trial frame the preferred method is monocular fogging (modified Humphriss). Binocular addition then checks for any extra plus, and binocular refraction does the whole subjective with both eyes open.",
       "keyPoints": [
-        "Aim: equal accommodative state in both eyes, then a final binocular best vision sphere.",
-        "Humphriss immediate contrast (HIC): fog the eye not being tested (about +0.75 to +1.00), so it acts as a 'psychological septum' while fusion is kept.",
-        "With the HIC fog in place, refine the other eye's sphere with ±0.25 ('better with or without?'), then swap.",
-        "Prism dissociation: e.g. 3Δ base up before one eye and 3Δ base down before the other, giving two images; fog both with about +0.75 and compare.",
-        "Add +0.25 to the clearer eye until both lines look equally (slightly) blurred, then remove the fog together.",
-        "Finish with a binocular +0.25 check: if VA stays the same, give the plus (to the limit of best VA).",
-        "Balancing isn't possible to 'equal' if VAs differ markedly; balance to equal blur rather than equal clarity.",
-        "Monocular fogging (modified Humphriss) is the preferred balance with a trial frame: fog with about +0.75 DS so that eye reads roughly 6/12.",
-        "Fogging blurs central vision in one eye but keeps peripheral fusion, so the eye being tested is working under binocular conditions.",
-        "Accept extra plus if letters are clearer or the same. Accept extra minus only if letters are clearer, not just smaller and blacker.",
-        "Final Rx = subjective + binocular balance + binocular addition.",
-        "Binocular subjective refraction does not need a balance afterwards."
+        "Why balance: occluding one eye in monocular refraction can cause proximal accommodation, and an imbalance in the final Rx can cause asthenopia. Balancing equalises accommodation, not vision.",
+        "Techniques: monocular fogging (preferred with a trial frame), prism-dissociated blur balance (preferred with a phoropter), Humphriss immediate contrast, and Turville infinite balance (cumbersome, needs a septum).",
+        "Monocular fogging: after ret and monocular subjective on both eyes, fog the left with about +0.75 DS and check it reads about 6/12 (add more plus if not). Fogging suppresses central vision but keeps peripheral fusion.",
+        "In the right eye add +0.25 while letters are clearer or the same, until VA first blurs. Then try −0.25 and accept it only if letters are clearer, not just smaller and blacker. Repeat with the right eye fogged.",
+        "Binocular addition: remove the fog and add +0.25 to both eyes while clearer or the same; useful for low hyperopes with near symptoms. If latent hyperopia is suspected, start with +1.00 both eyes and reduce. A 6 m chart is −0.16 D away, and some patients prefer slightly less plus.",
+        "Final Rx = subjective + binocular balance + binocular addition. Record each, plus the +1.00 check test and binocular VA.",
+        "Binocular refraction (monocular fogging method): ret both eyes, fog the left with +0.75 (check 6/12), JCC the right, swap, remove fog, binocular addition if needed. No separate balance afterwards.",
+        "Binocular refraction suits hyperopia, pseudomyopia and antimetropia, and avoids occlusion effects (pupil dilation, latent nystagmus, cyclophoria). It's hard with a strongly dominant eye and needs a starting point close to the final Rx."
       ],
       "examTraps": [
-        "Balancing without fogging — equal clarity can hide unequal accommodation.",
-        "Forgetting to remove the fog/prisms before the final binocular check.",
-        "Trying to force a balance in an amblyopic eye with poorer VA.",
-        "Saying binocular balancing equalises the vision of the two eyes. It balances accommodation.",
-        "Choosing monocular refraction for latent nystagmus or cyclophoria. Occlusion makes both manifest, so binocular refraction is better."
+        "Saying binocular balancing equalises vision between the eyes. It balances accommodation.",
+        "Choosing monocular refraction for latent nystagmus or cyclophoria: occlusion makes both manifest.",
+        "Saying monocular fogging is used for binocular addition: no fog is used, plus goes on both eyes.",
+        "Doing a binocular balance after a binocular refraction: it isn't needed."
       ],
       "diagram": {
         "id": "prism-dissociation",
@@ -471,16 +466,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Humphriss immediate contrast",
-          "body": "Humphriss described that a modest plus lens in front of one eye suppresses its central detail while keeping peripheral fusion. With the other eye open and fusing, you refine its sphere using quick 'with or without +0.25/−0.25' comparisons. It's quick and keeps the patient in a natural binocular state, which is why many UK clinics favour it."
+          "heading": "Week 6 assessment brief",
+          "body": "15 minutes for ret and subjective on one eye of a student patient wearing a dummy lens, with a record and clear instructions. Worth 3% of stage 2; 19 marks, pass 10/19. Arrive at least 10 minutes early with your kit (blu-tak helps hold the dummy lens); missing your slot scores 0; no contact lenses when you're the patient. Feedback afterwards: the commonest lost marks were for over-minus, and powers must have two decimal places and a sign."
         },
         {
-          "heading": "Which image belongs to which eye?",
-          "body": "Images are displaced towards the apex of a prism. Base up in front of the right eye moves the right eye's image down; base down in front of the left eye moves the left eye's image up. So the right eye sees the lower line and the left eye the upper line."
-        },
-        {
-          "heading": "Finishing binocularly",
-          "body": "After balancing, remove the fog and do a binocular best vision sphere: add +0.25 to both eyes; if VA doesn't drop, keep it. Then record binocular VA, which is usually a little better than the better eye alone."
+          "heading": "Not in the slides: other balancing methods in detail",
+          "body": "In prism-dissociated balancing, 3Δ base up before one eye and 3Δ base down before the other give two images; both are fogged by about +0.75 and plus is added to the clearer one until they match. It's the usual method with a phoropter."
         }
       ],
       "flashcards": [
@@ -539,8 +530,7 @@
               "feedback": "Balancing under fog is done by adding plus to the clearer eye."
             }
           ],
-          "explanation": "Images move towards the prism apex. Base down before the left eye pushes its image up, so the top line is the left eye's.",
-          "link": "aam-binocular-balance#which-image-belongs-to-which-eye"
+          "explanation": "Images move towards the prism apex. Base down before the left eye pushes its image up, so the top line is the left eye's."
         },
         {
           "id": "aam-bal-2",
@@ -567,8 +557,7 @@
               "feedback": "It's used across ages."
             }
           ],
-          "explanation": "Keeping the patient binocular avoids the accommodation and vergence changes that can follow dissociation.",
-          "link": "aam-binocular-balance#humphriss-immediate-contrast"
+          "explanation": "Keeping the patient binocular avoids the accommodation and vergence changes that can follow dissociation."
         },
         {
           "id": "aam-bb-w3-1",
@@ -646,25 +635,26 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Walk me through Humphriss immediate contrast and prism-dissociated balancing step by step, then quiz me on which eye to add plus to."
+      "askClaude": "Walk me through Humphriss immediate contrast and prism-dissociated balancing step by step, then quiz me on which eye to add plus to.",
+      "fromSlides": true
     },
     {
       "id": "aam-accommodation",
-      "title": "Accommodation: amplitude, lag and near point",
-      "summary": "Amplitude of accommodation is how much focusing power an eye has in reserve, usually measured by push-up to the near point. Lag is how far behind the target the eye actually focuses. Both drop with age and help you judge near symptoms and add requirements.",
+      "title": "Accommodation in pre-presbyopes",
+      "summary": "From the week 4 near vision lecture: when a pre-presbyope has near symptoms, test amplitude (push-up/pull-down), facility (±2.00 flippers) and lag (dynamic retinoscopy), and compare amplitude with the Duane-Hofstetter age norms.",
       "keyPoints": [
-        "Amplitude (D) = 1 / near point (m), measured with the full distance correction in place.",
-        "Push-up (e.g. on an RAF rule): move a small target closer until the patient reports first sustained blur.",
-        "Measure monocularly and binocularly; binocular is usually a little higher (convergence-driven accommodation).",
-        "Hofstetter: minimum = 15 − 0.25 × age; average = 18.5 − 0.3 × age; maximum = 25 − 0.4 × age.",
-        "An amplitude 2 D or more below the minimum for age suggests accommodative insufficiency.",
-        "Lag of accommodation: normally about +0.25 to +0.75 D at 40 cm; measured with MEM or Nott dynamic retinoscopy.",
-        "A larger lag than expected can point to accommodative insufficiency or latent hyperopia; a lead (negative lag) to accommodative excess."
+        "Accommodative dysfunction can be caused by medication, trauma, inflammation, diabetes, Down's syndrome or cerebral palsy, or be idiopathic. Symptoms: headache, eyestrain, near blur, trouble reading or changing focus.",
+        "Amplitude by RAF rule with the distance correction on: push the smallest legible print in until blur is sustained (push-up), then pull it out until clear (pull-down), and average the two. Measure R, L and both.",
+        "Binocular amplitude is 1–2 D higher than monocular because convergence drives extra accommodation.",
+        "Push-up overestimates (depth of focus, print getting bigger, moving target); a −3.00 lens can push the near point out for young patients (then add 3 D to the reading).",
+        "Duane-Hofstetter: minimum 15 − 0.25 × age, average 18.5 − 0.30 × age, maximum 25 − 0.40 × age. Suspect accommodative insufficiency if amplitude is more than 1.50 D below expected for age.",
+        "Facility with ±2.00 DS flippers at 40 cm: cycles per minute (clearing + and − is one cycle). Fail (up to 30 years): under 11 cpm monocular, under 8 cpm binocular; some suggest 7 and 5 for ages 8–12.",
+        "Facility can be abnormal even when amplitude is normal. Lag is measured with dynamic retinoscopy (MEM or modified Nott)."
       ],
       "examTraps": [
-        "Measuring push-up without the distance correction in place.",
-        "Forgetting the push-up method overestimates amplitude (target magnification and depth of focus); push-down/pull-away gives lower values.",
-        "Mixing up near point of accommodation (blur) and near point of convergence (diplopia or eye turning out)."
+        "Measuring amplitude without the distance correction in place.",
+        "Measuring amplitude over 55: what's left is depth of focus.",
+        "Forgetting binocular amplitude is normally higher than monocular."
       ],
       "diagram": {
         "id": "rule-push-up",
@@ -678,16 +668,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Worked amplitude example",
-          "body": "A 40-year-old reports first blur at 22 cm. Amplitude = 1/0.22 ≈ 4.5 D. Hofstetter minimum for 40 = 15 − 10 = 5 D, average = 18.5 − 12 = 6.5 D. So this is a bit below the minimum for age — worth asking about near symptoms and thinking about early presbyopia or insufficiency."
+          "heading": "Recording",
+          "body": "Amp (push-up/pull-down) RE 8D, LE 8D, BE 10D. Accommodative facility (±2.00 DS) RE 11 cpm, LE 11 cpm, BE 8 cpm."
         },
         {
-          "heading": "MEM and Nott retinoscopy",
-          "body": "In MEM (monocular estimate method) the patient reads a card on the retinoscope at their working distance; you briefly interpose lenses to neutralise the reflex and estimate the lag. In Nott retinoscopy the target stays fixed and you move the retinoscope back until neutral; the dioptric difference between target and neutral point is the lag."
-        },
-        {
-          "heading": "Using amplitude for near adds",
-          "body": "A common rule is to keep half the amplitude in reserve: if a patient has 2 D of amplitude and reads at 40 cm (2.50 D demand), they can comfortably use 1 D, so the tentative add is 2.50 − 1.00 = +1.50. Always refine with range of clear vision and the patient's real tasks."
+          "heading": "Not in the slides: normal lag",
+          "body": "Normal lag is about +0.25 to +0.75 D at 40 cm. It's measured with MEM or Nott dynamic retinoscopy."
         }
       ],
       "flashcards": [
@@ -738,8 +724,7 @@
               "feedback": "4 D would be a near point of 25 cm."
             }
           ],
-          "explanation": "Amplitude in dioptres is the reciprocal of the near point in metres.",
-          "link": "aam-accommodation#worked-amplitude-example"
+          "explanation": "Amplitude in dioptres is the reciprocal of the near point in metres."
         },
         {
           "id": "aam-acc-2",
@@ -766,8 +751,7 @@
               "feedback": "That's the minimum for a 40-year-old."
             }
           ],
-          "explanation": "Minimum = 15 − 0.25 × age; average = 18.5 − 0.3 × age; maximum = 25 − 0.4 × age.",
-          "link": "aam-accommodation#worked-amplitude-example"
+          "explanation": "Minimum = 15 − 0.25 × age; average = 18.5 − 0.3 × age; maximum = 25 − 0.4 × age."
         }
       ],
       "cases": [
@@ -787,25 +771,26 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Quiz me on amplitude of accommodation: give me ages and near points, ask me to compare them with Hofstetter's values, and explain what each result means clinically."
+      "askClaude": "Quiz me on amplitude of accommodation: give me ages and near points, ask me to compare them with Hofstetter's values, and explain what each result means clinically.",
+      "fromSlides": true
     },
     {
       "id": "aam-presbyopia-add",
-      "title": "Presbyopia and near add determination",
-      "summary": "Presbyopia is the age-related loss of accommodation that makes near work hard, usually from the mid-40s. You start with a tentative add (age or amplitude), refine it (plus build-up, binocular methods) and always check the range of clear vision at her real working distance.",
+      "title": "Presbyopia and finding the near add",
+      "summary": "From the week 4 near vision lecture: presbyopia usually starts at 40–45 and true accommodation has gone by about 55. Find a tentative add (preferably from age and working distance), refine it binocularly to the least plus, check the range of clear vision, and record it.",
       "keyPoints": [
-        "Near demand at 40 cm is 2.50 D; at 33 cm it's 3.00 D.",
-        "Tentative add from age is only a guide (roughly +1.00 mid-40s rising to about +2.50 by 60) — check the table you're taught.",
-        "Tentative add from amplitude: keep half the amplitude in reserve.",
-        "Plus build-up: add plus binocularly in 0.25 steps until the near target is comfortably clear.",
-        "Range of clear vision: measure nearest and furthest clear points with the add; the working distance should sit near the middle.",
-        "Too much add shrinks the range and brings the far point in — monitors and music stands go blurry.",
-        "Always ask about tasks and working distances: reading, phone, computer, hobbies."
+        "Presbyopia starts earlier in hot climates, people with short arms or close working distances, and hyperopes; later in myopes and long-armed people.",
+        "Tentative add, most to least recommended: age and working distance (table), amplitude (add = WD − ½ amp), relative accommodation, binocular cross-cylinder.",
+        "Age and distance table: 45 years +1.25 / +0.75 / +0.50 (33 cm / 40 cm / 50–60 cm); 50 years +1.75 / +1.25 / +1.00; 55 years +2.25 / +1.75 / +1.50; 60+ +2.50 / +2.00 / +1.75.",
+        "Final add: near PD in the trial frame, patient at their own reading distance. Try −0.25 binocularly; if not clearer, try +0.25; stop when clarity no longer improves. This gives the least plus.",
+        "Range of clear vision: far end 1 ÷ add, near end 1 ÷ (add + amplitude). Check it by moving the chart in and out; if it doesn't suit, change the add or give an intermediate add.",
+        "Adds are usually equal and rarely above +3.00 (except for low vision). Unequal adds may suit amblyopia, lag, anisometropia or a very particular patient.",
+        "Don't measure amplitude over 55."
       ],
       "examTraps": [
-        "Giving an add by age alone without checking range.",
-        "Measuring the add monocularly only — final adds are refined binocularly.",
-        "Forgetting that intermediate (computer) needs a lower add than reading."
+        "Basing the tentative add on measured amplitude: it's error-prone in presbyopes; age and working distance is recommended.",
+        "Not checking the range of clear vision at the patient's real working distances.",
+        "Forgetting intermediate (screen) work needs a lower add than reading."
       ],
       "diagram": {
         "id": "range-clear-vision",
@@ -819,16 +804,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Worked add example",
-          "body": "A 52-year-old with amplitude 1.50 D reads at 40 cm. Demand = 2.50 D; half amplitude in reserve means she can use 0.75 D. Tentative add = 2.50 − 0.75 = +1.75. With +1.75 her far point of clear vision is about 1/1.75 = 57 cm, and her near point is about 1/(1.75 + 1.50) ≈ 31 cm. 40 cm sits comfortably inside that range."
+          "heading": "Why half the amplitude?",
+          "body": "The amplitude formula assumes only half the amplitude can be sustained. Aston research (Wolffsohn et al., 2011) suggests about 80% may be, one reason the method is less reliable than the age and distance table."
         },
         {
-          "heading": "Intermediate and occupational adds",
-          "body": "Computer screens are often 60–70 cm away (about 1.50 D demand). A full reading add can put the screen beyond the far point. Options include a lower 'intermediate' add, occupational/office lenses or varifocals with a suitable corridor. Ask about the exact distances she uses."
-        },
-        {
-          "heading": "Explaining presbyopia to patients",
-          "body": "Keep it simple: the lens inside the eye gradually stiffens with age so it can't change focus as easily; it's normal, it affects everyone and it's not a sign of disease. Explain the options (single vision readers, bifocals, varifocals, contact lens options) and that adds usually increase over the next 10–15 years."
+          "heading": "Worked example (lecture SAQ)",
+          "body": "CT is 52, amplitude 3.00 D, model making at 25 cm. Add = 4.00 − 1.50 = +2.50. Range: 1 ÷ 2.50 = 40 cm to 1 ÷ 5.50 = 18 cm, so his phone at 35 cm is fine."
         }
       ],
       "flashcards": [
@@ -879,8 +860,7 @@
               "feedback": "That's the amplitude, not the add."
             }
           ],
-          "explanation": "Demand at 40 cm = 2.50 D; she can comfortably use half her 2.00 D amplitude (1.00 D), leaving +1.50 to be supplied by the add.",
-          "link": "aam-presbyopia-add#worked-add-example"
+          "explanation": "Demand at 40 cm = 2.50 D; she can comfortably use half her 2.00 D amplitude (1.00 D), leaving +1.50 to be supplied by the add."
         },
         {
           "id": "aam-add-2",
@@ -907,8 +887,7 @@
               "feedback": "Prism doesn't explain blur at one distance."
             }
           ],
-          "explanation": "An add sets a range of clear vision; a reading add centred on 40 cm usually doesn't reach a screen at 60–70 cm.",
-          "link": "aam-presbyopia-add#intermediate-and-occupational-adds"
+          "explanation": "An add sets a range of clear vision; a reading add centred on 40 cm usually doesn't reach a screen at 60–70 cm."
         }
       ],
       "cases": [
@@ -928,32 +907,30 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Give me 3 presbyope scenarios with ages, amplitudes and working distances. Ask me for the tentative add and the range of clear vision, then check my working."
+      "askClaude": "Give me 3 presbyope scenarios with ages, amplitudes and working distances. Ask me for the tentative add and the range of clear vision, then check my working.",
+      "fromSlides": true
     },
     {
       "id": "aam-prescribing",
-      "title": "Prescribing decisions: when to change, partial prescribing and anisometropia",
-      "summary": "Finding the refractive error is only half the job; deciding what to prescribe is the other half. Weigh up symptoms, the size of the change, VA benefit, occupation and driving, and how well she'll adapt — and be especially careful with big cylinder changes and anisometropia.",
+      "title": "Prescribing decisions and counselling",
+      "summary": "From Dr Sheppard's week 10 lecture: deciding what to prescribe is 'art rather than science'. Listen to and involve the patient, be careful with plus and minus, big changes and cylinders, think about anisometropia and high powers, only prescribe small errors with good reason, then counsel and record your advice.",
       "keyPoints": [
-        "Compare with the habitual Rx and VA. Small changes (e.g. ≤0.25–0.50 D) with no symptoms and no VA gain are often not worth changing.",
-        "Driving standard (DVLA): read a modern number plate at 20 m and have at least 6/12 binocular VA (with glasses if needed).",
-        "Large changes in cylinder power or axis can cause distortion — consider partial prescribing (part of the change now, the rest later).",
-        "Young hyperopes may not need (or accept) the full plus; prescribe for symptoms, BV status and near demand.",
-        "Myopes: don't over-minus; children shouldn't be deliberately under-corrected for myopia control.",
-        "Anisometropia causes aniseikonia (image size difference, roughly 1% per dioptre in spectacles) and differential prism away from the optical centres.",
-        "Contact lenses reduce aniseikonia and prismatic effects in anisometropia.",
-        "'If it ain't broke, don't fix it': a symptom-free patient wanting a new frame may be best with their current Rx.",
-        "Myopes: avoid over-plus (err towards slight over-minus). Hyperopes: partial correction to relieve symptoms; full only for presbyopes, esotropia or esophoria.",
-        "Extra minus can decompensate esophoria; extra plus can decompensate exophoria. Recheck binocular vision after a big change.",
-        "Over 25, avoid changes of more than ±0.75 D. Make partial cylinder changes for big power or axis changes (thresholds depend on cyl size); power changes are better tolerated than axis changes.",
-        "Small errors: don't prescribe without symptoms; consider detailed work, personality, clear improvement or a phoria. GOC 16.3: targets mustn't affect your judgement."
+        "Listen: a myope who sees better pushing their glasses closer needs more minus; a hyperope who pushes them away needs more plus; a presbyope reading down the nose needs more add.",
+        "Involve the patient: compare old and new in a trial frame or with lenses held over their glasses, and ask whether they'd like new glasses.",
+        "'If it ain't broke, don't fix it': a happy patient wanting a new frame is often best with the current Rx. A presbyopic myope may prefer slight distance under-correction.",
+        "Myopes: avoid over-plus (6 m chart = +0.17 D; night myopia), err towards slight over-minus. Hyperopes: partial correction (½ to ¾ if manifest) to relieve symptoms; full only for presbyopes, esotropia and esophoria.",
+        "Extra minus can decompensate esophoria; extra plus can decompensate exophoria. Recheck binocular vision after a big change, especially with a high AC/A.",
+        "Over 25, avoid changes of more than ±0.75 D (stage them). Consider not prescribing 0.25 DC. Make partial cylinder changes over 0.75 DC, or axis changes over 30° (≤1.00 DC), 15° (1.00–2.00 DC) or 7.5° (>2.00 DC); power changes are better tolerated than axis changes.",
+        "Anisometropia under 1.00 D rarely causes aniseikonia. In presbyopes (e.g. after one cataract op), reduce it by about a third, minimise BVD and thickness, match base curves, consider iseikonic or contact lenses.",
+        "Over 3.00 D, match the old base curves, CD, BVD and material. Low vision adds above +2.50 bring work closer. Correct for vertex distance (F²/1000 per mm, or the exact formula).",
+        "Small errors: no symptoms, no prescription; prescribe more readily for detailed work, detail-focused people, clear improvement or to compensate a phoria. GOC 16.3: targets mustn't affect your judgement.",
+        "Counsel on the chief complaint, ocular health, the Rx and recall, in order of importance to the patient; record the advice. Standard recall 2 years, 1 year for children and the elderly."
       ],
       "examTraps": [
-        "Prescribing every 0.25 D change just because you found it.",
-        "Ignoring the habitual cylinder axis when the new one differs by a lot in a high cylinder.",
-        "Forgetting vertical prism in downgaze for anisometropic presbyopes in bifocals or varifocals.",
-        "Saying it's never sensible to put an old Rx into a new frame.",
-        "Giving full hyperopic correction to every hyperope."
+        "Saying it's never sensible to put an old Rx in a new frame.",
+        "Giving full hyperopic correction to every hyperope.",
+        "Thinking oblique cylinder changes are well tolerated: they're the most problematic.",
+        "Criticising the previous optometrist: they may have under-corrected on purpose (GOC 13.6)."
       ],
       "diagram": {
         "id": "aniseikonia",
@@ -967,16 +944,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Partial prescribing",
-          "body": "If an adult has worn −0.75 × 180 for years and you now find −2.00 × 170, the full change may feel like the floor is tilted. Options: give part of the cylinder increase, keep closer to the old axis, or give the full Rx with a clear explanation of adaptation and a review. Use trial frame walk-arounds before deciding. Adjust the sphere to keep the spherical equivalent."
+          "heading": "Non-tolerance",
+          "body": "Beesley et al. (2022): about 2% of eye exams lead to a recheck for non-tolerance (about 470,000 a year), and nearly half of 279 rechecks involved cylinder changes, especially oblique ones. Warn about adaptation with a first Rx, a big change, or first bifocals or varifocals."
         },
         {
-          "heading": "Anisometropia in practice",
-          "body": "Symptoms can include eyestrain, diplopia or a feeling of depth distortion. With spectacles, think about aniseikonia and induced prism (Prentice's rule): looking 10 mm below the optical centres of R +1.00 / L +4.00 lenses gives 1Δ and 4Δ base up — a 3Δ vertical imbalance. Solutions: contact lenses, single vision readers (so the eyes look near the OCs), slab-off prism or lower segment tops. In children, anisometropia is an amblyopia risk."
-        },
-        {
-          "heading": "Explaining a new prescription",
-          "body": "Tell her what's changed and why, what to expect (a few days to adapt, especially with cylinder or varifocals), when to wear the glasses and when to come back if things don't settle. Record what you advised."
+          "heading": "Not in the slides: aniseikonia rule of thumb",
+          "body": "Spectacle magnification differs by roughly 1% per dioptre of anisometropia; under 1.00 D rarely causes problems and contact lenses often help."
         }
       ],
       "flashcards": [
@@ -1035,8 +1008,7 @@
               "feedback": "Prentice's rule applies to any lens viewed away from its optical centre."
             }
           ],
-          "explanation": "Prentice: P = cF with c in cm. Both lenses are plus, so both give base up below the OC; the imbalance is the difference.",
-          "link": "aam-prescribing#anisometropia-in-practice"
+          "explanation": "Prentice: P = cF with c in cm. Both lenses are plus, so both give base up below the OC; the imbalance is the difference."
         },
         {
           "id": "aam-rx-2",
@@ -1063,8 +1035,7 @@
               "feedback": "Not indicated."
             }
           ],
-          "explanation": "Prescribing decisions weigh benefit (VA, symptoms, tasks) against cost and adaptation. A small, symptom-free change usually isn't needed.",
-          "link": "aam-prescribing#explaining-a-new-prescription"
+          "explanation": "Prescribing decisions weigh benefit (VA, symptoms, tasks) against cost and adaptation. A small, symptom-free change usually isn't needed."
         }
       ],
       "cases": [
@@ -1094,7 +1065,8 @@
           "url": "https://www.college-optometrists.org/"
         }
       ],
-      "askClaude": "Give me 4 'old Rx vs new Rx' scenarios and ask me whether to prescribe the change in full, in part or not at all. Push back on my reasoning."
+      "askClaude": "Give me 4 'old Rx vs new Rx' scenarios and ask me whether to prescribe the change in full, in part or not at all. Push back on my reasoning.",
+      "fromSlides": true
     },
     {
       "id": "aam-presbyope-clinic",
@@ -1338,7 +1310,8 @@
         }
       ],
       "links": [],
-      "askClaude": "Explain Near vision assessment to me step by step, then quiz me on it."
+      "askClaude": "Explain Near vision assessment to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "aam-routine-exam",
@@ -1413,7 +1386,8 @@
       ],
       "cases": [],
       "links": [],
-      "askClaude": "Explain The routine eye examination and record card to me step by step, then quiz me on it."
+      "askClaude": "Explain The routine eye examination and record card to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "aam-record-keeping",
@@ -1473,7 +1447,8 @@
       "goDeeper": [],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Record keeping to me step by step, then quiz me on it."
+      "askClaude": "Explain Record keeping to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "aam-autorefraction",
@@ -1537,7 +1512,8 @@
       "goDeeper": [],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Automated refraction to me step by step, then quiz me on it."
+      "askClaude": "Explain Automated refraction to me step by step, then quiz me on it.",
+      "fromSlides": true
     }
   ]
 }

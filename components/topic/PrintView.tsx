@@ -7,7 +7,7 @@ import { useData } from '../AppProvider'
 import { BackLink } from '../bits'
 import { DiagramFigure } from '../diagrams/DiagramFigure'
 import { DownloadIcon } from '../icons'
-import { VERIFY_NOTE } from './TopicView'
+import { sourceNote } from './TopicView'
 
 const LETTERS = 'ABCDEFGH'
 
@@ -56,7 +56,7 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
               {moduleCode} · {name}
             </p>
             <h1 className="mt-1 font-rounded text-[22pt] font-semibold leading-tight">{t.title}</h1>
-            <p className="mt-2 text-[9.5pt] italic text-muted">{VERIFY_NOTE}</p>
+            <p className="mt-2 text-[9.5pt] italic text-muted">{sourceNote(t)}</p>
 
             <H2>Summary</H2>
             <p>{t.summary}</p>

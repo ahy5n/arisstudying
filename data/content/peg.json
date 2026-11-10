@@ -5,26 +5,23 @@
     {
       "id": "peg-direct-ophthalmoscopy",
       "title": "Direct ophthalmoscopy technique",
-      "summary": "The direct ophthalmoscope gives a highly magnified (about 15×), upright view of a small area of fundus. It's portable and quick, but the field is small and there's no stereo, so it's best for a focused look at the disc, vessels and macula.",
+      "summary": "From the week 3 PEG and week 5 AaM/PEG lectures: the direct ophthalmoscope gives a highly magnified (about 15x for an emmetrope), erect view of a small field. College guidance makes it the minimum internal examination on an undilated eye, so you need a fluent routine from the external eye to the macula and a descriptive way of recording it.",
       "keyPoints": [
-        "Your right eye and right hand for their right eye; left for left.",
-        "Dim the room; patient fixates a distant target and keeps still.",
-        "Start at about arm's length with a low plus lens to see the red reflex (media opacities show as dark shadows).",
-        "Approach along a line about 15° temporal to the patient's line of sight to land on the optic disc.",
-        "Turn the focusing wheel to compensate for both your and the patient's refractive errors.",
-        "Examine: disc → follow each of the four vascular arcades out → periphery → macula last (ask them to look at the light).",
-        "Image is virtual and upright; field is small (a few degrees), so build up the picture section by section.",
-        "Begin with about +10 D in the lens wheel to inspect the external eye and check the media in at least four directions of gaze.",
-        "Monocular indirect ophthalmoscopes widen the view: the PanOptic gives about 5x the field of a direct ophthalmoscope and the Keeler wide-angle about 10x.",
-        "Magnification is about 15x for an emmetropic fundus (more for myopes, less for hyperopes) and about 2.5x for the anterior eye with +10 D.",
-        "Useful field of view j = g(K − W) ÷ K′. It shrinks with longer working distance, smaller pupils and myopia, and grows with hyperopia.",
-        "Record descriptively rather than writing 'NAD', 'WNL' or 'normal'."
+        "College guidance: as a minimum, examine internally with direct ophthalmoscopy on the undilated eye (other methods are allowed); if you can't get an adequate view, dilate or refer. The Opticians Act requires external and internal examination.",
+        "Set-up: lights off, glasses off, raise the chair, give a spotlight to fixate. Your right hand and right eye for their right eye; left for left. Explain that the light is bright and you'll come close.",
+        "Start with about +10 D (eye in focus at 10 cm, about 2.5x): red reflex, iris, pupil, cornea, lids and lashes (eyes closed), then the conjunctiva in each direction of gaze, reducing plus as you move through the media.",
+        "Posterior eye: find the disc (about 0 D if you're both emmetropic), check the posterior pole, then the periphery in 8 gaze directions (hold the upper lid in downgaze), and the macula last with the macular stop.",
+        "Magnification M = (K′ ÷ 4) × 1 ÷ (1 − wK): about 15x for an emmetrope, more for myopes, less for hyperopes.",
+        "Useful field of view j = g(K − W) ÷ K′: it shrinks with longer working distance, smaller pupils and myopia, and grows with hyperopia.",
+        "Apertures include wide, intermediate, macular stop, red-free, slit, fixation cross and cobalt blue.",
+        "Record descriptively for each structure (e.g. lids 'clean, full', cornea 'clear', iris 'brown, even colour'); avoid 'NAD', 'WNL' and 'normal'.",
+        "Direct ophthalmoscopy's advantages over indirect: an erect image, portability, and it suits every patient. Its limits: small field, no stereo, and it only reaches about the equator."
       ],
       "examTraps": [
-        "Using your right eye for the patient's left eye (noses collide, and you block their fixation).",
-        "Starting with the macula — the light makes the pupil constrict and the patient uncomfortable.",
-        "Forgetting the red reflex step.",
-        "Thinking field of view shrinks with hyperopia. It grows; it shrinks with myopia."
+        "Thinking field of view shrinks with hyperopia: it grows; it shrinks with myopia.",
+        "Saying a high myope must wear their glasses for the anterior eye: the patient's Rx doesn't matter there (it does help for the fundus).",
+        "Starting with the macula: the light constricts the pupil and makes the rest harder.",
+        "Reacting with surprise or alarm during the examination."
       ],
       "diagram": {
         "id": "direct-oph-approach",
@@ -38,16 +35,16 @@
       },
       "goDeeper": [
         {
-          "heading": "Red reflex first",
-          "body": "From about 30–50 cm, shine the light into the pupil and look for an even orange-red reflex. Dark spots or spokes are media opacities (e.g. cataract, vitreous floaters). Asking the patient to look up then straight ahead helps tell fixed lens opacities from floating vitreous ones. In children, an absent or white reflex (leukocoria) needs urgent referral."
+          "heading": "Tips for hard cases",
+          "body": "Small pupils: get as close as you can, turn the brightness down to reduce reflections, give clear fixation instructions, remind them it's fine to blink, and consider dilating. High myopes: let them wear their correction; everything looks big and the field is small, so it's easy to miss things, and they're at higher risk of detachment, so consider dilating or an indirect method."
         },
         {
-          "heading": "Describing the disc",
-          "body": "Use a consistent order: size, shape, colour, margins, cup-to-disc ratio (vertical and horizontal), neuroretinal rim (ISNT), vessels at the disc, and anything around it (peripapillary atrophy, haemorrhages). Drawing it helps — and drawing it in GoodNotes is great practice."
+          "heading": "Monocular indirect ophthalmoscopes",
+          "body": "The Welch Allyn PanOptic gives about 5x the field of a direct ophthalmoscope and the Keeler wide-angle about 10x. PanOptic routine: maximum aperture, centre the red dot on the filter dial, focus with the thumb lever and approach along the red reflex."
         },
         {
-          "heading": "Limits of direct ophthalmoscopy",
-          "body": "Small field, no stereo, easily affected by small pupils and media opacities. Slit lamp biomicroscopy with a condensing lens (and photography/OCT) gives a wider, stereoscopic view. Most clinics use direct ophthalmoscopy as part of the routine but rely on slit lamp indirect for detailed assessment."
+          "heading": "Worked SAQ: field of view",
+          "body": "+10.00 D eye, 4 mm pupil, 2.5 cm working distance: j = 0.004 × (10 − (−40)) ÷ 60 = 0.0033 m, about 3.3 mm."
         }
       ],
       "checklist": {
@@ -114,8 +111,7 @@
               "feedback": "Dominance doesn't decide it."
             }
           ],
-          "explanation": "Matching sides keeps your head out of the patient's line of sight so they can fixate the distant target.",
-          "link": "peg-direct-ophthalmoscopy#limits-of-direct-ophthalmoscopy"
+          "explanation": "Matching sides keeps your head out of the patient's line of sight so they can fixate the distant target."
         },
         {
           "id": "peg-oh-1",
@@ -167,30 +163,27 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Ask me to talk you through direct ophthalmoscopy step by step as an examiner would, and point out anything I miss."
+      "askClaude": "Ask me to talk you through direct ophthalmoscopy step by step as an examiner would, and point out anything I miss.",
+      "fromSlides": true
     },
     {
       "id": "peg-indirect-volk",
-      "title": "Indirect fundus examination with slit lamp and Volk lens",
-      "summary": "Slit lamp indirect ophthalmoscopy with a handheld condensing lens (60, 78 or 90 D) gives a wide, stereoscopic view of the fundus. The image is real, inverted and laterally reversed — up is down and left is right.",
+      "title": "Slit lamp indirect ophthalmoscopy with condensing lenses",
+      "summary": "From the week 3 PEG lecture: slit lamp biomicroscopy with a high-plus condensing lens gives a stereoscopic, wide, variable-magnification view of the fundus. The image is real, aerial, inverted and laterally reversed. Know the indications, the lens powers, and the set-up.",
       "keyPoints": [
-        "90 D: widest field, lowest magnification (good for an overview and small pupils).",
-        "78 D: a good all-rounder.",
-        "60 D: highest magnification, smaller field — best for disc and macula detail.",
-        "Image is real, inverted and laterally reversed.",
-        "Set a narrow-ish beam, low intensity, illumination coaxial with the microscope, low magnification to start.",
-        "Hold the lens close to the eye (a few mm to about 1 cm, depending on power), centred on the pupil, then pull the slit lamp back to focus.",
-        "Dilation (e.g. tropicamide 1%) gives a much better view, especially of the periphery — check the angle first.",
-        "Indications for slit-lamp biomicroscopy with a condensing lens: symptomatic patients, new patients, reduced VA, known retinal pathology, systemic disease with retinal effects, cataract and high myopia.",
-        "Lens table: +90 D and SuperField give 0.76x image magnification (about 12x at a 16x slit lamp) with a wide field; +78 D gives 0.93x (about 14x) with a narrower field.",
-        "Set-up: illumination in line with the microscope, moderate parallelepiped, 10x, lens 5 to 11 mm from the cornea, then pull the slit lamp back until the aerial image focuses."
+        "Indications: symptomatic patients, a new patient, reduced VA (often unexplained), known retinal pathology, systemic disease with retinal effects, cataract and high myopia.",
+        "Binocular and stereoscopic, with a variable (potentially large) field, variable magnification and a longer working distance.",
+        "Lens table at a 16x slit lamp: SuperField and +90 D give 0.76x image magnification (about 12x) with a wide field; +78 D gives 0.93x (about 14x) with a narrower field; +60 D about 18x; +20 D gives 3x (used with headset BIO).",
+        "Lower-power lenses magnify more and have a narrower field.",
+        "Set-up: illumination in line with the microscope, moderate parallelepiped, low (10x) magnification, focus on the cornea, lens 5–11 mm from the eye (further for lower powers) with the 'V' pointing to the eye.",
+        "Pull the slit lamp back: the lens surface focuses first, then a blurred red reflex, then the fundus. Use all 8 positions of gaze for the periphery.",
+        "The −55 D Hruby lens gives a virtual, erect image but a field of only 5–8° (about a disc diameter) and is hard to keep in focus.",
+        "Advantages of binocular indirect over direct: stereo, larger field, beyond the equator, works through cataract and high ametropia, longer working distance."
       ],
       "examTraps": [
-        "Forgetting the image is inverted when recording (e.g. writing 'superior' for something that's inferior).",
-        "Using full light intensity — it's uncomfortable and constricts the pupil.",
-        "Holding the lens too far from the eye.",
         "Forgetting the image is inverted and reversed when recording where a lesion is.",
-        "Holding the lens the wrong way round: the 'V' on a Volk lens points towards the eye."
+        "Holding the lens the wrong way round: the 'V' on a Volk lens points towards the eye.",
+        "Thinking higher-power lenses magnify more: they give a wider field and less magnification."
       ],
       "diagram": {
         "id": "volk-optics",
@@ -204,16 +197,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Getting the view",
-          "body": "Align the beam with the pupil without the lens first. Then place the lens in front of the eye, steady your hand on the chin rest or patient's cheek, and slowly pull the slit lamp back until the fundus comes into focus. Tilt the lens slightly to get rid of reflections. To look at the periphery, ask the patient to look in that direction."
+          "heading": "Lecture MCQs",
+          "body": "As magnification increases, field decreases. As Volk lens power decreases, magnification increases. For a first-time 21-year-old with no history, the lecture's answer is slit lamp biomicroscopy with a high-plus lens, because 'new patient' is an indication."
         },
         {
-          "heading": "Measuring the disc",
-          "body": "Shorten the slit beam until it just spans the vertical disc diameter, read the beam height, then multiply by the lens's correction factor (roughly 0.9–1.0 for a 60 D, about 1.1 for a 78 D and about 1.3 for a 90 D — check the manufacturer's figures). An average disc is about 1.8–1.9 mm vertically; small discs under about 1.5 mm, large over about 2.2 mm."
-        },
-        {
-          "heading": "Recording inverted images",
-          "body": "Remember the image is flipped both ways. A haemorrhage you see at the top-right of the view is actually inferior-nasal or inferior-temporal depending on the eye. Many clinicians mentally flip the image before drawing; others draw what they see and flip the drawing. Pick one method and use it every time."
+          "heading": "Not in the slides: dilation for the view",
+          "body": "Dilating (e.g. tropicamide) gives a much better view, especially of the periphery; check the angle and IOP first, as in the week 5 and 9 lectures."
         }
       ],
       "flashcards": [
@@ -268,8 +257,7 @@
               "feedback": "You can — just flip it."
             }
           ],
-          "explanation": "Indirect images are real and inverted (and laterally reversed), so top of view = inferior fundus.",
-          "link": "peg-indirect-volk#recording-inverted-images"
+          "explanation": "Indirect images are real and inverted (and laterally reversed), so top of view = inferior fundus."
         },
         {
           "id": "peg-volk-2",
@@ -296,8 +284,7 @@
               "feedback": "Magnification falls as lens power rises."
             }
           ],
-          "explanation": "Higher-power condensing lenses give a wider field at lower magnification.",
-          "link": "peg-indirect-volk#measuring-the-disc"
+          "explanation": "Higher-power condensing lenses give a wider field at lower magnification."
         },
         {
           "id": "peg-w3-1",
@@ -382,27 +369,26 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Explain why the Volk image is inverted using simple optics, then quiz me on where findings really are when I see them in different parts of the view."
+      "askClaude": "Explain why the Volk image is inverted using simple optics, then quiz me on where findings really are when I see them in different parts of the view.",
+      "fromSlides": true
     },
     {
       "id": "peg-optic-disc",
-      "title": "Optic disc assessment: size, C/D, rim and ISNT",
-      "summary": "Assess the disc in a fixed order: size first (it changes how you read everything else), then cup-to-disc ratio, neuroretinal rim (ISNT rule), colour, margins and surrounding signs. Asymmetry between eyes is an important clue.",
+      "title": "Optic disc assessment",
+      "summary": "From the week 3 and week 5 PEG lectures: assess the disc for cup depth, rim colour, CD ratio, the ISNT rule, margins and any crescent or parapapillary atrophy, judging the cup by its contour and remembering that bigger discs have bigger cups.",
       "keyPoints": [
-        "Size first: large discs have larger cups normally; small discs with 'normal' cups can hide damage.",
-        "Cup-to-disc ratio (C/D): judge the cup by the bend of vessels (contour), not just the pale area. Record vertical and horizontal.",
-        "ISNT rule: neuroretinal rim is usually thickest Inferiorly, then Superiorly, Nasally, and thinnest Temporally.",
-        "Rim thinning or notching (especially inferior or superior) is a glaucoma sign.",
-        "C/D asymmetry of more than about 0.2 between eyes (with similar disc sizes) is suspicious.",
-        "Other glaucoma signs: disc haemorrhage (Drance), peripapillary atrophy (beta zone), baring of circumlinear vessels, bayoneting.",
-        "Pallor of the rim (rather than the cup) suggests non-glaucomatous optic neuropathy; swollen discs with blurred margins need urgent assessment.",
-        "CD ratio rises with disc size (Blue Mountains Eye Study: average disc 1.5 mm), so a larger cup in a large disc may be normal.",
-        "Contour cup (where the rim bends) can be larger than the colour cup (the pale area); judge the CD ratio by contour."
+        "What to record: CD ratio (vertical), cup depth (deep, medium, shallow), rim colour (pink/orange), margins (distinct or not), ISNT, and any crescent or parapapillary atrophy.",
+        "ISNT rule: the neuroretinal rim is usually thickest inferiorly, then superiorly, nasally and temporally. A disc that breaks it raises suspicion, especially with a large CD ratio.",
+        "Judge the cup by its contour (where the vessels bend), which can be larger than the colour cup (the pale area).",
+        "CD ratio rises with disc size (Blue Mountains Eye Study: average disc 1.5 mm), so a large cup in a large disc may be normal, and a CD of 0.6 may be non-pathological.",
+        "No cupping doesn't mean pathology: small discs often have little or no cup.",
+        "Glaucoma changes (week 11): progressive deepening and vertical enlargement of the cup, rim loss, and nasal displacement of the vessels.",
+        "Normal variations include myopic and choroidal crescents and a visible lamina cribrosa."
       ],
       "examTraps": [
-        "Judging the cup by colour (pallor) instead of contour.",
-        "Ignoring disc size.",
-        "Missing a small flame haemorrhage at the disc margin."
+        "Judging the cup by colour instead of contour.",
+        "Ignoring disc size when deciding if a CD ratio is abnormal.",
+        "Calling a disc with no cup abnormal."
       ],
       "diagram": {
         "id": "optic-disc",
@@ -418,16 +404,12 @@
       },
       "goDeeper": [
         {
-          "heading": "Why disc size matters",
-          "body": "The number of nerve fibres is broadly similar between eyes of different disc sizes, so a big disc spreads the same rim over a bigger area and has a bigger cup. A C/D of 0.6 can be normal in a large disc and suspicious in a small one. Measure disc size with the slit lamp beam and a condensing lens, or use OCT."
+          "heading": "Worked SAQ: the ISNT rule",
+          "body": "It describes the expected relative rim thickness: inferior thickest, then superior, nasal and temporal. It helps decide whether a disc with a large CD ratio is likely to be healthy."
         },
         {
-          "heading": "Glaucomatous vs other cupping",
-          "body": "Glaucoma: rim lost focally (notching) or diffusely, with the remaining rim keeping its normal colour. Compressive or other optic neuropathies: rim pallor out of proportion to cupping, colour vision loss and a relative afferent pupil defect — needs referral and investigation."
-        },
-        {
-          "heading": "Swollen discs",
-          "body": "Bilateral swollen discs with headache (worse lying down or in the morning), nausea or transient visual obscurations could be papilloedema from raised intracranial pressure — an emergency referral. Check pupils, fields and BP. Pseudo-swelling (e.g. disc drusen, small crowded hyperopic discs) is a common mimic."
+          "heading": "Not in the slides: other glaucoma disc signs",
+          "body": "Rim notching, disc haemorrhages (Drance), beta-zone parapapillary atrophy, baring of circumlinear vessels and bayoneting. A CD asymmetry over about 0.2 between similar-sized discs is suspicious. A pale rim (rather than cup) suggests a non-glaucomatous optic neuropathy, and swollen discs need urgent assessment."
         }
       ],
       "labelDiagram": {
@@ -484,8 +466,7 @@
               "feedback": "That's normal."
             }
           ],
-          "explanation": "Glaucoma often thins the inferior and superior rim first, so an inferior rim thinner than temporal is a red flag.",
-          "link": "peg-optic-disc#glaucomatous-vs-other-cupping"
+          "explanation": "Glaucoma often thins the inferior and superior rim first, so an inferior rim thinner than temporal is a red flag."
         },
         {
           "id": "peg-disc-2",
@@ -512,8 +493,7 @@
               "feedback": "Context (size, asymmetry, rim) matters."
             }
           ],
-          "explanation": "Cup size scales with disc size; the same ratio means relatively more rim loss in a small disc.",
-          "link": "peg-optic-disc#why-disc-size-matters"
+          "explanation": "Cup size scales with disc size; the same ratio means relatively more rim loss in a small disc."
         },
         {
           "id": "peg-oh-2",
@@ -570,25 +550,24 @@
           "url": "https://www.college-optometrists.org/"
         }
       ],
-      "askClaude": "Describe 4 optic discs in words (size, C/D, rim, haemorrhages) and ask me which look glaucomatous and why. Then help me draw one in GoodNotes."
+      "askClaude": "Describe 4 optic discs in words (size, C/D, rim, haemorrhages) and ask me which look glaucomatous and why. Then help me draw one in GoodNotes.",
+      "fromSlides": true
     },
     {
       "id": "peg-macula-vessels",
       "title": "Macula and retinal vessels: what normal looks like",
-      "summary": "You need to know normal well to spot abnormal. The macula is darker with a bright foveal reflex in younger eyes; arteries are thinner and lighter than veins (about 2:3); and the fundus colour varies a lot with pigmentation and refractive error.",
+      "summary": "From the week 5 AaM/PEG lecture: know what the normal macula and vessels look like, record them descriptively, and recognise common normal variations so you don't over-refer.",
       "keyPoints": [
-        "Macula: about 2 disc diameters temporal to the disc; fovea at its centre with a foveal reflex (often fainter with age).",
-        "The fovea has no retinal vessels (foveal avascular zone).",
-        "Arteries: narrower, lighter red, brighter central light reflex. Veins: wider, darker.",
-        "Normal artery-to-vein (A:V) width ratio about 2:3.",
-        "At normal AV crossings the vein isn't narrowed or deflected.",
-        "Spontaneous venous pulsation at the disc is seen in many normal eyes (its absence alone isn't diagnostic).",
-        "Fundus appearance varies: tessellated (tigroid) in myopes and lightly pigmented eyes; darker, more uniform in darker-pigmented eyes."
+        "Macula: even colour, may look darker than the surrounding retina; foveal reflex present (often absent with age-related changes or drusen). The foveal reflex lies temporal to the disc.",
+        "A:V ratio describes relative vessel width, not number: arterioles are narrower, so 2:3 or 1:2 is normal (3:2 is not).",
+        "Look for nipping at crossings, tortuosity and narrowing: signs of systemic disease such as hypertension.",
+        "Normal variations: tigroid (tessellated) fundus, most often in myopes with thinner retinas; visible choroidal vessels; crescents.",
+        "Record the fundus and macula descriptively, e.g. 'even colour', 'foveal reflex present', 'A:V 2:3, even calibre, no nipping'."
       ],
       "examTraps": [
-        "Calling a normal tessellated myopic fundus abnormal.",
-        "Mixing up arteries and veins (look at width, colour and reflex).",
-        "Not looking at the macula because the patient finds the light uncomfortable."
+        "Saying a normal A:V ratio is 3:2.",
+        "Calling a tessellated myopic fundus abnormal.",
+        "Skipping the macula because the light is uncomfortable: switch to the macular stop and do it last."
       ],
       "diagram": {
         "id": "normal-fundus",
@@ -604,12 +583,8 @@
       },
       "goDeeper": [
         {
-          "heading": "Normal vs early abnormal at the macula",
-          "body": "Normal: even colour, foveal reflex present in young eyes, no spots. Early AMD: drusen (yellow deposits), pigment changes. Signs that need prompt referral: new distortion (Amsler), haemorrhage, exudate, fluid or a grey-green membrane — possible wet AMD, which needs fast-track referral."
-        },
-        {
-          "heading": "Reading the vessels",
-          "body": "Look for calibre (narrowing, dilation), reflex (copper or silver wiring in arteriosclerosis), AV crossing changes (nipping, deflection), tortuosity, emboli (bright plaques at bifurcations), and anything around the vessels (haemorrhages, cotton wool spots, sheathing)."
+          "heading": "Not in the slides: more on normal vessels",
+          "body": "Arteries are lighter red with a brighter central light reflex; veins are wider and darker. At normal crossings the vein isn't narrowed or deflected. Spontaneous venous pulsation at the disc is seen in many normal eyes, but its absence alone isn't diagnostic."
         }
       ],
       "labelDiagram": {
@@ -666,8 +641,7 @@
               "feedback": "That affects vessel calibre and causes haemorrhages/exudates."
             }
           ],
-          "explanation": "A thinner RPE/choroid stretched in myopia lets the choroidal vessels show through.",
-          "link": "peg-macula-vessels#reading-the-vessels"
+          "explanation": "A thinner RPE/choroid stretched in myopia lets the choroidal vessels show through."
         }
       ],
       "cases": [],
@@ -681,7 +655,8 @@
           "url": "https://www.aston.ac.uk/library"
         }
       ],
-      "askClaude": "Help me learn a normal fundus: describe what I should see in a right eye, then quiz me on artery vs vein and normal variations."
+      "askClaude": "Help me learn a normal fundus: describe what I should see in a right eye, then quiz me on artery vs vein and normal variations.",
+      "fromSlides": true
     },
     {
       "id": "peg-tonometry",
@@ -831,21 +806,21 @@
     },
     {
       "id": "peg-glaucoma-referral",
-      "title": "Glaucoma risk factors and referral criteria",
-      "summary": "Primary open-angle glaucoma is a progressive optic neuropathy with characteristic disc and field changes; raised IOP is the main modifiable risk factor but not the definition. Know the risk factors and when NICE says to refer.",
+      "title": "Glaucoma: background and visual field analysis",
+      "summary": "From the week 11 visual fields lecture: glaucoma is an optic neuropathy with characteristic cupping and field loss, and IOP isn't part of the definition. Detect it with IOP, disc assessment and perimetry together from age 35, and read full-threshold fields systematically.",
       "keyPoints": [
-        "Risk factors: raised IOP, older age, family history (first-degree relative), Black African or Caribbean ethnicity, myopia, thin central corneas.",
-        "Glaucoma is diagnosed on optic nerve damage and visual field loss, not IOP alone.",
-        "NICE NG81: refer if there are signs of optic nerve damage or a repeatable visual field defect consistent with glaucoma.",
-        "NICE NG81: refer for raised IOP when it's 24 mmHg or more on repeat measurement with Goldmann-type (contact) tonometry.",
-        "Suspected angle closure (narrow angles with symptoms or signs) is referred too; acute angle closure is an emergency.",
-        "Many areas have repeat measurement or enhanced referral schemes run by optometrists — follow the local pathway.",
-        "Family history: first-degree relatives of people with glaucoma aged 40+ get free NHS sight tests in England."
+        "Classified by IOP: high-tension glaucoma, ocular hypertension, normal-tension and low-tension glaucoma. About 500,000 people in the UK have glaucoma.",
+        "Use the diagnostic triad (IOP, optic nerve head, perimetry) for everyone over 35, when risk becomes significant.",
+        "Mechanical theory: raised IOP compresses the lamina cribrosa and damages ganglion cell axons (doesn't explain normal-tension glaucoma). Vascular theory: reduced blood flow at the lamina causes ischaemia; low blood pressure adds risk.",
+        "Disc changes: deepening and vertical enlargement of the cup, rim loss, nasal vessel shift. Field defects: paracentral scotomas, enlarged blind spot, nasal step, arcuate scotoma.",
+        "Full-threshold perimetry is the standard for monitoring. Unreliable if fixation losses are over 20% or false negatives or positives over 33%.",
+        "MD reflects diffuse loss (e.g. cataract); PSD and CPSD reflect focal loss (e.g. glaucoma); beyond about ±2 dB is usually abnormal. The pattern deviation map reveals focal loss hidden under cataract.",
+        "Glaucoma hemifield test: compares mirror-image upper and lower sectors; outcomes are within normal limits, outside, borderline, general reduction or abnormally high sensitivity."
       ],
       "examTraps": [
-        "Referring on one high NCT reading without repeating with contact tonometry.",
-        "Not referring a suspicious disc because IOP is 'normal' (normal-tension glaucoma exists).",
-        "Missing angle-closure symptoms in the history."
+        "Defining glaucoma by raised IOP.",
+        "Mistaking the learning effect (better second field) for improvement.",
+        "Reading the total deviation map alone when cataract coexists: check pattern deviation."
       ],
       "diagram": {
         "id": "glaucoma-referral-flow",
@@ -858,16 +833,12 @@
       },
       "goDeeper": [
         {
-          "heading": "What NICE NG81 says (in short)",
-          "body": "Before referring for suspected COAG or ocular hypertension, use the full set of tests you have (IOP, disc assessment, visual fields, and angle assessment). Refer if there's suspected optic nerve damage or a repeatable visual field defect, or if IOP is 24 mmHg or more using Goldmann-type applanation after repeat measurement. Guidelines are updated, so check the current version and your local scheme."
+          "heading": "Reading a printout step by step",
+          "body": "Reliability, then greyscale, global indices, total and pattern deviation maps, the glaucoma hemifield test, and finally a diagnosis. Early glaucoma can show a nasal step with significant maps but modest MD and PSD."
         },
         {
-          "heading": "Acute angle closure",
-          "body": "Symptoms: sudden severe eye pain, headache, nausea or vomiting, blurred vision, haloes around lights. Signs: red eye, hazy (oedematous) cornea, mid-dilated poorly reactive pupil, shallow AC, very high IOP. This is an emergency — same-day referral to eye casualty. Don't dilate."
-        },
-        {
-          "heading": "Talking to patients about referral",
-          "body": "Explain calmly: 'Some of the measurements suggest we should get the pressure and the nerve at the back of your eye checked by the hospital eye team.' Avoid saying 'you have glaucoma' — that's for the specialist to diagnose. Tell them what happens next and how long it may take."
+          "heading": "Not in the slides: NICE referral criteria",
+          "body": "NICE NG81: refer for optic nerve damage or a repeatable field defect consistent with glaucoma, or IOP of 24 mmHg or more on repeat contact (Goldmann-type) tonometry. Suspected angle closure is referred too, and acute angle closure is an emergency. Follow local repeat-measurement or enhanced schemes. In England, first-degree relatives over 40 get free NHS sight tests. Risk factors include age, family history, Black African or Caribbean ethnicity, myopia and thin corneas."
         }
       ],
       "flashcards": [
@@ -914,8 +885,7 @@
               "feedback": "It needs confirming now."
             }
           ],
-          "explanation": "Confirm raised NCT readings with contact tonometry; refer if still ≥24 mmHg.",
-          "link": "peg-glaucoma-referral#what-nice-ng81-says-in-short"
+          "explanation": "Confirm raised NCT readings with contact tonometry; refer if still ≥24 mmHg."
         },
         {
           "id": "peg-glc-2",
@@ -942,8 +912,7 @@
               "feedback": "A risk factor, not an emergency."
             }
           ],
-          "explanation": "Acute angle closure can cause rapid, permanent vision loss and needs emergency treatment.",
-          "link": "peg-glaucoma-referral#acute-angle-closure"
+          "explanation": "Acute angle closure can cause rapid, permanent vision loss and needs emergency treatment."
         }
       ],
       "cases": [],
@@ -957,7 +926,8 @@
           "url": "https://www.college-optometrists.org/"
         }
       ],
-      "askClaude": "Quiz me on glaucoma referral: give me patients with IOP, disc, field and history details, and ask if, how urgently and why I'd refer under NICE NG81."
+      "askClaude": "Quiz me on glaucoma referral: give me patients with IOP, disc, field and history details, and ask if, how urgently and why I'd refer under NICE NG81.",
+      "fromSlides": true
     },
     {
       "id": "peg-imaging",
@@ -1181,7 +1151,8 @@
       ],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Peripheral fundus examination to me step by step, then quiz me on it."
+      "askClaude": "Explain Peripheral fundus examination to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "peg-pupils",
@@ -1365,7 +1336,8 @@
         }
       ],
       "links": [],
-      "askClaude": "Explain Pupils: testing and anomalies to me step by step, then quiz me on it."
+      "askClaude": "Explain Pupils: testing and anomalies to me step by step, then quiz me on it.",
+      "fromSlides": true
     },
     {
       "id": "peg-visual-fields",
@@ -1558,7 +1530,8 @@
       ],
       "cases": [],
       "links": [],
-      "askClaude": "Explain Visual fields and where defects come from to me step by step, then quiz me on it."
+      "askClaude": "Explain Visual fields and where defects come from to me step by step, then quiz me on it.",
+      "fromSlides": true
     }
   ]
 }
