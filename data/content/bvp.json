@@ -23,7 +23,11 @@
       "diagram": {
         "id": "phoria-tropia",
         "description": "Pairs of eyes viewing a target. Top row (phoria): both eyes straight when uncovered; under a cover the covered eye drifts out (exophoria). Bottom row (tropia): with both eyes open the left eye is turned out (exotropia).",
-        "labels": ["Phoria: straight with both eyes open", "Covered eye drifts", "Tropia: deviation with both eyes open"]
+        "labels": [
+          "Phoria: straight with both eyes open",
+          "Covered eye drifts",
+          "Tropia: deviation with both eyes open"
+        ]
       },
       "goDeeper": [
         {
@@ -40,20 +44,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Phoria vs tropia", "back": "Phoria = latent (fusion holds it); tropia = manifest with both eyes open." },
-        { "front": "Sheard's criterion", "back": "Opposing fusional reserve ≥ 2 × phoria." },
-        { "front": "Sheard prism formula", "back": "P = (2/3 × phoria) − (1/3 × compensating reserve)." },
-        { "front": "Physiological exophoria", "back": "A small exophoria at near is normal." }
+        {
+          "front": "Phoria vs tropia",
+          "back": "Phoria = latent (fusion holds it); tropia = manifest with both eyes open."
+        },
+        {
+          "front": "Sheard's criterion",
+          "back": "Opposing fusional reserve ≥ 2 × phoria."
+        },
+        {
+          "front": "Sheard prism formula",
+          "back": "P = (2/3 × phoria) − (1/3 × compensating reserve)."
+        },
+        {
+          "front": "Physiological exophoria",
+          "back": "A small exophoria at near is normal."
+        }
       ],
       "mcq": [
         {
           "id": "bvp-pt-1",
           "q": "Near exophoria 6Δ, base-out reserve to blur 15Δ. Does it meet Sheard's criterion?",
           "options": [
-            { "text": "Yes — 15 ≥ 2 × 6", "correct": true, "feedback": "Right: 15Δ ≥ 12Δ." },
-            { "text": "No — the reserve must be 3 × the phoria", "correct": false, "feedback": "Sheard uses twice, not three times." },
-            { "text": "No — you need the base-in reserve", "correct": false, "feedback": "For exophoria, the opposing reserve is base-out (convergent)." },
-            { "text": "Can't tell without Percival", "correct": false, "feedback": "Sheard can be applied on its own." }
+            {
+              "text": "Yes — 15 ≥ 2 × 6",
+              "correct": true,
+              "feedback": "Right: 15Δ ≥ 12Δ."
+            },
+            {
+              "text": "No — the reserve must be 3 × the phoria",
+              "correct": false,
+              "feedback": "Sheard uses twice, not three times."
+            },
+            {
+              "text": "No — you need the base-in reserve",
+              "correct": false,
+              "feedback": "For exophoria, the opposing reserve is base-out (convergent)."
+            },
+            {
+              "text": "Can't tell without Percival",
+              "correct": false,
+              "feedback": "Sheard can be applied on its own."
+            }
           ],
           "explanation": "Sheard: compensating (opposing) reserve ≥ 2 × phoria. For exo, the compensating reserve is convergent (base-out).",
           "link": "bvp-phoria-tropia#sheard-and-percival-criteria"
@@ -62,10 +94,26 @@
           "id": "bvp-pt-2",
           "q": "Near exophoria 12Δ, base-out reserve to blur 12Δ. Sheard prism?",
           "options": [
-            { "text": "4Δ base in", "correct": true, "feedback": "(2/3 × 12) − (1/3 × 12) = 8 − 4 = 4Δ BI." },
-            { "text": "4Δ base out", "correct": false, "feedback": "Exophoria is relieved with base-in prism." },
-            { "text": "8Δ base in", "correct": false, "feedback": "Subtract a third of the reserve." },
-            { "text": "No prism needed", "correct": false, "feedback": "12Δ is less than 2 × 12Δ, so it fails Sheard." }
+            {
+              "text": "4Δ base in",
+              "correct": true,
+              "feedback": "(2/3 × 12) − (1/3 × 12) = 8 − 4 = 4Δ BI."
+            },
+            {
+              "text": "4Δ base out",
+              "correct": false,
+              "feedback": "Exophoria is relieved with base-in prism."
+            },
+            {
+              "text": "8Δ base in",
+              "correct": false,
+              "feedback": "Subtract a third of the reserve."
+            },
+            {
+              "text": "No prism needed",
+              "correct": false,
+              "feedback": "12Δ is less than 2 × 12Δ, so it fails Sheard."
+            }
           ],
           "explanation": "Sheard prism = 2/3 phoria − 1/3 reserve; base direction is base in for exo.",
           "link": "bvp-phoria-tropia#worked-sheard-example"
@@ -73,8 +121,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Give me phoria measurements with fusional reserves and ask me whether each meets Sheard's criterion and what prism (if any) it suggests."
     },
@@ -89,7 +143,11 @@
         "Alternate cover: move the cover quickly between eyes to break fusion and show the full deviation.",
         "Exophoria: covered eye drifts out, recovers inwards on uncovering. Esophoria: drifts in, recovers outwards.",
         "Grade recovery: rapid and smooth (well compensated) vs slow or jerky (possibly decompensated).",
-        "Measure the size with a prism bar (prism cover test): base in for exo, base out for eso."
+        "Measure the size with a prism bar (prism cover test): base in for exo, base out for eso.",
+        "Stage 1 (cover/uncover the other eye) detects tropia: the deviated eye moves to fixate (out for eso, in for exo, down for hyper, up for hypo).",
+        "Stage 2 (watch the covered eye on uncovering) detects phoria; smooth fast recovery suggests it's compensated.",
+        "Stage 3 (alternating cover) breaks fusion and shows the total deviation and any intermittent tropia.",
+        "Use a target one line larger than the worse eye's VA (spotlight if worse than about 6/18), at distance and near, with habitual then optimal Rx."
       ],
       "examTraps": [
         "Doing the alternate cover first (it can break down a well-controlled phoria before you've checked for a tropia).",
@@ -99,7 +157,12 @@
       "diagram": {
         "id": "cover-test",
         "description": "Sequence of four eye pairs: (1) both eyes fixating; (2) right eye covered — left eye stays still (no left tropia); (3) cover removed — right eye moves in from an outward position (exophoria recovery); (4) alternate cover between eyes showing each eye moving in as it's uncovered.",
-        "labels": ["Cover right eye", "Watch left eye", "Uncover: right eye recovers", "Alternate cover"]
+        "labels": [
+          "Cover right eye",
+          "Watch left eye",
+          "Uncover: right eye recovers",
+          "Alternate cover"
+        ]
       },
       "goDeeper": [
         {
@@ -127,29 +190,77 @@
         ]
       },
       "flashcards": [
-        { "front": "Test that detects a tropia", "back": "Cover–uncover." },
-        { "front": "Test that shows the total deviation", "back": "Alternate cover." },
-        { "front": "Exophoria on uncovering", "back": "The covered eye moves inwards to recover." },
-        { "front": "Prism to neutralise exo", "back": "Base in." }
+        {
+          "front": "Test that detects a tropia",
+          "back": "Cover–uncover."
+        },
+        {
+          "front": "Test that shows the total deviation",
+          "back": "Alternate cover."
+        },
+        {
+          "front": "Exophoria on uncovering",
+          "back": "The covered eye moves inwards to recover."
+        },
+        {
+          "front": "Prism to neutralise exo",
+          "back": "Base in."
+        },
+        {
+          "front": "Estimating a deviation's size",
+          "back": "1 cm at 1 m = 1Δ; or neutralise with a prism bar (base in for exo, base out for eso)."
+        },
+        {
+          "front": "Which cover test reveals intermittent tropias?",
+          "back": "The alternating cover test."
+        }
       ],
       "mcq": [
         {
           "id": "bvp-ct-1",
           "q": "You cover the right eye and the left eye moves inwards to take up fixation. What does this show?",
           "options": [
-            { "text": "Left exotropia", "correct": true, "feedback": "Yes — the left eye was turned out and moved in to fixate." },
-            { "text": "Left esotropia", "correct": false, "feedback": "An esotropic eye would move outwards." },
-            { "text": "Right exophoria", "correct": false, "feedback": "Phoria is seen on the covered eye when uncovering." },
-            { "text": "Orthophoria", "correct": false, "feedback": "Movement on cover–uncover means a tropia." }
+            {
+              "text": "Left exotropia",
+              "correct": true,
+              "feedback": "Yes — the left eye was turned out and moved in to fixate."
+            },
+            {
+              "text": "Left esotropia",
+              "correct": false,
+              "feedback": "An esotropic eye would move outwards."
+            },
+            {
+              "text": "Right exophoria",
+              "correct": false,
+              "feedback": "Phoria is seen on the covered eye when uncovering."
+            },
+            {
+              "text": "Orthophoria",
+              "correct": false,
+              "feedback": "Movement on cover–uncover means a tropia."
+            }
           ],
           "explanation": "On cover–uncover, a movement of the uncovered eye means it wasn't fixating — a tropia. Inward movement means it was out (exo).",
           "link": "bvp-cover-test#spotting-a-tropia"
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "BVP SAQ: in primary gaze the right eye is turned in.",
+          "question": "Name the deviation [1] and describe the distance cover/uncover test findings [4].",
+          "modelAnswer": "Right esotropia [1]. Cover LE: RE moves out to take up fixation, and LE moves in under the cover (Hering's law) [1]. Uncover LE: RE moves back in to its deviated position and LE moves back out [1]. Cover RE: neither eye moves [1]. Uncover RE: neither eye moves [1]."
+        }
+      ],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Describe what you see during cover tests (which eye moves, which way, on cover or uncover) and ask me to name the deviation each time."
     },
@@ -164,7 +275,10 @@
         "Aligning prism (associated heterophoria): the smallest prism (or lens change) that brings the lines back into line.",
         "A slip with symptoms suggests a decompensated heterophoria.",
         "Test horizontal and vertical slips, at distance and near.",
-        "Even a small vertical slip can be significant; vertical aligning prism is often worth prescribing if symptomatic."
+        "Even a small vertical slip can be significant; vertical aligning prism is often worth prescribing if symptomatic.",
+        "Fixation disparity: a small misalignment within Panum's fusional area, likely with decompensated phoria. The prism that removes it is the aligning prism.",
+        "Use the smallest base-in prism for an exo slip and base-out for an eso slip; check the vertical OXO and ask about tilt (cyclodeviation).",
+        "At near, extra plus can remove an eso slip by reducing accommodative convergence."
       ],
       "examTraps": [
         "Asking leading questions ('Is the line moving to the left?').",
@@ -174,7 +288,12 @@
       "diagram": {
         "id": "mallett-oxo",
         "description": "Mallett OXO target: letters O X O in the centre (seen by both eyes), a polarised vertical line above (seen by one eye) and below (seen by the other). Left panel: lines aligned with the X. Right panel: lower line shifted sideways — a horizontal slip.",
-        "labels": ["Binocular OXO (fusion lock)", "Nonius line (right eye)", "Nonius line (left eye)", "Slip"]
+        "labels": [
+          "Binocular OXO (fusion lock)",
+          "Nonius line (right eye)",
+          "Nonius line (left eye)",
+          "Slip"
+        ]
       },
       "goDeeper": [
         {
@@ -187,29 +306,91 @@
         }
       ],
       "flashcards": [
-        { "front": "What is fixation disparity?", "back": "A small vergence error within Panum's area that still allows single vision." },
-        { "front": "Aligning prism", "back": "The prism that eliminates the Mallett slip (associated phoria)." },
-        { "front": "Slip + symptoms suggests…", "back": "A decompensated heterophoria." },
-        { "front": "Mallett central letters", "back": "OXO — seen by both eyes to lock fusion." }
+        {
+          "front": "What is fixation disparity?",
+          "back": "A small vergence error within Panum's area that still allows single vision."
+        },
+        {
+          "front": "Aligning prism",
+          "back": "The prism that eliminates the Mallett slip (associated phoria)."
+        },
+        {
+          "front": "Slip + symptoms suggests…",
+          "back": "A decompensated heterophoria."
+        },
+        {
+          "front": "Mallett central letters",
+          "back": "OXO — seen by both eyes to lock fusion."
+        }
       ],
       "mcq": [
         {
           "id": "bvp-mal-1",
           "q": "A patient has a 10Δ exophoria on the cover test but no Mallett slip and no symptoms. Interpretation?",
           "options": [
-            { "text": "Likely well compensated", "correct": true, "feedback": "Yes — no slip and no symptoms." },
-            { "text": "Decompensated — prescribe 10Δ base in", "correct": false, "feedback": "Dissociated phoria size alone doesn't decide." },
-            { "text": "Exotropia", "correct": false, "feedback": "The cover test showed a phoria." },
-            { "text": "The Mallett unit must be faulty", "correct": false, "feedback": "This combination is common." }
+            {
+              "text": "Likely well compensated",
+              "correct": true,
+              "feedback": "Yes — no slip and no symptoms."
+            },
+            {
+              "text": "Decompensated — prescribe 10Δ base in",
+              "correct": false,
+              "feedback": "Dissociated phoria size alone doesn't decide."
+            },
+            {
+              "text": "Exotropia",
+              "correct": false,
+              "feedback": "The cover test showed a phoria."
+            },
+            {
+              "text": "The Mallett unit must be faulty",
+              "correct": false,
+              "feedback": "This combination is common."
+            }
           ],
           "explanation": "Compensation depends on how well fusion copes, not the dissociated size. No slip, no symptoms → compensated.",
           "link": "bvp-mallett#dissociated-vs-associated-phoria"
+        },
+        {
+          "id": "bvp-w11-1",
+          "q": "Which statement is TRUE?",
+          "options": [
+            {
+              "text": "The near Mallett nonius strips may align if plus lenses are added for a patient with a near eso slip",
+              "correct": true,
+              "feedback": "Yes: less accommodation means less convergence."
+            },
+            {
+              "text": "The OXO targets are the only part of the Mallett unit seen monocularly",
+              "correct": false,
+              "feedback": "The OXO is seen binocularly (fusion lock); the nonius strips are seen one by each eye."
+            },
+            {
+              "text": "Prism correction is indicated for retinal slip with asthenopia and good prism adaptation",
+              "correct": false,
+              "feedback": "Good prism adaptation argues against prisms."
+            }
+          ],
+          "explanation": "BVP week 11 question and answer sheet."
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "BVP SAQ [6].",
+          "question": "Describe how you'd use the near Mallett unit to investigate fixation disparity and measure aligning prism.",
+          "modelAnswer": "Set-up (up to 2): polaroid visor over the near Rx; ask them to read text matching their near VA; check both green nonius strips are seen. Then: ask if the strips line up with the X; if not, find the smallest base-in (exo slip) or base-out (eso slip) prism that aligns them [2]; repeat with the vertical OXO using vertical prism [1]; ask whether the strips look tilted (cyclodeviation) [1]."
+        }
+      ],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Explain fixation disparity and the Mallett unit simply, then give me 3 patients with cover test, Mallett and symptom results and ask what I'd do."
     },
@@ -234,7 +415,12 @@
       "diagram": {
         "id": "npc",
         "description": "Side view: an RAF rule with a target moving towards the patient's nose. Both eyes converge until one eye drifts out (break point). The break distance in cm is marked; recovery shown as the target is moved back until both eyes refixate.",
-        "labels": ["RAF rule", "Target", "Break point (one eye drifts out)", "Recovery point"]
+        "labels": [
+          "RAF rule",
+          "Target",
+          "Break point (one eye drifts out)",
+          "Recovery point"
+        ]
       },
       "goDeeper": [
         {
@@ -247,20 +433,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Three classic signs of CI", "back": "Receded NPC, exo greater at near, reduced positive fusional reserves at near." },
-        { "front": "Most effective CI treatment (CITT)", "back": "Office-based vergence/accommodative therapy with home reinforcement." },
-        { "front": "NPC: what to record", "back": "Break and recovery distances." },
-        { "front": "Main differential to exclude", "back": "Accommodative insufficiency (and uncorrected refractive error)." }
+        {
+          "front": "Three classic signs of CI",
+          "back": "Receded NPC, exo greater at near, reduced positive fusional reserves at near."
+        },
+        {
+          "front": "Most effective CI treatment (CITT)",
+          "back": "Office-based vergence/accommodative therapy with home reinforcement."
+        },
+        {
+          "front": "NPC: what to record",
+          "back": "Break and recovery distances."
+        },
+        {
+          "front": "Main differential to exclude",
+          "back": "Accommodative insufficiency (and uncorrected refractive error)."
+        }
       ],
       "mcq": [
         {
           "id": "bvp-ci-1",
           "q": "A 15-year-old has headaches reading, NPC break 14 cm, 2Δ exo at distance and 12Δ exo at near, low base-out reserves. Most likely?",
           "options": [
-            { "text": "Convergence insufficiency", "correct": true, "feedback": "Yes — all three classic signs." },
-            { "text": "Divergence excess", "correct": false, "feedback": "That's more exo at distance." },
-            { "text": "Convergence excess", "correct": false, "feedback": "That's eso at near." },
-            { "text": "Basic exophoria", "correct": false, "feedback": "Basic exo is similar at distance and near." }
+            {
+              "text": "Convergence insufficiency",
+              "correct": true,
+              "feedback": "Yes — all three classic signs."
+            },
+            {
+              "text": "Divergence excess",
+              "correct": false,
+              "feedback": "That's more exo at distance."
+            },
+            {
+              "text": "Convergence excess",
+              "correct": false,
+              "feedback": "That's eso at near."
+            },
+            {
+              "text": "Basic exophoria",
+              "correct": false,
+              "feedback": "Basic exo is similar at distance and near."
+            }
           ],
           "explanation": "Exo greater at near, receded NPC and reduced convergent reserves = CI.",
           "link": "bvp-ci#exercises"
@@ -268,8 +482,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Explain how to tell convergence insufficiency from accommodative insufficiency, then quiz me with 3 cases."
     },
@@ -294,7 +514,11 @@
       "diagram": {
         "id": "prism-base",
         "description": "Two eyes looking through prisms. Exophoria example: base-in prisms in front of each eye (bases towards the nose), with the images displaced outward towards the apices so the eyes don't need to converge as much.",
-        "labels": ["Base in (exo)", "Base out (eso)", "Image moves towards the apex"]
+        "labels": [
+          "Base in (exo)",
+          "Base out (eso)",
+          "Image moves towards the apex"
+        ]
       },
       "goDeeper": [
         {
@@ -307,20 +531,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Prism dioptre definition", "back": "1 cm displacement at 1 m." },
-        { "front": "Which way does the image move through a prism?", "back": "Towards the apex." },
-        { "front": "Prism for esophoria", "back": "Base out." },
-        { "front": "Prism for right hyperphoria", "back": "Base down right (or base up left), usually split." }
+        {
+          "front": "Prism dioptre definition",
+          "back": "1 cm displacement at 1 m."
+        },
+        {
+          "front": "Which way does the image move through a prism?",
+          "back": "Towards the apex."
+        },
+        {
+          "front": "Prism for esophoria",
+          "back": "Base out."
+        },
+        {
+          "front": "Prism for right hyperphoria",
+          "back": "Base down right (or base up left), usually split."
+        }
       ],
       "mcq": [
         {
           "id": "bvp-pr-1",
           "q": "How much decentration gives 2Δ with a +5.00 D lens?",
           "options": [
-            { "text": "4 mm", "correct": true, "feedback": "c = P/F = 2/5 = 0.4 cm = 4 mm." },
-            { "text": "10 mm", "correct": false, "feedback": "That multiplies instead of divides." },
-            { "text": "2.5 mm", "correct": false, "feedback": "That's for 2Δ with an 8 D lens." },
-            { "text": "0.4 mm", "correct": false, "feedback": "c comes out in cm: 0.4 cm = 4 mm." }
+            {
+              "text": "4 mm",
+              "correct": true,
+              "feedback": "c = P/F = 2/5 = 0.4 cm = 4 mm."
+            },
+            {
+              "text": "10 mm",
+              "correct": false,
+              "feedback": "That multiplies instead of divides."
+            },
+            {
+              "text": "2.5 mm",
+              "correct": false,
+              "feedback": "That's for 2Δ with an 8 D lens."
+            },
+            {
+              "text": "0.4 mm",
+              "correct": false,
+              "feedback": "c comes out in cm: 0.4 cm = 4 mm."
+            }
           ],
           "explanation": "Prentice's rule rearranged: c (cm) = P ÷ F.",
           "link": "bvp-prism#decentration-instead-of-ground-prism"
@@ -329,10 +581,26 @@
           "id": "bvp-pr-2",
           "q": "A patient's Mallett unit shows a right hyper slip neutralised by 1Δ. How might you prescribe it?",
           "options": [
-            { "text": "R 0.5Δ base down, L 0.5Δ base up", "correct": true, "feedback": "Yes — split, base down over the hyper eye." },
-            { "text": "R 1Δ base up", "correct": false, "feedback": "Base up in front of the hyper eye makes it worse." },
-            { "text": "R 0.5Δ base in, L 0.5Δ base in", "correct": false, "feedback": "That's horizontal prism." },
-            { "text": "No prism — vertical prism is never prescribed", "correct": false, "feedback": "Small vertical prisms often help symptomatic patients." }
+            {
+              "text": "R 0.5Δ base down, L 0.5Δ base up",
+              "correct": true,
+              "feedback": "Yes — split, base down over the hyper eye."
+            },
+            {
+              "text": "R 1Δ base up",
+              "correct": false,
+              "feedback": "Base up in front of the hyper eye makes it worse."
+            },
+            {
+              "text": "R 0.5Δ base in, L 0.5Δ base in",
+              "correct": false,
+              "feedback": "That's horizontal prism."
+            },
+            {
+              "text": "No prism — vertical prism is never prescribed",
+              "correct": false,
+              "feedback": "Small vertical prisms often help symptomatic patients."
+            }
           ],
           "explanation": "A right hyper is relieved by base down right / base up left, usually split between eyes.",
           "link": "bvp-prism#notation"
@@ -340,8 +608,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Quiz me on prism base directions and Prentice's rule decentration, including which way to move the optical centre for plus and minus lenses."
     }

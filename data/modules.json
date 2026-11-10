@@ -89,7 +89,11 @@
         "aad-lens-materials",
         "aad-lens-form-coatings",
         "aad-multifocals",
-        "aad-verification-fitting"
+        "aad-verification-fitting",
+        "aad-ppl",
+        "aad-aberrations",
+        "aad-aspheric",
+        "aad-occupational"
       ]
     },
     {
@@ -123,7 +127,11 @@
         "aam-accommodation",
         "aam-presbyopia-add",
         "aam-prescribing",
-        "aam-presbyope-clinic"
+        "aam-presbyope-clinic",
+        "aam-near-vision",
+        "aam-routine-exam",
+        "aam-record-keeping",
+        "aam-autorefraction"
       ]
     },
     {
@@ -158,7 +166,10 @@
         "clb-vertex-power",
         "clb-care-hygiene",
         "clb-complications",
-        "clb-grading"
+        "clb-grading",
+        "clb-topography",
+        "clb-tear-film",
+        "clb-materials-modalities"
       ]
     },
     {
@@ -189,7 +200,8 @@
         "ane-staining",
         "ane-tear-film",
         "ane-lid-eversion",
-        "ane-common-conditions"
+        "ane-common-conditions",
+        "ane-cataract"
       ]
     },
     {
@@ -221,7 +233,10 @@
         "peg-macula-vessels",
         "peg-tonometry",
         "peg-glaucoma-referral",
-        "peg-imaging"
+        "peg-imaging",
+        "peg-peripheral-fundus",
+        "peg-pupils",
+        "peg-visual-fields"
       ]
     },
     {
@@ -251,7 +266,12 @@
         "syd-diabetes",
         "syd-hypertension",
         "syd-clinical-data",
-        "syd-referral"
+        "syd-referral",
+        "syd-red-eye",
+        "syd-lids-orbit",
+        "syd-diplopia",
+        "syd-headache-pain",
+        "syd-field-loss"
       ]
     },
     {
@@ -336,7 +356,14 @@
         "vse-statistics",
         "vse-critique",
         "vse-ebp",
-        "vse-literature-search"
+        "vse-literature-search",
+        "vse-retina",
+        "vse-receptive-fields",
+        "vse-v1",
+        "vse-ventral-stream",
+        "vse-dorsal-stream",
+        "vse-perceptual-grouping",
+        "vse-lightness"
       ]
     },
     {
@@ -388,7 +415,8 @@
       "topics": [
         "doc-what-it-requires",
         "doc-apologising",
-        "doc-raising-concerns"
+        "doc-raising-concerns",
+        "doc-edi"
       ]
     },
     {
@@ -413,7 +441,9 @@
         "phe-sight-loss-uk",
         "phe-inequalities",
         "phe-health-promotion",
-        "phe-task-a"
+        "phe-task-a",
+        "phe-infection-control",
+        "phe-wellbeing"
       ]
     },
     {

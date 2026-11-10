@@ -207,7 +207,9 @@
         "Record as e.g. 7.80 @ 180 / 7.60 @ 90 (radius in mm @ meridian), noting mire quality.",
         "Distorted or irregular mires point to irregular cornea (e.g. keratoconus, scarring, CL warpage).",
         "Topography (Placido disc) maps curvature across the cornea; axial maps show overall shape, tangential maps show local changes better.",
-        "Also measure HVID (horizontal visible iris diameter, ~11.5–12 mm) and pupil size to choose lens diameter and optic zone."
+        "Also measure HVID (horizontal visible iris diameter, ~11.5–12 mm) and pupil size to choose lens diameter and optic zone.",
+        "Keratometer formula: radius is roughly 2 × working distance × image height ÷ mire separation. A Scheiner disc checks the working distance; doubling the image with a prism beats eye movement.",
+        "Assumptions: a spherical arc, principal meridians at 90°, an on-axis measurement, and a back surface with −10% of the front surface power (hence n = 1.3375)."
       ],
       "examTraps": [
         "Using 337.5 / r with r in metres — r must be in mm.",
@@ -253,6 +255,14 @@
         {
           "front": "Topography sign of keratoconus",
           "back": "Asymmetric inferior steepening (hot colours inferiorly)."
+        },
+        {
+          "front": "One-position versus two-position keratometer",
+          "back": "Bausch & Lomb: fixed doubling, both meridians measured from one position. Javal-Schiotz: variable doubling, two positions."
+        },
+        {
+          "front": "Operator errors in keratometry",
+          "back": "Focusing, proximal accommodation, alignment and orientation of the instrument."
         }
       ],
       "mcq": [
@@ -311,6 +321,70 @@
           ],
           "explanation": "Residual astigmatism ≈ refractive astigmatism − corneal astigmatism (in matching form). Equal amounts at matching axes leave little residual.",
           "link": "clb-keratometry#residual-astigmatism"
+        },
+        {
+          "id": "clb-topo-tyk-1",
+          "q": "What do keratometry readings represent?",
+          "options": [
+            {
+              "text": "Curvature of the cornea",
+              "correct": true,
+              "feedback": "Yes: the radius of curvature of the central cornea in each principal meridian."
+            },
+            {
+              "text": "Thickness of the retina",
+              "correct": false,
+              "feedback": "That needs OCT."
+            },
+            {
+              "text": "Pressure inside the eye",
+              "correct": false,
+              "feedback": "That is tonometry."
+            },
+            {
+              "text": "Diameter of the pupil",
+              "correct": false,
+              "feedback": "Not measured by a keratometer."
+            },
+            {
+              "text": "HVID",
+              "correct": false,
+              "feedback": "Horizontal visible iris diameter is measured separately."
+            }
+          ],
+          "explanation": "Test-your-knowledge question 1."
+        },
+        {
+          "id": "clb-topo-tyk-2",
+          "q": "Which units are typically used in keratometry?",
+          "options": [
+            {
+              "text": "Millimetres or dioptres",
+              "correct": true,
+              "feedback": "Yes: radius in mm, or power in D from F = (n − 1)/r."
+            },
+            {
+              "text": "Degrees or millimetres",
+              "correct": false,
+              "feedback": "Degrees give the meridian, not the reading itself."
+            },
+            {
+              "text": "Dioptres or degrees",
+              "correct": false,
+              "feedback": "Degrees give the meridian, not the reading itself."
+            },
+            {
+              "text": "Micrometres or mmHg",
+              "correct": false,
+              "feedback": "Those belong to pachymetry and tonometry."
+            },
+            {
+              "text": "Degrees and seconds",
+              "correct": false,
+              "feedback": "Not used for K readings."
+            }
+          ],
+          "explanation": "Test-your-knowledge question 2. The lecture writes readings as e.g. 7.90 @ 150 and notes the USA uses dioptres."
         }
       ],
       "cases": [],
@@ -337,7 +411,10 @@
         "Holden–Mertz criteria: about 24 × 10⁻⁹ units Dk/t to avoid corneal swelling in daily wear, and about 87 × 10⁻⁹ for overnight wear.",
         "Thicker lenses (high plus, toric ballast) have lower Dk/t — check centre and peripheral thickness.",
         "Hypoxia signs: limbal redness, neovascularisation, microcysts, corneal oedema (striae, folds).",
-        "Higher modulus can mean more mechanical complications (e.g. SEALs, papillary conjunctivitis) in some wearers."
+        "Higher modulus can mean more mechanical complications (e.g. SEALs, papillary conjunctivitis) in some wearers.",
+        "Holden-Mertz minimum Dk/t to avoid corneal swelling: 24 (daily wear) and 87 (extended wear); later studies suggest 35 and 125, or 175.",
+        "Original Fatt measurements overestimate Dk; corrected values are about 25% lower and coulometric values 5–10% lower again.",
+        "Silicone hydrogels separate oxygen (silicone) and water (hydrogel) pathways: hypoxic complications disappear, but MK and CIE rates are unchanged when modality is matched, and mucin balls can occur."
       ],
       "examTraps": [
         "Mixing up Dk (material) and Dk/t (lens).",
@@ -384,6 +461,14 @@
         {
           "front": "Hydrogel Dk and water content",
           "back": "Dk increases as water content increases."
+        },
+        {
+          "front": "Signs of corneal hypoxia",
+          "back": "Epithelial microcysts, stromal oedema (striae), endothelial blebs and polymegethism, neovascularisation."
+        },
+        {
+          "front": "Oxygen at the cornea: open versus closed eye",
+          "back": "About 21% versus 8%."
         }
       ],
       "mcq": [
@@ -622,12 +707,22 @@
         "Flat: dark central touch, wide edge stand-off, lens often decentres and may rock.",
         "Spherical RGP on a with-the-rule cornea: a horizontal band of touch with pooling above and below.",
         "Tear lens: about 0.05 mm change in BOZR ≈ 0.25 D change in tear lens power (SAM-FAP: steeper add minus, flatter add plus).",
-        "Assess dynamic fit too: smooth vertical movement on blink and good centration."
+        "Assess dynamic fit too: smooth vertical movement on blink and good centration.",
+        "Oxygen permeability Dk is a material property; transmissibility Dk/t also depends on thickness. Dk is quoted at 34°C because it rises with temperature.",
+        "Material families: PMMA (almost no Dk), CAB (Dk 4–8), silicone acrylates, fluorosilicone acrylates (Dk 40 to 100+). ISO group suffix I: neither silicone nor fluorine; II: silicone only; III: both; IV: fluorine only.",
+        "Tricurve rule: BOZD = TD − 1.4 mm; secondary curve BOZR + 1.0 mm; peripheral curve BOZR + 2.5 mm, 0.2–0.4 mm wide.",
+        "Ideal central tear layer thickness is about 15–20 µm. Change BOZR by more than 0.05 mm or BOZD by more than 0.5 mm to see a fluorescein difference.",
+        "First BOZR from flat K and corneal astigmatism: under 0.50 DC, 0.05 mm steeper; 0.50–1.00 DC, 0.05–0.10 mm steeper; 1.00–2.00 DC, a third of the difference steeper; over 2.00 DC, a toric back surface.",
+        "Total diameter about 2 mm less than HVID (usually 8.50–10.50 mm), ideally with upper lid attachment; BOZD about 1 mm bigger than the pupil in average light.",
+        "Sagittal depth decides fit: a steeper BOZR or larger diameter makes the fit steeper.",
+        "Power: each 0.05 mm steeper BOZR adds +0.25 D of tear lens, so order 0.25 D more minus (and the reverse for flatter)."
       ],
       "examTraps": [
         "Reading a with-the-rule band of touch as a 'flat' fit.",
         "Changing BOZR without adjusting power for the tear lens (SAM-FAP).",
-        "Assessing the pattern without the barrier filter (faint patterns look misleading)."
+        "Assessing the pattern without the barrier filter (faint patterns look misleading).",
+        "Calling a GP lens 'hard'. 'Hard' means PMMA, which has almost no oxygen permeability.",
+        "Thinking constant axial edge lift gives the same clearance on every cornea. It gives too much on steep corneas and too little on flat ones, hence constant axial edge clearance designs."
       ],
       "diagram": {
         "id": "rgp-fluorescein",
@@ -669,6 +764,30 @@
         {
           "front": "BOZR change per 0.25 D tear lens",
           "back": "About 0.05 mm."
+        },
+        {
+          "front": "USAN stem for a rigid lens material",
+          "back": "'focon' (soft lenses are 'filcon')."
+        },
+        {
+          "front": "First GP lens approved for 30 days' continuous wear",
+          "back": "Menicon Z (Dk 163)."
+        },
+        {
+          "front": "Disadvantages of siloxane acrylates",
+          "back": "Deposit-prone, scratch easily, more breakage, crazing, flexure and parameter instability."
+        },
+        {
+          "front": "Trial lens 8.00 / −2.00, over-refraction −1.50. You order 8.10. What power?",
+          "back": "−3.00 D. −3.50 at 8.00, but the flatter BOZR makes the tear lens 0.50 D more minus."
+        },
+        {
+          "front": "How long should a rigid trial lens settle?",
+          "back": "About 10 to 20 minutes, until watering subsides."
+        },
+        {
+          "front": "Movement grade 0 for a rigid lens",
+          "back": "1.1 to 1.5 mm between blinks."
         }
       ],
       "mcq": [
@@ -727,9 +846,116 @@
           ],
           "explanation": "Roughly 0.05 mm per 0.25 D. A steeper lens creates a more positive tear lens, compensated with minus.",
           "link": "clb-rgp-fitting#sam-fap"
+        },
+        {
+          "id": "clb-rgpfit-1",
+          "q": "Siloxane acrylate rigid lens materials have",
+          "options": [
+            {
+              "text": "siloxane (Si-O-Si) bonds that give momentary molecular-sized voids",
+              "correct": true,
+              "feedback": "Yes: that is how oxygen passes through by diffusion."
+            },
+            {
+              "text": "a silicone backbone",
+              "correct": false,
+              "feedback": "The backbone is acrylate (methacrylate) with siloxane groups added."
+            },
+            {
+              "text": "Dk values of 70 or more",
+              "correct": false,
+              "feedback": "Early SAs had Dk around 10–15; high Dks came with fluorosilicone acrylates."
+            },
+            {
+              "text": "a hydrophilic surface",
+              "correct": false,
+              "feedback": "Silicone makes the surface more hydrophobic."
+            },
+            {
+              "text": "a positively charged, deposit-resistant surface",
+              "correct": false,
+              "feedback": "SAs are deposit-prone; adding fluorine reduced surface charge."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ. Answer worked out from the week 4 and 5 lectures because the answer highlighting was lost."
+        },
+        {
+          "id": "clb-rgpfit-2",
+          "q": "Rigid contact lenses",
+          "options": [
+            {
+              "text": "are less likely to cause infection than soft lenses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "should only be used for diseased corneas",
+              "correct": false,
+              "feedback": "They suit normal eyes too, especially astigmats and myopia control."
+            },
+            {
+              "text": "should only be fitted by hospital optometrists",
+              "correct": false,
+              "feedback": "They are fitted in community practice."
+            },
+            {
+              "text": "are more expensive to maintain",
+              "correct": false,
+              "feedback": "They last longer and are cost-effective over time."
+            },
+            {
+              "text": "need replacing more often than soft lenses",
+              "correct": false,
+              "feedback": "They often last a year or more."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ."
+        },
+        {
+          "id": "clb-rgpfit-3",
+          "q": "The ideal tear layer thickness under the centre of a rigid lens is",
+          "options": [
+            {
+              "text": "15–20 µm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "5–10 µm",
+              "correct": false,
+              "feedback": "Too thin: close to bearing."
+            },
+            {
+              "text": "10–15 µm",
+              "correct": false,
+              "feedback": "Slightly too thin."
+            },
+            {
+              "text": "20–30 µm",
+              "correct": false,
+              "feedback": "That would start to show central pooling."
+            },
+            {
+              "text": "over 30 µm",
+              "correct": false,
+              "feedback": "Steep, with central pooling and possible bubbles."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ; the figure is from the week 4 lecture."
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "A rigid lens material is labelled 'paflufocon C II 2'.",
+          "question": "Explain each part of the USAN name.",
+          "modelAnswer": "'Paflu' is the USAN prefix (optional outside the USA). 'focon' means a rigid gas permeable material. 'C' means the third formulation of the polymer. 'II' is the group suffix: silicone but no fluorine. The final number is the Dk band: 2 is Dk 16–30 on the lecture's table. (The answer sheet says '3, Dk 31–60', which matches the lecture's own example 'paflufocon B III 3' rather than this question, so check with Dr Dutta.)"
+        },
+        {
+          "scenario": "Spectacle Rx RE −2.00 DS. K readings 8.30 @ 180 / 7.90 @ 90, no distortion. Tricurve trial lens 8.30 : 9.90 : −2.00 D.",
+          "question": "Describe (and sketch) the fluorescein pattern you would expect.",
+          "modelAnswer": "The cornea has 0.40 mm (about 2.25 D) with-the-rule toricity. The lens is fitted on flat K, so along the horizontal (flat) meridian it aligns, giving a dark horizontal band of alignment or light touch across the centre. In the steeper vertical meridian the cornea falls away more steeply, so fluorescein pools above and below that band, with a peripheral edge band all round: the classic with-the-rule 'dumbbell' pattern. Label the central horizontal alignment, the superior and inferior pooling, and the edge clearance."
+        }
+      ],
       "links": [
         {
           "label": "British Contact Lens Association",
@@ -1031,7 +1257,12 @@
         "Neovascularisation: vessels growing from the limbus into the cornea, usually from chronic hypoxia — improve oxygen (SiHy, less wear).",
         "Papillary conjunctivitis (CLPC/GPC): itch, mucus, lens movement, papillae on the upper tarsal plate — reduce deposits (daily disposables), rest lenses, treat allergy.",
         "Acanthamoeba keratitis: pain out of proportion to signs, ring infiltrate, radial keratoneuritis; linked to water exposure.",
-        "If in doubt, treat a CL-related infiltrate with an epithelial defect as MK until proven otherwise."
+        "If in doubt, treat a CL-related infiltrate with an epithelial defect as MK until proven otherwise.",
+        "Microbial keratitis: about 1–2 per 10,000 daily wearers a year and about 20 per 10,000 overnight wearers. Risks: hand hygiene, overnight wear, smoking, water exposure, male sex.",
+        "Presumed MK: infiltrate over 1 mm, more than mild pain, plus AC reaction, discharge or positive culture.",
+        "CLPU: single round peripheral infiltrate up to 2 mm with staining. CLARE: diffuse peripheral infiltration, staining uncommon. SEAL: grey-white arc in the superior cornea.",
+        "Corneal infiltrative events: 0–0.4% a year with daily disposables versus 2.5–7% with overnight reusables.",
+        "Contact lens dry eye: CLIDE (symptoms only with lenses) versus CLADE (pre-existing dry eye); 15–55% prevalence."
       ],
       "examTraps": [
         "Under-referring: missing that pain + epithelial defect + infiltrate = possible MK.",
@@ -1077,6 +1308,14 @@
         {
           "front": "GPC location",
           "back": "Papillae on the upper tarsal conjunctiva (evert the lid)."
+        },
+        {
+          "front": "Effects of lens wear on host defences",
+          "back": "Altered epithelial function (Dk/t dependent), fewer PMNs, less sIgA."
+        },
+        {
+          "front": "Do daily disposables reduce MK risk?",
+          "back": "Not the absolute risk, but cases tend to be less severe with less vision loss."
         }
       ],
       "mcq": [
@@ -1135,6 +1374,60 @@
           ],
           "explanation": "Size, central location, epithelial breakdown, pain and AC activity point towards infection.",
           "link": "clb-complications#telling-infiltrates-apart"
+        },
+        {
+          "id": "clb-comp-tyk-1",
+          "q": "Which is NOT present in a Gram-positive bacterial cell wall?",
+          "options": [
+            {
+              "text": "Outer membrane",
+              "correct": true,
+              "feedback": "Yes: only Gram-negative bacteria have one."
+            },
+            {
+              "text": "Peptidoglycan",
+              "correct": false,
+              "feedback": "Gram-positive walls have a thick peptidoglycan layer."
+            },
+            {
+              "text": "Cytoplasmic membrane",
+              "correct": false,
+              "feedback": "Present."
+            },
+            {
+              "text": "Proteins",
+              "correct": false,
+              "feedback": "Present."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 1."
+        },
+        {
+          "id": "clb-comp-tyk-3",
+          "q": "'Arc-shaped, greyish-white peripheral lesion in the superior cornea with staining and surrounding diffuse infiltration' describes",
+          "options": [
+            {
+              "text": "SEAL",
+              "correct": true,
+              "feedback": "Yes: superior epithelial arcuate lesion."
+            },
+            {
+              "text": "CLPU",
+              "correct": false,
+              "feedback": "A single round infiltrate."
+            },
+            {
+              "text": "CLARE",
+              "correct": false,
+              "feedback": "Diffuse peripheral infiltration in a red eye."
+            },
+            {
+              "text": "MK",
+              "correct": false,
+              "feedback": "Painful, with an ulcer over 1 mm."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 3."
         }
       ],
       "cases": [
@@ -1142,6 +1435,11 @@
           "scenario": "A 20-year-old who often naps in her monthly lenses presents with a red, painful right eye, photophobia and mucopurulent discharge. VA has dropped to 6/18. There's a 2.5 mm paracentral infiltrate that stains with fluorescein.",
           "question": "What's your working diagnosis and management?",
           "modelAnswer": "Presumed microbial keratitis (sleeping in lenses is a major risk factor). Remove lenses, don't let her reinsert them, keep the lenses and case for culture, and refer as an emergency (same day) to the hospital eye service. Explain why it's urgent. Record findings and advice."
+        },
+        {
+          "scenario": "Short-answer questions [3 + 3].",
+          "question": "Describe the effects of contact lens wear on host defences, and give up to three toxic or allergic adverse events.",
+          "modelAnswer": "Host defences: Dk/t-dependent changes to corneal epithelial function; fewer PMNs; less sIgA. Toxic or allergic events: papillary conjunctivitis; solution-induced corneal staining; incompletely neutralised peroxide; limbal stem cell deficiency."
         }
       ],
       "links": [
@@ -1167,7 +1465,10 @@
         "A change of about one grade between visits is clinically significant.",
         "Grade under the same conditions each time (illumination, magnification).",
         "Corneal staining is graded by zone (often five: central, superior, inferior, nasal, temporal) with type, depth and extent.",
-        "Record both eyes, the scale used, and what you plan to do."
+        "Record both eyes, the scale used, and what you plan to do.",
+        "Five-point scale: 0 normal (no action), 1 trace (action rarely needed), 2 mild (possibly), 3 moderate (usually), 4 severe (required). Always name the scale used.",
+        "Grade to 0.1 units: one full grade is a clinically significant difference, and rounding hides real change. Inter-observer variation can reach 55%.",
+        "Photographic scales (e.g. CCLRU) are realistic but need a huge image library and vary in magnification and angle; painted scales (e.g. Efron) are less realistic but show severity systematically."
       ],
       "examTraps": [
         "Not stating which scale you used.",
@@ -1211,6 +1512,14 @@
         {
           "front": "Five corneal zones",
           "back": "Central, superior, inferior, nasal, temporal."
+        },
+        {
+          "front": "Why grade to 0.1?",
+          "back": "A real change (e.g. 2.5 to 3.4) can disappear if both are rounded to 3."
+        },
+        {
+          "front": "Resolution needed for anterior eye imaging",
+          "back": "Enough for a 2 × 2 pixel matrix on the smallest features (about 30 µm: microcysts, punctate staining)."
         }
       ],
       "mcq": [
@@ -1241,9 +1550,64 @@
           ],
           "explanation": "Grading to decimals lets you see trends. A rise of about one grade between visits deserves an explanation.",
           "link": "clb-grading#what-to-grade-at-an-aftercare"
+        },
+        {
+          "id": "clb-grade-tyk-1",
+          "q": "Which is a photographic grading scale?",
+          "options": [
+            {
+              "text": "CCLRU scale",
+              "correct": true,
+              "feedback": "Yes: it uses photographs."
+            },
+            {
+              "text": "Efron scale",
+              "correct": false,
+              "feedback": "Efron's scale is painted."
+            },
+            {
+              "text": "None of the above",
+              "correct": false,
+              "feedback": "The CCLRU scale is photographic."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ (answer worked out from the lecture because the highlighting was lost)."
+        },
+        {
+          "id": "clb-grade-tyk-2",
+          "q": "Which is a disadvantage of a painted grading scale?",
+          "options": [
+            {
+              "text": "Lack of realism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An immense library is needed",
+              "correct": false,
+              "feedback": "That's a photographic scale problem."
+            },
+            {
+              "text": "It is difficult to get different magnifications",
+              "correct": false,
+              "feedback": "That's a photographic scale problem."
+            },
+            {
+              "text": "Different patients have slightly different manifestations",
+              "correct": false,
+              "feedback": "That's a photographic scale problem; a painting can be idealised."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ."
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "Short-answer question [4].",
+          "question": "What are the key benefits of a clinical grading scale?",
+          "modelAnswer": "Better record keeping; standardisation between clinicians and visits; monitoring change over time; and clearer communication with patients (one mark each)."
+        }
+      ],
       "links": [
         {
           "label": "British Contact Lens Association",
@@ -1255,6 +1619,363 @@
         }
       ],
       "askClaude": "Describe some anterior eye findings in words and ask me to grade them on the Efron scale and say whether action is needed."
+    },
+    {
+      "id": "clb-topography",
+      "title": "Corneal shape and topography",
+      "summary": "The cornea is aspheric: steepest at the apex and flattening towards the limbus. Keratometry samples a small central zone; videokeratoscopy maps 7 to 9 mm, and the kind of map you choose changes what you can read from it.",
+      "keyPoints": [
+        "Corneal radii range from about 7.4 to 8.8 mm. A 0.05 mm difference between meridians is about 0.25 D of corneal astigmatism.",
+        "Asphericity: e² = 1 − p = −Q. Circle e² = 0; prolate ellipse 0 to 1 (the normal cornea, mean about 0.22); parabola 1; hyperbola above 1; oblate below 0.",
+        "Colour maps: warm colours are steeper (shorter radius), cool colours flatter.",
+        "With-the-rule astigmatism gives a vertical bow tie; against-the-rule gives a horizontal bow tie.",
+        "Axial (sagittal) maps: most repeatable, but distort the position of the apex. Tangential (instantaneous) maps: best for locating the apex and local changes. Height maps: the most direct shape measure, used for refractive surgery and simulated fluorescein patterns.",
+        "Topography shows things keratometry misses: irregular and asymmetric astigmatism, keratoconus, and orthokeratology treatment zones."
+      ],
+      "examTraps": [
+        "Comparing two maps without checking the scale. Relative and absolute scales colour the same cornea differently.",
+        "Assuming topography measures the cornea directly. Placido systems read the tear film, so a poor tear film breaks up the rings.",
+        "Forgetting that a 2.5 mm decentration can create about 1 D of false astigmatism: alignment matters."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Where videokeratoscopy goes wrong",
+          "body": "Sources of error listed in the lecture: paraxial assumptions that are poor in the periphery, the image coming from the tear film, poor fixation, image quality, focusing, the same number of points being analysed per ring (area sampling bias), bowl size, number of rings, and alignment. Accuracy is best for the intermediate rings."
+        },
+        {
+          "heading": "Alignment",
+          "body": "Ideally a map would be centred on the line of sight through the entrance pupil. The instrument instead lines up perpendicular to the cornea, towards its centre of curvature, so the map centre is often not the pupil centre."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "e² of a hyperbola",
+          "back": "Greater than 1."
+        },
+        {
+          "front": "Relationship between e, p and Q",
+          "back": "e² = 1 − p = −Q."
+        },
+        {
+          "front": "Bow tie in against-the-rule astigmatism",
+          "back": "Horizontal. (With-the-rule is vertical.)"
+        },
+        {
+          "front": "Which map is best for finding the corneal apex?",
+          "back": "Tangential (instantaneous). Axial maps distort its position."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "clb-topo-tyk-3",
+          "q": "In a hyperbola, e² is",
+          "options": [
+            {
+              "text": "greater than 1",
+              "correct": true,
+              "feedback": "Yes: hyperbola e² > 1."
+            },
+            {
+              "text": "equal to 1",
+              "correct": false,
+              "feedback": "That is a parabola."
+            },
+            {
+              "text": "less than 1 but greater than 0",
+              "correct": false,
+              "feedback": "That is a prolate ellipse, like the normal cornea."
+            },
+            {
+              "text": "equal to 0",
+              "correct": false,
+              "feedback": "That is a circle."
+            },
+            {
+              "text": "less than 0",
+              "correct": false,
+              "feedback": "That is an oblate ellipse."
+            }
+          ],
+          "explanation": "Test-your-knowledge question 3. The conic-section slide gives the values for each shape."
+        },
+        {
+          "id": "clb-topo-tyk-4",
+          "q": "In against-the-rule astigmatism, the corneal topography map looks like",
+          "options": [
+            {
+              "text": "a horizontal bow tie",
+              "correct": true,
+              "feedback": "Yes. The steep meridian is horizontal, so the warm colours lie horizontally."
+            },
+            {
+              "text": "a vertical bow tie",
+              "correct": false,
+              "feedback": "That is with-the-rule: the lecture notes that red lies vertically in with-the-rule astigmatism."
+            },
+            {
+              "text": "a bow tie at 45 degrees",
+              "correct": false,
+              "feedback": "That would be oblique astigmatism."
+            },
+            {
+              "text": "a bow tie at 135 degrees",
+              "correct": false,
+              "feedback": "That would be oblique astigmatism."
+            },
+            {
+              "text": "a vertical bow tie with a horizontal bow tie against it",
+              "correct": false,
+              "feedback": "Regular astigmatism gives a single bow tie along the steep meridian."
+            }
+          ],
+          "explanation": "Test-your-knowledge question 4. Answer worked out from the lecture: the bow tie follows the steep meridian."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Corneal shape and topography to me step by step, then quiz me on it."
+    },
+    {
+      "id": "clb-tear-film",
+      "title": "Tear film and contact lenses",
+      "summary": "A contact lens splits the tear film and depends on it for comfort, wetting and oxygen. Know where each layer comes from, what changes it, and how to measure tear quantity, quality and stability before and during lens wear.",
+      "keyPoints": [
+        "Lipid: meibomian glands and glands of Zeis and Moll; 0.1–0.2 µm; reduces evaporation; seen as interference fringes.",
+        "Aqueous: main lacrimal gland (reflex) and accessory glands of Krause and Wolfring (basal); about 7 µm; carries ions, glucose, proteins (lysozyme, lactoferrin, lipocalin, IgA) and vitamin A.",
+        "Mucin: conjunctival goblet cells and corneal epithelium; makes the surface wettable and stops bacteria adhering.",
+        "Volume about 7 µl, made at about 1.2 µl/min, turned over every 5 minutes; open-eye osmolarity about 315 mOsm/kg.",
+        "Blink rate about 12/min, reduced by reading, hard tasks and screens; partial blinks cause 3 and 9 o'clock staining with rigid lenses.",
+        "Tests: quantity (Schirmer, phenol red thread, meniscus height), stability (TBUT, NIBUT), lipid (Tearscope), damage (fluorescein, rose bengal, lissamine green) and symptoms (OSDI)."
+      ],
+      "examTraps": [
+        "Calling TBUT a test of tear secretion: it measures stability. Schirmer and phenol red measure quantity.",
+        "Thinking fluorescein TBUT is non-invasive: the drop adds volume to the tear film. NIBUT avoids that."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Proteins and lenses",
+          "body": "Lysozyme is small and strongly positively charged, so it's drawn into negatively charged (ionic, methacrylic acid) hydrogel lenses. When proteins attach to a hydrophobic surface their 3D structure unfolds (denatures), which can trigger discomfort and inflammation."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Three dyes for ocular surface staining",
+          "back": "Sodium fluorescein, rose bengal, lissamine green."
+        },
+        {
+          "front": "Sources of the aqueous layer",
+          "back": "The main lacrimal gland (reflex) and the accessory glands of Krause and Wolfring (basal)."
+        },
+        {
+          "front": "Things that reduce blink rate",
+          "back": "Reading, harder tasks, computer use, corneal anaesthesia."
+        },
+        {
+          "front": "Tear volume and turnover",
+          "back": "About 7 µl, made at about 1.2 µl/min, fully turned over about every 5 minutes."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "clb-tears-tyk-1",
+          "q": "Which is a source of the tear film's lipid layer?",
+          "options": [
+            {
+              "text": "Glands of Moll",
+              "correct": true,
+              "feedback": "Yes, with the meibomian glands and glands of Zeis."
+            },
+            {
+              "text": "Lacrimal gland",
+              "correct": false,
+              "feedback": "Aqueous."
+            },
+            {
+              "text": "Krause glands",
+              "correct": false,
+              "feedback": "Accessory lacrimal glands: aqueous."
+            },
+            {
+              "text": "Wolfring glands",
+              "correct": false,
+              "feedback": "Accessory lacrimal glands: aqueous."
+            },
+            {
+              "text": "Goblet cells",
+              "correct": false,
+              "feedback": "Mucin."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 1 (answer from slide 5, as the highlighting was lost)."
+        },
+        {
+          "id": "clb-tears-tyk-3",
+          "q": "Which is NOT a test of tear secretion?",
+          "options": [
+            {
+              "text": "Tear break-up time",
+              "correct": true,
+              "feedback": "Yes: it measures stability."
+            },
+            {
+              "text": "Schirmer's strip",
+              "correct": false,
+              "feedback": "Measures quantity."
+            },
+            {
+              "text": "Phenol red thread test",
+              "correct": false,
+              "feedback": "Measures quantity."
+            },
+            {
+              "text": "Tear meniscus height",
+              "correct": false,
+              "feedback": "An estimate of tear volume."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 3."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "Short-answer question [10].",
+          "question": "List the range of clinical dry eye tests and what each measures.",
+          "modelAnswer": "Quality and stability: NIBUT, TBUT and meniscus regularity [2]. Quantity: phenol red thread and Schirmer [2]. Lipid layer: Tearscope [2]. Surface damage: corneal and conjunctival staining [2]. Symptoms: OSDI questionnaire [2]. Bonus: osmolarity (TearLab) [1]."
+        }
+      ],
+      "links": [],
+      "askClaude": "Explain Tear film and contact lenses to me step by step, then quiz me on it."
+    },
+    {
+      "id": "clb-materials-modalities",
+      "title": "Contact lens modalities, market and optics",
+      "summary": "How often lenses are replaced, why disposables became standard, why people stop wearing lenses, and the optical differences between contact lenses and spectacles.",
+      "keyPoints": [
+        "Modalities: conventional (worn until worn out), planned or frequent replacement, and disposables (from 1987).",
+        "Disposables: fewer deposit problems (papillary conjunctivitis, red eyes, poor comfort and VA), fewer unscheduled visits, higher-water lenses possible, spares, simpler care, better management and more patient contact.",
+        "UK: about 4.75 million wearers, Europe's largest market. 20–50% of wearers drop out, half because of discomfort.",
+        "Wettability: sessile drop, Wilhelmy plate, captive bubble (in vitro); tear break-up (in vivo).",
+        "Measure contact lens BVP with a small focimeter stop; vertex distance correction Fcl = Fsp ÷ (1 − dFsp).",
+        "Myopes accommodate more in contact lenses than in spectacles (so may need a reading add sooner); hyperopes accommodate less.",
+        "Extended wear: up to 6 nights and 7 days; continuous wear: up to 30 nights. Any corneal compromise means daily wear only.",
+        "Daily versus extended wear decisions: corneal status, risk factors, Rx, tear film, lid integrity, environment, individual characteristics."
+      ],
+      "examTraps": [
+        "Listing EOP as a wettability test: it measures oxygen at the cornea.",
+        "Forgetting solution costs and chair time when comparing the cost of modalities."
+      ],
+      "flashcards": [
+        {
+          "front": "Main reason people stop wearing contact lenses",
+          "back": "Discomfort (about half of drop-outs)."
+        },
+        {
+          "front": "Vertex distance formula",
+          "back": "Fcl = Fsp ÷ (1 − d × Fsp), with d in metres."
+        },
+        {
+          "front": "Refractive indices: tears, cornea, keratometer",
+          "back": "1.336, 1.376, 1.3375."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "clb-mat-tyk-2",
+          "q": "Which is NOT a contact lens wettability measurement?",
+          "options": [
+            {
+              "text": "EOP technique",
+              "correct": true,
+              "feedback": "Yes: equivalent oxygen percentage measures oxygen under the lens."
+            },
+            {
+              "text": "Sessile drop",
+              "correct": false,
+              "feedback": "A contact angle method."
+            },
+            {
+              "text": "Wilhelmy plate",
+              "correct": false,
+              "feedback": "A contact angle method."
+            },
+            {
+              "text": "Captive bubble",
+              "correct": false,
+              "feedback": "A contact angle method."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 2 (answer from slide 21)."
+        },
+        {
+          "id": "clb-mat-tyk-3",
+          "q": "In which case is accommodative demand lower with contact lenses than with spectacles?",
+          "options": [
+            {
+              "text": "Hypermetropia",
+              "correct": true,
+              "feedback": "Yes: so presbyopic symptoms may be postponed."
+            },
+            {
+              "text": "Myopia",
+              "correct": false,
+              "feedback": "Myopes accommodate more with contact lenses."
+            },
+            {
+              "text": "Emmetropia",
+              "correct": false,
+              "feedback": "No correction, so no difference."
+            },
+            {
+              "text": "Anisometropia",
+              "correct": false,
+              "feedback": "Depends on the type of error."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 3 (slide 26)."
+        },
+        {
+          "id": "clb-mkt-tyk-1",
+          "q": "Based on 2024 data, the estimated US contact lens market revenue is",
+          "options": [
+            {
+              "text": "over US$6 billion",
+              "correct": true,
+              "feedback": "Yes: about US$6.08 bn."
+            },
+            {
+              "text": "over US$19 billion",
+              "correct": false,
+              "feedback": "That's the worldwide figure."
+            },
+            {
+              "text": "over US$20 billion",
+              "correct": false,
+              "feedback": "Too high."
+            },
+            {
+              "text": "over US$18 billion",
+              "correct": false,
+              "feedback": "That's close to the global, not US, figure."
+            }
+          ],
+          "explanation": "Test-your-knowledge MCQ 1 (slide 11)."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "Short-answer question [4].",
+          "question": "Give the advantages of disposable contact lenses.",
+          "modelAnswer": "Half a mark each: fewer deposit-related problems (papillary conjunctivitis, red eyes, reduced comfort and VA); fewer unscheduled visits; higher-water lenses for better corneal physiology; spare lenses; simpler lens care; better patient management; more patient contact."
+        },
+        {
+          "scenario": "Short-answer question [3].",
+          "question": "What are the key considerations for daily versus extended wear?",
+          "modelAnswer": "Half a mark each: corneal status; risk factors; Rx; tear film; lid integrity; environmental factors; individual characteristics."
+        }
+      ],
+      "goDeeper": [],
+      "links": [],
+      "askClaude": "Explain Contact lens modalities, market and optics to me step by step, then quiz me on it."
     }
   ]
 }

@@ -73,6 +73,18 @@
     {
      "front": "What is the horizontal centre line?",
      "back": "The line joining the two box centres; heights are referenced to the box."
+    },
+    {
+     "front": "DBL",
+     "back": "Distance between lenses: the horizontal distance between the nasal sides of the boxes around the two lens shapes (British Standard)."
+    },
+    {
+     "front": "HCL",
+     "back": "Horizontal centre line: halfway between the two horizontal tangents of the boxed lens."
+    },
+    {
+     "front": "Frame marking x□y zzz",
+     "back": "x = horizontal boxed lens size, y = DBL, zzz = side length."
     }
    ],
    "mcq": [
@@ -156,12 +168,18 @@
     "Monocular PDs (bridge centre to each pupil) are essential for varifocals and asymmetric faces.",
     "Fitting height: vertical distance from the pupil centre (or the reference point, e.g. lower lid for a bifocal) to the bottom of the box, measured with the chosen frame adjusted on the face.",
     "Vertex distance = back surface of lens to the cornea. Matters for powers above about ±4.00 D.",
-    "Pantoscopic tilt: optical centres are lowered by about 1 mm for every 2° of tilt, so the optical axis passes through the eye's centre of rotation."
+    "Pantoscopic tilt: optical centres are lowered by about 1 mm for every 2° of tilt, so the optical axis passes through the eye's centre of rotation.",
+    "Measure distance PDs at arm's length, square-on and eyes level: at 40 cm each 1 mm of PD mismatch gives about 1/16 mm error.",
+    "Mono PDs are needed for strabismus (occlude the other eye), progressives, aspherics, anisometropia and facial asymmetry.",
+    "Near centration distance is measured in the spectacle plane after fitting; converging eyes are closer in the lens plane than the facial plane.",
+    "BVD for powers over ±5.00 D, along the line of sight with zero pantoscopic tilt; free-form also needs pantoscopic (about 8–12°) and dihedral angles."
    ],
    "examTraps": [
     "Measuring near PD with the practitioner's eyes switching — for near both measurements use the same practitioner eye.",
     "Taking fitting heights without the frame properly adjusted first.",
-    "Forgetting that a positive lens moved closer to the eye needs MORE plus to keep the same effect."
+    "Forgetting that a positive lens moved closer to the eye needs MORE plus to keep the same effect.",
+    "Measuring near PD in the facial plane instead of near CD in the lens plane.",
+    "Measuring BVD with the head tilted or off the optical axis."
    ],
    "diagram": {
     "id": "pd-measurement",
@@ -224,6 +242,18 @@
     {
      "front": "Why switch eyes for distance PD?",
      "back": "So the patient's lines of sight are parallel, mimicking distance fixation."
+    },
+    {
+     "front": "Three extra measurements for free-form progressives",
+     "back": "Back vertex distance, pantoscopic angle and dihedral (wrap) angle."
+    },
+    {
+     "front": "Purpose of pantoscopic angle",
+     "back": "Keeps the centre-of-rotation distance (and so BVD and effective power) constant as the eye looks down."
+    },
+    {
+     "front": "Sources of error measuring BVD with a ruler",
+     "back": "Estimating the back vertex (thick lenses or frames), not measuring along the optical axis, parallax, and dummy lenses with a different base curve."
     }
    ],
    "mcq": [
@@ -289,6 +319,16 @@
      "scenario": "A patient's distance PD reads 64 mm but the monocular PDs are R 30 / L 34. They've chosen varifocals.",
      "question": "Which PD values do you send to the lab, and why?",
      "modelAnswer": "Send the monocular PDs (R 30, L 34). Varifocal corridors are narrow, so each fitting cross must sit exactly in front of its own pupil. Splitting 64 into 32/32 would put the right corridor 2 mm temporal and the left 2 mm nasal, narrowing the clear intermediate and near zones."
+    },
+    {
+     "scenario": "Worksheet 1, question 5: a patient with a small alternating strabismus.",
+     "question": "How would you measure their distance mono PDs with a ruler?",
+     "modelAnswer": "Face the patient square-on with your eyes level, at arm's length. Ruler zero at the centre of the bridge. Occlude their left eye and ask them to look at your left eye with their right eye; read to the centre of the right pupil. Then occlude the right eye, have them look at your right eye with their left, and read the left pupil. Occluding stops the deviating eye taking up fixation, which matters because with an alternating squint either eye may fixate."
+    },
+    {
+     "scenario": "Worksheet answer example: R +2.00, L +5.00 with mono PDs of 30 and 33 mm, but glazed at 31.5 mm each.",
+     "question": "What prism does that induce?",
+     "modelAnswer": "Each lens is 1.5 mm out from its pupil. R: 0.15 cm × 2.00 = 0.3Δ base out. L: 0.15 cm × 5.00 = 0.75Δ base in. Both bases point the same way, so the differential is 0.75 − 0.3 = 0.45Δ base in: unlikely to bother orthophores or exophores, but it could tip an esophore into symptoms. Off-axis aberrations also increase when the patient isn't looking through the optical centres."
     }
    ],
    "links": [
@@ -361,6 +401,10 @@
     {
      "front": "Minimum blank size",
      "back": "ED + 2 × decentration + allowance"
+    },
+    {
+     "front": "Anisometropic differential prism example: R −1.00, L −6.00, 8 mm below the optical centres",
+     "back": "0.8Δ and 4.8Δ base-down: 4Δ base-down in the left (or 4Δ base-up in the right)."
     }
    ],
    "mcq": [
@@ -710,12 +754,26 @@
     "Varifocal fitting: monocular PDs and fitting heights measured to the pupil centres, with the frame adjusted.",
     "Varifocal lenses have unwanted astigmatism (distortion) on either side of the corridor — patients turn their head, not their eyes.",
     "Short corridors suit shallow frames; make sure the frame has enough depth below the fitting cross for the near zone.",
-    "Occupational (office) lenses: large intermediate and near zones, limited or no distance."
+    "Occupational (office) lenses: large intermediate and near zones, limited or no distance.",
+    "Addition = near Rx − distance Rx. Put both in the same cyl form before subtracting.",
+    "Bifocal optical performance, best to worst: split, E-style solid, prism-controlled, shaped/D segments, round segments, fused, seamless.",
+    "Segment top position (STP) is measured from the horizontal centre line; segment drop from the distance optical centre; geometric inset from the distance centration point.",
+    "Measure an addition on the surface that carries the segment: front vertex power for front-surface segments (all plastic and fused glass), back vertex power for back-surface glass solids.",
+    "Trifocal intermediate add is usually 50–60% of the near add, to fill the blurred gap an older presbyope has between distance and near.",
+    "Near vision point (NVP) is where the wearer actually looks; near optical centre (ON) is the zero-prism point of the combined distance and segment powers. X = YA ÷ (F + A) gives ON's distance below the distance optical centre.",
+    "Round segments add base-down prism at the NVP: helpful for plus prescriptions, unhelpful for minus. D-segments add less (or base-up) for myopes.",
+    "Jump = (distance from segment top to segment centre, in cm) × add. Round segments always jump base-down; E-style and semicircular segments don't jump.",
+    "TCA in a solid bifocal = prism at the NVP ÷ V value; about 0.1Δ is noticeable."
    ],
    "examTraps": [
     "Using a binocular PD for varifocals.",
     "Choosing a frame too shallow for the corridor length.",
-    "Confusing image jump (at the segment line) with differential vertical prism at near."
+    "Confusing image jump (at the segment line) with differential vertical prism at near.",
+    "Measuring a front-surface bifocal add with back vertex power: it over-reads, especially on thick lenses with steep front curves.",
+    "Giving a segment height without saying whether it is above or below the horizontal centre line.",
+    "Mixing up the NVP and the near optical centre.",
+    "Including the cylinder in the vertical meridian when its axis is 90 (it has no power along its axis), or leaving it out when its axis is 180.",
+    "Forgetting that jump doesn't depend on the distance prescription."
    ],
    "diagram": {
     "id": "pal-zones",
@@ -742,6 +800,10 @@
     {
      "heading": "Choosing between options",
      "body": "Bifocals: cheaper, wide near zone, but visible line and no intermediate. Varifocals: cosmetically better and give intermediate, but need adaptation and accurate fitting. Occupational: ideal for computer users, but not for walking or driving."
+    },
+    {
+     "heading": "Why older presbyopes need a trifocal",
+     "body": "With 3 D of accommodation and a +1.00 add, the distance range (infinity to 33 cm) and the near range (1 m to 25 cm) overlap. With only 0.75 D left and a +2.50 add, distance is clear from infinity to 133 cm and near from 40 cm to about 31 cm, so everything from 40 cm to 133 cm is blurred through both portions. A +1.50 intermediate (60% of the add) is clear from about 67 cm to 44 cm, which closes most of the gap."
     }
    ],
    "checklist": {
@@ -775,6 +837,38 @@
     {
      "front": "Why monocular PDs for varifocals?",
      "back": "Each narrow corridor must line up with its own pupil."
+    },
+    {
+     "front": "Distance +2.75/−1.00 × 90, near +4.00/+1.00 × 180. Add?",
+     "back": "+2.25. Transpose the distance to +1.75/+1.00 × 180 first, then subtract."
+    },
+    {
+     "front": "Where is the segment top fitted for general use?",
+     "back": "Level with the lower limbus (some guides say 2 mm below for D-segs)."
+    },
+    {
+     "front": "Blank marked '4-250'",
+     "back": "Front curve reads +4.00 on a lens measure; the add is +2.50 D."
+    },
+    {
+     "front": "Where is a trifocal's intermediate segment top fitted?",
+     "back": "Higher than a bifocal: the bottom of the pupil is a good starting point."
+    },
+    {
+     "front": "Jump of a 38 mm round segment with a +3.00 add",
+     "back": "1.9 cm × 3.00 = 5.7Δ base-down."
+    },
+    {
+     "front": "Bifocal designs with no jump",
+     "back": "E-style and semicircular segments (segment centre on the dividing line)."
+    },
+    {
+     "front": "Differential prism from unequal round segments",
+     "back": "(r₂ − r₁) × add, with r in cm. The larger segment goes in the lens with more plus vertically."
+    },
+    {
+     "front": "Which eye gets a bi-prism (slab-off) lens?",
+     "back": "The one with least plus or most minus in the vertical meridian. It always gives base-up at near."
     }
    ],
    "mcq": [
@@ -833,6 +927,60 @@
      ],
      "explanation": "Low fitting heights push the near zone below where the eyes naturally drop to read.",
      "link": "aad-multifocals#varifocal-markings"
+    },
+    {
+     "id": "aad-mf2-1",
+     "q": "Distance −5.00 DS, add +3.00, 30 mm round segment with its top 10 mm below the distance optical centre. The NVP is 15 mm below the distance optical centre. Vertical prism at the NVP?",
+     "options": [
+      {
+       "text": "10.5Δ base-down",
+       "correct": true,
+       "feedback": "Yes: 1.5 × 5 = 7.5Δ down from distance, plus (15 − 5) mm = 1.0 cm × 3 = 3.0Δ down from the segment."
+      },
+      {
+       "text": "4.5Δ base-down",
+       "correct": false,
+       "feedback": "That subtracts the segment prism. For a minus lens both are base-down, so they add."
+      },
+      {
+       "text": "7.5Δ base-down",
+       "correct": false,
+       "feedback": "That is the distance portion alone; the NVP is 5 mm above the segment centre, so the segment adds prism."
+      },
+      {
+       "text": "4.5Δ base-up",
+       "correct": false,
+       "feedback": "That is the answer for a +5.00 DS lens."
+      }
+     ],
+     "explanation": "Lecture example (slide 9). Round segments add to the prism for myopes."
+    },
+    {
+     "id": "aad-mf2-2",
+     "q": "Px J: R −7.00 DS, L −6.50 DS, add +3.00, new R45 segment. How much jump will the new bifocals have?",
+     "options": [
+      {
+       "text": "6.75Δ base-down",
+       "correct": true,
+       "feedback": "Yes: radius 2.25 cm × 3.00 = 6.75Δ. An object 1 m away appears to move 6.75 cm."
+      },
+      {
+       "text": "13.5Δ base-down",
+       "correct": false,
+       "feedback": "That uses the diameter instead of the radius."
+      },
+      {
+       "text": "None",
+       "correct": false,
+       "feedback": "Round segments always jump. Their old D28 with 14 mm depth had none."
+      },
+      {
+       "text": "It depends on the distance prescription",
+       "correct": false,
+       "feedback": "Jump is independent of the distance Rx."
+      }
+     ],
+     "explanation": "Worksheet 2(d), answer sheet slide 6."
     }
    ],
    "cases": [
@@ -840,6 +988,26 @@
      "scenario": "A 58-year-old accountant spends 8 hours a day on two monitors and drives home. Current specs are bifocals.",
      "question": "What would you suggest, and how would you explain it?",
      "modelAnswer": "A pair of occupational (office) lenses for work, giving wide intermediate for the monitors and near for paperwork, plus varifocals or keeping the bifocals for driving and general use. Explain that one lens can't give wide zones at all distances, and that office lenses aren't suitable for driving."
+    },
+    {
+     "scenario": "Worksheet 2: Px J (R −7.00 DS, L −6.50 DS, add +3.00) had high-index D28 bifocals and wants a bigger reading area. The choice is a large round segment or an E-style.",
+     "question": "Compare the two, then work out the vertical prism at an NVP 12 mm below the distance optical centre with an R45 segment and a 6 mm segment drop.",
+     "modelAnswer": "Round: less visible dividing line, but its base-down prism at the NVP adds to the minus lens's base-down, increasing aberrations and TCA (made worse by high-index material's low V value), and it jumps. E-style: largest reading area, segment centre on the dividing line so base-up at the NVP reduces the distance prism and there is no jump, but the line is more obvious. Prism: NVP is 6 mm below the segment top, so c for the segment = 22.5 − 6 = 16.5 mm. Right: 7.00 × 1.2 = 8.4Δ + 3.00 × 1.65 = 4.95Δ = 13.35Δ base-down. Left: 6.50 × 1.2 = 7.8Δ + 4.95Δ = 12.75Δ base-down. Their old D28 (depth = radius = 14 mm) gave 1.8Δ base-up from the segment, so the R45 gives 6.75Δ more base-down."
+    },
+    {
+     "scenario": "Worksheet 3: Px R wears +2.50/−0.50 × 180 in both eyes, add +2.50, R30 segment with its top 5 mm below the distance optical centre. NVP is 14 mm below the distance optical centre.",
+     "question": "Find the vertical prism at the NVP and the position of the near optical centre.",
+     "modelAnswer": "Vertical power = +2.00 D (cyl at 180 acts vertically). Distance: 2.00 × 1.4 = 2.8Δ base-up. The NVP is 9 mm below the segment top, so 6 mm above the segment centre: 2.50 × 0.6 = 1.5Δ base-down. Total 1.3Δ base-up. ON: Y = 5 + 15 = 20 mm, X = 2.0 × 2.50 ÷ 4.50 = 1.11 cm, so ON is 11.1 mm below the distance optical centre, about 3 mm above the NVP."
+    },
+    {
+     "scenario": "Worksheet 8: Px P wears R +6.00/+2.00 × 180, L +6.00/−2.00 × 180, add +2.00, in R22 bifocals, and prefers single-vision readers because the bifocals are tiring to read with.",
+     "question": "Explain why, calculate the vertical differential prism 12 mm below the distance optical centre, and say how you could fix it.",
+     "modelAnswer": "The prescriptions look alike but one is in plus cyl and one in minus: vertical power R +8.00, L +4.00. Through readers they look through the optical centres, so there is no induced prism. In the bifocals: R 9.6Δ base-up, L 4.8Δ base-up, a difference of 4.8Δ base-up in the right (the matched segments cancel out). Fix with prism control, e.g. 4.8Δ base-up in the left at near with a bi-prism or Presto bifocal. Unequal segments would need r₂ = 4.8 ÷ 2 + 1.1 = 3.5 cm, a 70 mm segment in the right, which isn't generally available."
+    },
+    {
+     "scenario": "Worksheet 6: Dr L (46), a university lecturer who reads for a hobby, has R −1.50/−0.25 × 90, L −1.00/−0.50 × 95, add +1.25. They insist on bifocals because their partner had trouble with varifocals.",
+     "question": "Which segment would you discuss, and will screen work be a problem?",
+     "modelAnswer": "D28 is the commonest: more visible than a round segment, but for minus lenses its base-up at the NVP offsets the distance base-down. Round: less visible, more reading area, but adds base-down prism and more jump. E-style: largest reading area and no jump, but the most visible line. With a +1.25 add they can still see to about 80 cm through the segment, and their uncorrected far points (about 62 cm R and 80 cm L) mean they may see the screen without correction anyway; through the segment they may need to tilt their head back."
     }
    ],
    "links": [
@@ -977,6 +1145,533 @@
     }
    ],
    "askClaude": "Give me 10 rapid-fire transposition questions, then 3 'my new glasses feel wrong' scenarios to troubleshoot."
+  },
+  {
+   "id": "aad-ppl",
+   "title": "Progressive power lenses",
+   "summary": "Progressives give continuous focus from distance to near through a corridor of steadily increasing power, at the cost of unwanted astigmatism at the sides. Design, add and corridor length decide how wide the clear zones are; good fitting decides whether the patient copes.",
+   "keyPoints": [
+    "Three zones: distance at the top, a progression corridor, near at the bottom. Conventional PPLs carry the progression on the front surface.",
+    "Two main design factors: the progression formula, and the way tangential and sagittal powers are matched along the meridian line, which pushes astigmatism into the periphery.",
+    "Surface astigmatism grows with a higher add and a shorter corridor, narrowing intermediate and near zones. The corridor of clear vision is where astigmatism is under 1.00 D.",
+    "Linear progression: add at a point = rate × distance below the prism checking point. Power there = distance power in that meridian + add; prism = F × c.",
+    "Short-corridor lenses fit about 14 mm deep frames (standard about 18 mm) but have more astigmatism, so they suit low adds better.",
+    "Occupational lenses use a small degression (about −0.75 to −1.25 D) from near to intermediate, so they have wide, easy zones but often no proper distance.",
+    "Prism thinning: equal base-down prism in both lenses to balance edge thickness. A difference in vertical prism between the eyes at the prism checking point is prescribed prism."
+   ],
+   "examTraps": [
+    "Calling prism thinning a way to make lenses thinner overall. It only balances top and bottom edge thickness.",
+    "Recommending a short corridor for a high add.",
+    "Comparing iso-cylinder plots from different manufacturers as if they were measured the same way."
+   ],
+   "goDeeper": [
+    {
+     "heading": "Where the swimming feeling comes from",
+     "body": "Looking sideways, the astigmatism changes at different rates in the two lenses, so magnification differs between the eyes. The brain sees the two images moving at different speeds and in slightly different directions. It is worse with higher adds, so starting people in progressives while their add is low helps. Free-form designs can match the right and left astigmatism to reduce it."
+    },
+    {
+     "heading": "Free-form versus conventional",
+     "body": "Conventional: one formula cut into a front-surface semi-finished blank, the same design across a range of prescriptions, needing only monocular PDs and heights. Free-form: point-by-point surfaces, often on the back, tailored to the prescription, working distances and frame fit, needing BVD, pantoscopic tilt, wrap and near working distance. They can also control differential prism and magnification."
+    },
+    {
+     "heading": "Dispensing checklist",
+     "body": "Adjust the frame first and check the depth suits the design. Face the patient at the same eye level in their natural head posture; they look at your left eye while you mark their right pupil, and vice versa. Remove the frame, replace it and recheck the marks. Verify by re-marking from the engravings with the correct template."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Who designed the first commercially successful PPL?",
+     "back": "Bernard Maitenaz: Varilux, launched by Essel (later Essilor) in 1959."
+    },
+    {
+     "front": "Permanent engravings on a PPL",
+     "back": "Two small marks 34 mm apart, with the trade mark and the add value below them."
+    },
+    {
+     "front": "Linear progression of 0.15 D/mm over 15 mm",
+     "back": "Add = +2.25 D."
+    },
+    {
+     "front": "Symptoms of intolerance to prism thinning",
+     "back": "Exaggerated head movements, blurred intermediate, narrow clear distance, a pulling feeling, or 'just not right'. Test by holding equal and opposite prism over the spectacles."
+    },
+    {
+     "front": "Mean sphere",
+     "back": "(Tangential power + sagittal power) ÷ 2."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-ppl-1",
+     "q": "Which combination gives the most peripheral surface astigmatism in a PPL?",
+     "options": [
+      {
+       "text": "High add with a short corridor",
+       "correct": true,
+       "feedback": "Yes. Astigmatism goes with the rate of change of power, which is highest for a big add over a short distance."
+      },
+      {
+       "text": "Low add with a long corridor",
+       "correct": false,
+       "feedback": "This is the gentlest rate of change."
+      },
+      {
+       "text": "High add with a long corridor",
+       "correct": false,
+       "feedback": "A longer corridor spreads the change out."
+      },
+      {
+       "text": "Low add with a short corridor",
+       "correct": false,
+       "feedback": "Short corridors are acceptable with low adds."
+      }
+     ],
+     "explanation": "Slide 20: astigmatism increases with the add and as the corridor shortens."
+    },
+    {
+     "id": "aad-ppl-2",
+     "q": "At the prism checking point you measure 2Δ base-down in the right and 1Δ base-down in the left. What does this suggest?",
+     "options": [
+      {
+       "text": "1Δ base-down right (or 1Δ base-up left) is prescribed; the rest is prism thinning",
+       "correct": true,
+       "feedback": "Yes. Thinning is equal in both lenses, so only the difference is prescribed."
+      },
+      {
+       "text": "It is all prism thinning",
+       "correct": false,
+       "feedback": "Thinning is always equal R and L."
+      },
+      {
+       "text": "The lab has made an error",
+       "correct": false,
+       "feedback": "Not necessarily: check the prescription for vertical prism."
+      },
+      {
+       "text": "3Δ base-down has been prescribed in total",
+       "correct": false,
+       "feedback": "The equal part is cosmetic thinning."
+      }
+     ],
+     "explanation": "Worksheet 2 answer: equal vertical prism is thinning; any difference should be prescribed prism."
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "Worksheet 1: a PPL has a linear 15 mm progression at 0.15 D/mm. R −4.00/+2.00 × 180, L −6.00/+2.00 × 90. V value 32.",
+     "question": "Find the add, the power and vertical prism 15 mm below each prism checking point, the TCA, the differential prism, and how to correct it.",
+     "modelAnswer": "Add = 15 × 0.15 = +2.25. Right: the cyl at 180 acts vertically, so F = −4.00 + 2.00 + 2.25 = +0.25 D; prism = 0.25 × 1.5 = 0.375Δ base-up. Left: the cyl at 90 doesn't act vertically, so F = −6.00 + 2.25 = −3.75 D; prism = 5.625Δ base-down. TCA (worst eye) = 5.625 ÷ 32 = 0.18Δ, above the 0.1Δ threshold, so colour fringes are possible. Base-up in one eye and base-down in the other add: 6Δ base-down in the left. Correct with a slab-off in the left near portion, or more likely today a free-form lens that controls prism."
+    },
+    {
+     "scenario": "Worksheet 3: Px K, 55, bank manager, R +5.00/−2.00 × 160, L +5.25/−2.00 × 15, add +2.25. Hobbies: restoring vintage cars, golf, snooker.",
+     "question": "What would you consider for lenses and frame, and what measurements would you take?",
+     "modelAnswer": "Thickness: consider high-index and/or aspheric lenses and a small, deep enough frame (prism thinning does not thin lenses). Standard PPLs suit distance, intermediate and near; an occupational lens may help at work; free-form is worth considering at this power. Hobbies: car restoration may mean looking up close in awkward positions; snooker needs intermediate high in the lens or the head tilts back; golf needs a clear ball below, which the near zone may blur. Measurements: BVD (power over 5 D), monocular PDs and heights; follow the manufacturer for occupational lenses (some need near CDs); free-form needs pantoscopic tilt and wrap too."
+    }
+   ],
+   "links": [],
+   "askClaude": "Explain Progressive power lenses to me step by step, then quiz me on it."
+  },
+  {
+   "id": "aad-aberrations",
+   "title": "Aberrations of spectacle lenses",
+   "summary": "Why real lenses don't form perfect images, which aberrations matter for spectacles (mainly oblique astigmatism and transverse chromatic aberration), and how to calculate them.",
+   "keyPoints": [
+    "First-order (paraxial) optics: sin i = i for angles up to about 5°; always predicts a perfect image.",
+    "Third-order (Seidel) optics adds the i³/3! term and is reasonably accurate to about 20°. It gives five aberrations: spherical aberration, coma, oblique astigmatism, curvature of field and distortion.",
+    "Spherical aberration and coma are ignored in spectacle lens design: the pupil limits them and the eye has more of its own.",
+    "Oblique astigmatism is the most important; it is controlled with best-form or aspheric lenses.",
+    "Vertex sphere: centred on the eye's centre of rotation, through the lens back vertex. Far point sphere: the far point as the eye rotates, one back vertex focal length beyond.",
+    "OAE = FT − FS; MOP = (FT + FS) ÷ 2; MOE = MOP − F′v.",
+    "TCA = prism ÷ V = F × c ÷ V (Δ, with c in cm); about 0.1Δ is the threshold. High-index materials have low V and so more TCA.",
+    "Best-form lens: a spherical lens with curves chosen to eliminate or minimise a stated defect under defined conditions (object distance, centre of rotation distance, refractive index). Lens form makes no difference on-axis.",
+    "Three design philosophies: point focal (zero OAE), Percival (zero MOE, so MOP = BVP), and minimum tangential error (tangential power = BVP), the commonest modern choice.",
+    "Tscherning's ellipses: two solutions for each power, the flatter Ostwalt (used in practice) and the steeper Wollaston, for powers from about −22 D to +7 D only."
+   ],
+   "examTraps": [
+    "Measuring tangential and sagittal focal lengths from the lens instead of from the vertex sphere.",
+    "Mixing up dispersive power and V: V = 1 ÷ dispersive power.",
+    "Saying lens designers correct spherical aberration. They concentrate on oblique astigmatism.",
+    "Thinking a best-form lens is best for everyone: a young myope may see better with a flatter lens because its negative MOE can be overcome by accommodating.",
+    "Dispensing higher index without checking that it's actually thinner in that frame; it always adds TCA."
+   ],
+   "goDeeper": [
+    {
+     "heading": "Distortion and lens form",
+     "body": "Minus lenses give barrel distortion (magnification falls off-axis) and plus lenses pincushion. The brain adapts to a lens it is used to, so problems arise when a high-prescription wearer changes lens form. Some myopes prefer flatter lenses even though their off-axis performance is worse."
+    },
+    {
+     "heading": "Diffraction-limited images",
+     "body": "An image with no aberrations is still not a perfect point: the limiting aperture (the pupil, in the eye) diffracts light into a small disc. The smaller the aperture, the bigger the effect, but in practice aberrations usually mask it."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "The five Seidel aberrations",
+     "back": "Spherical aberration, coma, oblique astigmatism, curvature of field, distortion."
+    },
+    {
+     "front": "Which aberration matters most in spectacle lens design?",
+     "back": "Oblique astigmatism."
+    },
+    {
+     "front": "Barrel versus pincushion distortion",
+     "back": "Barrel: points displaced towards the axis (minus lenses). Pincushion: displaced away (plus lenses)."
+    },
+    {
+     "front": "LCA formula",
+     "back": "F ÷ V (dioptres). Not usually a concern because the eye's own LCA masks it."
+    },
+    {
+     "front": "Reference wavelength for refractive index in the UK",
+     "back": "The helium d line, 587.56 nm."
+    },
+    {
+     "front": "Percival lens",
+     "back": "Zero mean oblique error: MOP = back vertex power, with a little oblique astigmatism."
+    },
+    {
+     "front": "Point focal lens",
+     "back": "Zero oblique astigmatism, but MOE grows as the eye rotates."
+    },
+    {
+     "front": "Tscherning solutions for +5.00 D",
+     "back": "+12.50/−7.50 (Ostwalt, flatter) or +19.00/−14.00 (Wollaston, steeper)."
+    },
+    {
+     "front": "Power range with a two-sphere best-form solution",
+     "back": "About −22.00 D to +7.00 D. Outside it, aspheric surfaces are needed."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-ab-1",
+     "q": "A lens has BVP −5.00 D. Its tangential and sagittal oblique vertex sphere powers are −5.93 D and −5.13 D. What is the mean oblique error?",
+     "options": [
+      {
+       "text": "−0.53 D",
+       "correct": true,
+       "feedback": "Yes: MOP = (−5.93 − 5.13) ÷ 2 = −5.53, then −5.53 − (−5.00) = −0.53."
+      },
+      {
+       "text": "−0.80 D",
+       "correct": false,
+       "feedback": "That's the oblique astigmatic error (FT − FS)."
+      },
+      {
+       "text": "−5.53 D",
+       "correct": false,
+       "feedback": "That's the mean oblique power; subtract the BVP for the error."
+      },
+      {
+       "text": "+0.53 D",
+       "correct": false,
+       "feedback": "Check the sign: the oblique power is more minus than the BVP."
+      }
+     ],
+     "explanation": "Worksheet 2, question 1."
+    },
+    {
+     "id": "aad-ab-2",
+     "q": "Px F wears +7.50 D lenses with a dispersive power of 0.025 and looks 14 mm below the optical centre. What is the TCA?",
+     "options": [
+      {
+       "text": "0.26Δ, likely to be noticed",
+       "correct": true,
+       "feedback": "Yes: P = 7.50 × 1.4 = 10.5Δ; TCA = 10.5 × 0.025 = 0.26Δ, above the 0.1Δ threshold."
+      },
+      {
+       "text": "0.26Δ, below the threshold",
+       "correct": false,
+       "feedback": "The threshold is 0.1Δ, so 0.26Δ is likely to be noticed."
+      },
+      {
+       "text": "0.19Δ",
+       "correct": false,
+       "feedback": "Check c: 14 mm = 1.4 cm."
+      },
+      {
+       "text": "4.2Δ",
+       "correct": false,
+       "feedback": "Multiply prism by the dispersive power (or divide by V = 40), don't divide by it."
+      }
+     ],
+     "explanation": "Worksheet 3."
+    },
+    {
+     "id": "aad-ld-1",
+     "q": "BVP +5.00 D. At 30° rotation the tangential oblique power is +6.38 D and the sagittal +5.23 D. What is the MOE?",
+     "options": [
+      {
+       "text": "+0.81 D",
+       "correct": true,
+       "feedback": "Yes: MOP = (6.38 + 5.23) ÷ 2 = +5.805, minus 5.00 = +0.805."
+      },
+      {
+       "text": "+1.15 D",
+       "correct": false,
+       "feedback": "That's the OAE (T − S)."
+      },
+      {
+       "text": "+5.81 D",
+       "correct": false,
+       "feedback": "That's the MOP; subtract the BVP."
+      },
+      {
+       "text": "−0.81 D",
+       "correct": false,
+       "feedback": "The oblique power is more positive than the BVP, so the error is positive."
+      }
+     ],
+     "explanation": "Worksheet 1, question 1."
+    },
+    {
+     "id": "aad-ld-2",
+     "q": "A −2.50 D Percival lens has a sagittal vertex sphere power of −2.56 D. What is its tangential vertex sphere power?",
+     "options": [
+      {
+       "text": "−2.44 D",
+       "correct": true,
+       "feedback": "Yes: MOP must equal −2.50, so FT = 2 × (−2.50) − (−2.56) = −2.44."
+      },
+      {
+       "text": "−2.50 D",
+       "correct": false,
+       "feedback": "That would be a zero tangential error lens."
+      },
+      {
+       "text": "−2.56 D",
+       "correct": false,
+       "feedback": "That's the sagittal power; a point focal lens would have equal T and S."
+      },
+      {
+       "text": "−2.62 D",
+       "correct": false,
+       "feedback": "Check the sign when rearranging."
+      }
+     ],
+     "explanation": "Worksheet 4, question 2."
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "Worksheet 2: a +200 mm lens sits 25 mm in front of the centre of rotation. At 30° off axis the sagittal focus is 193 mm and the tangential focus 196 mm from the lens along the principal ray; the vertex sphere is 3 mm from the lens along that ray.",
+     "question": "Find the OAE, MOP and MOE.",
+     "modelAnswer": "Measure from the vertex sphere: fS = 190 mm, fT = 193 mm. FS = +5.26 D, FT = +5.18 D. OAE = FT − FS = −0.08 D. MOP = (5.18 + 5.26) ÷ 2 = +5.22 D. MOE = 5.22 − 5.00 = +0.22 D: slightly more plus than wanted off-axis."
+    },
+    {
+     "scenario": "Worksheet 4: Px B (R −7.50/−0.75 × 25, L −6.50/−1.00 × 165) collects new spectacles and says vision isn't as good. VA equals the old pair, the Rx is right and the centration matches their PD.",
+     "question": "What could be wrong, how would you check, and what would you do?",
+     "modelAnswer": "Probably a change in lens form, changing the distortion (and off-axis performance) they were used to. Compare the surface curves of old and new lenses with a lens measure. Explain the design is different and the brain usually adapts; ask them to wear the new pair for about two weeks without switching back, and return if no better. If they still can't adapt, remake in a form closer to the old lenses (some myopes prefer flatter forms)."
+    },
+    {
+     "scenario": "Worksheet 3: a lens designed for zero tangential error, BVP −2.50 D. At 40° the sagittal focal length from the back surface is −330 mm; the vertex sphere is 12 mm from the lens.",
+     "question": "Find the OAE, MOP and MOE.",
+     "modelAnswer": "From the vertex sphere: fS = −330 − 12 = −342 mm, so FS = −2.924 D. Zero tangential error means FT = BVP = −2.50 D. OAE = −2.50 − (−2.924) = +0.42 D. MOP = (−2.50 − 2.924) ÷ 2 = −2.71 D. MOE = −2.71 − (−2.50) = −0.21 D."
+    },
+    {
+     "scenario": "Worksheet 5: Px B, R +6.50 DS, L +7.00 DS, wants the cheapest possible spectacles.",
+     "question": "How can you keep the lenses thin without paying more than for standard lenses, and what compromises might you need?",
+     "modelAnswer": "Frame: small eye size, a round shape (spherical Rx), plastic (thinner minimum edge), and a CD matching the PD to minimise decentration and blank size. Lenses: aspheric would be ideal but costs more; a semi-finished lens surfaced to minimum edge thickness may be thinner than a stock lens whose blank is bigger than needed, for a small extra cost. Best form needs steep plus curves (thick), so a flatter form would be thinner but blurrier off-axis; discuss that trade-off with the patient."
+    },
+    {
+     "scenario": "Worksheet 4: a −15.00 D back surface on a Tscherning's ellipse for a Percival design.",
+     "question": "Which two BVPs does it suit, why not use it for the more positive one, and what is better?",
+     "modelAnswer": "About −14.50 D and +4.00 D. For +4.00 D the front would need to be +19.00 D, a very bulbous lens. The flatter Ostwalt solution, about +11.00/−7.00, is the better choice."
+    }
+   ],
+   "links": [],
+   "askClaude": "Explain Aberrations of spectacle lenses to me step by step, then quiz me on it."
+  },
+  {
+   "id": "aad-aspheric",
+   "title": "Aspheric lenses",
+   "summary": "Aspheric surfaces flatten (or steepen) away from the optical axis. That built-in surface astigmatism can cancel oblique astigmatism, allowing high plus lenses with good off-axis vision and flatter, thinner low-power lenses.",
+   "keyPoints": [
+    "An aspheric ophthalmic surface is non-spherical but rotationally symmetrical about its axis; toric and progressive surfaces don't qualify.",
+    "Spherical best-form solutions don't exist above about +7.00 D, so aspherics were first used for high plus (aphakia).",
+    "Conic p values: circle 1, prolate ellipse between 0 and 1, parabola 0, hyperbola below 0, oblate ellipse above 1. The smaller p, the more the surface flattens.",
+    "Sag: x = y² ÷ [r₀ + √(r₀² − py²)]. Thickness: tc + S2 = te + S1.",
+    "Surface radii away from the axis: rs = √[r₀² + (1 − p)y²], rt = rs³ ÷ r₀².",
+    "Low powers: an aspheric front allows a flatter form with best-form optics; combined with high index it saves thickness twice over.",
+    "Dispensing: centre accurately, don't decentre to make prism, and use atoroidal surfaces for higher cylinders."
+   ],
+   "examTraps": [
+    "Calling a toric or progressive surface aspheric.",
+    "Mixing up the order of n′ and n when working out r₀ for a back surface.",
+    "Assuming an aspheric designed for a sphere works for a big cylinder: the ideal p differs between meridians."
+   ],
+   "goDeeper": [
+    {
+     "heading": "Choosing the p value",
+     "body": "For a +10.00 D lens at 35°: p = 1 (sphere) gives OAE 2.29 D and MOE +1.27 D; p = 0.4 gives MOE about 0 (Percival-like) with OAE 0.89; p = 0 gives OAE 0.15 with MOE −0.65 (point focal-like, and a young wearer can accommodate for negative MOE); p = −4 overcorrects badly. So p 0.4 suits presbyopes and p 0 suits non-presbyopes."
+    },
+    {
+     "heading": "Verifying an aspheric",
+     "body": "Move a lens measure from the centre outwards. A spherical surface reads the same everywhere; an aspheric plus front reads less towards the edge, and on a minus lens the power increases towards the edge."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "p value of a parabola",
+     "back": "0. (Circle 1; prolate ellipse 0–1; hyperbola below 0; oblate ellipse above 1.)"
+    },
+    {
+     "front": "Conic sag formula",
+     "back": "x = y² ÷ [r₀ + √(r₀² − py²)]."
+    },
+    {
+     "front": "Is a progressive lens aspheric?",
+     "back": "No: it isn't rotationally symmetrical."
+    },
+    {
+     "front": "Why aspheric + high index saves thickness twice",
+     "back": "High index needs flatter curves for the same power, and flatter forms need more asphericity to correct their aberrations, which flattens them further."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-asph-1",
+     "q": "Which conic surface has p between 0 and 1?",
+     "options": [
+      {
+       "text": "Prolate ellipse",
+       "correct": true,
+       "feedback": "Yes: it flattens away from the apex, like the cornea."
+      },
+      {
+       "text": "Oblate ellipse",
+       "correct": false,
+       "feedback": "p is above 1."
+      },
+      {
+       "text": "Hyperbola",
+       "correct": false,
+       "feedback": "p is below 0."
+      },
+      {
+       "text": "Parabola",
+       "correct": false,
+       "feedback": "p is exactly 0."
+      }
+     ],
+     "explanation": "Slide 12."
+    },
+    {
+     "id": "aad-asph-2",
+     "q": "A −10.00 D plano-concave lens (n 1.5, 40 mm, tc 1.5 mm) has a parabolic back surface. What is its edge thickness?",
+     "options": [
+      {
+       "text": "5.5 mm",
+       "correct": true,
+       "feedback": "Yes: r₀ = 0.05 m, sag = 0.0004 ÷ 0.1 = 4.0 mm, so te = 1.5 + 4.0."
+      },
+      {
+       "text": "5.67 mm",
+       "correct": false,
+       "feedback": "That's the spherical version (sag 4.17 mm)."
+      },
+      {
+       "text": "4.0 mm",
+       "correct": false,
+       "feedback": "That's the sag alone; add the centre thickness."
+      },
+      {
+       "text": "2.5 mm",
+       "correct": false,
+       "feedback": "Check r₀ = −0.5 ÷ −10 = 0.05 m."
+      }
+     ],
+     "explanation": "Worksheet 1."
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "Worksheet 5: Px H (R +10.50 DS, L +10.75/−0.75 × 45) wanted a cheap second pair. You made spherical-front lenses surfaced to the Rx in a carefully chosen frame. They complain the edges are blurred, though their first pair is clear.",
+     "question": "Why, and what would you do?",
+     "modelAnswer": "No spherical best form exists above about +7.00 D, so the spherical lens has a lot of oblique astigmatism and mean oblique error off-axis. The first pair was almost certainly aspheric (and perhaps flatter), with its asphericity chosen to cancel those errors. Check the first pair's surfaces with a lens measure (power falling towards the edge suggests aspheric) and remake the new pair with aspheric fronts, centred accurately."
+    }
+   ],
+   "links": [],
+   "askClaude": "Explain Aspheric lenses to me step by step, then quiz me on it."
+  },
+  {
+   "id": "aad-occupational",
+   "title": "Occupational and recreational dispensing",
+   "summary": "Matching spectacles to the job: analyse the task, check the worker meets any visual standards, and protect the eyes from hazards at work and play.",
+   "keyPoints": [
+    "Visibility (task: size, distance, lighting, contrast, colour, time, movement, glare) versus visual capability (worker: VA, fields, binocular vision, colour, depth, adaptation).",
+    "For sustained tasks, VA should be about twice as good as the minimum needed; use a nomogram to find it from detail size and distance.",
+    "Group 1 driving: number plate at 20 m, 6/12 binocular, 120° horizontal field (50° each side) with no significant central defect. Group 2: 6/7.5 better eye, 6/60 worse, spectacles within ±8 D.",
+    "Regular VDU users (an hour or more continuously each day) are entitled to an eye exam from the employer, who pays for basic spectacles if needed only for VDU work.",
+    "Employers assess risk and supply PPE; practices can adjust but not repair safety eyewear.",
+    "Chemical injury is the most urgent eye emergency: irrigate, don't pad, refer immediately."
+   ],
+   "examTraps": [
+    "Thinking 6/12 alone satisfies the driving standard: the number plate test and fields must also be met (6/7.5 practically guarantees the plate test).",
+    "Forgetting that standards usually exclude diplopia rather than phorias."
+   ],
+   "goDeeper": [
+    {
+     "heading": "Police and pilot standards",
+     "body": "Police (GOV.UK): corrected 6/12 each eye and 6/6 binocularly, near 6/9, uncorrected 6/36, low-contrast 6/12, field 120° by 100°; monochromats rejected. Pilots: 6/6 binocular, 6/9 each eye, no anisometropia or astigmatism above 2.00 D, plus colour standards. Standards change, so always check the current version."
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Train driver vision standard",
+     "back": "6/9 better eye, 6/12 other, N8 near, no colour deficiency."
+    },
+    {
+     "front": "Hazards for a welder",
+     "back": "Welding flash (arc eye, a UV photokeratitis)."
+    },
+    {
+     "front": "Three types of glare",
+     "back": "Distracting, discomforting and disabling."
+    },
+    {
+     "front": "Laser class that can cause damage with a 0.01 s exposure",
+     "back": "Class 3b (class 4 can damage even without optics)."
+    }
+   ],
+   "mcq": [
+    {
+     "id": "aad-occ-1",
+     "q": "Which is part of the UK Group 1 driving standard?",
+     "options": [
+      {
+       "text": "Reading a post-2001 number plate at 20 m",
+       "correct": true,
+       "feedback": "Yes, plus 6/12 binocular and the field standard."
+      },
+      {
+       "text": "6/9 in each eye",
+       "correct": false,
+       "feedback": "6/12 binocularly."
+      },
+      {
+       "text": "Spectacles no stronger than ±8 D",
+       "correct": false,
+       "feedback": "That's Group 2."
+      },
+      {
+       "text": "Normal colour vision",
+       "correct": false,
+       "feedback": "Not required for Group 1."
+      }
+     ],
+     "explanation": "Occupational dispensing, slide 25."
+    }
+   ],
+   "cases": [
+    {
+     "scenario": "Worksheet 2.",
+     "question": "Which visual criteria matter for a crane driver, an electrician, a table tennis player and an accountant?",
+     "modelAnswer": "Crane driver: depth perception and good peripheral fields. Electrician: reasonable VA and good colour vision (wiring colours). Table tennis player: depth perception, binocular status and eye movements. Accountant: reasonable intermediate and near VA for screens and paperwork."
+    }
+   ],
+   "links": [],
+   "askClaude": "Explain Occupational and recreational dispensing to me step by step, then quiz me on it."
   }
  ]
 }

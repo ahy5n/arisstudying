@@ -13,7 +13,12 @@
         "Cohort study: follow people with and without an exposure forward in time (prospective) or using past records (retrospective).",
         "Case-control: start with people who have the outcome and compare past exposures with controls — good for rare conditions.",
         "Cross-sectional: a snapshot at one time point — prevalence and associations, not cause.",
-        "Bias types: selection, measurement/observer, recall, attrition; confounding is a third factor linked to both exposure and outcome."
+        "Bias types: selection, measurement/observer, recall, attrition; confounding is a third factor linked to both exposure and outcome.",
+        "We try to falsify the null hypothesis: a hypothesis can be disproved but never proven, and there is only one null to test against.",
+        "One-tailed hypotheses predict a direction; two-tailed predict any change.",
+        "Variables: independent (manipulated), dependent (measured), confounding (changes with the IV, which ruins the experiment) and extraneous (kept constant).",
+        "Floor and ceiling effects hide changes; pilot studies set task difficulty and doses.",
+        "Within-subjects designs remove differences between people; control order effects (learning, fatigue) by counterbalancing or randomised blocks."
       ],
       "examTraps": [
         "Saying a cross-sectional study shows cause.",
@@ -23,7 +28,15 @@
       "diagram": {
         "id": "evidence-pyramid",
         "description": "Pyramid with layers from bottom to top: expert opinion; case reports/series; cross-sectional; case-control; cohort; randomised controlled trials; systematic reviews and meta-analyses at the top.",
-        "labels": ["Systematic reviews / meta-analyses", "RCTs", "Cohort", "Case-control", "Cross-sectional", "Case reports", "Expert opinion"]
+        "labels": [
+          "Systematic reviews / meta-analyses",
+          "RCTs",
+          "Cohort",
+          "Case-control",
+          "Cross-sectional",
+          "Case reports",
+          "Expert opinion"
+        ]
       },
       "goDeeper": [
         {
@@ -36,20 +49,60 @@
         }
       ],
       "flashcards": [
-        { "front": "Purpose of randomisation", "back": "To balance known and unknown confounders between groups." },
-        { "front": "Best design for a rare disease's risk factors", "back": "Case-control study." },
-        { "front": "Cross-sectional study shows…", "back": "Prevalence and associations at one time point (not cause)." },
-        { "front": "Confounder", "back": "A third factor linked to both the exposure and the outcome." }
+        {
+          "front": "Purpose of randomisation",
+          "back": "To balance known and unknown confounders between groups."
+        },
+        {
+          "front": "Best design for a rare disease's risk factors",
+          "back": "Case-control study."
+        },
+        {
+          "front": "Cross-sectional study shows…",
+          "back": "Prevalence and associations at one time point (not cause)."
+        },
+        {
+          "front": "Confounder",
+          "back": "A third factor linked to both the exposure and the outcome."
+        },
+        {
+          "front": "Single- versus double-blind",
+          "back": "Single: participants don't know their condition (e.g. a placebo). Double: the experimenter doesn't know either."
+        },
+        {
+          "front": "When must you use a between-subjects design?",
+          "back": "Comparing sexes or age groups, or when there are too many conditions for one person to do."
+        },
+        {
+          "front": "Counterbalancing",
+          "back": "Half the participants do condition A first and half do B first, so order effects cancel out."
+        }
       ],
       "mcq": [
         {
           "id": "vse-rd-1",
           "q": "Researchers compare 200 people with keratoconus and 200 without, asking about past eye rubbing. What design is this?",
           "options": [
-            { "text": "Case-control", "correct": true, "feedback": "Yes — start with the outcome, look back at exposure." },
-            { "text": "Cohort", "correct": false, "feedback": "A cohort starts from exposure and follows forward." },
-            { "text": "RCT", "correct": false, "feedback": "Nothing is randomly allocated." },
-            { "text": "Case series", "correct": false, "feedback": "There's a control group." }
+            {
+              "text": "Case-control",
+              "correct": true,
+              "feedback": "Yes — start with the outcome, look back at exposure."
+            },
+            {
+              "text": "Cohort",
+              "correct": false,
+              "feedback": "A cohort starts from exposure and follows forward."
+            },
+            {
+              "text": "RCT",
+              "correct": false,
+              "feedback": "Nothing is randomly allocated."
+            },
+            {
+              "text": "Case series",
+              "correct": false,
+              "feedback": "There's a control group."
+            }
           ],
           "explanation": "Case-control studies start with people who have the condition and compare past exposures with controls.",
           "link": "vse-research-design#confounding-with-an-eye-example"
@@ -58,19 +111,122 @@
           "id": "vse-rd-2",
           "q": "Which method assesses agreement between two tonometers?",
           "options": [
-            { "text": "Bland–Altman analysis", "correct": true, "feedback": "Right — it plots differences against means." },
-            { "text": "Pearson correlation", "correct": false, "feedback": "High correlation doesn't mean agreement." },
-            { "text": "Chi-squared test", "correct": false, "feedback": "That's for categorical data." },
-            { "text": "A t-test alone", "correct": false, "feedback": "It can show bias but not limits of agreement." }
+            {
+              "text": "Bland–Altman analysis",
+              "correct": true,
+              "feedback": "Right — it plots differences against means."
+            },
+            {
+              "text": "Pearson correlation",
+              "correct": false,
+              "feedback": "High correlation doesn't mean agreement."
+            },
+            {
+              "text": "Chi-squared test",
+              "correct": false,
+              "feedback": "That's for categorical data."
+            },
+            {
+              "text": "A t-test alone",
+              "correct": false,
+              "feedback": "It can show bias but not limits of agreement."
+            }
           ],
           "explanation": "Bland–Altman shows mean bias and 95% limits of agreement between two measurement methods.",
           "link": "vse-research-design#repeatability-and-validity"
+        },
+        {
+          "id": "vse-ed-tyk-1",
+          "q": "The experimental variable is",
+          "options": [
+            {
+              "text": "another name for the independent variable",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the variable measured by the experimenter",
+              "correct": false,
+              "feedback": "That's the dependent variable."
+            },
+            {
+              "text": "the parameters kept constant",
+              "correct": false,
+              "feedback": "Those are extraneous variables."
+            },
+            {
+              "text": "a variable that confounds the results",
+              "correct": false,
+              "feedback": "That's a confounding variable."
+            }
+          ],
+          "explanation": "Week 9 test-your-knowledge Q1."
+        },
+        {
+          "id": "vse-ed-tyk-3",
+          "q": "A dependent variable rises with the independent variable, but a confounding variable is then found. Which is true?",
+          "options": [
+            {
+              "text": "There could really be a negative relationship between the DV and the IV",
+              "correct": true,
+              "feedback": "Yes: the confound could be masking an opposite effect. You can't separate them."
+            },
+            {
+              "text": "The result can't be statistically significant",
+              "correct": false,
+              "feedback": "It can be significant; it just can't be interpreted."
+            },
+            {
+              "text": "The result is sound because the confound has been identified",
+              "correct": false,
+              "feedback": "Identifying it doesn't remove it."
+            },
+            {
+              "text": "The confound must have influenced the results",
+              "correct": false,
+              "feedback": "It might have; you can't tell."
+            }
+          ],
+          "explanation": "Week 9 test-your-knowledge Q3."
+        },
+        {
+          "id": "vse-ed-tyk-4",
+          "q": "A floor effect is when",
+          "options": [
+            {
+              "text": "control results are so low that the IV couldn't produce meaningfully lower values",
+              "correct": true,
+              "feedback": "Yes: the task is too hard to show a drop."
+            },
+            {
+              "text": "the experimental condition is as easy as the control",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a confounding variable must have influenced the results",
+              "correct": false,
+              "feedback": "Different problem."
+            },
+            {
+              "text": "not enough participants turn up",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 9 test-your-knowledge Q4."
         }
       ],
       "cases": [],
       "links": [
-        { "label": "Cochrane Library", "url": "https://www.cochranelibrary.com/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "Cochrane Library",
+          "url": "https://www.cochranelibrary.com/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Describe 5 eye research studies in one sentence each and ask me to name the design and one possible bias for each."
     },
@@ -85,7 +241,11 @@
         "Standard error = SD ÷ √n; a 95% confidence interval ≈ mean ± 1.96 × SE.",
         "p-value: the probability of results at least this extreme if the null hypothesis were true; commonly significant if p < 0.05.",
         "Type I error = false positive (α); type II error = false negative (β); power = 1 − β.",
-        "Common tests: paired/unpaired t-test (normal data), Wilcoxon signed-rank / Mann–Whitney U (non-parametric), chi-squared (categorical), ANOVA (3+ groups), Pearson/Spearman correlation."
+        "Common tests: paired/unpaired t-test (normal data), Wilcoxon signed-rank / Mann–Whitney U (non-parametric), chi-squared (categorical), ANOVA (3+ groups), Pearson/Spearman correlation.",
+        "SE = SD ÷ √n; graphs of means usually show ±1 SE error bars.",
+        "p is the probability of results at least this extreme if H0 were true. p ≤ 0.05 significant, p ≤ 0.01 highly significant; we 'have evidence for' H1 but haven't proven it.",
+        "Statistical significance isn't the same as clinical importance.",
+        "Choose one- or two-tailed in advance (registered reports enforce this). Use a t-test for two conditions, ANOVA for more."
       ],
       "examTraps": [
         "Saying p = 0.03 means a 3% chance the null hypothesis is true.",
@@ -95,7 +255,12 @@
       "diagram": {
         "id": "normal-curve",
         "description": "Bell-shaped normal distribution with the mean at the centre and shaded bands at ±1 SD (68%), ±2 SD (95%) and ±3 SD (99.7%).",
-        "labels": ["Mean", "±1 SD: 68%", "±2 SD: 95%", "±3 SD: 99.7%"]
+        "labels": [
+          "Mean",
+          "±1 SD: 68%",
+          "±2 SD: 95%",
+          "±3 SD: 99.7%"
+        ]
       },
       "goDeeper": [
         {
@@ -112,20 +277,60 @@
         }
       ],
       "flashcards": [
-        { "front": "Standard error formula", "back": "SE = SD ÷ √n." },
-        { "front": "Type I error", "back": "False positive (rejecting a true null hypothesis)." },
-        { "front": "Test for paired normal data", "back": "Paired t-test." },
-        { "front": "Non-parametric test for two independent groups", "back": "Mann–Whitney U." }
+        {
+          "front": "Standard error formula",
+          "back": "SE = SD ÷ √n."
+        },
+        {
+          "front": "Type I error",
+          "back": "False positive (rejecting a true null hypothesis)."
+        },
+        {
+          "front": "Test for paired normal data",
+          "back": "Paired t-test."
+        },
+        {
+          "front": "Non-parametric test for two independent groups",
+          "back": "Mann–Whitney U."
+        },
+        {
+          "front": "Standard error",
+          "back": "SD ÷ √n: how precisely the sample mean estimates the population mean."
+        },
+        {
+          "front": "What ANOVA reports instead of t",
+          "back": "An F ratio, with a p value interpreted the same way."
+        },
+        {
+          "front": "Why baseline risk matters",
+          "back": "'100 times the risk' of a 1-in-100-million event is still only 1 in a million."
+        }
       ],
       "mcq": [
         {
           "id": "vse-st-1",
           "q": "IOP is measured in the same 30 people before and after a new drop; the differences are normally distributed. Which test?",
           "options": [
-            { "text": "Paired t-test", "correct": true, "feedback": "Yes — same people, normal data." },
-            { "text": "Unpaired t-test", "correct": false, "feedback": "The measurements are paired." },
-            { "text": "Chi-squared", "correct": false, "feedback": "IOP is continuous, not categorical." },
-            { "text": "Mann–Whitney U", "correct": false, "feedback": "That's for independent, non-normal data." }
+            {
+              "text": "Paired t-test",
+              "correct": true,
+              "feedback": "Yes — same people, normal data."
+            },
+            {
+              "text": "Unpaired t-test",
+              "correct": false,
+              "feedback": "The measurements are paired."
+            },
+            {
+              "text": "Chi-squared",
+              "correct": false,
+              "feedback": "IOP is continuous, not categorical."
+            },
+            {
+              "text": "Mann–Whitney U",
+              "correct": false,
+              "feedback": "That's for independent, non-normal data."
+            }
           ],
           "explanation": "Repeated measures on the same participants with normally distributed differences → paired t-test.",
           "link": "vse-statistics#choosing-a-test"
@@ -134,19 +339,159 @@
           "id": "vse-st-2",
           "q": "A screening test has high sensitivity. What does that mean?",
           "options": [
-            { "text": "It correctly identifies most people who have the condition", "correct": true, "feedback": "Right — few false negatives." },
-            { "text": "It correctly clears most people without the condition", "correct": false, "feedback": "That's specificity." },
-            { "text": "A positive result is almost always correct", "correct": false, "feedback": "That's positive predictive value, which depends on prevalence." },
-            { "text": "It gives the same answer when repeated", "correct": false, "feedback": "That's repeatability." }
+            {
+              "text": "It correctly identifies most people who have the condition",
+              "correct": true,
+              "feedback": "Right — few false negatives."
+            },
+            {
+              "text": "It correctly clears most people without the condition",
+              "correct": false,
+              "feedback": "That's specificity."
+            },
+            {
+              "text": "A positive result is almost always correct",
+              "correct": false,
+              "feedback": "That's positive predictive value, which depends on prevalence."
+            },
+            {
+              "text": "It gives the same answer when repeated",
+              "correct": false,
+              "feedback": "That's repeatability."
+            }
           ],
           "explanation": "Sensitivity = true positives ÷ all with the disease.",
           "link": "vse-statistics#sensitivity-and-specificity"
+        },
+        {
+          "id": "vse-stats-tyk-1",
+          "q": "Which is TRUE?",
+          "options": [
+            {
+              "text": "If a one-tailed test in the predicted direction isn't significant, a two-tailed test won't be either",
+              "correct": true,
+              "feedback": "Yes: the two-tailed cut-off is stricter in each tail."
+            },
+            {
+              "text": "A result is significant if p > 1/20",
+              "correct": false,
+              "feedback": "Significant means p ≤ 0.05."
+            },
+            {
+              "text": "A highly significant result can't have come about by chance",
+              "correct": false,
+              "feedback": "Chance can never be ruled out completely."
+            },
+            {
+              "text": "The SE is usually larger than the SD",
+              "correct": false,
+              "feedback": "SE = SD ÷ √n, so it's smaller once n > 1."
+            },
+            {
+              "text": "Two data sets differ significantly if their means are very different",
+              "correct": false,
+              "feedback": "It depends on the spread and n too."
+            }
+          ],
+          "explanation": "Week 10 test-your-knowledge Q1."
+        },
+        {
+          "id": "vse-stats-tyk-3",
+          "q": "In analysis of variance (ANOVA)",
+          "options": [
+            {
+              "text": "main effects and interactions can be investigated across three independent variables",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only two levels of each IV can be tested",
+              "correct": false,
+              "feedback": "ANOVA handles many levels."
+            },
+            {
+              "text": "there must be a control condition",
+              "correct": false,
+              "feedback": "Not required."
+            },
+            {
+              "text": "only interactions can be investigated",
+              "correct": false,
+              "feedback": "Main effects too."
+            }
+          ],
+          "explanation": "Week 10 test-your-knowledge Q3."
+        },
+        {
+          "id": "vse-stats-tyk-4",
+          "q": "Which is NOT a descriptive statistic?",
+          "options": [
+            {
+              "text": "t",
+              "correct": true,
+              "feedback": "Yes: t comes from an inferential test."
+            },
+            {
+              "text": "The minimum",
+              "correct": false,
+              "feedback": "Descriptive."
+            },
+            {
+              "text": "n",
+              "correct": false,
+              "feedback": "Descriptive."
+            },
+            {
+              "text": "SE",
+              "correct": false,
+              "feedback": "Descriptive."
+            },
+            {
+              "text": "The median",
+              "correct": false,
+              "feedback": "Descriptive."
+            }
+          ],
+          "explanation": "Week 10 test-your-knowledge Q4."
+        },
+        {
+          "id": "vse-stats-tyk-5",
+          "q": "A main purpose of a registered report is to",
+          "options": [
+            {
+              "text": "make sure one-tailed testing isn't chosen after the fact",
+              "correct": true,
+              "feedback": "Yes: the plan is fixed before the data are collected."
+            },
+            {
+              "text": "gather pilot data",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "inform participants before the experiment",
+              "correct": false,
+              "feedback": "That's the participant information sheet."
+            },
+            {
+              "text": "get media attention",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 10 test-your-knowledge Q5."
         }
       ],
       "cases": [],
       "links": [
-        { "label": "Cochrane Library", "url": "https://www.cochranelibrary.com/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "Cochrane Library",
+          "url": "https://www.cochranelibrary.com/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Give me 6 mini research questions with data descriptions and ask me which statistical test to use and why."
     },
@@ -171,7 +516,12 @@
       "diagram": {
         "id": "imrad",
         "description": "A paper shaped like an hourglass: broad Introduction narrowing to the specific question, Methods and Results in the narrow middle, Discussion widening back out to implications. Side notes list appraisal questions for each part.",
-        "labels": ["Introduction: question (PICO)", "Methods: design and bias", "Results: size and precision", "Discussion: applicability"]
+        "labels": [
+          "Introduction: question (PICO)",
+          "Methods: design and bias",
+          "Results: size and precision",
+          "Discussion: applicability"
+        ]
       },
       "goDeeper": [
         {
@@ -184,20 +534,48 @@
         }
       ],
       "flashcards": [
-        { "front": "IMRaD", "back": "Introduction, Methods, Results and Discussion." },
-        { "front": "PICO", "back": "Population, Intervention, Comparison, Outcome." },
-        { "front": "A widely used UK appraisal checklist", "back": "CASP (Critical Appraisal Skills Programme)." },
-        { "front": "What shows size and precision of an effect?", "back": "The effect size with its confidence interval." }
+        {
+          "front": "IMRaD",
+          "back": "Introduction, Methods, Results and Discussion."
+        },
+        {
+          "front": "PICO",
+          "back": "Population, Intervention, Comparison, Outcome."
+        },
+        {
+          "front": "A widely used UK appraisal checklist",
+          "back": "CASP (Critical Appraisal Skills Programme)."
+        },
+        {
+          "front": "What shows size and precision of an effect?",
+          "back": "The effect size with its confidence interval."
+        }
       ],
       "mcq": [
         {
           "id": "vse-cr-1",
           "q": "A trial of 5,000 people reports a statistically significant 0.1 D difference in refraction between two lenses. Best interpretation?",
           "options": [
-            { "text": "Statistically significant but probably not clinically meaningful", "correct": true, "feedback": "Yes — 0.1 D is below what most patients notice." },
-            { "text": "A major clinical breakthrough", "correct": false, "feedback": "Large samples can make tiny effects significant." },
-            { "text": "Not trustworthy because it's significant", "correct": false, "feedback": "Significance itself isn't the problem." },
-            { "text": "Proof the lenses are identical", "correct": false, "feedback": "It shows a small difference." }
+            {
+              "text": "Statistically significant but probably not clinically meaningful",
+              "correct": true,
+              "feedback": "Yes — 0.1 D is below what most patients notice."
+            },
+            {
+              "text": "A major clinical breakthrough",
+              "correct": false,
+              "feedback": "Large samples can make tiny effects significant."
+            },
+            {
+              "text": "Not trustworthy because it's significant",
+              "correct": false,
+              "feedback": "Significance itself isn't the problem."
+            },
+            {
+              "text": "Proof the lenses are identical",
+              "correct": false,
+              "feedback": "It shows a small difference."
+            }
           ],
           "explanation": "Statistical significance tells you the effect probably isn't zero, not that it matters clinically.",
           "link": "vse-critique#clinical-vs-statistical-significance"
@@ -205,8 +583,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "CASP checklists", "url": "https://casp-uk.net/casp-tools-checklists/" },
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "CASP checklists",
+          "url": "https://casp-uk.net/casp-tools-checklists/"
+        },
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "Give me a short made-up abstract of an optometry study with a few deliberate weaknesses. Let me critique it with CASP-style questions, then reveal what I missed."
     },
@@ -231,7 +615,12 @@
       "diagram": {
         "id": "ebp-venn",
         "description": "Three overlapping circles: best research evidence, clinical expertise, patient values and preferences. The overlap in the middle is labelled evidence-based practice.",
-        "labels": ["Research evidence", "Clinical expertise", "Patient values", "Evidence-based practice"]
+        "labels": [
+          "Research evidence",
+          "Clinical expertise",
+          "Patient values",
+          "Evidence-based practice"
+        ]
       },
       "goDeeper": [
         {
@@ -244,20 +633,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Three parts of EBP", "back": "Research evidence, clinical expertise, patient values." },
-        { "front": "Five steps of EBP", "back": "Ask, Acquire, Appraise, Apply, Assess." },
-        { "front": "Source of pre-appraised systematic reviews", "back": "The Cochrane Library." },
-        { "front": "UK optometry condition guidance", "back": "College of Optometrists Clinical Management Guidelines." }
+        {
+          "front": "Three parts of EBP",
+          "back": "Research evidence, clinical expertise, patient values."
+        },
+        {
+          "front": "Five steps of EBP",
+          "back": "Ask, Acquire, Appraise, Apply, Assess."
+        },
+        {
+          "front": "Source of pre-appraised systematic reviews",
+          "back": "The Cochrane Library."
+        },
+        {
+          "front": "UK optometry condition guidance",
+          "back": "College of Optometrists Clinical Management Guidelines."
+        }
       ],
       "mcq": [
         {
           "id": "vse-ebp-1",
           "q": "Which is the best first source for a clinical question about managing blepharitis in UK practice?",
           "options": [
-            { "text": "The College of Optometrists' Clinical Management Guidelines", "correct": true, "feedback": "Yes — pre-appraised, UK-specific guidance." },
-            { "text": "A single case report", "correct": false, "feedback": "Lowest level of evidence." },
-            { "text": "A manufacturer's advert", "correct": false, "feedback": "Not independent evidence." },
-            { "text": "A social media post", "correct": false, "feedback": "Not a reliable source." }
+            {
+              "text": "The College of Optometrists' Clinical Management Guidelines",
+              "correct": true,
+              "feedback": "Yes — pre-appraised, UK-specific guidance."
+            },
+            {
+              "text": "A single case report",
+              "correct": false,
+              "feedback": "Lowest level of evidence."
+            },
+            {
+              "text": "A manufacturer's advert",
+              "correct": false,
+              "feedback": "Not independent evidence."
+            },
+            {
+              "text": "A social media post",
+              "correct": false,
+              "feedback": "Not a reliable source."
+            }
           ],
           "explanation": "Start with high-quality pre-appraised sources (guidelines, systematic reviews) before individual studies.",
           "link": "vse-ebp#guidelines-in-uk-optometry"
@@ -265,8 +682,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "Cochrane Library", "url": "https://www.cochranelibrary.com/" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "Cochrane Library",
+          "url": "https://www.cochranelibrary.com/"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Help me turn 3 clinical questions I might have in clinic into PICO format, then suggest where I'd search for the answers."
     },
@@ -281,7 +704,8 @@
         "Truncation (e.g. myop* finds myopia, myopic) and phrase searching (\"contact lens\").",
         "Subject headings (MeSH in PubMed) catch papers that use different words.",
         "Filters: date, language, study type, humans.",
-        "Use a reference manager and the referencing style your module asks for; record your search strategy."
+        "Use a reference manager and the referencing style your module asks for; record your search strategy.",
+        "Library method: split the question into concepts, brainstorm synonyms, join synonyms with OR and concepts with AND, then filter by date and language."
       ],
       "examTraps": [
         "Searching one keyword in Google and stopping there.",
@@ -291,7 +715,11 @@
       "diagram": {
         "id": "boolean",
         "description": "Venn diagrams: 'myopia OR nearsightedness' (both circles shaded — wider), 'myopia AND children' (only the overlap shaded — narrower), 'myopia NOT adults' (one circle shaded minus the overlap).",
-        "labels": ["OR: wider", "AND: narrower", "NOT: excludes"]
+        "labels": [
+          "OR: wider",
+          "AND: narrower",
+          "NOT: excludes"
+        ]
       },
       "goDeeper": [
         {
@@ -304,20 +732,52 @@
         }
       ],
       "flashcards": [
-        { "front": "OR vs AND", "back": "OR widens (synonyms); AND narrows (combines concepts)." },
-        { "front": "Truncation example", "back": "myop* → myopia, myopic, myopes." },
-        { "front": "PubMed subject headings", "back": "MeSH (Medical Subject Headings)." },
-        { "front": "Why record your search?", "back": "So it's reproducible and can be reported in your methods." }
+        {
+          "front": "OR vs AND",
+          "back": "OR widens (synonyms); AND narrows (combines concepts)."
+        },
+        {
+          "front": "Truncation example",
+          "back": "myop* → myopia, myopic, myopes."
+        },
+        {
+          "front": "PubMed subject headings",
+          "back": "MeSH (Medical Subject Headings)."
+        },
+        {
+          "front": "Why record your search?",
+          "back": "So it's reproducible and can be reported in your methods."
+        },
+        {
+          "front": "Rules for the vision sciences assignment source",
+          "back": "A primary paper (no reviews), within the date limit and at least 4 pages long."
+        }
       ],
       "mcq": [
         {
           "id": "vse-ls-1",
           "q": "Which search finds the MOST results?",
           "options": [
-            { "text": "glaucoma OR \"ocular hypertension\"", "correct": true, "feedback": "Yes — OR widens the search." },
-            { "text": "glaucoma AND \"ocular hypertension\"", "correct": false, "feedback": "AND requires both, narrowing it." },
-            { "text": "glaucoma NOT \"ocular hypertension\"", "correct": false, "feedback": "NOT removes results." },
-            { "text": "\"glaucoma ocular hypertension\"", "correct": false, "feedback": "An exact phrase is very narrow." }
+            {
+              "text": "glaucoma OR \"ocular hypertension\"",
+              "correct": true,
+              "feedback": "Yes — OR widens the search."
+            },
+            {
+              "text": "glaucoma AND \"ocular hypertension\"",
+              "correct": false,
+              "feedback": "AND requires both, narrowing it."
+            },
+            {
+              "text": "glaucoma NOT \"ocular hypertension\"",
+              "correct": false,
+              "feedback": "NOT removes results."
+            },
+            {
+              "text": "\"glaucoma ocular hypertension\"",
+              "correct": false,
+              "feedback": "An exact phrase is very narrow."
+            }
           ],
           "explanation": "OR combines synonyms or related terms and returns anything with either.",
           "link": "vse-literature-search#building-a-search-string"
@@ -325,10 +785,1399 @@
       ],
       "cases": [],
       "links": [
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" },
-        { "label": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/" }
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        },
+        {
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        }
       ],
       "askClaude": "Help me build a PubMed search string for a question I'm working on: ask me the question, break it into concepts and synonyms, then build the Boolean string."
+    },
+    {
+      "id": "vse-retina",
+      "title": "The retina, LGN and visual pathways",
+      "summary": "How light becomes a neural signal and gets to the cortex. The retina is wired back to front, trades sensitivity against resolution through convergence, and sends its output mainly through the LGN to V1.",
+      "keyPoints": [
+        "Visible light spans about 380 to 760 nm. Wavelength goes with hue, amplitude with brightness, purity with saturation. Light itself is not coloured.",
+        "Receptors hyperpolarise to light with graded potentials. Retinal ganglion cells are the first cells to fire action potentials.",
+        "About 120 million rods and 8 million cones per retina, but only about 1 million optic nerve fibres: average convergence 100:1.",
+        "Convergence is low in the fovea (good resolution) and high in the periphery (good sensitivity): a duplex system.",
+        "P-cells (about 80%): small, slow, small receptive fields, wavelength-sensitive. M-cells (about 10%): large, fast, large fields, flicker-sensitive, high contrast sensitivity.",
+        "Primary pathway: retina, chiasm, tract, LGN, optic radiation, layer 4C of V1. It carries about 90% of retinal output and each hemifield goes to the opposite hemisphere.",
+        "LGN: 6 layers. Top 4 parvocellular, bottom 2 magnocellular, koniocellular cells between. Only about 10% of its input is retinal."
+      ],
+      "examTraps": [
+        "Saying the central fovea has all three cone classes. It has no blue cones (and no rods).",
+        "Treating the upside-down map in V1 as a problem the brain has to correct. It isn't one.",
+        "Calling the LGN just a relay. Most of its input is feedback from cortex and elsewhere, so it probably regulates the signal."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Purkinje shift",
+          "body": "Rods are most sensitive near 500 nm (blue-green) and cones near 550 nm (yellow). In daylight yellow flowers look lighter than green leaves; as night falls and rods take over, the leaves start to look lighter."
+        },
+        {
+          "heading": "The blind spot and filling in",
+          "body": "The optic disc, 12 to 18° from the fovea, has no receptors. Each eye's blind spot is on the nasal retina so the two don't overlap, but even with one eye closed you see no hole because the visual system fills in from the surround. Something similar happens for blue in the central fovea: a tiny pure blue spot seen from far away looks black."
+        },
+        {
+          "heading": "Afterimages and size constancy",
+          "body": "An afterimage has a fixed size on the retina, yet it looks larger when you look at a far wall than at a near sheet of paper. The visual system scales perceived size by perceived distance."
+        },
+        {
+          "heading": "Names for primary visual cortex",
+          "body": "V1, striate cortex (for the visible stripe of myelinated axons), Brodmann's area 17, and calcarine cortex in clinical writing (much of it lies in the calcarine sulcus). The fovea is represented at the occipital pole."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Average convergence in the retina",
+          "back": "About 100 receptors to 1 ganglion cell. Lower in the fovea, higher in the periphery."
+        },
+        {
+          "front": "Which retinal cells fire action potentials?",
+          "back": "Retinal ganglion cells. Receptors and most interneurons use graded potentials."
+        },
+        {
+          "front": "LGN layers",
+          "back": "Six: top four parvocellular, bottom two magnocellular, koniocellular cells in between. Each layer takes input from one eye."
+        },
+        {
+          "front": "Two lesser visual pathways",
+          "back": "To the superior colliculus (midbrain) and to the pulvinar (thalamus)."
+        },
+        {
+          "front": "Receptive field",
+          "back": "The region of retina which, when stimulated, changes a cell's response (up or down)."
+        },
+        {
+          "front": "Size of the fovea and its rod-free centre",
+          "back": "Fovea 1.5 mm (5.2°); rod-free region 0.5 mm (1.7°)."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-retina-tyk-1",
+          "q": "The hue of light corresponds to its",
+          "options": [
+            {
+              "text": "wavelength",
+              "correct": true,
+              "feedback": "Yes. Hue varies along the visible spectrum with wavelength."
+            },
+            {
+              "text": "saturation",
+              "correct": false,
+              "feedback": "Saturation is the purity of the wavelength: how far the colour is from white."
+            },
+            {
+              "text": "intensity",
+              "correct": false,
+              "feedback": "Intensity goes with the wave's amplitude."
+            },
+            {
+              "text": "brightness",
+              "correct": false,
+              "feedback": "Brightness goes with amplitude, not hue."
+            },
+            {
+              "text": "speed",
+              "correct": false,
+              "feedback": "Speed doesn't determine hue."
+            }
+          ],
+          "explanation": "Week 3 test-your-knowledge question. Slide 3: wavelength with hue, amplitude with intensity, purity with saturation."
+        },
+        {
+          "id": "vse-retina-tyk-2",
+          "q": "The central fovea",
+          "options": [
+            {
+              "text": "contains receptors that are most functional in bright illumination",
+              "correct": true,
+              "feedback": "Yes. It holds cones, which work at photopic levels."
+            },
+            {
+              "text": "contains three different classes of cones",
+              "correct": false,
+              "feedback": "There are no blue cones in the central fovea."
+            },
+            {
+              "text": "contains both rods and cones",
+              "correct": false,
+              "feedback": "The central 0.5 mm is rod-free."
+            },
+            {
+              "text": "projects to cells with the greatest level of convergence",
+              "correct": false,
+              "feedback": "Convergence is lowest in the fovea, as low as 1:1 for some cells."
+            },
+            {
+              "text": "is used primarily for night vision",
+              "correct": false,
+              "feedback": "Night vision relies on the rod-rich periphery."
+            }
+          ],
+          "explanation": "Week 3 test-your-knowledge question. Answer worked out from the lecture and handout: the central fovea is rod-free, has no blue cones and has the least convergence."
+        },
+        {
+          "id": "vse-retina-tyk-3",
+          "q": "A retinal afterimage looks larger on a distant surface than on a near one because",
+          "options": [
+            {
+              "text": "of size constancy",
+              "correct": true,
+              "feedback": "Yes. The retinal image is fixed, so perceived size is scaled by perceived distance."
+            },
+            {
+              "text": "of lightness constancy",
+              "correct": false,
+              "feedback": "Lightness constancy is about surface reflectance, not size."
+            },
+            {
+              "text": "of complicated retinal processing",
+              "correct": false,
+              "feedback": "The effect is not retinal; the afterimage's retinal size is fixed."
+            },
+            {
+              "text": "the size of the retinal image changes",
+              "correct": false,
+              "feedback": "It doesn't: an afterimage is stuck to the same patch of retina."
+            },
+            {
+              "text": "of vergence eye movements",
+              "correct": false,
+              "feedback": "Vergence may signal distance, but the reason the size changes is size constancy."
+            }
+          ],
+          "explanation": "Week 3 test-your-knowledge question. The lecture uses afterimages as evidence for size constancy."
+        },
+        {
+          "id": "vse-retina-tyk-4",
+          "q": "The major retinal projection in primates reaches striate cortex via",
+          "options": [
+            {
+              "text": "the LGN",
+              "correct": true,
+              "feedback": "Yes. About 90% of retinal output takes this route."
+            },
+            {
+              "text": "prestriate cortex",
+              "correct": false,
+              "feedback": "Prestriate cortex (V2) comes after V1."
+            },
+            {
+              "text": "the pulvinar",
+              "correct": false,
+              "feedback": "A lesser pathway goes to the pulvinar."
+            },
+            {
+              "text": "the superior colliculus",
+              "correct": false,
+              "feedback": "A lesser pathway goes to the superior colliculus in the midbrain."
+            },
+            {
+              "text": "the hypothalamus",
+              "correct": false,
+              "feedback": "Not part of the primary visual pathway."
+            }
+          ],
+          "explanation": "Week 3 test-your-knowledge question."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A friend says that because the image on the retina and the map in V1 are upside down, the brain must flip it the right way up.",
+          "question": "How would you answer using this lecture?",
+          "modelAnswer": "The cortical 'image' is not a picture that anything looks at; it is a pattern of neural activity. What matters is that the mapping is orderly (retinotopic), not which way up it is. So the inversion presents no computational problem to solve."
+        }
+      ],
+      "links": [],
+      "askClaude": "Explain The retina, LGN and visual pathways to me step by step, then quiz me on it."
+    },
+    {
+      "id": "vse-receptive-fields",
+      "title": "Receptive fields and convolution",
+      "summary": "A receptive field is a weighting function. When an array of cells applies the same weighting function across the whole image (convolution), the output is a neural image that marks edges, discards uniform areas, and exists at several spatial scales.",
+      "keyPoints": [
+        "Receptive field: the region of retina which, when stimulated, changes the cell's response (up or down).",
+        "On-centre cells have an excitatory centre and inhibitory surround; off-centre the reverse. There are roughly equal numbers of each, and fields grow with eccentricity.",
+        "Response = light on excitatory regions minus light on inhibitory regions. With uniform light these cancel, leaving the spontaneous rate.",
+        "Responses: spontaneous discharge, a transient (phasic) burst at onset, then a sustained (tonic, steady-state) level.",
+        "Convolution: at every position multiply the image by the weighting function and sum. Convolving is a form of filtering.",
+        "Edges show up as zero-crossings in the neural image; uniform areas are discarded, which is data compression.",
+        "Different information sits at different spatial scales, so the retina produces overlapping neural images at several scales."
+      ],
+      "examTraps": [
+        "Saying a receptive field is a region of the brain. It is a region of the retina (or visual field).",
+        "Thinking a centre-surround cell responds to uniform light. It responds only to a change in luminance within its field.",
+        "Confusing the steady-state (sustained) response with spontaneous discharge, which is the rate with no stimulus."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Why the Hermann grid shows blobs",
+          "body": "An on-centre cell centred on an intersection has light falling on more of its inhibitory surround (four arms) than one centred on a bar (two arms), so it responds less and signals less lightness. The blobs disappear at the intersection you look straight at, where fields are small."
+        },
+        {
+          "heading": "Negative numbers in neurons",
+          "body": "Convolution with a centre-surround kernel produces positive and negative values. Neurons can't fire negatively, so spontaneous discharge acts as zero, and the on- and off-centre systems carry the two halves: two complementary neural images."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Convolution",
+          "back": "Slide a weighting function (kernel) across the image; at each position multiply and sum to give one output value. The result is the neural image."
+        },
+        {
+          "front": "Where is an edge in the neural image?",
+          "back": "At the zero-crossing between above- and below-spontaneous responses."
+        },
+        {
+          "front": "Three jobs ganglion cells do by convolution",
+          "back": "Analyse at several spatial scales, highlight edges, and remove redundancy (compress data)."
+        },
+        {
+          "front": "Effect of widening a Gaussian weighting function",
+          "back": "More blur: fine detail is filtered out."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-rf-tyk-2",
+          "q": "A receptive field is",
+          "options": [
+            {
+              "text": "the region on the retina that, when appropriately stimulated, changes a cell's response",
+              "correct": true,
+              "feedback": "Yes, the handout's definition."
+            },
+            {
+              "text": "the region in the brain that responds to stimulation in part of the visual field",
+              "correct": false,
+              "feedback": "It belongs to one cell and is defined on the retina, not in the brain."
+            },
+            {
+              "text": "approximately circular in visual cortex",
+              "correct": false,
+              "feedback": "Ganglion cell fields are roughly circular; cortical ones are typically elongated (coming in week 5)."
+            },
+            {
+              "text": "the region of the visual field lit by electrical stimulation of the brain",
+              "correct": false,
+              "feedback": "That describes phosphenes, not receptive fields."
+            },
+            {
+              "text": "a place where visual experiments are done in the open air",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 4 test-your-knowledge question 2."
+        },
+        {
+          "id": "vse-rf-tyk-3",
+          "q": "A common explanation of the illusory blobs in the Hermann grid is that",
+          "options": [
+            {
+              "text": "centre-surround cells are stimulated differently by the bar and cross elements of the grid",
+              "correct": true,
+              "feedback": "Yes. At an intersection more of the surround is lit than on a bar, so on-centre cells respond less there."
+            },
+            {
+              "text": "on-centre cells are more active at the light intersections than off-centre cells",
+              "correct": false,
+              "feedback": "On-centre cells are less active at intersections than on bars, which is why the intersections look darker."
+            },
+            {
+              "text": "off-centre cells are more active at the light intersections than on-centre cells",
+              "correct": false,
+              "feedback": "The explanation compares cells at intersections with cells on bars, not on- with off-centre cells."
+            },
+            {
+              "text": "the centres of ganglion cells are similarly stimulated by light regions in the grid",
+              "correct": false,
+              "feedback": "The centres are similarly lit; it is the surround that differs."
+            }
+          ],
+          "explanation": "Week 4 test-your-knowledge question 3. Worked out from the lecture and handout because the answer highlighting was lost."
+        },
+        {
+          "id": "vse-rf-tyk-4",
+          "q": "Which is FALSE about the LGN?",
+          "options": [
+            {
+              "text": "The arrangement of the optic chiasm means each LGN views the ipsilateral visual field",
+              "correct": true,
+              "feedback": "This is the false one. Each LGN receives the contralateral visual field."
+            },
+            {
+              "text": "It contains opponent-process colour cells",
+              "correct": false,
+              "feedback": "True: parvo layers (red/green) and konio layers (blue/yellow)."
+            },
+            {
+              "text": "It has three layers per eye",
+              "correct": false,
+              "feedback": "True: six layers, alternating eye of origin."
+            },
+            {
+              "text": "It contains koniocellular cells between the magno and parvo layers",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It is part of the thalamus",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Week 4 test-your-knowledge question 4 (draws on the week 3 handout)."
+        },
+        {
+          "id": "vse-rf-tyk-5",
+          "q": "The process of 'looking through' a filter at an image is known as",
+          "options": [
+            {
+              "text": "convolution",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "multiplication",
+              "correct": false,
+              "feedback": "Multiplication is one step inside convolution, which also sums at every position."
+            },
+            {
+              "text": "summing",
+              "correct": false,
+              "feedback": "Summing is one step inside convolution."
+            },
+            {
+              "text": "contribution",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 4 test-your-knowledge question 5."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "An array of on-centre ganglion cells views a vertical edge, light on the left and dark on the right.",
+          "question": "Describe the response of cells across the array and explain each part.",
+          "modelAnswer": "Far left (all light) and far right (all dark): spontaneous rate, because centre and surround cancel or neither is stimulated. A cell centred exactly on the edge: also spontaneous, as centre and surround get equal light. Just left of the edge: the centre is fully lit but part of the surround is dark, so less inhibition and a response above spontaneous. Just right of the edge: the centre is dark but part of the surround is lit, so the response falls below spontaneous. The edge is marked by the zero-crossing between these, and the uniform areas carry no extra signal."
+        }
+      ],
+      "links": [],
+      "askClaude": "Explain Receptive fields and convolution to me step by step, then quiz me on it."
+    },
+    {
+      "id": "vse-v1",
+      "title": "Primary visual cortex (V1)",
+      "summary": "V1 turns the retina's centre-surround code into orientation-selective responses, organised into modules that each analyse one small patch of the visual field for orientation, eye of origin and colour.",
+      "keyPoints": [
+        "Retinotopic but distorted: about half of V1 represents the central 10° of the visual field.",
+        "V1 is the first stage with orientation selectivity. Most cortical cells have little or no background firing.",
+        "Simple cells: elongated, separate excitatory and inhibitory regions; selective for orientation, size and position (phase).",
+        "Complex cells: no separate on and off regions; orientation- and size-selective but respond anywhere in the field; non-linear; like moving or flickering stimuli.",
+        "End-stopping (once called 'hypercomplex') prefers contours that end in the field and occurs in simple and complex cells.",
+        "Orientation columns make up a hypercolumn covering all orientations at one location. Population responses, not single cells, code orientation; the tilt aftereffect is evidence.",
+        "Ocular dominance columns alternate between the eyes; cytochrome oxidase blobs at their centres hold colour-selective (double-opponent) cells. About 2,500 modules of about 100,000 cells."
+      ],
+      "examTraps": [
+        "Calling simple cells 'edge detectors': they respond to bars of either polarity too, so their response is ambiguous.",
+        "Thinking one cell's firing tells you orientation. Contrast and orientation are confounded; you need the population.",
+        "Saying blob cells are sharply orientation-tuned. They are broadly tuned or untuned."
+      ],
+      "goDeeper": [
+        {
+          "heading": "How the maps were found",
+          "body": "2-deoxyglucose is taken up by active cells, so after showing an animal a stimulus, autoradiography of cortical slices reveals which cells responded: this gave the retinotopic map (Tootell et al., 1982). Injecting a tracer into one eye gives alternating stripes: ocular dominance columns (LeVay et al., 1975). Staining for cytochrome oxidase, a metabolic enzyme, reveals the blobs (Tootell et al., 1983). Optical imaging later confirmed and extended these maps."
+        },
+        {
+          "heading": "The tilt aftereffect as a population code",
+          "body": "Stare at a tilted grating and the cells tuned to that tilt get tired. A vertical test pattern then excites a population whose peak is pushed away from the adapted orientation, so vertical looks tilted the other way. A system of single feature detectors would predict no such shift."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Simple versus complex cell",
+          "back": "Simple: separate on and off regions, sensitive to exact position. Complex: no separate regions, responds to the right orientation and size anywhere in its field."
+        },
+        {
+          "front": "What is a hypercolumn?",
+          "back": "A group of V1 orientation columns that together cover all orientations for roughly the same part of the visual field."
+        },
+        {
+          "front": "How are ocular dominance columns revealed?",
+          "back": "Inject a radioactive tracer into one eye and autoradiograph V1: alternating labelled and unlabelled stripes."
+        },
+        {
+          "front": "Blob cells",
+          "back": "Cytochrome-oxidase-rich patches in the centres of ocular dominance columns: colour-selective, low spatial frequency, poorly tuned for orientation."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-v1-tyk-1",
+          "q": "Simple cells",
+          "options": [
+            {
+              "text": "respond to stimuli at specific retinal coordinates",
+              "correct": true,
+              "feedback": "Yes. Each has a receptive field at a fixed place on the retina."
+            },
+            {
+              "text": "respond to stimuli at specific head- or body-centred coordinates",
+              "correct": false,
+              "feedback": "Their fields are retinotopic, so they move with the eye."
+            },
+            {
+              "text": "respond to stimuli anywhere in the visual field",
+              "correct": false,
+              "feedback": "Each covers only a small patch."
+            },
+            {
+              "text": "respond only if the organism is gazing in a specific direction",
+              "correct": false,
+              "feedback": "Gaze direction doesn't gate their response."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q1 (answer worked out from the lecture)."
+        },
+        {
+          "id": "vse-v1-tyk-3",
+          "q": "Complex cells",
+          "options": [
+            {
+              "text": "respond best to stimuli of the right size and orientation placed anywhere within their receptive field",
+              "correct": true,
+              "feedback": "Yes: orientation- and size-selective but indifferent to position."
+            },
+            {
+              "text": "have receptive fields organised in opponent fashion, like simple cells",
+              "correct": false,
+              "feedback": "They lack distinct on and off regions."
+            },
+            {
+              "text": "respond best to a moving line of any orientation",
+              "correct": false,
+              "feedback": "They are strongly orientation-selective."
+            },
+            {
+              "text": "are not found in V1",
+              "correct": false,
+              "feedback": "They are a main class of V1 cell."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q3."
+        },
+        {
+          "id": "vse-v1-tyk-4",
+          "q": "An orientation hypercolumn is",
+          "options": [
+            {
+              "text": "a group of V1 cells processing different contour orientations at similar positions in the visual field",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a single column of cortical cells with the same orientation preference",
+              "correct": false,
+              "feedback": "That is one orientation column; a hypercolumn is a full set."
+            },
+            {
+              "text": "a column of neurons in the parietal lobe",
+              "correct": false,
+              "feedback": "It is in V1, in the occipital lobe."
+            },
+            {
+              "text": "observable psychophysically",
+              "correct": false,
+              "feedback": "It is an anatomical and physiological structure; psychophysics gives indirect evidence for population coding."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q4."
+        },
+        {
+          "id": "vse-v1-tyk-5",
+          "q": "Hubel and Wiesel injected a radioactive amino acid into one eye and autoradiographed V1. They saw",
+          "options": [
+            {
+              "text": "alternating stripes of radioactivity and non-radioactivity",
+              "correct": true,
+              "feedback": "Yes: ocular dominance columns."
+            },
+            {
+              "text": "radioactivity in only one hemisphere",
+              "correct": false,
+              "feedback": "Each eye projects to both hemispheres."
+            },
+            {
+              "text": "bands called thick and thin stripes",
+              "correct": false,
+              "feedback": "Those are V2 cytochrome oxidase stripes."
+            },
+            {
+              "text": "no radioactivity",
+              "correct": false,
+              "feedback": "The tracer is carried through the LGN to V1."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q5."
+        },
+        {
+          "id": "vse-v1-tyk-8",
+          "q": "A simple cell's field is uniformly lit. Part of its inhibitory region is then made darker. What happens?",
+          "options": [
+            {
+              "text": "Its firing rate increases",
+              "correct": true,
+              "feedback": "Yes. Less light on an inhibitory region means less inhibition."
+            },
+            {
+              "text": "Its steady-state response decreases",
+              "correct": false,
+              "feedback": "That would follow from darkening the excitatory region."
+            },
+            {
+              "text": "It responds at its spontaneous level",
+              "correct": false,
+              "feedback": "That was the case before the change, with uniform light."
+            },
+            {
+              "text": "There is no change",
+              "correct": false,
+              "feedback": "The balance between regions has changed."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q8, using the week 4 rule for summing excitatory and inhibitory regions."
+        },
+        {
+          "id": "vse-v1-tyk-9",
+          "q": "Which is FALSE about the modular organisation of visual cortex?",
+          "options": [
+            {
+              "text": "Destroying the modules in V1 causes achromatopsia",
+              "correct": true,
+              "feedback": "False: losing V1 causes blindness in that part of the field, not selective loss of colour."
+            },
+            {
+              "text": "There are enough modules for a 50 × 50 patchwork",
+              "correct": false,
+              "feedback": "True: about 2,500 modules."
+            },
+            {
+              "text": "Each module has a pair of ocular dominance columns",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Cells between blobs are selective for size and orientation",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q9."
+        },
+        {
+          "id": "vse-v1-tyk-12",
+          "q": "Which is FALSE about blob cells?",
+          "options": [
+            {
+              "text": "Most of them are narrowly tuned for orientation",
+              "correct": true,
+              "feedback": "False: orientation tuning in blobs is broad or absent."
+            },
+            {
+              "text": "They stain for cytochrome oxidase",
+              "correct": false,
+              "feedback": "True: that's how blobs are seen."
+            },
+            {
+              "text": "They are found in the centres of ocular dominance columns",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Most of them are wavelength-selective",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q12."
+        },
+        {
+          "id": "vse-v1-tyk-14",
+          "q": "If a cortical cell responds to a vertical luminance contour",
+          "options": [
+            {
+              "text": "some aspect of the stimulus is being represented in the visual system",
+              "correct": true,
+              "feedback": "Yes. That's all a single response tells us."
+            },
+            {
+              "text": "the organism will see a vertical contour",
+              "correct": false,
+              "feedback": "One cell's response doesn't guarantee perception, and it is ambiguous on its own."
+            },
+            {
+              "text": "the cell must be a simple cell",
+              "correct": false,
+              "feedback": "Complex cells respond to contours too."
+            },
+            {
+              "text": "the cell must have a centre-surround receptive field",
+              "correct": false,
+              "feedback": "Most V1 cells have elongated, orientation-selective fields."
+            }
+          ],
+          "explanation": "Week 5 test-your-knowledge Q14."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Primary visual cortex (V1) to me step by step, then quiz me on it."
+    },
+    {
+      "id": "vse-ventral-stream",
+      "title": "Beyond V1: the ventral ('what') stream",
+      "summary": "After V1, vision splits into specialised areas and two broad streams. The ventral stream (V1 to V2 to V4 to IT) builds up the representation of form, colour and objects, and damage to it causes specific agnosias.",
+      "keyPoints": [
+        "Over 30 visual areas with over 300 connections. Moving up, receptive fields grow, maps get cruder and selectivity becomes more complex; there is feedback throughout.",
+        "Two streams (Ungerleider and Mishkin): ventral 'what' to the temporal lobe (IT), dorsal 'where' to the parietal lobe (e.g. area 7a).",
+        "Evidence: retrograde tracers in parietal and temporal cortex label almost separate cells earlier on (Baizer et al., 1991); parietal damage gives Balint's syndrome, temporal damage gives agnosia.",
+        "V2: cytochrome oxidase thick stripes (stereo), thin stripes (colour) and interstripes (form). Many V2 cells respond to illusory contours; V1 cells don't.",
+        "V4: crude map, colour columns (globs), some colour constancy, and cells tuned to curves. Damage causes achromatopsia.",
+        "IT: 'elaborate' cells for combinations of features, and face-selective cells; a face is probably coded by about 100 cells together."
+      ],
+      "examTraps": [
+        "Calling face cells 'grandmother cells'. Each responds to many faces; identity is in the population.",
+        "Taking prosopagnosia as proof of a face area without a fair within-class comparison (e.g. a farmer recognising individual cows).",
+        "Saying all V4 cells are colour blind, or that V4 does only colour."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Seven clinical conditions",
+          "body": "Cortical blindness (V1 damage), blindsight (responding to things not consciously seen), optic ataxia (trouble reaching), ocular apraxia (trouble directing the eyes), simultanagnosia (seeing only one object at a time); the last three together make Balint's syndrome. Visual agnosia (failing to recognise objects) and prosopagnosia (faces) come from temporal damage; achromatopsia (colour loss with form preserved) from V4 damage."
+        },
+        {
+          "heading": "Illusory contours in V2",
+          "body": "Peterhans and von der Heydt drifted Kanizsa-type figures across V2 receptive fields. Cells fired to real edges and to illusory edges, but not when the 'pac-men' gaps were closed or only half the figure was shown. Because the response tracks the perception, the contour may be built bottom-up in V2 rather than only inferred by higher areas."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Balint's syndrome",
+          "back": "Optic ataxia, ocular apraxia and simultanagnosia, after parietal (dorsal stream) damage."
+        },
+        {
+          "front": "V2 cytochrome oxidase stripes",
+          "back": "Thin stripes: colour (from V1 blobs). Thick stripes: stereo. Interstripes: form (from V1 interblobs)."
+        },
+        {
+          "front": "Achromatopsia",
+          "back": "Complete loss of colour vision with form preserved: V4 damage."
+        },
+        {
+          "front": "Elaborate cells",
+          "back": "IT cells that respond to particular combinations of complex spatial features (Tanaka, 1993)."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-vent-tyk-1",
+          "q": "Being unable to recognise the faces of your own family is called",
+          "options": [
+            {
+              "text": "prosopagnosia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Balint's syndrome",
+              "correct": false,
+              "feedback": "That's the parietal triad of optic ataxia, ocular apraxia and simultanagnosia."
+            },
+            {
+              "text": "visage agnosia",
+              "correct": false,
+              "feedback": "Not a real term."
+            },
+            {
+              "text": "akinetopsia",
+              "correct": false,
+              "feedback": "That's motion blindness (dorsal stream)."
+            }
+          ],
+          "explanation": "Week 6 test-your-knowledge Q1."
+        },
+        {
+          "id": "vse-vent-tyk-2",
+          "q": "Responding to objects in the visual field that you say you can't see is called",
+          "options": [
+            {
+              "text": "blindsight",
+              "correct": true,
+              "feedback": "Yes: seen after V1 damage, probably via routes that bypass V1."
+            },
+            {
+              "text": "visual agnosia",
+              "correct": false,
+              "feedback": "In agnosia the object is seen but not recognised."
+            },
+            {
+              "text": "Balint's syndrome",
+              "correct": false,
+              "feedback": "A parietal disorder of reaching, gaze and attention."
+            },
+            {
+              "text": "unsighted perception",
+              "correct": false,
+              "feedback": "Not the technical term."
+            }
+          ],
+          "explanation": "Week 6 test-your-knowledge Q2."
+        },
+        {
+          "id": "vse-vent-tyk-3",
+          "q": "Moving up the cortical hierarchy, which is FALSE about visual neurons in general?",
+          "options": [
+            {
+              "text": "You can predict their responses to complex stimuli from their responses to small spots of light",
+              "correct": true,
+              "feedback": "False: higher cells are non-linear and need complex stimuli to characterise."
+            },
+            {
+              "text": "Their retinotopic maps become less precise",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Their receptive fields become larger",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Their stimulus selectivities become harder to characterise",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Week 6 test-your-knowledge Q3."
+        },
+        {
+          "id": "vse-vent-tyk-4",
+          "q": "Which is FALSE?",
+          "options": [
+            {
+              "text": "All cells in V4 are colour blind",
+              "correct": true,
+              "feedback": "False: V4 has colour columns and its damage causes achromatopsia."
+            },
+            {
+              "text": "Parts of V1 a few mm apart encode different retinal regions",
+              "correct": false,
+              "feedback": "True: V1 is retinotopic."
+            },
+            {
+              "text": "Parts of IT a few mm apart encode different kinds of image feature",
+              "correct": false,
+              "feedback": "True: IT has columns for different features."
+            },
+            {
+              "text": "Neighbouring V1 columns prefer different orientations",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Week 6 test-your-knowledge Q4."
+        },
+        {
+          "id": "vse-vent-tyk-5",
+          "q": "Which is TRUE?",
+          "options": [
+            {
+              "text": "Many cells in V2 respond to illusory contours",
+              "correct": true,
+              "feedback": "Yes (Peterhans and von der Heydt, 1991)."
+            },
+            {
+              "text": "End-stopped cells only respond to contours that extend beyond their receptive field",
+              "correct": false,
+              "feedback": "The reverse: they prefer contours that end inside the field."
+            },
+            {
+              "text": "Simple cells respond to any visual stimulus",
+              "correct": false,
+              "feedback": "They are highly selective."
+            },
+            {
+              "text": "Primate retinal ganglion cells are direction-selective",
+              "correct": false,
+              "feedback": "Direction selectivity appears in cortex."
+            },
+            {
+              "text": "M-cells are specialised for colour",
+              "correct": false,
+              "feedback": "M-cells are not wavelength-selective; P-cells are."
+            }
+          ],
+          "explanation": "Week 6 test-your-knowledge Q5."
+        },
+        {
+          "id": "vse-vent-tyk-7",
+          "q": "Elaborate cells respond to",
+          "options": [
+            {
+              "text": "conjunctions of complex spatial patterns",
+              "correct": true,
+              "feedback": "Yes: IT cells described by Tanaka."
+            },
+            {
+              "text": "oriented contours anywhere in their receptive field",
+              "correct": false,
+              "feedback": "That describes complex cells in V1."
+            },
+            {
+              "text": "complex motion such as expansion and rotation",
+              "correct": false,
+              "feedback": "That's MST, in the dorsal stream."
+            },
+            {
+              "text": "faces, tuned to the head's gaze angle",
+              "correct": false,
+              "feedback": "Face cells are a different IT population."
+            }
+          ],
+          "explanation": "Week 6 test-your-knowledge Q7."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Beyond V1: the ventral ('what') stream to me step by step, then quiz me on it."
+    },
+    {
+      "id": "vse-dorsal-stream",
+      "title": "Beyond V1: the dorsal ('where'/'action') stream",
+      "summary": "The parietal route from V1 through MT and MST to area 7a analyses motion and space, and may be better thought of as guiding action than locating objects.",
+      "keyPoints": [
+        "MT (V5): receptive fields of 5–10°, columns for direction of motion, sensitivity to relative motion, depth from motion and disparity.",
+        "V1 codes the separate components of a plaid; MT 'pattern cells' code the overall motion we actually perceive.",
+        "Akinetopsia (motion blindness) follows damage to MT on both sides.",
+        "MST: fields of 30–50°, tuned to expansion, contraction, rotation and spirals, as in optic flow during self-motion.",
+        "Coordinate frames: retinocentric, egocentric and allocentric. 7a has gaze-locked cells; PO has 'real position' cells whose fields aren't fixed on the retina.",
+        "Zeki: four pathways (motion, colour, form with colour, form without colour), with cross-talk; V3 doesn't fit what/where.",
+        "Milner and Goodale: ventral = perception, dorsal = action. DF (ventral damage) could post a card through a slot but couldn't report its orientation; optic ataxia (dorsal damage) is the reverse."
+      ],
+      "examTraps": [
+        "Saying the dorsal stream simply handles moving objects and the ventral stream stationary ones.",
+        "Giving DF's damage as dorsal: it was ventral (visual form agnosia).",
+        "Treating blindsight as evidence that V1 is where seeing happens: it shows V1 is needed for awareness, not that awareness happens there."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Population coding capacity",
+          "body": "Four cells, each with five distinguishable response levels, can in principle signal 5 × 5 × 5 × 5 = 625 different combinations. That is why about 100 face cells could code a very large number of faces."
+        },
+        {
+          "heading": "Perception versus action in healthy people",
+          "body": "Aglioti et al. (1995) reported that grip aperture wasn't fooled by the Titchener (Ebbinghaus) size illusion even though perception was, which fits the action/perception split. Franz et al. (2000) couldn't replicate it, and Haffenden and Goodale (2000) disputed their stimuli. The question is still open."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Akinetopsia",
+          "back": "Motion blindness: seeing the world as a series of snapshots. Needs damage to MT on both sides."
+        },
+        {
+          "front": "Optic flow",
+          "back": "The pattern of motion on the retina as we move (expansion moving forward, rotation turning the head); MST cells are tuned to these patterns."
+        },
+        {
+          "front": "Egocentric versus allocentric",
+          "back": "Egocentric: position relative to yourself. Allocentric: position relative to other objects or the room."
+        },
+        {
+          "front": "Zeki's motion pathway",
+          "back": "M cells, then V1 layer 4B (and V2 thick stripes), then MT."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-dors-tyk-1",
+          "q": "Which is true?",
+          "options": [
+            {
+              "text": "V1 is also known as area 17",
+              "correct": true,
+              "feedback": "Yes: Brodmann's area 17, striate cortex."
+            },
+            {
+              "text": "Area 18 is striate cortex",
+              "correct": false,
+              "feedback": "Area 18 is V2; striate cortex is V1."
+            },
+            {
+              "text": "V6 is also known as MT",
+              "correct": false,
+              "feedback": "MT is V5; V6 is PO."
+            },
+            {
+              "text": "IT is also known as V7",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q1."
+        },
+        {
+          "id": "vse-dors-tyk-2",
+          "q": "Which is true?",
+          "options": [
+            {
+              "text": "Part of V5 is thought to be specialised for motion",
+              "correct": true,
+              "feedback": "Yes: V5 is MT."
+            },
+            {
+              "text": "Part of IT is specialised for knowing where objects are",
+              "correct": false,
+              "feedback": "IT is in the 'what' stream."
+            },
+            {
+              "text": "Part of MST is specialised for colour",
+              "correct": false,
+              "feedback": "MST handles complex motion."
+            },
+            {
+              "text": "Part of V4 is specialised for faces",
+              "correct": false,
+              "feedback": "Face cells are in IT."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q2."
+        },
+        {
+          "id": "vse-dors-tyk-3",
+          "q": "Real position cells",
+          "options": [
+            {
+              "text": "have receptive fields that move about the retina",
+              "correct": true,
+              "feedback": "Yes: they code a position in space, so the retinal location changes with gaze."
+            },
+            {
+              "text": "respond to stimuli at specific retinal coordinates",
+              "correct": false,
+              "feedback": "That describes V1 cells."
+            },
+            {
+              "text": "respond only if the animal looks in a specific direction",
+              "correct": false,
+              "feedback": "That describes gaze-locked cells in 7a."
+            },
+            {
+              "text": "respond to stimuli outside the visual field",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q3."
+        },
+        {
+          "id": "vse-dors-tyk-4",
+          "q": "Which of these stain for cytochrome oxidase?",
+          "options": [
+            {
+              "text": "Thin stripes in V2",
+              "correct": true,
+              "feedback": "Yes, as do thick stripes and V1 blobs."
+            },
+            {
+              "text": "Regions receiving input mainly from one eye",
+              "correct": false,
+              "feedback": "Ocular dominance columns are shown by tracers, not CO."
+            },
+            {
+              "text": "The parietal lobe",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Regions called broad bands",
+              "correct": false,
+              "feedback": "Not a real term."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q4."
+        },
+        {
+          "id": "vse-dors-tyk-7",
+          "q": "Milner and Goodale proposed which dichotomy?",
+          "options": [
+            {
+              "text": "Action/perception",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "What/where",
+              "correct": false,
+              "feedback": "That was Ungerleider and Mishkin."
+            },
+            {
+              "text": "Motion/pattern",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Here/there",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q7."
+        },
+        {
+          "id": "vse-dors-tyk-8",
+          "q": "Which is true of the two-pathway model?",
+          "options": [
+            {
+              "text": "The dorsal stream is involved in rapid decisions that don't necessarily reach conscious perception",
+              "correct": true,
+              "feedback": "Yes: the action stream guides behaviour quickly."
+            },
+            {
+              "text": "The ventral stream handles motion perception",
+              "correct": false,
+              "feedback": "Motion is dorsal (MT, MST)."
+            },
+            {
+              "text": "The ventral stream directs visually guided actions",
+              "correct": false,
+              "feedback": "That's dorsal in Milner and Goodale's view."
+            },
+            {
+              "text": "The ventral stream deals with stationary objects and the dorsal with moving ones",
+              "correct": false,
+              "feedback": "Too simple: the split is about what the output is for."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q8."
+        },
+        {
+          "id": "vse-dors-tyk-11",
+          "q": "Patient DF (Milner and Goodale): where was the damage and what happened?",
+          "options": [
+            {
+              "text": "Ventral stream; DF couldn't judge orientation perceptually but acted as if she could",
+              "correct": true,
+              "feedback": "Yes: she posted a card through the slot but couldn't report its angle."
+            },
+            {
+              "text": "Ventral stream; DF could judge orientation but couldn't act on it",
+              "correct": false,
+              "feedback": "The reverse."
+            },
+            {
+              "text": "Parietal stream; DF could judge orientation but couldn't act on it",
+              "correct": false,
+              "feedback": "That describes optic ataxia, not DF."
+            },
+            {
+              "text": "Parietal stream; DF couldn't judge orientation but acted as if she could",
+              "correct": false,
+              "feedback": "DF's damage was ventral."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q11."
+        },
+        {
+          "id": "vse-dors-tyk-12",
+          "q": "Four cells, each tuned to a facial feature with five distinct response levels. In principle, how many faces could they code?",
+          "options": [
+            {
+              "text": "625",
+              "correct": true,
+              "feedback": "Yes: 5⁴."
+            },
+            {
+              "text": "20",
+              "correct": false,
+              "feedback": "That's 4 × 5; combinations multiply."
+            },
+            {
+              "text": "1024",
+              "correct": false,
+              "feedback": "That's 4⁵; it should be 5⁴."
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "That assumes one face per cell, a grandmother-cell code."
+            }
+          ],
+          "explanation": "Week 8 test-your-knowledge Q12."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Beyond V1: the dorsal ('where'/'action') stream to me step by step, then quiz me on it."
+    },
+    {
+      "id": "vse-perceptual-grouping",
+      "title": "Perceptual grouping and visual search",
+      "summary": "Mid-level vision links local features into surfaces and objects. The Gestalt rules describe how elements group, figure-ground segregation separates objects from backgrounds, and visual search experiments show which features the brain codes in parallel.",
+      "keyPoints": [
+        "Gestalt rules: proximity, similarity, good continuation, closure, symmetry, common fate (elements moving together group).",
+        "Prägnanz ('good figure'): we see the simplest structure possible, but simplicity is hard to define or compute.",
+        "Rules compete with no fixed order: proximity can beat similarity or lose to it.",
+        "Figure-ground: border-ownership cells in V2 help decide which side of an edge is the object.",
+        "Contour linking: smooth chains of aligned elements are easy to see, which suggests an 'association field' in V1/V2.",
+        "Feature search is parallel (pop-out; reaction time flat as distractors increase); conjunction search is serial (reaction time rises).",
+        "Enns and Rensink (1990): search can be parallel for 3D orientation, so grouping uses depth and Marr's strictly feed-forward stages can't be right."
+      ],
+      "examTraps": [
+        "Saying the Gestalt rules explain grouping: they describe it.",
+        "Assuming pop-out only reflects V1 features."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Running a visual search experiment",
+          "body": "Measure reaction time to find a target among different numbers of distractors. A flat line means parallel search (the target pops out); a line rising with each extra distractor means serial search, item by item."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Common fate",
+          "back": "Elements that move together are grouped together."
+        },
+        {
+          "front": "Prägnanz",
+          "back": "The 'law of good figure': every pattern is seen as the simplest structure possible."
+        },
+        {
+          "front": "Conjunction search",
+          "back": "Finding a target defined by two features (e.g. green and horizontal) among distractors sharing one; reaction time rises with the number of distractors."
+        },
+        {
+          "front": "Marr's three stages",
+          "back": "2D image features, then surfaces, then 3D objects, in a strictly feed-forward sequence."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-grp-tyk-1",
+          "q": "A shape only becomes visible when it moves relative to its background. This is grouping by",
+          "options": [
+            {
+              "text": "common fate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "proximity",
+              "correct": false,
+              "feedback": "That's about closeness."
+            },
+            {
+              "text": "closure",
+              "correct": false,
+              "feedback": "That's about completing enclosed shapes."
+            },
+            {
+              "text": "similarity",
+              "correct": false,
+              "feedback": "That's about shared features such as colour."
+            },
+            {
+              "text": "good continuation",
+              "correct": false,
+              "feedback": "That's about smooth paths."
+            }
+          ],
+          "explanation": "Week 11 test-your-knowledge Q1."
+        },
+        {
+          "id": "vse-grp-tyk-2",
+          "q": "Border ownership",
+          "options": [
+            {
+              "text": "contributes to figure-ground segregation",
+              "correct": true,
+              "feedback": "Yes: it signals which side of an edge belongs to the figure."
+            },
+            {
+              "text": "controls grouping by good continuation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "is another name for grouping by proximity",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "is a natural consequence of texture segmentation",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Week 11 test-your-knowledge Q2."
+        },
+        {
+          "id": "vse-grp-tyk-3",
+          "q": "In a search where the target is a conjunction of two features and each distractor has one of them, you'd expect",
+          "options": [
+            {
+              "text": "the task to take longer as the number of distractors increases",
+              "correct": true,
+              "feedback": "Yes: serial search."
+            },
+            {
+              "text": "reaction time to stay the same whatever the number of distractors",
+              "correct": false,
+              "feedback": "That's parallel feature search."
+            },
+            {
+              "text": "pop-out to occur",
+              "correct": false,
+              "feedback": "Conjunctions don't usually pop out."
+            },
+            {
+              "text": "conjunction detectors in V1 to draw attention to the target",
+              "correct": false,
+              "feedback": "No such detectors."
+            }
+          ],
+          "explanation": "Week 11 test-your-knowledge Q3."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Perceptual grouping and visual search to me step by step, then quiz me on it."
+    },
+    {
+      "id": "vse-lightness",
+      "title": "Lightness perception",
+      "summary": "We perceive the lightness of surfaces (reflectance), not the amount of light reaching the eye. The visual system recovers reflectance from luminance ratios at edges, anchoring, and its interpretation of shadows and 3D layout.",
+      "keyPoints": [
+        "L = I × r (luminance = illuminance × reflectance). The retina receives only L.",
+        "Lightness refers to surfaces; brightness refers to light. Lightness constancy: surfaces look the same under different illumination.",
+        "The ratio of neighbouring luminances equals the ratio of their reflectances, whatever the illumination.",
+        "Anchoring: assume the lightest region is white to turn relative values into absolute lightness.",
+        "Ganglion cells respond strongly to sharp luminance changes and weakly to gradual ones, which explains the Craik-O'Brien-Cornsweet illusion and lightness contrast.",
+        "Fuzzy shadow edges (penumbras) aren't treated as reflectance changes; perceived 3D layout can change perceived lightness (Adelson) and the reverse (crater/volcano)."
+      ],
+      "examTraps": [
+        "Calling lightness a physical quantity: it's psychological. Luminance, illuminance and reflectance are physical.",
+        "Writing L = r ÷ I instead of L = I × r."
+      ],
+      "flashcards": [
+        {
+          "front": "L = ?",
+          "back": "I × r: luminance = illuminance × reflectance."
+        },
+        {
+          "front": "Lightness versus brightness",
+          "back": "Lightness: perceived reflectance of a surface. Brightness: perceived intensity of light."
+        },
+        {
+          "front": "Anchoring",
+          "back": "Assuming the lightest region in view is white, so other greys can be scaled from it."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "vse-light-tyk-1",
+          "q": "With L = luminance, r = reflectance and I = illuminance, which is correct?",
+          "options": [
+            {
+              "text": "r = L ÷ I",
+              "correct": true,
+              "feedback": "Yes: rearranging L = I × r."
+            },
+            {
+              "text": "L = r ÷ I",
+              "correct": false,
+              "feedback": "L = I × r."
+            },
+            {
+              "text": "I = r × B",
+              "correct": false,
+              "feedback": "Brightness is psychological."
+            },
+            {
+              "text": "g = I × r",
+              "correct": false,
+              "feedback": "That's luminance, not lightness."
+            }
+          ],
+          "explanation": "Week 12 test-your-knowledge Q1."
+        },
+        {
+          "id": "vse-light-tyk-2",
+          "q": "Which is NOT a physical property of the world?",
+          "options": [
+            {
+              "text": "Lightness",
+              "correct": true,
+              "feedback": "Yes: it's the perception of reflectance."
+            },
+            {
+              "text": "Luminance",
+              "correct": false,
+              "feedback": "Physical."
+            },
+            {
+              "text": "The wavelength of light",
+              "correct": false,
+              "feedback": "Physical."
+            },
+            {
+              "text": "Albedo",
+              "correct": false,
+              "feedback": "Physical (reflectance)."
+            }
+          ],
+          "explanation": "Week 12 test-your-knowledge Q2."
+        },
+        {
+          "id": "vse-light-tyk-3",
+          "q": "Which IS a physical property of the world?",
+          "options": [
+            {
+              "text": "Illuminance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Brightness",
+              "correct": false,
+              "feedback": "Psychological."
+            },
+            {
+              "text": "Whether something looks near or far",
+              "correct": false,
+              "feedback": "Perceptual."
+            },
+            {
+              "text": "Whether something is on the left or right",
+              "correct": false,
+              "feedback": "Depends on the observer's viewpoint."
+            }
+          ],
+          "explanation": "Week 12 test-your-knowledge Q3."
+        }
+      ],
+      "goDeeper": [],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Lightness perception to me step by step, then quiz me on it."
     }
   ]
 }

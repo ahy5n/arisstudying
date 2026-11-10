@@ -23,7 +23,13 @@
       "diagram": {
         "id": "sight-loss-causes",
         "description": "Horizontal bar chart (illustrative, not exact) of main causes of sight loss in the UK: uncorrected refractive error, cataract, AMD, glaucoma, diabetic eye disease, other. Bars for refractive error and cataract are labelled 'largely correctable'.",
-        "labels": ["Uncorrected refractive error", "Cataract", "AMD", "Glaucoma", "Diabetic eye disease"]
+        "labels": [
+          "Uncorrected refractive error",
+          "Cataract",
+          "AMD",
+          "Glaucoma",
+          "Diabetic eye disease"
+        ]
       },
       "goDeeper": [
         {
@@ -36,20 +42,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Approximate number living with sight loss in the UK", "back": "More than 2 million (RNIB estimate)." },
-        { "front": "Leading cause of certification in older adults", "back": "Age-related macular degeneration (AMD)." },
-        { "front": "Who completes a CVI?", "back": "A consultant ophthalmologist." },
-        { "front": "Two major correctable causes of sight loss", "back": "Uncorrected refractive error and cataract." }
+        {
+          "front": "Approximate number living with sight loss in the UK",
+          "back": "More than 2 million (RNIB estimate)."
+        },
+        {
+          "front": "Leading cause of certification in older adults",
+          "back": "Age-related macular degeneration (AMD)."
+        },
+        {
+          "front": "Who completes a CVI?",
+          "back": "A consultant ophthalmologist."
+        },
+        {
+          "front": "Two major correctable causes of sight loss",
+          "back": "Uncorrected refractive error and cataract."
+        }
       ],
       "mcq": [
         {
           "id": "phe-sl-1",
           "q": "Which cause of sight loss is most easily corrected?",
           "options": [
-            { "text": "Uncorrected refractive error", "correct": true, "feedback": "Yes — glasses or contact lenses." },
-            { "text": "Advanced dry AMD", "correct": false, "feedback": "There's currently no cure for advanced dry AMD." },
-            { "text": "End-stage glaucoma", "correct": false, "feedback": "Lost vision from glaucoma can't be restored." },
-            { "text": "Retinitis pigmentosa", "correct": false, "feedback": "An inherited retinal disease, not easily corrected." }
+            {
+              "text": "Uncorrected refractive error",
+              "correct": true,
+              "feedback": "Yes — glasses or contact lenses."
+            },
+            {
+              "text": "Advanced dry AMD",
+              "correct": false,
+              "feedback": "There's currently no cure for advanced dry AMD."
+            },
+            {
+              "text": "End-stage glaucoma",
+              "correct": false,
+              "feedback": "Lost vision from glaucoma can't be restored."
+            },
+            {
+              "text": "Retinitis pigmentosa",
+              "correct": false,
+              "feedback": "An inherited retinal disease, not easily corrected."
+            }
           ],
           "explanation": "Uncorrected refractive error is a leading and easily corrected cause, which is why access to eye tests matters.",
           "link": "phe-sight-loss-uk#avoidable-sight-loss"
@@ -57,8 +91,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "RNIB", "url": "https://www.rnib.org.uk/" },
-        { "label": "Royal College of Ophthalmologists", "url": "https://www.rcophth.ac.uk/" }
+        {
+          "label": "RNIB",
+          "url": "https://www.rnib.org.uk/"
+        },
+        {
+          "label": "Royal College of Ophthalmologists",
+          "url": "https://www.rcophth.ac.uk/"
+        }
       ],
       "askClaude": "Summarise the main causes of sight loss in the UK and which are avoidable, then quiz me — and remind me to check the latest figures in my slides."
     },
@@ -83,7 +123,14 @@
       "diagram": {
         "id": "barriers-to-care",
         "description": "Patient on one side and an optometry practice on the other, with barriers in between drawn as hurdles: cost worries, awareness, mobility/transport, language, fear, disability access. Bridges over each hurdle: free NHS tests, health promotion, domiciliary care, interpreters, reasonable adjustments.",
-        "labels": ["Cost worries", "Awareness", "Mobility", "Language", "Reasonable adjustments", "Domiciliary care"]
+        "labels": [
+          "Cost worries",
+          "Awareness",
+          "Mobility",
+          "Language",
+          "Reasonable adjustments",
+          "Domiciliary care"
+        ]
       },
       "goDeeper": [
         {
@@ -96,20 +143,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Inverse care law", "back": "Those who most need care are least likely to receive it." },
-        { "front": "Who gets free NHS sight tests in England? (examples)", "back": "Under 16s, 16–18s in full-time education, over 60s, people with diabetes or glaucoma, 40+ with a first-degree relative with glaucoma, certain benefits." },
-        { "front": "Domiciliary eye care", "back": "Eye tests at home for people who can't get to a practice unaccompanied." },
-        { "front": "Law requiring reasonable adjustments", "back": "Equality Act 2010." }
+        {
+          "front": "Inverse care law",
+          "back": "Those who most need care are least likely to receive it."
+        },
+        {
+          "front": "Who gets free NHS sight tests in England? (examples)",
+          "back": "Under 16s, 16–18s in full-time education, over 60s, people with diabetes or glaucoma, 40+ with a first-degree relative with glaucoma, certain benefits."
+        },
+        {
+          "front": "Domiciliary eye care",
+          "back": "Eye tests at home for people who can't get to a practice unaccompanied."
+        },
+        {
+          "front": "Law requiring reasonable adjustments",
+          "back": "Equality Act 2010."
+        }
       ],
       "mcq": [
         {
           "id": "phe-ineq-1",
           "q": "A 45-year-old whose mother has glaucoma says she can't afford an eye test. What should you tell her?",
           "options": [
-            { "text": "She's likely eligible for a free NHS sight test in England", "correct": true, "feedback": "Yes — 40+ with a first-degree relative with glaucoma." },
-            { "text": "Eye tests are only free for children", "correct": false, "feedback": "Many adults are eligible too." },
-            { "text": "She doesn't need tests until 60", "correct": false, "feedback": "Her family history increases her risk now." },
-            { "text": "Glaucoma isn't hereditary", "correct": false, "feedback": "Family history is a major risk factor." }
+            {
+              "text": "She's likely eligible for a free NHS sight test in England",
+              "correct": true,
+              "feedback": "Yes — 40+ with a first-degree relative with glaucoma."
+            },
+            {
+              "text": "Eye tests are only free for children",
+              "correct": false,
+              "feedback": "Many adults are eligible too."
+            },
+            {
+              "text": "She doesn't need tests until 60",
+              "correct": false,
+              "feedback": "Her family history increases her risk now."
+            },
+            {
+              "text": "Glaucoma isn't hereditary",
+              "correct": false,
+              "feedback": "Family history is a major risk factor."
+            }
           ],
           "explanation": "In England, people aged 40+ with a parent, sibling or child with glaucoma qualify for free NHS sight tests.",
           "link": "phe-inequalities#making-every-contact-count"
@@ -117,8 +192,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "NHS: free NHS eye tests and optical vouchers", "url": "https://www.nhs.uk/nhs-services/opticians/free-nhs-eye-tests-and-optical-vouchers/" },
-        { "label": "SeeAbility", "url": "https://www.seeability.org/" }
+        {
+          "label": "NHS: free NHS eye tests and optical vouchers",
+          "url": "https://www.nhs.uk/nhs-services/opticians/free-nhs-eye-tests-and-optical-vouchers/"
+        },
+        {
+          "label": "SeeAbility",
+          "url": "https://www.seeability.org/"
+        }
       ],
       "askClaude": "Help me think through barriers to eye care for 4 different groups (e.g. older people in care homes, people with learning disabilities) and what an optometrist could do about each."
     },
@@ -143,7 +224,14 @@
       "diagram": {
         "id": "stages-of-change",
         "description": "Circular diagram of the stages of change: precontemplation → contemplation → preparation → action → maintenance, with a side arrow for relapse returning to an earlier stage.",
-        "labels": ["Precontemplation", "Contemplation", "Preparation", "Action", "Maintenance", "Relapse"]
+        "labels": [
+          "Precontemplation",
+          "Contemplation",
+          "Preparation",
+          "Action",
+          "Maintenance",
+          "Relapse"
+        ]
       },
       "goDeeper": [
         {
@@ -156,20 +244,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Very Brief Advice (smoking)", "back": "Ask, Advise, Act." },
-        { "front": "Stages of change", "back": "Precontemplation, contemplation, preparation, action, maintenance (and relapse)." },
-        { "front": "COM-B", "back": "Capability, Opportunity, Motivation → Behaviour." },
-        { "front": "Main modifiable risk factor for AMD", "back": "Smoking." }
+        {
+          "front": "Very Brief Advice (smoking)",
+          "back": "Ask, Advise, Act."
+        },
+        {
+          "front": "Stages of change",
+          "back": "Precontemplation, contemplation, preparation, action, maintenance (and relapse)."
+        },
+        {
+          "front": "COM-B",
+          "back": "Capability, Opportunity, Motivation → Behaviour."
+        },
+        {
+          "front": "Main modifiable risk factor for AMD",
+          "back": "Smoking."
+        }
       ],
       "mcq": [
         {
           "id": "phe-hp-1",
           "q": "A smoker with early AMD says she isn't interested in stopping. Best approach?",
           "options": [
-            { "text": "Give brief, non-judgemental advice and offer support if she changes her mind", "correct": true, "feedback": "Yes — respect where she is (precontemplation), plant the seed." },
-            { "text": "Refuse to continue the eye test", "correct": false, "feedback": "Inappropriate." },
-            { "text": "Lecture her about all the risks at length", "correct": false, "feedback": "Unlikely to help at this stage." },
-            { "text": "Say nothing about smoking", "correct": false, "feedback": "You'd miss an important opportunity." }
+            {
+              "text": "Give brief, non-judgemental advice and offer support if she changes her mind",
+              "correct": true,
+              "feedback": "Yes — respect where she is (precontemplation), plant the seed."
+            },
+            {
+              "text": "Refuse to continue the eye test",
+              "correct": false,
+              "feedback": "Inappropriate."
+            },
+            {
+              "text": "Lecture her about all the risks at length",
+              "correct": false,
+              "feedback": "Unlikely to help at this stage."
+            },
+            {
+              "text": "Say nothing about smoking",
+              "correct": false,
+              "feedback": "You'd miss an important opportunity."
+            }
           ],
           "explanation": "Very Brief Advice works even with people not ready to quit; it raises awareness and opens the door later.",
           "link": "phe-health-promotion#matching-advice-to-readiness"
@@ -177,8 +293,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "NCSCT: Very Brief Advice", "url": "https://www.ncsct.co.uk/" },
-        { "label": "RNIB", "url": "https://www.rnib.org.uk/" }
+        {
+          "label": "NCSCT: Very Brief Advice",
+          "url": "https://www.ncsct.co.uk/"
+        },
+        {
+          "label": "RNIB",
+          "url": "https://www.rnib.org.uk/"
+        }
       ],
       "askClaude": "Role-play 3 patients at different stages of change (smoking or diabetes screening). Let me give brief advice and tell me how well I matched their readiness."
     },
@@ -197,9 +319,198 @@
       "mcq": [],
       "cases": [],
       "links": [
-        { "label": "Aston Library", "url": "https://www.aston.ac.uk/library" }
+        {
+          "label": "Aston Library",
+          "url": "https://www.aston.ac.uk/library"
+        }
       ],
       "askClaude": "I'm working on a public health and eye health task for my optometry course. Ask me what the brief is, then help me plan it without writing it for me."
+    },
+    {
+      "id": "phe-infection-control",
+      "title": "Infection control in optometric practice",
+      "summary": "Keeping patients and staff from picking up infections in practice: the legal duties, how infection spreads, hand hygiene, and decontaminating equipment and trial lenses. Assessed by a pass/fail Blackboard quiz in week 11.",
+      "keyPoints": [
+        "Duties: the GOS contract (infection control and decontamination), the Management of Health and Safety at Work Regulations 1999 (employer risk assessment), and the Opticians Act duty of care. GOC outcomes 5.5 and 4.8.",
+        "Chain of infection: reservoir, portal of exit, mode of transmission, portal of entry, susceptible host. Break any link; hands are the main mode.",
+        "Handwashing is the single most effective step: at least 15–20 seconds, six-stage technique, then dry with paper towels.",
+        "Alcohol rubs (at least 70% for MRSA) are for clean hands between patients and on domiciliary visits; not for visibly dirty hands, C. difficile or norovirus.",
+        "Cleaning removes visible dirt; disinfection reduces microbes; sterilisation destroys them all.",
+        "Reused trial lenses: don't let them dry, clean, 10,000 ppm sodium hypochlorite for an hour, rinse, then routine disinfection; keep records and inform the patient.",
+        "Universal precautions: the routine should already be good enough for patients known to have HIV, hepatitis or CJD."
+      ],
+      "examTraps": [
+        "Saying alcohol rub kills C. difficile or norovirus. It doesn't.",
+        "Wiping a tonometer head with alcohol alone: it doesn't remove prions and may fix them to the surface.",
+        "Cleaning a Volk lens with alcohol: it dissolves the cement."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Drug storage",
+          "body": "Keep the drug fridge at 2–8°C with no food or drink, check and reset the max/min thermometer daily, keep it lockable, and keep temperature records for at least a year (or the life of the stock) for audit. Date multidose bottles when opened and prefer single-use drops."
+        },
+        {
+          "heading": "When to wear gloves",
+          "body": "For invasive procedures, if your hands are badly cracked, or if the patient has an infective condition such as viral conjunctivitis. Not routinely for contact lens fitting. Wash your hands before and after, change gloves between patients, and ask about latex allergy."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Single most effective way to break the chain of infection",
+          "back": "Handwashing."
+        },
+        {
+          "front": "Alcohol concentration needed against MRSA",
+          "back": "At least 70% ethyl or isopropyl alcohol."
+        },
+        {
+          "front": "Cleaning, disinfection, sterilisation",
+          "back": "Cleaning: detergent removes visible dirt. Disinfection: heat or chemicals reduce microbes. Sterilisation: all microbes destroyed."
+        },
+        {
+          "front": "Drug fridge temperature range",
+          "back": "2 to 8°C, checked daily."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "phe-ic-1",
+          "q": "Which is TRUE about alcohol hand rubs?",
+          "options": [
+            {
+              "text": "They are effective against MRSA if they contain at least 70% alcohol",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They are effective against C. difficile",
+              "correct": false,
+              "feedback": "Not effective against C. difficile spores."
+            },
+            {
+              "text": "They are effective against norovirus",
+              "correct": false,
+              "feedback": "Not effective."
+            },
+            {
+              "text": "They are not recommended for domiciliary visits",
+              "correct": false,
+              "feedback": "They're especially useful where washing facilities are poor, such as home visits."
+            },
+            {
+              "text": "They are useful for cleaning visibly dirty hands",
+              "correct": false,
+              "feedback": "Visibly dirty hands must be washed with soap and water."
+            }
+          ],
+          "explanation": "Sample MCQ 1 from the lecture."
+        },
+        {
+          "id": "phe-ic-2",
+          "q": "Which is FALSE about handwashing?",
+          "options": [
+            {
+              "text": "Effective handwashing removes up to 50% of microbes",
+              "correct": true,
+              "feedback": "False: proper washing removes about 99 of every 100."
+            },
+            {
+              "text": "Alcohol rub can't replace washing if hands are contaminated with bodily fluids",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Drying is part of effective handwashing",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Hands should be washed with antiseptic before invasive procedures",
+              "correct": false,
+              "feedback": "True: e.g. 4% chlorhexidine."
+            },
+            {
+              "text": "It is the most important step in breaking the chain of infection",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Sample MCQ 2 from the lecture."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Infection control in optometric practice to me step by step, then quiz me on it."
+    },
+    {
+      "id": "phe-wellbeing",
+      "title": "Practitioner health and wellbeing",
+      "summary": "Your own health affects patient safety. Know the signs of stress, where to get help, when a health condition affects fitness to practise or train, and when to tell the GOC.",
+      "keyPoints": [
+        "GOC outcome 5.6: understand the importance of maintaining your own health. Signed off by the stage 2 portfolio task.",
+        "Stress: when demands seem to exceed your resources. In optometry it's linked to long hours, time pressure per exam, physical strain and lack of support.",
+        "Optometrists report more psychological distress and anxiety than the general population, and many don't seek help.",
+        "Fitness to practise or train: the skills, knowledge, health and character to work safely (GOC). Raise concerns about yourself (standard 11.4 for registrants; standard 10 for students).",
+        "Declare a health condition to the GOC only if it currently affects your fitness; include the condition, date of diagnosis and treatment, and show insight.",
+        "HEOPS standards: reduced stereopsis isn't a bar; colour deficiency is unlikely to be; field defects may stop you meeting competencies.",
+        "Conditions that can affect safe practice: alcohol dependence, drug misuse, mental illness, other medical conditions."
+      ],
+      "examTraps": [
+        "Thinking every health condition must be declared. Only one that currently affects fitness to practise or train.",
+        "Assuming colour vision deficiency stops you training as an optometrist."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Five ways to wellbeing",
+          "body": "Connect, be active, take notice, keep learning, and give. The AOP peer support line (0800 870 8401) is open to members and non-members; the College also has wellbeing videos, podcasts and articles. See your GP if stress persists."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Minimum information in a GOC health declaration",
+          "back": "The nature of the condition, the date of diagnosis, and details of any treatment."
+        },
+        {
+          "front": "Who can raise a fitness to practise concern with the GOC?",
+          "back": "Anyone: patients, carers, registrants, employers, the police."
+        },
+        {
+          "front": "Five ways to wellbeing",
+          "back": "Connect, be active, take notice, keep learning, give."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "phe-wb-1",
+          "q": "When must a student optometrist declare a health condition to the GOC?",
+          "options": [
+            {
+              "text": "When it may currently affect their fitness to train",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Whenever they're diagnosed with any condition",
+              "correct": false,
+              "feedback": "Only if it currently affects fitness."
+            },
+            {
+              "text": "Only once they qualify",
+              "correct": false,
+              "feedback": "Students are registered and make declarations too."
+            },
+            {
+              "text": "Never: health is private",
+              "correct": false,
+              "feedback": "Declaration is required when fitness is affected."
+            }
+          ],
+          "explanation": "GOC declarations guidance, slides 16 and 17."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Practitioner health and wellbeing to me step by step, then quiz me on it."
     }
   ]
 }

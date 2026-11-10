@@ -366,12 +366,19 @@
         "Grade 3: 1:½ — open.",
         "Grade 2: 1:¼ — narrow.",
         "Grade 1: less than ¼ — dangerously narrow.",
-        "Low grades (2 and especially 1) suggest the angle may be capable of closure — follow guidance (gonioscopy/referral) and take care with dilation."
+        "Low grades (2 and especially 1) suggest the angle may be capable of closure — follow guidance (gonioscopy/referral) and take care with dilation.",
+        "Van Herick grades: 4 = 1:1 or more (closure impossible), 3 = 1:½ (unlikely), 2 = 1:¼ (possible, dilation could cause closure), 1 = under 1:¼ (very likely), 0 = closed.",
+        "Pen torch method: light from the temporal side parallel to the iris; nasal iris in shadow 0/25/50/75/100% gives grades 4 to 0.",
+        "Smith's method: chamber depth ≈ slit length × 1.4; under 2 mm suggests a risk of closure.",
+        "Gonioscopy is the gold standard and the only technique that views the angle directly. Structures from front to back: Schwalbe's line, unpigmented then pigmented trabecular meshwork, scleral spur, ciliary body.",
+        "Angle-closure risk factors: shallow chamber, forward or thick lens, small cornea, short eye, steep cornea, older age, female (4:1), East Asian."
       ],
       "examTraps": [
         "Placing the beam too far onto the sclera or too far into the cornea.",
         "Using the wrong angle between illumination and microscope (it should be 60°).",
-        "Treating Van Herick as a diagnosis — it's a screening estimate."
+        "Treating Van Herick as a diagnosis — it's a screening estimate.",
+        "Saying the inferior angle is the narrowest. The superior angle usually is; examine the inferior first because it is easier to identify structures.",
+        "Pressing hard on a corneal gonio lens: it folds Descemet's membrane and can falsely widen the angle."
       ],
       "diagram": {
         "id": "van-herick",
@@ -413,6 +420,14 @@
         {
           "front": "Gold standard for angle assessment",
           "back": "Gonioscopy."
+        },
+        {
+          "front": "When is gonioscopy contraindicated?",
+          "back": "After recent ocular trauma or recent intraocular surgery."
+        },
+        {
+          "front": "Symptoms of acute angle closure",
+          "back": "Pain, blurred vision with coloured haloes, nausea and vomiting."
         }
       ],
       "mcq": [
@@ -471,6 +486,60 @@
           ],
           "explanation": "Short eyes and a thickening lens with age crowd the angle.",
           "link": "ane-van-herick#who-is-at-risk-of-angle-closure"
+        },
+        {
+          "id": "ane-ac-1",
+          "q": "What is the correct order of structures in the anterior chamber angle (front to back)?",
+          "options": [
+            {
+              "text": "Schwalbe's line, unpigmented TM, pigmented TM, scleral spur, ciliary body",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Scleral spur, unpigmented TM, pigmented TM, Schwalbe's line, ciliary body",
+              "correct": false,
+              "feedback": "Schwalbe's line is the most anterior structure."
+            },
+            {
+              "text": "Ciliary body, unpigmented TM, pigmented TM, scleral spur, Schwalbe's line",
+              "correct": false,
+              "feedback": "That runs the wrong way and in the wrong order."
+            },
+            {
+              "text": "Unpigmented TM, Schwalbe's line, pigmented TM, scleral spur, ciliary body",
+              "correct": false,
+              "feedback": "Schwalbe's line comes before the meshwork."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 36)."
+        },
+        {
+          "id": "ane-ac-2",
+          "q": "Which statement is FALSE?",
+          "options": [
+            {
+              "text": "The inferior quadrant is narrower than the superior quadrant",
+              "correct": true,
+              "feedback": "False: the superior angle is usually the narrowest."
+            },
+            {
+              "text": "Van Herick is the most commonly used technique to assess the angle",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Scleral gonio lenses are used more commonly than corneal lenses",
+              "correct": false,
+              "feedback": "Treated as true in the lecture."
+            },
+            {
+              "text": "Gonioscopy is the only practice method that directly images the angle and is the gold standard",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 37)."
         }
       ],
       "cases": [],
@@ -1014,6 +1083,84 @@
         }
       ],
       "askClaude": "Give me 5 red eye patients (history and signs) and ask me for the most likely diagnosis, what I'd advise and whether to refer."
+    },
+    {
+      "id": "ane-cataract",
+      "title": "The crystalline lens and cataract",
+      "summary": "How the lens stays clear, how it ages, what cataract does to vision, and when to refer for surgery.",
+      "keyPoints": [
+        "Lens: about 10 mm wide, 4 mm thick, about 15 D; 64% water and 35% protein; index 1.38 (cortex) to 1.40 (nucleus).",
+        "Transparency depends on a highly ordered structure; loss comes from protein aggregation, hydration changes, membrane breakdown and cytoskeletal change.",
+        "It absorbs UV from 300 to 400 nm; yellowing with age protects the retina.",
+        "Symptoms: myopic shift, gradual blur (worse in bright light and for reading), glare, monocular diplopia, haloes.",
+        "Types: cortical (63%), nuclear (41%), posterior subcapsular (24%; steroids and uveitis); about 30% mixed.",
+        "Refer when it limits quality of life, work or driving (whatever the Snellen acuity) and the patient wants surgery.",
+        "Risks: age, UV, smoking, diabetes, cardiovascular and renal disease, dehydration, steroids, low socio-economic status."
+      ],
+      "examTraps": [
+        "Using a VA cut-off as the referral criterion: there isn't a fixed one.",
+        "Forgetting that nuclear cataract causes a myopic shift."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Phacoemulsification",
+          "body": "An ultrasonic probe breaks up the nucleus and aspirates it through a small self-sealing incision, leaving the posterior capsule to support the IOL. It's now almost always day-case under local anaesthetic in the UK (about 400,000 NHS operations a year), with lower complication rates and 4–6 weeks' recovery."
+        },
+        {
+          "heading": "Paediatric cataract",
+          "body": "IOLs can go in from about 4 weeks. The eye is left hyperopic because it will become more myopic as it grows; the other eye is occluded if one eye is operated first. Posterior capsule opacification is common, so a posterior capsulorhexis and limited vitrectomy are done."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Commonest cataract type",
+          "back": "Cortical (about 63%)."
+        },
+        {
+          "front": "Cataract linked to steroids and uveitis",
+          "back": "Posterior subcapsular."
+        },
+        {
+          "front": "Lens power",
+          "back": "About 15 D, roughly a third of the eye's total."
+        },
+        {
+          "front": "Lens weight at birth and at 65",
+          "back": "About 100 mg and 250 mg."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "ane-cat-1",
+          "q": "When should a patient with cataract be referred?",
+          "options": [
+            {
+              "text": "When it limits their quality of life, work or driving and they want surgery",
+              "correct": true,
+              "feedback": "Yes: there's no fixed VA cut-off."
+            },
+            {
+              "text": "When VA falls below 6/12 in either eye",
+              "correct": false,
+              "feedback": "There's no fixed acuity threshold."
+            },
+            {
+              "text": "As soon as any opacity is seen",
+              "correct": false,
+              "feedback": "Opacity alone isn't a reason."
+            },
+            {
+              "text": "Only when VA is 6/60 or worse",
+              "correct": false,
+              "feedback": "That's outdated thinking."
+            }
+          ],
+          "explanation": "Cataract lecture, slide 24."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain The crystalline lens and cataract to me step by step, then quiz me on it."
     }
   ]
 }

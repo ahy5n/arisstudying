@@ -13,12 +13,16 @@
         "For pain, a framework like SOCRATES (site, onset, character, radiation, associations, time course, exacerbating/relieving, severity) helps.",
         "Ask about red flags: sudden vision loss, flashes and floaters, curtain, pain, double vision, headache with visual symptoms.",
         "Medications matter: e.g. steroids (cataract, raised IOP), hydroxychloroquine (maculopathy), antihistamines (dry eye), anticholinergics (angle closure risk).",
-        "Diagnostic reasoning combines pattern recognition with hypothesis testing: what fits, what doesn't, and what can't be missed."
+        "Diagnostic reasoning combines pattern recognition with hypothesis testing: what fits, what doesn't, and what can't be missed.",
+        "Follow up every symptom with LOFTSEA: Location, Onset, Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms.",
+        "Ask every patient about distance and near vision, eyestrain, headaches, pain or burning, diplopia, and flashes and floaters; record negatives (no record means not asked).",
+        "Suggested order: general information, last eye exam, reason for visit, ocular history, family ocular history, general health and medication, family medical history, symptom check, occupation, hobbies, driving and smoking."
       ],
       "examTraps": [
         "Asking a checklist of closed questions and missing the patient's actual concern.",
         "Not asking about medications and general health.",
-        "Forgetting visual needs (driving, screens, hobbies) that shape management."
+        "Forgetting visual needs (driving, screens, hobbies) that shape management.",
+        "Accepting 'double vision' at face value: many patients mean blur. Ask if they see two of everything, and whether it goes when one eye is closed."
       ],
       "diagram": {
         "id": "history-structure",
@@ -77,6 +81,22 @@
         {
           "front": "GCA red flags",
           "back": "Over 50, headache, scalp tenderness, jaw claudication, sudden vision loss."
+        },
+        {
+          "front": "LOFTSEA",
+          "back": "Location, Onset, Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms."
+        },
+        {
+          "front": "Features of a visual headache",
+          "back": "Linked to eye use, worse later in the day and on weekdays, mild to moderate, dull, above or behind the eyes."
+        },
+        {
+          "front": "Monocular diplopia causes",
+          "back": "Cataract and irregular astigmatism (it persists with the other eye closed)."
+        },
+        {
+          "front": "Strongest environmental risk factor for AMD",
+          "back": "Smoking."
         }
       ],
       "mcq": [
@@ -745,6 +765,391 @@
         }
       ],
       "askClaude": "Give me 6 short scenarios and ask me the referral urgency and destination for each, then help me write one full referral letter."
+    },
+    {
+      "id": "syd-red-eye",
+      "title": "The non-traumatic red eye",
+      "summary": "Sorting a red eye by history and a few signs: one eye or both, pain, photophobia, vision, discharge, pupil, cornea and anterior chamber. From the week 3 tutorial tables.",
+      "keyPoints": [
+        "Unilateral red eye: think infection, acute glaucoma or iritis. Bilateral: conjunctivitis is more likely.",
+        "Conjunctivitis: viral is watery with cold symptoms and follicles; allergic is watery and itchy with puffy lids and papillae; bacterial is mucoid and crusty with lids stuck together.",
+        "Papillae: raised, red, central vessel, on the palpebral conjunctiva (allergy, bacteria, contact lenses). Follicles: pale domes with vessels around them, lower fornix (viral).",
+        "Corneal ulcer: pain, photophobia, watering and reduced VA with staining and an infiltrate. Contact lens wear and smoking point to infection; systemic illness such as rheumatoid arthritis, ankylosing spondylitis or inflammatory bowel disease points to a non-infectious cause.",
+        "Episcleritis: mild pain, VA normal, vessels move over the sclera. Scleritis: moderate to severe pain, VA reduced, vessels do not move, with intraocular inflammation.",
+        "Endophthalmitis: sudden painful red eye with cells, flare and hypopyon."
+      ],
+      "examTraps": [
+        "Not noticing what the record leaves out: questions that weren't asked and tests that weren't done.",
+        "Giving one referral urgency for a condition whose urgency depends on the findings.",
+        "Mixing up papillae and follicles: follicles go with viral infection."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Pupil clues",
+          "body": "A distorted pupil suggests iritis. An oval, mid-dilated pupil suggests angle closure. Photophobia also points towards iritis or acute angle closure."
+        },
+        {
+          "heading": "Marginal keratitis and recurrent erosion",
+          "body": "In the tutorial table, marginal keratitis has no pain or photophobia and normal VA, with staining and a stromal infiltrate. Recurrent corneal erosion gives pain and photophobia with staining but no infiltrate."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Discharge in viral, allergic and bacterial conjunctivitis",
+          "back": "Viral: watery (can become mucoid). Allergic: watery. Bacterial: mucoid, crusty."
+        },
+        {
+          "front": "Episcleritis or scleritis: which has vessels that move over the sclera?",
+          "back": "Episcleritis."
+        },
+        {
+          "front": "Systemic conditions linked to non-infectious corneal ulcers",
+          "back": "Ankylosing spondylitis, inflammatory bowel disease, rheumatoid arthritis."
+        },
+        {
+          "front": "Treatment of allergic conjunctivitis in the tutorial table",
+          "back": "Antihistamine eye drops and avoiding the allergen."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "syd-redeye-1",
+          "q": "A red eye with mild pain, normal VA, a clear cornea and anterior chamber, and vessels that move over the sclera is most likely",
+          "options": [
+            {
+              "text": "episcleritis",
+              "correct": true,
+              "feedback": "Yes: mild pain, normal VA, mobile vessels and a quiet eye."
+            },
+            {
+              "text": "scleritis",
+              "correct": false,
+              "feedback": "Scleritis gives moderate to severe pain, reduced VA and vessels that don't move."
+            },
+            {
+              "text": "endophthalmitis",
+              "correct": false,
+              "feedback": "That is sudden and painful, with cells, flare and hypopyon."
+            },
+            {
+              "text": "infectious corneal ulcer",
+              "correct": false,
+              "feedback": "The cornea would stain and show an infiltrate, with reduced VA."
+            }
+          ],
+          "explanation": "From the episcleritis, scleritis and endophthalmitis comparison table."
+        },
+        {
+          "id": "syd-redeye-2",
+          "q": "Follicles in the lower fornix with watery discharge and recent cold symptoms suggest",
+          "options": [
+            {
+              "text": "viral conjunctivitis",
+              "correct": true,
+              "feedback": "Yes: follicles, watery discharge and cold symptoms or fever."
+            },
+            {
+              "text": "allergic conjunctivitis",
+              "correct": false,
+              "feedback": "Allergic gives itching, puffy lids and papillae."
+            },
+            {
+              "text": "bacterial conjunctivitis",
+              "correct": false,
+              "feedback": "Bacterial gives mucoid, crusty discharge with lids sticking."
+            },
+            {
+              "text": "contact lens intolerance",
+              "correct": false,
+              "feedback": "That is a cause of papillae, not follicles."
+            }
+          ],
+          "explanation": "From the conjunctivitis and papillae-versus-follicle tables."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A contact lens wearer who smokes has a painful, photophobic, watering red eye with reduced VA. The cornea stains and shows an epithelial opacity with a stromal infiltrate.",
+          "question": "Which type of corneal ulcer does this fit, and which features point you there?",
+          "modelAnswer": "An infectious corneal ulcer. Contact lens wear and smoking are the risk factors in the tutorial table, with no systemic illness; pain, photophobia, watering, reduced VA, and staining with an epithelial opacity and stromal infiltrate complete the picture. A non-infectious ulcer would more typically have no lens wear and a systemic illness such as rheumatoid arthritis."
+        }
+      ],
+      "links": [],
+      "askClaude": "Explain The non-traumatic red eye to me step by step, then quiz me on it."
+    },
+    {
+      "id": "syd-lids-orbit",
+      "title": "Lids and orbit: lagophthalmos and proptosis",
+      "summary": "Incomplete lid closure and a bulging eye, from the week 4 tutorials: the causes to tell apart, the tests that matter, and how urgent each one is.",
+      "keyPoints": [
+        "For lagophthalmos the needed tests are history, VA, cover test, motility and external examination; pupils, refraction, internal examination and IOP aren't needed.",
+        "Ectropion: urgent (2 weeks) if the cornea stains; routine if the cornea is normal.",
+        "Myasthenia gravis: intermittent binocular diplopia that varies with gaze, fatigable ptosis worse on sustained upgaze, lagophthalmos and surface staining.",
+        "Carotid-cavernous fistula: abnormal artery-to-cavernous-sinus connection (trauma or spontaneous, e.g. Ehlers-Danlos). Bruit, pulsating proptosis, brick-red vessels, chemosis, cranial nerve palsies; can cause angle-closure glaucoma or optic neuropathy.",
+        "Orbital cellulitis: infection spreading from sinuses, teeth or ears; sudden unilateral proptosis, lid oedema and redness, painful restricted movement, diplopia, RAPD. Can spread to the brain or cavernous sinus.",
+        "Thyroid eye disease: expansion of orbital fat and connective tissue, lid retraction, lagophthalmos, proptosis and incomitant deviation; red, staining eye when active, white when chronic."
+      ],
+      "examTraps": [
+        "Forgetting that pinhole failing to improve VA rules out uncorrected refractive error.",
+        "Giving one urgency for conditions whose urgency depends on findings (ectropion, orbital tumour, TED)."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Why a fistula affects so much",
+          "body": "High-pressure arterial blood enters the cavernous sinus and pushes back through the superior ophthalmic vein, so orbital veins become dilated and tortuous (chemosis, proptosis). The swollen sinus also presses on cranial nerves III, IV, V1, V2 and VI as they pass through."
+        },
+        {
+          "heading": "Orbital tumour urgency",
+          "body": "In the tutorial table: urgent within 1 week if there is blurred vision, limited movement, pain, red eye or corneal staining with ptosis, lagophthalmos and proptosis; routine if VA, comfort and the ocular surface are normal."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Sign you might hear in carotid-cavernous fistula",
+          "back": "A bruit (a whooshing sound)."
+        },
+        {
+          "front": "Myasthenia gravis lid sign",
+          "back": "Fatigable ptosis, worse on sustained upgaze."
+        },
+        {
+          "front": "Where does orbital cellulitis usually spread from?",
+          "back": "Sinuses, teeth or ears."
+        },
+        {
+          "front": "Cranial nerves at risk in the cavernous sinus",
+          "back": "III, IV, V1, V2 and VI."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "syd-orbit-1",
+          "q": "Sudden bulging of one eye with painful limited movement, lid oedema and redness, and an RAPD most suggests",
+          "options": [
+            {
+              "text": "orbital cellulitis",
+              "correct": true,
+              "feedback": "Yes: sudden unilateral proptosis with painful restriction and optic nerve involvement."
+            },
+            {
+              "text": "chronic thyroid eye disease",
+              "correct": false,
+              "feedback": "Chronic TED is usually bilateral, slower and white."
+            },
+            {
+              "text": "ectropion",
+              "correct": false,
+              "feedback": "Ectropion is a turned-out lid, not proptosis."
+            },
+            {
+              "text": "routine orbital tumour",
+              "correct": false,
+              "feedback": "A routine tumour has normal VA and no pain."
+            }
+          ],
+          "explanation": "From the proptosis tutorial table."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Lids and orbit: lagophthalmos and proptosis to me step by step, then quiz me on it."
+    },
+    {
+      "id": "syd-diplopia",
+      "title": "Diplopia",
+      "summary": "Working out the cause of double vision from the case record: which muscles and nerves are involved, how each cause looks, and which need urgent action. From the week 6 tutorial.",
+      "keyPoints": [
+        "SO4 LR6 (rest)3: superior oblique is supplied by IV, lateral rectus by VI, all other extraocular muscles by III.",
+        "Sixth nerve palsy: sudden horizontal diplopia worse in the affected direction, esotropia, limited abduction.",
+        "Fourth nerve palsy: vertical or oblique diplopia, hypertropia, head tilted towards the opposite shoulder.",
+        "Third nerve palsy: oblique diplopia, exotropia and hypotropia, limited adduction, elevation and depression, possibly ptosis and a poorly reacting dilated pupil.",
+        "Internuclear ophthalmoplegia: poor adduction of one eye with nystagmus of the abducting eye; linked to multiple sclerosis.",
+        "Decompensated phoria: intermittent diplopia worse when tired; the cover test shows poor recovery or breakdown to a tropia; everything else normal.",
+        "In the tutorial, palsies and gaze palsy come with swollen discs, which changes urgency and whether dilation is safe."
+      ],
+      "examTraps": [
+        "Missing that diplopia varies with gaze direction: that points to a palsy, not a decompensated phoria.",
+        "Dilating without thinking about whether it's safe in a patient with a possible neurological problem."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Gaze palsy",
+          "body": "Sudden horizontal diplopia with limited movement of both eyes towards one side, unusual headaches and neurological symptoms, with swollen discs: think of an intracranial cause such as an aneurysm, and refer as an emergency."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "SO4 LR6 (rest)3",
+          "back": "Superior oblique: IV (trochlear). Lateral rectus: VI (abducens). Everything else: III (oculomotor)."
+        },
+        {
+          "front": "Head posture in a fourth nerve palsy",
+          "back": "Tilted towards the opposite shoulder."
+        },
+        {
+          "front": "Classic INO findings",
+          "back": "Poor adduction on the affected side with nystagmus of the abducting eye; often multiple sclerosis."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "syd-dip-1",
+          "q": "Sudden horizontal diplopia, worse on looking to the left, with a left esotropia and limited left abduction suggests",
+          "options": [
+            {
+              "text": "a left sixth nerve palsy",
+              "correct": true,
+              "feedback": "Yes: the lateral rectus (VI) abducts the eye."
+            },
+            {
+              "text": "a left fourth nerve palsy",
+              "correct": false,
+              "feedback": "That gives vertical diplopia and hypertropia."
+            },
+            {
+              "text": "a left third nerve palsy",
+              "correct": false,
+              "feedback": "That gives exotropia with limited adduction, elevation and depression."
+            },
+            {
+              "text": "a decompensated phoria",
+              "correct": false,
+              "feedback": "That is intermittent and doesn't limit movement."
+            }
+          ],
+          "explanation": "From the tutorial's sixth nerve palsy profile and the SO4 LR6 rule."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Diplopia to me step by step, then quiz me on it."
+    },
+    {
+      "id": "syd-headache-pain",
+      "title": "Headache and pain in or around the eye",
+      "summary": "Most headaches aren't visual, but eye pain or headache can signal angle closure, iritis, orbital disease or a neurological problem. From the week 8 tutorials and the history and symptoms lecture.",
+      "keyPoints": [
+        "Follow up any headache with LOFTSEA, even if the patient thinks it isn't visual.",
+        "Visual headaches are linked to eye use, mild to moderate, dull and above or behind the eyes; only a small proportion of headaches are visual.",
+        "Pupil clues in eye pain: distorted in iritis; oval and mid-dilated in acute angle closure.",
+        "Painful proptosis suggests orbital cellulitis or an orbital tumour.",
+        "Headache types met in the tutorial include chronic daily headache (CDH) and episodic tension-type headache (ETTH)."
+      ],
+      "examTraps": [
+        "Assuming a headache is visual because the patient needs glasses: look for features that don't fit and for neurological signs.",
+        "Skipping tests the case needs, such as pupils and IOP, in a patient with eye pain."
+      ],
+      "flashcards": [
+        {
+          "front": "Pupil in acute angle closure",
+          "back": "Oval and mid-dilated, poorly reacting."
+        },
+        {
+          "front": "Pupil in iritis",
+          "back": "Small or distorted (posterior synechiae)."
+        },
+        {
+          "front": "CDH and ETTH",
+          "back": "Chronic daily headache; episodic tension-type headache."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "syd-pain-1",
+          "q": "A patient with a painful red eye has an oval, mid-dilated pupil. Which is most likely?",
+          "options": [
+            {
+              "text": "Acute angle closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Iritis",
+              "correct": false,
+              "feedback": "Iritis gives a small or distorted pupil."
+            },
+            {
+              "text": "Viral conjunctivitis",
+              "correct": false,
+              "feedback": "The pupil is normal."
+            },
+            {
+              "text": "Episcleritis",
+              "correct": false,
+              "feedback": "The pupil is normal."
+            }
+          ],
+          "explanation": "Eye pain tutorial, slide 8."
+        }
+      ],
+      "goDeeper": [],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Headache and pain in or around the eye to me step by step, then quiz me on it."
+    },
+    {
+      "id": "syd-field-loss",
+      "title": "Visual field loss: causes and urgency",
+      "summary": "When a patient reports losing part of their vision, the history, IOP, fundus and field pattern separate retinal, optic nerve and brain causes, and set the urgency. From the week 9 tutorial.",
+      "keyPoints": [
+        "Retinal detachment: vision lost like a curtain, IOP under 10 mmHg, tobacco dust (Shafer's sign), pale elevated retina. Macula-on vs macula-off changes urgency.",
+        "Acute optic neuropathy: sudden blur and unusual headaches with a hyperaemic, swollen disc. Progressive forms are gradual, with a swollen or a pale disc.",
+        "Wet AMD: sudden one-eyed blur with drusen, haemorrhage, grey-green membrane, exudates and oedema. Dry AMD: routine referral for low vision help if the patient wants it.",
+        "Glaucoma: gradual, painless, repeatable field loss that respects the horizontal midline.",
+        "Brain disease: transient bilateral blur, headaches worse lying down, flashes, neurological symptoms, swollen discs, and homonymous loss respecting the vertical midline.",
+        "TIA: seconds of blur or sparkling lights with neurological symptoms (vertigo, weakness, numbness); everything else normal."
+      ],
+      "examTraps": [
+        "Missing low IOP as a clue to retinal detachment.",
+        "Giving a single urgency for conditions where it depends on the findings (e.g. macula on or off, how recent wet AMD is)."
+      ],
+      "flashcards": [
+        {
+          "front": "Shafer's sign",
+          "back": "Pigment ('tobacco dust') in the anterior vitreous, suggesting a retinal tear or detachment."
+        },
+        {
+          "front": "Field loss respecting the vertical midline",
+          "back": "Points to the chiasm or behind it (brain), not the retina or optic nerve."
+        },
+        {
+          "front": "Headache worse lying down plus swollen discs",
+          "back": "Raised intracranial pressure: an emergency."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "syd-fl-1",
+          "q": "A patient describes a curtain over their vision. IOP is 8 mmHg in that eye and there's pigment in the anterior vitreous. Most likely?",
+          "options": [
+            {
+              "text": "Retinal detachment",
+              "correct": true,
+              "feedback": "Yes: curtain, low IOP and Shafer's sign."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "Glaucoma is gradual, often with raised IOP."
+            },
+            {
+              "text": "TIA",
+              "correct": false,
+              "feedback": "Lasts seconds, and the eye is normal."
+            },
+            {
+              "text": "Dry AMD",
+              "correct": false,
+              "feedback": "Gradual central loss."
+            }
+          ],
+          "explanation": "Visual field loss tutorial, slide 16."
+        }
+      ],
+      "goDeeper": [],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Visual field loss: causes and urgency to me step by step, then quiz me on it."
     }
   ]
 }

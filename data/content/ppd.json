@@ -23,7 +23,15 @@
       "diagram": {
         "id": "goc-themes",
         "description": "A circle labelled 'The patient' in the centre, surrounded by segments: communication, consent, care and respect, confidentiality, competence and supervision, honesty and candour, raising concerns, professionalism (including online).",
-        "labels": ["Communication", "Consent", "Confidentiality", "Competence", "Candour", "Raising concerns", "Professionalism"]
+        "labels": [
+          "Communication",
+          "Consent",
+          "Confidentiality",
+          "Competence",
+          "Candour",
+          "Raising concerns",
+          "Professionalism"
+        ]
       },
       "goDeeper": [
         {
@@ -36,20 +44,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Who regulates optometry students in the UK?", "back": "The General Optical Council (GOC)." },
-        { "front": "Must optometry students register?", "back": "Yes — with the GOC, while training." },
-        { "front": "Do the standards apply online?", "back": "Yes — professional behaviour includes social media." },
-        { "front": "Where to find the current standards", "back": "optical.org (GOC website)." }
+        {
+          "front": "Who regulates optometry students in the UK?",
+          "back": "The General Optical Council (GOC)."
+        },
+        {
+          "front": "Must optometry students register?",
+          "back": "Yes — with the GOC, while training."
+        },
+        {
+          "front": "Do the standards apply online?",
+          "back": "Yes — professional behaviour includes social media."
+        },
+        {
+          "front": "Where to find the current standards",
+          "back": "optical.org (GOC website)."
+        }
       ],
       "mcq": [
         {
           "id": "ppd-goc-1",
           "q": "A classmate posts a funny story about a clinic patient without their name. What's the issue?",
           "options": [
-            { "text": "It may still identify the patient and breaches confidentiality and professionalism", "correct": true, "feedback": "Yes — details can identify people, and it undermines trust." },
-            { "text": "No issue — no name was used", "correct": false, "feedback": "Other details can still identify someone." },
-            { "text": "Only an issue if the patient sees it", "correct": false, "feedback": "The breach happens when it's posted." },
-            { "text": "Standards don't apply to students", "correct": false, "feedback": "They do — there are specific Standards for Optical Students." }
+            {
+              "text": "It may still identify the patient and breaches confidentiality and professionalism",
+              "correct": true,
+              "feedback": "Yes — details can identify people, and it undermines trust."
+            },
+            {
+              "text": "No issue — no name was used",
+              "correct": false,
+              "feedback": "Other details can still identify someone."
+            },
+            {
+              "text": "Only an issue if the patient sees it",
+              "correct": false,
+              "feedback": "The breach happens when it's posted."
+            },
+            {
+              "text": "Standards don't apply to students",
+              "correct": false,
+              "feedback": "They do — there are specific Standards for Optical Students."
+            }
           ],
           "explanation": "Confidentiality and professional conduct apply online and offline; 'anonymised' stories can still identify patients.",
           "link": "ppd-goc-standards#social-media-and-conduct"
@@ -57,8 +93,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" },
-        { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" }
+        {
+          "label": "General Optical Council (GOC)",
+          "url": "https://optical.org/"
+        },
+        {
+          "label": "College of Optometrists: Guidance for Professional Practice",
+          "url": "https://guidance.college-optometrists.org/"
+        }
       ],
       "askClaude": "Give me 5 professionalism dilemmas a 2nd-year optometry student might face and ask me what the GOC standards would expect me to do."
     },
@@ -83,7 +125,12 @@
       "diagram": {
         "id": "consent-triangle",
         "description": "Triangle with three corners: voluntary, informed, capacity — 'valid consent' in the centre. Under 'capacity', four boxes: understand, retain, use/weigh, communicate.",
-        "labels": ["Voluntary", "Informed", "Capacity", "Understand / retain / weigh / communicate"]
+        "labels": [
+          "Voluntary",
+          "Informed",
+          "Capacity",
+          "Understand / retain / weigh / communicate"
+        ]
       },
       "goDeeper": [
         {
@@ -100,20 +147,48 @@
         }
       ],
       "flashcards": [
-        { "front": "Three elements of valid consent", "back": "Voluntary, informed, capacity." },
-        { "front": "Four capacity abilities (MCA 2005)", "back": "Understand, retain, use/weigh, communicate." },
-        { "front": "Gillick competence", "back": "A child with enough understanding and maturity can consent for themselves." },
-        { "front": "Teach-back", "back": "Asking the patient to explain back in their own words to check understanding." }
+        {
+          "front": "Three elements of valid consent",
+          "back": "Voluntary, informed, capacity."
+        },
+        {
+          "front": "Four capacity abilities (MCA 2005)",
+          "back": "Understand, retain, use/weigh, communicate."
+        },
+        {
+          "front": "Gillick competence",
+          "back": "A child with enough understanding and maturity can consent for themselves."
+        },
+        {
+          "front": "Teach-back",
+          "back": "Asking the patient to explain back in their own words to check understanding."
+        }
       ],
       "mcq": [
         {
           "id": "ppd-con-1",
           "q": "A patient agrees to drops after you say 'I'm just going to put some drops in'. Is this valid consent?",
           "options": [
-            { "text": "No — they weren't informed of purpose, effects and risks", "correct": true, "feedback": "Right — consent must be informed." },
-            { "text": "Yes — they didn't object", "correct": false, "feedback": "Not objecting isn't informed consent." },
-            { "text": "Yes — drops never need consent", "correct": false, "feedback": "They do." },
-            { "text": "Only if they sign a form", "correct": false, "feedback": "Verbal consent can be valid if it's informed." }
+            {
+              "text": "No — they weren't informed of purpose, effects and risks",
+              "correct": true,
+              "feedback": "Right — consent must be informed."
+            },
+            {
+              "text": "Yes — they didn't object",
+              "correct": false,
+              "feedback": "Not objecting isn't informed consent."
+            },
+            {
+              "text": "Yes — drops never need consent",
+              "correct": false,
+              "feedback": "They do."
+            },
+            {
+              "text": "Only if they sign a form",
+              "correct": false,
+              "feedback": "Verbal consent can be valid if it's informed."
+            }
           ],
           "explanation": "Patients need to know why, what to expect and the risks before they can give valid consent.",
           "link": "ppd-communication-consent#consent-for-eye-drops"
@@ -121,8 +196,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "College of Optometrists: Guidance for Professional Practice", "url": "https://guidance.college-optometrists.org/" },
-        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" }
+        {
+          "label": "College of Optometrists: Guidance for Professional Practice",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "General Optical Council (GOC)",
+          "url": "https://optical.org/"
+        }
       ],
       "askClaude": "Role-play a patient unsure about having dilating drops. Let me explain and gain consent, then give me feedback on clarity and what I missed."
     },
@@ -147,7 +228,14 @@
       "diagram": {
         "id": "eye-care-team",
         "description": "A patient in the centre connected to: optometrist, dispensing optician, orthoptist, ophthalmologist, GP, pharmacist, ophthalmic nurse — with arrows showing typical referral and communication routes.",
-        "labels": ["Optometrist", "Dispensing optician", "Orthoptist", "Ophthalmologist", "GP", "Pharmacist"]
+        "labels": [
+          "Optometrist",
+          "Dispensing optician",
+          "Orthoptist",
+          "Ophthalmologist",
+          "GP",
+          "Pharmacist"
+        ]
       },
       "goDeeper": [
         {
@@ -160,20 +248,48 @@
         }
       ],
       "flashcards": [
-        { "front": "CAIPE definition of IPL", "back": "Two or more professions learning with, from and about each other to improve collaboration and care." },
-        { "front": "SBAR", "back": "Situation, Background, Assessment, Recommendation." },
-        { "front": "Orthoptist's specialism", "back": "Binocular vision and eye movement disorders." },
-        { "front": "Your IPL session", "back": "Thu 19 Nov, 14:00–16:00 — compulsory." }
+        {
+          "front": "CAIPE definition of IPL",
+          "back": "Two or more professions learning with, from and about each other to improve collaboration and care."
+        },
+        {
+          "front": "SBAR",
+          "back": "Situation, Background, Assessment, Recommendation."
+        },
+        {
+          "front": "Orthoptist's specialism",
+          "back": "Binocular vision and eye movement disorders."
+        },
+        {
+          "front": "Your IPL session",
+          "back": "Thu 19 Nov, 14:00–16:00 — compulsory."
+        }
       ],
       "mcq": [
         {
           "id": "ppd-ipl-1",
           "q": "Which professional mainly manages amblyopia treatment programmes in UK hospitals?",
           "options": [
-            { "text": "Orthoptist", "correct": true, "feedback": "Yes — alongside ophthalmologists." },
-            { "text": "Dispensing optician", "correct": false, "feedback": "They dispense spectacles." },
-            { "text": "Pharmacist", "correct": false, "feedback": "They advise on medicines." },
-            { "text": "GP", "correct": false, "feedback": "GPs refer but don't manage amblyopia treatment." }
+            {
+              "text": "Orthoptist",
+              "correct": true,
+              "feedback": "Yes — alongside ophthalmologists."
+            },
+            {
+              "text": "Dispensing optician",
+              "correct": false,
+              "feedback": "They dispense spectacles."
+            },
+            {
+              "text": "Pharmacist",
+              "correct": false,
+              "feedback": "They advise on medicines."
+            },
+            {
+              "text": "GP",
+              "correct": false,
+              "feedback": "GPs refer but don't manage amblyopia treatment."
+            }
           ],
           "explanation": "Orthoptists specialise in binocular vision and run amblyopia treatment within hospital eye services.",
           "link": "ppd-ipl#who-does-what"
@@ -181,8 +297,14 @@
       ],
       "cases": [],
       "links": [
-        { "label": "CAIPE", "url": "https://www.caipe.org/" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "CAIPE",
+          "url": "https://www.caipe.org/"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Help me practise SBAR: give me 3 eye scenarios and let me phone through a referral to you as the receiving doctor, then give feedback."
     },
@@ -197,17 +319,28 @@
         "Schön: reflection-in-action (during) vs reflection-on-action (after).",
         "Good reflection is honest, specific and leads to a concrete action (make it SMART).",
         "Keep patient details out of reflective writing — anonymise properly.",
-        "Qualified registrants complete CPD that includes reflection (with peer review elements) in the GOC scheme."
+        "Qualified registrants complete CPD that includes reflection (with peer review elements) in the GOC scheme.",
+        "GOC definition (CPD guide, 2024): reflective practice is thinking analytically about your experiences to gain insight and improve the way you work and the care you give.",
+        "Critical reflection helps you evaluate current practice, think about what is desirable, consider what is possible, and form new understanding that informs action."
       ],
       "examTraps": [
         "Writing a description with no analysis or action.",
         "Including identifiable patient details.",
-        "Only reflecting on things that went wrong — good experiences are worth reflecting on too."
+        "Only reflecting on things that went wrong — good experiences are worth reflecting on too.",
+        "Writing a reflection that only describes what happened. Description is the foundation; the marks are for analysis and what you will do next.",
+        "Including details that could identify a patient or practitioner. CPD reflections must be anonymised."
       ],
       "diagram": {
         "id": "gibbs-cycle",
         "description": "Circular diagram with six stages and arrows: Description, Feelings, Evaluation, Analysis, Conclusion, Action plan, returning to Description.",
-        "labels": ["Description", "Feelings", "Evaluation", "Analysis", "Conclusion", "Action plan"]
+        "labels": [
+          "Description",
+          "Feelings",
+          "Evaluation",
+          "Analysis",
+          "Conclusion",
+          "Action plan"
+        ]
       },
       "goDeeper": [
         {
@@ -220,29 +353,98 @@
         }
       ],
       "flashcards": [
-        { "front": "Gibbs' six stages", "back": "Description, feelings, evaluation, analysis, conclusion, action plan." },
-        { "front": "Driscoll's model", "back": "What? So what? Now what?" },
-        { "front": "Reflection-in-action vs on-action", "back": "In-action = during the event; on-action = afterwards (Schön)." },
-        { "front": "SMART", "back": "Specific, Measurable, Achievable, Relevant, Time-bound." }
+        {
+          "front": "Gibbs' six stages",
+          "back": "Description, feelings, evaluation, analysis, conclusion, action plan."
+        },
+        {
+          "front": "Driscoll's model",
+          "back": "What? So what? Now what?"
+        },
+        {
+          "front": "Reflection-in-action vs on-action",
+          "back": "In-action = during the event; on-action = afterwards (Schön)."
+        },
+        {
+          "front": "SMART",
+          "back": "Specific, Measurable, Achievable, Relevant, Time-bound."
+        },
+        {
+          "front": "Driscoll / Rolfe model of reflection",
+          "back": "What? So what? Now what?"
+        },
+        {
+          "front": "What makes reflection 'critical'?",
+          "back": "It moves from describing an experience to analysing it in a systematic way, to find what was good and what could improve."
+        }
       ],
       "mcq": [
         {
           "id": "ppd-ref-1",
           "q": "Which stage of Gibbs' cycle asks 'why did it happen?' and links to theory?",
           "options": [
-            { "text": "Analysis", "correct": true, "feedback": "Yes — making sense of the situation." },
-            { "text": "Description", "correct": false, "feedback": "That's what happened." },
-            { "text": "Feelings", "correct": false, "feedback": "That's what you thought and felt." },
-            { "text": "Action plan", "correct": false, "feedback": "That's what you'll do next time." }
+            {
+              "text": "Analysis",
+              "correct": true,
+              "feedback": "Yes — making sense of the situation."
+            },
+            {
+              "text": "Description",
+              "correct": false,
+              "feedback": "That's what happened."
+            },
+            {
+              "text": "Feelings",
+              "correct": false,
+              "feedback": "That's what you thought and felt."
+            },
+            {
+              "text": "Action plan",
+              "correct": false,
+              "feedback": "That's what you'll do next time."
+            }
           ],
           "explanation": "Analysis is where you explore causes and connect the experience to knowledge and theory.",
           "link": "ppd-reflection#a-short-gibbs-example"
+        },
+        {
+          "id": "ppd-refl-w3-1",
+          "q": "Which of these best fits good academic reflective writing?",
+          "options": [
+            {
+              "text": "A structured account that uses the experience to show what you learned and how you will use it",
+              "correct": true,
+              "feedback": "Yes. Description is only the starting point; you evidence the learning and the next step."
+            },
+            {
+              "text": "A detailed description of exactly what happened",
+              "correct": false,
+              "feedback": "Description alone is the commonest mistake. It should be the foundation for learning, not the whole piece."
+            },
+            {
+              "text": "A private diary in any language you like",
+              "correct": false,
+              "feedback": "Academic reflection needs structure and formal language, and must suit the reader."
+            },
+            {
+              "text": "As much personal disclosure as possible",
+              "correct": false,
+              "feedback": "You don't get marks for self-disclosure. Experiences must be used actively to promote learning."
+            }
+          ],
+          "explanation": "The lecture lists what reflective writing is not: plain description, a diary, self-disclosure, flattery of the course, or uncritical referencing."
         }
       ],
       "cases": [],
       "links": [
-        { "label": "General Optical Council (GOC)", "url": "https://optical.org/" },
-        { "label": "College of Optometrists", "url": "https://www.college-optometrists.org/" }
+        {
+          "label": "General Optical Council (GOC)",
+          "url": "https://optical.org/"
+        },
+        {
+          "label": "College of Optometrists",
+          "url": "https://www.college-optometrists.org/"
+        }
       ],
       "askClaude": "Help me write a short Gibbs reflection on a clinic or lab experience I'll describe. Ask me questions for each stage rather than writing it for me."
     }

@@ -13,12 +13,18 @@
         "Approach along a line about 15° temporal to the patient's line of sight to land on the optic disc.",
         "Turn the focusing wheel to compensate for both your and the patient's refractive errors.",
         "Examine: disc → follow each of the four vascular arcades out → periphery → macula last (ask them to look at the light).",
-        "Image is virtual and upright; field is small (a few degrees), so build up the picture section by section."
+        "Image is virtual and upright; field is small (a few degrees), so build up the picture section by section.",
+        "Begin with about +10 D in the lens wheel to inspect the external eye and check the media in at least four directions of gaze.",
+        "Monocular indirect ophthalmoscopes widen the view: the PanOptic gives about 5x the field of a direct ophthalmoscope and the Keeler wide-angle about 10x.",
+        "Magnification is about 15x for an emmetropic fundus (more for myopes, less for hyperopes) and about 2.5x for the anterior eye with +10 D.",
+        "Useful field of view j = g(K − W) ÷ K′. It shrinks with longer working distance, smaller pupils and myopia, and grows with hyperopia.",
+        "Record descriptively rather than writing 'NAD', 'WNL' or 'normal'."
       ],
       "examTraps": [
         "Using your right eye for the patient's left eye (noses collide, and you block their fixation).",
         "Starting with the macula — the light makes the pupil constrict and the patient uncomfortable.",
-        "Forgetting the red reflex step."
+        "Forgetting the red reflex step.",
+        "Thinking field of view shrinks with hyperopia. It grows; it shrinks with myopia."
       ],
       "diagram": {
         "id": "direct-oph-approach",
@@ -76,6 +82,10 @@
         {
           "front": "Why examine the macula last?",
           "back": "The light constricts the pupil and dazzles the patient."
+        },
+        {
+          "front": "What to record at the disc with a direct ophthalmoscope",
+          "back": "Cup depth, neuroretinal rim colour, C:D ratio, ISNT rule, margins, and any crescent or parapapillary atrophy."
         }
       ],
       "mcq": [
@@ -106,9 +116,47 @@
           ],
           "explanation": "Matching sides keeps your head out of the patient's line of sight so they can fixate the distant target.",
           "link": "peg-direct-ophthalmoscopy#limits-of-direct-ophthalmoscopy"
+        },
+        {
+          "id": "peg-oh-1",
+          "q": "Which statement about direct ophthalmoscopy is TRUE?",
+          "options": [
+            {
+              "text": "For an emmetrope, anterior eye magnification with +10 D is about six times less than fundus magnification",
+              "correct": true,
+              "feedback": "Yes: 2.5x versus 15x."
+            },
+            {
+              "text": "A high myope should keep their glasses on while you examine the outer eye",
+              "correct": false,
+              "feedback": "The patient's Rx doesn't matter for the anterior eye; correction helps for the fundus."
+            },
+            {
+              "text": "Field of view reduces as hyperopia increases",
+              "correct": false,
+              "feedback": "It increases with hyperopia."
+            },
+            {
+              "text": "An uncorrected −3.00 D optometrist should use +13 D to view the outer eye",
+              "correct": false,
+              "feedback": "A myopic examiner needs less plus: about +7 D."
+            },
+            {
+              "text": "No cupping of the optic nerve head indicates pathology",
+              "correct": false,
+              "feedback": "Small discs often have little or no cup."
+            }
+          ],
+          "explanation": "Lecture MCQ 1 and answer sheet."
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "SAQ: a patient has an ocular refraction of +10.00 D and a 4 mm pupil. You use direct ophthalmoscopy at 2.5 cm.",
+          "question": "What is the expected useful field of view of the fundus? [2]",
+          "modelAnswer": "j = g(K − W) ÷ K′ with g = 0.004 m, K = +10, W = 1 ÷ −0.025 = −40, K′ = 60. j = 0.004 × 50 ÷ 60 = 0.0033 m, so about 3.3 mm."
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists",
@@ -132,12 +180,17 @@
         "Image is real, inverted and laterally reversed.",
         "Set a narrow-ish beam, low intensity, illumination coaxial with the microscope, low magnification to start.",
         "Hold the lens close to the eye (a few mm to about 1 cm, depending on power), centred on the pupil, then pull the slit lamp back to focus.",
-        "Dilation (e.g. tropicamide 1%) gives a much better view, especially of the periphery — check the angle first."
+        "Dilation (e.g. tropicamide 1%) gives a much better view, especially of the periphery — check the angle first.",
+        "Indications for slit-lamp biomicroscopy with a condensing lens: symptomatic patients, new patients, reduced VA, known retinal pathology, systemic disease with retinal effects, cataract and high myopia.",
+        "Lens table: +90 D and SuperField give 0.76x image magnification (about 12x at a 16x slit lamp) with a wide field; +78 D gives 0.93x (about 14x) with a narrower field.",
+        "Set-up: illumination in line with the microscope, moderate parallelepiped, 10x, lens 5 to 11 mm from the cornea, then pull the slit lamp back until the aerial image focuses."
       ],
       "examTraps": [
         "Forgetting the image is inverted when recording (e.g. writing 'superior' for something that's inferior).",
         "Using full light intensity — it's uncomfortable and constricts the pupil.",
-        "Holding the lens too far from the eye."
+        "Holding the lens too far from the eye.",
+        "Forgetting the image is inverted and reversed when recording where a lesion is.",
+        "Holding the lens the wrong way round: the 'V' on a Volk lens points towards the eye."
       ],
       "diagram": {
         "id": "volk-optics",
@@ -179,6 +232,14 @@
         {
           "front": "Average vertical disc diameter",
           "back": "About 1.8–1.9 mm."
+        },
+        {
+          "front": "Hruby lens",
+          "back": "−55 D. Virtual, erect, magnified image, but a field of only 5 to 8° (about one disc diameter), limited by pupil size."
+        },
+        {
+          "front": "Advantages of direct over binocular indirect ophthalmoscopy",
+          "back": "Erect image, portable, suitable for all patients."
         }
       ],
       "mcq": [
@@ -237,6 +298,77 @@
           ],
           "explanation": "Higher-power condensing lenses give a wider field at lower magnification.",
           "link": "peg-indirect-volk#measuring-the-disc"
+        },
+        {
+          "id": "peg-w3-1",
+          "q": "What happens to field of view when magnification increases?",
+          "options": [
+            {
+              "text": "It decreases",
+              "correct": true,
+              "feedback": "Yes. The lens table shows it: +78 D magnifies more than +90 D and has the narrower field."
+            },
+            {
+              "text": "It increases",
+              "correct": false,
+              "feedback": "Field and magnification trade off against each other."
+            },
+            {
+              "text": "It stays the same",
+              "correct": false,
+              "feedback": "Field and magnification trade off against each other."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 26)."
+        },
+        {
+          "id": "peg-w3-2",
+          "q": "What happens to magnification when the power of a Volk lens decreases?",
+          "options": [
+            {
+              "text": "It increases",
+              "correct": true,
+              "feedback": "Yes: +90 D gives 0.76x, +78 D gives 0.93x and +20 D gives 3x."
+            },
+            {
+              "text": "It stays the same",
+              "correct": false,
+              "feedback": "Lower-power lenses magnify more."
+            },
+            {
+              "text": "It decreases",
+              "correct": false,
+              "feedback": "It is the other way round."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 27)."
+        },
+        {
+          "id": "peg-w3-3",
+          "q": "A 21-year-old with no ocular history attends your practice for the first time. Which technique should you use for a general fundus examination?",
+          "options": [
+            {
+              "text": "Slit-lamp biomicroscopy with a high-plus condensing lens",
+              "correct": true,
+              "feedback": "Yes. Being a new patient to the practice is one of the listed indications, and it gives a stereoscopic, wide-field view."
+            },
+            {
+              "text": "Direct ophthalmoscopy",
+              "correct": false,
+              "feedback": "Erect and portable, but a small field and no stereopsis."
+            },
+            {
+              "text": "Monocular indirect ophthalmoscopy",
+              "correct": false,
+              "feedback": "Wider field than direct but still monocular."
+            },
+            {
+              "text": "Modified monocular indirect ophthalmoscopy",
+              "correct": false,
+              "feedback": "No stereoscopic view."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 28). Answer worked out from the indications slide: 'new patient to practice'."
         }
       ],
       "cases": [],
@@ -263,7 +395,9 @@
         "Rim thinning or notching (especially inferior or superior) is a glaucoma sign.",
         "C/D asymmetry of more than about 0.2 between eyes (with similar disc sizes) is suspicious.",
         "Other glaucoma signs: disc haemorrhage (Drance), peripapillary atrophy (beta zone), baring of circumlinear vessels, bayoneting.",
-        "Pallor of the rim (rather than the cup) suggests non-glaucomatous optic neuropathy; swollen discs with blurred margins need urgent assessment."
+        "Pallor of the rim (rather than the cup) suggests non-glaucomatous optic neuropathy; swollen discs with blurred margins need urgent assessment.",
+        "CD ratio rises with disc size (Blue Mountains Eye Study: average disc 1.5 mm), so a larger cup in a large disc may be normal.",
+        "Contour cup (where the rim bends) can be larger than the colour cup (the pale area); judge the CD ratio by contour."
       ],
       "examTraps": [
         "Judging the cup by colour (pallor) instead of contour.",
@@ -380,6 +514,38 @@
           ],
           "explanation": "Cup size scales with disc size; the same ratio means relatively more rim loss in a small disc.",
           "link": "peg-optic-disc#why-disc-size-matters"
+        },
+        {
+          "id": "peg-oh-2",
+          "q": "Which statement about fundus features is FALSE?",
+          "options": [
+            {
+              "text": "A normal A:V ratio is 3:2",
+              "correct": true,
+              "feedback": "False: arterioles are narrower, so 2:3 or 1:2 is normal."
+            },
+            {
+              "text": "The foveal reflex is temporal to the optic nerve head",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "The macula may look darker than the surrounding retina",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "A CD ratio of 0.6 may be non-pathological",
+              "correct": false,
+              "feedback": "True, especially in a large disc."
+            },
+            {
+              "text": "Disc colour should be documented",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Lecture MCQ 2 and answer sheet."
         }
       ],
       "cases": [
@@ -387,6 +553,11 @@
           "scenario": "A 63-year-old of Black Caribbean heritage. R C/D 0.4, L C/D 0.7 with an inferior notch and a small flame haemorrhage at the inferior disc margin. IOPs R 19, L 23 mmHg (non-contact).",
           "question": "What's concerning and what would you do?",
           "modelAnswer": "Asymmetric cupping (0.3 difference), an inferior notch and a disc haemorrhage in a higher-risk patient suggest glaucoma in the left eye even though IOP is under 24. Repeat IOP with Goldmann-type tonometry, do visual fields and OCT if available, and refer for suspected optic nerve damage (COAG/suspect) according to NICE NG81 and local pathways. Explain and record."
+        },
+        {
+          "scenario": "SAQ: the ISNT rule.",
+          "question": "Explain the ISNT rule and why it may help in assessing optic nerve head health. [3]",
+          "modelAnswer": "It describes the expected relative thickness of the neuroretinal rim around the disc [1]: inferior thickest, then superior, then nasal, then temporal [1]. It helps decide whether a disc with a large CD ratio is likely to be normal: a rim that breaks the pattern raises suspicion [1]."
         }
       ],
       "links": [
@@ -888,6 +1059,506 @@
         }
       ],
       "askClaude": "Teach me to read a macular OCT layer by layer, then describe 3 OCT scans in words and ask me what each shows."
+    },
+    {
+      "id": "peg-peripheral-fundus",
+      "title": "Peripheral fundus examination",
+      "summary": "Seeing the retinal periphery: head-mounted binocular indirect ophthalmoscopy, the slit-lamp contact fundus lens and scleral indentation, with their indications and set-up.",
+      "keyPoints": [
+        "Head-mounted BIO with +20 D: stereoscopic, about 45° field, about 3x, real inverted and reversed image; can show the entire retina.",
+        "Contact fundus (mirror) lens: virtual, erect, reversed image with a limited field per mirror; needs topical anaesthetic and coupling fluid. Choose the mirror 180° from the area of interest.",
+        "Scleral indentation: patient supine, headset BIO and +20 D. The patient first looks away from the area, the indenter goes on the lid fold, then the patient looks towards it.",
+        "Indentation indications: far-peripheral lesions, symptoms, tobacco dust (Shafer's sign), vitreous haemorrhage, previous detachment, high myopia, or a periphery hard to see optically.",
+        "Landmarks: ora serrata about 7 mm behind the limbus; equator about 13–14 mm.",
+        "Light safety: keep the rheostat at half power and don't view one area for more than 40 seconds."
+      ],
+      "examTraps": [
+        "Saying a contact fundus lens doesn't need anaesthetic because of the coupling gel. It does.",
+        "Having the patient look away from the indenter during indentation. They look towards it.",
+        "Doing scleral indentation upright, or saying it is only for active detachment."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Ocular anaesthetics",
+          "body": "Examples are oxybuprocaine 0.4%, tetracaine 0.5%, proxymetacaine 0.5% and lidocaine 4%. They are highly toxic so use them sparingly; proxymetacaine must be refrigerated. Record dose, batch number and expiry of any drug used."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Image formed by a contact fundus lens",
+          "back": "Virtual, erect and reversed."
+        },
+        {
+          "front": "Field of view of head-mounted BIO with +20 D",
+          "back": "About 45°, at about 3x magnification."
+        },
+        {
+          "front": "Distance of the ora serrata behind the limbus",
+          "back": "About 7 mm (equator 13–14 mm)."
+        },
+        {
+          "front": "Patient position for scleral indentation",
+          "back": "Supine."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "peg-w4-1",
+          "q": "Head-mounted binocular indirect ophthalmoscopy should be performed",
+          "options": [
+            {
+              "text": "with the patient upright or supine",
+              "correct": true,
+              "feedback": "Yes. Headset BIO works in either position; scleral indentation is the part that needs the patient supine."
+            },
+            {
+              "text": "with the patient supine only",
+              "correct": false,
+              "feedback": "Supine is needed for scleral indentation, not for BIO itself."
+            },
+            {
+              "text": "with the patient upright only",
+              "correct": false,
+              "feedback": "It can also be done with the patient lying down."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 22). Answer worked out from the lecture: only scleral indentation is specified as supine."
+        },
+        {
+          "id": "peg-w4-2",
+          "q": "How is scleral indentation performed?",
+          "options": [
+            {
+              "text": "With the patient supine, using head-mounted BIO and a +20 D lens",
+              "correct": true,
+              "feedback": "Yes: the equipment and position on slides 15 and 17."
+            },
+            {
+              "text": "With the patient upright at the slit lamp with a +90 D lens",
+              "correct": false,
+              "feedback": "Indentation uses headset BIO, not the slit lamp."
+            },
+            {
+              "text": "Upright or supine with head-mounted BIO and +20 D",
+              "correct": false,
+              "feedback": "The patient must be supine."
+            },
+            {
+              "text": "Upright with head-mounted BIO and +20 D",
+              "correct": false,
+              "feedback": "The patient must be supine."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 23)."
+        },
+        {
+          "id": "peg-w4-3",
+          "q": "Which statement is correct?",
+          "options": [
+            {
+              "text": "Ocular anaesthetics are highly toxic and must be refrigerated and used with caution",
+              "correct": true,
+              "feedback": "Yes, from the diagnostic drugs slide."
+            },
+            {
+              "text": "A contact fundus lens doesn't need corneal anaesthesia because of the viscous coupling solution",
+              "correct": false,
+              "feedback": "Topical anaesthetic is part of the procedure."
+            },
+            {
+              "text": "Scleral indentation is indicated in active retinal detachment only",
+              "correct": false,
+              "feedback": "There are many indications, e.g. symptoms, tobacco dust, high myopia, previous detachment."
+            },
+            {
+              "text": "During scleral indentation the patient must look away from the indenter",
+              "correct": false,
+              "feedback": "They look away while the indenter is placed, then towards it."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 24)."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Peripheral fundus examination to me step by step, then quiz me on it."
+    },
+    {
+      "id": "peg-pupils",
+      "title": "Pupils: testing and anomalies",
+      "summary": "A few quick tests (size in light and dark, direct and consensual responses, swinging flashlight, near response) sort pupil anomalies into afferent and efferent problems, and pick out the ones that need urgent referral.",
+      "keyPoints": [
+        "Normal: equal, round, 2–4 mm in bright light and 4–8 mm in dim; smaller with age; not affected by sex, iris colour or refractive error.",
+        "Afferent defects (retina to pretectal area) cause an RAPD but not anisocoria. Efferent defects cause anisocoria but not an RAPD.",
+        "Swinging flashlight test: 2–3 seconds per eye, switching quickly; the eye with an RAPD dilates when lit. Cataract and refractive error never cause an RAPD.",
+        "No condition affects the near response while sparing the light response. Light-near dissociation: Adie's, Argyll Robertson, Parinaud's.",
+        "Anisocoria worse in bright light: parasympathetic (larger pupil abnormal, e.g. third nerve palsy, Adie's). Worse in the dark: sympathetic (smaller pupil abnormal, Horner's).",
+        "Physiological anisocoria (about 20% of people): usually under 1 mm, the same in light and dark, long-standing, normal reflexes.",
+        "Painful third nerve palsy with a dilated pupil: refer immediately (posterior communicating artery aneurysm). Acute change in pupil shape: refer immediately."
+      ],
+      "examTraps": [
+        "Saying an RAPD comes with anisocoria. The consensual response keeps the pupils equal.",
+        "Calling Horner's a parasympathetic problem, or saying it is often bilateral.",
+        "Holding the light on each eye for less than 2–3 seconds during the swinging flashlight test, the commonest error."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Drug tests",
+          "body": "Pilocarpine 0.1% constricts an Adie's pupil (denervation supersensitivity) but not a pupil involved in third nerve palsy. Cocaine 4% blocks noradrenaline reuptake: it dilates a normal small pupil but has little effect on a Horner's pupil."
+        },
+        {
+          "heading": "Horner's syndrome",
+          "body": "Mild ptosis (Müller's muscle), raised lower lid, miosis with dilation lag, normal light and near responses, reduced sweating on that side, and iris heterochromia if congenital. Causes include a Pancoast tumour, carotid aneurysm or dissection, and neck lesions. Refer to ophthalmology or neurology."
+        },
+        {
+          "heading": "Recording examples",
+          "body": "Normal: PERRLA D+C, no RAPD, brisk, 4 mm R and L. Physiological anisocoria: round, reactive D+C and near, no RAPD, R 4 mm, L 3.5 mm. RAPD: RAPD +ve LE 0.4 log (quantified with ND filters)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "PERRLA",
+          "back": "Pupils Equal, Round, Reactive to Light and Accommodation."
+        },
+        {
+          "front": "Afferent versus efferent rule of thumb",
+          "back": "Afferent: RAPD, no anisocoria. Efferent: anisocoria, no RAPD."
+        },
+        {
+          "front": "Argyll Robertson pupils",
+          "back": "Small, irregular, usually both eyes; light-near dissociation; neurosyphilis."
+        },
+        {
+          "front": "Absolute pupillary defect",
+          "back": "A blind eye: no direct response, and light in it gives no consensual response in the other eye. Light in the good eye constricts both."
+        },
+        {
+          "front": "Parasympathetic pupil pathway",
+          "back": "Four neurons: retina to pretectal nucleus, to both Edinger-Westphal nuclei, via III to the ciliary ganglion, then short ciliary nerves to the sphincter."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "peg-pup-1",
+          "q": "Which statement is INCORRECT?",
+          "options": [
+            {
+              "text": "Both afferent and efferent pupillary defects cause an RAPD",
+              "correct": true,
+              "feedback": "Incorrect: only afferent defects cause an RAPD."
+            },
+            {
+              "text": "Dilation happens more slowly than constriction",
+              "correct": false,
+              "feedback": "Correct."
+            },
+            {
+              "text": "No pupil abnormality affects the near response while leaving the light response normal",
+              "correct": false,
+              "feedback": "Correct."
+            },
+            {
+              "text": "Afferent defects don't cause anisocoria",
+              "correct": false,
+              "feedback": "Correct."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 39)."
+        },
+        {
+          "id": "peg-pup-2",
+          "q": "Which statement is CORRECT?",
+          "options": [
+            {
+              "text": "About 20% of the population have physiological anisocoria",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The swinging flashlight test detects all pupil defects",
+              "correct": false,
+              "feedback": "It detects afferent defects (RAPD) only."
+            },
+            {
+              "text": "The parasympathetic supply has three neurons",
+              "correct": false,
+              "feedback": "It has four; the sympathetic has three."
+            },
+            {
+              "text": "All anisocoria over 1 mm is pathological",
+              "correct": false,
+              "feedback": "About 5% of people have a physiological difference over 1 mm."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 40)."
+        },
+        {
+          "id": "peg-pup-3",
+          "q": "Which is true of Horner's syndrome?",
+          "options": [
+            {
+              "text": "Topical cocaine 4% is a good diagnostic test",
+              "correct": true,
+              "feedback": "Yes: it barely dilates a Horner's pupil."
+            },
+            {
+              "text": "It is often bilateral",
+              "correct": false,
+              "feedback": "It is unilateral."
+            },
+            {
+              "text": "The pupils react abnormally to light and near",
+              "correct": false,
+              "feedback": "Light and near responses are normal; there's a dilation lag."
+            },
+            {
+              "text": "It results from a disrupted parasympathetic pathway",
+              "correct": false,
+              "feedback": "It's sympathetic."
+            }
+          ],
+          "explanation": "Lecture MCQ (slide 41)."
+        },
+        {
+          "id": "peg-pup-4",
+          "q": "Which statement about Adie's tonic pupil is TRUE?",
+          "options": [
+            {
+              "text": "It has a prevalence of about 2 per 1,000",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It is caused by sympathetic denervation at the superior cervical ganglion",
+              "correct": false,
+              "feedback": "It is parasympathetic denervation at the ciliary ganglion."
+            },
+            {
+              "text": "It most commonly affects men over 60",
+              "correct": false,
+              "feedback": "Most often women aged 20 to 40."
+            },
+            {
+              "text": "It usually needs urgent neurological referral",
+              "correct": false,
+              "feedback": "It is usually idiopathic and needs no referral."
+            },
+            {
+              "text": "It is mainly caused by retinal trauma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "AaM week 6 test-your-knowledge MCQ and answer sheet."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "AaM week 6 short-answer question on RAPD.",
+          "question": "Name the test for an RAPD [1] and give two possible causes [1].",
+          "modelAnswer": "The swinging flashlight test [1; 'pupil reactions' doesn't score]. Any two causes for 0.5 each, e.g. optic neuritis, retinal detachment, severe glaucoma, trauma (also AION, CRVO, compressive optic neuropathy)."
+        },
+        {
+          "scenario": "AaM week 6 short-answer question on anisocoria.",
+          "question": "Explain 'physiological anisocoria' [1] and give two features that would reassure you it's physiological [1].",
+          "modelAnswer": "A normal, benign difference in pupil size, usually under 1 mm, not caused by disease [1]. Reassuring features (0.5 each): the same difference in bright and dim light; a small difference (under 1 mm); normal light reflexes. Long-standing (old photos) also helps."
+        }
+      ],
+      "links": [],
+      "askClaude": "Explain Pupils: testing and anomalies to me step by step, then quiz me on it."
+    },
+    {
+      "id": "peg-visual-fields",
+      "title": "Visual fields and where defects come from",
+      "summary": "The visual field maps onto the retina and visual pathway in an orderly way, so the shape of a defect and whether it matches between the eyes tells you roughly where the lesion is.",
+      "keyPoints": [
+        "Normal monocular field: about 60° superior and nasal, 70° inferior, 100° temporal. Central field is 0–30°.",
+        "Physiological blind spot: 15° temporal to fixation, 1.5° below the horizontal, 5.5° wide and 7.5° high.",
+        "Scotoma: focal loss, relative or absolute. Diffuse loss is a general depression of the hill of vision.",
+        "Retinal nerve fibre lesions (e.g. glaucoma) give arcuate scotomas and nasal steps that respect the horizontal midline.",
+        "At the chiasm nasal fibres cross and temporal fibres don't. Pituitary adenoma, the commonest compressive lesion, gives bitemporal loss, often upper temporal first; a junctional scotoma comes from compression near Wilbrand's knee.",
+        "Lesions behind the chiasm give homonymous defects that respect the vertical midline and get more congruent the further back they are.",
+        "Stroke: a half to three-quarters of victims get field loss, most often homonymous hemianopia; any recovery is usually within a month.",
+        "Kinetic perimetry (moving target, about 4°/s) maps isopters; static perimetry (fixed positions, brightness varied) is more sensitive to shallow and small defects.",
+        "1 dB = 0.1 log unit; 0 dB is the brightest stimulus. Full threshold (4-2 dB staircase) quantifies; suprathreshold (about 5 dB above expected) screens but can miss shallow defects.",
+        "Grids: 24-2 or 30-2 (6° spacing) for glaucoma and neurology; 10-2 (2° spacing) for macular disease; Esterman for driving (UK: 120° horizontal).",
+        "SITA (Humphrey) uses Bayesian prediction: SITA Standard is as accurate as full threshold in about 7 minutes; SITA Fast matches FASTPAC in about 4. ZATA and GATE can start from previous results.",
+        "Reliability: fixation losses (blind spot checks or gaze tracking), false negatives (inflate loss) and false positives (hide loss).",
+        "Unreliable field: fixation losses over 20%, false negatives over 33% or false positives over 33%.",
+        "MD (mean deviation) reflects diffuse loss (e.g. cataract); PSD and CPSD reflect focal loss (e.g. glaucoma); beyond about ±2 dB is usually abnormal.",
+        "Total deviation shows all loss; pattern deviation removes general depression to show focal loss. The glaucoma hemifield test compares mirror-image upper and lower sectors."
+      ],
+      "examTraps": [
+        "Forgetting the field is inverted and reversed on the retina: superior retinal damage gives an inferior field defect.",
+        "Expecting a homonymous defect from a lesion in front of the chiasm.",
+        "Relying on confrontation to rule out field loss: its sensitivity is only about 63%.",
+        "Comparing dB values between different perimeters: the scales aren't the same."
+      ],
+      "goDeeper": [
+        {
+          "heading": "Chiasmal tumours",
+          "body": "Pituitary adenomas press from below: 6 mm of chiasmal elevation causes field defects in about half of cases and 11 mm in about 90%. Craniopharyngiomas, common in children, press from above and affect the superior nasal fibres first (inferior temporal field). Tuberculum sellae meningiomas mimic prefixed pituitary tumours."
+        },
+        {
+          "heading": "Macular sparing",
+          "body": "About 80% of striate cortex represents the central 30°. Occipital lesions can spare the macula, which is hard to show with a 30-2 grid (6° spacing); use a 10-2 grid (2° spacing) or an Amsler chart."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Homonymous versus heteronymous",
+          "back": "Homonymous: the same side of the field in both eyes (behind the chiasm). Heteronymous: opposite sides (e.g. bitemporal, at the chiasm)."
+        },
+        {
+          "front": "Commonest compressive chiasmal lesion",
+          "back": "Pituitary adenoma: bitemporal loss, reduced VA, disc pallor, colour defects."
+        },
+        {
+          "front": "Congruence",
+          "back": "How closely homonymous defects match between the eyes: more congruent the further back the lesion."
+        },
+        {
+          "front": "Optic disc drusen field defects",
+          "back": "Enlarged blind spot and inferonasal arcuate defects."
+        },
+        {
+          "front": "Full threshold versus fast strategy",
+          "back": "Full threshold: two crossings (4 then 2 dB), about 13 minutes an eye, more reproducible. Fast: one crossing (3 dB), about 8 minutes, more variable."
+        },
+        {
+          "front": "Limitations of the Esterman test",
+          "back": "A fixed 10 dB stimulus not adjusted for eccentricity or age."
+        },
+        {
+          "front": "Effect of +4.00 D defocus on perimetry",
+          "back": "Sensitivity falls by about 6 dB."
+        },
+        {
+          "front": "Unsuitable corrections for perimetry",
+          "back": "Bifocals, trifocals, varifocals and tinted lenses; reduced-aperture trial lenses."
+        },
+        {
+          "front": "Steps to read a full-threshold printout",
+          "back": "Reliability, greyscale, global indices, total and pattern deviation maps, glaucoma hemifield test, then a diagnosis."
+        },
+        {
+          "front": "Learning effect",
+          "back": "Fields often improve at the second test as the patient gets used to it; don't mistake it for real change."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "peg-vf-1",
+          "q": "A bitemporal hemianopia most likely comes from a lesion at the",
+          "options": [
+            {
+              "text": "optic chiasm",
+              "correct": true,
+              "feedback": "Yes: crossing nasal fibres carry the temporal fields."
+            },
+            {
+              "text": "optic tract",
+              "correct": false,
+              "feedback": "That gives an incongruous homonymous defect."
+            },
+            {
+              "text": "occipital cortex",
+              "correct": false,
+              "feedback": "That gives a congruous homonymous defect."
+            },
+            {
+              "text": "retinal nerve fibre layer",
+              "correct": false,
+              "feedback": "That gives arcuate defects respecting the horizontal."
+            }
+          ],
+          "explanation": "Slides 25–33."
+        },
+        {
+          "id": "peg-vf-2",
+          "q": "Which defect respects the horizontal midline?",
+          "options": [
+            {
+              "text": "A nasal step from glaucoma",
+              "correct": true,
+              "feedback": "Yes: nerve fibres don't cross the horizontal raphe."
+            },
+            {
+              "text": "A homonymous hemianopia",
+              "correct": false,
+              "feedback": "That respects the vertical midline."
+            },
+            {
+              "text": "A bitemporal hemianopia",
+              "correct": false,
+              "feedback": "That respects the vertical midline."
+            },
+            {
+              "text": "A junctional scotoma",
+              "correct": false,
+              "feedback": "That respects the vertical midline."
+            }
+          ],
+          "explanation": "Slides 14–19."
+        },
+        {
+          "id": "peg-vf2-1",
+          "q": "Which perimetry strategy is best for screening quickly?",
+          "options": [
+            {
+              "text": "Suprathreshold",
+              "correct": true,
+              "feedback": "Yes: many points quickly, set about 5 dB above the expected threshold."
+            },
+            {
+              "text": "Full threshold",
+              "correct": false,
+              "feedback": "That quantifies the field and takes longer."
+            },
+            {
+              "text": "Kinetic Goldmann",
+              "correct": false,
+              "feedback": "Manual and slow."
+            },
+            {
+              "text": "Confrontation",
+              "correct": false,
+              "feedback": "Too insensitive to screen."
+            }
+          ],
+          "explanation": "Visual fields 2, slides 11–13."
+        },
+        {
+          "id": "peg-vf4-1",
+          "q": "A field shows a raised (more negative) MD, normal PSD and a generally depressed total deviation map. Most likely?",
+          "options": [
+            {
+              "text": "Cataract",
+              "correct": true,
+              "feedback": "Yes: diffuse loss without focal loss."
+            },
+            {
+              "text": "Early glaucoma",
+              "correct": false,
+              "feedback": "That shows focal loss and a raised PSD."
+            },
+            {
+              "text": "Homonymous quadrantanopia",
+              "correct": false,
+              "feedback": "That's focal and respects the vertical midline."
+            },
+            {
+              "text": "Vigabatrin toxicity",
+              "correct": false,
+              "feedback": "That gives peripheral constriction."
+            }
+          ],
+          "explanation": "Visual fields 4, cataract example (slide 26)."
+        }
+      ],
+      "cases": [],
+      "links": [],
+      "askClaude": "Explain Visual fields and where defects come from to me step by step, then quiz me on it."
     }
   ]
 }
