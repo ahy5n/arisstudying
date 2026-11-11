@@ -648,6 +648,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0311",
+          "q": "What are the two main systems of a slit lamp?",
+          "options": [
+            {
+              "text": "An illumination system and an observation microscope",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A tonometer and a camera",
+              "correct": false,
+              "feedback": "Optional extras."
+            },
+            {
+              "text": "A focimeter and a lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A projector and a chart",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0312",
+          "q": "Why are the illumination and microscope usually coupled?",
+          "options": [
+            {
+              "text": "So both focus on the same point",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save space",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To fog",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They're never coupled",
+              "correct": false,
+              "feedback": "They usually are."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0313",
+          "q": "A typical slit lamp magnification range is about",
+          "options": [
+            {
+              "text": "6× to 40×",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1× to 2×",
+              "correct": false,
+              "feedback": "Too low."
+            },
+            {
+              "text": "100× to 400×",
+              "correct": false,
+              "feedback": "Microscope range."
+            },
+            {
+              "text": "1,000×",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0314",
+          "q": "Before using the slit lamp, you should",
+          "options": [
+            {
+              "text": "focus each eyepiece for your own eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dilate the patient",
+              "correct": false,
+              "feedback": "Not routinely."
+            },
+            {
+              "text": "dim nothing",
+              "correct": false,
+              "feedback": "Dim the room."
+            },
+            {
+              "text": "remove the chin rest",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0315",
+          "q": "How is the patient positioned correctly?",
+          "options": [
+            {
+              "text": "Chin on the rest, forehead against the band, canthus at the height mark",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Leaning back",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Standing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Any position",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0316",
+          "q": "The neutral density filter is used to",
+          "options": [
+            {
+              "text": "reduce light intensity without changing colour",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "add colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "show fluorescein",
+              "correct": false,
+              "feedback": "Cobalt."
+            },
+            {
+              "text": "show vessels",
+              "correct": false,
+              "feedback": "Red-free."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0317",
+          "q": "Sclerotic scatter works by",
+          "options": [
+            {
+              "text": "total internal reflection of light within the cornea from the limbus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "reflection from the iris",
+              "correct": false,
+              "feedback": "That's retro."
+            },
+            {
+              "text": "reflection from the endothelium",
+              "correct": false,
+              "feedback": "Specular."
+            },
+            {
+              "text": "fluorescence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0318",
+          "q": "Sclerotic scatter is best viewed",
+          "options": [
+            {
+              "text": "at low magnification or with the naked eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "at 40×",
+              "correct": false,
+              "feedback": "Too high."
+            },
+            {
+              "text": "through the cobalt filter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "with fluorescein",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0319",
+          "q": "In specular reflection, the angle of incidence",
+          "options": [
+            {
+              "text": "equals the angle of reflection",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "is 0°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "is 90°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03110",
+          "q": "Healthy endothelial cells look",
+          "options": [
+            {
+              "text": "roughly hexagonal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "round",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "square",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "triangular",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03111",
+          "q": "Typical young adult endothelial cell density is about",
+          "options": [
+            {
+              "text": "2,500–3,000 cells/mm²",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "500",
+              "correct": false,
+              "feedback": "Too low."
+            },
+            {
+              "text": "10,000",
+              "correct": false,
+              "feedback": "Too high."
+            },
+            {
+              "text": "50",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03112",
+          "q": "With age, endothelial cell density",
+          "options": [
+            {
+              "text": "falls",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "rises",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "stays the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "doubles",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03113",
+          "q": "Variation in endothelial cell size is",
+          "options": [
+            {
+              "text": "polymegethism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "pleomorphism",
+              "correct": false,
+              "feedback": "Shape variation."
+            },
+            {
+              "text": "guttata",
+              "correct": false,
+              "feedback": "Excrescences."
+            },
+            {
+              "text": "microcysts",
+              "correct": false,
+              "feedback": "Epithelial."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03114",
+          "q": "Variation in endothelial cell shape is",
+          "options": [
+            {
+              "text": "pleomorphism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "polymegethism",
+              "correct": false,
+              "feedback": "Size."
+            },
+            {
+              "text": "blebs",
+              "correct": false,
+              "feedback": "Acute response."
+            },
+            {
+              "text": "oedema",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03115",
+          "q": "Retro-illumination views a structure",
+          "options": [
+            {
+              "text": "lit from behind by light reflected from a deeper structure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "directly lit",
+              "correct": false,
+              "feedback": "Direct."
+            },
+            {
+              "text": "with fluorescein",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "with a mirror only",
+              "correct": false,
+              "feedback": "Specular."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03116",
+          "q": "In marginal retro-illumination you look",
+          "options": [
+            {
+              "text": "at the edge between a bright and dark background",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "directly at the beam",
+              "correct": false,
+              "feedback": "Direct."
+            },
+            {
+              "text": "away from the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "with your eyes closed",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03117",
+          "q": "AC cells are graded (SUN) using a beam of",
+          "options": [
+            {
+              "text": "1 mm by 1 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "10 mm by 10 mm",
+              "correct": false,
+              "feedback": "Too big."
+            },
+            {
+              "text": "0.1 mm by 0.1 mm",
+              "correct": false,
+              "feedback": "Too small."
+            },
+            {
+              "text": "any size",
+              "correct": false,
+              "feedback": "Standardised."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03118",
+          "q": "Which Purkinje image is the brightest?",
+          "options": [
+            {
+              "text": "Purkinje I, from the anterior cornea",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Purkinje IV",
+              "correct": false,
+              "feedback": "Dim."
+            },
+            {
+              "text": "Purkinje II",
+              "correct": false,
+              "feedback": "Dim."
+            },
+            {
+              "text": "Purkinje III",
+              "correct": false,
+              "feedback": "Dim."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03119",
+          "q": "Which Purkinje image is inverted?",
+          "options": [
+            {
+              "text": "Purkinje IV, from the back of the lens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Purkinje I",
+              "correct": false,
+              "feedback": "Upright."
+            },
+            {
+              "text": "Purkinje II",
+              "correct": false,
+              "feedback": "Upright."
+            },
+            {
+              "text": "Purkinje III",
+              "correct": false,
+              "feedback": "Upright."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03120",
+          "q": "In an optic section of the lens, you can see",
+          "options": [
+            {
+              "text": "zones of discontinuity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the angle",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the optic disc",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03121",
+          "q": "Why should slit lamp exposure be limited?",
+          "options": [
+            {
+              "text": "Bright light is uncomfortable and has light-hazard limits",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save electricity",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not",
+              "correct": false,
+              "feedback": "It should be."
+            },
+            {
+              "text": "To dilate",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03122",
+          "q": "Some slit lamps light from above, others from below. Which brand lights from above?",
+          "options": [
+            {
+              "text": "Haag-Streit style",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Zeiss style",
+              "correct": false,
+              "feedback": "Usually from below."
+            },
+            {
+              "text": "Neither",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Both from the side",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03123",
+          "q": "A heat-absorbing filter",
+          "options": [
+            {
+              "text": "protects the eye from infrared heat",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "shows fluorescein",
+              "correct": false,
+              "feedback": "Cobalt."
+            },
+            {
+              "text": "shows vessels",
+              "correct": false,
+              "feedback": "Red-free."
+            },
+            {
+              "text": "dims light",
+              "correct": false,
+              "feedback": "ND filter."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03124",
+          "q": "Which technique best shows corneal nerves?",
+          "options": [
+            {
+              "text": "Direct focal or retro-illumination at high magnification",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Diffuse at low magnification",
+              "correct": false,
+              "feedback": "Too coarse."
+            },
+            {
+              "text": "Cobalt with fluorescein",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Sclerotic scatter only",
+              "correct": false,
+              "feedback": "Not ideal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03125",
+          "q": "To see corneal oedema across the whole cornea, try",
+          "options": [
+            {
+              "text": "sclerotic scatter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "specular reflection only",
+              "correct": false,
+              "feedback": "Small area."
+            },
+            {
+              "text": "red-free",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "conical beam",
+              "correct": false,
+              "feedback": "AC."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03126",
+          "q": "A conical beam needs",
+          "options": [
+            {
+              "text": "a dark room and high magnification",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "bright room lights",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "low magnification",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "fluorescein",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03127",
+          "q": "Iris transillumination defects look like",
+          "options": [
+            {
+              "text": "bright red patches in retro-illumination",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dark spots",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "green dots",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "They're visible."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03128",
+          "q": "Which illumination helps see a corneal scar's extent and depth?",
+          "options": [
+            {
+              "text": "An optic section",
+              "correct": true,
+              "feedback": "Yes, for depth."
+            },
+            {
+              "text": "Diffuse only",
+              "correct": false,
+              "feedback": "Not depth."
+            },
+            {
+              "text": "Red-free only",
+              "correct": false,
+              "feedback": "Vessels."
+            },
+            {
+              "text": "Cobalt only",
+              "correct": false,
+              "feedback": "Staining."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03129",
+          "q": "Why decouple the illumination for retro-illumination?",
+          "options": [
+            {
+              "text": "To light the structure from behind while focusing in front",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To fog",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To dilate",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's never decoupled",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x03130",
+          "q": "The joystick moves the slit lamp",
+          "options": [
+            {
+              "text": "forwards, backwards and sideways, with a twist for height",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only up",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only forwards",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "not at all",
+              "correct": false,
+              "feedback": "It moves."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1285,6 +2095,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0311",
+          "q": "What's examined first in a slit lamp exam?",
+          "options": [
+            {
+              "text": "External structures: face, lids and lashes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The lens",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "The AC",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "The retina",
+              "correct": false,
+              "feedback": "Not with routine slit lamp."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0312",
+          "q": "Loss of lashes is called",
+          "options": [
+            {
+              "text": "madarosis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "trichiasis",
+              "correct": false,
+              "feedback": "Misdirected."
+            },
+            {
+              "text": "distichiasis",
+              "correct": false,
+              "feedback": "Extra row."
+            },
+            {
+              "text": "ptosis",
+              "correct": false,
+              "feedback": "Lid droop."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0313",
+          "q": "Which lid margin sign suggests rosacea or MGD?",
+          "options": [
+            {
+              "text": "Telangiectasia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Follicles",
+              "correct": false,
+              "feedback": "Conjunctiva."
+            },
+            {
+              "text": "Guttata",
+              "correct": false,
+              "feedback": "Endothelium."
+            },
+            {
+              "text": "Arcus",
+              "correct": false,
+              "feedback": "Cornea."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0314",
+          "q": "Palisades of Vogt are found at the",
+          "options": [
+            {
+              "text": "limbus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "iris",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "lid margin",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0315",
+          "q": "Which corneal layer lies directly beneath the epithelium?",
+          "options": [
+            {
+              "text": "Bowman's layer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Descemet's membrane",
+              "correct": false,
+              "feedback": "Deeper."
+            },
+            {
+              "text": "Endothelium",
+              "correct": false,
+              "feedback": "Innermost."
+            },
+            {
+              "text": "Stroma",
+              "correct": false,
+              "feedback": "After Bowman's."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0316",
+          "q": "Which corneal layer is the thickest?",
+          "options": [
+            {
+              "text": "The stroma",
+              "correct": true,
+              "feedback": "Yes, about 90%."
+            },
+            {
+              "text": "The epithelium",
+              "correct": false,
+              "feedback": "Thin."
+            },
+            {
+              "text": "Bowman's layer",
+              "correct": false,
+              "feedback": "Thin."
+            },
+            {
+              "text": "Endothelium",
+              "correct": false,
+              "feedback": "One cell thick."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0317",
+          "q": "Corneal sensitivity can be measured with",
+          "options": [
+            {
+              "text": "a Cochet-Bonnet aesthesiometer (or a cotton wisp)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a tonometer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a focimeter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a pupillometer",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0318",
+          "q": "A grey-white ring near the limbus in an older patient is likely",
+          "options": [
+            {
+              "text": "arcus senilis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a corneal ulcer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pterygium",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x0319",
+          "q": "Arcus in a patient under about 40 should prompt",
+          "options": [
+            {
+              "text": "advice to check cholesterol with the GP",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Consider."
+            },
+            {
+              "text": "urgent referral",
+              "correct": false,
+              "feedback": "Not urgent."
+            },
+            {
+              "text": "glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03110",
+          "q": "Corneal guttata are seen at the",
+          "options": [
+            {
+              "text": "endothelium",
+              "correct": true,
+              "feedback": "Yes, e.g. in Fuchs' dystrophy."
+            },
+            {
+              "text": "epithelium",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Bowman's layer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "iris",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03111",
+          "q": "A vertical line of pigment on the endothelium is a",
+          "options": [
+            {
+              "text": "Krukenberg spindle",
+              "correct": true,
+              "feedback": "Yes: pigment dispersion."
+            },
+            {
+              "text": "guttata",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "KP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "arcus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03112",
+          "q": "Keratic precipitates are",
+          "options": [
+            {
+              "text": "inflammatory cells on the endothelium",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "pigment on the lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "tear debris",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03113",
+          "q": "Large greasy 'mutton fat' KPs suggest",
+          "options": [
+            {
+              "text": "granulomatous uveitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "non-granulomatous uveitis",
+              "correct": false,
+              "feedback": "Fine KPs."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03114",
+          "q": "Iris stuck to the lens is called",
+          "options": [
+            {
+              "text": "posterior synechia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "anterior synechia",
+              "correct": false,
+              "feedback": "Iris to cornea/angle."
+            },
+            {
+              "text": "rubeosis",
+              "correct": false,
+              "feedback": "Vessels."
+            },
+            {
+              "text": "coloboma",
+              "correct": false,
+              "feedback": "Defect."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03115",
+          "q": "New vessels on the iris (rubeosis) suggest",
+          "options": [
+            {
+              "text": "ischaemic retinal disease such as diabetes or CRVO",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal ageing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03116",
+          "q": "White flaky material on the lens capsule suggests",
+          "options": [
+            {
+              "text": "pseudoexfoliation, a glaucoma risk",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cataract only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03117",
+          "q": "Pigment cells in the anterior vitreous ('tobacco dust') suggest",
+          "options": [
+            {
+              "text": "a retinal tear",
+              "correct": true,
+              "feedback": "Yes: Shafer's sign."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03118",
+          "q": "Why examine the puncta?",
+          "options": [
+            {
+              "text": "Blocked or misplaced puncta cause watering",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03119",
+          "q": "Different-coloured irides are called",
+          "options": [
+            {
+              "text": "heterochromia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "anisocoria",
+              "correct": false,
+              "feedback": "Pupils."
+            },
+            {
+              "text": "aniridia",
+              "correct": false,
+              "feedback": "No iris."
+            },
+            {
+              "text": "coloboma",
+              "correct": false,
+              "feedback": "Defect."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03120",
+          "q": "An iris naevus should be",
+          "options": [
+            {
+              "text": "recorded, photographed and monitored",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "removed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "Monitor."
+            },
+            {
+              "text": "referred urgently always",
+              "correct": false,
+              "feedback": "Only if suspicious."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03121",
+          "q": "A pinguecula is",
+          "options": [
+            {
+              "text": "a yellowish degenerative conjunctival lesion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a corneal ulcer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a tumour always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a lid lump",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03122",
+          "q": "Why evert the upper lid if indicated?",
+          "options": [
+            {
+              "text": "To examine the upper tarsal conjunctiva",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To see the lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's never done",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03123",
+          "q": "Why use a consistent colour code on drawings?",
+          "options": [
+            {
+              "text": "So findings are clear to anyone reading them",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For decoration",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To save ink",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03124",
+          "q": "A patient's normal anterior eye should be recorded as",
+          "options": [
+            {
+              "text": "specific normal findings, not just 'normal'",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Record it."
+            },
+            {
+              "text": "'fine'",
+              "correct": false,
+              "feedback": "Not specific."
+            },
+            {
+              "text": "a guess",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03125",
+          "q": "What should you do if you find something unexpected?",
+          "options": [
+            {
+              "text": "Record it, compare with the other eye and decide on action",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hide it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tell no one",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03126",
+          "q": "Why check the lid position?",
+          "options": [
+            {
+              "text": "Ptosis, retraction, ectropion or entropion can cause problems",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For appearance only",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03127",
+          "q": "Ectropion means the lid",
+          "options": [
+            {
+              "text": "turns outwards",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "turns inwards",
+              "correct": false,
+              "feedback": "Entropion."
+            },
+            {
+              "text": "droops",
+              "correct": false,
+              "feedback": "Ptosis."
+            },
+            {
+              "text": "is missing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03128",
+          "q": "Blepharospasm is",
+          "options": [
+            {
+              "text": "involuntary lid closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "lid swelling",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "lash loss",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a lid lump",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03129",
+          "q": "A slit lamp exam should end with",
+          "options": [
+            {
+              "text": "recording findings and explaining them to the patient",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Record."
+            },
+            {
+              "text": "dilating everyone",
+              "correct": false,
+              "feedback": "Not routine."
+            },
+            {
+              "text": "IOP always",
+              "correct": false,
+              "feedback": "When indicated."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-systematic-exam-x03130",
+          "q": "Why examine both eyes even if only one has symptoms?",
+          "options": [
+            {
+              "text": "To compare and catch problems in the other eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1901,6 +3521,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0311",
+          "q": "In Shaffer gonioscopy grading, grade 4 means",
+          "options": [
+            {
+              "text": "a wide-open angle (about 35–45°) with the ciliary body visible",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "closed",
+              "correct": false,
+              "feedback": "Grade 0."
+            },
+            {
+              "text": "slit angle",
+              "correct": false,
+              "feedback": "Grade 1 or slit."
+            },
+            {
+              "text": "narrow",
+              "correct": false,
+              "feedback": "Lower grades."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0312",
+          "q": "In Shaffer grading, grade 0 means",
+          "options": [
+            {
+              "text": "a closed angle",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "wide open",
+              "correct": false,
+              "feedback": "Grade 4."
+            },
+            {
+              "text": "moderately open",
+              "correct": false,
+              "feedback": "Grade 3."
+            },
+            {
+              "text": "narrow but open",
+              "correct": false,
+              "feedback": "Grade 1–2."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0313",
+          "q": "Which angle structure is posterior to the scleral spur?",
+          "options": [
+            {
+              "text": "The ciliary body band",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Schwalbe's line",
+              "correct": false,
+              "feedback": "Most anterior."
+            },
+            {
+              "text": "Trabecular meshwork",
+              "correct": false,
+              "feedback": "Anterior to the spur."
+            },
+            {
+              "text": "Cornea",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0314",
+          "q": "The pigmented part of the trabecular meshwork is",
+          "options": [
+            {
+              "text": "the posterior part, where most outflow happens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the anterior part",
+              "correct": false,
+              "feedback": "Less pigmented."
+            },
+            {
+              "text": "Schwalbe's line",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the iris",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0315",
+          "q": "What's a limitation of van Herick?",
+          "options": [
+            {
+              "text": "It estimates only the peripheral chamber and can miss plateau iris",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's invasive",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It needs drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's always exact",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0316",
+          "q": "The Smith method estimates",
+          "options": [
+            {
+              "text": "central anterior chamber depth",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "peripheral depth",
+              "correct": false,
+              "feedback": "That's van Herick."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "corneal thickness",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0317",
+          "q": "A typical central anterior chamber depth is about",
+          "options": [
+            {
+              "text": "3 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "0.3 mm",
+              "correct": false,
+              "feedback": "Too shallow."
+            },
+            {
+              "text": "10 mm",
+              "correct": false,
+              "feedback": "Too deep."
+            },
+            {
+              "text": "1 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0318",
+          "q": "Why does the anterior chamber get shallower with age?",
+          "options": [
+            {
+              "text": "The crystalline lens grows",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The cornea thickens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The iris shrinks",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x0319",
+          "q": "Which eye shape raises the risk of angle closure?",
+          "options": [
+            {
+              "text": "A short axial length (hyperopia)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A long axial length (myopia)",
+              "correct": false,
+              "feedback": "Lower risk."
+            },
+            {
+              "text": "Normal length",
+              "correct": false,
+              "feedback": "Lower risk."
+            },
+            {
+              "text": "Shape doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03110",
+          "q": "Which group has a higher risk of angle closure?",
+          "options": [
+            {
+              "text": "East Asian people",
+              "correct": true,
+              "feedback": "Yes, also Inuit people."
+            },
+            {
+              "text": "Young men",
+              "correct": false,
+              "feedback": "Lower risk."
+            },
+            {
+              "text": "Myopes",
+              "correct": false,
+              "feedback": "Lower risk."
+            },
+            {
+              "text": "Children",
+              "correct": false,
+              "feedback": "Lower risk."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03111",
+          "q": "Laser peripheral iridotomy treats angle closure by",
+          "options": [
+            {
+              "text": "letting aqueous bypass the pupil",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "lowering IOP with drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "removing the lens",
+              "correct": false,
+              "feedback": "That's lens extraction."
+            },
+            {
+              "text": "reshaping the cornea",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03112",
+          "q": "Which trial supported clear lens extraction for primary angle closure?",
+          "options": [
+            {
+              "text": "EAGLE",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "AREDS",
+              "correct": false,
+              "feedback": "Supplements."
+            },
+            {
+              "text": "CITT",
+              "correct": false,
+              "feedback": "Convergence."
+            },
+            {
+              "text": "PEDIG",
+              "correct": false,
+              "feedback": "Amblyopia."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03113",
+          "q": "Which drug can trigger bilateral angle closure?",
+          "options": [
+            {
+              "text": "Topiramate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Paracetamol",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Antacids",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Statins",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03114",
+          "q": "Intermittent haloes and headaches in the evening suggest",
+          "options": [
+            {
+              "text": "subacute (intermittent) angle closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "migraine only",
+              "correct": false,
+              "feedback": "Consider closure first."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03115",
+          "q": "In acute angle closure, the IOP is typically",
+          "options": [
+            {
+              "text": "very high, often above 40 mmHg",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "low",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "15 mmHg",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03116",
+          "q": "In acute angle closure, the cornea is often",
+          "options": [
+            {
+              "text": "hazy from oedema",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "perfectly clear",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "stained in a dendrite",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "thinned",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03117",
+          "q": "Where does the pen torch shine from in the pen torch angle test?",
+          "options": [
+            {
+              "text": "The temporal side, looking for shadow on the nasal iris",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "From above",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "From the nasal side",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Straight on",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03118",
+          "q": "Which imaging shows the angle without contact?",
+          "options": [
+            {
+              "text": "Anterior segment OCT",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Gonioscopy",
+              "correct": false,
+              "feedback": "Contact."
+            },
+            {
+              "text": "UBM",
+              "correct": false,
+              "feedback": "Usually needs an immersion bath."
+            },
+            {
+              "text": "Focimetry",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03119",
+          "q": "UBM stands for",
+          "options": [
+            {
+              "text": "ultrasound biomicroscopy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "ultra-bright microscope",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "universal binocular meter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "unit of base measurement",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03120",
+          "q": "A primary angle closure suspect has",
+          "options": [
+            {
+              "text": "iridotrabecular contact without raised IOP, PAS or optic neuropathy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "glaucomatous optic neuropathy",
+              "correct": false,
+              "feedback": "PACG."
+            },
+            {
+              "text": "raised IOP only",
+              "correct": false,
+              "feedback": "PAC."
+            },
+            {
+              "text": "a wide-open angle",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03121",
+          "q": "Primary angle closure glaucoma means",
+          "options": [
+            {
+              "text": "angle closure with glaucomatous optic neuropathy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a narrow angle only",
+              "correct": false,
+              "feedback": "PACS."
+            },
+            {
+              "text": "normal IOP always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "open angle",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03122",
+          "q": "Peripheral anterior synechiae are",
+          "options": [
+            {
+              "text": "adhesions of the iris to the angle",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "adhesions of the iris to the lens",
+              "correct": false,
+              "feedback": "Posterior synechiae."
+            },
+            {
+              "text": "blood in the angle",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pigment",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03123",
+          "q": "Is the risk of triggering angle closure with routine dilation high?",
+          "options": [
+            {
+              "text": "It's low, but higher with narrow angles",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Very high for everyone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Zero",
+              "correct": false,
+              "feedback": "Not zero."
+            },
+            {
+              "text": "Only in myopes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03124",
+          "q": "After dilating someone with narrow angles, what should you tell them?",
+          "options": [
+            {
+              "text": "The symptoms of angle closure and to seek urgent help if they occur",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Advise."
+            },
+            {
+              "text": "To drive home",
+              "correct": false,
+              "feedback": "Not until vision clears."
+            },
+            {
+              "text": "To rub their eyes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03125",
+          "q": "Which van Herick grade is often taken as needing gonioscopy before dilation?",
+          "options": [
+            {
+              "text": "Grade 2 or less",
+              "correct": true,
+              "feedback": "Yes, as a common guide."
+            },
+            {
+              "text": "Grade 4",
+              "correct": false,
+              "feedback": "Wide open."
+            },
+            {
+              "text": "Grade 3 only",
+              "correct": false,
+              "feedback": "Usually safe."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Some do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03126",
+          "q": "Plateau iris means",
+          "options": [
+            {
+              "text": "the iris root is pushed forward by the ciliary body despite a normal central AC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a flat iris",
+              "correct": false,
+              "feedback": "Not quite."
+            },
+            {
+              "text": "iris missing",
+              "correct": false,
+              "feedback": "Aniridia."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03127",
+          "q": "Which test shows if the angle can be opened by pressure?",
+          "options": [
+            {
+              "text": "Indentation gonioscopy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Van Herick",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pen torch",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "NCT",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03128",
+          "q": "In acute angle closure, which immediate action is right in practice?",
+          "options": [
+            {
+              "text": "Same-day emergency referral",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Routine referral",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "Dilate",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03129",
+          "q": "Sex is a risk factor: angle closure is more common in",
+          "options": [
+            {
+              "text": "women",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "men",
+              "correct": false,
+              "feedback": "Less."
+            },
+            {
+              "text": "neither",
+              "correct": false,
+              "feedback": "Women."
+            },
+            {
+              "text": "children",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-van-herick-x03130",
+          "q": "Van Herick compares peripheral AC depth with",
+          "options": [
+            {
+              "text": "the corneal thickness at the limbus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the lens thickness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the pupil size",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -2307,30 +4737,29 @@
         },
         {
           "id": "ane-staining-x0153",
-          "q": "Which grading scheme is used for dry eye staining?",
+          "q": "Why record staining with a recognised grading scheme?",
           "options": [
             {
-              "text": "The Oxford scheme",
+              "text": "So changes can be compared over time and between clinicians",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "LOCS",
+              "text": "It's quicker than looking",
               "correct": false,
-              "feedback": "Lens."
+              "feedback": "No."
             },
             {
-              "text": "Van Herick",
+              "text": "It replaces the history",
               "correct": false,
-              "feedback": "Angle."
+              "feedback": "No."
             },
             {
-              "text": "Efron for redness",
+              "text": "It isn't useful",
               "correct": false,
-              "feedback": "Different use."
+              "feedback": "It is."
             }
-          ],
-          "explanation": ""
+          ]
         },
         {
           "id": "ane-staining-x0154",
@@ -2517,6 +4946,816 @@
               "text": "SEAL",
               "correct": false,
               "feedback": "Superior arc."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0311",
+          "q": "Fluorescein stains mainly where",
+          "options": [
+            {
+              "text": "epithelial cells are damaged or missing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the epithelium is healthy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the endothelium is",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the lens is",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0312",
+          "q": "Why can't standard fluorescein be used with soft lenses in?",
+          "options": [
+            {
+              "text": "It's absorbed and stains the lens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's toxic",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It's invisible",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It changes power",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0313",
+          "q": "Which high-molecular-weight dye can be used with some soft lenses?",
+          "options": [
+            {
+              "text": "Fluorexon",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Lissamine green",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Rose bengal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Trypan blue",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0314",
+          "q": "How soon should fluorescein staining be viewed?",
+          "options": [
+            {
+              "text": "Within about 1–3 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "After an hour",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "After a day",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "View it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0315",
+          "q": "Inferior staining is often linked with",
+          "options": [
+            {
+              "text": "exposure or incomplete blinking",
+              "correct": true,
+              "feedback": "Yes, also blepharitis."
+            },
+            {
+              "text": "SLK",
+              "correct": false,
+              "feedback": "Superior."
+            },
+            {
+              "text": "a subtarsal foreign body",
+              "correct": false,
+              "feedback": "Superior."
+            },
+            {
+              "text": "SEAL",
+              "correct": false,
+              "feedback": "Superior."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0316",
+          "q": "An interpalpebral band of staining suggests",
+          "options": [
+            {
+              "text": "dry eye or exposure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a foreign body",
+              "correct": false,
+              "feedback": "Linear."
+            },
+            {
+              "text": "herpes",
+              "correct": false,
+              "feedback": "Dendrite."
+            },
+            {
+              "text": "SEAL",
+              "correct": false,
+              "feedback": "Superior."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0317",
+          "q": "Superior staining with conjunctival redness at 12 o'clock suggests",
+          "options": [
+            {
+              "text": "superior limbic keratoconjunctivitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dry eye only",
+              "correct": false,
+              "feedback": "Inferior."
+            },
+            {
+              "text": "herpes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "3 and 9 staining",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0318",
+          "q": "Central staining in a lens wearer may suggest",
+          "options": [
+            {
+              "text": "hypoxia or overwear",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "SLK",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "SEAL",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x0319",
+          "q": "A large irregular geographic ulcer that stains may be",
+          "options": [
+            {
+              "text": "herpes simplex keratitis",
+              "correct": true,
+              "feedback": "Yes, a geographic form."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "SEAL",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "arcus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03110",
+          "q": "A pseudodendrite (without terminal bulbs) can occur with",
+          "options": [
+            {
+              "text": "Acanthamoeba or healing abrasions",
+              "correct": true,
+              "feedback": "Yes, or zoster."
+            },
+            {
+              "text": "herpes simplex only",
+              "correct": false,
+              "feedback": "True dendrites have bulbs."
+            },
+            {
+              "text": "normal eyes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03111",
+          "q": "Punctate keratitis differs from punctate erosions because it has",
+          "options": [
+            {
+              "text": "infiltrates in the stroma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "larger dots only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no difference",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03112",
+          "q": "Thygeson's superficial punctate keratitis shows",
+          "options": [
+            {
+              "text": "raised, grey, coarse epithelial lesions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a dendrite",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "arcuate staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no lesions",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03113",
+          "q": "The NEI grading scale scores staining in",
+          "options": [
+            {
+              "text": "5 corneal zones, each 0–3",
+              "correct": true,
+              "feedback": "Yes, total 0–15."
+            },
+            {
+              "text": "1 zone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 zones",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2 zones",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03114",
+          "q": "The line of Marx is",
+          "options": [
+            {
+              "text": "the mucocutaneous junction of the lid margin, seen with lissamine green",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a corneal scar",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a lens line",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "an iris feature",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03115",
+          "q": "Conjunctival staining in dry eye often shows",
+          "options": [
+            {
+              "text": "nasal and temporal triangles in the exposed area",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "staining only under the lid",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "superior only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03116",
+          "q": "Mucous threads in the tear film suggest",
+          "options": [
+            {
+              "text": "dry eye or allergy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP rise",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03117",
+          "q": "What's the usual blue light peak used to excite fluorescein?",
+          "options": [
+            {
+              "text": "About 450–490 nm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 600 nm",
+              "correct": false,
+              "feedback": "Red."
+            },
+            {
+              "text": "About 300 nm",
+              "correct": false,
+              "feedback": "UV."
+            },
+            {
+              "text": "About 700 nm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03118",
+          "q": "A dellen is",
+          "options": [
+            {
+              "text": "localised corneal thinning next to a raised lesion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a stain",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a scar",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03119",
+          "q": "A 'smile' of inferior staining in a soft lens wearer suggests",
+          "options": [
+            {
+              "text": "lens dehydration and drying",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "SEAL",
+              "correct": false,
+              "feedback": "Superior."
+            },
+            {
+              "text": "herpes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03120",
+          "q": "How should a corneal abrasion be managed in practice?",
+          "options": [
+            {
+              "text": "Check for foreign bodies, consider prophylactic antibiotic and review",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pad and forget",
+              "correct": false,
+              "feedback": "Not routinely."
+            },
+            {
+              "text": "Refer all to emergency always",
+              "correct": false,
+              "feedback": "Not all."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03121",
+          "q": "A patient's tears look yellow after fluorescein. Why?",
+          "options": [
+            {
+              "text": "The dye mixes with tears and drains",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Infection",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Allergy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Jaundice",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03122",
+          "q": "What should you warn patients about fluorescein?",
+          "options": [
+            {
+              "text": "It can stain skin and clothes, and the nose may run yellow",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It causes blindness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's painful",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Warn them."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03123",
+          "q": "Single-use fluorescein strips are moistened with",
+          "options": [
+            {
+              "text": "sterile saline",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tap water",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "saliva",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Moisten first."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03124",
+          "q": "Corneal staining after tonometry often looks like",
+          "options": [
+            {
+              "text": "a small area of punctate staining at the contact site",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a dendrite",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "3 and 9",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing ever",
+              "correct": false,
+              "feedback": "It can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03125",
+          "q": "Which sign suggests an epithelial defect with a raised edge from a foreign body?",
+          "options": [
+            {
+              "text": "A rust ring",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Guttata",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Arcus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "KP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03126",
+          "q": "Why use the yellow barrier filter for staining?",
+          "options": [
+            {
+              "text": "It blocks reflected blue so the green fluorescence stands out",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It adds colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It dims everything",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's decoration",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03127",
+          "q": "In dry eye, lissamine green staining is more prominent on",
+          "options": [
+            {
+              "text": "the conjunctiva",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the iris",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the retina",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03128",
+          "q": "Staining grades help to",
+          "options": [
+            {
+              "text": "track change and guide treatment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "set the PD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "replace history",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03129",
+          "q": "Diffuse punctate staining in a new soft lens wearer using a new MPS suggests",
+          "options": [
+            {
+              "text": "solution-induced corneal staining",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "herpes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "foreign body",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "SLK",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-staining-x03130",
+          "q": "A patient's corneal staining improves after stopping lens wear. What does it suggest?",
+          "options": [
+            {
+              "text": "Lens-related cause",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Unrelated cause",
+              "correct": false,
+              "feedback": "Less likely."
+            },
+            {
+              "text": "Worsening",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
@@ -3107,6 +6346,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0321",
+          "q": "TFOS DEWS II splits dry eye into which two main types?",
+          "options": [
+            {
+              "text": "Aqueous-deficient and evaporative",
+              "correct": true,
+              "feedback": "Yes, often overlapping."
+            },
+            {
+              "text": "Wet and dry",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Red and white",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Acute and chronic only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0322",
+          "q": "Which is the commonest underlying cause of evaporative dry eye?",
+          "options": [
+            {
+              "text": "Meibomian gland dysfunction",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Sjögren's syndrome",
+              "correct": false,
+              "feedback": "Aqueous-deficient."
+            },
+            {
+              "text": "Lacrimal gland removal",
+              "correct": false,
+              "feedback": "Aqueous-deficient."
+            },
+            {
+              "text": "Contact lenses only",
+              "correct": false,
+              "feedback": "Not the commonest."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0323",
+          "q": "Gland dropout on meibography suggests",
+          "options": [
+            {
+              "text": "chronic MGD",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal glands",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "aqueous deficiency",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "infection",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0324",
+          "q": "An OSDI score above about 13 suggests",
+          "options": [
+            {
+              "text": "symptomatic dry eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no symptoms",
+              "correct": false,
+              "feedback": "Below 13."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0325",
+          "q": "A DEQ-5 score of 6 or more suggests",
+          "options": [
+            {
+              "text": "dry eye symptoms",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "Lower."
+            },
+            {
+              "text": "uveitis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0326",
+          "q": "Which medicines commonly worsen dry eye?",
+          "options": [
+            {
+              "text": "Antihistamines and some antidepressants",
+              "correct": true,
+              "feedback": "Yes, also isotretinoin."
+            },
+            {
+              "text": "Paracetamol",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Antibiotics",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "Insulin",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0327",
+          "q": "Which autoimmune disease is strongly linked with dry eye?",
+          "options": [
+            {
+              "text": "Sjögren's syndrome",
+              "correct": true,
+              "feedback": "Yes, also rheumatoid arthritis."
+            },
+            {
+              "text": "Asthma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Diabetes type 2 only",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "Migraine",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0328",
+          "q": "Why choose preservative-free lubricants for frequent use?",
+          "options": [
+            {
+              "text": "Preservatives can damage the ocular surface",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're cheaper",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They're thicker",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x0329",
+          "q": "What did the DREAM trial find about omega-3 for dry eye?",
+          "options": [
+            {
+              "text": "No clear benefit over placebo",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A cure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Harm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Huge benefit",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03210",
+          "q": "Punctal plugs work by",
+          "options": [
+            {
+              "text": "reducing tear drainage",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "adding tears",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "reducing evaporation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "treating MGD",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03211",
+          "q": "Which is an anti-inflammatory dry eye treatment used in secondary care?",
+          "options": [
+            {
+              "text": "Ciclosporin drops",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Chloramphenicol",
+              "correct": false,
+              "feedback": "Antibiotic."
+            },
+            {
+              "text": "Timolol",
+              "correct": false,
+              "feedback": "Glaucoma."
+            },
+            {
+              "text": "Atropine",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03212",
+          "q": "Intense pulsed light (IPL) is used for",
+          "options": [
+            {
+              "text": "MGD",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03213",
+          "q": "Autologous serum drops are made from",
+          "options": [
+            {
+              "text": "the patient's own blood",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tears from a donor",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "saline",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "plants",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03214",
+          "q": "Which mite is linked with blepharitis?",
+          "options": [
+            {
+              "text": "Demodex",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dust mite only",
+              "correct": false,
+              "feedback": "Allergy."
+            },
+            {
+              "text": "Scabies",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lice",
+              "correct": false,
+              "feedback": "Rare."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03215",
+          "q": "Tea tree oil products target",
+          "options": [
+            {
+              "text": "Demodex",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "bacteria only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "viruses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "fungi",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03216",
+          "q": "Why do people blink less when reading or using screens?",
+          "options": [
+            {
+              "text": "Concentration reduces blink rate and completeness",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Screens produce tears",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They don't",
+              "correct": false,
+              "feedback": "They do."
+            },
+            {
+              "text": "It's random",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03217",
+          "q": "Why is lagophthalmos relevant to dry eye?",
+          "options": [
+            {
+              "text": "Incomplete lid closure exposes the cornea",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It adds tears",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's unrelated",
+              "correct": false,
+              "feedback": "It's related."
+            },
+            {
+              "text": "It lowers IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03218",
+          "q": "Schirmer with anaesthetic mainly measures",
+          "options": [
+            {
+              "text": "basal tear secretion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "reflex secretion",
+              "correct": false,
+              "feedback": "Without anaesthetic includes reflex."
+            },
+            {
+              "text": "tear stability",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "lipid",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03219",
+          "q": "A raised level of MMP-9 in tears suggests",
+          "options": [
+            {
+              "text": "ocular surface inflammation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal tears",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03220",
+          "q": "What environmental advice helps dry eye?",
+          "options": [
+            {
+              "text": "Avoid direct air flow and use humidifiers",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Sit by a heater",
+              "correct": false,
+              "feedback": "Worse."
+            },
+            {
+              "text": "Use fans on the face",
+              "correct": false,
+              "feedback": "Worse."
+            },
+            {
+              "text": "Nothing helps",
+              "correct": false,
+              "feedback": "Some does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03221",
+          "q": "Why measure tear meniscus height with OCT?",
+          "options": [
+            {
+              "text": "It's non-invasive and objective",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It measures IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It stains the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's quicker than looking",
+              "correct": false,
+              "feedback": "Not the point."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03222",
+          "q": "Which sign suggests dry eye in a patient with normal Schirmer?",
+          "options": [
+            {
+              "text": "Short NIBUT with MGD",
+              "correct": true,
+              "feedback": "Yes: evaporative."
+            },
+            {
+              "text": "High Schirmer only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal everything",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03223",
+          "q": "What's a key part of managing dry eye?",
+          "options": [
+            {
+              "text": "Explaining it's often chronic and needs ongoing care",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Promising a cure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "One drop for a week",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Ignoring symptoms",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03224",
+          "q": "Which device warms and expresses meibomian glands in clinic?",
+          "options": [
+            {
+              "text": "LipiFlow (thermal pulsation)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A tonometer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A focimeter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A keratometer",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03225",
+          "q": "Which symptom is typical of dry eye?",
+          "options": [
+            {
+              "text": "Gritty, burning eyes worse later in the day",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Sudden painless vision loss",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Flashes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Floaters",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03226",
+          "q": "Why is dry eye common after LASIK?",
+          "options": [
+            {
+              "text": "Corneal nerves are cut, reducing reflex tearing and blinking",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The cornea thickens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It isn't",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "IOP rises",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03227",
+          "q": "Paradoxically, dry eye can cause",
+          "options": [
+            {
+              "text": "watery eyes from reflex tearing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no tears at all ever",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "high IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03228",
+          "q": "Which test should come before any drops or dyes?",
+          "options": [
+            {
+              "text": "Symptom questionnaire and non-invasive tests",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Schirmer",
+              "correct": false,
+              "feedback": "Invasive."
+            },
+            {
+              "text": "Fluorescein TBUT",
+              "correct": false,
+              "feedback": "Invasive."
+            },
+            {
+              "text": "Lissamine",
+              "correct": false,
+              "feedback": "Dye."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03229",
+          "q": "What does blepharitis management usually include?",
+          "options": [
+            {
+              "text": "Daily lid hygiene and warm compresses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Surgery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Oral steroids",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Treat."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-tear-film-x03230",
+          "q": "Meibomian gland secretion should normally look",
+          "options": [
+            {
+              "text": "clear and oily",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "like toothpaste",
+              "correct": false,
+              "feedback": "Abnormal."
+            },
+            {
+              "text": "absent",
+              "correct": false,
+              "feedback": "Abnormal."
+            },
+            {
+              "text": "cloudy and thick",
+              "correct": false,
+              "feedback": "Abnormal."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -3500,30 +7549,29 @@
         },
         {
           "id": "ane-lid-eversion-x0152",
-          "q": "Where is the cotton bud pressed?",
+          "q": "Why is the bud placed at the upper border of the tarsal plate rather than the lid margin?",
           "options": [
             {
-              "text": "At the upper border of the tarsal plate, about 10 mm above the lid margin",
+              "text": "The plate folds over at its top edge",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "On the lid margin",
+              "text": "It's more comfortable at the margin",
               "correct": false,
-              "feedback": "No."
+              "feedback": "The margin won't fold."
             },
             {
-              "text": "On the cornea",
+              "text": "To touch the cornea",
               "correct": false,
               "feedback": "Never."
             },
             {
-              "text": "On the brow",
+              "text": "It doesn't matter",
               "correct": false,
-              "feedback": "Too high."
+              "feedback": "It does."
             }
-          ],
-          "explanation": ""
+          ]
         },
         {
           "id": "ane-lid-eversion-x0153",
@@ -3737,6 +7785,816 @@
               "text": "Leave the bud",
               "correct": false,
               "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0321",
+          "q": "Which history makes everting the upper lid important?",
+          "options": [
+            {
+              "text": "Foreign body sensation, itch or mucus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Flashes",
+              "correct": false,
+              "feedback": "Retina."
+            },
+            {
+              "text": "Distance blur",
+              "correct": false,
+              "feedback": "Refraction."
+            },
+            {
+              "text": "Headache only",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0322",
+          "q": "Why must the patient keep looking down during eversion?",
+          "options": [
+            {
+              "text": "It relaxes the levator and makes eversion easier",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To see the floor",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To blink",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0323",
+          "q": "What should you avoid during eversion?",
+          "options": [
+            {
+              "text": "Pressing on the globe",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Explaining",
+              "correct": false,
+              "feedback": "Explain."
+            },
+            {
+              "text": "Gloves",
+              "correct": false,
+              "feedback": "Optional."
+            },
+            {
+              "text": "Good lighting",
+              "correct": false,
+              "feedback": "Needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0324",
+          "q": "Papillae have",
+          "options": [
+            {
+              "text": "a central vessel",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "vessels around the edge with an avascular centre",
+              "correct": false,
+              "feedback": "Follicles."
+            },
+            {
+              "text": "no vessels",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0325",
+          "q": "Follicles have",
+          "options": [
+            {
+              "text": "vessels around the edge and a pale centre",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a central vessel",
+              "correct": false,
+              "feedback": "Papillae."
+            },
+            {
+              "text": "no colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0326",
+          "q": "Follicles suggest",
+          "options": [
+            {
+              "text": "viral or chlamydial conjunctivitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "allergy",
+              "correct": false,
+              "feedback": "Papillae."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0327",
+          "q": "Cobblestone giant papillae suggest",
+          "options": [
+            {
+              "text": "vernal keratoconjunctivitis or CLPC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "viral conjunctivitis",
+              "correct": false,
+              "feedback": "Follicles."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0328",
+          "q": "Small yellow deposits in the tarsal conjunctiva are",
+          "options": [
+            {
+              "text": "concretions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "follicles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "papillae",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "KPs",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x0329",
+          "q": "A membrane or pseudomembrane under the lid suggests",
+          "options": [
+            {
+              "text": "severe adenoviral conjunctivitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "allergy",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03210",
+          "q": "A horizontal scar line on the upper tarsus (Arlt's line) suggests",
+          "options": [
+            {
+              "text": "past trachoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "CLPC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "herpes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03211",
+          "q": "An upper lid that everts very easily may suggest",
+          "options": [
+            {
+              "text": "floppy eyelid syndrome, linked with sleep apnoea",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "Not if very easy."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03212",
+          "q": "How is the lower palpebral conjunctiva examined?",
+          "options": [
+            {
+              "text": "Pull the lower lid down while the patient looks up",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Evert with a bud",
+              "correct": false,
+              "feedback": "Not usually needed."
+            },
+            {
+              "text": "It can't be seen",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "Ask the patient to close the eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03213",
+          "q": "The upper tarsal plate is about how tall?",
+          "options": [
+            {
+              "text": "About 10 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "2 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "25 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "5 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03214",
+          "q": "Normal papillae are smaller than about",
+          "options": [
+            {
+              "text": "0.3 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "3 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0.01 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03215",
+          "q": "Macropapillae are about",
+          "options": [
+            {
+              "text": "0.3–1 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "over 1 mm",
+              "correct": false,
+              "feedback": "Giant."
+            },
+            {
+              "text": "under 0.1 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "5 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03216",
+          "q": "Which stain helps show papillae on the everted lid?",
+          "options": [
+            {
+              "text": "Fluorescein",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rose bengal only",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Fluorescein helps."
+            },
+            {
+              "text": "Lissamine only",
+              "correct": false,
+              "feedback": "Not mainly."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03217",
+          "q": "A foreign body found under the lid should be",
+          "options": [
+            {
+              "text": "removed with a moistened cotton bud if superficial",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "left",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pushed into the cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03218",
+          "q": "After removing a subtarsal foreign body, what should you check?",
+          "options": [
+            {
+              "text": "The cornea for staining or abrasion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP only",
+              "correct": false,
+              "feedback": "Not first."
+            },
+            {
+              "text": "VA only",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Check."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03219",
+          "q": "Which condition's papillae are often worst in spring and summer?",
+          "options": [
+            {
+              "text": "Vernal keratoconjunctivitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "CLPC",
+              "correct": false,
+              "feedback": "Not seasonal."
+            },
+            {
+              "text": "Chlamydia",
+              "correct": false,
+              "feedback": "Follicles."
+            },
+            {
+              "text": "Trachoma",
+              "correct": false,
+              "feedback": "Follicles and scarring."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03220",
+          "q": "Why should you wash your hands before and after eversion?",
+          "options": [
+            {
+              "text": "Infection control",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Habit",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not needed",
+              "correct": false,
+              "feedback": "Needed."
+            },
+            {
+              "text": "For the patient's comfort only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03221",
+          "q": "Which patient may find eversion uncomfortable?",
+          "options": [
+            {
+              "text": "Someone anxious or with tight lids",
+              "correct": true,
+              "feedback": "Yes, so explain and reassure."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Some do."
+            },
+            {
+              "text": "Only children",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "Only men",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03222",
+          "q": "What's the role of the cotton bud in eversion?",
+          "options": [
+            {
+              "text": "A fulcrum for folding the tarsal plate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To clean the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To stain",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To anaesthetise",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03223",
+          "q": "If eversion fails the first time, what should you do?",
+          "options": [
+            {
+              "text": "Reassure, reposition the bud and try again gently",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Force it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Give up",
+              "correct": false,
+              "feedback": "Try again if needed."
+            },
+            {
+              "text": "Use forceps",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03224",
+          "q": "Chlamydial conjunctivitis tends to show follicles in",
+          "options": [
+            {
+              "text": "both upper and lower tarsus",
+              "correct": true,
+              "feedback": "Yes, often prominent."
+            },
+            {
+              "text": "the cornea only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nowhere",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the iris",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03225",
+          "q": "A contact lens wearer's lenses ride high. Why might you evert?",
+          "options": [
+            {
+              "text": "To look for papillae that grip the lens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To check the lens power",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To check colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03226",
+          "q": "Which feature is checked on the lid margin before eversion?",
+          "options": [
+            {
+              "text": "Lashes and meibomian gland openings",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "PD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Fields",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03227",
+          "q": "Eversion is part of examining",
+          "options": [
+            {
+              "text": "the palpebral conjunctiva",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the cornea",
+              "correct": false,
+              "feedback": "Not directly."
+            },
+            {
+              "text": "the lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the retina",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03228",
+          "q": "After returning the lid, what should you ask?",
+          "options": [
+            {
+              "text": "Whether the patient is comfortable",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Ask."
+            },
+            {
+              "text": "To rub their eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To close the eye tightly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03229",
+          "q": "Which finding needs urgent action after eversion?",
+          "options": [
+            {
+              "text": "A penetrating injury sign or embedded object",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Normal conjunctiva",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A small concretion",
+              "correct": false,
+              "feedback": "Not urgent."
+            },
+            {
+              "text": "Mild papillae",
+              "correct": false,
+              "feedback": "Not urgent."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-lid-eversion-x03230",
+          "q": "A unilateral follicular conjunctivitis lasting weeks in a young adult should prompt",
+          "options": [
+            {
+              "text": "consideration of chlamydia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "reassurance only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Consider."
             }
           ],
           "explanation": ""
@@ -4328,6 +9186,815 @@
               "text": "nothing",
               "correct": false,
               "feedback": "Treat."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0321",
+          "q": "An external hordeolum (stye) is an infection of",
+          "options": [
+            {
+              "text": "a lash follicle gland (Zeis or Moll)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a meibomian gland",
+              "correct": false,
+              "feedback": "Internal hordeolum."
+            },
+            {
+              "text": "the lacrimal gland",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the cornea",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0322",
+          "q": "First-line management of a chalazion is",
+          "options": [
+            {
+              "text": "warm compresses and lid massage",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "oral antibiotics always",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "immediate surgery",
+              "correct": false,
+              "feedback": "Only if persistent."
+            },
+            {
+              "text": "nothing at all",
+              "correct": false,
+              "feedback": "Compresses help."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0323",
+          "q": "Preseptal cellulitis should be",
+          "options": [
+            {
+              "text": "referred for systemic antibiotics, especially in children",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "treated with drops only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "treated with glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0324",
+          "q": "Neonatal conjunctivitis is",
+          "options": [
+            {
+              "text": "an urgent referral",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "trivial",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "managed with lubricants",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0325",
+          "q": "Which symptom best separates allergic from bacterial conjunctivitis?",
+          "options": [
+            {
+              "text": "Itch",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Redness",
+              "correct": false,
+              "feedback": "Both."
+            },
+            {
+              "text": "Tearing",
+              "correct": false,
+              "feedback": "Both."
+            },
+            {
+              "text": "Discomfort",
+              "correct": false,
+              "feedback": "Both."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0326",
+          "q": "Seasonal allergic conjunctivitis is triggered mainly by",
+          "options": [
+            {
+              "text": "pollen",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dust mites",
+              "correct": false,
+              "feedback": "Perennial."
+            },
+            {
+              "text": "bacteria",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "viruses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0327",
+          "q": "Adenoviral conjunctivitis is",
+          "options": [
+            {
+              "text": "highly contagious for about two weeks",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "not contagious",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "cured by antibiotics",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "allergic",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0328",
+          "q": "Which advice limits the spread of viral conjunctivitis?",
+          "options": [
+            {
+              "text": "Hand washing and not sharing towels",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Sharing towels",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Antibiotics",
+              "correct": false,
+              "feedback": "Don't help."
+            },
+            {
+              "text": "Contact lenses",
+              "correct": false,
+              "feedback": "Avoid during infection."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x0329",
+          "q": "Episcleritis is usually",
+          "options": [
+            {
+              "text": "self-limiting and mild",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "sight-threatening",
+              "correct": false,
+              "feedback": "Scleritis can be."
+            },
+            {
+              "text": "infectious",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "painful at night severely",
+              "correct": false,
+              "feedback": "Scleritis."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03210",
+          "q": "Scleritis needs",
+          "options": [
+            {
+              "text": "urgent referral",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "reassurance only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "lubricants",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Refer."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03211",
+          "q": "Recurrent corneal erosion typically causes pain",
+          "options": [
+            {
+              "text": "on waking",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "in the evening only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "with reading",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03212",
+          "q": "Management of recurrent corneal erosion often includes",
+          "options": [
+            {
+              "text": "lubricating ointment at night",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "steroids first",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Treat."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03213",
+          "q": "Anterior uveitis is linked with",
+          "options": [
+            {
+              "text": "HLA-B27 conditions such as ankylosing spondylitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "contact lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03214",
+          "q": "A chemical injury is managed first by",
+          "options": [
+            {
+              "text": "immediate copious irrigation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "referral before anything",
+              "correct": false,
+              "feedback": "Irrigate first."
+            },
+            {
+              "text": "patching",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "drops",
+              "correct": false,
+              "feedback": "Irrigate first."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03215",
+          "q": "Anterior blepharitis with collarettes is often",
+          "options": [
+            {
+              "text": "staphylococcal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "seborrhoeic",
+              "correct": false,
+              "feedback": "Greasy scales."
+            },
+            {
+              "text": "viral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "allergic",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03216",
+          "q": "Seborrhoeic blepharitis shows",
+          "options": [
+            {
+              "text": "greasy scales",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "hard collarettes",
+              "correct": false,
+              "feedback": "Staph."
+            },
+            {
+              "text": "follicles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dendrites",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03217",
+          "q": "Vernal keratoconjunctivitis typically affects",
+          "options": [
+            {
+              "text": "young boys in warm climates",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "older women",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "everyone equally",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "babies only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03218",
+          "q": "Atopic keratoconjunctivitis is associated with",
+          "options": [
+            {
+              "text": "eczema",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "diabetes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03219",
+          "q": "Which condition causes a painful vesicular rash in a dermatome on the forehead?",
+          "options": [
+            {
+              "text": "Herpes zoster ophthalmicus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Allergy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Stye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Chalazion",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03220",
+          "q": "A subconjunctival haemorrhage after trauma should make you check",
+          "options": [
+            {
+              "text": "for other injuries, including a possible globe rupture",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Check."
+            },
+            {
+              "text": "only IOP",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "colour vision",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03221",
+          "q": "A pterygium may need referral when",
+          "options": [
+            {
+              "text": "it encroaches on the visual axis or causes astigmatism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's small and quiet",
+              "correct": false,
+              "feedback": "Monitor."
+            },
+            {
+              "text": "it's yellow",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "Sometimes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03222",
+          "q": "Which conjunctivitis may come with a sexually transmitted infection?",
+          "options": [
+            {
+              "text": "Chlamydial",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Allergic",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Adenoviral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Seasonal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03223",
+          "q": "A contact lens wearer with a painful red eye should",
+          "options": [
+            {
+              "text": "stop wearing lenses and be assessed urgently",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "keep wearing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "use any drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "wait a week",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03224",
+          "q": "Which discharge is typical of bacterial conjunctivitis?",
+          "options": [
+            {
+              "text": "Sticky, purulent discharge",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Watery only",
+              "correct": false,
+              "feedback": "Viral or allergic."
+            },
+            {
+              "text": "Stringy white mucus with itch",
+              "correct": false,
+              "feedback": "Allergic."
+            },
+            {
+              "text": "No discharge",
+              "correct": false,
+              "feedback": "Usually some."
+            }
+          ]
+        },
+        {
+          "id": "ane-common-conditions-x03225",
+          "q": "Which guidance helps optometrists manage common eye conditions?",
+          "options": [
+            {
+              "text": "The College of Optometrists' Clinical Management Guidelines",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The Highway Code",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "GDPR",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The Equality Act",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03226",
+          "q": "A painful red eye with reduced vision and photophobia needs",
+          "options": [
+            {
+              "text": "same-day assessment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "routine review",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "lubricants only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "reassurance",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03227",
+          "q": "Perennial allergic conjunctivitis is often caused by",
+          "options": [
+            {
+              "text": "house dust mites or pets",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "pollen only",
+              "correct": false,
+              "feedback": "Seasonal."
+            },
+            {
+              "text": "bacteria",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "sun",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03228",
+          "q": "Which drop class helps itchy allergic eyes quickly?",
+          "options": [
+            {
+              "text": "Antihistamines",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Antibiotics",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Steroids first",
+              "correct": false,
+              "feedback": "Not first-line."
+            },
+            {
+              "text": "Dilators",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03229",
+          "q": "A marginal keratitis should be distinguished from",
+          "options": [
+            {
+              "text": "microbial keratitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-common-conditions-x03230",
+          "q": "A patient has a sudden very red eye with no pain and normal vision. Most likely?",
+          "options": [
+            {
+              "text": "Subconjunctival haemorrhage",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Acute angle closure",
+              "correct": false,
+              "feedback": "Painful."
+            },
+            {
+              "text": "Uveitis",
+              "correct": false,
+              "feedback": "Painful."
+            },
+            {
+              "text": "Keratitis",
+              "correct": false,
+              "feedback": "Painful."
             }
           ],
           "explanation": ""
@@ -4932,6 +10599,816 @@
             },
             {
               "text": "It always resolves",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0321",
+          "q": "A 'snowflake' cataract is linked with",
+          "options": [
+            {
+              "text": "poorly controlled diabetes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "trauma",
+              "correct": false,
+              "feedback": "Rosette."
+            },
+            {
+              "text": "steroids",
+              "correct": false,
+              "feedback": "PSC."
+            },
+            {
+              "text": "age only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0322",
+          "q": "A rosette-shaped cataract suggests",
+          "options": [
+            {
+              "text": "trauma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "diabetes",
+              "correct": false,
+              "feedback": "Snowflake."
+            },
+            {
+              "text": "age",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myotonic dystrophy",
+              "correct": false,
+              "feedback": "Christmas tree."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0323",
+          "q": "Multicoloured 'Christmas tree' lens crystals are linked with",
+          "options": [
+            {
+              "text": "myotonic dystrophy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "diabetes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "trauma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "steroids",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0324",
+          "q": "Anterior subcapsular cataract can follow",
+          "options": [
+            {
+              "text": "acute angle closure (glaukomflecken) or atopic disease",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "contact lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0325",
+          "q": "Modern cataract surgery uses an incision of about",
+          "options": [
+            {
+              "text": "2–3 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "12 mm",
+              "correct": false,
+              "feedback": "Old extracapsular."
+            },
+            {
+              "text": "0.1 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0326",
+          "q": "Where is the IOL usually placed?",
+          "options": [
+            {
+              "text": "In the capsular bag",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "In front of the iris",
+              "correct": false,
+              "feedback": "Less common."
+            },
+            {
+              "text": "On the cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "In the vitreous",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0327",
+          "q": "Cataract surgery is usually done under",
+          "options": [
+            {
+              "text": "local (often topical) anaesthesia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "general anaesthesia always",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "no anaesthesia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "sedation only",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0328",
+          "q": "Which serious complication of cataract surgery causes pain and reduced vision days later?",
+          "options": [
+            {
+              "text": "Endophthalmitis",
+              "correct": true,
+              "feedback": "Yes: an emergency."
+            },
+            {
+              "text": "PCO",
+              "correct": false,
+              "feedback": "Months later."
+            },
+            {
+              "text": "Dry eye",
+              "correct": false,
+              "feedback": "Mild."
+            },
+            {
+              "text": "Floaters",
+              "correct": false,
+              "feedback": "Usually benign."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x0329",
+          "q": "Cystoid macular oedema after cataract surgery is called",
+          "options": [
+            {
+              "text": "Irvine-Gass syndrome",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Fuchs' dystrophy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Shafer's sign",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Arlt's line",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03210",
+          "q": "Which patients have a higher risk of retinal detachment after cataract surgery?",
+          "options": [
+            {
+              "text": "High myopes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hyperopes",
+              "correct": false,
+              "feedback": "Lower."
+            },
+            {
+              "text": "Children only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Some do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03211",
+          "q": "Post-operative drops usually include",
+          "options": [
+            {
+              "text": "a steroid and an antibiotic",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "glaucoma drops only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dilators only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Usually drops."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03212",
+          "q": "A toric IOL corrects",
+          "options": [
+            {
+              "text": "corneal astigmatism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "Multifocal."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03213",
+          "q": "Multifocal IOLs may cause",
+          "options": [
+            {
+              "text": "haloes and glare at night",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "better night vision",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Some side effects."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03214",
+          "q": "Which device measures axial length optically for biometry?",
+          "options": [
+            {
+              "text": "An optical biometer (e.g. IOLMaster)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A focimeter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A tonometer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A pupillometer",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03215",
+          "q": "A common target refraction after cataract surgery is",
+          "options": [
+            {
+              "text": "around plano or slightly myopic",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "−5.00 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "+5.00 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "any",
+              "correct": false,
+              "feedback": "It's planned."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03216",
+          "q": "Between first and second eye surgery, a patient may have",
+          "options": [
+            {
+              "text": "temporary anisometropia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no change",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "permanent diplopia",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "presbyopia cured",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03217",
+          "q": "What does NICE (NG77) say about referring for cataract surgery?",
+          "options": [
+            {
+              "text": "Base it on the impact on quality of life, not a VA threshold",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only refer at 6/60",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never refer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only refer over 80",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03218",
+          "q": "After cataract surgery with a monofocal IOL, patients usually need",
+          "options": [
+            {
+              "text": "reading glasses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no glasses ever",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "bifocal IOLs",
+              "correct": false,
+              "feedback": "Not with monofocal."
+            },
+            {
+              "text": "contact lenses",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03219",
+          "q": "The crystalline lens's transparency depends on",
+          "options": [
+            {
+              "text": "tightly packed crystallin proteins and fibre organisation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "blood vessels",
+              "correct": false,
+              "feedback": "It has none."
+            },
+            {
+              "text": "nerves",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pigment",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03220",
+          "q": "The lens's oldest fibres are in the",
+          "options": [
+            {
+              "text": "nucleus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cortex",
+              "correct": false,
+              "feedback": "Newer fibres."
+            },
+            {
+              "text": "capsule",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "epithelium",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03221",
+          "q": "LOCS III grades",
+          "options": [
+            {
+              "text": "nuclear opalescence, nuclear colour, cortical and PSC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "redness",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03222",
+          "q": "How does a cataract look with the direct ophthalmoscope's red reflex?",
+          "options": [
+            {
+              "text": "Dark shadows against the red reflex",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Bright white spots",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No change",
+              "correct": false,
+              "feedback": "It shows."
+            },
+            {
+              "text": "Green",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03223",
+          "q": "Why test glare or contrast sensitivity in cataract?",
+          "options": [
+            {
+              "text": "Patients may struggle despite good high-contrast VA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not useful",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To check colour only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03224",
+          "q": "Which advice is important for driving with cataract?",
+          "options": [
+            {
+              "text": "Check they still meet the standard, including in glare",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No advice",
+              "correct": false,
+              "feedback": "Advise."
+            },
+            {
+              "text": "Drive at night only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use dark sunglasses at night",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03225",
+          "q": "Electrical injury or lightning can cause",
+          "options": [
+            {
+              "text": "cataract",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "keratoconus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma always",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03226",
+          "q": "Which symptom suggests PSC cataract specifically?",
+          "options": [
+            {
+              "text": "Glare from oncoming headlights and poor near vision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Second sight",
+              "correct": false,
+              "feedback": "Nuclear."
+            },
+            {
+              "text": "Spokes visible to the patient",
+              "correct": false,
+              "feedback": "Not typical."
+            },
+            {
+              "text": "Itching",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03227",
+          "q": "After cataract surgery a patient sees well, then months later vision gradually blurs again. Most likely?",
+          "options": [
+            {
+              "text": "Posterior capsule opacification",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Endophthalmitis",
+              "correct": false,
+              "feedback": "Earlier and painful."
+            },
+            {
+              "text": "RD always",
+              "correct": false,
+              "feedback": "Possible but less likely."
+            },
+            {
+              "text": "Normal ageing",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03228",
+          "q": "Nd:YAG capsulotomy is done",
+          "options": [
+            {
+              "text": "in clinic with a laser",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "in theatre with an incision",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "with drops only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "with glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03229",
+          "q": "Congenital cataracts can be caused by",
+          "options": [
+            {
+              "text": "intrauterine infections such as rubella, or genetics",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "screens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "contact lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ane-cataract-x03230",
+          "q": "Phacoemulsification breaks up the lens using",
+          "options": [
+            {
+              "text": "ultrasound",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "heat",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cold",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a magnet",
               "correct": false,
               "feedback": "No."
             }
