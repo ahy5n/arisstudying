@@ -4340,25 +4340,52 @@
         },
         {
           "id": "doc-edi-x0431",
-          "q": "Which list contains only protected characteristics?",
+          "q": "How many protected characteristics does the Equality Act 2010 list?",
           "options": [
             {
-              "text": "Age, disability, race and sex",
+              "text": "Nine",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Age, income, race and sex",
+              "text": "Three",
               "correct": false,
-              "feedback": "Income isn't protected."
+              "feedback": "No."
             },
             {
-              "text": "Height, weight, race and sex",
+              "text": "Fifteen",
               "correct": false,
-              "feedback": "Height and weight aren't."
+              "feedback": "No."
             },
             {
-              "text": "Accent, job, race and sex",
+              "text": "One",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0432",
+          "q": "Which is a protected characteristic?",
+          "options": [
+            {
+              "text": "Pregnancy and maternity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hair colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Football team",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Income",
               "correct": false,
               "feedback": "Not protected."
             }
@@ -4366,53 +4393,26 @@
           "explanation": ""
         },
         {
-          "id": "doc-edi-x0432",
-          "q": "Which of these is protected under the Equality Act 2010?",
-          "options": [
-            {
-              "text": "Marriage and civil partnership",
-              "correct": true,
-              "feedback": "Yes (in employment)."
-            },
-            {
-              "text": "Favourite sport",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Postcode",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Car ownership",
-              "correct": false,
-              "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
           "id": "doc-edi-x0433",
-          "q": "Religion or belief, sexual orientation and sex are all",
+          "q": "Which is a protected characteristic?",
           "options": [
             {
-              "text": "protected characteristics",
+              "text": "Gender reassignment",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "unprotected",
+              "text": "Shoe size",
               "correct": false,
-              "feedback": "They're protected."
+              "feedback": "No."
             },
             {
-              "text": "only protected at work",
+              "text": "Job title",
               "correct": false,
-              "feedback": "Wider than work."
+              "feedback": "No."
             },
             {
-              "text": "optional",
+              "text": "Hobby",
               "correct": false,
               "feedback": "No."
             }
