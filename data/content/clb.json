@@ -175,6 +175,168 @@
           ],
           "explanation": "Contraindications include low refractive error, horizontal prism, infection/inflammation, recurrent erosions, dry eyes and poor blinking, and adverse environments.",
           "link": "clb-intro-history#conditions-and-contraindications"
+        },
+        {
+          "id": "clb-intro-history-x0041",
+          "q": "Which is an optical advantage of contact lenses over spectacles?",
+          "options": [
+            {
+              "text": "They stay aligned with the eye, so there's no prism in eccentric gaze",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They always cost less",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They never need replacing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They correct presbyopia automatically",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-intro-history-x0042",
+          "q": "What's the average horizontal visible iris diameter?",
+          "options": [
+            {
+              "text": "About 11.7 mm",
+              "correct": true,
+              "feedback": "Yes (range about 10–14 mm)."
+            },
+            {
+              "text": "About 8 mm",
+              "correct": false,
+              "feedback": "Too small."
+            },
+            {
+              "text": "About 15 mm",
+              "correct": false,
+              "feedback": "Too big."
+            },
+            {
+              "text": "About 5 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-intro-history-x0043",
+          "q": "A wearer reports gritty, tired eyes late in the day. Which framework helps explore the symptom?",
+          "options": [
+            {
+              "text": "SOCRATES",
+              "correct": true,
+              "feedback": "Yes: site, onset, character, timing and so on."
+            },
+            {
+              "text": "SOAP",
+              "correct": false,
+              "feedback": "That's for records."
+            },
+            {
+              "text": "RAdSIn",
+              "correct": false,
+              "feedback": "That's eye muscles."
+            },
+            {
+              "text": "PICO",
+              "correct": false,
+              "feedback": "That's research questions."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-intro-history-x0044",
+          "q": "Why ask about systemic medication at a contact lens appointment?",
+          "options": [
+            {
+              "text": "Some drugs reduce tear volume or blink rate or change corneal sensitivity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To choose the lens colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's only needed for spectacles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To work out the Dk",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-intro-history-x0045",
+          "q": "Which is a therapeutic use of contact lenses?",
+          "options": [
+            {
+              "text": "A bandage lens after corneal disease, surgery or trauma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Changing eye colour",
+              "correct": false,
+              "feedback": "That's cosmetic."
+            },
+            {
+              "text": "Correcting myopia",
+              "correct": false,
+              "feedback": "That's optical."
+            },
+            {
+              "text": "Myopia control",
+              "correct": false,
+              "feedback": "That's its own category."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-intro-history-x0046",
+          "q": "Which pupil sizes should be measured at baseline?",
+          "options": [
+            {
+              "text": "In room light and dim light",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only when dilated",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only in bright light",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pupil size isn't needed",
+              "correct": false,
+              "feedback": "It's used for optic zone choice."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -377,6 +539,168 @@
             }
           ],
           "explanation": "Test-your-knowledge question 2. The lecture writes readings as e.g. 7.90 @ 150 and notes the USA uses dioptres."
+        },
+        {
+          "id": "clb-keratometry-x0041",
+          "q": "Convert a corneal radius of 7.50 mm to power (n = 1.3375).",
+          "options": [
+            {
+              "text": "45.00 D",
+              "correct": true,
+              "feedback": "Yes: 337.5 ÷ 7.50."
+            },
+            {
+              "text": "43.25 D",
+              "correct": false,
+              "feedback": "That's about 7.80 mm."
+            },
+            {
+              "text": "4.50 D",
+              "correct": false,
+              "feedback": "Wrong units."
+            },
+            {
+              "text": "50.00 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-keratometry-x0042",
+          "q": "How does a keratometer overcome constant small eye movements?",
+          "options": [
+            {
+              "text": "It doubles the image with a prism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It uses a fast camera",
+              "correct": false,
+              "feedback": "That's videokeratoscopy."
+            },
+            {
+              "text": "It sedates the patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't need to",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-keratometry-x0043",
+          "q": "What does a Scheiner disc in a keratometer check?",
+          "options": [
+            {
+              "text": "The correct working distance (focus)",
+              "correct": true,
+              "feedback": "Yes: the image doubles unless it's aligned."
+            },
+            {
+              "text": "The axis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tear quality",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pupil size",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-keratometry-x0044",
+          "q": "Why is n = 1.3375 used instead of 1.376?",
+          "options": [
+            {
+              "text": "It assumes the back surface has −10% of the front power, so it estimates total corneal power",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's the index of the tears",
+              "correct": false,
+              "feedback": "Tears are 1.336."
+            },
+            {
+              "text": "It's the index of the lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's a manufacturer's choice",
+              "correct": false,
+              "feedback": "It reflects an assumption."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-keratometry-x0045",
+          "q": "A difference of 0.05 mm between principal meridians is roughly how much corneal astigmatism?",
+          "options": [
+            {
+              "text": "0.25 D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "0.05 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1.00 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2.50 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-keratometry-x0046",
+          "q": "How many readings of each meridian are taken in clinic?",
+          "options": [
+            {
+              "text": "Three, then averaged",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "One",
+              "correct": false,
+              "feedback": "Not in the lecture's clinic."
+            },
+            {
+              "text": "Ten",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -512,6 +836,222 @@
             }
           ],
           "explanation": "Closed-eye wear needs high Dk/t (Holden–Mertz ~87 × 10⁻⁹), which in practice means silicone hydrogels licensed for it — and it still carries more infection risk."
+        },
+        {
+          "id": "clb-soft-materials-x0041",
+          "q": "What does Dk/t describe?",
+          "options": [
+            {
+              "text": "Oxygen transmissibility of a particular lens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Oxygen permeability of the material",
+              "correct": false,
+              "feedback": "That's Dk."
+            },
+            {
+              "text": "Water content",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lens modulus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0042",
+          "q": "Why is Dk measured at 34°C?",
+          "options": [
+            {
+              "text": "Dk rises with temperature, and 34°C is near the corneal surface temperature",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Room temperature is 34°C",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lenses melt above that",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's arbitrary",
+              "correct": false,
+              "feedback": "It's chosen deliberately."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0043",
+          "q": "What's the Holden-Mertz Dk/t to avoid swelling in extended wear?",
+          "options": [
+            {
+              "text": "About 87",
+              "correct": true,
+              "feedback": "Yes; about 24 for daily wear."
+            },
+            {
+              "text": "About 24",
+              "correct": false,
+              "feedback": "That's daily wear."
+            },
+            {
+              "text": "About 10",
+              "correct": false,
+              "feedback": "Too low."
+            },
+            {
+              "text": "About 300",
+              "correct": false,
+              "feedback": "Too high."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0044",
+          "q": "How do silicone hydrogels give high Dk?",
+          "options": [
+            {
+              "text": "Separate silicone (oxygen) and hydrogel (water) pathways",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Higher water content",
+              "correct": false,
+              "feedback": "That's how hydrogels gain Dk."
+            },
+            {
+              "text": "Thinner centres only",
+              "correct": false,
+              "feedback": "Not the main reason."
+            },
+            {
+              "text": "Surface coatings alone",
+              "correct": false,
+              "feedback": "Coatings help wetting."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0045",
+          "q": "Which sign suggests chronic hypoxia?",
+          "options": [
+            {
+              "text": "Epithelial microcysts",
+              "correct": true,
+              "feedback": "Yes, also oedema, blebs, polymegethism and neovascularisation."
+            },
+            {
+              "text": "Papillae",
+              "correct": false,
+              "feedback": "Mechanical or allergic."
+            },
+            {
+              "text": "A SEAL",
+              "correct": false,
+              "feedback": "Mechanical."
+            },
+            {
+              "text": "Subconjunctival haemorrhage",
+              "correct": false,
+              "feedback": "Not hypoxic."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0046",
+          "q": "In a sessile drop test, which contact angle means more wettable?",
+          "options": [
+            {
+              "text": "Under 90°",
+              "correct": true,
+              "feedback": "Yes: a flatter drop wets better."
+            },
+            {
+              "text": "Over 90°",
+              "correct": false,
+              "feedback": "Less wettable."
+            },
+            {
+              "text": "Exactly 180°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Angle doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0047",
+          "q": "How did the original Fatt Dk method compare with corrected values?",
+          "options": [
+            {
+              "text": "It overestimated by about 25% (edge and boundary effects)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It underestimated",
+              "correct": false,
+              "feedback": "It overestimated."
+            },
+            {
+              "text": "It was exact",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It measured water content",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-materials-x0048",
+          "q": "What happened to microbial keratitis rates after silicone hydrogels arrived?",
+          "options": [
+            {
+              "text": "They didn't fall",
+              "correct": true,
+              "feedback": "Yes, surprisingly; hypoxic complications did."
+            },
+            {
+              "text": "They halved",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They rose tenfold",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "MK disappeared",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -661,6 +1201,195 @@
           ],
           "explanation": "LARS — left add, right subtract — as seen by the practitioner. 180 − 10 = 170.",
           "link": "clb-soft-fitting#over-refraction-and-va"
+        },
+        {
+          "id": "clb-soft-fitting-x0041",
+          "q": "How long should a soft lens settle before you judge the fit?",
+          "options": [
+            {
+              "text": "About 5–20 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "10 seconds",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "2 hours",
+              "correct": false,
+              "feedback": "Unnecessary."
+            },
+            {
+              "text": "No settling needed",
+              "correct": false,
+              "feedback": "It does need to settle."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-fitting-x0042",
+          "q": "Which sign suggests a tight soft lens?",
+          "options": [
+            {
+              "text": "Little or no movement with conjunctival indentation at the edge",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Lots of movement and decentration",
+              "correct": false,
+              "feedback": "That's loose."
+            },
+            {
+              "text": "Edge lift",
+              "correct": false,
+              "feedback": "That's loose."
+            },
+            {
+              "text": "Excessive lag",
+              "correct": false,
+              "feedback": "That's loose."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-fitting-x0043",
+          "q": "In the push-up test, a good fit",
+          "options": [
+            {
+              "text": "moves with moderate resistance and recentres smoothly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "doesn't move at all",
+              "correct": false,
+              "feedback": "Tight."
+            },
+            {
+              "text": "falls out",
+              "correct": false,
+              "feedback": "Very loose."
+            },
+            {
+              "text": "stays decentred",
+              "correct": false,
+              "feedback": "Loose."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-fitting-x0044",
+          "q": "What coverage should a soft lens give?",
+          "options": [
+            {
+              "text": "Full corneal coverage in all gazes, overlapping onto the conjunctiva",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Partial corneal coverage",
+              "correct": false,
+              "feedback": "That's a rigid corneal lens."
+            },
+            {
+              "text": "Only the pupil",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only the limbus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-fitting-x0045",
+          "q": "Vision clears just after each blink. What does it suggest?",
+          "options": [
+            {
+              "text": "A tight lens",
+              "correct": true,
+              "feedback": "Yes: the blink briefly flexes it."
+            },
+            {
+              "text": "A loose lens",
+              "correct": false,
+              "feedback": "That gives variable vision too, but clearing after a blink suggests tight."
+            },
+            {
+              "text": "Perfect fit",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wrong power only",
+              "correct": false,
+              "feedback": "Not the classic sign."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-fitting-x0046",
+          "q": "How much movement on blink is typical for a well-fitting soft lens?",
+          "options": [
+            {
+              "text": "About 0.2–0.4 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 2 mm",
+              "correct": false,
+              "feedback": "That's more like a rigid lens."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Tight."
+            },
+            {
+              "text": "About 5 mm",
+              "correct": false,
+              "feedback": "Far too loose."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-soft-fitting-x0047",
+          "q": "After assessing fit, what do you do?",
+          "options": [
+            {
+              "text": "Over-refract, then check VA and comfort",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Order immediately",
+              "correct": false,
+              "feedback": "Over-refract first."
+            },
+            {
+              "text": "Remove the lens and finish",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Change the material",
+              "correct": false,
+              "feedback": "Only if needed."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -919,6 +1648,87 @@
             }
           ],
           "explanation": "Test-your-knowledge MCQ; the figure is from the week 4 lecture."
+        },
+        {
+          "id": "clb-rgp-fitting-x0041",
+          "q": "What fluorescein pattern does a steep rigid lens show?",
+          "options": [
+            {
+              "text": "Central pooling with mid-peripheral touch",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Central touch with wide edge clearance",
+              "correct": false,
+              "feedback": "That's flat."
+            },
+            {
+              "text": "Even alignment",
+              "correct": false,
+              "feedback": "That's ideal."
+            },
+            {
+              "text": "No fluorescein at all",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-rgp-fitting-x0042",
+          "q": "What total diameter suits a rigid lens for HVID 11.5 mm?",
+          "options": [
+            {
+              "text": "About 9.50 mm",
+              "correct": true,
+              "feedback": "Yes: about 2 mm less than HVID."
+            },
+            {
+              "text": "About 11.5 mm",
+              "correct": false,
+              "feedback": "Too big for a corneal lens."
+            },
+            {
+              "text": "About 14 mm",
+              "correct": false,
+              "feedback": "That's soft lens size."
+            },
+            {
+              "text": "About 7.00 mm",
+              "correct": false,
+              "feedback": "Too small."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-rgp-fitting-x0043",
+          "q": "What's the ideal central tear layer thickness?",
+          "options": [
+            {
+              "text": "15–20 µm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1–2 µm",
+              "correct": false,
+              "feedback": "Too thin (bearing)."
+            },
+            {
+              "text": "100 µm",
+              "correct": false,
+              "feedback": "Too thick."
+            },
+            {
+              "text": "0 µm",
+              "correct": false,
+              "feedback": "That's touch."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1052,6 +1862,222 @@
             }
           ],
           "explanation": "Work out each meridian's power (here −5.00 and −7.00), convert both, then turn them back into sphere/cyl form."
+        },
+        {
+          "id": "clb-vertex-power-x0041",
+          "q": "A spectacle Rx of −8.00 D at 12 mm. Approximately what contact lens power?",
+          "options": [
+            {
+              "text": "−7.31 D (order −7.25)",
+              "correct": true,
+              "feedback": "Yes: −8 ÷ (1 − 0.012 × −8) = −8 ÷ 1.096."
+            },
+            {
+              "text": "−8.75 D",
+              "correct": false,
+              "feedback": "That goes the wrong way."
+            },
+            {
+              "text": "−8.00 D",
+              "correct": false,
+              "feedback": "Above ±4 D it changes noticeably."
+            },
+            {
+              "text": "−6.00 D",
+              "correct": false,
+              "feedback": "Too much change."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0042",
+          "q": "A spectacle Rx of +8.00 D at 12 mm. Approximately what contact lens power?",
+          "options": [
+            {
+              "text": "+8.85 D (order +8.75 or +9.00)",
+              "correct": true,
+              "feedback": "Yes: +8 ÷ (1 − 0.096)."
+            },
+            {
+              "text": "+7.25 D",
+              "correct": false,
+              "feedback": "Wrong direction."
+            },
+            {
+              "text": "+8.00 D",
+              "correct": false,
+              "feedback": "It changes noticeably."
+            },
+            {
+              "text": "+10.00 D",
+              "correct": false,
+              "feedback": "Too much."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0043",
+          "q": "Myopes need what compared with their spectacles?",
+          "options": [
+            {
+              "text": "Less minus in contact lenses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "More minus",
+              "correct": false,
+              "feedback": "That's wrong."
+            },
+            {
+              "text": "The same",
+              "correct": false,
+              "feedback": "Only at low powers."
+            },
+            {
+              "text": "A plus lens",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0044",
+          "q": "Why may a myope switching to contact lenses need reading glasses sooner?",
+          "options": [
+            {
+              "text": "They accommodate more with contact lenses than with spectacles",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Contact lenses add plus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The tear film causes it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They lose their add",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0045",
+          "q": "For an astigmatic Rx, how do you correct for vertex distance?",
+          "options": [
+            {
+              "text": "Convert each principal meridian separately, then rebuild sphere and cyl",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Convert the sphere only",
+              "correct": false,
+              "feedback": "Misses the cyl."
+            },
+            {
+              "text": "Convert sphere and cyl separately",
+              "correct": false,
+              "feedback": "The meridians are what matter."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "Not for higher powers."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0046",
+          "q": "How should contact lens back vertex power be measured on a focimeter?",
+          "options": [
+            {
+              "text": "With a small aperture stop",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "With the front surface against the stop",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Without any stop",
+              "correct": false,
+              "feedback": "Use a small stop."
+            },
+            {
+              "text": "With a lens measure",
+              "correct": false,
+              "feedback": "That measures surface curve."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0047",
+          "q": "Roughly below what power is the vertex correction usually ignored?",
+          "options": [
+            {
+              "text": "About ±4.00 D",
+              "correct": true,
+              "feedback": "Yes: the difference is under 0.25 D."
+            },
+            {
+              "text": "±10.00 D",
+              "correct": false,
+              "feedback": "Too high."
+            },
+            {
+              "text": "±1.00 D",
+              "correct": false,
+              "feedback": "Correction starts mattering well above this."
+            },
+            {
+              "text": "It's never ignored",
+              "correct": false,
+              "feedback": "It usually is at low powers."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-vertex-power-x0048",
+          "q": "In the formula Fcl = Fsp ÷ (1 − dFsp), what units is d in?",
+          "options": [
+            {
+              "text": "Metres",
+              "correct": true,
+              "feedback": "Yes, e.g. 0.012 for 12 mm."
+            },
+            {
+              "text": "Millimetres",
+              "correct": false,
+              "feedback": "A common error."
+            },
+            {
+              "text": "Centimetres",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Dioptres",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1200,6 +2226,222 @@
           ],
           "explanation": "Peroxide systems disinfect well but must be neutralised (e.g. with a catalytic disc) for the full time stated.",
           "link": "clb-care-hygiene#compliance"
+        },
+        {
+          "id": "clb-care-hygiene-x0041",
+          "q": "Which water exposure is safe for contact lenses or cases?",
+          "options": [
+            {
+              "text": "None: never tap water, pools, showers or hot tubs",
+              "correct": true,
+              "feedback": "Yes (Acanthamoeba risk)."
+            },
+            {
+              "text": "Tap water rinse",
+              "correct": false,
+              "feedback": "Not safe."
+            },
+            {
+              "text": "Bottled water",
+              "correct": false,
+              "feedback": "Still not advised."
+            },
+            {
+              "text": "Boiled water",
+              "correct": false,
+              "feedback": "Not advised."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0042",
+          "q": "How should multipurpose solution be used?",
+          "options": [
+            {
+              "text": "Rub and rinse, fresh solution every time, never top up",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Top up the old solution",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "No rubbing if labelled 'no rub'",
+              "correct": false,
+              "feedback": "Rubbing is still advised."
+            },
+            {
+              "text": "Reuse for a week",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0043",
+          "q": "What must happen with a hydrogen peroxide system before wear?",
+          "options": [
+            {
+              "text": "Full neutralisation for the recommended time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rinse with tap water",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Un-neutralised peroxide hurts."
+            },
+            {
+              "text": "Add saline only",
+              "correct": false,
+              "feedback": "Neutralisation is needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0044",
+          "q": "How should a lens case be cared for?",
+          "options": [
+            {
+              "text": "Cleaned, air-dried face down, and replaced regularly (at least monthly or as advised)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Kept wet with old solution",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never replaced",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Washed in tap water and closed",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0045",
+          "q": "Which modality avoids cases and solutions entirely?",
+          "options": [
+            {
+              "text": "Daily disposables",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Monthly lenses",
+              "correct": false,
+              "feedback": "Need care."
+            },
+            {
+              "text": "Rigid lenses",
+              "correct": false,
+              "feedback": "Need care."
+            },
+            {
+              "text": "Extended wear monthlies",
+              "correct": false,
+              "feedback": "Need care."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0046",
+          "q": "What should a patient do if an eye isn't comfortable, seeing well and looking white?",
+          "options": [
+            {
+              "text": "Take the lenses out and seek advice",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keep wearing and see if it settles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use any eye drops at home",
+              "correct": false,
+              "feedback": "Not without advice."
+            },
+            {
+              "text": "Sleep in them",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0047",
+          "q": "What's the first step before handling lenses?",
+          "options": [
+            {
+              "text": "Wash hands with soap and dry them thoroughly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rinse lenses in tap water",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use hand cream",
+              "correct": false,
+              "feedback": "That can contaminate lenses."
+            },
+            {
+              "text": "Put in eye drops",
+              "correct": false,
+              "feedback": "Not first."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-care-hygiene-x0048",
+          "q": "Why is sleeping in daily-wear lenses risky?",
+          "options": [
+            {
+              "text": "It sharply increases infection risk (about tenfold for MK)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It changes the prescription",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's only uncomfortable",
+              "correct": false,
+              "feedback": "It's a safety issue."
+            },
+            {
+              "text": "It isn't risky",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1387,6 +2629,114 @@
             }
           ],
           "explanation": "Test-your-knowledge MCQ 3."
+        },
+        {
+          "id": "clb-complications-x0041",
+          "q": "What defines presumed microbial keratitis?",
+          "options": [
+            {
+              "text": "Stromal infiltrate over 1 mm, more than mild pain, and AC reaction, discharge or a positive culture",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Any red eye in a lens wearer",
+              "correct": false,
+              "feedback": "Too broad."
+            },
+            {
+              "text": "Papillae on the upper lid",
+              "correct": false,
+              "feedback": "That's CLPC."
+            },
+            {
+              "text": "A grey arc superiorly",
+              "correct": false,
+              "feedback": "That's a SEAL."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-complications-x0042",
+          "q": "Which bacterium causing keratitis is Gram-negative?",
+          "options": [
+            {
+              "text": "Pseudomonas",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Staphylococcus",
+              "correct": false,
+              "feedback": "Gram-positive."
+            },
+            {
+              "text": "Streptococcus",
+              "correct": false,
+              "feedback": "Gram-positive."
+            },
+            {
+              "text": "Corynebacterium",
+              "correct": false,
+              "feedback": "Gram-positive."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-complications-x0043",
+          "q": "Which lens choice suits a young man with past infiltrative events and blepharitis?",
+          "options": [
+            {
+              "text": "Daily disposables",
+              "correct": true,
+              "feedback": "Yes, as the lecture suggests."
+            },
+            {
+              "text": "Extended wear monthlies",
+              "correct": false,
+              "feedback": "Riskier."
+            },
+            {
+              "text": "Conventional yearly lenses",
+              "correct": false,
+              "feedback": "More deposits."
+            },
+            {
+              "text": "No change",
+              "correct": false,
+              "feedback": "Steer towards dailies."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-complications-x0044",
+          "q": "CLIDE differs from CLADE how?",
+          "options": [
+            {
+              "text": "CLIDE symptoms only occur with lenses; CLADE is pre-existing dry eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "CLIDE is infective",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "CLADE only affects rigid lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1554,6 +2904,168 @@
             }
           ],
           "explanation": "Test-your-knowledge MCQ."
+        },
+        {
+          "id": "clb-grading-x0041",
+          "q": "On a 0–4 scale, what does grade 2 usually mean?",
+          "options": [
+            {
+              "text": "Mild: action possibly required",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Normal: no action",
+              "correct": false,
+              "feedback": "That's 0."
+            },
+            {
+              "text": "Severe: action required",
+              "correct": false,
+              "feedback": "That's 4."
+            },
+            {
+              "text": "Trace: action rarely needed",
+              "correct": false,
+              "feedback": "That's 1."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-grading-x0042",
+          "q": "Why grade to 0.1 rather than whole numbers?",
+          "options": [
+            {
+              "text": "Rounding hides real change between visits",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's required by law",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Whole numbers are inaccurate",
+              "correct": false,
+              "feedback": "They're too coarse."
+            },
+            {
+              "text": "Patients prefer decimals",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-grading-x0043",
+          "q": "What are photographic grading scales' main drawbacks?",
+          "options": [
+            {
+              "text": "A huge image library is needed, and magnification, angle and patients vary",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They lack realism",
+              "correct": false,
+              "feedback": "That's painted scales."
+            },
+            {
+              "text": "They can't show severity",
+              "correct": false,
+              "feedback": "They can."
+            },
+            {
+              "text": "They're too cheap",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-grading-x0044",
+          "q": "What's the smallest feature size anterior eye images must resolve?",
+          "options": [
+            {
+              "text": "About 30 µm (microcysts, punctate staining)",
+              "correct": true,
+              "feedback": "Yes, needing a 2 × 2 pixel matrix."
+            },
+            {
+              "text": "About 1 mm",
+              "correct": false,
+              "feedback": "Too big."
+            },
+            {
+              "text": "About 1 µm",
+              "correct": false,
+              "feedback": "Too small."
+            },
+            {
+              "text": "About 5 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-grading-x0045",
+          "q": "How do objective systems grade redness?",
+          "options": [
+            {
+              "text": "By the ratio of red to total (R ÷ (R + G + B)) in the image",
+              "correct": true,
+              "feedback": "Yes, e.g. Keratograph scans."
+            },
+            {
+              "text": "By asking the patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "With a ruler",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "By fluorescein",
+              "correct": false,
+              "feedback": "That's staining."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-grading-x0046",
+          "q": "What must every graded record state?",
+          "options": [
+            {
+              "text": "Which grading scale was used",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The camera brand",
+              "correct": false,
+              "feedback": "Not essential."
+            },
+            {
+              "text": "The patient's age",
+              "correct": false,
+              "feedback": "Not essential to grading."
+            },
+            {
+              "text": "The time of day only",
+              "correct": false,
+              "feedback": "Not the key point."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1685,6 +3197,222 @@
             }
           ],
           "explanation": "Test-your-knowledge question 4. Answer worked out from the lecture: the bow tie follows the steep meridian."
+        },
+        {
+          "id": "clb-topography-x0041",
+          "q": "What shape is the normal cornea?",
+          "options": [
+            {
+              "text": "A prolate ellipse, flattening towards the periphery",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A sphere",
+              "correct": false,
+              "feedback": "It's aspheric."
+            },
+            {
+              "text": "An oblate ellipse",
+              "correct": false,
+              "feedback": "That steepens peripherally."
+            },
+            {
+              "text": "A hyperbola",
+              "correct": false,
+              "feedback": "Too much flattening."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0042",
+          "q": "What's the average corneal e?",
+          "options": [
+            {
+              "text": "About 0.47",
+              "correct": true,
+              "feedback": "Yes (e² about 0.22)."
+            },
+            {
+              "text": "0",
+              "correct": false,
+              "feedback": "That's a sphere."
+            },
+            {
+              "text": "1",
+              "correct": false,
+              "feedback": "That's a parabola."
+            },
+            {
+              "text": "2",
+              "correct": false,
+              "feedback": "That's a hyperbola."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0043",
+          "q": "With-the-rule astigmatism shows which bow tie on a map?",
+          "options": [
+            {
+              "text": "Vertical",
+              "correct": true,
+              "feedback": "Yes; against-the-rule is horizontal."
+            },
+            {
+              "text": "Horizontal",
+              "correct": false,
+              "feedback": "That's against-the-rule."
+            },
+            {
+              "text": "At 45°",
+              "correct": false,
+              "feedback": "Oblique."
+            },
+            {
+              "text": "No bow tie",
+              "correct": false,
+              "feedback": "Regular astigmatism shows one."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0044",
+          "q": "Warm colours on a topography map mean",
+          "options": [
+            {
+              "text": "steeper areas (shorter radius)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "flatter areas",
+              "correct": false,
+              "feedback": "That's cool colours."
+            },
+            {
+              "text": "thinner cornea",
+              "correct": false,
+              "feedback": "That's pachymetry."
+            },
+            {
+              "text": "dry areas",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0045",
+          "q": "Which map is most repeatable?",
+          "options": [
+            {
+              "text": "Axial (sagittal)",
+              "correct": true,
+              "feedback": "Yes, but it distorts the apex position."
+            },
+            {
+              "text": "Tangential",
+              "correct": false,
+              "feedback": "Better for the apex but less repeatable."
+            },
+            {
+              "text": "Height",
+              "correct": false,
+              "feedback": "Least repeatable."
+            },
+            {
+              "text": "Refractive power",
+              "correct": false,
+              "feedback": "Needs an assumed index."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0046",
+          "q": "Which map best suits refractive surgery planning and simulated fluorescein patterns?",
+          "options": [
+            {
+              "text": "Height (elevation)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Axial",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tangential",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Height maps do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0047",
+          "q": "About how much false astigmatism can 2.5 mm of misalignment create?",
+          "options": [
+            {
+              "text": "About 1 D",
+              "correct": true,
+              "feedback": "Yes: alignment matters."
+            },
+            {
+              "text": "About 0.05 D",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "About 5 D",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "It does create error."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-topography-x0048",
+          "q": "What area does videokeratoscopy typically cover?",
+          "options": [
+            {
+              "text": "About 7–9 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 3 mm",
+              "correct": false,
+              "feedback": "That's keratometry."
+            },
+            {
+              "text": "The whole sclera",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 15 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1791,6 +3519,195 @@
             }
           ],
           "explanation": "Test-your-knowledge MCQ 3."
+        },
+        {
+          "id": "clb-tear-film-x0041",
+          "q": "Which glands produce the lipid layer?",
+          "options": [
+            {
+              "text": "Meibomian glands and glands of Zeis and Moll",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Krause and Wolfring",
+              "correct": false,
+              "feedback": "Aqueous."
+            },
+            {
+              "text": "Goblet cells",
+              "correct": false,
+              "feedback": "Mucin."
+            },
+            {
+              "text": "The main lacrimal gland",
+              "correct": false,
+              "feedback": "Aqueous."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-tear-film-x0042",
+          "q": "About how thick is the aqueous layer?",
+          "options": [
+            {
+              "text": "About 7 µm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 0.1 µm",
+              "correct": false,
+              "feedback": "That's the lipid layer."
+            },
+            {
+              "text": "About 1 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 50 µm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-tear-film-x0043",
+          "q": "Tear volume is about",
+          "options": [
+            {
+              "text": "7 µl, turned over every 5 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "50 µl",
+              "correct": false,
+              "feedback": "That's a 'crying' tear drop."
+            },
+            {
+              "text": "1 ml",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0.1 µl",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-tear-film-x0044",
+          "q": "Which test measures tear stability?",
+          "options": [
+            {
+              "text": "Tear break-up time (TBUT or NIBUT)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Schirmer",
+              "correct": false,
+              "feedback": "Quantity."
+            },
+            {
+              "text": "Phenol red thread",
+              "correct": false,
+              "feedback": "Quantity."
+            },
+            {
+              "text": "Meniscus height",
+              "correct": false,
+              "feedback": "Volume."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-tear-film-x0045",
+          "q": "Partial blinking with rigid lenses typically causes",
+          "options": [
+            {
+              "text": "3 and 9 o'clock staining",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Superior arcuate staining",
+              "correct": false,
+              "feedback": "That's a SEAL."
+            },
+            {
+              "text": "Central staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No staining",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-tear-film-x0046",
+          "q": "What does lysozyme do?",
+          "options": [
+            {
+              "text": "Attacks bacteria, and is drawn to negatively charged ionic lenses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Forms the lipid layer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Makes the cornea wettable",
+              "correct": false,
+              "feedback": "That's mucin."
+            },
+            {
+              "text": "Binds iron",
+              "correct": false,
+              "feedback": "That's lactoferrin."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-tear-film-x0047",
+          "q": "Which reduces blink rate?",
+          "options": [
+            {
+              "text": "Computer use",
+              "correct": true,
+              "feedback": "Yes, as do reading and hard tasks."
+            },
+            {
+              "text": "Conversation",
+              "correct": false,
+              "feedback": "Increases it."
+            },
+            {
+              "text": "Anxiety",
+              "correct": false,
+              "feedback": "Increases it."
+            },
+            {
+              "text": "Tiredness",
+              "correct": false,
+              "feedback": "Increases it."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1917,6 +3834,141 @@
             }
           ],
           "explanation": "Test-your-knowledge MCQ 1 (slide 11)."
+        },
+        {
+          "id": "clb-materials-modalities-x0041",
+          "q": "Extended wear means wearing lenses for up to",
+          "options": [
+            {
+              "text": "6 nights and 7 days",
+              "correct": true,
+              "feedback": "Yes; continuous wear is up to 30 nights."
+            },
+            {
+              "text": "30 nights",
+              "correct": false,
+              "feedback": "That's continuous wear."
+            },
+            {
+              "text": "1 night",
+              "correct": false,
+              "feedback": "Not the definition."
+            },
+            {
+              "text": "A year",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-materials-modalities-x0042",
+          "q": "A cornea shows microcysts and limbal vascularisation. Which modality should you offer?",
+          "options": [
+            {
+              "text": "Daily wear only",
+              "correct": true,
+              "feedback": "Yes: signs of compromise rule out extended wear."
+            },
+            {
+              "text": "Extended wear",
+              "correct": false,
+              "feedback": "Not with compromise."
+            },
+            {
+              "text": "Continuous wear",
+              "correct": false,
+              "feedback": "Not with compromise."
+            },
+            {
+              "text": "Any",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-materials-modalities-x0043",
+          "q": "About how many UK contact lens wearers are there?",
+          "options": [
+            {
+              "text": "About 4.75 million",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 500,000",
+              "correct": false,
+              "feedback": "Too few."
+            },
+            {
+              "text": "About 20 million",
+              "correct": false,
+              "feedback": "Too many."
+            },
+            {
+              "text": "About 1 million",
+              "correct": false,
+              "feedback": "Too few."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-materials-modalities-x0044",
+          "q": "Which costs least to the patient?",
+          "options": [
+            {
+              "text": "It depends: weigh lens, solution and chair-time costs against convenience",
+              "correct": true,
+              "feedback": "Yes, let the patient decide."
+            },
+            {
+              "text": "Always daily disposables",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "Always yearly lenses",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "Always rigid lenses",
+              "correct": false,
+              "feedback": "Not necessarily."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "clb-materials-modalities-x0045",
+          "q": "Name a non-optical reason for choosing a replacement schedule.",
+          "options": [
+            {
+              "text": "Therapeutic use or managing an existing complication",
+              "correct": true,
+              "feedback": "Yes; also cost, convenience and stock."
+            },
+            {
+              "text": "The patient's eye colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The Abbe number",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The frame size",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [

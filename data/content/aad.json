@@ -136,6 +136,222 @@
       }
      ],
      "explanation": "Minimum blank size depends on the ED plus any decentration (see Centration & prism)."
+    },
+    {
+     "id": "aad-frame-measurement-x0021",
+     "q": "A frame is marked 52□18 140. What is the DBL?",
+     "options": [
+      {
+       "text": "18 mm",
+       "correct": true,
+       "feedback": "Yes: the middle number."
+      },
+      {
+       "text": "52 mm",
+       "correct": false,
+       "feedback": "That's the horizontal boxed lens size."
+      },
+      {
+       "text": "140 mm",
+       "correct": false,
+       "feedback": "That's the side length."
+      },
+      {
+       "text": "70 mm",
+       "correct": false,
+       "feedback": "That's the box centre distance (52 + 18)."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0022",
+     "q": "A frame is marked 54□17 145. What is its box centre distance?",
+     "options": [
+      {
+       "text": "71 mm",
+       "correct": true,
+       "feedback": "Yes: 54 + 17."
+      },
+      {
+       "text": "88 mm",
+       "correct": false,
+       "feedback": "That's 54 + 2 × 17."
+      },
+      {
+       "text": "37 mm",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "145 mm",
+       "correct": false,
+       "feedback": "That's the side length."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0023",
+     "q": "How is DBL defined in British Standards?",
+     "options": [
+      {
+       "text": "The horizontal distance between the nasal sides of the two boxes around the lens shapes",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "The narrowest point of the bridge",
+       "correct": false,
+       "feedback": "That's a common mistake."
+      },
+      {
+       "text": "The distance between the pad arms",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "The width of the bridge at the crest",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0024",
+     "q": "Where is the horizontal centre line (HCL)?",
+     "options": [
+      {
+       "text": "Halfway between the top and bottom horizontal tangents of the boxed lens",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Through the patient's pupils",
+       "correct": false,
+       "feedback": "That's where you want the optical centres."
+      },
+      {
+       "text": "Along the top rim",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "At the lowest point of the frame",
+       "correct": false,
+       "feedback": "Some fitters measure from there, but that isn't the HCL."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0025",
+     "q": "A patient's PD is 62 mm and the frame's box centre distance is 70 mm. What happens?",
+     "options": [
+      {
+       "text": "Each optical centre is decentred 4 mm in from the box centre",
+       "correct": true,
+       "feedback": "Yes: (70 − 62) ÷ 2."
+      },
+      {
+       "text": "No decentration is needed",
+       "correct": false,
+       "feedback": "Only if the PD matched the box centres."
+      },
+      {
+       "text": "Each lens is decentred 8 mm in",
+       "correct": false,
+       "feedback": "That's the total."
+      },
+      {
+       "text": "The lenses are decentred outwards",
+       "correct": false,
+       "feedback": "They move in towards the nose."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0026",
+     "q": "Which measurement would you take with a Fairbanks facial measurement rule?",
+     "options": [
+      {
+       "text": "Bridge projection and DBR below the crest",
+       "correct": true,
+       "feedback": "Yes: for custom or bespoke frames."
+      },
+      {
+       "text": "Back vertex power",
+       "correct": false,
+       "feedback": "That's a focimeter job."
+      },
+      {
+       "text": "Pupil size",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Segment height",
+       "correct": false,
+       "feedback": "That's taken with the frame on."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0027",
+     "q": "Which frame choice usually keeps plus lenses thinnest?",
+     "options": [
+      {
+       "text": "A small frame whose box centres match the PD",
+       "correct": true,
+       "feedback": "Yes: less decentration and a smaller blank."
+      },
+      {
+       "text": "A large frame with wide box centres",
+       "correct": false,
+       "feedback": "Thicker."
+      },
+      {
+       "text": "Any frame: frame choice doesn't matter",
+       "correct": false,
+       "feedback": "It matters a lot."
+      },
+      {
+       "text": "A deep frame for a single vision Rx",
+       "correct": false,
+       "feedback": "Depth adds nothing here."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-frame-measurement-x0028",
+     "q": "Why must a segment or fitting height always say 'above' or 'below' the HCL?",
+     "options": [
+      {
+       "text": "Because the same number could mean two different positions",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Because heights are always below",
+       "correct": false,
+       "feedback": "Not always."
+      },
+      {
+       "text": "It's only a convention for varifocals",
+       "correct": false,
+       "feedback": "It applies to bifocals too."
+      },
+      {
+       "text": "The lab ignores it otherwise",
+       "correct": false,
+       "feedback": "The point is ambiguity."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [],
@@ -298,6 +514,141 @@
       }
      ],
      "explanation": "Lowering the OC 1 mm per 2° of pantoscopic tilt keeps the optical axis passing through the eye's centre of rotation."
+    },
+    {
+     "id": "aad-facial-measurements-x0021",
+     "q": "Why measure PD at arm's length rather than close up?",
+     "options": [
+      {
+       "text": "It reduces the error from any difference between your PD and the patient's",
+       "correct": true,
+       "feedback": "Yes: about 1/16 mm per mm difference at 40 cm."
+      },
+      {
+       "text": "So the patient can't see the ruler",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Because near PD is larger",
+       "correct": false,
+       "feedback": "Near PD is smaller."
+      },
+      {
+       "text": "To relax the patient's accommodation",
+       "correct": false,
+       "feedback": "Not the reason."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-facial-measurements-x0022",
+     "q": "For which patient are mono PDs essential?",
+     "options": [
+      {
+       "text": "A varifocal wearer",
+       "correct": true,
+       "feedback": "Yes, also for strabismus, aspherics, asymmetry and anisometropia."
+      },
+      {
+       "text": "A single vision wearer with a symmetrical face and a low Rx",
+       "correct": false,
+       "feedback": "Binocular PD is usually fine."
+      },
+      {
+       "text": "Every child",
+       "correct": false,
+       "feedback": "Not necessarily."
+      },
+      {
+       "text": "Anyone wearing contact lenses",
+       "correct": false,
+       "feedback": "Not relevant."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-facial-measurements-x0023",
+     "q": "Back vertex distance must be measured for powers over",
+     "options": [
+      {
+       "text": "±5.00 D",
+       "correct": true,
+       "feedback": "Yes (BS 2738-3)."
+      },
+      {
+       "text": "±1.00 D",
+       "correct": false,
+       "feedback": "Too low."
+      },
+      {
+       "text": "±10.00 D",
+       "correct": false,
+       "feedback": "Too high."
+      },
+      {
+       "text": "±3.00 D",
+       "correct": false,
+       "feedback": "The standard says ±5.00 D."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-facial-measurements-x0024",
+     "q": "How does a pupillometer avoid parallax?",
+     "options": [
+      {
+       "text": "It uses the first Purkinje image as the pupil reference",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "It measures in total darkness",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "It uses ultrasound",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "It measures each eye from the ear",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-facial-measurements-x0025",
+     "q": "Where is a general-purpose bifocal segment top usually fitted?",
+     "options": [
+      {
+       "text": "Level with the lower limbus or lower lid",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "At the pupil centre",
+       "correct": false,
+       "feedback": "That's for progressive fitting crosses."
+      },
+      {
+       "text": "5 mm below the lower lid",
+       "correct": false,
+       "feedback": "Too low."
+      },
+      {
+       "text": "At the HCL",
+       "correct": false,
+       "feedback": "Not necessarily."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -468,6 +819,168 @@
       }
      ],
      "explanation": "P = 0.15 × 3 = 0.45Δ per eye; same base direction relative to the face (both out), so they add."
+    },
+    {
+     "id": "aad-centration-prism-x0021",
+     "q": "What prism is found 6 mm below the optical centre of a −4.00 D lens?",
+     "options": [
+      {
+       "text": "2.4Δ base down",
+       "correct": true,
+       "feedback": "Yes: 0.6 × 4 = 2.4; looking down through minus gives base down."
+      },
+      {
+       "text": "2.4Δ base up",
+       "correct": false,
+       "feedback": "Base up comes with plus lenses below the OC."
+      },
+      {
+       "text": "24Δ base down",
+       "correct": false,
+       "feedback": "c must be in cm."
+      },
+      {
+       "text": "0.24Δ base down",
+       "correct": false,
+       "feedback": "c is 0.6 cm, not 0.06."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-centration-prism-x0022",
+     "q": "A lens is −2.00/−1.00 × 180. What power acts in the vertical meridian?",
+     "options": [
+      {
+       "text": "−3.00 D",
+       "correct": true,
+       "feedback": "Yes: a cyl at axis 180 has its full power vertically."
+      },
+      {
+       "text": "−2.00 D",
+       "correct": false,
+       "feedback": "That ignores the cyl."
+      },
+      {
+       "text": "−1.00 D",
+       "correct": false,
+       "feedback": "That's only the cyl."
+      },
+      {
+       "text": "+1.00 D",
+       "correct": false,
+       "feedback": "Wrong sign."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-centration-prism-x0023",
+     "q": "A lens is +3.00/−2.00 × 90. What power acts in the vertical meridian?",
+     "options": [
+      {
+       "text": "+3.00 D",
+       "correct": true,
+       "feedback": "Yes: a cyl at axis 90 has no power vertically."
+      },
+      {
+       "text": "+1.00 D",
+       "correct": false,
+       "feedback": "That adds the cyl, which acts horizontally."
+      },
+      {
+       "text": "−2.00 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "+5.00 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-centration-prism-x0024",
+     "q": "R −2.00 DS, L −5.00 DS. Both eyes look 10 mm below the optical centres. What is the vertical differential prism?",
+     "options": [
+      {
+       "text": "3Δ (base down in the left, or base up in the right)",
+       "correct": true,
+       "feedback": "Yes: 2Δ and 5Δ base down."
+      },
+      {
+       "text": "7Δ",
+       "correct": false,
+       "feedback": "The prisms have the same base direction, so subtract."
+      },
+      {
+       "text": "0Δ",
+       "correct": false,
+       "feedback": "Only if the powers matched."
+      },
+      {
+       "text": "30Δ",
+       "correct": false,
+       "feedback": "Use cm."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-centration-prism-x0025",
+     "q": "Which fix is NOT used to reduce vertical differential prism at near?",
+     "options": [
+      {
+       "text": "Making both lenses thinner",
+       "correct": true,
+       "feedback": "Thickness doesn't change Prentice prism."
+      },
+      {
+       "text": "A bi-prism (slab-off) lens",
+       "correct": false,
+       "feedback": "Used."
+      },
+      {
+       "text": "Unequal segment sizes",
+       "correct": false,
+       "feedback": "Used."
+      },
+      {
+       "text": "Free-form lenses",
+       "correct": false,
+       "feedback": "Used."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-centration-prism-x0026",
+     "q": "Looking in towards the nose through a plus lens gives",
+     "options": [
+      {
+       "text": "base-out prism",
+       "correct": true,
+       "feedback": "Yes: plus lenses act base-to-base, base towards the OC."
+      },
+      {
+       "text": "base-in prism",
+       "correct": false,
+       "feedback": "That's for minus lenses."
+      },
+      {
+       "text": "base-up prism",
+       "correct": false,
+       "feedback": "That's looking down through plus."
+      },
+      {
+       "text": "no prism",
+       "correct": false,
+       "feedback": "Only at the OC."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -605,6 +1118,195 @@
      ],
      "explanation": "R = ((n − 1)/(n + 1))². Higher-index lenses reflect more, so they benefit more from anti-reflection coating.",
      "link": "aad-lens-materials"
+    },
+    {
+     "id": "aad-lens-materials-x0021",
+     "q": "What does a higher refractive index allow?",
+     "options": [
+      {
+       "text": "A thinner lens for the same power",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Less chromatic aberration",
+       "correct": false,
+       "feedback": "Usually the opposite: V falls."
+      },
+      {
+       "text": "Less reflection",
+       "correct": false,
+       "feedback": "Higher index reflects more."
+      },
+      {
+       "text": "A heavier lens",
+       "correct": false,
+       "feedback": "Not necessarily."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-materials-x0022",
+     "q": "What does a high Abbe number (V) mean?",
+     "options": [
+      {
+       "text": "Low dispersion, so less colour fringing",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "High refractive index",
+       "correct": false,
+       "feedback": "Usually the opposite."
+      },
+      {
+       "text": "High impact resistance",
+       "correct": false,
+       "feedback": "Unrelated."
+      },
+      {
+       "text": "High reflectance",
+       "correct": false,
+       "feedback": "Unrelated."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-materials-x0023",
+     "q": "Using ((n − 1)/(n + 1))², about how much light does a surface of n = 1.5 reflect?",
+     "options": [
+      {
+       "text": "4%",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "0.4%",
+       "correct": false,
+       "feedback": "Ten times too small."
+      },
+      {
+       "text": "10%",
+       "correct": false,
+       "feedback": "Too much."
+      },
+      {
+       "text": "25%",
+       "correct": false,
+       "feedback": "Too much."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-materials-x0024",
+     "q": "Which material is usually recommended for children and sports?",
+     "options": [
+      {
+       "text": "Polycarbonate or Trivex",
+       "correct": true,
+       "feedback": "Yes: high impact resistance."
+      },
+      {
+       "text": "Crown glass",
+       "correct": false,
+       "feedback": "Shatters more easily."
+      },
+      {
+       "text": "1.74 high-index plastic",
+       "correct": false,
+       "feedback": "Not chosen for impact."
+      },
+      {
+       "text": "CR39",
+       "correct": false,
+       "feedback": "Less impact-resistant than polycarbonate or Trivex."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-materials-x0025",
+     "q": "Why does anti-reflection coating matter more for high-index lenses?",
+     "options": [
+      {
+       "text": "They reflect more light at each surface",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "They scratch more",
+       "correct": false,
+       "feedback": "Hard coats deal with that."
+      },
+      {
+       "text": "They're always tinted",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "They have higher V values",
+       "correct": false,
+       "feedback": "Usually lower."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-materials-x0026",
+     "q": "Which has the lowest Abbe number of these?",
+     "options": [
+      {
+       "text": "Polycarbonate (about 30)",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "CR39 (about 58)",
+       "correct": false,
+       "feedback": "Higher."
+      },
+      {
+       "text": "Crown glass (about 59)",
+       "correct": false,
+       "feedback": "Higher."
+      },
+      {
+       "text": "Trivex (about 43–45)",
+       "correct": false,
+       "feedback": "Higher."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-materials-x0027",
+     "q": "Why dispense higher index only if it's genuinely thinner in the chosen frame?",
+     "options": [
+      {
+       "text": "Its lower V value adds transverse chromatic aberration",
+       "correct": true,
+       "feedback": "Yes, from the lens design lecture."
+      },
+      {
+       "text": "It's always heavier",
+       "correct": false,
+       "feedback": "Not necessarily."
+      },
+      {
+       "text": "It can't be coated",
+       "correct": false,
+       "feedback": "It can."
+      },
+      {
+       "text": "It blocks no UV",
+       "correct": false,
+       "feedback": "Not the reason."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -704,6 +1406,249 @@
       }
      ],
      "explanation": "Reflected glare is horizontally polarised; vertically oriented polarising filters block it."
+    },
+    {
+     "id": "aad-lens-form-coatings-x0021",
+     "q": "What makes a lens 'curved form'?",
+     "options": [
+      {
+       "text": "One surface convex and the other concave in all meridians",
+       "correct": true,
+       "feedback": "Yes (BS EN ISO 13666)."
+      },
+      {
+       "text": "Both surfaces convex",
+       "correct": false,
+       "feedback": "That's biconvex."
+      },
+      {
+       "text": "A toric back surface",
+       "correct": false,
+       "feedback": "Not the definition."
+      },
+      {
+       "text": "An aspheric front",
+       "correct": false,
+       "feedback": "Not the definition."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0022",
+     "q": "Which design philosophy gives zero mean oblique error?",
+     "options": [
+      {
+       "text": "Percival",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Point focal",
+       "correct": false,
+       "feedback": "That gives zero oblique astigmatism."
+      },
+      {
+       "text": "Minimum tangential error",
+       "correct": false,
+       "feedback": "That makes the tangential power equal the BVP."
+      },
+      {
+       "text": "Flat form",
+       "correct": false,
+       "feedback": "That has the most error."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0023",
+     "q": "Which design is the commonest choice today?",
+     "options": [
+      {
+       "text": "Minimum tangential error",
+       "correct": true,
+       "feedback": "Yes: it behaves like point focal or Percival as the vertex distance varies."
+      },
+      {
+       "text": "Point focal",
+       "correct": false,
+       "feedback": "Not the most common."
+      },
+      {
+       "text": "Percival",
+       "correct": false,
+       "feedback": "Not the most common."
+      },
+      {
+       "text": "Plano-concave",
+       "correct": false,
+       "feedback": "Not best form."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0024",
+     "q": "For +5.00 D, Tscherning's flatter (Ostwalt) solution is about",
+     "options": [
+      {
+       "text": "+12.50 / −7.50",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "+19.00 / −14.00",
+       "correct": false,
+       "feedback": "That's the steeper Wollaston solution."
+      },
+      {
+       "text": "+5.00 / plano",
+       "correct": false,
+       "feedback": "That's plano-convex."
+      },
+      {
+       "text": "+2.50 / +2.50",
+       "correct": false,
+       "feedback": "That's equiconvex."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0025",
+     "q": "Above about +7.00 D, Tscherning's ellipses",
+     "options": [
+      {
+       "text": "give no two-sphere solution, so aspheric surfaces are needed",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "give three solutions",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "give only the Wollaston solution",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "aren't needed",
+       "correct": false,
+       "feedback": "They show there's no solution."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0026",
+     "q": "Why might a young −4.00 D myope see better off-axis in a flatter lens?",
+     "options": [
+      {
+       "text": "Its negative MOE can be overcome by accommodating",
+       "correct": true,
+       "feedback": "Yes: the best form's positive MOE can't."
+      },
+      {
+       "text": "Flat lenses have less distortion",
+       "correct": false,
+       "feedback": "Distortion rises faster with flat forms."
+      },
+      {
+       "text": "Flat lenses have no oblique astigmatism",
+       "correct": false,
+       "feedback": "They have more."
+      },
+      {
+       "text": "Flat lenses are always best form",
+       "correct": false,
+       "feedback": "They aren't."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0027",
+     "q": "Which aberration is controlled mainly by choosing a high-V material?",
+     "options": [
+      {
+       "text": "Transverse chromatic aberration",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Oblique astigmatism",
+       "correct": false,
+       "feedback": "Controlled by form."
+      },
+      {
+       "text": "Curvature of field",
+       "correct": false,
+       "feedback": "Controlled by form."
+      },
+      {
+       "text": "Spherical aberration",
+       "correct": false,
+       "feedback": "Not considered in spectacle design."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0028",
+     "q": "Which coating improves scratch resistance?",
+     "options": [
+      {
+       "text": "A hard coat",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "An anti-reflection coat",
+       "correct": false,
+       "feedback": "That reduces reflections."
+      },
+      {
+       "text": "A UV coat",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "A photochromic layer",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-lens-form-coatings-x0029",
+     "q": "Why may standard photochromics not darken much in a car?",
+     "options": [
+      {
+       "text": "The windscreen blocks much of the UV that triggers them",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Cars are too warm",
+       "correct": false,
+       "feedback": "Heat matters less than the UV block."
+      },
+      {
+       "text": "Photochromics only work indoors",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "They need polarised light",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [],
@@ -939,6 +1884,33 @@
       }
      ],
      "explanation": "Worksheet 2(d), answer sheet slide 6."
+    },
+    {
+     "id": "aad-multifocals-x0021",
+     "q": "What does 'D28' describe?",
+     "options": [
+      {
+       "text": "A flat-top (D-shaped) segment 28 mm wide",
+       "correct": true,
+       "feedback": "Yes: the commonest bifocal today."
+      },
+      {
+       "text": "A round segment 28 mm across",
+       "correct": false,
+       "feedback": "That's R28."
+      },
+      {
+       "text": "A 28 mm segment drop",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "A +2.80 add",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -1084,6 +2056,222 @@
      ],
      "explanation": "Three steps: new sphere = sphere + cyl, flip the cyl sign, axis ± 90.",
      "link": "aad-verification-fitting#transposition-practice"
+    },
+    {
+     "id": "aad-verification-fitting-x0021",
+     "q": "Transpose +1.00/−2.00 × 30.",
+     "options": [
+      {
+       "text": "−1.00/+2.00 × 120",
+       "correct": true,
+       "feedback": "Yes: add sphere and cyl, change the cyl sign, rotate the axis 90°."
+      },
+      {
+       "text": "+1.00/+2.00 × 120",
+       "correct": false,
+       "feedback": "The sphere must change too."
+      },
+      {
+       "text": "−1.00/+2.00 × 30",
+       "correct": false,
+       "feedback": "The axis must rotate."
+      },
+      {
+       "text": "+3.00/−2.00 × 120",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0022",
+     "q": "Transpose −3.00/+1.50 × 90.",
+     "options": [
+      {
+       "text": "−1.50/−1.50 × 180",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "−4.50/−1.50 × 180",
+       "correct": false,
+       "feedback": "Sphere + cyl is −1.50."
+      },
+      {
+       "text": "−1.50/+1.50 × 180",
+       "correct": false,
+       "feedback": "The cyl sign must change."
+      },
+      {
+       "text": "−1.50/−1.50 × 90",
+       "correct": false,
+       "feedback": "The axis must rotate."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0023",
+     "q": "When verifying single vision spectacles, which power does a focimeter normally measure?",
+     "options": [
+      {
+       "text": "Back vertex power, with the back surface against the lens stop",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Front vertex power",
+       "correct": false,
+       "feedback": "Used for some bifocal adds."
+      },
+      {
+       "text": "Equivalent power",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Surface power",
+       "correct": false,
+       "feedback": "That's a lens measure."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0024",
+     "q": "Where are varifocals verified?",
+     "options": [
+      {
+       "text": "At the distance and near reference points, not the fitting cross",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "At the fitting cross",
+       "correct": false,
+       "feedback": "Not for power."
+      },
+      {
+       "text": "At the edge of the lens",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "At the engraving",
+       "correct": false,
+       "feedback": "Engravings are used to re-mark the lens."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0025",
+     "q": "What's the first thing to do on a manual focimeter?",
+     "options": [
+      {
+       "text": "Focus the eyepiece for your own eye",
+       "correct": true,
+       "feedback": "Yes, then check it reads zero."
+      },
+      {
+       "text": "Insert the lens",
+       "correct": false,
+       "feedback": "Set up first."
+      },
+      {
+       "text": "Mark the lens",
+       "correct": false,
+       "feedback": "Later."
+      },
+      {
+       "text": "Set the axis",
+       "correct": false,
+       "feedback": "Later."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0026",
+     "q": "A bifocal's front-surface add is measured with back vertex power. What happens?",
+     "options": [
+      {
+       "text": "It over-reads, especially on thick lenses with steep front curves",
+       "correct": true,
+       "feedback": "Yes: front-surface adds use front vertex power."
+      },
+      {
+       "text": "It reads exactly right",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "It under-reads",
+       "correct": false,
+       "feedback": "It over-reads."
+      },
+      {
+       "text": "The add can't be measured",
+       "correct": false,
+       "feedback": "It can."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0027",
+     "q": "Which standard sets tolerances for mounted spectacle lenses?",
+     "options": [
+      {
+       "text": "BS EN ISO 21987",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "BS 2738-3",
+       "correct": false,
+       "feedback": "That sets when BVD is needed."
+      },
+      {
+       "text": "BS EN ISO 13666",
+       "correct": false,
+       "feedback": "That's vocabulary."
+      },
+      {
+       "text": "ISO 9001",
+       "correct": false,
+       "feedback": "That's quality management."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-verification-fitting-x0028",
+     "q": "A finished pair has 2Δ base down in the right and 1Δ base down in the left at the prism checking point of a varifocal. What does it suggest?",
+     "options": [
+      {
+       "text": "1Δ is prism thinning and 1Δ base down right is prescribed (or ordered in error)",
+       "correct": true,
+       "feedback": "Yes: thinning is equal in both lenses."
+      },
+      {
+       "text": "All of it is prism thinning",
+       "correct": false,
+       "feedback": "Thinning is equal R and L."
+      },
+      {
+       "text": "The lenses are decentred",
+       "correct": false,
+       "feedback": "Possible, but the pattern fits thinning plus prism."
+      },
+      {
+       "text": "The patient needs new lenses",
+       "correct": false,
+       "feedback": "Check the order first."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -1213,6 +2401,168 @@
       }
      ],
      "explanation": "Worksheet 2 answer: equal vertical prism is thinning; any difference should be prescribed prism."
+    },
+    {
+     "id": "aad-ppl-x0021",
+     "q": "A linear progression adds 0.133 D per mm. What's the add 15 mm below the start?",
+     "options": [
+      {
+       "text": "+2.00 D",
+       "correct": true,
+       "feedback": "Yes: 15 × 0.133."
+      },
+      {
+       "text": "+1.33 D",
+       "correct": false,
+       "feedback": "That's at 10 mm."
+      },
+      {
+       "text": "+0.133 D",
+       "correct": false,
+       "feedback": "That's per mm."
+      },
+      {
+       "text": "+2.50 D",
+       "correct": false,
+       "feedback": "Too much."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-ppl-x0022",
+     "q": "Why are short-corridor PPLs not advised for high adds?",
+     "options": [
+      {
+       "text": "Astigmatism rises with both the add and a shorter corridor, narrowing the clear zones",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "They can't be made over +2.00",
+       "correct": false,
+       "feedback": "They can."
+      },
+      {
+       "text": "They need deeper frames",
+       "correct": false,
+       "feedback": "They suit shallower frames."
+      },
+      {
+       "text": "They have no near zone",
+       "correct": false,
+       "feedback": "They do."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-ppl-x0023",
+     "q": "What frame depth do standard progressive corridors usually need?",
+     "options": [
+      {
+       "text": "About 18 mm below the fitting cross",
+       "correct": true,
+       "feedback": "Yes; short corridors about 14 mm."
+      },
+      {
+       "text": "About 8 mm",
+       "correct": false,
+       "feedback": "Too shallow."
+      },
+      {
+       "text": "About 30 mm",
+       "correct": false,
+       "feedback": "Too deep."
+      },
+      {
+       "text": "Depth doesn't matter",
+       "correct": false,
+       "feedback": "It does."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-ppl-x0024",
+     "q": "What causes the 'swimming' feeling in new progressive wearers?",
+     "options": [
+      {
+       "text": "Different rates of change of astigmatism in the two lenses, so magnification differs between the eyes in side gaze",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Too much prism thinning",
+       "correct": false,
+       "feedback": "Not the main cause."
+      },
+      {
+       "text": "A wrong PD",
+       "correct": false,
+       "feedback": "That causes other problems."
+      },
+      {
+       "text": "Poor coatings",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-ppl-x0025",
+     "q": "Which extra measurements do free-form progressives need?",
+     "options": [
+      {
+       "text": "BVD, pantoscopic angle and dihedral (wrap) angle",
+       "correct": true,
+       "feedback": "Yes, plus mono PDs and heights."
+      },
+      {
+       "text": "Only binocular PD",
+       "correct": false,
+       "feedback": "Not enough."
+      },
+      {
+       "text": "Head width and temple width",
+       "correct": false,
+       "feedback": "Those are frame measurements."
+      },
+      {
+       "text": "Pupil size",
+       "correct": false,
+       "feedback": "Not one of the listed extras."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-ppl-x0026",
+     "q": "Who designed the first commercially successful progressive lens?",
+     "options": [
+      {
+       "text": "Bernard Maitenaz (Varilux, 1959)",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Owen Aves",
+       "correct": false,
+       "feedback": "He patented a design in 1907 but it was never made."
+      },
+      {
+       "text": "Benjamin Franklin",
+       "correct": false,
+       "feedback": "Split bifocals."
+      },
+      {
+       "text": "Marius Tscherning",
+       "correct": false,
+       "feedback": "Best-form ellipses."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -1410,6 +2760,33 @@
       }
      ],
      "explanation": "Worksheet 4, question 2."
+    },
+    {
+     "id": "aad-aberrations-x0021",
+     "q": "Which Seidel aberration is NOT considered in spectacle lens design?",
+     "options": [
+      {
+       "text": "Spherical aberration",
+       "correct": true,
+       "feedback": "Yes: the pupil limits it and the eye's own swamps it."
+      },
+      {
+       "text": "Oblique astigmatism",
+       "correct": false,
+       "feedback": "The most important."
+      },
+      {
+       "text": "Curvature of field",
+       "correct": false,
+       "feedback": "Considered."
+      },
+      {
+       "text": "Distortion",
+       "correct": false,
+       "feedback": "Considered."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -1543,6 +2920,195 @@
       }
      ],
      "explanation": "Worksheet 1."
+    },
+    {
+     "id": "aad-aspheric-x0021",
+     "q": "Which surface has a p value of 1?",
+     "options": [
+      {
+       "text": "A sphere (circle)",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "A parabola",
+       "correct": false,
+       "feedback": "p = 0."
+      },
+      {
+       "text": "A hyperbola",
+       "correct": false,
+       "feedback": "p < 0."
+      },
+      {
+       "text": "An oblate ellipse",
+       "correct": false,
+       "feedback": "p > 1."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-aspheric-x0022",
+     "q": "How can you tell a plus lens has an aspheric front with a lens measure?",
+     "options": [
+      {
+       "text": "The reading falls as you move the lens measure towards the edge",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "The reading is the same everywhere",
+       "correct": false,
+       "feedback": "That's a sphere."
+      },
+      {
+       "text": "The reading rises towards the edge",
+       "correct": false,
+       "feedback": "That's a minus aspheric."
+      },
+      {
+       "text": "You can't tell",
+       "correct": false,
+       "feedback": "You can."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-aspheric-x0023",
+     "q": "Is a progressive lens an aspheric lens?",
+     "options": [
+      {
+       "text": "No: it isn't rotationally symmetrical",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Yes, always",
+       "correct": false,
+       "feedback": "Not by definition."
+      },
+      {
+       "text": "Only if it's free-form",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Only above +4.00",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-aspheric-x0024",
+     "q": "Why are aspheric surfaces combined with high-index materials?",
+     "options": [
+      {
+       "text": "Thickness is saved twice: flatter curves from higher index, then more asphericity to correct them",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "High index needs no correction",
+       "correct": false,
+       "feedback": "It does."
+      },
+      {
+       "text": "To reduce TCA",
+       "correct": false,
+       "feedback": "High index adds TCA."
+      },
+      {
+       "text": "To increase magnification",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-aspheric-x0025",
+     "q": "Which p value suits a high-plus front surface designed for zero oblique astigmatism (point focal-like)?",
+     "options": [
+      {
+       "text": "About 0 (parabola)",
+       "correct": true,
+       "feedback": "Yes, from the +10.00 D table."
+      },
+      {
+       "text": "About 1",
+       "correct": false,
+       "feedback": "That's spherical, with lots of OAE."
+      },
+      {
+       "text": "About 0.4",
+       "correct": false,
+       "feedback": "That gives zero MOE."
+      },
+      {
+       "text": "About −4",
+       "correct": false,
+       "feedback": "That overcorrects."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-aspheric-x0026",
+     "q": "Why must aspheric lenses be centred carefully?",
+     "options": [
+      {
+       "text": "Off-centre, the wearer looks through the peripheral astigmatic zones in primary gaze",
+       "correct": true,
+       "feedback": "Yes; also never decentre them to make prism."
+      },
+      {
+       "text": "They scratch easily",
+       "correct": false,
+       "feedback": "Not the reason."
+      },
+      {
+       "text": "They're heavier",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "They have no optical centre",
+       "correct": false,
+       "feedback": "They do."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-aspheric-x0027",
+     "q": "For a cylinder over about 1.50 D, which surface gives the best off-axis vision?",
+     "options": [
+      {
+       "text": "An atoroidal surface (different p in each meridian)",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "A spherical surface",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "A standard rotationally symmetrical asphere",
+       "correct": false,
+       "feedback": "The ideal p differs between meridians."
+      },
+      {
+       "text": "A flat surface",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -1623,6 +3189,222 @@
       }
      ],
      "explanation": "Occupational dispensing, slide 25."
+    },
+    {
+     "id": "aad-occupational-x0021",
+     "q": "For sustained tasks, how good should VA be compared with the minimum the task needs?",
+     "options": [
+      {
+       "text": "About twice as good",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "The same",
+       "correct": false,
+       "feedback": "Not enough for sustained work."
+      },
+      {
+       "text": "Half as good",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Ten times as good",
+       "correct": false,
+       "feedback": "Too strict."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0022",
+     "q": "Group 2 drivers (lorry, bus) need what VA?",
+     "options": [
+      {
+       "text": "6/7.5 in the better eye and at least 6/60 in the other",
+       "correct": true,
+       "feedback": "Yes, with spectacles no stronger than ±8 D."
+      },
+      {
+       "text": "6/12 binocularly",
+       "correct": false,
+       "feedback": "That's Group 1."
+      },
+      {
+       "text": "6/9 in each eye",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "6/6 in each eye",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0023",
+     "q": "What visual field does the UK Group 1 standard require?",
+     "options": [
+      {
+       "text": "120° horizontally (50° each side) with no significant defect within 20° of fixation",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "60°",
+       "correct": false,
+       "feedback": "Too little."
+      },
+      {
+       "text": "180°",
+       "correct": false,
+       "feedback": "Too much."
+      },
+      {
+       "text": "None",
+       "correct": false,
+       "feedback": "There is a field standard."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0024",
+     "q": "Who is entitled to an employer-funded eye exam for VDU work?",
+     "options": [
+      {
+       "text": "Workers who use display screens daily for continuous periods of an hour or more",
+       "correct": true,
+       "feedback": "Yes (HSE)."
+      },
+      {
+       "text": "Anyone who uses a phone",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Only people over 40",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Only people with symptoms",
+       "correct": false,
+       "feedback": "Any qualifying user can request one."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0025",
+     "q": "What is the most urgent ocular emergency at work?",
+     "options": [
+      {
+       "text": "A chemical injury: irrigate, don't pad, refer immediately",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "A subconjunctival haemorrhage",
+       "correct": false,
+       "feedback": "Usually harmless."
+      },
+      {
+       "text": "Eye strain",
+       "correct": false,
+       "feedback": "Not urgent."
+      },
+      {
+       "text": "A small lid cyst",
+       "correct": false,
+       "feedback": "Not urgent."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0026",
+     "q": "Which laser class can cause damage with an exposure as short as 0.01 seconds?",
+     "options": [
+      {
+       "text": "Class 3b",
+       "correct": true,
+       "feedback": "Yes; protective eyewear is recommended."
+      },
+      {
+       "text": "Class 1",
+       "correct": false,
+       "feedback": "Safe."
+      },
+      {
+       "text": "Class 2",
+       "correct": false,
+       "feedback": "Only with deliberate prolonged staring."
+      },
+      {
+       "text": "Class 3a",
+       "correct": false,
+       "feedback": "Mainly dangerous with optical instruments."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0027",
+     "q": "Disabling glare from water, snow or sand is best reduced by",
+     "options": [
+      {
+       "text": "polarised filters",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "clear lenses",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "an anti-reflection coat alone",
+       "correct": false,
+       "feedback": "Helps reflections from the lens, not this glare."
+      },
+      {
+       "text": "a pinhole",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "aad-occupational-x0028",
+     "q": "Which standard applies to train drivers?",
+     "options": [
+      {
+       "text": "6/9 in the better eye, 6/12 in the other, N8 near, and no colour deficiency",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "6/12 binocularly only",
+       "correct": false,
+       "feedback": "That's Group 1 driving."
+      },
+      {
+       "text": "6/6 each eye and 6/6 binocular",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "No standard",
+       "correct": false,
+       "feedback": "There is one."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
