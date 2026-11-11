@@ -126,6 +126,9 @@ export function Library({
         <Tile href="/quiz" title="Quick quiz" tone="lilac">
           10 questions from across your modules
         </Tile>
+        <Tile href="/college" title="College guidance" tone="sky">
+          Clinical Management Guidelines and professional guidance
+        </Tile>
         <Tile href="/checklists" title="Checklists" tone="sage">
           {checklistCount} practical {checklistCount === 1 ? 'routine' : 'routines'}
         </Tile>
