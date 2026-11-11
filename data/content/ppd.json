@@ -332,6 +332,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0181",
+          "q": "What's the main risk of posting about clinic on social media?",
+          "options": [
+            {
+              "text": "Breaching confidentiality or professionalism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "There is."
+            },
+            {
+              "text": "Going viral only",
+              "correct": false,
+              "feedback": "Not the point."
+            },
+            {
+              "text": "Wasting time",
+              "correct": false,
+              "feedback": "Not the main risk."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0182",
+          "q": "Under the standards, you should work",
+          "options": [
+            {
+              "text": "within your competence and under supervision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "beyond your training",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "alone always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "without records",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0183",
+          "q": "Personal relationships with patients are",
+          "options": [
+            {
+              "text": "inappropriate: maintain professional boundaries",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "fine",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "encouraged",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "irrelevant",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0184",
+          "q": "A patient offers you an expensive gift. What do you do?",
+          "options": [
+            {
+              "text": "Politely decline or follow the policy: it could affect your judgement",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Accept",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask for more",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0185",
+          "q": "Records must be",
+          "options": [
+            {
+              "text": "honest and accurate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "edited later to look better",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "optional",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "private notes only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0186",
+          "q": "Why offer a chaperone?",
+          "options": [
+            {
+              "text": "To protect patient dignity and you",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's required for every test",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0187",
+          "q": "Your personal beliefs should",
+          "options": [
+            {
+              "text": "not affect the care patients receive",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "change your treatment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "be shared with patients",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "override standards",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0188",
+          "q": "What does 'fitness to practise' cover?",
+          "options": [
+            {
+              "text": "Whether a registrant is safe and fit to work",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Physical fitness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Exam results only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Uniform",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0189",
+          "q": "Who regulates optometrists in the UK?",
+          "options": [
+            {
+              "text": "The GOC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The NHS",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The AOP",
+              "correct": false,
+              "feedback": "Professional body."
+            },
+            {
+              "text": "The College",
+              "correct": false,
+              "feedback": "Professional body."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x01810",
+          "q": "Treating patients with dignity includes",
+          "options": [
+            {
+              "text": "privacy, respect and explaining what you do",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "rushing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "talking over them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignoring them",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -678,6 +948,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0181",
+          "q": "What is Gillick competence?",
+          "options": [
+            {
+              "text": "A child under 16 understanding enough to consent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A parent's right",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An adult test",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A drug",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0182",
+          "q": "If an adult lacks capacity, decisions are made",
+          "options": [
+            {
+              "text": "in their best interests",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "by anyone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "by the optometrist alone",
+              "correct": false,
+              "feedback": "Consider others."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "Decisions are made."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0183",
+          "q": "Capacity is",
+          "options": [
+            {
+              "text": "decision-specific and time-specific",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "all or nothing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "permanent",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "linked to age only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0184",
+          "q": "The Mental Capacity Act starts by",
+          "options": [
+            {
+              "text": "presuming capacity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "presuming no capacity",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "asking the family",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "asking the GP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0185",
+          "q": "An unwise decision means",
+          "options": [
+            {
+              "text": "not necessarily a lack of capacity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no capacity",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "must be overruled",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "illegal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0186",
+          "q": "Who's best for interpreting?",
+          "options": [
+            {
+              "text": "A professional interpreter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A child",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A neighbour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Google only",
+              "correct": false,
+              "feedback": "Not ideal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0187",
+          "q": "Informed consent needs",
+          "options": [
+            {
+              "text": "risks, benefits and alternatives explained",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a signature only",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "payment",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0188",
+          "q": "What's active listening?",
+          "options": [
+            {
+              "text": "Attending, reflecting and checking understanding",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Waiting to talk",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Typing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Interrupting",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0189",
+          "q": "SPIKES is a framework for",
+          "options": [
+            {
+              "text": "breaking bad news",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "refraction",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "infection control",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "record keeping",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x01810",
+          "q": "Non-verbal communication includes",
+          "options": [
+            {
+              "text": "eye contact, posture and tone",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the words only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the record",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Matters."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1017,6 +1557,276 @@
             },
             {
               "text": "Only write notes on optometry",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0181",
+          "q": "Who is a medical doctor specialising in eyes?",
+          "options": [
+            {
+              "text": "An ophthalmologist",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An optometrist",
+              "correct": false,
+              "feedback": "Not a doctor."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A dispensing optician",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0182",
+          "q": "Who helps newly diagnosed sight-impaired patients in eye clinics?",
+          "options": [
+            {
+              "text": "An eye clinic liaison officer (ECLO)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A pharmacist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A receptionist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A surgeon",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0183",
+          "q": "Who teaches independent living skills to visually impaired people?",
+          "options": [
+            {
+              "text": "A rehabilitation officer for visual impairment (ROVI)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A pharmacist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A dentist",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0184",
+          "q": "Which professional advises on medicines and interactions?",
+          "options": [
+            {
+              "text": "A pharmacist",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A dispensing optician",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A receptionist",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0185",
+          "q": "In SBAR, S is",
+          "options": [
+            {
+              "text": "Situation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Symptoms",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Sight",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Severity",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0186",
+          "q": "In SBAR, R is",
+          "options": [
+            {
+              "text": "Recommendation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Referral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Result",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Record",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0187",
+          "q": "Steep hierarchies in teams can",
+          "options": [
+            {
+              "text": "stop junior staff speaking up",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "improve safety",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "have no effect",
+              "correct": false,
+              "feedback": "They can."
+            },
+            {
+              "text": "speed up clinics",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0188",
+          "q": "Who grades diabetic eye screening photos?",
+          "options": [
+            {
+              "text": "Trained screener-graders",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dentists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pharmacists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Patients",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0189",
+          "q": "What helps teamwork most?",
+          "options": [
+            {
+              "text": "Mutual respect and understanding of roles",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Competition",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Silence",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Separate rooms",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x01810",
+          "q": "Who usually manages systemic hypertension?",
+          "options": [
+            {
+              "text": "The GP",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An optometrist",
+              "correct": false,
+              "feedback": "Refer."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A dispenser",
               "correct": false,
               "feedback": "No."
             }
@@ -1365,6 +2175,276 @@
               "text": "structure",
               "correct": false,
               "feedback": "Use it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0181",
+          "q": "What's the first stage of Gibbs' cycle?",
+          "options": [
+            {
+              "text": "Description",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Feelings",
+              "correct": false,
+              "feedback": "Second."
+            },
+            {
+              "text": "Evaluation",
+              "correct": false,
+              "feedback": "Third."
+            },
+            {
+              "text": "Action plan",
+              "correct": false,
+              "feedback": "Last."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0182",
+          "q": "What's the last stage of Gibbs' cycle?",
+          "options": [
+            {
+              "text": "Action plan",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Description",
+              "correct": false,
+              "feedback": "First."
+            },
+            {
+              "text": "Analysis",
+              "correct": false,
+              "feedback": "Earlier."
+            },
+            {
+              "text": "Conclusion",
+              "correct": false,
+              "feedback": "Before the plan."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0183",
+          "q": "Kolb's cycle involves",
+          "options": [
+            {
+              "text": "experience, reflection, conceptualisation and experimentation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "what, so what, now what",
+              "correct": false,
+              "feedback": "Driscoll."
+            },
+            {
+              "text": "description only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "grading",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0184",
+          "q": "Schön distinguished reflection-in-action and",
+          "options": [
+            {
+              "text": "reflection-on-action",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "reflection-after-lunch",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "action-on-reflection",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "feedback",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0185",
+          "q": "Reflective writing is usually written in",
+          "options": [
+            {
+              "text": "the first person",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the third person only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "passive voice only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "bullet points only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0186",
+          "q": "Good reflection about a mistake is",
+          "options": [
+            {
+              "text": "honest and focused on learning",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "blaming others",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "hiding it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "vague",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0187",
+          "q": "What does GOC CPD include for reflection?",
+          "options": [
+            {
+              "text": "A reflective exercise with a peer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "An exam",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A fee only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0188",
+          "q": "SMART goals are",
+          "options": [
+            {
+              "text": "specific, measurable, achievable, relevant and time-bound",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "simple, many, any, random, timeless",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a reflection model",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a grading scale",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0189",
+          "q": "Why bring theory or evidence into reflection?",
+          "options": [
+            {
+              "text": "It deepens analysis beyond description",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To fill space",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not allowed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To confuse",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x01810",
+          "q": "Reflection should lead to",
+          "options": [
+            {
+              "text": "a change in practice",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Action."
+            },
+            {
+              "text": "a complaint",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "blame",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""

@@ -321,6 +321,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0171",
+          "q": "On uncovering, the eye moves inwards. What phoria is this?",
+          "options": [
+            {
+              "text": "Exophoria",
+              "correct": true,
+              "feedback": "Yes: it had drifted out."
+            },
+            {
+              "text": "Esophoria",
+              "correct": false,
+              "feedback": "Moves out on uncovering."
+            },
+            {
+              "text": "Hyperphoria",
+              "correct": false,
+              "feedback": "Vertical."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "It moved."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0172",
+          "q": "What's a normal distance phoria?",
+          "options": [
+            {
+              "text": "Orthophoria to a small exophoria",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "10Δ eso",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "15Δ exo",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "5Δ hyper",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0173",
+          "q": "Near esophoria 6Δ, base-in reserve to blur 6Δ. Sheard prism?",
+          "options": [
+            {
+              "text": "2Δ base out",
+              "correct": true,
+              "feedback": "Yes: (2/3 × 6) − (1/3 × 6)."
+            },
+            {
+              "text": "2Δ base in",
+              "correct": false,
+              "feedback": "Eso needs base out."
+            },
+            {
+              "text": "6Δ base out",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Sheard isn't met."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0174",
+          "q": "Which reserve does Sheard use for an esophoria?",
+          "options": [
+            {
+              "text": "Base-in (divergent) reserve",
+              "correct": true,
+              "feedback": "Yes: opposing the phoria."
+            },
+            {
+              "text": "Base-out",
+              "correct": false,
+              "feedback": "That's for exo."
+            },
+            {
+              "text": "Vertical",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Base-in."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0175",
+          "q": "Percival's criterion says",
+          "options": [
+            {
+              "text": "the patient should work in the middle third of their vergence range",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the reserve should be twice the phoria",
+              "correct": false,
+              "feedback": "Sheard."
+            },
+            {
+              "text": "the phoria should be zero",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "VA must be 6/6",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0176",
+          "q": "With +1.00 D, a near phoria changes from 2Δ exo to 6Δ exo. Gradient AC/A?",
+          "options": [
+            {
+              "text": "4Δ/D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "2Δ/D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "6Δ/D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "8Δ/D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0177",
+          "q": "PD 6 cm, distance ortho, near 3Δ exo at 40 cm. Calculated AC/A?",
+          "options": [
+            {
+              "text": "4.8Δ/D",
+              "correct": true,
+              "feedback": "Yes: 6 + (−3 − 0) ÷ 2.5."
+            },
+            {
+              "text": "7.2Δ/D",
+              "correct": false,
+              "feedback": "Exo is negative."
+            },
+            {
+              "text": "6Δ/D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1.2Δ/D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0178",
+          "q": "Esophoria much larger at near than distance with a high AC/A suggests",
+          "options": [
+            {
+              "text": "convergence excess",
+              "correct": true,
+              "feedback": "Yes; a near add helps."
+            },
+            {
+              "text": "convergence insufficiency",
+              "correct": false,
+              "feedback": "Exo at near."
+            },
+            {
+              "text": "divergence excess",
+              "correct": false,
+              "feedback": "Exo at distance."
+            },
+            {
+              "text": "basic eso",
+              "correct": false,
+              "feedback": "Equal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x0179",
+          "q": "Exodeviation larger at distance than near suggests",
+          "options": [
+            {
+              "text": "divergence excess",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "convergence insufficiency",
+              "correct": false,
+              "feedback": "Near."
+            },
+            {
+              "text": "convergence excess",
+              "correct": false,
+              "feedback": "Eso."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-phoria-tropia-x01710",
+          "q": "A phoria is compensated when",
+          "options": [
+            {
+              "text": "the patient has no symptoms and good recovery and reserves",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's large",
+              "correct": false,
+              "feedback": "Size isn't everything."
+            },
+            {
+              "text": "it's a tropia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "there's a slip",
+              "correct": false,
+              "feedback": "That suggests decompensation."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -658,6 +928,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0171",
+          "q": "Which test reveals the total deviation (phoria plus tropia)?",
+          "options": [
+            {
+              "text": "The alternating cover test",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Cover-uncover",
+              "correct": false,
+              "feedback": "Separates them."
+            },
+            {
+              "text": "Mallett",
+              "correct": false,
+              "feedback": "Associated."
+            },
+            {
+              "text": "Maddox wing",
+              "correct": false,
+              "feedback": "Near phoria only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0172",
+          "q": "Covering the fixing eye shows movement of the other eye. What is it?",
+          "options": [
+            {
+              "text": "A tropia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A phoria",
+              "correct": false,
+              "feedback": "Seen on uncover."
+            },
+            {
+              "text": "Orthophoria",
+              "correct": false,
+              "feedback": "No movement."
+            },
+            {
+              "text": "Normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0173",
+          "q": "With an exotropia, covering the fixing eye makes the deviated eye move",
+          "options": [
+            {
+              "text": "in",
+              "correct": true,
+              "feedback": "Yes, to take up fixation."
+            },
+            {
+              "text": "out",
+              "correct": false,
+              "feedback": "That's eso."
+            },
+            {
+              "text": "up",
+              "correct": false,
+              "feedback": "Hypo."
+            },
+            {
+              "text": "down",
+              "correct": false,
+              "feedback": "Hyper."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0174",
+          "q": "A right hypertropia: covering the left eye makes the right eye move",
+          "options": [
+            {
+              "text": "down",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "up",
+              "correct": false,
+              "feedback": "Hypotropia."
+            },
+            {
+              "text": "in",
+              "correct": false,
+              "feedback": "Exo."
+            },
+            {
+              "text": "out",
+              "correct": false,
+              "feedback": "Eso."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0175",
+          "q": "Why might a tropia show no movement on cover?",
+          "options": [
+            {
+              "text": "Eccentric fixation or a very small microtropia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's always visible",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "The cover is too big",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The patient is asleep",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0176",
+          "q": "How do you measure a deviation with prisms?",
+          "options": [
+            {
+              "text": "Prism cover test: increase prism until no movement",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Guess",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "With a ruler",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "With a focimeter",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0177",
+          "q": "Why use an accommodative target at near?",
+          "options": [
+            {
+              "text": "To control accommodation and convergence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A light is better",
+              "correct": false,
+              "feedback": "It doesn't control accommodation."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            },
+            {
+              "text": "For colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0178",
+          "q": "How long should each eye be covered?",
+          "options": [
+            {
+              "text": "About 2–3 seconds",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 minute",
+              "correct": false,
+              "feedback": "Long."
+            },
+            {
+              "text": "0.1 second",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "10 minutes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x0179",
+          "q": "What does recovery speed tell you?",
+          "options": [
+            {
+              "text": "Slow or jerky recovery suggests poor compensation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "The VA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-cover-test-x01710",
+          "q": "When is the cover test done?",
+          "options": [
+            {
+              "text": "At distance and near, with and without the correction as needed",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only at near",
+              "correct": false,
+              "feedback": "Both."
+            },
+            {
+              "text": "Only at distance",
+              "correct": false,
+              "feedback": "Both."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -966,6 +1506,276 @@
               "text": "Nothing",
               "correct": false,
               "feedback": "Check vertical too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0171",
+          "q": "How does the Mallett near unit dissociate the eyes?",
+          "options": [
+            {
+              "text": "Polarised nonius strips with a fused OXO",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Red/green",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Full occlusion",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0172",
+          "q": "Mallett is an 'associated' test because",
+          "options": [
+            {
+              "text": "the eyes stay fused",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "they are dissociated",
+              "correct": false,
+              "feedback": "Cover test."
+            },
+            {
+              "text": "it uses prism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's quick",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0173",
+          "q": "An exo slip is neutralised with",
+          "options": [
+            {
+              "text": "base-in prism (or minus lenses)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "base-out",
+              "correct": false,
+              "feedback": "Eso."
+            },
+            {
+              "text": "plus lenses",
+              "correct": false,
+              "feedback": "That increases exo."
+            },
+            {
+              "text": "vertical prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0174",
+          "q": "Which unit checks foveal suppression?",
+          "options": [
+            {
+              "text": "The Mallett unit's polarised letters",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The duochrome",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A focimeter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0175",
+          "q": "Is there a distance Mallett unit?",
+          "options": [
+            {
+              "text": "Yes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No",
+              "correct": false,
+              "feedback": "There is."
+            },
+            {
+              "text": "Only for children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only in hospital",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0176",
+          "q": "A slip with symptoms suggests",
+          "options": [
+            {
+              "text": "a decompensated phoria",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "orthophoria",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a tropia always",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0177",
+          "q": "For a young exophore with a slip, which lens change might help?",
+          "options": [
+            {
+              "text": "A small amount of minus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "More plus",
+              "correct": false,
+              "feedback": "Increases exo."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Possible."
+            },
+            {
+              "text": "Prism always",
+              "correct": false,
+              "feedback": "Not the only option."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0178",
+          "q": "What's the aligning prism?",
+          "options": [
+            {
+              "text": "The prism that removes the slip",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The total deviation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The reserve",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The phoria",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x0179",
+          "q": "Why ask 'Are the lines in line with the X?' rather than 'Is the line moving?'",
+          "options": [
+            {
+              "text": "To avoid leading the patient",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's shorter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            },
+            {
+              "text": "To confuse",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-mallett-x01710",
+          "q": "Which slip is checked after the horizontal one?",
+          "options": [
+            {
+              "text": "The vertical",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Vertical."
+            },
+            {
+              "text": "Torsional only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
@@ -1318,6 +2128,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0171",
+          "q": "In CI, which fusional vergence is reduced?",
+          "options": [
+            {
+              "text": "Positive (base-out)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Negative (base-in)",
+              "correct": false,
+              "feedback": "Usually normal."
+            },
+            {
+              "text": "Vertical",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cyclovergence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0172",
+          "q": "Which questionnaire measures CI symptoms?",
+          "options": [
+            {
+              "text": "CISS",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "OSDI",
+              "correct": false,
+              "feedback": "Dry eye."
+            },
+            {
+              "text": "NEI-VFQ",
+              "correct": false,
+              "feedback": "General vision."
+            },
+            {
+              "text": "Snellen",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0173",
+          "q": "Which exercise helps CI?",
+          "options": [
+            {
+              "text": "Dot card or Brock string",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Eye patching",
+              "correct": false,
+              "feedback": "Amblyopia."
+            },
+            {
+              "text": "Reading in the dark",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Exercises help."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0174",
+          "q": "In CI, the exo is",
+          "options": [
+            {
+              "text": "greater at near than distance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "greater at distance",
+              "correct": false,
+              "feedback": "Divergence excess."
+            },
+            {
+              "text": "equal",
+              "correct": false,
+              "feedback": "Basic exo."
+            },
+            {
+              "text": "absent",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0175",
+          "q": "The AC/A in CI is typically",
+          "options": [
+            {
+              "text": "low",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "high",
+              "correct": false,
+              "feedback": "Convergence excess."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "Usually low."
+            },
+            {
+              "text": "infinite",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0176",
+          "q": "Which may coexist with CI?",
+          "options": [
+            {
+              "text": "Accommodative insufficiency",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Myopia only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0177",
+          "q": "Office-based vergence therapy versus pencil push-ups in CITT?",
+          "options": [
+            {
+              "text": "Office-based therapy worked best",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Push-ups were best",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Equal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Neither helped",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0178",
+          "q": "What is 'jump convergence'?",
+          "options": [
+            {
+              "text": "Rapidly changing fixation from far to near",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A sport",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A prism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A cover test",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x0179",
+          "q": "NPC is recorded as",
+          "options": [
+            {
+              "text": "break and recovery points",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "one point",
+              "correct": false,
+              "feedback": "Both."
+            },
+            {
+              "text": "VA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "mmHg",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-ci-x01710",
+          "q": "Which near phoria fits CI?",
+          "options": [
+            {
+              "text": "A larger exophoria than at distance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Eso",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ortho",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hyper",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1655,6 +2735,276 @@
             },
             {
               "text": "nose always",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0171",
+          "q": "You need 1.5Δ base in from a −5.00 D lens. How?",
+          "options": [
+            {
+              "text": "Decentre 3 mm out",
+              "correct": true,
+              "feedback": "Yes: minus lenses decentre away from the base."
+            },
+            {
+              "text": "Decentre 3 mm in",
+              "correct": false,
+              "feedback": "That's for plus."
+            },
+            {
+              "text": "Decentre 0.3 mm out",
+              "correct": false,
+              "feedback": "Units."
+            },
+            {
+              "text": "Decentre 7.5 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0172",
+          "q": "2Δ base in plus 2Δ base up gives a resultant of about",
+          "options": [
+            {
+              "text": "2.8Δ",
+              "correct": true,
+              "feedback": "Yes: √8."
+            },
+            {
+              "text": "4Δ",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2Δ",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0173",
+          "q": "Prism for esophoria is",
+          "options": [
+            {
+              "text": "base out",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "base in",
+              "correct": false,
+              "feedback": "Exo."
+            },
+            {
+              "text": "base up",
+              "correct": false,
+              "feedback": "Vertical."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0174",
+          "q": "Vertical prism of 2Δ base down R can be split as",
+          "options": [
+            {
+              "text": "1Δ base down R and 1Δ base up L",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1Δ base down in both",
+              "correct": false,
+              "feedback": "That cancels."
+            },
+            {
+              "text": "2Δ base down L",
+              "correct": false,
+              "feedback": "That adds the wrong way."
+            },
+            {
+              "text": "1Δ base in R",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0175",
+          "q": "Why split prism between eyes?",
+          "options": [
+            {
+              "text": "For equal thickness and appearance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's required by law",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doubles the effect",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0176",
+          "q": "A Fresnel prism's drawback is",
+          "options": [
+            {
+              "text": "reduced VA and contrast",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "weight",
+              "correct": false,
+              "feedback": "It's light."
+            },
+            {
+              "text": "cost",
+              "correct": false,
+              "feedback": "Not the main one."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "It has some."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0177",
+          "q": "How is horizontal prism usually split?",
+          "options": [
+            {
+              "text": "Equally between the eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "All in one eye",
+              "correct": false,
+              "feedback": "Less common."
+            },
+            {
+              "text": "Never split",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "Randomly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0178",
+          "q": "Why might a patient need more prism over time?",
+          "options": [
+            {
+              "text": "Prism adaptation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Prism wears off",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lenses fade",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x0179",
+          "q": "Which test guides vertical prism prescribing?",
+          "options": [
+            {
+              "text": "The vertical Mallett aligning prism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pinhole",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Amsler",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "bvp-prism-x01710",
+          "q": "What happens to prism if a patient's eyes look away from the OC?",
+          "options": [
+            {
+              "text": "Prentice prism adds or subtracts",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It changes."
+            },
+            {
+              "text": "It doubles",
+              "correct": false,
+              "feedback": "Not exactly."
+            },
+            {
+              "text": "It becomes cylinder",
               "correct": false,
               "feedback": "No."
             }

@@ -333,6 +333,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0161",
+          "q": "From about how far do you view the red reflex?",
+          "options": [
+            {
+              "text": "About 30–50 cm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "6 m",
+              "correct": false,
+              "feedback": "Too far."
+            },
+            {
+              "text": "Touching the patient",
+              "correct": false,
+              "feedback": "Too close."
+            },
+            {
+              "text": "2 m",
+              "correct": false,
+              "feedback": "Too far."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0162",
+          "q": "An absent red reflex in a baby suggests",
+          "options": [
+            {
+              "text": "a media opacity such as cataract, or retinoblastoma: refer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0163",
+          "q": "Viewing a myopic patient's fundus, which lens do you dial in?",
+          "options": [
+            {
+              "text": "Minus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Plus",
+              "correct": false,
+              "feedback": "Hyperopes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Needed."
+            },
+            {
+              "text": "Prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0164",
+          "q": "What does the red-free filter help you see?",
+          "options": [
+            {
+              "text": "Vessels, haemorrhages and the nerve fibre layer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The tear film",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0165",
+          "q": "Which aperture suits an undilated pupil?",
+          "options": [
+            {
+              "text": "The small aperture",
+              "correct": true,
+              "feedback": "Yes: fewer reflections."
+            },
+            {
+              "text": "The large aperture",
+              "correct": false,
+              "feedback": "Dilated pupils."
+            },
+            {
+              "text": "The slit",
+              "correct": false,
+              "feedback": "Elevation."
+            },
+            {
+              "text": "The cobalt filter",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0166",
+          "q": "What image does a direct ophthalmoscope give?",
+          "options": [
+            {
+              "text": "Upright (erect) and virtual",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Inverted",
+              "correct": false,
+              "feedback": "Indirect."
+            },
+            {
+              "text": "Laterally reversed",
+              "correct": false,
+              "feedback": "Indirect."
+            },
+            {
+              "text": "Real",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0167",
+          "q": "Why get as close as possible to the patient's eye?",
+          "options": [
+            {
+              "text": "It increases the field of view",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It increases magnification",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "It's polite",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0168",
+          "q": "What's the fixation graticule used for?",
+          "options": [
+            {
+              "text": "Checking fixation and estimating lesion size",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Measuring IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It's useful."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x0169",
+          "q": "Lesion size and position are often described in",
+          "options": [
+            {
+              "text": "disc diameters (DD)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dioptres",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "mmHg",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "prism dioptres",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-direct-ophthalmoscopy-x01610",
+          "q": "Which slit aperture helps judge elevation?",
+          "options": [
+            {
+              "text": "The slit (seeing it bend over a raised area)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The large aperture",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Red-free",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cobalt",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -680,6 +950,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0161",
+          "q": "Which lens gives the best detail of the disc?",
+          "options": [
+            {
+              "text": "60 D",
+              "correct": true,
+              "feedback": "Yes: highest magnification of these."
+            },
+            {
+              "text": "90 D",
+              "correct": false,
+              "feedback": "Wider field, less magnification."
+            },
+            {
+              "text": "Super Field",
+              "correct": false,
+              "feedback": "Wide."
+            },
+            {
+              "text": "20 D",
+              "correct": false,
+              "feedback": "BIO."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0162",
+          "q": "A lesion appears on the left of the view. Where is it in the eye?",
+          "options": [
+            {
+              "text": "To the right",
+              "correct": true,
+              "feedback": "Yes: the image is laterally reversed."
+            },
+            {
+              "text": "To the left",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Above",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Below",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0163",
+          "q": "Why is slit lamp indirect ophthalmoscopy better than direct for the disc?",
+          "options": [
+            {
+              "text": "It gives a stereoscopic view",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's upright",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't need dilation",
+              "correct": false,
+              "feedback": "Better dilated."
+            },
+            {
+              "text": "It's monocular",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0164",
+          "q": "Why tilt the Volk lens slightly?",
+          "options": [
+            {
+              "text": "To move reflections out of the way",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To magnify",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To change power",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0165",
+          "q": "Why narrow the slit beam on the disc?",
+          "options": [
+            {
+              "text": "To judge elevation or depth from how it bends",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To brighten",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To see colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0166",
+          "q": "How do you reduce discomfort?",
+          "options": [
+            {
+              "text": "Lower the light intensity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Raise it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use a 20 D lens",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "Remove the lens",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0167",
+          "q": "A Super Field lens is used to",
+          "options": [
+            {
+              "text": "get a wide field of view",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "maximise magnification",
+              "correct": false,
+              "feedback": "60 D."
+            },
+            {
+              "text": "measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "view the angle",
+              "correct": false,
+              "feedback": "Goniolens."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0168",
+          "q": "How should you clean condensing lenses?",
+          "options": [
+            {
+              "text": "With a lens cloth and approved method, avoiding scratches",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "With an abrasive",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not at all",
+              "correct": false,
+              "feedback": "Clean them."
+            },
+            {
+              "text": "In alcohol for hours",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x0169",
+          "q": "Which pupil helps most?",
+          "options": [
+            {
+              "text": "A dilated pupil",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A pinpoint pupil",
+              "correct": false,
+              "feedback": "Harder."
+            },
+            {
+              "text": "Any",
+              "correct": false,
+              "feedback": "Dilated is easier."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Need a pupil."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-indirect-volk-x01610",
+          "q": "How do you move the view up in the eye?",
+          "options": [
+            {
+              "text": "Move the slit lamp the opposite way, since the image is inverted",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Move it the same way",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask the patient to blink",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Change lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -980,6 +1520,276 @@
             },
             {
               "text": "About 5 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0161",
+          "q": "What's the normal colour of the neuroretinal rim?",
+          "options": [
+            {
+              "text": "Orange-pink",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "White",
+              "correct": false,
+              "feedback": "Pallor."
+            },
+            {
+              "text": "Red",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Grey",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0162",
+          "q": "A pale disc suggests",
+          "options": [
+            {
+              "text": "optic atrophy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "disc swelling",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0163",
+          "q": "A splinter (Drance) haemorrhage on the disc margin is associated with",
+          "options": [
+            {
+              "text": "glaucoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "papilloedema only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0164",
+          "q": "Which disc sign suggests swelling?",
+          "options": [
+            {
+              "text": "Blurred, raised margins with obscured vessels",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Sharp margins",
+              "correct": false,
+              "feedback": "Normal."
+            },
+            {
+              "text": "A large cup",
+              "correct": false,
+              "feedback": "Glaucoma."
+            },
+            {
+              "text": "Pallor",
+              "correct": false,
+              "feedback": "Atrophy."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0165",
+          "q": "Bilateral disc swelling from raised intracranial pressure is called",
+          "options": [
+            {
+              "text": "papilloedema",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "optic neuritis",
+              "correct": false,
+              "feedback": "Often unilateral."
+            },
+            {
+              "text": "drusen",
+              "correct": false,
+              "feedback": "Pseudo."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0166",
+          "q": "Optic disc drusen may cause",
+          "options": [
+            {
+              "text": "pseudopapilloedema",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "glaucoma always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "macular holes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0167",
+          "q": "Which disc appearance is common in myopia?",
+          "options": [
+            {
+              "text": "A tilted disc with a crescent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A swollen disc",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A pale disc",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A disc haemorrhage",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0168",
+          "q": "Which CD ratio is more important in glaucoma?",
+          "options": [
+            {
+              "text": "The vertical",
+              "correct": true,
+              "feedback": "Yes: rim loss is usually top and bottom."
+            },
+            {
+              "text": "The horizontal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Both equal",
+              "correct": false,
+              "feedback": "Vertical is key."
+            },
+            {
+              "text": "Neither",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x0169",
+          "q": "A localised notch in the rim suggests",
+          "options": [
+            {
+              "text": "glaucoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "papilloedema",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "drusen",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-optic-disc-x01610",
+          "q": "Beta-zone peripapillary atrophy is associated with",
+          "options": [
+            {
+              "text": "glaucoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "hypertension",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "diabetes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
               "correct": false,
               "feedback": "No."
             }
@@ -1341,6 +2151,276 @@
               "text": "always normal",
               "correct": false,
               "feedback": "It's just not diagnostic alone."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0161",
+          "q": "About how big is the fovea?",
+          "options": [
+            {
+              "text": "About 1.5 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 5.5 mm",
+              "correct": false,
+              "feedback": "Macula."
+            },
+            {
+              "text": "About 0.35 mm",
+              "correct": false,
+              "feedback": "Foveola."
+            },
+            {
+              "text": "About 15 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0162",
+          "q": "Drusen at the macula are a sign of",
+          "options": [
+            {
+              "text": "age-related macular degeneration",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "hypertension",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0163",
+          "q": "Cotton wool spots are",
+          "options": [
+            {
+              "text": "nerve fibre layer infarcts",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "lipid",
+              "correct": false,
+              "feedback": "Hard exudates."
+            },
+            {
+              "text": "blood",
+              "correct": false,
+              "feedback": "Haemorrhage."
+            },
+            {
+              "text": "drusen",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0164",
+          "q": "Flame haemorrhages lie in",
+          "options": [
+            {
+              "text": "the nerve fibre layer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the outer plexiform layer",
+              "correct": false,
+              "feedback": "Dot/blot."
+            },
+            {
+              "text": "the choroid",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the vitreous",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0165",
+          "q": "Hard exudates are",
+          "options": [
+            {
+              "text": "lipid deposits in the outer plexiform layer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "infarcts",
+              "correct": false,
+              "feedback": "Cotton wool."
+            },
+            {
+              "text": "blood",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pigment",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0166",
+          "q": "Compared with veins, arteries are",
+          "options": [
+            {
+              "text": "lighter and narrower",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "darker and wider",
+              "correct": false,
+              "feedback": "Veins."
+            },
+            {
+              "text": "the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "absent",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0167",
+          "q": "A cilioretinal artery arises from",
+          "options": [
+            {
+              "text": "the ciliary (choroidal) circulation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the central retinal artery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the vortex veins",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the optic nerve",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0168",
+          "q": "About how far temporal to the disc is the fovea?",
+          "options": [
+            {
+              "text": "About 2.5 disc diameters",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "10 DD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0.5 DD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "On the disc",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x0169",
+          "q": "Spontaneous venous pulsation is seen in about",
+          "options": [
+            {
+              "text": "80–90% of normal eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "10%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "100%",
+              "correct": false,
+              "feedback": "Not all."
+            },
+            {
+              "text": "0%",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-macula-vessels-x01610",
+          "q": "A myopic crescent is",
+          "options": [
+            {
+              "text": "exposed sclera or choroid beside the disc",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a haemorrhage",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "swelling",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a tumour",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
@@ -1707,6 +2787,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0161",
+          "q": "The GAT dial reads 2.2. IOP?",
+          "options": [
+            {
+              "text": "22 mmHg",
+              "correct": true,
+              "feedback": "Yes: × 10."
+            },
+            {
+              "text": "2.2 mmHg",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "220 mmHg",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "11 mmHg",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0162",
+          "q": "The fluorescein mires are too thick. What happens?",
+          "options": [
+            {
+              "text": "IOP is overestimated",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Underestimated",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No effect",
+              "correct": false,
+              "feedback": "It matters."
+            },
+            {
+              "text": "It stops the test",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0163",
+          "q": "A thin cornea makes GAT read",
+          "options": [
+            {
+              "text": "too low",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "too high",
+              "correct": false,
+              "feedback": "Thick."
+            },
+            {
+              "text": "unchanged",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "zero",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0164",
+          "q": "With over 3 D of corneal astigmatism, how should GAT be done?",
+          "options": [
+            {
+              "text": "Rotate the prism to the 43° mark relative to the minus cylinder axis (or average two readings 90° apart)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "Errors."
+            },
+            {
+              "text": "Use more fluorescein",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Don't measure",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0165",
+          "q": "Why disinfect or use single-use tonometer prisms?",
+          "options": [
+            {
+              "text": "Infection control, including prion risk",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To clean the mires",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Appearance",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0166",
+          "q": "Which tonometer needs no anaesthetic?",
+          "options": [
+            {
+              "text": "Rebound (iCare)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Goldmann",
+              "correct": false,
+              "feedback": "Needs anaesthetic."
+            },
+            {
+              "text": "Perkins",
+              "correct": false,
+              "feedback": "Needs anaesthetic."
+            },
+            {
+              "text": "Tonopen",
+              "correct": false,
+              "feedback": "Needs anaesthetic."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0167",
+          "q": "IOP typically varies through the day by about",
+          "options": [
+            {
+              "text": "3–6 mmHg",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "30 mmHg",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "100 mmHg",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0168",
+          "q": "Ocular hypertension means",
+          "options": [
+            {
+              "text": "IOP above 21 mmHg without disc or field damage",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "Not yet."
+            },
+            {
+              "text": "low IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x0169",
+          "q": "Holding the lids against the globe while measuring makes IOP",
+          "options": [
+            {
+              "text": "read too high",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "read too low",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "unchanged",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "unmeasurable",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-tonometry-x01610",
+          "q": "Which tonometer is handheld and applanating?",
+          "options": [
+            {
+              "text": "Perkins",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "NCT",
+              "correct": false,
+              "feedback": "Air puff."
+            },
+            {
+              "text": "Goldmann",
+              "correct": false,
+              "feedback": "Slit lamp mounted."
+            },
+            {
+              "text": "iCare",
+              "correct": false,
+              "feedback": "Rebound."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -2042,6 +3392,276 @@
             },
             {
               "text": "Any IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0161",
+          "q": "Which is a risk factor for POAG?",
+          "options": [
+            {
+              "text": "Family history",
+              "correct": true,
+              "feedback": "Yes, also age, African-Caribbean ethnicity, myopia and raised IOP."
+            },
+            {
+              "text": "Hyperopia only",
+              "correct": false,
+              "feedback": "That's for angle closure."
+            },
+            {
+              "text": "Being female",
+              "correct": false,
+              "feedback": "Angle closure."
+            },
+            {
+              "text": "Contact lens wear",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0162",
+          "q": "NICE says before referring for raised IOP you should",
+          "options": [
+            {
+              "text": "repeat the measurement",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "refer straight away",
+              "correct": false,
+              "feedback": "Repeat first."
+            },
+            {
+              "text": "ignore it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dilate",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0163",
+          "q": "An arcuate field defect follows",
+          "options": [
+            {
+              "text": "the nerve fibre arcs",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the vertical midline",
+              "correct": false,
+              "feedback": "Neurological."
+            },
+            {
+              "text": "the blind spot only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Nerve fibres."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0164",
+          "q": "A nasal step is",
+          "options": [
+            {
+              "text": "a step at the horizontal midline in the nasal field",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a stair",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a cataract sign",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0165",
+          "q": "High false negatives suggest",
+          "options": [
+            {
+              "text": "fatigue or inattention",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "trigger-happy",
+              "correct": false,
+              "feedback": "False positives."
+            },
+            {
+              "text": "perfect field",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0166",
+          "q": "Which index summarises overall depression of the field?",
+          "options": [
+            {
+              "text": "MD (mean deviation)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "PSD",
+              "correct": false,
+              "feedback": "Focal."
+            },
+            {
+              "text": "GHT",
+              "correct": false,
+              "feedback": "Asymmetry."
+            },
+            {
+              "text": "Fixation losses",
+              "correct": false,
+              "feedback": "Reliability."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0167",
+          "q": "The usual first-line glaucoma drop is",
+          "options": [
+            {
+              "text": "a prostaglandin analogue, e.g. latanoprost",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "atropine",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "chloramphenicol",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "steroid",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0168",
+          "q": "Why is CCT measured?",
+          "options": [
+            {
+              "text": "It affects IOP readings and glaucoma risk",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "To fit spectacles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x0169",
+          "q": "Which test detects progression over time?",
+          "options": [
+            {
+              "text": "Guided progression analysis of serial fields",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "One field",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "VA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-glaucoma-referral-x01610",
+          "q": "A patient with a narrow angle and symptoms of haloes should be",
+          "options": [
+            {
+              "text": "referred to check for angle closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dilated",
+              "correct": false,
+              "feedback": "Risky."
+            },
+            {
+              "text": "reassured",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "given glasses",
               "correct": false,
               "feedback": "No."
             }
@@ -2392,6 +4012,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0161",
+          "q": "OCT is based on",
+          "options": [
+            {
+              "text": "low-coherence interferometry with near-infrared light",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "ultrasound",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "X-ray",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "fluorescein",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0162",
+          "q": "OCT axial resolution is about",
+          "options": [
+            {
+              "text": "5 µm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "5 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "500 µm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0163",
+          "q": "OCT angiography shows",
+          "options": [
+            {
+              "text": "blood flow without a dye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tear film",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0164",
+          "q": "Fluorescein angiography needs",
+          "options": [
+            {
+              "text": "an intravenous dye, in hospital",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a contact lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "drops only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0165",
+          "q": "Fundus autofluorescence mainly shows",
+          "options": [
+            {
+              "text": "lipofuscin in the RPE",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "blood",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0166",
+          "q": "Which retinal layer is innermost?",
+          "options": [
+            {
+              "text": "The nerve fibre layer (under the ILM)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The RPE",
+              "correct": false,
+              "feedback": "Outermost."
+            },
+            {
+              "text": "Photoreceptors",
+              "correct": false,
+              "feedback": "Outer."
+            },
+            {
+              "text": "Choroid",
+              "correct": false,
+              "feedback": "Not retina."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0167",
+          "q": "Why check signal strength?",
+          "options": [
+            {
+              "text": "Weak signals give unreliable thickness measurements",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "It's colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0168",
+          "q": "What is 'green disease'?",
+          "options": [
+            {
+              "text": "A real defect missed because results fall in the normal range",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Algae",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A colour defect",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x0169",
+          "q": "Why might high myopes give misleading OCT results?",
+          "options": [
+            {
+              "text": "Normative databases often exclude high myopes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "OCT can't scan them",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "Their RNFL is thicker",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-imaging-x01610",
+          "q": "Segmentation errors mean",
+          "options": [
+            {
+              "text": "the software has drawn the layer boundaries wrongly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a power cut",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -2713,6 +4603,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0161",
+          "q": "Lattice degeneration is important because",
+          "options": [
+            {
+              "text": "it's associated with retinal tears and detachment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's harmless",
+              "correct": false,
+              "feedback": "Usually, but there's risk."
+            },
+            {
+              "text": "it causes cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0162",
+          "q": "A horseshoe tear needs",
+          "options": [
+            {
+              "text": "urgent referral",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "routine referral",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0163",
+          "q": "White without pressure is",
+          "options": [
+            {
+              "text": "usually benign",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a detachment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a tear",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0164",
+          "q": "Cobblestone (paving stone) degeneration is",
+          "options": [
+            {
+              "text": "benign",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "urgent",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a tear",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a tumour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0165",
+          "q": "A Weiss ring floating in front of the disc suggests",
+          "options": [
+            {
+              "text": "posterior vitreous detachment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "retinal detachment",
+              "correct": false,
+              "feedback": "Not by itself."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0166",
+          "q": "For BIO, how should the patient usually be positioned?",
+          "options": [
+            {
+              "text": "Reclined or lying down",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Standing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Sitting forward",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Upside down",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0167",
+          "q": "To see the superior periphery, the patient should look",
+          "options": [
+            {
+              "text": "up",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "down",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "straight ahead",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "left",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0168",
+          "q": "A pigmented demarcation line suggests",
+          "options": [
+            {
+              "text": "a long-standing detachment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a fresh tear",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "AMD",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x0169",
+          "q": "What is retinoschisis?",
+          "options": [
+            {
+              "text": "Splitting of the retinal layers",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A full detachment",
+              "correct": false,
+              "feedback": "Different."
+            },
+            {
+              "text": "Bleeding",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-peripheral-fundus-x01610",
+          "q": "Why is the far periphery hard to see with a direct ophthalmoscope?",
+          "options": [
+            {
+              "text": "Its field is small, even with gaze changes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's too bright",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's illegal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It isn't",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -2995,6 +5155,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0161",
+          "q": "Which nerve carries the afferent pupil light reflex?",
+          "options": [
+            {
+              "text": "The optic nerve (CN II)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "CN III",
+              "correct": false,
+              "feedback": "Efferent."
+            },
+            {
+              "text": "CN V",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "CN VII",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0162",
+          "q": "The parasympathetic efferent pathway goes through the",
+          "options": [
+            {
+              "text": "Edinger-Westphal nucleus, CN III and the ciliary ganglion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "superior cervical ganglion",
+              "correct": false,
+              "feedback": "Sympathetic."
+            },
+            {
+              "text": "optic tract only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "CN VI",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0163",
+          "q": "Anisocoria is greater in dim light. Which pupil is abnormal?",
+          "options": [
+            {
+              "text": "The smaller one (it fails to dilate)",
+              "correct": true,
+              "feedback": "Yes, e.g. Horner's."
+            },
+            {
+              "text": "The larger one",
+              "correct": false,
+              "feedback": "That's bright light."
+            },
+            {
+              "text": "Both",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Neither",
+              "correct": false,
+              "feedback": "One."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0164",
+          "q": "Horner's syndrome triad?",
+          "options": [
+            {
+              "text": "Ptosis, miosis and anhidrosis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Mydriasis, ptosis, diplopia",
+              "correct": false,
+              "feedback": "Third nerve."
+            },
+            {
+              "text": "Pain, redness, haloes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Proptosis",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0165",
+          "q": "Which tumour can cause Horner's?",
+          "options": [
+            {
+              "text": "A Pancoast (lung apex) tumour",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A pituitary adenoma",
+              "correct": false,
+              "feedback": "Chiasm."
+            },
+            {
+              "text": "Melanoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Meningioma typically",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0166",
+          "q": "Dilute pilocarpine (0.1%) constricts which pupil?",
+          "options": [
+            {
+              "text": "An Adie's tonic pupil",
+              "correct": true,
+              "feedback": "Yes: denervation supersensitivity."
+            },
+            {
+              "text": "A normal pupil",
+              "correct": false,
+              "feedback": "Not much."
+            },
+            {
+              "text": "A pharmacologically dilated pupil",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Horner's",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0167",
+          "q": "A pupil that doesn't constrict with 1% pilocarpine suggests",
+          "options": [
+            {
+              "text": "pharmacological blockade (e.g. atropine)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "third nerve palsy",
+              "correct": false,
+              "feedback": "That constricts."
+            },
+            {
+              "text": "Adie's",
+              "correct": false,
+              "feedback": "That constricts."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0168",
+          "q": "How is an RAPD graded?",
+          "options": [
+            {
+              "text": "With neutral density filters",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "With a ruler",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "With prism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "With colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x0169",
+          "q": "Light-near dissociation means",
+          "options": [
+            {
+              "text": "the near response is better than the light response",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the light response is better",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no response",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-pupils-x01610",
+          "q": "Typical pupil size in bright light is",
+          "options": [
+            {
+              "text": "about 2–4 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "8 mm",
+              "correct": false,
+              "feedback": "Dark."
+            },
+            {
+              "text": "0.5 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "12 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -3200,6 +5630,276 @@
             }
           ],
           "explanation": "Visual fields 4, cataract example (slide 26)."
+        },
+        {
+          "id": "peg-visual-fields-x0161",
+          "q": "How many points does the 24-2 test?",
+          "options": [
+            {
+              "text": "54",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "76",
+              "correct": false,
+              "feedback": "30-2."
+            },
+            {
+              "text": "68",
+              "correct": false,
+              "feedback": "10-2."
+            },
+            {
+              "text": "10",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0162",
+          "q": "Which test suits central field loss?",
+          "options": [
+            {
+              "text": "10-2",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "30-2",
+              "correct": false,
+              "feedback": "Wider."
+            },
+            {
+              "text": "Esterman",
+              "correct": false,
+              "feedback": "Driving."
+            },
+            {
+              "text": "Confrontation",
+              "correct": false,
+              "feedback": "Crude."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0163",
+          "q": "Heijl-Krakau fixation monitoring checks",
+          "options": [
+            {
+              "text": "whether the blind spot is seen",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "VA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0164",
+          "q": "A superior homonymous quadrantanopia ('pie in the sky') suggests a lesion in the",
+          "options": [
+            {
+              "text": "temporal lobe (Meyer's loop)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "parietal lobe",
+              "correct": false,
+              "feedback": "Inferior."
+            },
+            {
+              "text": "chiasm",
+              "correct": false,
+              "feedback": "Bitemporal."
+            },
+            {
+              "text": "retina",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0165",
+          "q": "Homonymous hemianopia with macular sparing suggests",
+          "options": [
+            {
+              "text": "an occipital lobe lesion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "chiasm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "optic nerve",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "retina",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0166",
+          "q": "An enlarged blind spot may suggest",
+          "options": [
+            {
+              "text": "papilloedema",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia only",
+              "correct": false,
+              "feedback": "Possible but not main."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0167",
+          "q": "An altitudinal defect is typical of",
+          "options": [
+            {
+              "text": "anterior ischaemic optic neuropathy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "glaucoma only",
+              "correct": false,
+              "feedback": "Can be."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0168",
+          "q": "Why might a patient's second field look better?",
+          "options": [
+            {
+              "text": "The learning effect",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Their glaucoma cured itself",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The machine changed",
+              "correct": false,
+              "feedback": "Unlikely."
+            },
+            {
+              "text": "Lower IOP",
+              "correct": false,
+              "feedback": "Not by itself."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0169",
+          "q": "What does the pattern deviation plot remove?",
+          "options": [
+            {
+              "text": "Generalised depression, such as from cataract",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Focal defects",
+              "correct": false,
+              "feedback": "It shows those."
+            },
+            {
+              "text": "Fixation losses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x01610",
+          "q": "A congruous homonymous defect suggests a lesion",
+          "options": [
+            {
+              "text": "towards the back (occipital)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "in the optic tract",
+              "correct": false,
+              "feedback": "Incongruous."
+            },
+            {
+              "text": "in the chiasm",
+              "correct": false,
+              "feedback": "Bitemporal."
+            },
+            {
+              "text": "in the retina",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         },
         {
           "id": "peg-visual-fields-x0061",

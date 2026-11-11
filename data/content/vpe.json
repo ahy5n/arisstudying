@@ -1488,27 +1488,27 @@
         },
         {
           "id": "vpe-stereopsis-x0091",
-          "q": "Which is a monocular depth cue?",
+          "q": "One object partly hides another, so it looks nearer. Which cue is this?",
           "options": [
             {
               "text": "Interposition (overlap)",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: a monocular cue."
             },
             {
-              "text": "Binocular disparity",
+              "text": "Stereopsis",
               "correct": false,
               "feedback": "Binocular."
             },
             {
               "text": "Convergence",
               "correct": false,
-              "feedback": "Binocular cue."
+              "feedback": "Binocular."
             },
             {
-              "text": "Stereopsis",
+              "text": "Accommodation only",
               "correct": false,
-              "feedback": "Binocular."
+              "feedback": "No."
             }
           ],
           "explanation": ""
