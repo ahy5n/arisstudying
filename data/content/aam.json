@@ -323,6 +323,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0131",
+          "q": "You see 'against' movement. What do you add?",
+          "options": [
+            {
+              "text": "Minus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Plus",
+              "correct": false,
+              "feedback": "That's for 'with'."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Not neutral yet."
+            },
+            {
+              "text": "Prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0132",
+          "q": "Working at 2/3 m, what working-distance lens do you allow for?",
+          "options": [
+            {
+              "text": "+1.50 D",
+              "correct": true,
+              "feedback": "Yes: 1 ÷ 0.67."
+            },
+            {
+              "text": "+2.00 D",
+              "correct": false,
+              "feedback": "That's 50 cm."
+            },
+            {
+              "text": "+1.00 D",
+              "correct": false,
+              "feedback": "That's 1 m."
+            },
+            {
+              "text": "+0.50 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0133",
+          "q": "Gross retinoscopy at 50 cm is +3.00 DS. What's the net result?",
+          "options": [
+            {
+              "text": "+1.00 DS",
+              "correct": true,
+              "feedback": "Yes: subtract +2.00."
+            },
+            {
+              "text": "+5.00 DS",
+              "correct": false,
+              "feedback": "Subtract, don't add."
+            },
+            {
+              "text": "+1.50 DS",
+              "correct": false,
+              "feedback": "That's for 67 cm."
+            },
+            {
+              "text": "+3.00 DS",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0134",
+          "q": "At 67 cm, the horizontal meridian neutralises with −1.00 and the vertical with −2.00. What's the net Rx?",
+          "options": [
+            {
+              "text": "−2.50/−1.00 × 180",
+              "correct": true,
+              "feedback": "Yes: −2.50 horizontal and −3.50 vertical."
+            },
+            {
+              "text": "−1.00/−1.00 × 90",
+              "correct": false,
+              "feedback": "That's gross."
+            },
+            {
+              "text": "−2.50/−1.00 × 90",
+              "correct": false,
+              "feedback": "Axis follows the weaker meridian."
+            },
+            {
+              "text": "−3.50/+1.00 × 180",
+              "correct": false,
+              "feedback": "Transposes to the wrong axis."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0135",
+          "q": "As you approach neutral, the reflex becomes",
+          "options": [
+            {
+              "text": "faster, brighter and wider",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "slower and dimmer",
+              "correct": false,
+              "feedback": "That's far from neutral."
+            },
+            {
+              "text": "red",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "absent",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0136",
+          "q": "A 'scissors' reflex suggests",
+          "options": [
+            {
+              "text": "irregular astigmatism, such as keratoconus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "emmetropia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a dirty mirror",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0137",
+          "q": "What's the 'break' phenomenon?",
+          "options": [
+            {
+              "text": "The reflex isn't aligned with the streak, which shows astigmatism off the streak's axis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The streak breaks the lamp",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Neutral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0138",
+          "q": "Dynamic retinoscopy (MEM) measures",
+          "options": [
+            {
+              "text": "the lag of accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "distance Rx",
+              "correct": false,
+              "feedback": "Static."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "convergence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x0139",
+          "q": "When might cycloplegic retinoscopy be needed?",
+          "options": [
+            {
+              "text": "In children with suspected latent hyperopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "In every adult",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "In presbyopes",
+              "correct": false,
+              "feedback": "Rarely."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Sometimes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-retinoscopy-x01310",
+          "q": "A dull, slow reflex usually means",
+          "options": [
+            {
+              "text": "a large refractive error",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "neutral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "small error",
+              "correct": false,
+              "feedback": "Bright and fast."
+            },
+            {
+              "text": "the lamp is off",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -672,6 +942,276 @@
             },
             {
               "text": "Pupils",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0131",
+          "q": "Pinhole VA doesn't improve. What does it suggest?",
+          "options": [
+            {
+              "text": "The reduced VA probably isn't refractive",
+              "correct": true,
+              "feedback": "Yes: consider pathology or amblyopia."
+            },
+            {
+              "text": "More minus is needed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "More plus is needed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The chart is broken",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0132",
+          "q": "What optical principle does the duochrome rely on?",
+          "options": [
+            {
+              "text": "Longitudinal chromatic aberration of the eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Polarisation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Diffraction",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour vision",
+              "correct": false,
+              "feedback": "It works in colour-deficient patients too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0133",
+          "q": "Does the duochrome work in red-green colour-deficient patients?",
+          "options": [
+            {
+              "text": "Yes: they compare the sharpness, not colour",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "Only for protans",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only with a filter",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0134",
+          "q": "How much do you fog before reducing plus?",
+          "options": [
+            {
+              "text": "About +1.00 to +1.50 D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "+5.00 D",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "+0.25 D",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "−1.00 D",
+              "correct": false,
+              "feedback": "That's minus."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0135",
+          "q": "Using the 'rule of 30' on a fan chart, the clearest line is at 3 o'clock. What's the minus cylinder axis?",
+          "options": [
+            {
+              "text": "90",
+              "correct": true,
+              "feedback": "Yes: 3 × 30."
+            },
+            {
+              "text": "180",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "30",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "45",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0136",
+          "q": "The aim is maximum plus for best VA because",
+          "options": [
+            {
+              "text": "it avoids over-minus and stimulating accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "plus is cheaper",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "minus damages eyes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's quicker",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0137",
+          "q": "Why test VA monocularly before binocularly?",
+          "options": [
+            {
+              "text": "To find each eye's correction and spot a weaker eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's faster",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Binocular VA is invalid",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0138",
+          "q": "What should you do if the duochrome stays red with an extra −0.25 D?",
+          "options": [
+            {
+              "text": "Accept the Rx: end equal or just on red",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Add more minus",
+              "correct": false,
+              "feedback": "Risk of over-minus."
+            },
+            {
+              "text": "Add +2.00",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Restart",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x0139",
+          "q": "A patient reads 6/6 with −2.00 and 6/6 with −2.25. Which do you give?",
+          "options": [
+            {
+              "text": "−2.00",
+              "correct": true,
+              "feedback": "Yes: least minus for best VA."
+            },
+            {
+              "text": "−2.25",
+              "correct": false,
+              "feedback": "Over-minus."
+            },
+            {
+              "text": "−2.50",
+              "correct": false,
+              "feedback": "More."
+            },
+            {
+              "text": "−1.50",
+              "correct": false,
+              "feedback": "Less VA."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-subjective-x01310",
+          "q": "What's the 'best vision sphere'?",
+          "options": [
+            {
+              "text": "The most plus (least minus) sphere giving best VA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The most minus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Any sphere",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The cylinder",
               "correct": false,
               "feedback": "No."
             }
@@ -1040,6 +1580,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0131",
+          "q": "A ±0.25 JCC has which powers in its principal meridians?",
+          "options": [
+            {
+              "text": "+0.25 and −0.25 D",
+              "correct": true,
+              "feedback": "Yes: a −0.50 DC cylinder."
+            },
+            {
+              "text": "+0.50 and −0.50 D",
+              "correct": false,
+              "feedback": "That's ±0.50."
+            },
+            {
+              "text": "0 and −0.25 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "+0.25 and +0.25",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0132",
+          "q": "What do the red dots on a JCC mark?",
+          "options": [
+            {
+              "text": "The minus cylinder axis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The plus axis",
+              "correct": false,
+              "feedback": "White dots."
+            },
+            {
+              "text": "The handle",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "They mark the axis."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0133",
+          "q": "How is the handle oriented relative to the JCC's principal meridians?",
+          "options": [
+            {
+              "text": "At 45° to them",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Parallel",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "At 90°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Anywhere",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0134",
+          "q": "For the power check, the JCC is placed with",
+          "options": [
+            {
+              "text": "a principal meridian on the trial cylinder axis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the handle on the axis",
+              "correct": false,
+              "feedback": "That's the axis check."
+            },
+            {
+              "text": "the handle at 45° to the axis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no orientation",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0135",
+          "q": "You find no cylinder. How do you check for one?",
+          "options": [
+            {
+              "text": "Place the JCC at 90/180, then at 45/135",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Skip it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use the duochrome",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use a pinhole",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0136",
+          "q": "Where should the circle of least confusion be during the JCC?",
+          "options": [
+            {
+              "text": "On the retina",
+              "correct": true,
+              "feedback": "Yes: keep the spherical equivalent correct."
+            },
+            {
+              "text": "In front of the retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Behind the retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Anywhere",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0137",
+          "q": "The patient keeps alternating between two axis positions. What do you do?",
+          "options": [
+            {
+              "text": "Stop: you've bracketed the axis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keep going for ever",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Change the sphere by −1.00",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Remove the cylinder",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0138",
+          "q": "When would you use a ±0.50 JCC instead of ±0.25?",
+          "options": [
+            {
+              "text": "For patients with poorer VA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For children only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Sometimes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x0139",
+          "q": "The patient says both positions look the same during the power check. What does it mean?",
+          "options": [
+            {
+              "text": "The cylinder power is correct",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Add cylinder",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Remove cylinder",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Redo the sphere",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-jcc-x01310",
+          "q": "The JCC is best done with what VA level of target?",
+          "options": [
+            {
+              "text": "Letters a line or two above best VA",
+              "correct": true,
+              "feedback": "Yes, or a round target."
+            },
+            {
+              "text": "The smallest line",
+              "correct": false,
+              "feedback": "Too hard."
+            },
+            {
+              "text": "The largest letter",
+              "correct": false,
+              "feedback": "Too coarse."
+            },
+            {
+              "text": "A blank screen",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1405,6 +2215,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0131",
+          "q": "What is the aim of binocular balancing?",
+          "options": [
+            {
+              "text": "Equal accommodative state (equal focus) in both eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To find the add",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To measure prism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To check the field",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0132",
+          "q": "Which method uses a septum?",
+          "options": [
+            {
+              "text": "Turville infinity balance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Humphriss",
+              "correct": false,
+              "feedback": "Fogging."
+            },
+            {
+              "text": "Prism dissociation",
+              "correct": false,
+              "feedback": "Prisms."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0133",
+          "q": "About how much plus does the Humphriss method use for the fogged eye?",
+          "options": [
+            {
+              "text": "About +0.75 D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "+3.00 D",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "+0.12 D",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "−1.00",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0134",
+          "q": "Prism dissociation shows the patient",
+          "options": [
+            {
+              "text": "two images, one above the other",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "one image",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a red and green image",
+              "correct": false,
+              "feedback": "Duochrome."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0135",
+          "q": "Balancing is unreliable when",
+          "options": [
+            {
+              "text": "VA is unequal between the eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "VA is equal",
+              "correct": false,
+              "feedback": "That's ideal."
+            },
+            {
+              "text": "the patient is young",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the patient is myopic",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0136",
+          "q": "With prism dissociation, the top image is clearer. Which way is that?",
+          "options": [
+            {
+              "text": "Depends which eye sees it; blur the clearer eye with +0.25",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Add minus to both",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Remove the prism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Always the right eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0137",
+          "q": "After balancing, what do you do next?",
+          "options": [
+            {
+              "text": "Add plus binocularly until the best VA just holds",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Add minus binocularly",
+              "correct": false,
+              "feedback": "Over-minus."
+            },
+            {
+              "text": "Stop",
+              "correct": false,
+              "feedback": "Not yet."
+            },
+            {
+              "text": "Remove both lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0138",
+          "q": "How should you handle balancing for a patient with an amblyopic eye?",
+          "options": [
+            {
+              "text": "Equal clarity isn't possible; give the best Rx in each eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blur the good eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Skip the amblyopic eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x0139",
+          "q": "Which method keeps both eyes open without prism or fogging?",
+          "options": [
+            {
+              "text": "A polarised binocular duochrome or chart",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Humphriss",
+              "correct": false,
+              "feedback": "Uses fogging."
+            },
+            {
+              "text": "Prism dissociation",
+              "correct": false,
+              "feedback": "Uses prism."
+            },
+            {
+              "text": "Cover test",
+              "correct": false,
+              "feedback": "Not balancing."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-binocular-balance-x01310",
+          "q": "Which eye do you blur when one image is clearer?",
+          "options": [
+            {
+              "text": "The clearer one, with +0.25",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The blurrier one",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Both",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Neither",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1721,6 +2801,276 @@
               "text": "Never",
               "correct": false,
               "feedback": "It's useful in younger patients."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0131",
+          "q": "An emmetrope's near point is 25 cm. What's the amplitude?",
+          "options": [
+            {
+              "text": "4 D",
+              "correct": true,
+              "feedback": "Yes: 1 ÷ 0.25."
+            },
+            {
+              "text": "25 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2.5 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0.25 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0132",
+          "q": "Hofstetter's minimum amplitude for a 40-year-old is",
+          "options": [
+            {
+              "text": "5 D",
+              "correct": true,
+              "feedback": "Yes: 15 − 0.25 × 40."
+            },
+            {
+              "text": "6.5 D",
+              "correct": false,
+              "feedback": "Average."
+            },
+            {
+              "text": "9 D",
+              "correct": false,
+              "feedback": "Maximum."
+            },
+            {
+              "text": "2 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0133",
+          "q": "Hofstetter's average amplitude for a 40-year-old is",
+          "options": [
+            {
+              "text": "6.5 D",
+              "correct": true,
+              "feedback": "Yes: 18.5 − 0.3 × 40."
+            },
+            {
+              "text": "5 D",
+              "correct": false,
+              "feedback": "Minimum."
+            },
+            {
+              "text": "9 D",
+              "correct": false,
+              "feedback": "Maximum."
+            },
+            {
+              "text": "3 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0134",
+          "q": "An uncorrected +2.00 D hyperope reads at 40 cm. Accommodative demand?",
+          "options": [
+            {
+              "text": "4.5 D",
+              "correct": true,
+              "feedback": "Yes: 2.5 + 2.00."
+            },
+            {
+              "text": "2.5 D",
+              "correct": false,
+              "feedback": "That's for an emmetrope."
+            },
+            {
+              "text": "0.5 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2.0 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0135",
+          "q": "An uncorrected −3.00 D myope reads at 33 cm. Accommodative demand?",
+          "options": [
+            {
+              "text": "0 D",
+              "correct": true,
+              "feedback": "Yes: their far point is 33 cm."
+            },
+            {
+              "text": "3 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "6 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0136",
+          "q": "What's the 'near triad'?",
+          "options": [
+            {
+              "text": "Accommodation, convergence and miosis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blur, diplopia, headache",
+              "correct": false,
+              "feedback": "Symptoms."
+            },
+            {
+              "text": "Sphere, cylinder, axis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Rods, cones, ganglia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0137",
+          "q": "Accommodative insufficiency means",
+          "options": [
+            {
+              "text": "amplitude below the minimum for age",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "amplitude above max",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "normal amplitude",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no presbyopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0138",
+          "q": "Failing on the minus side of facility flippers suggests",
+          "options": [
+            {
+              "text": "difficulty stimulating accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "difficulty relaxing accommodation",
+              "correct": false,
+              "feedback": "Plus side."
+            },
+            {
+              "text": "normal accommodation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x0139",
+          "q": "A normal lag of accommodation at near is about",
+          "options": [
+            {
+              "text": "+0.25 to +0.75 D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "+3.00 D",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "−1.00 D",
+              "correct": false,
+              "feedback": "That's a lead."
+            },
+            {
+              "text": "0 exactly",
+              "correct": false,
+              "feedback": "Small lag is normal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-accommodation-x01310",
+          "q": "Why is pull-down amplitude often lower than push-up?",
+          "options": [
+            {
+              "text": "Blur is detected later as the target moves away",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The lens is different",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They're always equal",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "It's harder to see",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
@@ -2049,6 +3399,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0131",
+          "q": "Amplitude 3.00 D, reading at 33 cm, half in reserve. Tentative add?",
+          "options": [
+            {
+              "text": "+1.50 D",
+              "correct": true,
+              "feedback": "Yes: 3.00 − 1.50."
+            },
+            {
+              "text": "+3.00 D",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "+0.50 D",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "+2.00 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0132",
+          "q": "Amplitude 1.00 D, reading at 40 cm, half in reserve. Tentative add?",
+          "options": [
+            {
+              "text": "+2.00 D",
+              "correct": true,
+              "feedback": "Yes: 2.50 − 0.50."
+            },
+            {
+              "text": "+2.50 D",
+              "correct": false,
+              "feedback": "That ignores amplitude."
+            },
+            {
+              "text": "+1.00 D",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "+3.00 D",
+              "correct": false,
+              "feedback": "Too much."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0133",
+          "q": "Add +2.50 with 1.00 D amplitude. What's the range?",
+          "options": [
+            {
+              "text": "40 cm to about 29 cm",
+              "correct": true,
+              "feedback": "Yes: 1 ÷ 2.5 and 1 ÷ 3.5."
+            },
+            {
+              "text": "40 cm to 25 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1 m to 40 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "25 cm to 10 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0134",
+          "q": "Over-plussing the add makes the patient",
+          "options": [
+            {
+              "text": "hold things too close",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "hold things further away",
+              "correct": false,
+              "feedback": "Under-plus."
+            },
+            {
+              "text": "see better far away",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "see double",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0135",
+          "q": "An intermediate (computer) add is roughly",
+          "options": [
+            {
+              "text": "about half to two-thirds of the near add",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "equal to the near add",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "double",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "zero",
+              "correct": false,
+              "feedback": "Not for presbyopes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0136",
+          "q": "Why do pseudophakic patients usually need a full reading add?",
+          "options": [
+            {
+              "text": "They have no accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They have more",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Their lens is thicker",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They don't",
+              "correct": false,
+              "feedback": "They do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0137",
+          "q": "Uncorrected low hyperopes typically notice presbyopia",
+          "options": [
+            {
+              "text": "earlier",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "later",
+              "correct": false,
+              "feedback": "Myopes do."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the same",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0138",
+          "q": "Typical onset of presbyopic symptoms is around",
+          "options": [
+            {
+              "text": "40–45 years",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "20 years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "70 years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 years",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x0139",
+          "q": "How should you verify an add?",
+          "options": [
+            {
+              "text": "Measure the range of clear vision at the patient's working distances",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Guess from age only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask the patient's friend",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use the fan chart",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyopia-add-x01310",
+          "q": "A low myope can often read without glasses because",
+          "options": [
+            {
+              "text": "their far point is close",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "they accommodate more",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "they have no presbyopia",
+              "correct": false,
+              "feedback": "They do."
+            },
+            {
+              "text": "they need an add anyway",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -2329,6 +3949,276 @@
               "text": "You can't see their record",
               "correct": false,
               "feedback": "Not the point."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0131",
+          "q": "A patient has no symptoms and a 0.25 D change. What's usually best?",
+          "options": [
+            {
+              "text": "Don't change the prescription",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Change it",
+              "correct": false,
+              "feedback": "Not needed."
+            },
+            {
+              "text": "Refer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Give prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0132",
+          "q": "Beyond about how much anisometropia do spectacles cause problems?",
+          "options": [
+            {
+              "text": "About 2–3 D",
+              "correct": true,
+              "feedback": "Yes: aniseikonia and prism."
+            },
+            {
+              "text": "0.25 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 D",
+              "correct": false,
+              "feedback": "Earlier."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "They can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0133",
+          "q": "A plus lens increases what?",
+          "options": [
+            {
+              "text": "Spectacle magnification",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Minification",
+              "correct": false,
+              "feedback": "Minus."
+            },
+            {
+              "text": "Accommodation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Field of view",
+              "correct": false,
+              "feedback": "It reduces it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0134",
+          "q": "How often should children have an eye exam (standard)?",
+          "options": [
+            {
+              "text": "Every year",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Every 5 years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Every 2 years",
+              "correct": false,
+              "feedback": "Adults."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0135",
+          "q": "What must you give the patient after a sight test (Opticians Act)?",
+          "options": [
+            {
+              "text": "A signed prescription or statement",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Spectacles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Required."
+            },
+            {
+              "text": "A referral",
+              "correct": false,
+              "feedback": "Only if needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0136",
+          "q": "A patient's VA doesn't improve to normal with the best Rx. What do you do?",
+          "options": [
+            {
+              "text": "Investigate and refer if there's no explanation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Prescribe and forget it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Give more minus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tell them to wait",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0137",
+          "q": "Why might a partial cylinder change be given?",
+          "options": [
+            {
+              "text": "To help adaptation to a large change",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save money",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To make the patient worse",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's never used",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0138",
+          "q": "How often should patients with diabetes be seen?",
+          "options": [
+            {
+              "text": "Usually every year",
+              "correct": true,
+              "feedback": "Yes, plus retinal screening."
+            },
+            {
+              "text": "Every 5 years",
+              "correct": false,
+              "feedback": "Too long."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Weekly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x0139",
+          "q": "An older patient wants to keep their old frames. What should you think about?",
+          "options": [
+            {
+              "text": "Whether the new Rx suits the frame's fit, size and centration",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Fit matters."
+            },
+            {
+              "text": "Refuse",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only the colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-prescribing-x01310",
+          "q": "A myopic child wants contact lenses. What's the key question?",
+          "options": [
+            {
+              "text": "Can they handle them safely and hygienically?",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Are they over 18?",
+              "correct": false,
+              "feedback": "No age rule."
+            },
+            {
+              "text": "Do they like blue?",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Safety matters."
             }
           ],
           "explanation": ""
@@ -2715,6 +4605,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0131",
+          "q": "Add +2.00 with 2.00 D amplitude. Closest point of clear vision?",
+          "options": [
+            {
+              "text": "25 cm",
+              "correct": true,
+              "feedback": "Yes: 1 ÷ (2 + 2)."
+            },
+            {
+              "text": "50 cm",
+              "correct": false,
+              "feedback": "That's the far point."
+            },
+            {
+              "text": "10 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1 m",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0132",
+          "q": "Add +1.50 with 1.50 D amplitude. Range of clear vision?",
+          "options": [
+            {
+              "text": "About 67 cm to 33 cm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 m to 50 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "33 cm to 25 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "50 cm to 20 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0133",
+          "q": "How do you find the patient's working distance?",
+          "options": [
+            {
+              "text": "Measure it with a rule while they hold their material",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Guess 40 cm always",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "Ask their age",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use the fan chart",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0134",
+          "q": "What does 'N5' mean?",
+          "options": [
+            {
+              "text": "Print size 5 point",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "5 metres",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "5 dioptres",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Grade 5",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0135",
+          "q": "Why ask the patient to bring their own reading material?",
+          "options": [
+            {
+              "text": "To test the add at their real task and distance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For entertainment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To check their spelling",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It isn't useful",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0136",
+          "q": "Why check intermediate vision in presbyopes?",
+          "options": [
+            {
+              "text": "Many use screens at 50–70 cm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's never needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For the GOC",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0137",
+          "q": "Why test the add binocularly?",
+          "options": [
+            {
+              "text": "It reflects real use and convergence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's faster",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "Monocular is wrong",
+              "correct": false,
+              "feedback": "Not wrong."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0138",
+          "q": "What should you tell a first-time varifocal wearer?",
+          "options": [
+            {
+              "text": "There's an adaptation period; move the head, not just the eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They'll see perfectly immediately",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "Never look down",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use them only for reading",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x0139",
+          "q": "What should you always check before refracting a presbyope?",
+          "options": [
+            {
+              "text": "Their current spectacles' power and what they use them for",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Their shoe size",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Always check."
+            },
+            {
+              "text": "Their colour vision only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-presbyope-clinic-x01310",
+          "q": "Why is the add not just based on age?",
+          "options": [
+            {
+              "text": "Working distance and amplitude vary between people",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Age is irrelevant",
+              "correct": false,
+              "feedback": "It's a guide."
+            },
+            {
+              "text": "Adds are always +2.50",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Age is enough",
+              "correct": false,
+              "feedback": "Not enough."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -3025,6 +5185,276 @@
               "text": "A Snellen chart at 6 m",
               "correct": false,
               "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0131",
+          "q": "Hofstetter's minimum amplitude for a 30-year-old is",
+          "options": [
+            {
+              "text": "7.5 D",
+              "correct": true,
+              "feedback": "Yes: 15 − 0.25 × 30."
+            },
+            {
+              "text": "9.5 D",
+              "correct": false,
+              "feedback": "Average."
+            },
+            {
+              "text": "13 D",
+              "correct": false,
+              "feedback": "Maximum."
+            },
+            {
+              "text": "4 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0132",
+          "q": "Negative relative accommodation (NRA) is measured with",
+          "options": [
+            {
+              "text": "plus lenses binocularly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "minus lenses binocularly",
+              "correct": false,
+              "feedback": "PRA."
+            },
+            {
+              "text": "prisms",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pinholes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0133",
+          "q": "Positive relative accommodation (PRA) is measured with",
+          "options": [
+            {
+              "text": "minus lenses binocularly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "plus lenses",
+              "correct": false,
+              "feedback": "NRA."
+            },
+            {
+              "text": "a fan chart",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a JCC",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0134",
+          "q": "A normal near point of convergence is roughly",
+          "options": [
+            {
+              "text": "under about 10 cm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "50 cm",
+              "correct": false,
+              "feedback": "Too remote."
+            },
+            {
+              "text": "1 m",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0 cm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0135",
+          "q": "Which test measures the lag of accommodation?",
+          "options": [
+            {
+              "text": "MEM retinoscopy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Push-up",
+              "correct": false,
+              "feedback": "Amplitude."
+            },
+            {
+              "text": "Flippers",
+              "correct": false,
+              "feedback": "Facility."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "Distance."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0136",
+          "q": "Why are binocular facility norms lower than monocular?",
+          "options": [
+            {
+              "text": "Vergence also has to adjust",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Both eyes are slower",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's harder to see",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They're the same",
+              "correct": false,
+              "feedback": "They're lower."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0137",
+          "q": "For a push-up test, what target do you use?",
+          "options": [
+            {
+              "text": "A small line just above best near VA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The largest letter",
+              "correct": false,
+              "feedback": "Too big."
+            },
+            {
+              "text": "A light",
+              "correct": false,
+              "feedback": "Not for amplitude."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Use a target."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0138",
+          "q": "Near VA should be tested at",
+          "options": [
+            {
+              "text": "the patient's working distance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "6 m",
+              "correct": false,
+              "feedback": "Distance."
+            },
+            {
+              "text": "1 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 m",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x0139",
+          "q": "Why test near VA with good, even lighting?",
+          "options": [
+            {
+              "text": "Poor light underestimates near ability",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's not important",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "It increases IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To dazzle",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-near-vision-x01310",
+          "q": "A patient's near VA is worse than expected from their distance Rx and add. What should you consider?",
+          "options": [
+            {
+              "text": "Pathology, wrong add or wrong working distance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Investigate."
+            },
+            {
+              "text": "More minus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Prism",
+              "correct": false,
+              "feedback": "Not first."
             }
           ],
           "explanation": ""
@@ -3353,6 +5783,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0131",
+          "q": "What comes first in a routine eye exam?",
+          "options": [
+            {
+              "text": "History and symptoms",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Refraction",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Ophthalmoscopy",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Advice",
+              "correct": false,
+              "feedback": "Last."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0132",
+          "q": "Which test checks for a relative afferent pupillary defect?",
+          "options": [
+            {
+              "text": "The swinging flashlight test",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Cover test",
+              "correct": false,
+              "feedback": "Binocular vision."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "Refraction."
+            },
+            {
+              "text": "JCC",
+              "correct": false,
+              "feedback": "Cylinder."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0133",
+          "q": "Why is the cover test done before refraction?",
+          "options": [
+            {
+              "text": "To know the binocular status before changing lenses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's not",
+              "correct": false,
+              "feedback": "It is done early."
+            },
+            {
+              "text": "To fog",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To measure IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0134",
+          "q": "Which history section covers the patient's medicines?",
+          "options": [
+            {
+              "text": "General health and medication",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ocular history",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Family history",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Social history",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0135",
+          "q": "Why ask about family ocular history?",
+          "options": [
+            {
+              "text": "Some conditions, such as glaucoma, run in families",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's irrelevant",
+              "correct": false,
+              "feedback": "It matters."
+            },
+            {
+              "text": "For the receptionist",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0136",
+          "q": "What does confrontation test?",
+          "options": [
+            {
+              "text": "Visual fields",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "VA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0137",
+          "q": "What should you do before touching a patient?",
+          "options": [
+            {
+              "text": "Wash your hands and explain what you'll do",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask for payment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Dim the lights",
+              "correct": false,
+              "feedback": "Not first."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0138",
+          "q": "Who is eligible for an NHS sight test in England?",
+          "options": [
+            {
+              "text": "People aged 60 or over, under 16, and some others",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Everyone",
+              "correct": false,
+              "feedback": "Not everyone."
+            },
+            {
+              "text": "Only children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only drivers",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x0139",
+          "q": "What should you always obtain before an examination?",
+          "options": [
+            {
+              "text": "Consent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A deposit",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A referral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Consent."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-routine-exam-x01310",
+          "q": "When should IOP be measured?",
+          "options": [
+            {
+              "text": "As part of assessing glaucoma risk, especially in at-risk patients",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only in children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "After refraction only",
+              "correct": false,
+              "feedback": "Any time."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -3653,6 +6353,276 @@
               "text": "Record it binocularly",
               "correct": false,
               "feedback": "Fine."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0131",
+          "q": "How long should adult optometric records usually be kept (College guidance)?",
+          "options": [
+            {
+              "text": "At least 10 years",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 year",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "6 months",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For ever",
+              "correct": false,
+              "feedback": "Not required."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0132",
+          "q": "How long are children's records usually kept?",
+          "options": [
+            {
+              "text": "Until their 25th birthday (or 26th if they were 17 at the last visit)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 year",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 years from birth",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Until 18",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0133",
+          "q": "How do you correct an error in a paper record?",
+          "options": [
+            {
+              "text": "Strike through with one line, then initial and date it",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Use correction fluid",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Tear out the page",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Scribble over it",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0134",
+          "q": "Under UK GDPR, health data is",
+          "options": [
+            {
+              "text": "special category data",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "public data",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "not personal data",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "not covered",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0135",
+          "q": "Abbreviations in records should be",
+          "options": [
+            {
+              "text": "standard and widely recognised",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "personal codes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "avoided always",
+              "correct": false,
+              "feedback": "Standard ones are fine."
+            },
+            {
+              "text": "in another language",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0136",
+          "q": "A patient doesn't turn up. What do you record?",
+          "options": [
+            {
+              "text": "That they did not attend",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Record it."
+            },
+            {
+              "text": "A made-up result",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Delete them",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0137",
+          "q": "Why record the advice you gave?",
+          "options": [
+            {
+              "text": "It shows what the patient was told if questioned later",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "For marketing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To fill space",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0138",
+          "q": "Records must be",
+          "options": [
+            {
+              "text": "legible, accurate and contemporaneous",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "short only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "written later",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "private to the optometrist",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x0139",
+          "q": "Who can see the record via a Subject Access Request?",
+          "options": [
+            {
+              "text": "The patient",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Anyone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only police",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No one",
+              "correct": false,
+              "feedback": "The patient can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-record-keeping-x01310",
+          "q": "What should you record when using a drug?",
+          "options": [
+            {
+              "text": "Name, strength, eye, time and batch where relevant",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only 'drops used'",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Record it."
+            },
+            {
+              "text": "The price",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
@@ -3959,6 +6929,276 @@
             },
             {
               "text": "Sphere and add",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0131",
+          "q": "Which optical principle do many autorefractors use?",
+          "options": [
+            {
+              "text": "The Scheiner principle",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Snell's window",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Purkinje images",
+              "correct": false,
+              "feedback": "Not this."
+            },
+            {
+              "text": "Doppler effect",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0132",
+          "q": "What is 'instrument myopia'?",
+          "options": [
+            {
+              "text": "Over-minus readings from accommodation stimulated by the instrument",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Myopia caused by screens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A broken autorefractor",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Axial myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0133",
+          "q": "Which design reduces instrument myopia?",
+          "options": [
+            {
+              "text": "An open-field autorefractor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A closed tube",
+              "correct": false,
+              "feedback": "Causes it."
+            },
+            {
+              "text": "Brighter target",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Smaller pupils",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0134",
+          "q": "What's the MSE of −2.00/−1.00 × 90?",
+          "options": [
+            {
+              "text": "−2.50 D",
+              "correct": true,
+              "feedback": "Yes: S + C/2."
+            },
+            {
+              "text": "−3.00 D",
+              "correct": false,
+              "feedback": "That's S + C."
+            },
+            {
+              "text": "−2.00 D",
+              "correct": false,
+              "feedback": "That ignores the cyl."
+            },
+            {
+              "text": "−1.50 D",
+              "correct": false,
+              "feedback": "Wrong sign."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0135",
+          "q": "In a Bland-Altman plot, the 95% limits of agreement are",
+          "options": [
+            {
+              "text": "the mean difference ± 1.96 SD",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the mean ± 1 SD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the median",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the range",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0136",
+          "q": "Without cycloplegia, autorefraction in children tends to",
+          "options": [
+            {
+              "text": "over-estimate myopia (under-estimate hyperopia)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "be perfect",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "give too much plus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "not work at all",
+              "correct": false,
+              "feedback": "It works."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0137",
+          "q": "Why take several readings?",
+          "options": [
+            {
+              "text": "To average out variation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To bill more",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The first is always wrong",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0138",
+          "q": "A combined autokeratorefractor also measures",
+          "options": [
+            {
+              "text": "corneal curvature",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "visual fields",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "colour vision",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x0139",
+          "q": "What's an advantage of retinoscopy over autorefraction?",
+          "options": [
+            {
+              "text": "You see the reflex quality, such as scissors or opacities",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's always faster",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "It needs no skill",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It's fully automatic",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "aam-autorefraction-x01310",
+          "q": "A wavefront aberrometer measures",
+          "options": [
+            {
+              "text": "higher-order as well as lower-order aberrations",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only sphere",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "tear film",
               "correct": false,
               "feedback": "No."
             }

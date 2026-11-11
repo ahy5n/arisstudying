@@ -341,6 +341,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0111",
+          "q": "Which is the dependent variable in the darts experiment?",
+          "options": [
+            {
+              "text": "The dart score",
+              "correct": true,
+              "feedback": "Yes: it's measured."
+            },
+            {
+              "text": "The alcohol dose",
+              "correct": false,
+              "feedback": "That's the independent variable."
+            },
+            {
+              "text": "Room temperature",
+              "correct": false,
+              "feedback": "Extraneous."
+            },
+            {
+              "text": "The placebo",
+              "correct": false,
+              "feedback": "Part of the control condition."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0112",
+          "q": "Why run a pilot study?",
+          "options": [
+            {
+              "text": "To set levels such as the alcohol dose and throwing distance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To get the final results",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To publish faster",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To avoid needing participants",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0113",
+          "q": "Adding throwing distance as a second independent variable makes the design",
+          "options": [
+            {
+              "text": "a two-factor (multifactor) design",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "single-blind",
+              "correct": false,
+              "feedback": "Unrelated."
+            },
+            {
+              "text": "between-subjects",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "invalid",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0114",
+          "q": "Room lighting gets brighter only during alcohol sessions. Lighting is now a",
+          "options": [
+            {
+              "text": "confounding variable",
+              "correct": true,
+              "feedback": "Yes: it changes with the IV."
+            },
+            {
+              "text": "dependent variable",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "control condition",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "harmless extraneous variable",
+              "correct": false,
+              "feedback": "It became a confound."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0115",
+          "q": "Which is a reason a within-subjects design can't be used?",
+          "options": [
+            {
+              "text": "Comparing men and women",
+              "correct": true,
+              "feedback": "Yes: nobody can be in both groups."
+            },
+            {
+              "text": "Wanting to cancel out individual differences",
+              "correct": false,
+              "feedback": "That favours within-subjects."
+            },
+            {
+              "text": "Using a placebo",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Having two conditions",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0116",
+          "q": "Why is the term 'participant' used rather than 'patient' in basic vision science?",
+          "options": [
+            {
+              "text": "Most participants aren't patients; 'patient' is for clinical studies",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's shorter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Patients can't take part",
+              "correct": false,
+              "feedback": "They can, in clinical studies."
+            },
+            {
+              "text": "There's no reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0117",
+          "q": "What does a ceiling effect look like in the darts study?",
+          "options": [
+            {
+              "text": "Everyone hits treble twenty even after alcohol",
+              "correct": true,
+              "feedback": "Yes: the task is too easy."
+            },
+            {
+              "text": "Every dart misses the board",
+              "correct": false,
+              "feedback": "That's a floor effect."
+            },
+            {
+              "text": "Scores vary widely",
+              "correct": false,
+              "feedback": "That's normal."
+            },
+            {
+              "text": "Nobody turns up",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0118",
+          "q": "A hypothesis that predicts a direction is",
+          "options": [
+            {
+              "text": "one-tailed",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "two-tailed",
+              "correct": false,
+              "feedback": "Any change."
+            },
+            {
+              "text": "null",
+              "correct": false,
+              "feedback": "No effect."
+            },
+            {
+              "text": "untestable",
+              "correct": false,
+              "feedback": "It's testable."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x0119",
+          "q": "Why randomised blocks rather than a single random order?",
+          "options": [
+            {
+              "text": "Each block covers every level, so order effects spread evenly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's quicker",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It removes the need for repeats",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It makes the study blind",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-research-design-x01110",
+          "q": "Which study design is NOT allowed for the vision sciences assignment?",
+          "options": [
+            {
+              "text": "A review",
+              "correct": true,
+              "feedback": "Yes: it must be a primary paper."
+            },
+            {
+              "text": "An RCT",
+              "correct": false,
+              "feedback": "Primary."
+            },
+            {
+              "text": "A cohort study",
+              "correct": false,
+              "feedback": "Primary."
+            },
+            {
+              "text": "A cross-sectional study",
+              "correct": false,
+              "feedback": "Primary."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -701,6 +971,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0111",
+          "q": "Which is a measure of central tendency?",
+          "options": [
+            {
+              "text": "The mean",
+              "correct": true,
+              "feedback": "Yes, also median and mode."
+            },
+            {
+              "text": "The SD",
+              "correct": false,
+              "feedback": "Spread."
+            },
+            {
+              "text": "The SE",
+              "correct": false,
+              "feedback": "Precision."
+            },
+            {
+              "text": "The p value",
+              "correct": false,
+              "feedback": "Inferential."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0112",
+          "q": "What is the SE of a sample with SD 10 and n = 25?",
+          "options": [
+            {
+              "text": "2",
+              "correct": true,
+              "feedback": "Yes: 10 ÷ 5."
+            },
+            {
+              "text": "0.4",
+              "correct": false,
+              "feedback": "That's SD ÷ n."
+            },
+            {
+              "text": "10",
+              "correct": false,
+              "feedback": "That's the SD."
+            },
+            {
+              "text": "50",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0113",
+          "q": "As n increases with the same SD, the SE",
+          "options": [
+            {
+              "text": "falls",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "rises",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "stays the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "becomes the mean",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0114",
+          "q": "Two means have heavily overlapping ±1 SE error bars. What can you say?",
+          "options": [
+            {
+              "text": "The difference is unlikely to be meaningful",
+              "correct": true,
+              "feedback": "Yes, per the lecture."
+            },
+            {
+              "text": "It's definitely significant",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The study is invalid",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The SDs are equal",
+              "correct": false,
+              "feedback": "Not necessarily."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0115",
+          "q": "Which test compares more than two conditions?",
+          "options": [
+            {
+              "text": "ANOVA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "t-test",
+              "correct": false,
+              "feedback": "Two conditions."
+            },
+            {
+              "text": "Chi-squared only",
+              "correct": false,
+              "feedback": "Categories."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "ANOVA."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0116",
+          "q": "p = 0.008 is described as",
+          "options": [
+            {
+              "text": "highly significant",
+              "correct": true,
+              "feedback": "Yes: p ≤ 0.01."
+            },
+            {
+              "text": "not significant",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "borderline",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "proof",
+              "correct": false,
+              "feedback": "Never proof."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0117",
+          "q": "You predicted alcohol would lower scores, but it raised them. With a one-tailed test, what follows?",
+          "options": [
+            {
+              "text": "You can't claim a significant increase: that tail wasn't tested",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Switch to two-tailed after the fact",
+              "correct": false,
+              "feedback": "That's not allowed."
+            },
+            {
+              "text": "It's significant anyway",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The null is proven",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0118",
+          "q": "Which is a non-parametric approach?",
+          "options": [
+            {
+              "text": "Distribution-free tests, e.g. Wilcoxon or Mann-Whitney",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "t-test",
+              "correct": false,
+              "feedback": "Parametric."
+            },
+            {
+              "text": "ANOVA",
+              "correct": false,
+              "feedback": "Parametric."
+            },
+            {
+              "text": "Standard error",
+              "correct": false,
+              "feedback": "Descriptive."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x0119",
+          "q": "About how many people die or are seriously injured on UK roads each year (lecture figure)?",
+          "options": [
+            {
+              "text": "About 28,000",
+              "correct": true,
+              "feedback": "Yes, about 1 in 2,500 people a year."
+            },
+            {
+              "text": "About 280",
+              "correct": false,
+              "feedback": "Too few."
+            },
+            {
+              "text": "About 2.8 million",
+              "correct": false,
+              "feedback": "Too many."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-statistics-x01110",
+          "q": "Why care about subjective risk as an optometrist?",
+          "options": [
+            {
+              "text": "You may need to judge real risks in practice, e.g. a trip hazard at the door",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To sell lottery tickets",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's irrelevant",
+              "correct": false,
+              "feedback": "It's relevant."
+            },
+            {
+              "text": "Only for exams",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1044,6 +1584,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0111",
+          "q": "Which bias arises when trials with positive results are more likely to be published?",
+          "options": [
+            {
+              "text": "Publication bias",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Recall bias",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Attrition bias",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Selection bias",
+              "correct": false,
+              "feedback": "Not this."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0112",
+          "q": "What is intention-to-treat analysis?",
+          "options": [
+            {
+              "text": "Analysing participants in the groups they were randomised to, whatever happened",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Analysing only completers",
+              "correct": false,
+              "feedback": "Per-protocol."
+            },
+            {
+              "text": "Analysing only successes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not analysing at all",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0113",
+          "q": "A study's 95% CI for a difference is −0.5 to +1.2 D. What does it suggest?",
+          "options": [
+            {
+              "text": "The difference may be zero: not significant at 5%",
+              "correct": true,
+              "feedback": "Yes: the interval includes zero."
+            },
+            {
+              "text": "It's definitely significant",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The effect is large",
+              "correct": false,
+              "feedback": "Uncertain."
+            },
+            {
+              "text": "The study is biased",
+              "correct": false,
+              "feedback": "Not shown."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0114",
+          "q": "Which design best shows that an exposure causes an outcome?",
+          "options": [
+            {
+              "text": "A randomised controlled trial",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A case report",
+              "correct": false,
+              "feedback": "Weak."
+            },
+            {
+              "text": "A cross-sectional survey",
+              "correct": false,
+              "feedback": "Association only."
+            },
+            {
+              "text": "Expert opinion",
+              "correct": false,
+              "feedback": "Weak."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0115",
+          "q": "What does 'masking' (blinding) of outcome assessors reduce?",
+          "options": [
+            {
+              "text": "Detection bias",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Recall bias",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Attrition",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Publication bias",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0116",
+          "q": "A trial compares a new drop with nothing (no placebo). What's the risk?",
+          "options": [
+            {
+              "text": "Placebo effects and knowledge of treatment may inflate the benefit",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "There's a risk."
+            },
+            {
+              "text": "Lower statistical power only",
+              "correct": false,
+              "feedback": "Not the main issue."
+            },
+            {
+              "text": "Recall bias",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0117",
+          "q": "When appraising a paper, what should you check about the sample?",
+          "options": [
+            {
+              "text": "How participants were recruited and whether they're representative",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the number",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "Their names",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It matters."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0118",
+          "q": "What does a funnel plot help detect?",
+          "options": [
+            {
+              "text": "Publication bias in a meta-analysis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Confounding",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Recall bias",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Attrition",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x0119",
+          "q": "Which outcome is most clinically meaningful in a myopia control trial?",
+          "options": [
+            {
+              "text": "Change in axial length or refraction over time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Patient satisfaction alone",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Number of clinic visits",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cost only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-critique-x01110",
+          "q": "Why distrust a study with no control group?",
+          "options": [
+            {
+              "text": "Changes could be due to time, chance or placebo",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's always fraudulent",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's always too small",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1383,6 +2193,276 @@
               "text": "To avoid appraising quality",
               "correct": false,
               "feedback": "Appraisal is still essential."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0111",
+          "q": "What does the P in PICO stand for?",
+          "options": [
+            {
+              "text": "Population (or patient/problem)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Prescription",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Procedure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Prevalence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0112",
+          "q": "After applying evidence, what's the final EBP step?",
+          "options": [
+            {
+              "text": "Evaluate the outcome",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ask a new question",
+              "correct": false,
+              "feedback": "Not the last step."
+            },
+            {
+              "text": "Ignore the result",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Write a paper",
+              "correct": false,
+              "feedback": "Not necessary."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0113",
+          "q": "Which is a pre-appraised source of evidence?",
+          "options": [
+            {
+              "text": "A Cochrane systematic review",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A single blog post",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A product brochure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An anecdote",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0114",
+          "q": "A patient prefers spectacles even though contact lenses would be optically better. EBP says",
+          "options": [
+            {
+              "text": "respect the patient's values in the decision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "insist on contact lenses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "refuse to prescribe",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignore preferences",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0115",
+          "q": "Where does clinical expertise fit in EBP?",
+          "options": [
+            {
+              "text": "It's one of the three parts, with evidence and patient values",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It replaces evidence",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't count",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "Only for experts",
+              "correct": false,
+              "feedback": "Everyone uses it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0116",
+          "q": "Which outcome measure is patient-centred?",
+          "options": [
+            {
+              "text": "Quality-of-life questionnaire scores",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Axial length",
+              "correct": false,
+              "feedback": "Clinical."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "Clinical."
+            },
+            {
+              "text": "Cell counts",
+              "correct": false,
+              "feedback": "Laboratory."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0117",
+          "q": "Why might the newest paper not be the best evidence?",
+          "options": [
+            {
+              "text": "A single new study may be small or biased; reviews weigh all the evidence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "New papers are always wrong",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Old papers are always better",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It is always best",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0118",
+          "q": "What is a clinical guideline?",
+          "options": [
+            {
+              "text": "Systematically developed recommendations to help decisions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A law",
+              "correct": false,
+              "feedback": "Not a law."
+            },
+            {
+              "text": "A single trial",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An opinion piece",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x0119",
+          "q": "Which question is answerable?",
+          "options": [
+            {
+              "text": "In adults with dry eye, does omega-3 versus placebo improve OSDI scores?",
+              "correct": true,
+              "feedback": "Yes: a full PICO."
+            },
+            {
+              "text": "Is dry eye bad?",
+              "correct": false,
+              "feedback": "Too vague."
+            },
+            {
+              "text": "What about drops?",
+              "correct": false,
+              "feedback": "Too vague."
+            },
+            {
+              "text": "Why do eyes exist?",
+              "correct": false,
+              "feedback": "Not clinical."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ebp-x01110",
+          "q": "Hierarchy of evidence: which is lowest?",
+          "options": [
+            {
+              "text": "Expert opinion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "RCT",
+              "correct": false,
+              "feedback": "High."
+            },
+            {
+              "text": "Cohort",
+              "correct": false,
+              "feedback": "Middle."
+            },
+            {
+              "text": "Systematic review",
+              "correct": false,
+              "feedback": "Highest."
             }
           ],
           "explanation": ""
@@ -1729,6 +2809,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0111",
+          "q": "Which database did the library session demonstrate?",
+          "options": [
+            {
+              "text": "Web of Science",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Facebook",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wikipedia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Amazon",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0112",
+          "q": "What should you do as soon as you find a useful paper?",
+          "options": [
+            {
+              "text": "Download the PDF and keep folders organised",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keep 50 tabs open",
+              "correct": false,
+              "feedback": "Avoid."
+            },
+            {
+              "text": "Memorise it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0113",
+          "q": "Which suffix finds 'myopia' and 'myopic'?",
+          "options": [
+            {
+              "text": "myop*",
+              "correct": true,
+              "feedback": "Yes: truncation."
+            },
+            {
+              "text": "myopia OR",
+              "correct": false,
+              "feedback": "Incomplete."
+            },
+            {
+              "text": "\"myopia\"",
+              "correct": false,
+              "feedback": "Phrase only."
+            },
+            {
+              "text": "NOT myopia",
+              "correct": false,
+              "feedback": "Excludes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0114",
+          "q": "Which part of the e-portfolio is worth 4.5%?",
+          "options": [
+            {
+              "text": "The PHE task (and the PPD task)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The AaD task",
+              "correct": false,
+              "feedback": "3%."
+            },
+            {
+              "text": "The DoC/PaP task",
+              "correct": false,
+              "feedback": "3%."
+            },
+            {
+              "text": "Clinic attendance",
+              "correct": false,
+              "feedback": "Pass/fail."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0115",
+          "q": "How long must a paper be for the vision sciences assignment?",
+          "options": [
+            {
+              "text": "At least 4 pages",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "At least 40 pages",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Any length",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "One page",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0116",
+          "q": "Where can you book one-to-one library help?",
+          "options": [
+            {
+              "text": "Through the LibGuide",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Through the GOC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "On social media",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nowhere",
+              "correct": false,
+              "feedback": "You can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0117",
+          "q": "What should you check in an abstract?",
+          "options": [
+            {
+              "text": "Whether the paper is relevant and primary",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the title",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "The author's photo",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Check relevance."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0118",
+          "q": "Which search operator excludes a term?",
+          "options": [
+            {
+              "text": "NOT",
+              "correct": true,
+              "feedback": "Yes, use carefully."
+            },
+            {
+              "text": "AND",
+              "correct": false,
+              "feedback": "Narrows."
+            },
+            {
+              "text": "OR",
+              "correct": false,
+              "feedback": "Widens."
+            },
+            {
+              "text": "*",
+              "correct": false,
+              "feedback": "Truncation."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x0119",
+          "q": "Why focus the search on one question?",
+          "options": [
+            {
+              "text": "It keeps results relevant and manageable",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Databases only allow one word",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To get fewer papers always",
+              "correct": false,
+              "feedback": "Not the aim."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-literature-search-x01110",
+          "q": "Disease definitions for an assignment are best taken from",
+          "options": [
+            {
+              "text": "reliable clinical sources such as BMJ Best Practice or NHS pages",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a forum",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a novel",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -2070,6 +3420,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0111",
+          "q": "Roughly what wavelength range is visible light?",
+          "options": [
+            {
+              "text": "380–760 nm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "100–200 nm",
+              "correct": false,
+              "feedback": "UV."
+            },
+            {
+              "text": "1,000–2,000 nm",
+              "correct": false,
+              "feedback": "Infrared."
+            },
+            {
+              "text": "10–20 nm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0112",
+          "q": "Which retinal cells depolarise to light?",
+          "options": [
+            {
+              "text": "Bipolar cells (some)",
+              "correct": true,
+              "feedback": "Yes, per the lecture."
+            },
+            {
+              "text": "Rods",
+              "correct": false,
+              "feedback": "They hyperpolarise."
+            },
+            {
+              "text": "Cones",
+              "correct": false,
+              "feedback": "They hyperpolarise."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Some bipolar cells do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0113",
+          "q": "Which interneurons connect receptors sideways?",
+          "options": [
+            {
+              "text": "Horizontal cells",
+              "correct": true,
+              "feedback": "Yes, with amacrine cells further in."
+            },
+            {
+              "text": "Ganglion cells",
+              "correct": false,
+              "feedback": "Output."
+            },
+            {
+              "text": "Rods",
+              "correct": false,
+              "feedback": "Receptors."
+            },
+            {
+              "text": "Müller cells",
+              "correct": false,
+              "feedback": "Glia."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0114",
+          "q": "What proportion of cones are 'blue' (S)?",
+          "options": [
+            {
+              "text": "About 10%",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 50%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 90%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0%",
+              "correct": false,
+              "feedback": "They exist."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0115",
+          "q": "Why does a tiny pure blue spot seen from far away look black?",
+          "options": [
+            {
+              "text": "There are no blue cones in the central fovea, and the spot is too small to reach them",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blue light can't enter the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The lens blocks blue",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It's an afterimage",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0116",
+          "q": "What is spatial summation?",
+          "options": [
+            {
+              "text": "Pooling signals over an area, which increases sensitivity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Adding colours",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Comparing eyes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Seeing motion",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0117",
+          "q": "Which ganglion cells are 'sustained' and colour-sensitive?",
+          "options": [
+            {
+              "text": "P-cells",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "M-cells",
+              "correct": false,
+              "feedback": "Transient, colourblind."
+            },
+            {
+              "text": "K-cells",
+              "correct": false,
+              "feedback": "Blue-yellow, in the LGN."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "P-cells."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0118",
+          "q": "Approximately how many LGN neurons are there?",
+          "options": [
+            {
+              "text": "About 1 million",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 100",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 1 billion",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x0119",
+          "q": "The left LGN receives input from",
+          "options": [
+            {
+              "text": "the right visual field",
+              "correct": true,
+              "feedback": "Yes: contralateral."
+            },
+            {
+              "text": "the left visual field",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the left eye only",
+              "correct": false,
+              "feedback": "Both eyes."
+            },
+            {
+              "text": "the right eye only",
+              "correct": false,
+              "feedback": "Both eyes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-retina-x01110",
+          "q": "Why does the visual system use two kinds of receptor?",
+          "options": [
+            {
+              "text": "To work across about 13 orders of magnitude of light level",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To see two colours",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To see in 3D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -2379,6 +3999,276 @@
               "text": "Recognise faces, objects and scenes",
               "correct": false,
               "feedback": "That's much later."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0111",
+          "q": "Who introduced the term 'receptive field'?",
+          "options": [
+            {
+              "text": "Hartline (1938), in frogs",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hubel",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Kuffler",
+              "correct": false,
+              "feedback": "Described centre-surround."
+            },
+            {
+              "text": "Marr",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0112",
+          "q": "Who described centre-surround ganglion cell fields?",
+          "options": [
+            {
+              "text": "Kuffler (1953)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hartline",
+              "correct": false,
+              "feedback": "Named receptive fields."
+            },
+            {
+              "text": "Meese",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Gibbs",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0113",
+          "q": "What is a transient response?",
+          "options": [
+            {
+              "text": "The sudden burst of firing when a stimulus appears",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The steady level",
+              "correct": false,
+              "feedback": "That's sustained."
+            },
+            {
+              "text": "Firing with no stimulus",
+              "correct": false,
+              "feedback": "Spontaneous."
+            },
+            {
+              "text": "No response",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0114",
+          "q": "Dark falls on the inhibitory surround of an on-centre cell. Response?",
+          "options": [
+            {
+              "text": "Increases",
+              "correct": true,
+              "feedback": "Yes: less inhibition."
+            },
+            {
+              "text": "Decreases",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No change",
+              "correct": false,
+              "feedback": "It changes."
+            },
+            {
+              "text": "Stops",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0115",
+          "q": "On- and off-centre cells together produce",
+          "options": [
+            {
+              "text": "two complementary neural images",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "one image",
+              "correct": false,
+              "feedback": "Two."
+            },
+            {
+              "text": "colour vision",
+              "correct": false,
+              "feedback": "Not directly."
+            },
+            {
+              "text": "depth",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0116",
+          "q": "In fovea, a ganglion cell's centre may receive input from",
+          "options": [
+            {
+              "text": "a single cone",
+              "correct": true,
+              "feedback": "Yes: high resolution."
+            },
+            {
+              "text": "thousands of rods",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no receptors",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the LGN",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0117",
+          "q": "A centre-surround cell responds differently from spontaneous only when",
+          "options": [
+            {
+              "text": "there's a change in luminance within its field",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the light is uniform",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's dark",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the eye moves",
+              "correct": false,
+              "feedback": "Not necessarily."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0118",
+          "q": "Convolution kernels in image processing are equivalent to",
+          "options": [
+            {
+              "text": "receptive fields (weighting functions)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "pixels",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "lenses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "photoreceptors",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x0119",
+          "q": "The fine hairs on a cat's back are found at which spatial scale?",
+          "options": [
+            {
+              "text": "Fine",
+              "correct": true,
+              "feedback": "Yes; the curve of its back is coarse."
+            },
+            {
+              "text": "Coarse",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "They're fine."
+            },
+            {
+              "text": "Medium only",
+              "correct": false,
+              "feedback": "Fine."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-receptive-fields-x01110",
+          "q": "Why are receptive fields larger in the periphery?",
+          "options": [
+            {
+              "text": "Convergence is greater there",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "There are more cones",
+              "correct": false,
+              "feedback": "Fewer."
+            },
+            {
+              "text": "The lens is thicker",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "Convergence."
             }
           ],
           "explanation": ""
@@ -2711,6 +4601,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0111",
+          "q": "How thick is the cortex?",
+          "options": [
+            {
+              "text": "Under 2 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 2 cm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 10 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0.01 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0112",
+          "q": "Where does the LGN input arrive in V1?",
+          "options": [
+            {
+              "text": "Layer 4C",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Layer 1",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Layer 6 only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "White matter",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0113",
+          "q": "Which method images activity on the cortical surface?",
+          "options": [
+            {
+              "text": "Optical imaging",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Perimetry",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Keratometry",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0114",
+          "q": "Which property are simple cells NOT selective for?",
+          "options": [
+            {
+              "text": "Colour, in general",
+              "correct": true,
+              "feedback": "They're selective for orientation, size and position."
+            },
+            {
+              "text": "Orientation",
+              "correct": false,
+              "feedback": "Selective."
+            },
+            {
+              "text": "Size (spatial frequency)",
+              "correct": false,
+              "feedback": "Selective."
+            },
+            {
+              "text": "Position (phase)",
+              "correct": false,
+              "feedback": "Selective."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0115",
+          "q": "What is a 'population code'?",
+          "options": [
+            {
+              "text": "Information carried by the pattern of responses across many cells",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A single grandmother cell",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A genetic code",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A census",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0116",
+          "q": "The tilt aftereffect is measured by",
+          "options": [
+            {
+              "text": "psychophysics after adaptation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "single-cell recordings",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "anatomy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the LGN",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0117",
+          "q": "Each V1 module is about",
+          "options": [
+            {
+              "text": "1 mm across with about 100,000 cells",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 cm across",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1 µm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 cells",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0118",
+          "q": "Blobs are most apparent in which cortical layers?",
+          "options": [
+            {
+              "text": "Superficial layers",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Layer 6",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "White matter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Superficial."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x0119",
+          "q": "What is Brodmann's area 17?",
+          "options": [
+            {
+              "text": "V1",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "V2",
+              "correct": false,
+              "feedback": "Area 18."
+            },
+            {
+              "text": "MT",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IT",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-v1-x01110",
+          "q": "Which cells prefer contours that end inside their field?",
+          "options": [
+            {
+              "text": "End-stopped cells",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blob cells",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "P-cells",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Complex cells only",
+              "correct": false,
+              "feedback": "Found in both simple and complex."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -3033,6 +5193,276 @@
             },
             {
               "text": "V1 has no output",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0111",
+          "q": "Which area is in the ventral stream?",
+          "options": [
+            {
+              "text": "V4",
+              "correct": true,
+              "feedback": "Yes, then IT."
+            },
+            {
+              "text": "MT",
+              "correct": false,
+              "feedback": "Dorsal."
+            },
+            {
+              "text": "MST",
+              "correct": false,
+              "feedback": "Dorsal."
+            },
+            {
+              "text": "7a",
+              "correct": false,
+              "feedback": "Dorsal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0112",
+          "q": "V2 is also called",
+          "options": [
+            {
+              "text": "area 18",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "area 17",
+              "correct": false,
+              "feedback": "V1."
+            },
+            {
+              "text": "MT",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IT",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0113",
+          "q": "Which V2 stripes are important for stereo?",
+          "options": [
+            {
+              "text": "Thick stripes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Thin stripes",
+              "correct": false,
+              "feedback": "Colour."
+            },
+            {
+              "text": "Interstripes",
+              "correct": false,
+              "feedback": "Form."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Thick."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0114",
+          "q": "Who proposed the two-streams model?",
+          "options": [
+            {
+              "text": "Ungerleider and Mishkin (1982)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Milner and Goodale",
+              "correct": false,
+              "feedback": "Perception/action."
+            },
+            {
+              "text": "Zeki",
+              "correct": false,
+              "feedback": "Four pathways."
+            },
+            {
+              "text": "Hubel and Wiesel",
+              "correct": false,
+              "feedback": "V1."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0115",
+          "q": "V4 colour regions are called",
+          "options": [
+            {
+              "text": "globs",
+              "correct": true,
+              "feedback": "Yes; between them are interglobs."
+            },
+            {
+              "text": "blobs",
+              "correct": false,
+              "feedback": "V1."
+            },
+            {
+              "text": "stripes",
+              "correct": false,
+              "feedback": "V2."
+            },
+            {
+              "text": "columns",
+              "correct": false,
+              "feedback": "General term."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0116",
+          "q": "About how many cells code an individual face (Rolls and Tovee)?",
+          "options": [
+            {
+              "text": "About 100",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1",
+              "correct": false,
+              "feedback": "Grandmother cell idea."
+            },
+            {
+              "text": "1 million",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10,000",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0117",
+          "q": "Damage to V1 interblobs and interstripes (e.g. carbon monoxide) can leave",
+          "options": [
+            {
+              "text": "colour seen but form lost",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "form seen but colour lost",
+              "correct": false,
+              "feedback": "That's V4 damage."
+            },
+            {
+              "text": "everything normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only motion",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0118",
+          "q": "What evidence suggests V1 is needed for awareness but isn't where 'seeing' happens?",
+          "options": [
+            {
+              "text": "Blindsight",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Prosopagnosia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Achromatopsia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Akinetopsia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x0119",
+          "q": "Which area receives most of its input from V1?",
+          "options": [
+            {
+              "text": "V2",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IT",
+              "correct": false,
+              "feedback": "Further on."
+            },
+            {
+              "text": "7a",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "LGN",
+              "correct": false,
+              "feedback": "Before V1."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-ventral-stream-x01110",
+          "q": "How many cortical visual areas are there?",
+          "options": [
+            {
+              "text": "Over 30",
+              "correct": true,
+              "feedback": "Yes, with over 300 connections."
+            },
+            {
+              "text": "2",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "5",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1,000",
               "correct": false,
               "feedback": "No."
             }
@@ -3361,6 +5791,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0111",
+          "q": "MT receptive fields are typically",
+          "options": [
+            {
+              "text": "5–10° across",
+              "correct": true,
+              "feedback": "Yes; V1's are about 0.5°."
+            },
+            {
+              "text": "0.01°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "180°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the same as V1",
+              "correct": false,
+              "feedback": "Larger."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0112",
+          "q": "MST receptive fields are about",
+          "options": [
+            {
+              "text": "30–50°",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1°",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "5°",
+              "correct": false,
+              "feedback": "MT size."
+            },
+            {
+              "text": "360°",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0113",
+          "q": "What is a 'motion discontinuity'?",
+          "options": [
+            {
+              "text": "A boundary where motion changes, helping separate objects",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Motion blindness",
+              "correct": false,
+              "feedback": "Akinetopsia."
+            },
+            {
+              "text": "A colour boundary",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An eye movement",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0114",
+          "q": "'Gaze-locked' cells are found in",
+          "options": [
+            {
+              "text": "area 7a",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "V1",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "LGN",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IT",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0115",
+          "q": "Which coordinate frame codes position relative to the room?",
+          "options": [
+            {
+              "text": "Allocentric",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Egocentric",
+              "correct": false,
+              "feedback": "Relative to self."
+            },
+            {
+              "text": "Retinocentric",
+              "correct": false,
+              "feedback": "On the retina."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Allocentric."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0116",
+          "q": "In Zeki's model, which pathway goes through V1 blobs and V2 thin stripes to V4?",
+          "options": [
+            {
+              "text": "Colour",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Motion",
+              "correct": false,
+              "feedback": "Through MT."
+            },
+            {
+              "text": "Form without colour",
+              "correct": false,
+              "feedback": "Through V3."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Colour."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0117",
+          "q": "Patients with optic ataxia have damage to the",
+          "options": [
+            {
+              "text": "dorsal (parietal) stream",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "ventral stream",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "LGN",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0118",
+          "q": "The Titchener (Ebbinghaus) circles were used to test",
+          "options": [
+            {
+              "text": "whether grasping is fooled by size illusions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "colour constancy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "motion perception",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "acuity",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x0119",
+          "q": "Why can't akinetopsia patients pour tea easily?",
+          "options": [
+            {
+              "text": "They can't see the liquid rising, only snapshots",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They can't see colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Their hands shake",
+              "correct": false,
+              "feedback": "Not the cause."
+            },
+            {
+              "text": "They're blind",
+              "correct": false,
+              "feedback": "They aren't."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-dorsal-stream-x01110",
+          "q": "Which route bypasses V1 to reach parietal cortex?",
+          "options": [
+            {
+              "text": "Retina, superior colliculus, pulvinar",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Retina, LGN, V1",
+              "correct": false,
+              "feedback": "Primary route."
+            },
+            {
+              "text": "Cornea, lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "That route exists."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -3684,6 +6384,276 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0111",
+          "q": "Who founded Gestalt psychology?",
+          "options": [
+            {
+              "text": "Wertheimer, Koffka and Köhler",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hubel and Wiesel",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Marr",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Meese",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0112",
+          "q": "Which Gestalt rule groups shapes that look alike?",
+          "options": [
+            {
+              "text": "Similarity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Proximity",
+              "correct": false,
+              "feedback": "Closeness."
+            },
+            {
+              "text": "Common fate",
+              "correct": false,
+              "feedback": "Motion."
+            },
+            {
+              "text": "Closure",
+              "correct": false,
+              "feedback": "Completion."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0113",
+          "q": "What is amodal completion?",
+          "options": [
+            {
+              "text": "Seeing a partly hidden object as complete behind an occluder",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Colour mixing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Motion blindness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Double vision",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0114",
+          "q": "Which area helps decide border ownership?",
+          "options": [
+            {
+              "text": "V2",
+              "correct": true,
+              "feedback": "Yes (Zhou et al., 2000)."
+            },
+            {
+              "text": "LGN",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "MT",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Retina",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0115",
+          "q": "In a conjunction search, reaction time",
+          "options": [
+            {
+              "text": "rises with each extra distractor",
+              "correct": true,
+              "feedback": "Yes: serial search."
+            },
+            {
+              "text": "stays flat",
+              "correct": false,
+              "feedback": "Feature search."
+            },
+            {
+              "text": "falls",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "is zero",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0116",
+          "q": "What is texture segmentation?",
+          "options": [
+            {
+              "text": "Separating regions by differences in texture",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Measuring roughness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour naming",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Reading",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0117",
+          "q": "Which cells provide the mechanism for texture analysis?",
+          "options": [
+            {
+              "text": "Oriented simple cells acting as filters",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rods",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ganglion cells only",
+              "correct": false,
+              "feedback": "Not oriented."
+            },
+            {
+              "text": "Blob cells",
+              "correct": false,
+              "feedback": "Colour."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0118",
+          "q": "Why is a 'law of simplicity' hard to test?",
+          "options": [
+            {
+              "text": "Simplicity is hard to define or measure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's always wrong",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's always right",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's illegal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x0119",
+          "q": "Grouping rules have",
+          "options": [
+            {
+              "text": "no fixed order of precedence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a fixed order",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only one rule",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no effect",
+              "correct": false,
+              "feedback": "They have."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-perceptual-grouping-x01110",
+          "q": "What's the 'association field'?",
+          "options": [
+            {
+              "text": "Proposed V1/V2 links between neighbouring cells with aligned orientations",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A sports pitch",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A retinal layer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A colour map",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -3988,6 +6958,276 @@
               "text": "Luminance",
               "correct": false,
               "feedback": "Physical."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0111",
+          "q": "Brightness refers to",
+          "options": [
+            {
+              "text": "perceived light intensity",
+              "correct": true,
+              "feedback": "Yes; lightness refers to surfaces."
+            },
+            {
+              "text": "surface reflectance",
+              "correct": false,
+              "feedback": "That's physical."
+            },
+            {
+              "text": "illuminance",
+              "correct": false,
+              "feedback": "Physical."
+            },
+            {
+              "text": "lightness",
+              "correct": false,
+              "feedback": "Different."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0112",
+          "q": "What is lightness constancy?",
+          "options": [
+            {
+              "text": "Surfaces looking the same under different illumination",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Light never changing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Seeing the brightest spot",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour blindness",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0113",
+          "q": "A surface reflects 50% under 100 units of light. What luminance?",
+          "options": [
+            {
+              "text": "50",
+              "correct": true,
+              "feedback": "Yes: L = I × r."
+            },
+            {
+              "text": "100",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "150",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0114",
+          "q": "Lightness contrast means",
+          "options": [
+            {
+              "text": "the same grey looks different on different surrounds",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "greys never change",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "colour mixing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glare",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0115",
+          "q": "What's the 'bottom-up shadow rule'?",
+          "options": [
+            {
+              "text": "Don't apply lightness constancy across fuzzy borders: they're shadows",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Shadows are always dark",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore all edges",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Brighten shadows",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0116",
+          "q": "Which part of the shadow tells the system it's a shadow?",
+          "options": [
+            {
+              "text": "The penumbra (fuzzy edge)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The umbra",
+              "correct": false,
+              "feedback": "Not the cue."
+            },
+            {
+              "text": "The colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The size",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0117",
+          "q": "Adelson's Argyle illusion shows that",
+          "options": [
+            {
+              "text": "perceived surface layout changes perceived lightness",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "all diamonds differ in paint",
+              "correct": false,
+              "feedback": "They're the same paint."
+            },
+            {
+              "text": "motion matters",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "colour matters",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0118",
+          "q": "Lightness computations involve",
+          "options": [
+            {
+              "text": "both bottom-up and top-down processes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only the retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only higher areas",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "neither",
+              "correct": false,
+              "feedback": "Both."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x0119",
+          "q": "Which quantity does the retinal image carry?",
+          "options": [
+            {
+              "text": "Luminance only",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Reflectance directly",
+              "correct": false,
+              "feedback": "Must be estimated."
+            },
+            {
+              "text": "Illuminance directly",
+              "correct": false,
+              "feedback": "Must be estimated."
+            },
+            {
+              "text": "Lightness",
+              "correct": false,
+              "feedback": "Psychological."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "vse-lightness-x01110",
+          "q": "Who wrote a key paper on perceived layout and lightness (optional reading)?",
+          "options": [
+            {
+              "text": "Gilchrist (1980)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Kuffler",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Gibbs",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hartline",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
