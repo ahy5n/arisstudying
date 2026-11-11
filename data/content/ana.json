@@ -147,6 +147,168 @@
           ],
           "explanation": "Optic nerve and ophthalmic artery use the optic canal.",
           "link": "ana-orbit-lids-lacrimal#openings-of-the-orbit"
+        },
+        {
+          "id": "ana-orbit-lids-lacrimal-x0091",
+          "q": "How many bones form the orbit?",
+          "options": [
+            {
+              "text": "Seven",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Four",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Twelve",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Two",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-orbit-lids-lacrimal-x0092",
+          "q": "Which is the weakest orbital wall?",
+          "options": [
+            {
+              "text": "The medial wall (lamina papyracea) and the floor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The roof",
+              "correct": false,
+              "feedback": "Thicker."
+            },
+            {
+              "text": "The lateral wall",
+              "correct": false,
+              "feedback": "Strongest."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Some are weak."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-orbit-lids-lacrimal-x0093",
+          "q": "What passes through the optic canal?",
+          "options": [
+            {
+              "text": "The optic nerve and ophthalmic artery",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "CN III",
+              "correct": false,
+              "feedback": "Superior orbital fissure."
+            },
+            {
+              "text": "The lacrimal gland",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "CN VII",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-orbit-lids-lacrimal-x0094",
+          "q": "Which muscle closes the lids?",
+          "options": [
+            {
+              "text": "Orbicularis oculi (CN VII)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Levator",
+              "correct": false,
+              "feedback": "Opens."
+            },
+            {
+              "text": "Müller's",
+              "correct": false,
+              "feedback": "Opens slightly."
+            },
+            {
+              "text": "Superior rectus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-orbit-lids-lacrimal-x0095",
+          "q": "Which glands produce the oily tear layer?",
+          "options": [
+            {
+              "text": "Meibomian glands",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Lacrimal gland",
+              "correct": false,
+              "feedback": "Aqueous."
+            },
+            {
+              "text": "Goblet cells",
+              "correct": false,
+              "feedback": "Mucin."
+            },
+            {
+              "text": "Moll",
+              "correct": false,
+              "feedback": "Sweat."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-orbit-lids-lacrimal-x0096",
+          "q": "Where does the nasolacrimal duct open?",
+          "options": [
+            {
+              "text": "The inferior meatus of the nose",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The mouth",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The middle meatus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The sinus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -310,6 +472,195 @@
           ],
           "explanation": "Transparency depends on ordered collagen; swelling disorders it.",
           "link": "ana-cornea-conjunctiva-tears#why-the-cornea-is-clear"
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0091",
+          "q": "Which layer makes up about 90% of corneal thickness?",
+          "options": [
+            {
+              "text": "Stroma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Epithelium",
+              "correct": false,
+              "feedback": "Thin."
+            },
+            {
+              "text": "Endothelium",
+              "correct": false,
+              "feedback": "Single layer."
+            },
+            {
+              "text": "Bowman's",
+              "correct": false,
+              "feedback": "Thin."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0092",
+          "q": "What is typical central corneal thickness?",
+          "options": [
+            {
+              "text": "About 0.52–0.55 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 2 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 0.1 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 1 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0093",
+          "q": "Why does endothelial cell density fall with age?",
+          "options": [
+            {
+              "text": "Human endothelial cells don't divide",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're shed into tears",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They turn into epithelium",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They don't fall",
+              "correct": false,
+              "feedback": "They do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0094",
+          "q": "What keeps the stroma transparent?",
+          "options": [
+            {
+              "text": "Evenly spaced collagen and endothelial pumping keeping it relatively dehydrated",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blood vessels",
+              "correct": false,
+              "feedback": "It's avascular."
+            },
+            {
+              "text": "Pigment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tears only",
+              "correct": false,
+              "feedback": "Not only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0095",
+          "q": "Which nerve supplies the cornea?",
+          "options": [
+            {
+              "text": "V1 (ophthalmic division of trigeminal) via long ciliary nerves",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "CN II",
+              "correct": false,
+              "feedback": "Optic."
+            },
+            {
+              "text": "CN VII",
+              "correct": false,
+              "feedback": "Facial."
+            },
+            {
+              "text": "CN III",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0096",
+          "q": "Which layer regenerates quickly?",
+          "options": [
+            {
+              "text": "Epithelium",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Endothelium",
+              "correct": false,
+              "feedback": "Doesn't divide."
+            },
+            {
+              "text": "Descemet's",
+              "correct": false,
+              "feedback": "Thickens slowly."
+            },
+            {
+              "text": "Bowman's",
+              "correct": false,
+              "feedback": "Doesn't regenerate."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-cornea-conjunctiva-tears-x0097",
+          "q": "Which cells make the mucin layer?",
+          "options": [
+            {
+              "text": "Conjunctival goblet cells",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Meibomian glands",
+              "correct": false,
+              "feedback": "Lipid."
+            },
+            {
+              "text": "Lacrimal gland",
+              "correct": false,
+              "feedback": "Aqueous."
+            },
+            {
+              "text": "Endothelium",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -467,6 +818,168 @@
           ],
           "explanation": "A narrow Van Herick grade flags a risk of angle closure.",
           "link": "ana-uvea-aqueous#the-angle-and-angle-closure"
+        },
+        {
+          "id": "ana-uvea-aqueous-x0091",
+          "q": "Which muscle constricts the pupil?",
+          "options": [
+            {
+              "text": "Sphincter pupillae (parasympathetic, CN III)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dilator pupillae",
+              "correct": false,
+              "feedback": "Dilates."
+            },
+            {
+              "text": "Ciliary muscle",
+              "correct": false,
+              "feedback": "Accommodation."
+            },
+            {
+              "text": "Levator",
+              "correct": false,
+              "feedback": "Lid."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-uvea-aqueous-x0092",
+          "q": "Where is aqueous made?",
+          "options": [
+            {
+              "text": "The non-pigmented ciliary epithelium",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The iris",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The cornea",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-uvea-aqueous-x0093",
+          "q": "About how much aqueous is made per minute?",
+          "options": [
+            {
+              "text": "2–3 µl",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "2–3 ml",
+              "correct": false,
+              "feedback": "Far too much."
+            },
+            {
+              "text": "0.01 µl",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "20 µl",
+              "correct": false,
+              "feedback": "Too much."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-uvea-aqueous-x0094",
+          "q": "Most aqueous leaves via",
+          "options": [
+            {
+              "text": "the trabecular meshwork and Schlemm's canal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the uveoscleral route",
+              "correct": false,
+              "feedback": "The minority."
+            },
+            {
+              "text": "the cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the vitreous",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-uvea-aqueous-x0095",
+          "q": "Which part of the ciliary body makes aqueous?",
+          "options": [
+            {
+              "text": "Pars plicata",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Pars plana",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The iris root",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The choroid",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-uvea-aqueous-x0096",
+          "q": "Which nerve supply dilates the pupil?",
+          "options": [
+            {
+              "text": "Sympathetic",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Parasympathetic",
+              "correct": false,
+              "feedback": "Constricts."
+            },
+            {
+              "text": "CN VI",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "CN IV",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -630,6 +1143,195 @@
           ],
           "explanation": "No blood supply: glucose and oxygen come from the aqueous.",
           "link": "ana-lens#lens-metabolism"
+        },
+        {
+          "id": "ana-lens-x0091",
+          "q": "Where is the lens epithelium?",
+          "options": [
+            {
+              "text": "Anterior only",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Posterior only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "All round",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Absent",
+              "correct": false,
+              "feedback": "It exists anteriorly."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-lens-x0092",
+          "q": "How does the lens get nutrients?",
+          "options": [
+            {
+              "text": "From the aqueous",
+              "correct": true,
+              "feedback": "Yes: it's avascular."
+            },
+            {
+              "text": "From its own blood vessels",
+              "correct": false,
+              "feedback": "None."
+            },
+            {
+              "text": "From the vitreous only",
+              "correct": false,
+              "feedback": "Mostly aqueous."
+            },
+            {
+              "text": "From tears",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-lens-x0093",
+          "q": "Which proteins make the lens transparent?",
+          "options": [
+            {
+              "text": "Crystallins",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Collagen",
+              "correct": false,
+              "feedback": "Cornea."
+            },
+            {
+              "text": "Rhodopsin",
+              "correct": false,
+              "feedback": "Rods."
+            },
+            {
+              "text": "Keratin",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-lens-x0094",
+          "q": "Where is the lens index highest?",
+          "options": [
+            {
+              "text": "The centre (about 1.41)",
+              "correct": true,
+              "feedback": "Yes: a gradient index."
+            },
+            {
+              "text": "The edge",
+              "correct": false,
+              "feedback": "About 1.38."
+            },
+            {
+              "text": "It's uniform",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The capsule",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-lens-x0095",
+          "q": "What happens to lens thickness with age?",
+          "options": [
+            {
+              "text": "It increases",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It decreases",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It stays the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It disappears",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-lens-x0096",
+          "q": "Which is a main cataract type?",
+          "options": [
+            {
+              "text": "Posterior subcapsular",
+              "correct": true,
+              "feedback": "Yes, with nuclear and cortical."
+            },
+            {
+              "text": "Corneal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Retinal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Vitreous",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-lens-x0097",
+          "q": "What is the lens capsule?",
+          "options": [
+            {
+              "text": "An elastic basement membrane",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A layer of cells",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A blood vessel network",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A muscle",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -787,6 +1489,195 @@
           ],
           "explanation": "Inner barrier: retinal capillary endothelium. Outer barrier: RPE.",
           "link": "ana-retina#retinal-pigment-epithelium"
+        },
+        {
+          "id": "ana-retina-x0091",
+          "q": "About how many rods are there per eye?",
+          "options": [
+            {
+              "text": "About 120 million",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 6 million",
+              "correct": false,
+              "feedback": "Cones."
+            },
+            {
+              "text": "About 1.2 million",
+              "correct": false,
+              "feedback": "Ganglion cells."
+            },
+            {
+              "text": "About 1,000",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-retina-x0092",
+          "q": "The foveola contains",
+          "options": [
+            {
+              "text": "only cones and no blood vessels",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only rods",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "many vessels",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ganglion cells only",
+              "correct": false,
+              "feedback": "Pushed aside."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-retina-x0093",
+          "q": "Which is the outermost retinal layer?",
+          "options": [
+            {
+              "text": "The RPE",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The nerve fibre layer",
+              "correct": false,
+              "feedback": "Innermost."
+            },
+            {
+              "text": "Photoreceptors",
+              "correct": false,
+              "feedback": "Next to RPE."
+            },
+            {
+              "text": "Ganglion cells",
+              "correct": false,
+              "feedback": "Inner."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-retina-x0094",
+          "q": "What happens to cGMP in phototransduction?",
+          "options": [
+            {
+              "text": "It falls, closing sodium channels",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It rises",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It falls."
+            },
+            {
+              "text": "It turns into rhodopsin",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-retina-x0095",
+          "q": "What supplies the outer retina?",
+          "options": [
+            {
+              "text": "The choroid",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The central retinal artery",
+              "correct": false,
+              "feedback": "Inner retina."
+            },
+            {
+              "text": "The vortex veins",
+              "correct": false,
+              "feedback": "Drainage."
+            },
+            {
+              "text": "The ophthalmic vein",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-retina-x0096",
+          "q": "Why is there a blind spot?",
+          "options": [
+            {
+              "text": "The optic disc has no photoreceptors",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The fovea has no cones",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The RPE is missing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The vitreous blocks light",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-retina-x0097",
+          "q": "Which molecule changes shape when light hits it?",
+          "options": [
+            {
+              "text": "11-cis retinal (to all-trans)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Transducin",
+              "correct": false,
+              "feedback": "Activated afterwards."
+            },
+            {
+              "text": "Phosphodiesterase",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Sodium",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -944,6 +1835,168 @@
           ],
           "explanation": "Congruity increases towards the occipital cortex.",
           "link": "ana-visual-pathway#congruity"
+        },
+        {
+          "id": "ana-visual-pathway-x0091",
+          "q": "Which fibres cross at the chiasm?",
+          "options": [
+            {
+              "text": "Nasal retinal fibres",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Temporal fibres",
+              "correct": false,
+              "feedback": "Stay on the same side."
+            },
+            {
+              "text": "All fibres",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Nasal ones cross."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-visual-pathway-x0092",
+          "q": "A pituitary tumour pressing on the chiasm typically causes",
+          "options": [
+            {
+              "text": "bitemporal hemianopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "homonymous hemianopia",
+              "correct": false,
+              "feedback": "Behind the chiasm."
+            },
+            {
+              "text": "central scotoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no defect",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-visual-pathway-x0093",
+          "q": "Damage to Meyer's loop gives",
+          "options": [
+            {
+              "text": "a superior homonymous quadrantanopia",
+              "correct": true,
+              "feedback": "Yes ('pie in the sky')."
+            },
+            {
+              "text": "an inferior quadrantanopia",
+              "correct": false,
+              "feedback": "Parietal."
+            },
+            {
+              "text": "bitemporal loss",
+              "correct": false,
+              "feedback": "Chiasm."
+            },
+            {
+              "text": "central loss",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-visual-pathway-x0094",
+          "q": "Which LGN layers are magnocellular?",
+          "options": [
+            {
+              "text": "1 and 2",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "3 to 6",
+              "correct": false,
+              "feedback": "Parvocellular."
+            },
+            {
+              "text": "All",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "1 and 2 are."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-visual-pathway-x0095",
+          "q": "Why do occipital lesions often spare the macula?",
+          "options": [
+            {
+              "text": "The occipital pole may have a dual blood supply",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The macula has no fibres there",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The macula is in the parietal lobe",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Luck",
+              "correct": false,
+              "feedback": "There's an anatomical reason."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-visual-pathway-x0096",
+          "q": "Parietal radiation damage tends to give",
+          "options": [
+            {
+              "text": "an inferior homonymous quadrantanopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "superior quadrantanopia",
+              "correct": false,
+              "feedback": "Temporal."
+            },
+            {
+              "text": "bitemporal loss",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "monocular loss",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1173,6 +2226,114 @@
             }
           ],
           "explanation": "BVP week 11 question."
+        },
+        {
+          "id": "ana-eom-nerves-x0091",
+          "q": "Which muscle is the primary depressor?",
+          "options": [
+            {
+              "text": "Inferior rectus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Superior oblique",
+              "correct": false,
+              "feedback": "Primary action is intorsion."
+            },
+            {
+              "text": "Superior rectus",
+              "correct": false,
+              "feedback": "Elevates."
+            },
+            {
+              "text": "Lateral rectus",
+              "correct": false,
+              "feedback": "Abducts."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-eom-nerves-x0092",
+          "q": "When do the obliques act best as elevator and depressor?",
+          "options": [
+            {
+              "text": "With the eye adducted",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "With the eye abducted",
+              "correct": false,
+              "feedback": "That's the vertical recti."
+            },
+            {
+              "text": "In primary gaze",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "They do in adduction."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-eom-nerves-x0093",
+          "q": "Where do the four recti originate?",
+          "options": [
+            {
+              "text": "The annulus of Zinn",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The trochlea",
+              "correct": false,
+              "feedback": "SO passes through it."
+            },
+            {
+              "text": "The orbital floor",
+              "correct": false,
+              "feedback": "IO originates there."
+            },
+            {
+              "text": "The lacrimal bone",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-eom-nerves-x0094",
+          "q": "What is Sherrington's law?",
+          "options": [
+            {
+              "text": "When a muscle contracts its antagonist relaxes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yoke muscles get equal innervation",
+              "correct": false,
+              "feedback": "That's Hering's."
+            },
+            {
+              "text": "Muscles work alone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Eyes move separately",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1336,6 +2497,168 @@
           ],
           "explanation": "Short posterior ciliary arteries feed the choroid and optic nerve head.",
           "link": "ana-blood-supply#optic-nerve-head-supply"
+        },
+        {
+          "id": "ana-blood-supply-x0091",
+          "q": "The ophthalmic artery is the first branch of the",
+          "options": [
+            {
+              "text": "internal carotid artery",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "external carotid",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "vertebral artery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "aorta",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-blood-supply-x0092",
+          "q": "Why does central retinal artery occlusion cause such severe loss?",
+          "options": [
+            {
+              "text": "It's an end artery",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It supplies the choroid",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It drains the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's very large",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-blood-supply-x0093",
+          "q": "What can spare the macula in a CRAO?",
+          "options": [
+            {
+              "text": "A cilioretinal artery",
+              "correct": true,
+              "feedback": "Yes, present in a minority of eyes."
+            },
+            {
+              "text": "The vortex veins",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The central retinal vein",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "A cilioretinal artery can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-blood-supply-x0094",
+          "q": "How does the choroid drain?",
+          "options": [
+            {
+              "text": "Through the vortex veins (usually four)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The central retinal vein",
+              "correct": false,
+              "feedback": "Retina."
+            },
+            {
+              "text": "The lacrimal duct",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Schlemm's canal",
+              "correct": false,
+              "feedback": "Aqueous."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-blood-supply-x0095",
+          "q": "What do the short posterior ciliary arteries supply?",
+          "options": [
+            {
+              "text": "The choroid and optic nerve head",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The iris",
+              "correct": false,
+              "feedback": "Long posterior ciliary."
+            },
+            {
+              "text": "The lens",
+              "correct": false,
+              "feedback": "Avascular."
+            },
+            {
+              "text": "The cornea",
+              "correct": false,
+              "feedback": "Avascular."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ana-blood-supply-x0096",
+          "q": "Where does the ophthalmic artery enter the orbit?",
+          "options": [
+            {
+              "text": "Through the optic canal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Superior orbital fissure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Inferior orbital fissure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lacrimal fossa",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [

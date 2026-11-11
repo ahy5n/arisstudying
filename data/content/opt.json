@@ -149,6 +149,168 @@
      ],
      "explanation": "P = 100 tan d. For small angles each degree is about 1.75Δ.",
      "link": "opt-refraction-prisms#prism-dioptres-and-degrees"
+    },
+    {
+     "id": "opt-refraction-prisms-x0091",
+     "q": "Light passes from air into glass. How does it bend?",
+     "options": [
+      {
+       "text": "Towards the normal",
+       "correct": true,
+       "feedback": "Yes: into a denser medium it slows and bends towards the normal."
+      },
+      {
+       "text": "Away from the normal",
+       "correct": false,
+       "feedback": "That's going into a less dense medium."
+      },
+      {
+       "text": "It doesn't bend",
+       "correct": false,
+       "feedback": "It does, unless it hits along the normal."
+      },
+      {
+       "text": "It always reflects",
+       "correct": false,
+       "feedback": "Most of it is transmitted."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-refraction-prisms-x0092",
+     "q": "What is the critical angle for glass (n = 1.5) to air?",
+     "options": [
+      {
+       "text": "About 41.8°",
+       "correct": true,
+       "feedback": "Yes: sin c = 1 ÷ 1.5."
+      },
+      {
+       "text": "About 30°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "About 60°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "90°",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-refraction-prisms-x0093",
+     "q": "A thin prism of glass (n = 1.5) has an apical angle of 10°. About what is its deviation?",
+     "options": [
+      {
+       "text": "About 5°",
+       "correct": true,
+       "feedback": "Yes: (n − 1) × a = 0.5 × 10."
+      },
+      {
+       "text": "About 10°",
+       "correct": false,
+       "feedback": "That ignores n."
+      },
+      {
+       "text": "About 15°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "About 1°",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-refraction-prisms-x0094",
+     "q": "1Δ is roughly how many degrees?",
+     "options": [
+      {
+       "text": "0.57°",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "1°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "5.7°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "0.1°",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-refraction-prisms-x0095",
+     "q": "Which colour is deviated most by a prism?",
+     "options": [
+      {
+       "text": "Blue",
+       "correct": true,
+       "feedback": "Yes: n is higher for shorter wavelengths."
+      },
+      {
+       "text": "Red",
+       "correct": false,
+       "feedback": "Least."
+      },
+      {
+       "text": "Green",
+       "correct": false,
+       "feedback": "In between."
+      },
+      {
+       "text": "All equally",
+       "correct": false,
+       "feedback": "No: that's dispersion."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-refraction-prisms-x0096",
+     "q": "What is the refractive index of the cornea?",
+     "options": [
+      {
+       "text": "About 1.376",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "1.000",
+       "correct": false,
+       "feedback": "Air."
+      },
+      {
+       "text": "1.333",
+       "correct": false,
+       "feedback": "Water."
+      },
+      {
+       "text": "1.5",
+       "correct": false,
+       "feedback": "Crown glass is about 1.52."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -326,6 +488,168 @@
      ],
      "explanation": "With = minus, against = plus, scissoring = astigmatic (cylindrical) power.",
      "link": "opt-vergence-thin-lenses#hand-neutralisation"
+    },
+    {
+     "id": "opt-vergence-thin-lenses-x0091",
+     "q": "An object is 25 cm in front of a lens in air. What is the object vergence?",
+     "options": [
+      {
+       "text": "−4.00 D",
+       "correct": true,
+       "feedback": "Yes: diverging light, 1 ÷ −0.25."
+      },
+      {
+       "text": "+4.00 D",
+       "correct": false,
+       "feedback": "Diverging light is negative."
+      },
+      {
+       "text": "−0.25 D",
+       "correct": false,
+       "feedback": "Use metres in the denominator."
+      },
+      {
+       "text": "−25 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-vergence-thin-lenses-x0092",
+     "q": "Object vergence −4.00 D, lens +10.00 D. What's the image vergence?",
+     "options": [
+      {
+       "text": "+6.00 D",
+       "correct": true,
+       "feedback": "Yes: L′ = L + F."
+      },
+      {
+       "text": "+14.00 D",
+       "correct": false,
+       "feedback": "Adds the wrong sign."
+      },
+      {
+       "text": "−14.00 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "−6.00 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-vergence-thin-lenses-x0093",
+     "q": "Image vergence +6.00 D in air. Where is the image?",
+     "options": [
+      {
+       "text": "About 16.7 cm behind the lens",
+       "correct": true,
+       "feedback": "Yes: 1 ÷ 6."
+      },
+      {
+       "text": "6 cm",
+       "correct": false,
+       "feedback": "Use 1 ÷ L′."
+      },
+      {
+       "text": "60 cm",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "In front of the lens",
+       "correct": false,
+       "feedback": "Positive vergence means a real image behind."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-vergence-thin-lenses-x0094",
+     "q": "What is the focal length of a +5.00 D lens?",
+     "options": [
+      {
+       "text": "20 cm",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "5 cm",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "50 cm",
+       "correct": false,
+       "feedback": "That's +2.00."
+      },
+      {
+       "text": "2 m",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-vergence-thin-lenses-x0095",
+     "q": "Hand neutralisation: objects move 'with' the lens. What is it?",
+     "options": [
+      {
+       "text": "A negative (minus) lens",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "A positive lens",
+       "correct": false,
+       "feedback": "That gives 'against'."
+      },
+      {
+       "text": "A plano lens",
+       "correct": false,
+       "feedback": "No movement."
+      },
+      {
+       "text": "A prism",
+       "correct": false,
+       "feedback": "Different effect."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-vergence-thin-lenses-x0096",
+     "q": "Linear magnification is −2. What does it tell you?",
+     "options": [
+      {
+       "text": "The image is inverted and twice the size",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Upright and twice the size",
+       "correct": false,
+       "feedback": "Negative means inverted."
+      },
+      {
+       "text": "Half the size",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Virtual",
+       "correct": false,
+       "feedback": "Not necessarily."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -490,6 +814,195 @@
      ],
      "explanation": "Nodal points differ from principal points only when the media on either side have different indices, as in the eye.",
      "link": "opt-thick-lenses#step-along-method"
+    },
+    {
+     "id": "opt-thick-lenses-x0091",
+     "q": "A surface separates air from glass (n = 1.5) with r = +0.10 m. What's its power?",
+     "options": [
+      {
+       "text": "+5.00 D",
+       "correct": true,
+       "feedback": "Yes: (1.5 − 1) ÷ 0.1."
+      },
+      {
+       "text": "+10.00 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "+15.00 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "−5.00 D",
+       "correct": false,
+       "feedback": "Wrong sign."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-thick-lenses-x0092",
+     "q": "What does a focimeter measure?",
+     "options": [
+      {
+       "text": "Back vertex power",
+       "correct": true,
+       "feedback": "Yes, the power written on a prescription."
+      },
+      {
+       "text": "Equivalent power",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Front vertex power always",
+       "correct": false,
+       "feedback": "Only for some bifocal adds."
+      },
+      {
+       "text": "Surface power",
+       "correct": false,
+       "feedback": "That's a lens measure."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-thick-lenses-x0093",
+     "q": "What is reduced thickness?",
+     "options": [
+      {
+       "text": "t ÷ n, the equivalent air distance",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "t × n",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "n ÷ t",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "The edge thickness",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-thick-lenses-x0094",
+     "q": "For a thin lens, all three powers (equivalent, front and back vertex) equal",
+     "options": [
+      {
+       "text": "F₁ + F₂",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "F₁ × F₂",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "F₁ − F₂",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Zero",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-thick-lenses-x0095",
+     "q": "In air, where do the nodal points lie?",
+     "options": [
+      {
+       "text": "At the principal points",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "At the focal points",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "At the lens surfaces",
+       "correct": false,
+       "feedback": "Not necessarily."
+      },
+      {
+       "text": "At infinity",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-thick-lenses-x0096",
+     "q": "Which formula gives equivalent power?",
+     "options": [
+      {
+       "text": "Fe = F₁ + F₂ − (t/n)F₁F₂",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Fe = F₁ + F₂",
+       "correct": false,
+       "feedback": "Thin lens only."
+      },
+      {
+       "text": "Fe = F₁ − F₂",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Fe = F₁F₂",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-thick-lenses-x0097",
+     "q": "Front vertex power is used, for example, when",
+     "options": [
+      {
+       "text": "checking front-surface near additions",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "measuring single vision distance power",
+       "correct": false,
+       "feedback": "That's BVP."
+      },
+      {
+       "text": "measuring corneal power",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "checking prism",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [],
@@ -647,6 +1160,195 @@
      ],
      "explanation": "A plane mirror image sits as far behind the mirror as the object is in front.",
      "link": "opt-mirrors#plane-mirrors-in-practice"
+    },
+    {
+     "id": "opt-mirrors-x0091",
+     "q": "What image does a plane mirror form?",
+     "options": [
+      {
+       "text": "Virtual, upright, same size, as far behind as the object is in front",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Real and inverted",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Magnified",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Smaller",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-mirrors-x0092",
+     "q": "A mirror has a radius of 20 cm. What's its focal length?",
+     "options": [
+      {
+       "text": "10 cm",
+       "correct": true,
+       "feedback": "Yes: half the radius."
+      },
+      {
+       "text": "20 cm",
+       "correct": false,
+       "feedback": "That's the radius."
+      },
+      {
+       "text": "40 cm",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "5 cm",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-mirrors-x0093",
+     "q": "Which mirror converges light?",
+     "options": [
+      {
+       "text": "Concave",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Convex",
+       "correct": false,
+       "feedback": "Diverges."
+      },
+      {
+       "text": "Plane",
+       "correct": false,
+       "feedback": "Neither."
+      },
+      {
+       "text": "None",
+       "correct": false,
+       "feedback": "Concave does."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-mirrors-x0094",
+     "q": "Rotating a plane mirror by 10° rotates the reflected beam by",
+     "options": [
+      {
+       "text": "20°",
+       "correct": true,
+       "feedback": "Yes: twice the angle."
+      },
+      {
+       "text": "10°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "5°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "0°",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-mirrors-x0095",
+     "q": "The cornea acting as a convex mirror forms which Purkinje image?",
+     "options": [
+      {
+       "text": "The first",
+       "correct": true,
+       "feedback": "Yes, used by keratometers and pupillometers."
+      },
+      {
+       "text": "The fourth",
+       "correct": false,
+       "feedback": "Back of the lens."
+      },
+      {
+       "text": "The second",
+       "correct": false,
+       "feedback": "Back of the cornea."
+      },
+      {
+       "text": "None",
+       "correct": false,
+       "feedback": "It forms the first."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-mirrors-x0096",
+     "q": "A convex mirror forms images that are",
+     "options": [
+      {
+       "text": "virtual, upright and smaller",
+       "correct": true,
+       "feedback": "Yes, e.g. car wing mirrors."
+      },
+      {
+       "text": "real and inverted",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "magnified",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "always at the focus",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-mirrors-x0097",
+     "q": "The law of reflection states",
+     "options": [
+      {
+       "text": "the angle of incidence equals the angle of reflection",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "the angles add to 180°",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "light always reflects back on itself",
+       "correct": false,
+       "feedback": "Only at normal incidence."
+      },
+      {
+       "text": "n₁ sin θ₁ = n₂ sin θ₂",
+       "correct": false,
+       "feedback": "That's Snell's law."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [],
@@ -804,6 +1506,168 @@
      ],
      "explanation": "Changes in the optical power of the media cause refractive ametropia.",
      "link": "opt-visual-optics#far-point-and-correcting-lenses"
+    },
+    {
+     "id": "opt-visual-optics-x0091",
+     "q": "What is the power of the Emsley reduced eye?",
+     "options": [
+      {
+       "text": "+60 D",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "+43 D",
+       "correct": false,
+       "feedback": "That's the cornea."
+      },
+      {
+       "text": "+20 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "+100 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-visual-optics-x0092",
+     "q": "Where is a myope's far point?",
+     "options": [
+      {
+       "text": "A real point in front of the eye",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Behind the eye",
+       "correct": false,
+       "feedback": "Hyperopia."
+      },
+      {
+       "text": "At infinity",
+       "correct": false,
+       "feedback": "Emmetropia."
+      },
+      {
+       "text": "At the near point",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-visual-optics-x0093",
+     "q": "A myope's far point is 50 cm in front of the eye. What's the ocular refraction?",
+     "options": [
+      {
+       "text": "−2.00 D",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "+2.00 D",
+       "correct": false,
+       "feedback": "Wrong sign."
+      },
+      {
+       "text": "−0.50 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "−5.00 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-visual-optics-x0094",
+     "q": "Roughly how much refractive error does 1 mm of extra axial length give?",
+     "options": [
+      {
+       "text": "About 3 D of myopia",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "About 0.25 D",
+       "correct": false,
+       "feedback": "Too little."
+      },
+      {
+       "text": "About 10 D",
+       "correct": false,
+       "feedback": "Too much."
+      },
+      {
+       "text": "None",
+       "correct": false,
+       "feedback": "It gives myopia."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-visual-optics-x0095",
+     "q": "How much power does the cornea provide?",
+     "options": [
+      {
+       "text": "About +43 D",
+       "correct": true,
+       "feedback": "Yes, about two thirds of the eye's power."
+      },
+      {
+       "text": "About +20 D",
+       "correct": false,
+       "feedback": "That's roughly the lens."
+      },
+      {
+       "text": "About +60 D",
+       "correct": false,
+       "feedback": "That's the whole eye."
+      },
+      {
+       "text": "About +5 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-visual-optics-x0096",
+     "q": "Hyperopia is corrected with",
+     "options": [
+      {
+       "text": "plus lenses (or accommodation)",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "minus lenses",
+       "correct": false,
+       "feedback": "Myopia."
+      },
+      {
+       "text": "cylinders only",
+       "correct": false,
+       "feedback": "Astigmatism."
+      },
+      {
+       "text": "prisms",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -968,6 +1832,195 @@
      ],
      "explanation": "Axis meridian = sphere; perpendicular meridian = sphere + cylinder.",
      "link": "opt-astigmatism-cylinders#power-crosses"
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0091",
+     "q": "Where does a cylinder have no power?",
+     "options": [
+      {
+       "text": "Along its axis",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "At 90° to its axis",
+       "correct": false,
+       "feedback": "Maximum power there."
+      },
+      {
+       "text": "At 45°",
+       "correct": false,
+       "feedback": "Half power."
+      },
+      {
+       "text": "Everywhere",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0092",
+     "q": "What is the spherical equivalent of −2.00/−1.00 × 180?",
+     "options": [
+      {
+       "text": "−2.50 D",
+       "correct": true,
+       "feedback": "Yes: sphere + half the cyl."
+      },
+      {
+       "text": "−3.00 D",
+       "correct": false,
+       "feedback": "That's the full cyl."
+      },
+      {
+       "text": "−2.00 D",
+       "correct": false,
+       "feedback": "Add half the cyl."
+      },
+      {
+       "text": "−1.50 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0093",
+     "q": "Transpose +2.00/−1.50 × 90.",
+     "options": [
+      {
+       "text": "+0.50/+1.50 × 180",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "+3.50/+1.50 × 180",
+       "correct": false,
+       "feedback": "Sphere is +2.00 − 1.50."
+      },
+      {
+       "text": "+0.50/−1.50 × 180",
+       "correct": false,
+       "feedback": "Cyl sign changes."
+      },
+      {
+       "text": "+0.50/+1.50 × 90",
+       "correct": false,
+       "feedback": "Axis rotates."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0094",
+     "q": "Where is the circle of least confusion in Sturm's conoid?",
+     "options": [
+      {
+       "text": "At the dioptric midpoint between the two line foci",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "At the first line focus",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "At the retina always",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Beyond the second focus",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0095",
+     "q": "With-the-rule astigmatism means",
+     "options": [
+      {
+       "text": "the vertical meridian is more powerful (minus cyl axis near 180)",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "the horizontal meridian is more powerful",
+       "correct": false,
+       "feedback": "Against-the-rule."
+      },
+      {
+       "text": "oblique meridians",
+       "correct": false,
+       "feedback": "Oblique astigmatism."
+      },
+      {
+       "text": "no astigmatism",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0096",
+     "q": "What power does a −2.00 × 180 cyl have along 90?",
+     "options": [
+      {
+       "text": "−2.00 D",
+       "correct": true,
+       "feedback": "Yes: 90° from the axis."
+      },
+      {
+       "text": "0",
+       "correct": false,
+       "feedback": "That's along 180."
+      },
+      {
+       "text": "−1.00 D",
+       "correct": false,
+       "feedback": "That's at 45°."
+      },
+      {
+       "text": "+2.00 D",
+       "correct": false,
+       "feedback": "Wrong sign."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-astigmatism-cylinders-x0097",
+     "q": "What power does a −2.00 × 180 cyl have along 45?",
+     "options": [
+      {
+       "text": "About −1.00 D",
+       "correct": true,
+       "feedback": "Yes: C sin²45 = C × 0.5."
+      },
+      {
+       "text": "−2.00 D",
+       "correct": false,
+       "feedback": "That's at 90°."
+      },
+      {
+       "text": "0",
+       "correct": false,
+       "feedback": "That's along the axis."
+      },
+      {
+       "text": "−4.00 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [],
@@ -1125,6 +2178,168 @@
      ],
      "explanation": "Depth of focus and angular size increase let the eye tolerate a closer target before reporting blur.",
      "link": "opt-accommodation-presbyopia#measuring-amplitude"
+    },
+    {
+     "id": "opt-accommodation-presbyopia-x0091",
+     "q": "What accommodative demand does 25 cm need?",
+     "options": [
+      {
+       "text": "4.00 D",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "2.50 D",
+       "correct": false,
+       "feedback": "That's 40 cm."
+      },
+      {
+       "text": "0.25 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "25 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-accommodation-presbyopia-x0092",
+     "q": "According to Helmholtz, when the ciliary muscle contracts",
+     "options": [
+      {
+       "text": "the zonules relax and the lens becomes more curved",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "the zonules tighten and the lens flattens",
+       "correct": false,
+       "feedback": "That's relaxation."
+      },
+      {
+       "text": "the pupil dilates",
+       "correct": false,
+       "feedback": "It constricts."
+      },
+      {
+       "text": "nothing happens",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-accommodation-presbyopia-x0093",
+     "q": "An emmetrope has 5.00 D amplitude. Where is their near point?",
+     "options": [
+      {
+       "text": "20 cm",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "5 cm",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "50 cm",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "2 m",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-accommodation-presbyopia-x0094",
+     "q": "What is the near triad?",
+     "options": [
+      {
+       "text": "Accommodation, convergence and pupil constriction",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "Blinking, tearing and focusing",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "Ptosis, miosis and anhidrosis",
+       "correct": false,
+       "feedback": "Horner's."
+      },
+      {
+       "text": "Pain, redness and photophobia",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-accommodation-presbyopia-x0095",
+     "q": "Average amplitude at 40 (Hofstetter)?",
+     "options": [
+      {
+       "text": "6.5 D",
+       "correct": true,
+       "feedback": "Yes: 18.5 − 12."
+      },
+      {
+       "text": "10 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "2 D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "4 D",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-accommodation-presbyopia-x0096",
+     "q": "Demand 2.50 D, amplitude 2.00 D, keeping half in reserve. Tentative add?",
+     "options": [
+      {
+       "text": "+1.50",
+       "correct": true,
+       "feedback": "Yes: 2.50 − 1.00."
+      },
+      {
+       "text": "+2.50",
+       "correct": false,
+       "feedback": "Ignores accommodation."
+      },
+      {
+       "text": "+0.50",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "+2.00",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [
@@ -1292,6 +2507,195 @@
      ],
      "explanation": "Resolution is limited by θ ≈ 1.22λ/D: smaller D, bigger blur.",
      "link": "opt-aberrations-physical#diffraction-and-the-pupil"
+    },
+    {
+     "id": "opt-aberrations-physical-x0091",
+     "q": "A quarter-wave anti-reflection coating should have a thickness of",
+     "options": [
+      {
+       "text": "λ ÷ 4n",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "λ ÷ 2",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "λ × 4",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "1 mm",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-aberrations-physical-x0092",
+     "q": "Low Abbe number means",
+     "options": [
+      {
+       "text": "more dispersion",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "less dispersion",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "higher reflection",
+       "correct": false,
+       "feedback": "Not directly."
+      },
+      {
+       "text": "more spherical aberration",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-aberrations-physical-x0093",
+     "q": "The Rayleigh criterion gives minimum resolvable angle as about",
+     "options": [
+      {
+       "text": "1.22λ ÷ D",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "λ × D",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "D ÷ λ",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "2λ",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-aberrations-physical-x0094",
+     "q": "Polarised sunglasses block",
+     "options": [
+      {
+       "text": "horizontally polarised glare from water and roads",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "all UV only",
+       "correct": false,
+       "feedback": "Not their main job."
+      },
+      {
+       "text": "vertically polarised light",
+       "correct": false,
+       "feedback": "They transmit vertical."
+      },
+      {
+       "text": "infrared",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-aberrations-physical-x0095",
+     "q": "Malus's law states",
+     "options": [
+      {
+       "text": "I = I₀ cos²θ",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "I = I₀ sin θ",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "I = I₀ ÷ θ",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "I = constant",
+       "correct": false,
+       "feedback": "No."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-aberrations-physical-x0096",
+     "q": "Which is NOT a Seidel aberration?",
+     "options": [
+      {
+       "text": "Chromatic aberration",
+       "correct": true,
+       "feedback": "Yes: it's a separate type."
+      },
+      {
+       "text": "Coma",
+       "correct": false,
+       "feedback": "Seidel."
+      },
+      {
+       "text": "Distortion",
+       "correct": false,
+       "feedback": "Seidel."
+      },
+      {
+       "text": "Spherical aberration",
+       "correct": false,
+       "feedback": "Seidel."
+      }
+     ],
+     "explanation": ""
+    },
+    {
+     "id": "opt-aberrations-physical-x0097",
+     "q": "Diffraction through the pupil produces",
+     "options": [
+      {
+       "text": "an Airy disc",
+       "correct": true,
+       "feedback": "Yes."
+      },
+      {
+       "text": "a rainbow",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "a shadow",
+       "correct": false,
+       "feedback": "No."
+      },
+      {
+       "text": "nothing",
+       "correct": false,
+       "feedback": "It does."
+      }
+     ],
+     "explanation": ""
     }
    ],
    "cases": [],
