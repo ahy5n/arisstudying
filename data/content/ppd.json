@@ -602,6 +602,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0421",
+          "q": "Two students discuss a named patient's diagnosis on a crowded bus. What's the problem?",
+          "options": [
+            {
+              "text": "A breach of confidentiality",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing, if they're students",
+              "correct": false,
+              "feedback": "Standards apply."
+            },
+            {
+              "text": "Only rudeness",
+              "correct": false,
+              "feedback": "It's a breach."
+            },
+            {
+              "text": "It's fine if the patient isn't there",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0422",
+          "q": "A student copies a classmate's assignment. Why does the GOC care?",
+          "options": [
+            {
+              "text": "Academic dishonesty raises questions about fitness to train",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "Only the university cares",
+              "correct": false,
+              "feedback": "Fitness to train matters."
+            },
+            {
+              "text": "Only if caught twice",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0423",
+          "q": "A student signs a supervisor's name in their logbook. How serious is it?",
+          "options": [
+            {
+              "text": "Very serious: falsifying records is dishonest",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Minor",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Acceptable if busy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal practice",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0424",
+          "q": "A student receives a police caution. What should they do?",
+          "options": [
+            {
+              "text": "Declare it as required to the GOC and university",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hide it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tell only friends",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wait until qualified",
+              "correct": false,
+              "feedback": "Declare as required."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0425",
+          "q": "How often do students renew GOC registration?",
+          "options": [
+            {
+              "text": "Every year",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "It's annual."
+            },
+            {
+              "text": "Every 10 years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only once",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0426",
+          "q": "A student turns up to clinic after drinking alcohol. What should the supervisor do?",
+          "options": [
+            {
+              "text": "Stop them seeing patients and follow procedures",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Let them carry on",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Give them coffee and continue",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0427",
+          "q": "Can you take a photo of an interesting fundus on your personal phone?",
+          "options": [
+            {
+              "text": "No: use approved systems with consent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes, always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Yes, if you crop the name",
+              "correct": false,
+              "feedback": "Still risky."
+            },
+            {
+              "text": "Yes, for social media",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0428",
+          "q": "A patient discloses that a child at home may be at risk. What do you do?",
+          "options": [
+            {
+              "text": "Follow safeguarding procedures and report to the lead",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Investigate yourself",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tell the child's school directly without procedure",
+              "correct": false,
+              "feedback": "Follow procedure."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0429",
+          "q": "A student is unsure how to do a test on a patient. What should they do?",
+          "options": [
+            {
+              "text": "Ask the supervisor rather than guess",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Guess",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Skip it secretly",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Make up the result",
+              "correct": false,
+              "feedback": "Never."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04210",
+          "q": "What can the GOC do if a registrant's fitness to practise is impaired?",
+          "options": [
+            {
+              "text": "Impose conditions, suspend or erase them from the register",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It can act."
+            },
+            {
+              "text": "Fine the patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Close all practices",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04211",
+          "q": "Who usually handles a student's fitness to train concerns first?",
+          "options": [
+            {
+              "text": "The university",
+              "correct": true,
+              "feedback": "Yes, with the GOC involved as needed."
+            },
+            {
+              "text": "The police",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "The patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "The university."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04212",
+          "q": "Registered optometrists must have",
+          "options": [
+            {
+              "text": "professional indemnity insurance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a car",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a second degree",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Insurance."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04213",
+          "q": "A student's behaviour outside clinic can matter because",
+          "options": [
+            {
+              "text": "it can affect public confidence in the profession",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it never matters",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "only clinic behaviour counts",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "it's private always",
+              "correct": false,
+              "feedback": "Not always."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04214",
+          "q": "A patient asks you out after their appointment. What should you do?",
+          "options": [
+            {
+              "text": "Politely decline and keep professional boundaries",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Accept",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore them forever",
+              "correct": false,
+              "feedback": "Respond politely."
+            },
+            {
+              "text": "Tell everyone",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04215",
+          "q": "What's the right way to dress for clinic?",
+          "options": [
+            {
+              "text": "Professionally and following infection control policies",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Any way",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Long sleeves with jewellery always",
+              "correct": false,
+              "feedback": "Bare below elbows often applies."
+            },
+            {
+              "text": "Fancy dress",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04216",
+          "q": "Why shouldn't you use your mobile phone while examining a patient?",
+          "options": [
+            {
+              "text": "It's unprofessional and may breach confidentiality",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's fine",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only if silent",
+              "correct": false,
+              "feedback": "Still not appropriate."
+            },
+            {
+              "text": "It helps",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04217",
+          "q": "A student realises they forgot to test pupils. What should they do?",
+          "options": [
+            {
+              "text": "Tell the supervisor and complete the test",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Write 'normal'",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Hide it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Leave it",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04218",
+          "q": "Cheating in an exam can lead to",
+          "options": [
+            {
+              "text": "fitness to train proceedings",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "a prize",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "better grades",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04219",
+          "q": "A patient's relative phones to ask about the patient's results. What do you do?",
+          "options": [
+            {
+              "text": "Don't share without the patient's consent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Share everything",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Share only bad news",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Invent results",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04220",
+          "q": "Why must students be honest about their health?",
+          "options": [
+            {
+              "text": "Some conditions may affect safe practice and need support",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To be excluded",
+              "correct": false,
+              "feedback": "Not the aim."
+            },
+            {
+              "text": "It isn't required",
+              "correct": false,
+              "feedback": "Declarations may be."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04221",
+          "q": "The GOC's main purpose is to",
+          "options": [
+            {
+              "text": "protect the public",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "promote optometry businesses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "represent optometrists",
+              "correct": false,
+              "feedback": "That's the AOP."
+            },
+            {
+              "text": "train students",
+              "correct": false,
+              "feedback": "Universities do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04222",
+          "q": "Which body represents optometrists' interests?",
+          "options": [
+            {
+              "text": "The AOP",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "Regulator."
+            },
+            {
+              "text": "The NHS",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The MHRA",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04223",
+          "q": "A student shares exam questions online after a test. What's the issue?",
+          "options": [
+            {
+              "text": "It breaches academic integrity rules",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It helps everyone fairly",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only if paid",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04224",
+          "q": "A patient complains about a student's attitude. What's the right response?",
+          "options": [
+            {
+              "text": "Listen, apologise if appropriate and involve the supervisor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Argue back",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Delete the record",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04225",
+          "q": "Why must you only work within your competence?",
+          "options": [
+            {
+              "text": "To keep patients safe",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To finish faster",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's optional",
+              "correct": false,
+              "feedback": "It isn't."
+            },
+            {
+              "text": "To avoid learning",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04226",
+          "q": "A student sees a fellow student acting unsafely with a patient. What should they do?",
+          "options": [
+            {
+              "text": "Raise it with the supervisor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Post about it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wait until next year",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04227",
+          "q": "What's the risk of 'liking' a patient's social media post?",
+          "options": [
+            {
+              "text": "It can blur professional boundaries",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "There's a risk."
+            },
+            {
+              "text": "It's required",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It improves care",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04228",
+          "q": "Which is a GOC FtP sanction?",
+          "options": [
+            {
+              "text": "Erasure from the register",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Free CPD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A bonus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Sanctions exist."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04229",
+          "q": "Which is an example of 'showing care and respect'?",
+          "options": [
+            {
+              "text": "Explaining tests and respecting the patient's choices",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rushing them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignoring questions",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Talking over them",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x04230",
+          "q": "Why should you not accept cash tips from patients?",
+          "options": [
+            {
+              "text": "It may look like a conflict of interest",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's illegal always",
+              "correct": false,
+              "feedback": "Follow policy."
+            },
+            {
+              "text": "It's fine",
+              "correct": false,
+              "feedback": "Follow policy."
+            },
+            {
+              "text": "For tax only",
+              "correct": false,
+              "feedback": "Not the main reason."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1215,6 +2025,816 @@
               "text": "nothing",
               "correct": false,
               "feedback": "Matters."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0421",
+          "q": "Which court case set the standard for informing patients about material risks?",
+          "options": [
+            {
+              "text": "Montgomery v Lanarkshire (2015)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Gillick",
+              "correct": false,
+              "feedback": "Children's consent."
+            },
+            {
+              "text": "Bolam",
+              "correct": false,
+              "feedback": "Older standard of care."
+            },
+            {
+              "text": "Caldicott",
+              "correct": false,
+              "feedback": "Information."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0422",
+          "q": "Under Montgomery, a risk is 'material' if",
+          "options": [
+            {
+              "text": "a reasonable person in the patient's position, or this patient, would think it significant",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the doctor thinks so only",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "it's rare",
+              "correct": false,
+              "feedback": "Not the test."
+            },
+            {
+              "text": "it's on a list",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0423",
+          "q": "The Mental Capacity Act test asks whether the person can",
+          "options": [
+            {
+              "text": "understand, retain, weigh up and communicate the decision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "read and write",
+              "correct": false,
+              "feedback": "Not required."
+            },
+            {
+              "text": "pass an IQ test",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "speak English",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0424",
+          "q": "A lasting power of attorney for health and welfare allows",
+          "options": [
+            {
+              "text": "a chosen person to make health decisions if capacity is lost",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "anyone to decide",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the optometrist to decide",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It allows decisions."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0425",
+          "q": "An IMCA is",
+          "options": [
+            {
+              "text": "an independent advocate for people without capacity and no one to speak for them",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "an interpreter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a solicitor",
+              "correct": false,
+              "feedback": "Not exactly."
+            },
+            {
+              "text": "a family member",
+              "correct": false,
+              "feedback": "Independent."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0426",
+          "q": "16- and 17-year-olds in England are",
+          "options": [
+            {
+              "text": "presumed to have capacity to consent to treatment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "never able to consent",
+              "correct": false,
+              "feedback": "They can."
+            },
+            {
+              "text": "always needing a parent",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "treated as children under 12",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0427",
+          "q": "Implied consent is shown when a patient",
+          "options": [
+            {
+              "text": "places their chin on the slit lamp after you explain",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "says nothing at all",
+              "correct": false,
+              "feedback": "Not enough alone."
+            },
+            {
+              "text": "refuses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "leaves",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0428",
+          "q": "What does ICE stand for in consultations?",
+          "options": [
+            {
+              "text": "Ideas, concerns and expectations",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Investigate, check, explain",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Immediate care emergency",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "In case of emergency",
+              "correct": false,
+              "feedback": "Different meaning."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0429",
+          "q": "Which consultation model is widely used in UK healthcare teaching?",
+          "options": [
+            {
+              "text": "Calgary-Cambridge",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "SOAP",
+              "correct": false,
+              "feedback": "Records."
+            },
+            {
+              "text": "Gibbs",
+              "correct": false,
+              "feedback": "Reflection."
+            },
+            {
+              "text": "SBAR",
+              "correct": false,
+              "feedback": "Handover."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04210",
+          "q": "How should you speak to a patient who lip-reads?",
+          "options": [
+            {
+              "text": "Face them, in good light, speaking clearly without exaggerating",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Shout",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Turn away",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cover your mouth",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04211",
+          "q": "How should you guide a patient with sight loss?",
+          "options": [
+            {
+              "text": "Offer your arm and describe steps and obstacles",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Push them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pull their hand",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Leave them",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04212",
+          "q": "Which material helps patients with learning disabilities?",
+          "options": [
+            {
+              "text": "Easy-read information with pictures",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dense text",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Adapt."
+            },
+            {
+              "text": "Jargon",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04213",
+          "q": "A patient is angry about waiting. What's a good first response?",
+          "options": [
+            {
+              "text": "Acknowledge their feelings and apologise for the delay",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Argue",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask them to leave",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04214",
+          "q": "Why avoid jargon?",
+          "options": [
+            {
+              "text": "Patients may not understand it",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's too short",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's illegal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It impresses patients",
+              "correct": false,
+              "feedback": "Not the aim."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04215",
+          "q": "A reflective statement such as 'It sounds like you're worried about your sight' shows",
+          "options": [
+            {
+              "text": "empathy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "leading",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "closed questioning",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "jargon",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04216",
+          "q": "Why summarise at the end of the consultation?",
+          "options": [
+            {
+              "text": "To check shared understanding and agree the plan",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To fill time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04217",
+          "q": "Which is the best way to give complex information?",
+          "options": [
+            {
+              "text": "In small chunks, checking understanding as you go",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "All at once",
+              "correct": false,
+              "feedback": "Overwhelming."
+            },
+            {
+              "text": "In writing only",
+              "correct": false,
+              "feedback": "Talk too."
+            },
+            {
+              "text": "Not at all",
+              "correct": false,
+              "feedback": "Share it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04218",
+          "q": "Patients with dementia may need",
+          "options": [
+            {
+              "text": "simple language, more time and a carer involved where appropriate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "faster explanations",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no explanation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "to be ignored",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04219",
+          "q": "Consent for clinical photographs used in teaching should be",
+          "options": [
+            {
+              "text": "specific and recorded",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "assumed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "verbal only and unrecorded",
+              "correct": false,
+              "feedback": "Record it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04220",
+          "q": "Who has parental responsibility?",
+          "options": [
+            {
+              "text": "Usually the birth mother and often the father or legal guardians",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Any adult with the child",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The teacher",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The child's sibling",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04221",
+          "q": "A competent adult refuses dilation. What should you do?",
+          "options": [
+            {
+              "text": "Respect it, explain any risks and record the refusal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dilate anyway",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Refuse all care",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not record it",
+              "correct": false,
+              "feedback": "Record."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04222",
+          "q": "What's the danger of 'yes' questions with anxious patients?",
+          "options": [
+            {
+              "text": "They may agree to avoid seeming difficult",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "There's a risk."
+            },
+            {
+              "text": "They always answer truthfully",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "They're faster",
+              "correct": false,
+              "feedback": "Not the issue."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04223",
+          "q": "When on the phone with a patient, you should",
+          "options": [
+            {
+              "text": "confirm their identity before discussing details",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "discuss everything immediately",
+              "correct": false,
+              "feedback": "Confirm identity first."
+            },
+            {
+              "text": "avoid all calls",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "record nothing",
+              "correct": false,
+              "feedback": "Record."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04224",
+          "q": "Which communication helps a patient with hearing loss?",
+          "options": [
+            {
+              "text": "Writing key points or using a hearing loop",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Speaking faster",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Covering your mouth",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Silence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04225",
+          "q": "A British Sign Language user should be offered",
+          "options": [
+            {
+              "text": "a qualified BSL interpreter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a family member always",
+              "correct": false,
+              "feedback": "Not ideal."
+            },
+            {
+              "text": "written notes only",
+              "correct": false,
+              "feedback": "Not always enough."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Offer."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04226",
+          "q": "Why give patients written information after verbal advice?",
+          "options": [
+            {
+              "text": "People forget much of what they're told",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's required for everything",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "To save talking",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not useful",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04227",
+          "q": "Which consent is needed for an eye examination?",
+          "options": [
+            {
+              "text": "Valid consent, usually verbal or implied",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Written always",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Needed."
+            },
+            {
+              "text": "Police approval",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04228",
+          "q": "Which body language shows attentiveness?",
+          "options": [
+            {
+              "text": "Eye contact, open posture and nodding",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Crossed arms and looking away",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Typing constantly",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Looking at your watch",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04229",
+          "q": "A patient doesn't understand English well and no interpreter is available. What should you do?",
+          "options": [
+            {
+              "text": "Arrange a professional interpreter (including phone services) before key decisions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Use their child",
+              "correct": false,
+              "feedback": "Not ideal."
+            },
+            {
+              "text": "Guess",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Proceed without consent",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x04230",
+          "q": "Why record the information given when obtaining consent?",
+          "options": [
+            {
+              "text": "It shows the consent was informed",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To fill space",
+              "correct": false,
+              "feedback": "No."
             }
           ],
           "explanation": ""
@@ -1832,6 +3452,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0421",
+          "q": "Which body regulates orthoptists?",
+          "options": [
+            {
+              "text": "The Health and Care Professions Council (HCPC)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "Optometrists and DOs."
+            },
+            {
+              "text": "The GMC",
+              "correct": false,
+              "feedback": "Doctors."
+            },
+            {
+              "text": "The NMC",
+              "correct": false,
+              "feedback": "Nurses."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0422",
+          "q": "Which body regulates ophthalmologists?",
+          "options": [
+            {
+              "text": "The GMC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The HCPC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The GPhC",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0423",
+          "q": "Which body regulates pharmacists?",
+          "options": [
+            {
+              "text": "The General Pharmaceutical Council (GPhC)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The GMC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The HCPC",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0424",
+          "q": "Which body regulates nurses?",
+          "options": [
+            {
+              "text": "The Nursing and Midwifery Council (NMC)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GMC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The HCPC",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0425",
+          "q": "Which body regulates dispensing opticians?",
+          "options": [
+            {
+              "text": "The GOC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The HCPC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The GMC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "The GOC."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0426",
+          "q": "In SBAR, B stands for",
+          "options": [
+            {
+              "text": "Background",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blood pressure",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Binocular",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Benefit",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0427",
+          "q": "In SBAR, A stands for",
+          "options": [
+            {
+              "text": "Assessment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Action",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Advice",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Allergy",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0428",
+          "q": "Who supports children with visual impairment in school?",
+          "options": [
+            {
+              "text": "A qualified teacher of the visually impaired (QTVI)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An optometrist only",
+              "correct": false,
+              "feedback": "Not in school."
+            },
+            {
+              "text": "A pharmacist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "QTVIs."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0429",
+          "q": "Which charity supports people with sight loss across the UK?",
+          "options": [
+            {
+              "text": "RNIB",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "RSPCA",
+              "correct": false,
+              "feedback": "Animals."
+            },
+            {
+              "text": "RNLI",
+              "correct": false,
+              "feedback": "Lifeboats."
+            },
+            {
+              "text": "NSPCC",
+              "correct": false,
+              "feedback": "Children's protection."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04210",
+          "q": "Which professional often staffs eye casualty and clinics alongside doctors?",
+          "options": [
+            {
+              "text": "Ophthalmic nurses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dentists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pharmacists only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Physiotherapists",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04211",
+          "q": "Shared care glaucoma schemes involve",
+          "options": [
+            {
+              "text": "hospitals and community optometrists working together",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only hospitals",
+              "correct": false,
+              "feedback": "Shared."
+            },
+            {
+              "text": "only GPs",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "patients alone",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04212",
+          "q": "What's the difference between primary and secondary eye care?",
+          "options": [
+            {
+              "text": "Primary is community care (e.g. optometrists); secondary is hospital care",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Secondary is community care",
+              "correct": false,
+              "feedback": "Reversed."
+            },
+            {
+              "text": "Primary is surgery",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04213",
+          "q": "Good handover between professionals should",
+          "options": [
+            {
+              "text": "be structured, clear and checked",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "be rushed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "leave out details",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "be verbal only always",
+              "correct": false,
+              "feedback": "Often written too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04214",
+          "q": "Human factors in healthcare are about",
+          "options": [
+            {
+              "text": "how people, systems and environments affect safety",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only equipment",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "blame",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "uniforms",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04215",
+          "q": "The WHO surgical safety checklist is an example of",
+          "options": [
+            {
+              "text": "a teamwork and safety tool",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a consent form",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a referral letter",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a refraction method",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04216",
+          "q": "Which skill helps a junior speak up about a safety issue?",
+          "options": [
+            {
+              "text": "Assertive, structured communication such as SBAR",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Silence",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Waiting",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hinting",
+              "correct": false,
+              "feedback": "Unclear."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04217",
+          "q": "Who can refer a patient for a low vision assessment?",
+          "options": [
+            {
+              "text": "Optometrists, ophthalmologists or GPs, depending on local services",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the patient",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "Only pharmacists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Several can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04218",
+          "q": "Why learn about other professions' roles?",
+          "options": [
+            {
+              "text": "To refer appropriately and work as a team",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To do their jobs",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It isn't useful",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To compete",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04219",
+          "q": "A habilitation specialist works with",
+          "options": [
+            {
+              "text": "children with visual impairment on independence skills",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "adults only",
+              "correct": false,
+              "feedback": "Rehabilitation for adults."
+            },
+            {
+              "text": "cataract surgery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dispensing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04220",
+          "q": "Which professional checks a patient's medication list for interactions?",
+          "options": [
+            {
+              "text": "A pharmacist",
+              "correct": true,
+              "feedback": "Yes, alongside prescribers."
+            },
+            {
+              "text": "A receptionist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "A dispensing optician",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04221",
+          "q": "Integrated care means",
+          "options": [
+            {
+              "text": "services working together around the patient",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "one person doing everything",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "hospitals only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no communication",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04222",
+          "q": "Which is a barrier to teamwork?",
+          "options": [
+            {
+              "text": "Poor communication and unclear roles",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Mutual respect",
+              "correct": false,
+              "feedback": "Helps."
+            },
+            {
+              "text": "Shared goals",
+              "correct": false,
+              "feedback": "Helps."
+            },
+            {
+              "text": "Clear roles",
+              "correct": false,
+              "feedback": "Helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04223",
+          "q": "An optical assistant may help with",
+          "options": [
+            {
+              "text": "pre-tests and frame selection under supervision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "diagnosing disease",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "surgery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "prescribing drugs",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04224",
+          "q": "Who can fit contact lenses besides optometrists?",
+          "options": [
+            {
+              "text": "Contact lens opticians (DOs with CL qualification)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Any shop worker",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pharmacists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Orthoptists",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04225",
+          "q": "Why is patient-centred care central to IPL?",
+          "options": [
+            {
+              "text": "Teams work best around the patient's needs",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's a slogan only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It slows care",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04226",
+          "q": "Which charity focuses on macular disease?",
+          "options": [
+            {
+              "text": "The Macular Society",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "RNIB only",
+              "correct": false,
+              "feedback": "RNIB covers all sight loss."
+            },
+            {
+              "text": "Guide Dogs",
+              "correct": false,
+              "feedback": "Mobility."
+            },
+            {
+              "text": "RNLI",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04227",
+          "q": "Guide Dogs (the charity) also offers",
+          "options": [
+            {
+              "text": "mobility and independence services",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cataract surgery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "drug prescriptions",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04228",
+          "q": "Why is closed-loop communication useful?",
+          "options": [
+            {
+              "text": "The receiver repeats back to confirm the message",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's slower without benefit",
+              "correct": false,
+              "feedback": "It improves safety."
+            },
+            {
+              "text": "It's only for pilots",
+              "correct": false,
+              "feedback": "Used widely."
+            },
+            {
+              "text": "It's rude",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04229",
+          "q": "What's a key benefit of interprofessional education for students?",
+          "options": [
+            {
+              "text": "Understanding roles before qualifying",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Avoiding other professions",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Learning only optometry",
+              "correct": false,
+              "feedback": "Not the aim."
+            },
+            {
+              "text": "Less patient contact",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x04230",
+          "q": "When working with a GP about a patient, you should",
+          "options": [
+            {
+              "text": "communicate clearly, with consent, using plain language",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "assume they know eye jargon",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "avoid contact",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "send nothing",
+              "correct": false,
+              "feedback": "Communicate."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -2445,6 +4875,816 @@
               "text": "blame",
               "correct": false,
               "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0421",
+          "q": "Brookfield's four lenses for reflection include",
+          "options": [
+            {
+              "text": "self, patients (or learners), colleagues and theory",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "red, green, blue, yellow",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "plan, do, study, act",
+              "correct": false,
+              "feedback": "Audit cycle."
+            },
+            {
+              "text": "what, so what, now what",
+              "correct": false,
+              "feedback": "Driscoll."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0422",
+          "q": "Johns' model of reflection is known for",
+          "options": [
+            {
+              "text": "guided cue questions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a six-stage cycle",
+              "correct": false,
+              "feedback": "Gibbs."
+            },
+            {
+              "text": "four lenses",
+              "correct": false,
+              "feedback": "Brookfield."
+            },
+            {
+              "text": "three questions",
+              "correct": false,
+              "feedback": "Driscoll/Rolfe."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0423",
+          "q": "Rolfe's reflective model uses",
+          "options": [
+            {
+              "text": "What? So what? Now what?",
+              "correct": true,
+              "feedback": "Yes, similar to Driscoll."
+            },
+            {
+              "text": "six stages",
+              "correct": false,
+              "feedback": "Gibbs."
+            },
+            {
+              "text": "four lenses",
+              "correct": false,
+              "feedback": "Brookfield."
+            },
+            {
+              "text": "PICO",
+              "correct": false,
+              "feedback": "EBP."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0424",
+          "q": "In Gibbs' cycle, which stage asks 'What was good and bad?'",
+          "options": [
+            {
+              "text": "Evaluation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Description",
+              "correct": false,
+              "feedback": "What happened."
+            },
+            {
+              "text": "Feelings",
+              "correct": false,
+              "feedback": "What you felt."
+            },
+            {
+              "text": "Action plan",
+              "correct": false,
+              "feedback": "What next."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0425",
+          "q": "In Gibbs' cycle, which stage asks 'What else could you have done?'",
+          "options": [
+            {
+              "text": "Conclusion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Description",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Feelings",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Evaluation",
+              "correct": false,
+              "feedback": "Good and bad."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0426",
+          "q": "Pendleton's rules for feedback start with",
+          "options": [
+            {
+              "text": "the learner saying what went well",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the teacher listing faults",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a grade",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "silence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0427",
+          "q": "Why anonymise patients in reflective writing?",
+          "options": [
+            {
+              "text": "To protect confidentiality",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For style",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To save words",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0428",
+          "q": "A purely descriptive reflection is weak because",
+          "options": [
+            {
+              "text": "it doesn't analyse or lead to learning",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's too short",
+              "correct": false,
+              "feedback": "Not the main issue."
+            },
+            {
+              "text": "it's too honest",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it uses 'I'",
+              "correct": false,
+              "feedback": "That's fine."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0429",
+          "q": "A critical incident in reflection is",
+          "options": [
+            {
+              "text": "any significant event you learned from, good or bad",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only a disaster",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "an exam",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a complaint only",
+              "correct": false,
+              "feedback": "Not only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04210",
+          "q": "A growth mindset in reflection means",
+          "options": [
+            {
+              "text": "seeing mistakes as chances to learn",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "avoiding challenges",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "blaming others",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "fixed ability",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04211",
+          "q": "Why seek feedback from supervisors?",
+          "options": [
+            {
+              "text": "It gives another perspective on your performance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To be criticised",
+              "correct": false,
+              "feedback": "Not the aim."
+            },
+            {
+              "text": "It's optional and useless",
+              "correct": false,
+              "feedback": "It's useful."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04212",
+          "q": "Which is a good reflective sentence?",
+          "options": [
+            {
+              "text": "'I felt rushed, so next time I'll explain the test before starting'",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "'It went fine'",
+              "correct": false,
+              "feedback": "Too vague."
+            },
+            {
+              "text": "'The patient was difficult'",
+              "correct": false,
+              "feedback": "Blaming."
+            },
+            {
+              "text": "'Nothing happened'",
+              "correct": false,
+              "feedback": "No learning."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04213",
+          "q": "Linking reflection to GOC standards helps by",
+          "options": [
+            {
+              "text": "showing how your learning relates to professional expectations",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "adding words",
+              "correct": false,
+              "feedback": "Not the aim."
+            },
+            {
+              "text": "avoiding analysis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "impressing markers only",
+              "correct": false,
+              "feedback": "Not only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04214",
+          "q": "Reflection-in-action happens",
+          "options": [
+            {
+              "text": "during the event, adjusting as you go",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "after the event",
+              "correct": false,
+              "feedback": "Reflection-on-action."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "It happens."
+            },
+            {
+              "text": "only in writing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04215",
+          "q": "Reflection-on-action happens",
+          "options": [
+            {
+              "text": "after the event",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "during the event",
+              "correct": false,
+              "feedback": "In-action."
+            },
+            {
+              "text": "before the event",
+              "correct": false,
+              "feedback": "Planning."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "It happens."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04216",
+          "q": "Which is a benefit of peer discussion in CPD?",
+          "options": [
+            {
+              "text": "Others can challenge and widen your thinking",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's only social",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "It replaces learning",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's compulsory for patients",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04217",
+          "q": "Why keep a reflective journal?",
+          "options": [
+            {
+              "text": "To track learning and patterns over time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To vent only",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "For marks only",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "It's useless",
+              "correct": false,
+              "feedback": "It helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04218",
+          "q": "An action plan should be",
+          "options": [
+            {
+              "text": "specific and achievable",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "vague",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "impossible",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "about someone else",
+              "correct": false,
+              "feedback": "About you."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04219",
+          "q": "Which piece of evidence strengthens a reflection?",
+          "options": [
+            {
+              "text": "A relevant guideline or research finding",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A rumour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A social media post",
+              "correct": false,
+              "feedback": "Usually not."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Evidence helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04220",
+          "q": "Why is honesty important in reflective writing?",
+          "options": [
+            {
+              "text": "Learning depends on acknowledging what really happened",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To get lower marks",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It isn't",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To blame others",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04221",
+          "q": "Which feelings should be included in reflection?",
+          "options": [
+            {
+              "text": "Your genuine feelings and how they affected your actions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Feelings matter."
+            },
+            {
+              "text": "Only positive",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "Other people's only",
+              "correct": false,
+              "feedback": "Your own."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04222",
+          "q": "Reflective practice helps patients by",
+          "options": [
+            {
+              "text": "improving the clinician's future care",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "making appointments longer",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "reducing communication",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04223",
+          "q": "The 'so what?' stage is about",
+          "options": [
+            {
+              "text": "understanding why it matters and what you learned",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "describing events",
+              "correct": false,
+              "feedback": "'What?'."
+            },
+            {
+              "text": "planning action",
+              "correct": false,
+              "feedback": "'Now what?'."
+            },
+            {
+              "text": "grading",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04224",
+          "q": "The 'now what?' stage is about",
+          "options": [
+            {
+              "text": "planning what you'll do differently",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "describing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "feelings",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "blaming",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04225",
+          "q": "Which word count tip helps reflective assignments?",
+          "options": [
+            {
+              "text": "Spend fewer words describing and more analysing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Describe at length",
+              "correct": false,
+              "feedback": "Weak."
+            },
+            {
+              "text": "Skip analysis",
+              "correct": false,
+              "feedback": "Weak."
+            },
+            {
+              "text": "Repeat yourself",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04226",
+          "q": "A reflection about a successful case can show",
+          "options": [
+            {
+              "text": "what worked and how to repeat it",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It shows learning."
+            },
+            {
+              "text": "only luck",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "that reflection is only for errors",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04227",
+          "q": "Which is an example of a SMART goal?",
+          "options": [
+            {
+              "text": "'Practise 10 Volk examinations under supervision by the end of the month'",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "'Get better at Volk'",
+              "correct": false,
+              "feedback": "Not specific."
+            },
+            {
+              "text": "'Be perfect'",
+              "correct": false,
+              "feedback": "Not achievable."
+            },
+            {
+              "text": "'Someday learn Volk'",
+              "correct": false,
+              "feedback": "Not time-bound."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04228",
+          "q": "Why reflect on communication as well as clinical skills?",
+          "options": [
+            {
+              "text": "Communication strongly affects patient care and satisfaction",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It can't be improved",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04229",
+          "q": "What should you do if reflection reveals a gap in knowledge?",
+          "options": [
+            {
+              "text": "Plan learning to fill it",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hide it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blame the course",
+              "correct": false,
+              "feedback": "Not helpful."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x04230",
+          "q": "Reflective practice is part of",
+          "options": [
+            {
+              "text": "lifelong professional development",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "student life only",
+              "correct": false,
+              "feedback": "Continues."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It matters."
+            },
+            {
+              "text": "exams only",
+              "correct": false,
+              "feedback": "Not only."
             }
           ],
           "explanation": ""

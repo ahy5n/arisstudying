@@ -600,6 +600,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0431",
+          "q": "Who does the professional duty of candour apply to?",
+          "options": [
+            {
+              "text": "Every registered professional, including students in training",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only managers",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only doctors",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only organisations",
+              "correct": false,
+              "feedback": "That's the statutory duty."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0432",
+          "q": "Who does the statutory duty of candour mainly apply to?",
+          "options": [
+            {
+              "text": "Organisations registered with the care regulator (e.g. CQC in England)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Individual students",
+              "correct": false,
+              "feedback": "Professional duty."
+            },
+            {
+              "text": "Patients",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "It exists."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0433",
+          "q": "A patient was given the wrong drops but noticed nothing. What does candour require?",
+          "options": [
+            {
+              "text": "Tell the patient, apologise, explain and check for effects",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Say nothing, as no harm",
+              "correct": false,
+              "feedback": "Still be open."
+            },
+            {
+              "text": "Hide the bottle",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blame the patient",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0434",
+          "q": "A wrong drop was picked up but caught before instilling. What should you do?",
+          "options": [
+            {
+              "text": "Report it as a near miss so systems can improve",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Report it."
+            },
+            {
+              "text": "Tell only friends",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Throw away the record",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0435",
+          "q": "A referral letter was never sent and the patient's appointment is delayed. What should you do?",
+          "options": [
+            {
+              "text": "Tell the patient, apologise, send it urgently and report the incident",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Send it quietly",
+              "correct": false,
+              "feedback": "Be open too."
+            },
+            {
+              "text": "Blame the post",
+              "correct": false,
+              "feedback": "Investigate first."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0436",
+          "q": "A letter with one patient's details was posted to another patient. What's this?",
+          "options": [
+            {
+              "text": "A data breach requiring openness and reporting",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It's a breach."
+            },
+            {
+              "text": "A joke",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A near miss only",
+              "correct": false,
+              "feedback": "It happened."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0437",
+          "q": "A patient trips over a box in the practice and bruises their arm. What's needed?",
+          "options": [
+            {
+              "text": "Help them, record the incident, apologise and report it",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask them to sign a waiver",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blame them",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0438",
+          "q": "A spectacle Rx was dispensed with the wrong PD and caused headaches. Candour means",
+          "options": [
+            {
+              "text": "explaining what went wrong, apologising and remaking them",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "telling them to adapt",
+              "correct": false,
+              "feedback": "Not if it's an error."
+            },
+            {
+              "text": "charging for remakes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "saying nothing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x0439",
+          "q": "A 'just culture' means",
+          "options": [
+            {
+              "text": "staff are supported to report errors, with accountability for reckless acts",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nobody is ever accountable",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "everyone is blamed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "errors are hidden",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04310",
+          "q": "Why should honesty extend to regulators and employers?",
+          "options": [
+            {
+              "text": "They need accurate information to protect patients",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To avoid trouble",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "Only if asked",
+              "correct": false,
+              "feedback": "Proactively too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04311",
+          "q": "What should you avoid when explaining an error?",
+          "options": [
+            {
+              "text": "Speculating or blaming others before facts are known",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Apologising",
+              "correct": false,
+              "feedback": "Do apologise."
+            },
+            {
+              "text": "Listening",
+              "correct": false,
+              "feedback": "Do listen."
+            },
+            {
+              "text": "Offering support",
+              "correct": false,
+              "feedback": "Do offer."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04312",
+          "q": "Under the statutory duty, a notifiable safety incident involves",
+          "options": [
+            {
+              "text": "unexpected harm such as moderate or severe harm, death or prolonged psychological harm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "any minor delay",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "no harm",
+              "correct": false,
+              "feedback": "Not notifiable."
+            },
+            {
+              "text": "a near miss only",
+              "correct": false,
+              "feedback": "Not notifiable."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04313",
+          "q": "The statutory duty requires the organisation to follow up with",
+          "options": [
+            {
+              "text": "a written account and apology",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing in writing",
+              "correct": false,
+              "feedback": "Writing required."
+            },
+            {
+              "text": "a fine",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a gift",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04314",
+          "q": "Why does candour build trust?",
+          "options": [
+            {
+              "text": "Patients feel respected when told the truth",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It hides mistakes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's quicker",
+              "correct": false,
+              "feedback": "Not the reason."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04315",
+          "q": "A colleague asks you to keep quiet about their error. What should you do?",
+          "options": [
+            {
+              "text": "Encourage them to be open and raise it yourself if needed",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keep quiet",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Post about it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Change the record",
+              "correct": false,
+              "feedback": "Never."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04316",
+          "q": "Expired drops were used on a patient. What should happen?",
+          "options": [
+            {
+              "text": "Tell the patient, assess any risk and report the incident",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Be open."
+            },
+            {
+              "text": "Throw them away quietly",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Blame the supplier",
+              "correct": false,
+              "feedback": "Investigate first."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04317",
+          "q": "When something goes wrong, who should usually speak to the patient?",
+          "options": [
+            {
+              "text": "A suitable professional involved in their care, with support",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Someone should."
+            },
+            {
+              "text": "The receptionist only",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "The patient's family only",
+              "correct": false,
+              "feedback": "With consent."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04318",
+          "q": "Candour includes telling the patient about",
+          "options": [
+            {
+              "text": "likely short- and long-term effects",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing about effects",
+              "correct": false,
+              "feedback": "Include them."
+            },
+            {
+              "text": "only good news",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "unrelated issues",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04319",
+          "q": "A student realises they recorded the wrong eye's IOP. What should they do?",
+          "options": [
+            {
+              "text": "Tell their supervisor and correct the record properly",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Delete it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Fix it without telling anyone",
+              "correct": false,
+              "feedback": "Tell."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04320",
+          "q": "Why record what you said to the patient after an error?",
+          "options": [
+            {
+              "text": "It shows openness and helps investigations",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To protect only yourself",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04321",
+          "q": "Which GOC standard theme covers this duty?",
+          "options": [
+            {
+              "text": "Being candid when things go wrong",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Maintaining frame stock",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Charging fees",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Advertising",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04322",
+          "q": "Should fear of a complaint stop you being open?",
+          "options": [
+            {
+              "text": "No",
+              "correct": true,
+              "feedback": "Yes: openness comes first."
+            },
+            {
+              "text": "Yes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only if it's serious",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only for students",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04323",
+          "q": "A patient asks directly if a mistake was made. What should you do?",
+          "options": [
+            {
+              "text": "Answer honestly with what you know",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Deny it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Change the subject",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Refuse to speak",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04324",
+          "q": "Organisations should support staff after incidents because",
+          "options": [
+            {
+              "text": "staff can be distressed and need help to learn",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "staff should be punished always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "for billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04325",
+          "q": "Being candid also means telling colleagues when",
+          "options": [
+            {
+              "text": "you've spotted a risk to patients",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "you're bored",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing is wrong",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "you want a day off",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04326",
+          "q": "What's the risk of a culture where errors are hidden?",
+          "options": [
+            {
+              "text": "The same errors keep happening",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Fewer errors",
+              "correct": false,
+              "feedback": "Usually more."
+            },
+            {
+              "text": "Better care",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Risk grows."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04327",
+          "q": "A dispensing error is found before the patient collects. What should you do?",
+          "options": [
+            {
+              "text": "Correct it and log it as a near miss",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hand it over anyway",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hide it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blame the lab",
+              "correct": false,
+              "feedback": "Investigate."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04328",
+          "q": "How soon should a patient be told about a harmful incident?",
+          "options": [
+            {
+              "text": "As soon as reasonably practicable",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "After a year",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Tell them."
+            },
+            {
+              "text": "Only after legal advice",
+              "correct": false,
+              "feedback": "Don't delay."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04329",
+          "q": "Candour applies even when",
+          "options": [
+            {
+              "text": "the patient may not be aware anything went wrong",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the patient already knows",
+              "correct": false,
+              "feedback": "Still."
+            },
+            {
+              "text": "nothing happened",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's the weekend",
+              "correct": false,
+              "feedback": "Still."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-what-it-requires-x04330",
+          "q": "Why should you offer further investigation or treatment after an error?",
+          "options": [
+            {
+              "text": "To put things right where possible",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To charge more",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To avoid blame",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1207,6 +2017,816 @@
             },
             {
               "text": "forced",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0431",
+          "q": "In Scotland, apologies are protected from being used as admissions of liability by",
+          "options": [
+            {
+              "text": "the Apologies (Scotland) Act 2016",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the Compensation Act 2006",
+              "correct": false,
+              "feedback": "England and Wales."
+            },
+            {
+              "text": "GDPR",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the Equality Act",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0432",
+          "q": "Which are elements of a good apology?",
+          "options": [
+            {
+              "text": "Acknowledge, explain, express regret and say what happens next",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Deny and move on",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blame and leave",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Silence",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0433",
+          "q": "Which phrase sounds defensive?",
+          "options": [
+            {
+              "text": "'Mistakes happen, it's not my fault'",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "'I'm sorry this happened to you'",
+              "correct": false,
+              "feedback": "Good."
+            },
+            {
+              "text": "'Let me explain what went wrong'",
+              "correct": false,
+              "feedback": "Good."
+            },
+            {
+              "text": "'Here's what we'll do now'",
+              "correct": false,
+              "feedback": "Good."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0434",
+          "q": "Who can the patient bring to the conversation?",
+          "options": [
+            {
+              "text": "A relative or friend for support, if they wish",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "They can."
+            },
+            {
+              "text": "Only a lawyer",
+              "correct": false,
+              "feedback": "Not required."
+            },
+            {
+              "text": "Only the GP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0435",
+          "q": "Why give the patient a named contact?",
+          "options": [
+            {
+              "text": "So they know who to ask with further questions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For marketing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To stop them calling",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0436",
+          "q": "Where can patients take unresolved optical consumer complaints?",
+          "options": [
+            {
+              "text": "The Optical Consumer Complaints Service (OCCS)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The DVLA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The police",
+              "correct": false,
+              "feedback": "Not for this."
+            },
+            {
+              "text": "Nowhere",
+              "correct": false,
+              "feedback": "OCCS."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0437",
+          "q": "Unresolved NHS complaints in England can go to",
+          "options": [
+            {
+              "text": "the Parliamentary and Health Service Ombudsman",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the AOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the RNIB",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no one",
+              "correct": false,
+              "feedback": "The Ombudsman."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0438",
+          "q": "Should an apology be scripted word for word?",
+          "options": [
+            {
+              "text": "No: it should be genuine and fit the person",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes, always",
+              "correct": false,
+              "feedback": "Sounds insincere."
+            },
+            {
+              "text": "Only for students",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only in writing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x0439",
+          "q": "What should you do if the patient becomes upset during the apology?",
+          "options": [
+            {
+              "text": "Pause, listen and acknowledge their feelings",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Leave",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Argue",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Rush through",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04310",
+          "q": "Why avoid speculation in an apology?",
+          "options": [
+            {
+              "text": "Wrong details can mislead and cause more distress",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's illegal",
+              "correct": false,
+              "feedback": "Not exactly."
+            },
+            {
+              "text": "It's always right",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04311",
+          "q": "Should you offer a second opinion after an error?",
+          "options": [
+            {
+              "text": "Yes, if appropriate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Can help."
+            },
+            {
+              "text": "Only if asked twice",
+              "correct": false,
+              "feedback": "Offer."
+            },
+            {
+              "text": "Only for money",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04312",
+          "q": "Which tone suits an apology?",
+          "options": [
+            {
+              "text": "Calm, sincere and respectful",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Joking",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cold",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Rushed",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04313",
+          "q": "An apology conversation should take place",
+          "options": [
+            {
+              "text": "somewhere private and unhurried",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "at the front desk",
+              "correct": false,
+              "feedback": "Not private."
+            },
+            {
+              "text": "in a corridor",
+              "correct": false,
+              "feedback": "Not private."
+            },
+            {
+              "text": "over social media",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04314",
+          "q": "What should a written apology include?",
+          "options": [
+            {
+              "text": "What happened, the apology, what's being done and contact details",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only 'sorry'",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Blame",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Details."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04315",
+          "q": "Why mention what will change to prevent it happening again?",
+          "options": [
+            {
+              "text": "It reassures patients that lessons are learned",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To advertise",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To avoid blame",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04316",
+          "q": "A patient wants to make a formal complaint after an apology. What do you do?",
+          "options": [
+            {
+              "text": "Explain the complaints procedure and support them",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Discourage them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Refuse",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04317",
+          "q": "Which cultural factor might affect an apology?",
+          "options": [
+            {
+              "text": "Language needs and preferences for who is present",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Some do."
+            },
+            {
+              "text": "Eye colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Height",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04318",
+          "q": "Should a student apologise alone for a serious error?",
+          "options": [
+            {
+              "text": "No: involve the supervisor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes, always alone",
+              "correct": false,
+              "feedback": "Get support."
+            },
+            {
+              "text": "Never apologise",
+              "correct": false,
+              "feedback": "They should, with support."
+            },
+            {
+              "text": "Only by email",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04319",
+          "q": "Which is a sincere-sounding apology?",
+          "options": [
+            {
+              "text": "'I'm sorry we didn't refer you sooner. Here's what we're doing now.'",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "'Sorry if you were upset.'",
+              "correct": false,
+              "feedback": "Conditional."
+            },
+            {
+              "text": "'Things like this happen.'",
+              "correct": false,
+              "feedback": "Dismissive."
+            },
+            {
+              "text": "'It's the system's fault.'",
+              "correct": false,
+              "feedback": "Deflecting."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04320",
+          "q": "An apology is mainly about",
+          "options": [
+            {
+              "text": "respecting the patient and being honest",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "avoiding legal action",
+              "correct": false,
+              "feedback": "Not the aim."
+            },
+            {
+              "text": "saving face",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04321",
+          "q": "Why record the apology conversation?",
+          "options": [
+            {
+              "text": "It's part of the record and supports any review",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To use against the patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's optional",
+              "correct": false,
+              "feedback": "Record it."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04322",
+          "q": "When should you not delay an apology?",
+          "options": [
+            {
+              "text": "Almost always: don't wait for blame to be decided",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Never apologise",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wait for a year",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wait for legal advice always",
+              "correct": false,
+              "feedback": "Don't delay unnecessarily."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04323",
+          "q": "Which body language supports an apology?",
+          "options": [
+            {
+              "text": "Sitting at the same level with eye contact",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Standing over the patient",
+              "correct": false,
+              "feedback": "Intimidating."
+            },
+            {
+              "text": "Looking at your phone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Arms crossed",
+              "correct": false,
+              "feedback": "Defensive."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04324",
+          "q": "How should you respond if the patient blames you unfairly?",
+          "options": [
+            {
+              "text": "Listen, acknowledge their feelings and stick to facts",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Argue",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Walk away",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blame someone else",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04325",
+          "q": "After an apology, follow-up should",
+          "options": [
+            {
+              "text": "check on the patient's wellbeing and outcome",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "not happen",
+              "correct": false,
+              "feedback": "It should."
+            },
+            {
+              "text": "ask for payment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "be avoided",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04326",
+          "q": "A patient is too upset to talk now. What should you do?",
+          "options": [
+            {
+              "text": "Offer another time and give written information",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Force the conversation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never contact them again",
+              "correct": false,
+              "feedback": "Offer later."
+            },
+            {
+              "text": "Close the case",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04327",
+          "q": "Apologising for an outcome doesn't mean",
+          "options": [
+            {
+              "text": "admitting legal liability",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "being honest",
+              "correct": false,
+              "feedback": "It does mean that."
+            },
+            {
+              "text": "caring",
+              "correct": false,
+              "feedback": "It shows care."
+            },
+            {
+              "text": "explaining",
+              "correct": false,
+              "feedback": "You should explain."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04328",
+          "q": "Which is NOT part of a good apology?",
+          "options": [
+            {
+              "text": "Blaming the patient for not noticing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Saying sorry",
+              "correct": false,
+              "feedback": "Part."
+            },
+            {
+              "text": "Explaining",
+              "correct": false,
+              "feedback": "Part."
+            },
+            {
+              "text": "Offering support",
+              "correct": false,
+              "feedback": "Part."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04329",
+          "q": "What should you avoid saying about colleagues?",
+          "options": [
+            {
+              "text": "Unfounded blame or criticism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Facts as known",
+              "correct": false,
+              "feedback": "Fine."
+            },
+            {
+              "text": "Their names when needed",
+              "correct": false,
+              "feedback": "Fine if appropriate."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Avoid blame."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-apologising-x04330",
+          "q": "Why is an apology good for clinicians too?",
+          "options": [
+            {
+              "text": "It supports trust and learning",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It isn't",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "It wins awards",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It ends investigations",
               "correct": false,
               "feedback": "No."
             }
@@ -1824,6 +3444,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0431",
+          "q": "The GOC is a 'prescribed person' for whistleblowing, which means",
+          "options": [
+            {
+              "text": "workers can raise concerns with it and keep legal protection",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it hires whistleblowers",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it bans concerns",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It matters."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0432",
+          "q": "Which office supports Freedom to Speak Up Guardians in England?",
+          "options": [
+            {
+              "text": "The National Guardian's Office",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "Regulator."
+            },
+            {
+              "text": "The DVLA",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The ICO",
+              "correct": false,
+              "feedback": "Data."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0433",
+          "q": "Raising a concern anonymously can make it",
+          "options": [
+            {
+              "text": "harder to investigate and follow up",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "easier to investigate",
+              "correct": false,
+              "feedback": "Usually harder."
+            },
+            {
+              "text": "illegal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "automatically upheld",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0434",
+          "q": "Going to the media is usually",
+          "options": [
+            {
+              "text": "a last resort, with stricter conditions for protection",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the first step",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "always protected",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "required",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0435",
+          "q": "Which concern should be raised?",
+          "options": [
+            {
+              "text": "A colleague repeatedly skipping infection control",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A colleague's hairstyle",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A patient's choice of frame",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Safety concerns."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0436",
+          "q": "Bullying in the workplace should be",
+          "options": [
+            {
+              "text": "raised through workplace procedures",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tolerated",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "posted online",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0437",
+          "q": "Who can support an optometrist raising a concern?",
+          "options": [
+            {
+              "text": "Their professional body (e.g. the AOP) or union",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Support exists."
+            },
+            {
+              "text": "Only the media",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only friends",
+              "correct": false,
+              "feedback": "Not only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0438",
+          "q": "Why should you stick to facts when raising a concern?",
+          "options": [
+            {
+              "text": "It makes the concern clear and fair",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Opinions are better",
+              "correct": false,
+              "feedback": "Facts first."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "To be dramatic",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x0439",
+          "q": "A locum notices unsafe practice at a practice they visit. Should they raise it?",
+          "options": [
+            {
+              "text": "Yes, through the practice and if needed beyond",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No, they're temporary",
+              "correct": false,
+              "feedback": "Duty still applies."
+            },
+            {
+              "text": "Only after leaving",
+              "correct": false,
+              "feedback": "Raise it now."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "They should."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04310",
+          "q": "What's the risk of not raising a concern?",
+          "options": [
+            {
+              "text": "Patients may come to harm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "There's a risk."
+            },
+            {
+              "text": "You'll be promoted",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It always resolves",
+              "correct": false,
+              "feedback": "Not always."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04311",
+          "q": "Gossip about a colleague is",
+          "options": [
+            {
+              "text": "not a proper way to raise a concern",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the best route",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "required",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "whistleblowing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04312",
+          "q": "A concern about a GOC registrant's fitness to practise can be raised by",
+          "options": [
+            {
+              "text": "anyone, including patients and colleagues",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only managers",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only patients",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "Anyone."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04313",
+          "q": "Whistleblowing law protects workers from",
+          "options": [
+            {
+              "text": "dismissal or detriment for genuine protected disclosures",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "all criticism",
+              "correct": false,
+              "feedback": "Not all."
+            },
+            {
+              "text": "any complaint",
+              "correct": false,
+              "feedback": "Not any."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Protection exists."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04314",
+          "q": "A protected disclosure should usually be made",
+          "options": [
+            {
+              "text": "in the reasonable belief it's in the public interest",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "for personal gain",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "to get revenge",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "anonymously only",
+              "correct": false,
+              "feedback": "Not required."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04315",
+          "q": "You raised a concern but nothing happened. What next?",
+          "options": [
+            {
+              "text": "Escalate to a higher level or external body",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Give up",
+              "correct": false,
+              "feedback": "Escalate."
+            },
+            {
+              "text": "Post online",
+              "correct": false,
+              "feedback": "Not first."
+            },
+            {
+              "text": "Do nothing forever",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04316",
+          "q": "Concerns about a student's behaviour on placement should go to",
+          "options": [
+            {
+              "text": "the placement supervisor and university",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "social media",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "Raise it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04317",
+          "q": "Which is a patient safety concern?",
+          "options": [
+            {
+              "text": "Equipment that isn't calibrated",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A messy desk",
+              "correct": false,
+              "feedback": "Minor."
+            },
+            {
+              "text": "A colleague's holiday",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A new uniform",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04318",
+          "q": "Why reflect after raising a concern?",
+          "options": [
+            {
+              "text": "It's stressful, and reflection supports learning and wellbeing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To change your story",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04319",
+          "q": "Should you raise a concern about yourself, e.g. your health affecting work?",
+          "options": [
+            {
+              "text": "Yes, and seek help early",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No",
+              "correct": false,
+              "feedback": "You should."
+            },
+            {
+              "text": "Only if caught",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only after harm",
+              "correct": false,
+              "feedback": "Before harm."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04320",
+          "q": "If a manager is the subject of your concern, you should",
+          "options": [
+            {
+              "text": "go to someone more senior or another route",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tell the manager only",
+              "correct": false,
+              "feedback": "Conflict."
+            },
+            {
+              "text": "stay silent",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "post online",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04321",
+          "q": "Which is a reason people don't raise concerns?",
+          "options": [
+            {
+              "text": "Fear of consequences",
+              "correct": true,
+              "feedback": "Yes, which protections aim to reduce."
+            },
+            {
+              "text": "No reasons",
+              "correct": false,
+              "feedback": "Many."
+            },
+            {
+              "text": "Laziness only",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "It's illegal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04322",
+          "q": "Why should organisations welcome concerns?",
+          "options": [
+            {
+              "text": "They help catch problems early",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They don't",
+              "correct": false,
+              "feedback": "They should."
+            },
+            {
+              "text": "To punish staff",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For publicity",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04323",
+          "q": "Raising a concern is different from making a complaint because",
+          "options": [
+            {
+              "text": "it's about risk to others, not a personal grievance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "they're identical",
+              "correct": false,
+              "feedback": "Different."
+            },
+            {
+              "text": "complaints are anonymous",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "concerns are illegal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04324",
+          "q": "If a patient is in immediate danger, you should",
+          "options": [
+            {
+              "text": "act at once to protect them and then report",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "wait for a meeting",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "write an email next week",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "do nothing",
+              "correct": false,
+              "feedback": "Act."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04325",
+          "q": "Which records should you keep about your concern?",
+          "options": [
+            {
+              "text": "Dates, what you saw and who you told",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Keep records."
+            },
+            {
+              "text": "Rumours",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Others' private data unnecessarily",
+              "correct": false,
+              "feedback": "Keep it relevant."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04326",
+          "q": "Patient safety concerns about a pharmacy should go to",
+          "options": [
+            {
+              "text": "the pharmacy and, if needed, the GPhC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the GOC",
+              "correct": false,
+              "feedback": "Not their regulator."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "Raise it."
+            },
+            {
+              "text": "the DVLA",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04327",
+          "q": "The duty to raise concerns overrides",
+          "options": [
+            {
+              "text": "personal or professional loyalty",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "patient safety",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the law",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Loyalty."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04328",
+          "q": "Students worried about raising a concern can get advice from",
+          "options": [
+            {
+              "text": "their personal tutor or university support",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "Support exists."
+            },
+            {
+              "text": "only patients",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "social media",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04329",
+          "q": "What's a 'detriment' in whistleblowing law?",
+          "options": [
+            {
+              "text": "Unfair treatment such as being demoted or excluded",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A reward",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A promotion",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Unfair treatment."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-raising-concerns-x04330",
+          "q": "Which outcome shows a concern was handled well?",
+          "options": [
+            {
+              "text": "The risk was investigated and fixed, and the person raising it was supported",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The person raising it was blamed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing changed",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It was kept secret",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1907,6 +4337,816 @@
             }
           ],
           "explanation": "The nine characteristics are listed on slide 7."
+        },
+        {
+          "id": "doc-edi-x0431",
+          "q": "Which list contains only protected characteristics?",
+          "options": [
+            {
+              "text": "Age, disability, race and sex",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Age, income, race and sex",
+              "correct": false,
+              "feedback": "Income isn't protected."
+            },
+            {
+              "text": "Height, weight, race and sex",
+              "correct": false,
+              "feedback": "Height and weight aren't."
+            },
+            {
+              "text": "Accent, job, race and sex",
+              "correct": false,
+              "feedback": "Not protected."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0432",
+          "q": "Which of these is protected under the Equality Act 2010?",
+          "options": [
+            {
+              "text": "Marriage and civil partnership",
+              "correct": true,
+              "feedback": "Yes (in employment)."
+            },
+            {
+              "text": "Favourite sport",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Postcode",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Car ownership",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0433",
+          "q": "Religion or belief, sexual orientation and sex are all",
+          "options": [
+            {
+              "text": "protected characteristics",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "unprotected",
+              "correct": false,
+              "feedback": "They're protected."
+            },
+            {
+              "text": "only protected at work",
+              "correct": false,
+              "feedback": "Wider than work."
+            },
+            {
+              "text": "optional",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0434",
+          "q": "The Public Sector Equality Duty applies to",
+          "options": [
+            {
+              "text": "public bodies, such as the NHS",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only private shops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "individuals only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "It applies."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0435",
+          "q": "The NHS Accessible Information Standard requires services to",
+          "options": [
+            {
+              "text": "identify and meet patients' communication needs related to disability",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "use only English",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ban interpreters",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignore needs",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0436",
+          "q": "The duty to make reasonable adjustments is 'anticipatory', meaning",
+          "options": [
+            {
+              "text": "services should plan for disabled people's needs in advance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "adjustments are made only after complaints",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's optional",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's for staff only",
+              "correct": false,
+              "feedback": "Patients too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0437",
+          "q": "An autistic patient may benefit from",
+          "options": [
+            {
+              "text": "a quiet room and a clear explanation of what will happen",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a rushed appointment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "loud music",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no explanation",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0438",
+          "q": "A patient who can't climb stairs needs",
+          "options": [
+            {
+              "text": "step-free access or a domiciliary visit",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "to climb anyway",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "to be turned away",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Adjust."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x0439",
+          "q": "Positive action means",
+          "options": [
+            {
+              "text": "lawful steps to help under-represented groups",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "discrimination against others",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignoring groups",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "quotas always",
+              "correct": false,
+              "feedback": "Not always lawful."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04310",
+          "q": "Intersectionality describes",
+          "options": [
+            {
+              "text": "how overlapping characteristics shape someone's experience",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "road junctions",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "one characteristic only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a legal sanction",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04311",
+          "q": "A patient asks for a practitioner of the same sex for cultural reasons. What should you do?",
+          "options": [
+            {
+              "text": "Accommodate the request where reasonably possible",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Refuse always",
+              "correct": false,
+              "feedback": "Consider it."
+            },
+            {
+              "text": "Mock it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "Respond."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04312",
+          "q": "Using someone's correct name and pronouns is part of",
+          "options": [
+            {
+              "text": "respectful, inclusive care",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "political correctness only",
+              "correct": false,
+              "feedback": "It's respect."
+            },
+            {
+              "text": "optional rudeness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the law only",
+              "correct": false,
+              "feedback": "It's good practice."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04313",
+          "q": "Discrimination arising from disability means",
+          "options": [
+            {
+              "text": "unfair treatment because of something linked to the disability",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "treating everyone equally",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "reasonable adjustments",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "harassment only",
+              "correct": false,
+              "feedback": "Different."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04314",
+          "q": "Cultural competence in healthcare means",
+          "options": [
+            {
+              "text": "understanding and respecting patients' different backgrounds",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "treating everyone identically",
+              "correct": false,
+              "feedback": "Not always fair."
+            },
+            {
+              "text": "ignoring culture",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "learning one language",
+              "correct": false,
+              "feedback": "Not only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04315",
+          "q": "Allyship means",
+          "options": [
+            {
+              "text": "actively supporting people who face discrimination",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "staying silent",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "joining a club",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "legal action only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04316",
+          "q": "A colleague mimics a patient's accent. What should you do?",
+          "options": [
+            {
+              "text": "Challenge it appropriately and report if needed",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Laugh",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Join in",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04317",
+          "q": "Which group may face barriers to eye care?",
+          "options": [
+            {
+              "text": "People with learning disabilities",
+              "correct": true,
+              "feedback": "Yes, among others."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Some face barriers."
+            },
+            {
+              "text": "Only children",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "Only optometrists",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04318",
+          "q": "Why monitor equality data in services?",
+          "options": [
+            {
+              "text": "To spot and address unequal access or outcomes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For curiosity",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not allowed",
+              "correct": false,
+              "feedback": "It is, with care."
+            },
+            {
+              "text": "To exclude groups",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04319",
+          "q": "Which adjustment helps a patient with dyslexia?",
+          "options": [
+            {
+              "text": "Clear verbal explanations and accessible written information",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dense small print",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Adjust."
+            },
+            {
+              "text": "Rushing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04320",
+          "q": "Age discrimination would be",
+          "options": [
+            {
+              "text": "refusing a test simply because someone is old",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "adjusting for age-related needs",
+              "correct": false,
+              "feedback": "That's fine."
+            },
+            {
+              "text": "giving a free NHS test to over-60s",
+              "correct": false,
+              "feedback": "Lawful."
+            },
+            {
+              "text": "recording date of birth",
+              "correct": false,
+              "feedback": "Fine."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04321",
+          "q": "Which is an inclusive form question about sex and gender?",
+          "options": [
+            {
+              "text": "One that allows people to describe themselves accurately",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "One that forces a single answer",
+              "correct": false,
+              "feedback": "Less inclusive."
+            },
+            {
+              "text": "None asked ever",
+              "correct": false,
+              "feedback": "Records need some data."
+            },
+            {
+              "text": "One that mocks",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04322",
+          "q": "Unconscious bias can affect",
+          "options": [
+            {
+              "text": "clinical decisions and communication",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "only hiring",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "only patients",
+              "correct": false,
+              "feedback": "Clinicians too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04323",
+          "q": "Which is a reasonable adjustment for a wheelchair user at the slit lamp?",
+          "options": [
+            {
+              "text": "A movable instrument table or adjustable equipment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Asking them to stand",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Skipping the exam",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Adjust."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04324",
+          "q": "Racial harassment at work should be",
+          "options": [
+            {
+              "text": "reported and dealt with under policy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "tolerated",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "joked about",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04325",
+          "q": "Why is equality, diversity and inclusion part of professional standards?",
+          "options": [
+            {
+              "text": "Patients and colleagues must be treated fairly and with respect",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's fashionable",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It's optional",
+              "correct": false,
+              "feedback": "It isn't."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04326",
+          "q": "What does 'inclusion' add beyond diversity?",
+          "options": [
+            {
+              "text": "People feel valued and able to take part fully",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It adds belonging."
+            },
+            {
+              "text": "Counting people",
+              "correct": false,
+              "feedback": "That's monitoring."
+            },
+            {
+              "text": "Removing differences",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04327",
+          "q": "A patient refuses to be seen by a practitioner because of their race. What should happen?",
+          "options": [
+            {
+              "text": "Follow policy: this is discriminatory and staff should be supported",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Always agree",
+              "correct": false,
+              "feedback": "Not for discriminatory reasons."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Argue publicly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04328",
+          "q": "Which is an example of indirect discrimination?",
+          "options": [
+            {
+              "text": "Requiring all patients to book online only",
+              "correct": true,
+              "feedback": "Yes: may disadvantage some groups."
+            },
+            {
+              "text": "Refusing someone because of their religion",
+              "correct": false,
+              "feedback": "Direct."
+            },
+            {
+              "text": "Harassing a colleague",
+              "correct": false,
+              "feedback": "Harassment."
+            },
+            {
+              "text": "Punishing a complainant",
+              "correct": false,
+              "feedback": "Victimisation."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04329",
+          "q": "Which law requires reasonable adjustments for disabled people?",
+          "options": [
+            {
+              "text": "The Equality Act 2010",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "GDPR",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The Opticians Act",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The Road Traffic Act",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "doc-edi-x04330",
+          "q": "Why use plain English in patient materials?",
+          "options": [
+            {
+              "text": "It's more accessible to everyone",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's less professional",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's required for children only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
         },
         {
           "id": "doc-edi-x0071",
