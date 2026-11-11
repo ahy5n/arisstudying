@@ -148,6 +148,195 @@
           ],
           "explanation": "Preservative toxicity is a common cause of surface disease in long-term drop users.",
           "link": "pha-pharmacokinetics#formulations"
+        },
+        {
+          "id": "pha-pharmacokinetics-x0071",
+          "q": "About how much of a typical eye drop does the eye hold?",
+          "options": [
+            {
+              "text": "About 7–10 µl of a 30–50 µl drop",
+              "correct": true,
+              "feedback": "Yes: most is lost."
+            },
+            {
+              "text": "All of it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Half",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Some is held."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-pharmacokinetics-x0072",
+          "q": "Why can eye drops cause systemic effects?",
+          "options": [
+            {
+              "text": "They drain through the nasolacrimal duct into the nose and blood, bypassing the liver",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're swallowed",
+              "correct": false,
+              "feedback": "Not directly."
+            },
+            {
+              "text": "They're injected",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They can't",
+              "correct": false,
+              "feedback": "They can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-pharmacokinetics-x0073",
+          "q": "How can a patient reduce systemic absorption?",
+          "options": [
+            {
+              "text": "Close the eyes or press on the inner corner for 1–2 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Blink rapidly",
+              "correct": false,
+              "feedback": "That pumps tears away."
+            },
+            {
+              "text": "Instil more drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lie down",
+              "correct": false,
+              "feedback": "Not the method."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-pharmacokinetics-x0074",
+          "q": "Why may dark irides dilate more slowly?",
+          "options": [
+            {
+              "text": "Melanin binds some drugs",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're smaller",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They have no muscles",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They don't",
+              "correct": false,
+              "feedback": "They can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-pharmacokinetics-x0075",
+          "q": "The corneal epithelium is",
+          "options": [
+            {
+              "text": "lipophilic",
+              "correct": true,
+              "feedback": "Yes; the stroma is hydrophilic."
+            },
+            {
+              "text": "hydrophilic",
+              "correct": false,
+              "feedback": "That's the stroma."
+            },
+            {
+              "text": "impermeable",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "absent",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-pharmacokinetics-x0076",
+          "q": "What's the downside of benzalkonium chloride?",
+          "options": [
+            {
+              "text": "It can damage the ocular surface with long-term use",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It makes drops unsterile",
+              "correct": false,
+              "feedback": "It keeps them sterile."
+            },
+            {
+              "text": "It colours the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "It has downsides."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-pharmacokinetics-x0077",
+          "q": "Which drug properties penetrate the cornea best?",
+          "options": [
+            {
+              "text": "Both lipophilic and hydrophilic properties",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only lipophilic",
+              "correct": false,
+              "feedback": "Blocked by stroma."
+            },
+            {
+              "text": "Only hydrophilic",
+              "correct": false,
+              "feedback": "Blocked by epithelium."
+            },
+            {
+              "text": "Large molecules",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -342,6 +531,141 @@
             }
           ],
           "explanation": "PaP week 9, slide 6."
+        },
+        {
+          "id": "pha-diagnostic-drugs-x0071",
+          "q": "Which drug is first choice for dilation?",
+          "options": [
+            {
+              "text": "Tropicamide",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Cyclopentolate",
+              "correct": false,
+              "feedback": "Cycloplegia."
+            },
+            {
+              "text": "Atropine",
+              "correct": false,
+              "feedback": "Too long-acting."
+            },
+            {
+              "text": "Pilocarpine",
+              "correct": false,
+              "feedback": "Miotic."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-diagnostic-drugs-x0072",
+          "q": "Should you dilate a patient with an iris-clip lens?",
+          "options": [
+            {
+              "text": "No",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes, always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only with phenylephrine",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only children",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-diagnostic-drugs-x0073",
+          "q": "When should vision be rechecked after cycloplegic refraction?",
+          "options": [
+            {
+              "text": "After it wears off (24–48 hours)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Immediately",
+              "correct": false,
+              "feedback": "Still cyclopleged."
+            },
+            {
+              "text": "After a year",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Recheck."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-diagnostic-drugs-x0074",
+          "q": "What should you always check after topical anaesthetic use?",
+          "options": [
+            {
+              "text": "Corneal staining",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP only",
+              "correct": false,
+              "feedback": "Not the key point."
+            },
+            {
+              "text": "Colour vision",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Check staining."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-diagnostic-drugs-x0075",
+          "q": "What advice follows dilation?",
+          "options": [
+            {
+              "text": "Sunglasses, and no driving, cycling or machinery until vision recovers",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Drive straight home",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Always advise."
+            },
+            {
+              "text": "Rub the eyes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -526,6 +850,195 @@
             }
           ],
           "explanation": "Topical beta-blockers are contraindicated in asthma."
+        },
+        {
+          "id": "pha-adverse-reactions-x0071",
+          "q": "Which reaction type is 'delayed'?",
+          "options": [
+            {
+              "text": "Type D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Type A",
+              "correct": false,
+              "feedback": "Dose-related."
+            },
+            {
+              "text": "Type C",
+              "correct": false,
+              "feedback": "Continuing."
+            },
+            {
+              "text": "Type E",
+              "correct": false,
+              "feedback": "End-of-use."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-adverse-reactions-x0072",
+          "q": "Which is a systemic effect of tropicamide?",
+          "options": [
+            {
+              "text": "Dry mouth and tachycardia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hearing loss",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Hair loss",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Weight gain",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-adverse-reactions-x0073",
+          "q": "What's the major ocular reaction to topical anaesthetics?",
+          "options": [
+            {
+              "text": "Corneal desquamation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Retinal detachment",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-adverse-reactions-x0074",
+          "q": "How long should CL wearers wait after an anaesthetic before reinserting lenses?",
+          "options": [
+            {
+              "text": "25 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 minute",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "1 week",
+              "correct": false,
+              "feedback": "Too long."
+            },
+            {
+              "text": "No wait",
+              "correct": false,
+              "feedback": "Wait."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-adverse-reactions-x0075",
+          "q": "Signs of atropine poisoning include",
+          "options": [
+            {
+              "text": "hot, dry, flushed skin and a fast pulse",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "slow pulse",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "sweating",
+              "correct": false,
+              "feedback": "Dry skin."
+            },
+            {
+              "text": "pinpoint pupils",
+              "correct": false,
+              "feedback": "Dilated."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-adverse-reactions-x0076",
+          "q": "Chloramphenicol should be avoided in",
+          "options": [
+            {
+              "text": "pregnancy, breastfeeding and neonates",
+              "correct": true,
+              "feedback": "Yes (grey baby syndrome)."
+            },
+            {
+              "text": "adults",
+              "correct": false,
+              "feedback": "Used."
+            },
+            {
+              "text": "contact lens wearers",
+              "correct": false,
+              "feedback": "Not specifically."
+            },
+            {
+              "text": "everyone",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-adverse-reactions-x0077",
+          "q": "Which drugs need ALL suspected reactions reported?",
+          "options": [
+            {
+              "text": "Black-triangle drugs",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "All established drugs",
+              "correct": false,
+              "feedback": "Serious ones only."
+            },
+            {
+              "text": "Herbal remedies",
+              "correct": false,
+              "feedback": "Serious ones."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Black-triangle drugs do."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -722,6 +1235,168 @@
             }
           ],
           "explanation": "PaP legislation lecture, slide 12."
+        },
+        {
+          "id": "pha-law-x0071",
+          "q": "Who enforces the Human Medicines Regulations?",
+          "options": [
+            {
+              "text": "The MHRA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The GOC",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The NHS",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The College",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-law-x0072",
+          "q": "Which category can only be sold under a pharmacist?",
+          "options": [
+            {
+              "text": "P (pharmacy)",
+              "correct": true,
+              "feedback": "Yes; POM needs a prescription."
+            },
+            {
+              "text": "GSL",
+              "correct": false,
+              "feedback": "Any shop."
+            },
+            {
+              "text": "Medical devices",
+              "correct": false,
+              "feedback": "Different rules."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "P does."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-law-x0073",
+          "q": "Are eye drops available as GSL?",
+          "options": [
+            {
+              "text": "No",
+              "correct": true,
+              "feedback": "Yes: mainly eye lotions are GSL for optometrists."
+            },
+            {
+              "text": "Yes, all of them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only antibiotics",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only anaesthetics",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-law-x0074",
+          "q": "Which optometrists can supply AS drugs?",
+          "options": [
+            {
+              "text": "Those with Additional Supply training registered with the GOC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "All optometrists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Students",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Dispensing opticians",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-law-x0075",
+          "q": "What must a signed order include?",
+          "options": [
+            {
+              "text": "Your name, address, GOC number, drug details and original signature",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the drug name",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "The patient's NHS number only",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "A photocopy signature",
+              "correct": false,
+              "feedback": "Original needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-law-x0076",
+          "q": "Supplementary prescribing works with",
+          "options": [
+            {
+              "text": "an independent prescriber under a clinical management plan",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no doctor involvement",
+              "correct": false,
+              "feedback": "That's independent."
+            },
+            {
+              "text": "pharmacists only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "patients only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -883,6 +1558,168 @@
           ],
           "explanation": "Mast cell stabilisers work best started early.",
           "link": "pha-anti-infectives-inflammatories#anti-allergy-drugs"
+        },
+        {
+          "id": "pha-anti-infectives-inflammatories-x0071",
+          "q": "Most acute bacterial conjunctivitis",
+          "options": [
+            {
+              "text": "gets better on its own; chloramphenicol may speed recovery",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "needs hospital admission",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "needs steroids",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "causes blindness",
+              "correct": false,
+              "feedback": "Rarely."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-anti-infectives-inflammatories-x0072",
+          "q": "Herpes simplex dendritic ulcers are treated with",
+          "options": [
+            {
+              "text": "an antiviral such as aciclovir or ganciclovir, never steroids alone",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "steroids",
+              "correct": false,
+              "feedback": "Dangerous alone."
+            },
+            {
+              "text": "antihistamines",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Treat."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-anti-infectives-inflammatories-x0073",
+          "q": "Which drug is a mast cell stabiliser?",
+          "options": [
+            {
+              "text": "Sodium cromoglicate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Chloramphenicol",
+              "correct": false,
+              "feedback": "Antibiotic."
+            },
+            {
+              "text": "Timolol",
+              "correct": false,
+              "feedback": "Glaucoma."
+            },
+            {
+              "text": "Ketorolac",
+              "correct": false,
+              "feedback": "NSAID."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-anti-infectives-inflammatories-x0074",
+          "q": "Which is a risk of topical steroids?",
+          "options": [
+            {
+              "text": "Raised IOP and cataract",
+              "correct": true,
+              "feedback": "Yes, and worsening herpes or fungal infection."
+            },
+            {
+              "text": "Lower IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Better infection control",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "They have risks."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-anti-infectives-inflammatories-x0075",
+          "q": "Contact lens keratitis is an emergency because of",
+          "options": [
+            {
+              "text": "Pseudomonas and Acanthamoeba",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "allergy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cost",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-anti-infectives-inflammatories-x0076",
+          "q": "Topical NSAIDs are used mainly",
+          "options": [
+            {
+              "text": "for pain and inflammation after cataract surgery",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "for glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "for dilation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "for dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1044,6 +1881,168 @@
           ],
           "explanation": "Alpha-2 agonists can cause CNS depression in young children.",
           "link": "pha-glaucoma-medicines#side-effects-to-watch-for"
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0071",
+          "q": "How do prostaglandin analogues lower IOP?",
+          "options": [
+            {
+              "text": "By increasing uveoscleral outflow",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "By reducing production",
+              "correct": false,
+              "feedback": "That's beta-blockers."
+            },
+            {
+              "text": "By constricting the pupil",
+              "correct": false,
+              "feedback": "That's pilocarpine."
+            },
+            {
+              "text": "By drying the eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0072",
+          "q": "Which glaucoma drug should be avoided in asthma?",
+          "options": [
+            {
+              "text": "Timolol (a beta-blocker)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Latanoprost",
+              "correct": false,
+              "feedback": "Not a contraindication."
+            },
+            {
+              "text": "Dorzolamide",
+              "correct": false,
+              "feedback": "Not this one."
+            },
+            {
+              "text": "Brimonidine",
+              "correct": false,
+              "feedback": "Avoid in young children."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0073",
+          "q": "What does NICE NG81 offer first for ocular hypertension or COAG?",
+          "options": [
+            {
+              "text": "Selective laser trabeculoplasty",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Surgery",
+              "correct": false,
+              "feedback": "Not first."
+            },
+            {
+              "text": "Oral acetazolamide",
+              "correct": false,
+              "feedback": "Short term only."
+            },
+            {
+              "text": "No treatment",
+              "correct": false,
+              "feedback": "Treatment is offered."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0074",
+          "q": "Which drug class is acetazolamide?",
+          "options": [
+            {
+              "text": "Carbonic anhydrase inhibitor",
+              "correct": true,
+              "feedback": "Yes, oral and short-term."
+            },
+            {
+              "text": "Prostaglandin analogue",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Beta-blocker",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Alpha-2 agonist",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0075",
+          "q": "Brimonidine should be avoided in",
+          "options": [
+            {
+              "text": "young children",
+              "correct": true,
+              "feedback": "Yes; allergy is common too."
+            },
+            {
+              "text": "adults",
+              "correct": false,
+              "feedback": "Used."
+            },
+            {
+              "text": "the elderly",
+              "correct": false,
+              "feedback": "Used with care."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "Avoid in young children."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0076",
+          "q": "Why is adherence a problem in glaucoma?",
+          "options": [
+            {
+              "text": "Forgetting drops, poor technique and side effects",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Drops cure it quickly",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Drops are always painful",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "It isn't a problem",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -1229,6 +2228,168 @@
             }
           ],
           "explanation": "Adverse reactions 2, slide 9."
+        },
+        {
+          "id": "pha-systemic-side-effects-x0081",
+          "q": "Amiodarone corneal deposits usually",
+          "options": [
+            {
+              "text": "appear within about 3 months and clear 3–7 months after stopping",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "are permanent",
+              "correct": false,
+              "feedback": "They're reversible."
+            },
+            {
+              "text": "stain with fluorescein",
+              "correct": false,
+              "feedback": "They don't."
+            },
+            {
+              "text": "cause pain",
+              "correct": false,
+              "feedback": "Usually not."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-systemic-side-effects-x0082",
+          "q": "Vigabatrin field defects are",
+          "options": [
+            {
+              "text": "irreversible and dose-dependent, in about 30% of patients",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "reversible",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "rare (under 1%)",
+              "correct": false,
+              "feedback": "More common."
+            },
+            {
+              "text": "only central",
+              "correct": false,
+              "feedback": "Mainly peripheral constriction."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-systemic-side-effects-x0083",
+          "q": "Hydroxychloroquine causes which maculopathy?",
+          "options": [
+            {
+              "text": "Bull's eye maculopathy (1–2%)",
+              "correct": true,
+              "feedback": "Yes: check the perimacular field."
+            },
+            {
+              "text": "Wet AMD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Macular hole",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cystoid oedema only",
+              "correct": false,
+              "feedback": "Not the classic."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-systemic-side-effects-x0084",
+          "q": "Which cataract do systemic steroids cause?",
+          "options": [
+            {
+              "text": "Posterior subcapsular",
+              "correct": true,
+              "feedback": "Yes, bilateral and irreversible."
+            },
+            {
+              "text": "Nuclear only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cortical only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "They do."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-systemic-side-effects-x0085",
+          "q": "Tamoxifen is used for",
+          "options": [
+            {
+              "text": "breast cancer",
+              "correct": true,
+              "feedback": "Yes; it can cause retinopathy, keratopathy and PSC."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "epilepsy",
+              "correct": false,
+              "feedback": "That's vigabatrin."
+            },
+            {
+              "text": "arrhythmia",
+              "correct": false,
+              "feedback": "That's amiodarone."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pha-systemic-side-effects-x0086",
+          "q": "Which drugs cause vortex keratopathy?",
+          "options": [
+            {
+              "text": "Amiodarone, chloroquine, tamoxifen, chlorpromazine and indometacin",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Timolol and latanoprost",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tropicamide",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Paracetamol",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],

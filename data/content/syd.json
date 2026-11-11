@@ -121,6 +121,249 @@
             }
           ],
           "explanation": "Headache, jaw claudication and transient vision loss in an older person suggest GCA, a sight-threatening emergency needing urgent blood tests and steroids."
+        },
+        {
+          "id": "syd-case-history-x0061",
+          "q": "What does the E in LOFTSEA stand for?",
+          "options": [
+            {
+              "text": "Effect on the patient",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Eye affected",
+              "correct": false,
+              "feedback": "That's location."
+            },
+            {
+              "text": "Exacerbating factors",
+              "correct": false,
+              "feedback": "Not in LOFTSEA."
+            },
+            {
+              "text": "Examination",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0062",
+          "q": "Visual problems tend to occur",
+          "options": [
+            {
+              "text": "with eye use, on weekdays and building through the day",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "only at night",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "on waking only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "randomly",
+              "correct": false,
+              "feedback": "They follow eye use."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0063",
+          "q": "Diplopia persists with one eye closed. What does it suggest?",
+          "options": [
+            {
+              "text": "Monocular diplopia, e.g. cataract or irregular astigmatism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A sixth nerve palsy",
+              "correct": false,
+              "feedback": "That's binocular."
+            },
+            {
+              "text": "Decompensated phoria",
+              "correct": false,
+              "feedback": "Binocular."
+            },
+            {
+              "text": "Myasthenia",
+              "correct": false,
+              "feedback": "Binocular."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0064",
+          "q": "Which systemic conditions should you ask about specifically?",
+          "options": [
+            {
+              "text": "High blood pressure and diabetes",
+              "correct": true,
+              "feedback": "Yes, and how long and when last checked."
+            },
+            {
+              "text": "Broken bones",
+              "correct": false,
+              "feedback": "Not specifically."
+            },
+            {
+              "text": "Hay fever only",
+              "correct": false,
+              "feedback": "Not the key ones."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Always ask."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0065",
+          "q": "Why ask about smoking?",
+          "options": [
+            {
+              "text": "It's the strongest environmental risk factor for AMD and raises cataract risk",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It affects VA immediately",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To decide lens coatings",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not relevant",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0066",
+          "q": "Over what proportion of diagnoses can come from a good history?",
+          "options": [
+            {
+              "text": "Over 70%",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 10%",
+              "correct": false,
+              "feedback": "Far too low."
+            },
+            {
+              "text": "About 30%",
+              "correct": false,
+              "feedback": "Too low."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0067",
+          "q": "How long is a patient's uninterrupted talking time typically?",
+          "options": [
+            {
+              "text": "About 30 seconds to a minute",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 10 minutes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 5 seconds",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About an hour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0068",
+          "q": "Constant distance blur developing gradually in an older patient suggests",
+          "options": [
+            {
+              "text": "nuclear sclerosis causing a myopic shift",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "That affects near."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "Usually variable."
+            },
+            {
+              "text": "migraine",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-case-history-x0069",
+          "q": "Which records the reason for visit best?",
+          "options": [
+            {
+              "text": "The patient's own words, in quotation marks",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Your diagnosis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "'Routine' always",
+              "correct": false,
+              "feedback": "Only if it is."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Always record it."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -227,6 +470,222 @@
           ],
           "explanation": "Photophobia, ciliary flush and AC cells/flare point to anterior uveitis; it needs prompt referral.",
           "link": "syd-differential#writing-it-down"
+        },
+        {
+          "id": "syd-differential-x0061",
+          "q": "When building a differential, which diagnoses must stay on the list until ruled out?",
+          "options": [
+            {
+              "text": "'Can't miss' ones such as retinal detachment, GCA and angle closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the commonest",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Only rare ones",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only infections",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0062",
+          "q": "Which test best discriminates an optic nerve problem from cataract?",
+          "options": [
+            {
+              "text": "Pupils (RAPD)",
+              "correct": true,
+              "feedback": "Yes: cataract never causes an RAPD."
+            },
+            {
+              "text": "Keratometry",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Refraction",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour of the iris",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0063",
+          "q": "A red eye in one eye only suggests which possibilities?",
+          "options": [
+            {
+              "text": "Infection, acute glaucoma or iritis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Allergic conjunctivitis",
+              "correct": false,
+              "feedback": "Usually both eyes."
+            },
+            {
+              "text": "Viral conjunctivitis only",
+              "correct": false,
+              "feedback": "Often starts in one but spreads."
+            },
+            {
+              "text": "Dry eye",
+              "correct": false,
+              "feedback": "Usually both."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0064",
+          "q": "How should differentials be ranked?",
+          "options": [
+            {
+              "text": "By likelihood and by seriousness",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Alphabetically",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "By cost",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Randomly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0065",
+          "q": "Thinking 'vascular, inflammatory, infective, degenerative, neoplastic, traumatic' is a way of",
+          "options": [
+            {
+              "text": "thinking by mechanism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "grading staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "classifying lenses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "recording VA",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0066",
+          "q": "What should you do when new results come in?",
+          "options": [
+            {
+              "text": "Revisit and update the differential list",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ignore them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Start again from scratch every time",
+              "correct": false,
+              "feedback": "Update, don't restart."
+            },
+            {
+              "text": "Refer immediately",
+              "correct": false,
+              "feedback": "Not necessarily."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0067",
+          "q": "Sudden painless loss of vision in one eye: which is a 'can't miss' cause?",
+          "options": [
+            {
+              "text": "Retinal detachment or vascular occlusion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Presbyopia",
+              "correct": false,
+              "feedback": "Not sudden."
+            },
+            {
+              "text": "Blepharitis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pinguecula",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-differential-x0068",
+          "q": "Which pupil finding suggests acute angle closure?",
+          "options": [
+            {
+              "text": "Oval and mid-dilated",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Small and irregular",
+              "correct": false,
+              "feedback": "Iritis."
+            },
+            {
+              "text": "Normal",
+              "correct": false,
+              "feedback": "Not typical."
+            },
+            {
+              "text": "Pinpoint",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -378,6 +837,222 @@
           ],
           "explanation": "Fluctuating glucose changes the lens; wait for stability (and check the fundus) before finalising a prescription.",
           "link": "syd-diabetes#diabetes-and-refraction"
+        },
+        {
+          "id": "syd-diabetes-x0061",
+          "q": "What is the earliest sign of diabetic retinopathy?",
+          "options": [
+            {
+              "text": "Microaneurysms",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "New vessels",
+              "correct": false,
+              "feedback": "That's proliferative."
+            },
+            {
+              "text": "Cotton wool spots",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Venous beading",
+              "correct": false,
+              "feedback": "Pre-proliferative."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0062",
+          "q": "New vessels on the disc mean",
+          "options": [
+            {
+              "text": "proliferative retinopathy (R3A)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "background retinopathy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "maculopathy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no retinopathy",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0063",
+          "q": "Which finding counts as maculopathy (M1)?",
+          "options": [
+            {
+              "text": "Exudate within 1 disc diameter of the fovea",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A single microaneurysm far from the macula",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cotton wool spot near the disc",
+              "correct": false,
+              "feedback": "Not M1."
+            },
+            {
+              "text": "Venous beading",
+              "correct": false,
+              "feedback": "That's R2."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0064",
+          "q": "From what age should people with diabetes attend screening?",
+          "options": [
+            {
+              "text": "12",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "40",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "18",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "Birth",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0065",
+          "q": "Which risk factor speeds progression?",
+          "options": [
+            {
+              "text": "Poor glucose control (high HbA1c)",
+              "correct": true,
+              "feedback": "Yes, also BP, lipids, pregnancy."
+            },
+            {
+              "text": "Myopia",
+              "correct": false,
+              "feedback": "Tends to protect."
+            },
+            {
+              "text": "Good control",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Contact lens wear",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0066",
+          "q": "Why may a diabetic patient's refraction fluctuate?",
+          "options": [
+            {
+              "text": "Blood sugar changes alter the lens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Dry eye only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Macular holes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0067",
+          "q": "Which feature is pre-proliferative (R2)?",
+          "options": [
+            {
+              "text": "Venous beading or IRMA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "New vessels",
+              "correct": false,
+              "feedback": "R3."
+            },
+            {
+              "text": "A single microaneurysm",
+              "correct": false,
+              "feedback": "R1."
+            },
+            {
+              "text": "Hard exudate at the fovea",
+              "correct": false,
+              "feedback": "Maculopathy."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diabetes-x0068",
+          "q": "A diabetic third nerve palsy often",
+          "options": [
+            {
+              "text": "spares the pupil",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dilates the pupil",
+              "correct": false,
+              "feedback": "That suggests compression."
+            },
+            {
+              "text": "causes RAPD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "causes nystagmus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -477,6 +1152,249 @@
           ],
           "explanation": "NICE NG136: BP ≥180/120 with papilloedema or retinal haemorrhages needs same-day specialist assessment.",
           "link": "syd-hypertension#what-to-do"
+        },
+        {
+          "id": "syd-hypertension-x0061",
+          "q": "Which is a chronic hypertensive retinal change?",
+          "options": [
+            {
+              "text": "AV nipping and arteriolar narrowing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Disc swelling",
+              "correct": false,
+              "feedback": "Acute/severe."
+            },
+            {
+              "text": "Flame haemorrhages",
+              "correct": false,
+              "feedback": "Acute."
+            },
+            {
+              "text": "Cotton wool spots",
+              "correct": false,
+              "feedback": "Acute."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0062",
+          "q": "What does copper or silver wiring indicate?",
+          "options": [
+            {
+              "text": "Arteriosclerosis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Diabetes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal vessels",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0063",
+          "q": "BP of 185/125 with retinal haemorrhages needs",
+          "options": [
+            {
+              "text": "same-day specialist assessment (NICE NG136)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "routine GP referral",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "review in a year",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0064",
+          "q": "Which occlusion is hypertension a risk factor for?",
+          "options": [
+            {
+              "text": "Retinal vein (and artery) occlusion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Lacrimal duct occlusion",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Punctal occlusion",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "It's a major risk factor."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0065",
+          "q": "Which is a simpler hypertensive retinopathy classification?",
+          "options": [
+            {
+              "text": "Wong-Mitchell (mild, moderate, malignant)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keith-Wagener-Barker",
+              "correct": false,
+              "feedback": "Older, grades 1–4."
+            },
+            {
+              "text": "Efron",
+              "correct": false,
+              "feedback": "That's CL grading."
+            },
+            {
+              "text": "Oxford",
+              "correct": false,
+              "feedback": "Staining."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0066",
+          "q": "Why might an optometrist detect hypertension first?",
+          "options": [
+            {
+              "text": "It's often symptomless, so fundus signs may be the first clue",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Patients always report headaches",
+              "correct": false,
+              "feedback": "Often they don't."
+            },
+            {
+              "text": "Optometrists measure it routinely everywhere",
+              "correct": false,
+              "feedback": "Not routinely."
+            },
+            {
+              "text": "It changes VA early",
+              "correct": false,
+              "feedback": "Usually not."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0067",
+          "q": "A macular star of exudates suggests",
+          "options": [
+            {
+              "text": "severe hypertension (or other causes of disc swelling)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dry AMD",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0068",
+          "q": "Normal A:V ratio is about",
+          "options": [
+            {
+              "text": "2:3",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "3:2",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "1:4",
+              "correct": false,
+              "feedback": "Too narrow."
+            },
+            {
+              "text": "1:1",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-hypertension-x0069",
+          "q": "Which ocular condition is linked to hypertension?",
+          "options": [
+            {
+              "text": "Ischaemic optic neuropathy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keratoconus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pinguecula",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Presbyopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -610,6 +1528,195 @@
           ],
           "explanation": "False positives (pressing without a stimulus) inflate sensitivity, hiding real defects.",
           "link": "syd-clinical-data#visual-field-reliability"
+        },
+        {
+          "id": "syd-clinical-data-x0061",
+          "q": "VA is 6/18 and doesn't improve with pinhole. What does it suggest?",
+          "options": [
+            {
+              "text": "A non-refractive cause",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Uncorrected myopia",
+              "correct": false,
+              "feedback": "Pinhole would help."
+            },
+            {
+              "text": "Normal vision",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Presbyopia",
+              "correct": false,
+              "feedback": "Near problem."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-clinical-data-x0062",
+          "q": "What should you check first on a visual field printout?",
+          "options": [
+            {
+              "text": "Reliability",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The diagnosis",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "The greyscale",
+              "correct": false,
+              "feedback": "After reliability."
+            },
+            {
+              "text": "The date",
+              "correct": false,
+              "feedback": "Not first."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-clinical-data-x0063",
+          "q": "A bitemporal field defect suggests a lesion at the",
+          "options": [
+            {
+              "text": "chiasm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "occipital cortex",
+              "correct": false,
+              "feedback": "Homonymous."
+            },
+            {
+              "text": "cornea",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-clinical-data-x0064",
+          "q": "Why compare right with left and today with previous visits?",
+          "options": [
+            {
+              "text": "Change and asymmetry are often the key",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To fill the record",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's quicker",
+              "correct": false,
+              "feedback": "Not the point."
+            },
+            {
+              "text": "Patients like it",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-clinical-data-x0065",
+          "q": "Which is a normal IOP range?",
+          "options": [
+            {
+              "text": "About 10–21 mmHg",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "25–35 mmHg",
+              "correct": false,
+              "feedback": "High."
+            },
+            {
+              "text": "0–5 mmHg",
+              "correct": false,
+              "feedback": "Low."
+            },
+            {
+              "text": "40 mmHg",
+              "correct": false,
+              "feedback": "High."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-clinical-data-x0066",
+          "q": "How should a clinical data question be finished?",
+          "options": [
+            {
+              "text": "Diagnosis, differentials, management and urgency",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Just the diagnosis",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Just the Rx",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "'Refer'",
+              "correct": false,
+              "feedback": "Say how and how urgently."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-clinical-data-x0067",
+          "q": "Asymmetric CD ratios of 0.3 and 0.7 in similar-sized discs suggest",
+          "options": [
+            {
+              "text": "possible glaucoma",
+              "correct": true,
+              "feedback": "Yes: asymmetry over about 0.2 is suspicious."
+            },
+            {
+              "text": "normal variation",
+              "correct": false,
+              "feedback": "Not with that asymmetry."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -746,6 +1853,222 @@
           ],
           "explanation": "Good referrals give precise findings with method, time and comparison between eyes.",
           "link": "syd-referral#a-good-referral-letter"
+        },
+        {
+          "id": "syd-referral-x0061",
+          "q": "Which needs emergency (same-day) referral?",
+          "options": [
+            {
+              "text": "Acute angle closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Stable cataract",
+              "correct": false,
+              "feedback": "Routine."
+            },
+            {
+              "text": "Suspected COAG",
+              "correct": false,
+              "feedback": "Routine."
+            },
+            {
+              "text": "Blepharitis",
+              "correct": false,
+              "feedback": "Manage in practice."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0062",
+          "q": "What should you do first for a chemical injury?",
+          "options": [
+            {
+              "text": "Irrigate immediately, then refer as an emergency",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Refer without treatment",
+              "correct": false,
+              "feedback": "Irrigate first."
+            },
+            {
+              "text": "Pad the eye",
+              "correct": false,
+              "feedback": "Don't pad."
+            },
+            {
+              "text": "Book a routine appointment",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0063",
+          "q": "Suspected wet AMD should be referred",
+          "options": [
+            {
+              "text": "urgently via the fast-track pathway",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "routinely",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "not at all",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "to the GP only",
+              "correct": false,
+              "feedback": "Use the fast-track pathway."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0064",
+          "q": "Which is routine?",
+          "options": [
+            {
+              "text": "Cataract affecting lifestyle",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Retinal detachment",
+              "correct": false,
+              "feedback": "Emergency."
+            },
+            {
+              "text": "Suspected GCA",
+              "correct": false,
+              "feedback": "Emergency."
+            },
+            {
+              "text": "Microbial keratitis",
+              "correct": false,
+              "feedback": "Emergency."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0065",
+          "q": "What should a referral letter include?",
+          "options": [
+            {
+              "text": "Patient details, reason and urgency, history and findings with numbers",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the patient's name",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Your opinion of the GP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing written",
+              "correct": false,
+              "feedback": "It should be written."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0066",
+          "q": "What should you tell the patient?",
+          "options": [
+            {
+              "text": "Why, how urgently, and what to do if it gets worse",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only the hospital name",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "That it's nothing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0067",
+          "q": "Where would you send a painful red eye with reduced vision today?",
+          "options": [
+            {
+              "text": "Eye casualty",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "GP next month",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "Routine hospital list",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "No referral",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-referral-x0068",
+          "q": "Suspected GCA needs",
+          "options": [
+            {
+              "text": "same-day referral",
+              "correct": true,
+              "feedback": "Yes: risk of sudden blindness."
+            },
+            {
+              "text": "routine referral",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "review in 3 months",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -860,6 +2183,195 @@
             }
           ],
           "explanation": "From the conjunctivitis and papillae-versus-follicle tables."
+        },
+        {
+          "id": "syd-red-eye-x0061",
+          "q": "Bilateral red eyes with itching and papillae suggest",
+          "options": [
+            {
+              "text": "allergic conjunctivitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "bacterial conjunctivitis",
+              "correct": false,
+              "feedback": "Mucoid discharge."
+            },
+            {
+              "text": "iritis",
+              "correct": false,
+              "feedback": "Usually one eye with pain."
+            },
+            {
+              "text": "angle closure",
+              "correct": false,
+              "feedback": "One eye, painful."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-red-eye-x0062",
+          "q": "Mucoid, crusty discharge with lids stuck together suggests",
+          "options": [
+            {
+              "text": "bacterial conjunctivitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "viral",
+              "correct": false,
+              "feedback": "Watery."
+            },
+            {
+              "text": "allergic",
+              "correct": false,
+              "feedback": "Watery."
+            },
+            {
+              "text": "episcleritis",
+              "correct": false,
+              "feedback": "No discharge."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-red-eye-x0063",
+          "q": "Which corneal ulcer is more likely in a contact lens wearer who smokes?",
+          "options": [
+            {
+              "text": "Infectious",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Non-infectious",
+              "correct": false,
+              "feedback": "That's linked to systemic disease."
+            },
+            {
+              "text": "Marginal keratitis",
+              "correct": false,
+              "feedback": "Painless here."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-red-eye-x0064",
+          "q": "Which is NOT typical of scleritis?",
+          "options": [
+            {
+              "text": "Vessels that move over the sclera",
+              "correct": true,
+              "feedback": "That's episcleritis."
+            },
+            {
+              "text": "Moderate to severe pain",
+              "correct": false,
+              "feedback": "Typical."
+            },
+            {
+              "text": "Reduced VA",
+              "correct": false,
+              "feedback": "Typical."
+            },
+            {
+              "text": "Cells and flare",
+              "correct": false,
+              "feedback": "Can occur."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-red-eye-x0065",
+          "q": "Endophthalmitis typically shows",
+          "options": [
+            {
+              "text": "sudden pain with cells, flare and hypopyon",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Itch and papillae",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Painless white eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal AC",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-red-eye-x0066",
+          "q": "Follicles are found mainly in the",
+          "options": [
+            {
+              "text": "lower fornix",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "upper tarsal plate",
+              "correct": false,
+              "feedback": "That's papillae."
+            },
+            {
+              "text": "cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "iris",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-red-eye-x0067",
+          "q": "Recurrent corneal erosion in the tutorial table shows",
+          "options": [
+            {
+              "text": "pain and photophobia with staining but no infiltrate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no symptoms",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a large infiltrate",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "hypopyon",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [
@@ -944,6 +2456,249 @@
             }
           ],
           "explanation": "From the proptosis tutorial table."
+        },
+        {
+          "id": "syd-lids-orbit-x0061",
+          "q": "Which needs urgent (within 2 weeks) referral?",
+          "options": [
+            {
+              "text": "Ectropion with corneal staining",
+              "correct": true,
+              "feedback": "Yes; routine if the cornea is normal."
+            },
+            {
+              "text": "Ectropion with a normal cornea",
+              "correct": false,
+              "feedback": "Routine."
+            },
+            {
+              "text": "Mild blepharitis",
+              "correct": false,
+              "feedback": "Manage in practice."
+            },
+            {
+              "text": "A chalazion",
+              "correct": false,
+              "feedback": "Usually routine."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0062",
+          "q": "Myasthenia gravis lid sign?",
+          "options": [
+            {
+              "text": "Fatigable ptosis, worse on sustained upgaze",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Lid retraction",
+              "correct": false,
+              "feedback": "Thyroid eye disease."
+            },
+            {
+              "text": "Sudden complete ptosis with a dilated pupil",
+              "correct": false,
+              "feedback": "Third nerve palsy."
+            },
+            {
+              "text": "Ectropion",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0063",
+          "q": "Which proptosis cause has a bruit?",
+          "options": [
+            {
+              "text": "Carotid-cavernous fistula",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Thyroid eye disease",
+              "correct": false,
+              "feedback": "No bruit."
+            },
+            {
+              "text": "Orbital cellulitis",
+              "correct": false,
+              "feedback": "No bruit."
+            },
+            {
+              "text": "Lagophthalmos",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0064",
+          "q": "Lid retraction with proptosis suggests",
+          "options": [
+            {
+              "text": "thyroid eye disease",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "myasthenia",
+              "correct": false,
+              "feedback": "Ptosis instead."
+            },
+            {
+              "text": "ectropion",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "blepharitis",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0065",
+          "q": "Orbital cellulitis usually spreads from the",
+          "options": [
+            {
+              "text": "sinuses, teeth or ears",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "lacrimal gland only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "brain",
+              "correct": false,
+              "feedback": "It can spread to the brain."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0066",
+          "q": "Which cranial nerves pass through the cavernous sinus?",
+          "options": [
+            {
+              "text": "III, IV, V1, V2 and VI",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "I and II",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "VII and VIII",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "IX and X",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0067",
+          "q": "Pinhole doesn't improve VA in a lagophthalmos case. What's ruled out?",
+          "options": [
+            {
+              "text": "Uncorrected refractive error as the cause",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Corneal exposure",
+              "correct": false,
+              "feedback": "Not ruled out."
+            },
+            {
+              "text": "Amblyopia",
+              "correct": false,
+              "feedback": "Not ruled out."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0068",
+          "q": "Which test is NOT needed for lagophthalmos in the tutorial?",
+          "options": [
+            {
+              "text": "Intraocular pressure",
+              "correct": true,
+              "feedback": "Yes: also not pupils, refraction or internal exam."
+            },
+            {
+              "text": "VA",
+              "correct": false,
+              "feedback": "Needed."
+            },
+            {
+              "text": "Cover test",
+              "correct": false,
+              "feedback": "Needed."
+            },
+            {
+              "text": "External exam",
+              "correct": false,
+              "feedback": "Needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-lids-orbit-x0069",
+          "q": "Orbital tumour with normal VA, no pain and a normal cornea should be referred",
+          "options": [
+            {
+              "text": "routinely",
+              "correct": true,
+              "feedback": "Yes; urgent (1 week) if vision, movement or cornea are affected."
+            },
+            {
+              "text": "as an emergency",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "not at all",
+              "correct": false,
+              "feedback": "Refer."
+            },
+            {
+              "text": "within 1 day",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1015,6 +2770,249 @@
             }
           ],
           "explanation": "From the tutorial's sixth nerve palsy profile and the SO4 LR6 rule."
+        },
+        {
+          "id": "syd-diplopia-x0061",
+          "q": "Which nerve supplies the lateral rectus?",
+          "options": [
+            {
+              "text": "VI (abducens)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "III",
+              "correct": false,
+              "feedback": "Most other muscles."
+            },
+            {
+              "text": "IV",
+              "correct": false,
+              "feedback": "Superior oblique."
+            },
+            {
+              "text": "II",
+              "correct": false,
+              "feedback": "Optic."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0062",
+          "q": "Which nerve supplies the superior oblique?",
+          "options": [
+            {
+              "text": "IV (trochlear)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "VI",
+              "correct": false,
+              "feedback": "Lateral rectus."
+            },
+            {
+              "text": "III",
+              "correct": false,
+              "feedback": "Other muscles."
+            },
+            {
+              "text": "V",
+              "correct": false,
+              "feedback": "Sensory."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0063",
+          "q": "A sixth nerve palsy causes",
+          "options": [
+            {
+              "text": "horizontal diplopia, esotropia and limited abduction",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "vertical diplopia",
+              "correct": false,
+              "feedback": "Fourth nerve."
+            },
+            {
+              "text": "exotropia",
+              "correct": false,
+              "feedback": "Third nerve."
+            },
+            {
+              "text": "ptosis",
+              "correct": false,
+              "feedback": "Third nerve."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0064",
+          "q": "A fourth nerve palsy causes",
+          "options": [
+            {
+              "text": "vertical diplopia, hypertropia and a head tilt to the opposite shoulder",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "horizontal diplopia",
+              "correct": false,
+              "feedback": "Sixth."
+            },
+            {
+              "text": "exotropia and ptosis",
+              "correct": false,
+              "feedback": "Third."
+            },
+            {
+              "text": "no deviation",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0065",
+          "q": "A third nerve palsy causes",
+          "options": [
+            {
+              "text": "exotropia and hypotropia, limited adduction, elevation and depression",
+              "correct": true,
+              "feedback": "Yes, sometimes with ptosis and a dilated pupil."
+            },
+            {
+              "text": "esotropia",
+              "correct": false,
+              "feedback": "Sixth."
+            },
+            {
+              "text": "hypertropia only",
+              "correct": false,
+              "feedback": "Fourth."
+            },
+            {
+              "text": "nothing visible",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0066",
+          "q": "Poor adduction of one eye with nystagmus of the abducting eye suggests",
+          "options": [
+            {
+              "text": "internuclear ophthalmoplegia (often MS)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "sixth nerve palsy",
+              "correct": false,
+              "feedback": "Limited abduction."
+            },
+            {
+              "text": "decompensated phoria",
+              "correct": false,
+              "feedback": "No limitation."
+            },
+            {
+              "text": "myasthenia",
+              "correct": false,
+              "feedback": "Variable."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0067",
+          "q": "Intermittent diplopia worse when tired, with full movements, suggests",
+          "options": [
+            {
+              "text": "a decompensated phoria",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a third nerve palsy",
+              "correct": false,
+              "feedback": "Constant, limited movement."
+            },
+            {
+              "text": "a sixth nerve palsy",
+              "correct": false,
+              "feedback": "Limited abduction."
+            },
+            {
+              "text": "a gaze palsy",
+              "correct": false,
+              "feedback": "Limited movement."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0068",
+          "q": "Diplopia that varies with gaze direction points to",
+          "options": [
+            {
+              "text": "an incomitant deviation such as a palsy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a decompensated phoria",
+              "correct": false,
+              "feedback": "Usually comitant."
+            },
+            {
+              "text": "monocular diplopia",
+              "correct": false,
+              "feedback": "That doesn't vary with gaze."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "Monocular."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-diplopia-x0069",
+          "q": "Palsies with swollen discs in the tutorial affect what decision?",
+          "options": [
+            {
+              "text": "Urgency and whether it's safe to dilate",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Spectacle lens type",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Contact lens fitting",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "They matter."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1078,6 +3076,249 @@
             }
           ],
           "explanation": "Eye pain tutorial, slide 8."
+        },
+        {
+          "id": "syd-headache-pain-x0061",
+          "q": "Which headache feature suggests a visual cause?",
+          "options": [
+            {
+              "text": "Mild, dull, linked to eye use, above or behind the eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Sudden severe 'thunderclap'",
+              "correct": false,
+              "feedback": "Red flag."
+            },
+            {
+              "text": "Worse lying down with swollen discs",
+              "correct": false,
+              "feedback": "Raised pressure."
+            },
+            {
+              "text": "With fever and neck stiffness",
+              "correct": false,
+              "feedback": "Red flag."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0062",
+          "q": "An oval, mid-dilated pupil with a painful red eye suggests",
+          "options": [
+            {
+              "text": "acute angle closure",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "iritis",
+              "correct": false,
+              "feedback": "Small or distorted."
+            },
+            {
+              "text": "conjunctivitis",
+              "correct": false,
+              "feedback": "Normal pupil."
+            },
+            {
+              "text": "episcleritis",
+              "correct": false,
+              "feedback": "Normal pupil."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0063",
+          "q": "Headache worse lying down with swollen discs suggests",
+          "options": [
+            {
+              "text": "raised intracranial pressure: emergency",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tension headache",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "refractive error",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0064",
+          "q": "Painful proptosis suggests",
+          "options": [
+            {
+              "text": "orbital cellulitis or orbital tumour",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "pinguecula",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0065",
+          "q": "What do CDH and ETTH stand for?",
+          "options": [
+            {
+              "text": "Chronic daily headache and episodic tension-type headache",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Corneal disease and eye trauma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cluster and ocular headache",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "They're headache types."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0066",
+          "q": "Should you follow up a headache the patient says isn't visual?",
+          "options": [
+            {
+              "text": "Yes, with LOFTSEA",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No",
+              "correct": false,
+              "feedback": "Still follow up."
+            },
+            {
+              "text": "Only if VA is reduced",
+              "correct": false,
+              "feedback": "Always explore."
+            },
+            {
+              "text": "Only in children",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0067",
+          "q": "Only a small proportion of headaches are caused by",
+          "options": [
+            {
+              "text": "refractive or binocular vision problems",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "tension",
+              "correct": false,
+              "feedback": "Common."
+            },
+            {
+              "text": "migraine",
+              "correct": false,
+              "feedback": "Common."
+            },
+            {
+              "text": "dehydration",
+              "correct": false,
+              "feedback": "Common."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0068",
+          "q": "A distorted pupil with a painful red eye suggests",
+          "options": [
+            {
+              "text": "iritis (posterior synechiae)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "angle closure",
+              "correct": false,
+              "feedback": "Oval, mid-dilated."
+            },
+            {
+              "text": "conjunctivitis",
+              "correct": false,
+              "feedback": "Normal."
+            },
+            {
+              "text": "dry eye",
+              "correct": false,
+              "feedback": "Normal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-headache-pain-x0069",
+          "q": "Which tests should never be skipped with eye pain?",
+          "options": [
+            {
+              "text": "Pupils and IOP",
+              "correct": true,
+              "feedback": "Yes, plus slit lamp."
+            },
+            {
+              "text": "Colour vision only",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Near add",
+              "correct": false,
+              "feedback": "Not relevant."
+            },
+            {
+              "text": "Keratometry",
+              "correct": false,
+              "feedback": "Not essential."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "goDeeper": [],
@@ -1143,6 +3384,249 @@
             }
           ],
           "explanation": "Visual field loss tutorial, slide 16."
+        },
+        {
+          "id": "syd-field-loss-x0061",
+          "q": "Vision loss like a curtain coming down suggests",
+          "options": [
+            {
+              "text": "retinal detachment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "migraine",
+              "correct": false,
+              "feedback": "Usually zigzags."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "Gradual."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "Gradual."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0062",
+          "q": "Which IOP finding fits retinal detachment?",
+          "options": [
+            {
+              "text": "Low (under 10 mmHg)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "High (over 30)",
+              "correct": false,
+              "feedback": "Angle closure."
+            },
+            {
+              "text": "Normal always",
+              "correct": false,
+              "feedback": "Often low."
+            },
+            {
+              "text": "It isn't measured",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0063",
+          "q": "Repeatable field loss respecting the horizontal midline, gradual and painless, suggests",
+          "options": [
+            {
+              "text": "glaucoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a stroke",
+              "correct": false,
+              "feedback": "Respects the vertical."
+            },
+            {
+              "text": "a pituitary tumour",
+              "correct": false,
+              "feedback": "Bitemporal."
+            },
+            {
+              "text": "migraine",
+              "correct": false,
+              "feedback": "Transient."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0064",
+          "q": "A TIA typically causes",
+          "options": [
+            {
+              "text": "seconds of blurred vision or sparkles with neurological symptoms",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "hours of a curtain",
+              "correct": false,
+              "feedback": "That's detachment."
+            },
+            {
+              "text": "gradual loss over years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "painful red eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0065",
+          "q": "Homonymous field loss respecting the vertical midline with headaches and swollen discs suggests",
+          "options": [
+            {
+              "text": "brain disease: emergency",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "dry AMD",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0066",
+          "q": "Sudden one-eyed distortion with haemorrhage and a grey-green membrane at the macula suggests",
+          "options": [
+            {
+              "text": "wet AMD",
+              "correct": true,
+              "feedback": "Yes: urgent fast-track referral."
+            },
+            {
+              "text": "dry AMD",
+              "correct": false,
+              "feedback": "No membrane."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "retinal detachment",
+              "correct": false,
+              "feedback": "Different picture."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0067",
+          "q": "Dry AMD with a patient asking for help reading should be",
+          "options": [
+            {
+              "text": "referred routinely for low vision assessment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "referred as an emergency",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "treated with injections",
+              "correct": false,
+              "feedback": "That's wet AMD."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0068",
+          "q": "What is Shafer's sign?",
+          "options": [
+            {
+              "text": "Pigment ('tobacco dust') in the anterior vitreous",
+              "correct": true,
+              "feedback": "Yes: suggests a retinal tear."
+            },
+            {
+              "text": "A swollen disc",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Corneal staining",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Raised IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "syd-field-loss-x0069",
+          "q": "Which is more urgent?",
+          "options": [
+            {
+              "text": "Macula-on retinal detachment",
+              "correct": true,
+              "feedback": "Yes: to save central vision."
+            },
+            {
+              "text": "Macula-off detachment",
+              "correct": false,
+              "feedback": "Still urgent, but central vision is already affected."
+            },
+            {
+              "text": "Dry AMD",
+              "correct": false,
+              "feedback": "Routine."
+            },
+            {
+              "text": "Stable cataract",
+              "correct": false,
+              "feedback": "Routine."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "goDeeper": [],

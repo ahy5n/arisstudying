@@ -87,6 +87,249 @@
           ],
           "explanation": "Uncorrected refractive error is a leading and easily corrected cause, which is why access to eye tests matters.",
           "link": "phe-sight-loss-uk#avoidable-sight-loss"
+        },
+        {
+          "id": "phe-sight-loss-uk-x0071",
+          "q": "About how many people in the UK live with sight loss?",
+          "options": [
+            {
+              "text": "More than 2 million",
+              "correct": true,
+              "feedback": "Yes (RNIB)."
+            },
+            {
+              "text": "About 20,000",
+              "correct": false,
+              "feedback": "Too few."
+            },
+            {
+              "text": "About 50 million",
+              "correct": false,
+              "feedback": "Too many."
+            },
+            {
+              "text": "About 200,000",
+              "correct": false,
+              "feedback": "Too few."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0072",
+          "q": "About what proportion of sight loss is avoidable or treatable?",
+          "options": [
+            {
+              "text": "About half",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Almost none",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "All of it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 5%",
+              "correct": false,
+              "feedback": "Too low."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0073",
+          "q": "Which is the leading cause of sight impairment certification in older adults?",
+          "options": [
+            {
+              "text": "AMD",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "Treatable."
+            },
+            {
+              "text": "Myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0074",
+          "q": "In working-age adults in England and Wales, the leading cause of certification is now",
+          "options": [
+            {
+              "text": "inherited retinal disease",
+              "correct": true,
+              "feedback": "Yes, overtaking diabetic retinopathy."
+            },
+            {
+              "text": "diabetic retinopathy",
+              "correct": false,
+              "feedback": "It was overtaken."
+            },
+            {
+              "text": "glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0075",
+          "q": "Who certifies sight impairment (CVI)?",
+          "options": [
+            {
+              "text": "A consultant ophthalmologist",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An optometrist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A GP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A dispensing optician",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0076",
+          "q": "Which is a consequence of sight loss?",
+          "options": [
+            {
+              "text": "Falls, depression and loss of independence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Better hearing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No effect",
+              "correct": false,
+              "feedback": "It has effects."
+            },
+            {
+              "text": "Higher income",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0077",
+          "q": "Which is a main cause of sight loss in the UK?",
+          "options": [
+            {
+              "text": "Uncorrected refractive error",
+              "correct": true,
+              "feedback": "Yes, with cataract, AMD, glaucoma and diabetic retinopathy."
+            },
+            {
+              "text": "Pinguecula",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blepharitis",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Presbyopia corrected",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0078",
+          "q": "Why are sight loss numbers expected to rise?",
+          "options": [
+            {
+              "text": "An ageing population",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Better treatment",
+              "correct": false,
+              "feedback": "That lowers them."
+            },
+            {
+              "text": "More optometrists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Less screen time",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-sight-loss-uk-x0079",
+          "q": "What are the two certification categories?",
+          "options": [
+            {
+              "text": "Sight impaired and severely sight impaired",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Mild and severe",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Blind and normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Low and high",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -188,6 +431,249 @@
           ],
           "explanation": "In England, people aged 40+ with a parent, sibling or child with glaucoma qualify for free NHS sight tests.",
           "link": "phe-inequalities#making-every-contact-count"
+        },
+        {
+          "id": "phe-inequalities-x0071",
+          "q": "What is the 'inverse care law'?",
+          "options": [
+            {
+              "text": "Those who need care most often get the least",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Care is always equal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Rich people need more care",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Care improves with age",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0072",
+          "q": "Which group has a much higher risk of serious sight problems?",
+          "options": [
+            {
+              "text": "People with learning disabilities (about 10 times)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Students",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Contact lens wearers",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Athletes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0073",
+          "q": "Which group is at higher risk of glaucoma?",
+          "options": [
+            {
+              "text": "Black African and Caribbean people",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Myopes only",
+              "correct": false,
+              "feedback": "Myopia is a risk too, but not this group."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Some groups are."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0074",
+          "q": "Which is a barrier to eye care?",
+          "options": [
+            {
+              "text": "Perceived cost of glasses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Free sight tests for children",
+              "correct": false,
+              "feedback": "That helps access."
+            },
+            {
+              "text": "Domiciliary visits",
+              "correct": false,
+              "feedback": "They help."
+            },
+            {
+              "text": "Good transport",
+              "correct": false,
+              "feedback": "Helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0075",
+          "q": "Who gets free NHS sight tests in England?",
+          "options": [
+            {
+              "text": "Under 16s and over 60s, among others",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Everyone",
+              "correct": false,
+              "feedback": "Not everyone."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Many groups do."
+            },
+            {
+              "text": "Only optometrists",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0076",
+          "q": "What are domiciliary eye tests?",
+          "options": [
+            {
+              "text": "Home eye tests for people who can't get to a practice unaccompanied",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Tests at the hospital",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tests online",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tests for children only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0077",
+          "q": "Deprivation is linked to",
+          "options": [
+            {
+              "text": "lower uptake of eye tests and later presentation of glaucoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "better eye health",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "more frequent tests",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no difference",
+              "correct": false,
+              "feedback": "There is a difference."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0078",
+          "q": "South Asian people are at higher risk of",
+          "options": [
+            {
+              "text": "diabetes and its eye complications",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "keratoconus only",
+              "correct": false,
+              "feedback": "Not the point here."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Higher risk."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-inequalities-x0079",
+          "q": "How can practices reduce barriers?",
+          "options": [
+            {
+              "text": "Clear information on costs and eligibility, accessible premises and interpreters",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Charging more",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Opening less",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "They can help."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -289,6 +775,249 @@
           ],
           "explanation": "Very Brief Advice works even with people not ready to quit; it raises awareness and opens the door later.",
           "link": "phe-health-promotion#matching-advice-to-readiness"
+        },
+        {
+          "id": "phe-health-promotion-x0071",
+          "q": "Smoking is a major modifiable risk factor for",
+          "options": [
+            {
+              "text": "AMD and cataract",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "astigmatism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "colour blindness",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0072",
+          "q": "What is Very Brief Advice on smoking?",
+          "options": [
+            {
+              "text": "Ask, Advise, Act, in under a minute",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A 1-hour course",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Prescribing nicotine",
+              "correct": false,
+              "feedback": "Not the optometrist's role."
+            },
+            {
+              "text": "Ignoring smoking",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0073",
+          "q": "What does MECC stand for?",
+          "options": [
+            {
+              "text": "Making Every Contact Count",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Medical Eye Care Clinic",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Minimum Eye Check Criteria",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "It's a real initiative."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0074",
+          "q": "Which is the first stage of the stages of change model?",
+          "options": [
+            {
+              "text": "Precontemplation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Action",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Maintenance",
+              "correct": false,
+              "feedback": "Last."
+            },
+            {
+              "text": "Preparation",
+              "correct": false,
+              "feedback": "Third."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0075",
+          "q": "Which advice protects eyes from UV?",
+          "options": [
+            {
+              "text": "Sunglasses meeting standards and hats",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dark lenses without UV filters",
+              "correct": false,
+              "feedback": "They may increase exposure."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Protection helps."
+            },
+            {
+              "text": "Only contact lenses",
+              "correct": false,
+              "feedback": "Not enough."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0076",
+          "q": "Who are AREDS2 supplements for?",
+          "options": [
+            {
+              "text": "People with intermediate AMD",
+              "correct": true,
+              "feedback": "Yes, not everyone."
+            },
+            {
+              "text": "Everyone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "People with cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0077",
+          "q": "What should you encourage people with diabetes to do?",
+          "options": [
+            {
+              "text": "Attend diabetic eye screening and manage sugar, BP and cholesterol",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Stop screening once well",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only see the optometrist",
+              "correct": false,
+              "feedback": "Screening too."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Encourage."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0078",
+          "q": "Which diet is often advised for macular health?",
+          "options": [
+            {
+              "text": "Leafy greens and oily fish",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only red meat",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No vegetables",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "High sugar",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-health-promotion-x0079",
+          "q": "Which model looks at perceived threat and benefits?",
+          "options": [
+            {
+              "text": "The health belief model",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Gibbs' cycle",
+              "correct": false,
+              "feedback": "Reflection."
+            },
+            {
+              "text": "SBAR",
+              "correct": false,
+              "feedback": "Communication."
+            },
+            {
+              "text": "SOAP",
+              "correct": false,
+              "feedback": "Records."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -436,6 +1165,222 @@
             }
           ],
           "explanation": "Sample MCQ 2 from the lecture."
+        },
+        {
+          "id": "phe-infection-control-x0071",
+          "q": "How long should handwashing take?",
+          "options": [
+            {
+              "text": "At least 15–20 seconds",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "2 seconds",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "5 minutes",
+              "correct": false,
+              "feedback": "Unnecessary."
+            },
+            {
+              "text": "No time limit",
+              "correct": false,
+              "feedback": "Aim for 15–20 s."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0072",
+          "q": "When should gloves be worn?",
+          "options": [
+            {
+              "text": "For invasive procedures, cracked hands or infective patients",
+              "correct": true,
+              "feedback": "Yes, washing hands as well."
+            },
+            {
+              "text": "Always for CL fitting",
+              "correct": false,
+              "feedback": "Not routinely."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Sometimes."
+            },
+            {
+              "text": "Only for drops",
+              "correct": false,
+              "feedback": "Not only."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0073",
+          "q": "How long should trial lenses soak in 10,000 ppm hypochlorite?",
+          "options": [
+            {
+              "text": "One hour",
+              "correct": true,
+              "feedback": "Yes, then rinse and disinfect normally."
+            },
+            {
+              "text": "One minute",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "One day",
+              "correct": false,
+              "feedback": "Unnecessary."
+            },
+            {
+              "text": "No soaking",
+              "correct": false,
+              "feedback": "Needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0074",
+          "q": "Why can't alcohol be used on Volk lenses?",
+          "options": [
+            {
+              "text": "It dissolves the cement",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It makes them blurry",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's too expensive",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It can",
+              "correct": false,
+              "feedback": "It can't."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0075",
+          "q": "Drug fridge temperatures should be",
+          "options": [
+            {
+              "text": "2–8°C, checked daily",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "15–20°C",
+              "correct": false,
+              "feedback": "Too warm."
+            },
+            {
+              "text": "Below 0°C",
+              "correct": false,
+              "feedback": "Freezing."
+            },
+            {
+              "text": "Not checked",
+              "correct": false,
+              "feedback": "Check daily."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0076",
+          "q": "Clinical waste is governed by",
+          "options": [
+            {
+              "text": "the Controlled Waste Regulations 1992",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the Opticians Act",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the Equality Act",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "It's regulated."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0077",
+          "q": "What's the pass mark for the infection control quiz?",
+          "options": [
+            {
+              "text": "50%",
+              "correct": true,
+              "feedback": "Yes, due Friday week 11 at 1 pm."
+            },
+            {
+              "text": "100%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "40%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "There's no pass mark",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-infection-control-x0078",
+          "q": "Which organism is linked to water exposure and contact lenses?",
+          "options": [
+            {
+              "text": "Acanthamoeba",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Norovirus",
+              "correct": false,
+              "feedback": "Gut."
+            },
+            {
+              "text": "C. difficile",
+              "correct": false,
+              "feedback": "Gut."
+            },
+            {
+              "text": "MRSA",
+              "correct": false,
+              "feedback": "Skin."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -507,6 +1452,249 @@
             }
           ],
           "explanation": "GOC declarations guidance, slides 16 and 17."
+        },
+        {
+          "id": "phe-wellbeing-x0071",
+          "q": "What is stress (AOP definition)?",
+          "options": [
+            {
+              "text": "When a situation seems to demand more resources than you have",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Being busy",
+              "correct": false,
+              "feedback": "Not the definition."
+            },
+            {
+              "text": "Illness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Laziness",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0072",
+          "q": "Which group reported lower stress in the AOP survey?",
+          "options": [
+            {
+              "text": "Employers and part-timers",
+              "correct": true,
+              "feedback": "Yes, and the independent sector."
+            },
+            {
+              "text": "Full-time employees",
+              "correct": false,
+              "feedback": "Higher."
+            },
+            {
+              "text": "Locums",
+              "correct": false,
+              "feedback": "Similar to employees."
+            },
+            {
+              "text": "Students",
+              "correct": false,
+              "feedback": "Not surveyed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0073",
+          "q": "What are the five ways to wellbeing?",
+          "options": [
+            {
+              "text": "Connect, be active, take notice, keep learning, give",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Eat, sleep, work, rest, repeat",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ask, advise, act",
+              "correct": false,
+              "feedback": "Smoking."
+            },
+            {
+              "text": "Plan, do, check, act",
+              "correct": false,
+              "feedback": "Quality improvement."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0074",
+          "q": "When must a student declare a health condition to the GOC?",
+          "options": [
+            {
+              "text": "When it may currently affect fitness to train",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Always",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Sometimes."
+            },
+            {
+              "text": "Only when qualified",
+              "correct": false,
+              "feedback": "Students too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0075",
+          "q": "Is reduced stereopsis a bar to training?",
+          "options": [
+            {
+              "text": "No (HEOPS)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only for dispensing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only in final year",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0076",
+          "q": "Which number reaches the AOP peer support line?",
+          "options": [
+            {
+              "text": "0800 870 8401",
+              "correct": true,
+              "feedback": "Yes, for members and non-members."
+            },
+            {
+              "text": "999",
+              "correct": false,
+              "feedback": "Emergencies."
+            },
+            {
+              "text": "111",
+              "correct": false,
+              "feedback": "NHS non-emergency."
+            },
+            {
+              "text": "101",
+              "correct": false,
+              "feedback": "Police."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0077",
+          "q": "What is the portfolio task's word count?",
+          "options": [
+            {
+              "text": "About 1,000 words with references",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "100 words",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10,000 words",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No limit",
+              "correct": false,
+              "feedback": "About 1,000."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0078",
+          "q": "About what proportion of health professionals misuse drugs or alcohol?",
+          "options": [
+            {
+              "text": "About 10–15%",
+              "correct": true,
+              "feedback": "Yes, similar to the general population."
+            },
+            {
+              "text": "Under 1%",
+              "correct": false,
+              "feedback": "Too low."
+            },
+            {
+              "text": "About 50%",
+              "correct": false,
+              "feedback": "Too high."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "phe-wellbeing-x0079",
+          "q": "Which is a sign of stress?",
+          "options": [
+            {
+              "text": "Changes in sleep, mood swings or increased drinking",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Better concentration",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "More confidence",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "There are signs."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],

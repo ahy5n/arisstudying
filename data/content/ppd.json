@@ -89,6 +89,249 @@
           ],
           "explanation": "Confidentiality and professional conduct apply online and offline; 'anonymised' stories can still identify patients.",
           "link": "ppd-goc-standards#social-media-and-conduct"
+        },
+        {
+          "id": "ppd-goc-standards-x0071",
+          "q": "Must optometry students be registered with the GOC while training?",
+          "options": [
+            {
+              "text": "Yes",
+              "correct": true,
+              "feedback": "Yes: student registration is required."
+            },
+            {
+              "text": "No, only after graduating",
+              "correct": false,
+              "feedback": "Students register too."
+            },
+            {
+              "text": "Only in the final year",
+              "correct": false,
+              "feedback": "From the start of training."
+            },
+            {
+              "text": "Only if they work in practice",
+              "correct": false,
+              "feedback": "All students."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0072",
+          "q": "Do the Standards for Optical Students apply outside clinic?",
+          "options": [
+            {
+              "text": "Yes, including on social media",
+              "correct": true,
+              "feedback": "Yes: professional behaviour applies everywhere."
+            },
+            {
+              "text": "No, only in clinic",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only at university",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only during exams",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0073",
+          "q": "Who can a concern about a student's fitness to train be raised with?",
+          "options": [
+            {
+              "text": "The university and the GOC",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the student's family",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "It can be raised."
+            },
+            {
+              "text": "Only the police",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0074",
+          "q": "Which is a theme of the student standards?",
+          "options": [
+            {
+              "text": "Obtaining valid consent",
+              "correct": true,
+              "feedback": "Yes, among others."
+            },
+            {
+              "text": "Selling as many glasses as possible",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Avoiding supervisors",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Keeping concerns to yourself",
+              "correct": false,
+              "feedback": "No: raise them."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0075",
+          "q": "When did the new GOC student standards come into effect?",
+          "options": [
+            {
+              "text": "January 2025",
+              "correct": true,
+              "feedback": "Yes; check optical.org for the current version."
+            },
+            {
+              "text": "1990",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2010",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They haven't changed",
+              "correct": false,
+              "feedback": "They were updated."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0076",
+          "q": "How should you introduce yourself to a patient as a student?",
+          "options": [
+            {
+              "text": "As a student optometrist working under supervision, naming your supervisor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "As a qualified optometrist",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Only by first name",
+              "correct": false,
+              "feedback": "Explain your role."
+            },
+            {
+              "text": "You needn't",
+              "correct": false,
+              "feedback": "You must."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0077",
+          "q": "What should you do when something goes wrong in your care?",
+          "options": [
+            {
+              "text": "Be candid: tell the patient, apologise and tell your supervisor",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Hide it",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Blame the patient",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wait to see if they notice",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0078",
+          "q": "What does 'putting patients first' include?",
+          "options": [
+            {
+              "text": "Listening to them and involving them in decisions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Deciding everything for them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Keeping exams short",
+              "correct": false,
+              "feedback": "Not the point."
+            },
+            {
+              "text": "Only treating easy patients",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-goc-standards-x0079",
+          "q": "Where do the student standards mirror?",
+          "options": [
+            {
+              "text": "The Standards of Practice for registered optometrists and DOs",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "NHS pay scales",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "University rules only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "They mirror practice standards."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -192,6 +435,249 @@
           ],
           "explanation": "Patients need to know why, what to expect and the risks before they can give valid consent.",
           "link": "ppd-communication-consent#consent-for-eye-drops"
+        },
+        {
+          "id": "ppd-communication-consent-x0071",
+          "q": "What makes consent valid?",
+          "options": [
+            {
+              "text": "It's voluntary, informed and the person has capacity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's written",
+              "correct": false,
+              "feedback": "Not required for everything."
+            },
+            {
+              "text": "The supervisor agrees",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "The patient is over 18",
+              "correct": false,
+              "feedback": "Not required."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0072",
+          "q": "Under the Mental Capacity Act 2005, you should",
+          "options": [
+            {
+              "text": "assume capacity unless shown otherwise",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "assume elderly patients lack capacity",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "ask relatives to decide",
+              "correct": false,
+              "feedback": "Not by default."
+            },
+            {
+              "text": "never examine without written consent",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0073",
+          "q": "A 14-year-old who fully understands a procedure can consent if",
+          "options": [
+            {
+              "text": "they're Gillick competent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a parent is absent",
+              "correct": false,
+              "feedback": "Not the test."
+            },
+            {
+              "text": "it's free",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "Gillick competence allows it."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0074",
+          "q": "Can a patient withdraw consent part-way through?",
+          "options": [
+            {
+              "text": "Yes, at any time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No, once given it's final",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only with a reason",
+              "correct": false,
+              "feedback": "No reason needed."
+            },
+            {
+              "text": "Only before starting",
+              "correct": false,
+              "feedback": "Any time."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0075",
+          "q": "Is implied consent enough for instilling drops?",
+          "options": [
+            {
+              "text": "No: drops need explicit consent after explanation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes, sitting down implies it",
+              "correct": false,
+              "feedback": "Not for drugs."
+            },
+            {
+              "text": "Only for children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Always",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0076",
+          "q": "What is 'teach-back'?",
+          "options": [
+            {
+              "text": "Asking the patient to explain back what you told them, to check understanding",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Teaching a student",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Re-reading the record",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Giving a leaflet",
+              "correct": false,
+              "feedback": "Not the same."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0077",
+          "q": "Which question type is best to open a history?",
+          "options": [
+            {
+              "text": "Open questions",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Closed questions",
+              "correct": false,
+              "feedback": "Use later to narrow."
+            },
+            {
+              "text": "Leading questions",
+              "correct": false,
+              "feedback": "Avoid."
+            },
+            {
+              "text": "Multiple choice",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0078",
+          "q": "What should be recorded about consent?",
+          "options": [
+            {
+              "text": "That consent was obtained and what information was given",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Record it."
+            },
+            {
+              "text": "Only the patient's signature",
+              "correct": false,
+              "feedback": "Not always needed."
+            },
+            {
+              "text": "Only refusals",
+              "correct": false,
+              "feedback": "Record consent too."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-communication-consent-x0079",
+          "q": "Which is NOT good communication?",
+          "options": [
+            {
+              "text": "Using technical jargon with patients",
+              "correct": true,
+              "feedback": "Yes, avoid it."
+            },
+            {
+              "text": "Active listening",
+              "correct": false,
+              "feedback": "Good."
+            },
+            {
+              "text": "Checking understanding",
+              "correct": false,
+              "feedback": "Good."
+            },
+            {
+              "text": "Noticing non-verbal cues",
+              "correct": false,
+              "feedback": "Good."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -293,6 +779,249 @@
           ],
           "explanation": "Orthoptists specialise in binocular vision and run amblyopia treatment within hospital eye services.",
           "link": "ppd-ipl#who-does-what"
+        },
+        {
+          "id": "ppd-ipl-x0071",
+          "q": "How does CAIPE define interprofessional learning?",
+          "options": [
+            {
+              "text": "Two or more professions learning with, from and about each other to improve collaboration",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Learning alone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lectures from one profession",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Online exams",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0072",
+          "q": "What does SBAR stand for?",
+          "options": [
+            {
+              "text": "Situation, Background, Assessment, Recommendation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Symptoms, Bloods, Advice, Referral",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Sight, Binocular, Anterior, Retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Start, Brief, Act, Review",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0073",
+          "q": "Which professional is trained to manage binocular vision disorders and amblyopia in hospital?",
+          "options": [
+            {
+              "text": "An orthoptist",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A dispensing optician",
+              "correct": false,
+              "feedback": "Dispensing."
+            },
+            {
+              "text": "A pharmacist",
+              "correct": false,
+              "feedback": "Medicines."
+            },
+            {
+              "text": "A receptionist",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0074",
+          "q": "Who would you usually involve for a patient's suspected hypertension?",
+          "options": [
+            {
+              "text": "Their GP",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A dispensing optician",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nobody",
+              "correct": false,
+              "feedback": "Involve the GP."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0075",
+          "q": "Why does clear interprofessional communication matter?",
+          "options": [
+            {
+              "text": "It reduces errors and improves patient care",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's quicker to skip it",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's only for hospitals",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's optional",
+              "correct": false,
+              "feedback": "It's essential."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0076",
+          "q": "What is central to good teamwork between professions?",
+          "options": [
+            {
+              "text": "Respect for each profession's expertise and scope",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "One profession leading everything",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Avoiding contact",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Competition",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0077",
+          "q": "Is the IPL session compulsory?",
+          "options": [
+            {
+              "text": "Yes",
+              "correct": true,
+              "feedback": "Yes: attendance is a pass/fail part of the portfolio."
+            },
+            {
+              "text": "No",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "Only for some",
+              "correct": false,
+              "feedback": "All students."
+            },
+            {
+              "text": "Only if you fail",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0078",
+          "q": "Which professional dispenses spectacles but doesn't do eye exams?",
+          "options": [
+            {
+              "text": "A dispensing optician",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "An optometrist",
+              "correct": false,
+              "feedback": "Does exams."
+            },
+            {
+              "text": "An ophthalmologist",
+              "correct": false,
+              "feedback": "A doctor."
+            },
+            {
+              "text": "An orthoptist",
+              "correct": false,
+              "feedback": "Binocular vision."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-ipl-x0079",
+          "q": "After IPL, what should you do?",
+          "options": [
+            {
+              "text": "Reflect on what you learned about other roles and how it changes your practice",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Reflect."
+            },
+            {
+              "text": "Avoid other professions",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only write notes on optometry",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -423,6 +1152,222 @@
             }
           ],
           "explanation": "The lecture lists what reflective writing is not: plain description, a diary, self-disclosure, flattery of the course, or uncritical referencing."
+        },
+        {
+          "id": "ppd-reflection-x0071",
+          "q": "What are the stages of Gibbs' reflective cycle?",
+          "options": [
+            {
+              "text": "Description, feelings, evaluation, analysis, conclusion, action plan",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "What, so what, now what",
+              "correct": false,
+              "feedback": "That's Driscoll."
+            },
+            {
+              "text": "Plan, do, study, act",
+              "correct": false,
+              "feedback": "That's quality improvement."
+            },
+            {
+              "text": "Ask, advise, act",
+              "correct": false,
+              "feedback": "That's smoking advice."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0072",
+          "q": "What is Driscoll's model?",
+          "options": [
+            {
+              "text": "What? So what? Now what?",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Gibbs' cycle",
+              "correct": false,
+              "feedback": "Different."
+            },
+            {
+              "text": "SOAP",
+              "correct": false,
+              "feedback": "Records."
+            },
+            {
+              "text": "LOFTSEA",
+              "correct": false,
+              "feedback": "Symptoms."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0073",
+          "q": "Which is a misconception about reflective writing?",
+          "options": [
+            {
+              "text": "That a detailed description is enough",
+              "correct": true,
+              "feedback": "Yes: analysis and learning are what count."
+            },
+            {
+              "text": "It needs structure",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It should use formal language",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It should show how you'll use the learning",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0074",
+          "q": "Which GOC outcome covers critical reflection?",
+          "options": [
+            {
+              "text": "7.4",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "4.12",
+              "correct": false,
+              "feedback": "Records."
+            },
+            {
+              "text": "5.6",
+              "correct": false,
+              "feedback": "Wellbeing."
+            },
+            {
+              "text": "1.2",
+              "correct": false,
+              "feedback": "Health outcomes."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0075",
+          "q": "What makes reflection 'critical'?",
+          "options": [
+            {
+              "text": "Moving from describing to analysing, to find what was good and what could improve",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Criticising others",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Being negative",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Writing more",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0076",
+          "q": "Name a benefit of reflective practice.",
+          "options": [
+            {
+              "text": "It embeds good practice and improves care",
+              "correct": true,
+              "feedback": "Yes, and assures the public."
+            },
+            {
+              "text": "It replaces CPD",
+              "correct": false,
+              "feedback": "It's part of CPD."
+            },
+            {
+              "text": "It's quicker than learning",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It avoids supervision",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0077",
+          "q": "Which prompt suits a CPD reflection?",
+          "options": [
+            {
+              "text": "What would you do differently next time?",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Who was to blame?",
+              "correct": false,
+              "feedback": "Not helpful."
+            },
+            {
+              "text": "How much did it cost?",
+              "correct": false,
+              "feedback": "Not the focus."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Use prompts."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "ppd-reflection-x0078",
+          "q": "Reflective writing should avoid",
+          "options": [
+            {
+              "text": "self-disclosure for its own sake and complimenting the course",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "formal language",
+              "correct": false,
+              "feedback": "Use it."
+            },
+            {
+              "text": "evidence of learning",
+              "correct": false,
+              "feedback": "Include it."
+            },
+            {
+              "text": "structure",
+              "correct": false,
+              "feedback": "Use it."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],

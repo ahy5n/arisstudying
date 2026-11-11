@@ -3200,6 +3200,168 @@
             }
           ],
           "explanation": "Visual fields 4, cataract example (slide 26)."
+        },
+        {
+          "id": "peg-visual-fields-x0061",
+          "q": "Where is the physiological blind spot?",
+          "options": [
+            {
+              "text": "About 15° temporal to fixation and 1.5° below the horizontal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "At fixation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "15° nasal",
+              "correct": false,
+              "feedback": "It's temporal in the field."
+            },
+            {
+              "text": "50° temporal",
+              "correct": false,
+              "feedback": "Too far."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0062",
+          "q": "A homonymous hemianopia means the lesion is",
+          "options": [
+            {
+              "text": "behind the chiasm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "in front of the chiasm",
+              "correct": false,
+              "feedback": "That gives one-eye defects."
+            },
+            {
+              "text": "at the retina",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "at the cornea",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0063",
+          "q": "Damage to inferior retinal nerve fibres causes a defect in which part of the field?",
+          "options": [
+            {
+              "text": "Superior",
+              "correct": true,
+              "feedback": "Yes: the field is inverted on the retina."
+            },
+            {
+              "text": "Inferior",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nasal only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Central only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0064",
+          "q": "In kinetic perimetry, what is an isopter?",
+          "options": [
+            {
+              "text": "A line joining points of equal sensitivity",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A single tested point",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The blind spot",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A false positive",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0065",
+          "q": "What does 1 dB represent in perimetry?",
+          "options": [
+            {
+              "text": "0.1 log unit of stimulus intensity",
+              "correct": true,
+              "feedback": "Yes; 0 dB is the brightest."
+            },
+            {
+              "text": "1 apostilb",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "10 log units",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The dimmest stimulus",
+              "correct": false,
+              "feedback": "0 dB is the brightest."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "peg-visual-fields-x0066",
+          "q": "About what proportion of stroke victims get field loss?",
+          "options": [
+            {
+              "text": "Between a half and three quarters",
+              "correct": true,
+              "feedback": "Yes, most often homonymous hemianopia."
+            },
+            {
+              "text": "Under 5%",
+              "correct": false,
+              "feedback": "Far too low."
+            },
+            {
+              "text": "All",
+              "correct": false,
+              "feedback": "Not all."
+            },
+            {
+              "text": "About 10%",
+              "correct": false,
+              "feedback": "Too low."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
