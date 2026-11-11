@@ -20,7 +20,7 @@ export default async function ModuleQuiz({ params }: { params: Promise<{ code: s
   const { code } = await params
   const m = getModule(code)
   if (!m || !m.hasContent) notFound()
-  const items = getPracticeItems(code).filter((i) => i.kind === 'mcq')
+  const items = getPracticeItems(code).filter((i) => i.kind !== 'flashcard')
   return (
     <QuizPage
       items={items}

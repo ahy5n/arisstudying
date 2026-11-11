@@ -211,7 +211,14 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
           {/* 6. Practice */}
           {tabs.length > 0 && (
             <section id="practice" className="mt-10">
-              <h2 className="text-[22px] font-semibold">Practice</h2>
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <h2 className="text-[22px] font-semibold">Practice</h2>
+                {(sets.mcq.length > 0 || sets.cases.length > 0) && (
+                  <Link href={`/t/${t.id}/quiz`} className="btn btn-soft min-h-10 px-4 text-[14px]">
+                    Topic quiz in rounds →
+                  </Link>
+                )}
+              </div>
               <div role="tablist" aria-label="Practice type" className="no-scrollbar -mx-1 mt-3 flex gap-1 overflow-x-auto rounded-full bg-bg p-1">
                 {tabs.map((x) => (
                   <button

@@ -21,6 +21,8 @@ export function PracticeRunner({
   emptyText = 'Nothing here yet.',
   finishExtra,
   restartLabel = 'Go again',
+  onFinish,
+  finishMessage,
 }: {
   items: PracticeItem[]
   showTopic?: boolean
@@ -28,6 +30,10 @@ export function PracticeRunner({
   emptyText?: string
   finishExtra?: React.ReactNode
   restartLabel?: string
+  /** Called once when the last item is answered, with each result in order. */
+  onFinish?: (results: boolean[]) => void
+  /** Replaces the usual end-of-set message. */
+  finishMessage?: (right: number, total: number) => React.ReactNode
 }) {
   const [i, setI] = useState(0)
   const [results, setResults] = useState<boolean[]>([])
@@ -39,6 +45,13 @@ export function PracticeRunner({
     setAnswered(false)
   }, [items])
 
+  const done = items.length > 0 && i >= items.length
+  useEffect(() => {
+    if (done) onFinish?.(results)
+    // Fire once per finished set.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [done])
+
   if (!items.length) return <p className="text-muted">{emptyText}</p>
 
   if (i >= items.length) {
@@ -49,7 +62,7 @@ export function PracticeRunner({
           {right} of {items.length}
         </p>
         <p className="mt-1 text-muted">
-          {right === items.length
+          {finishMessage ? finishMessage(right, items.length) : right === items.length
             ? 'Every single one. 🌷'
             : right >= items.length * 0.7
               ? 'Lovely work. The ones you missed are in your mistakes deck.'

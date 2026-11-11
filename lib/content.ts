@@ -173,6 +173,27 @@ export function getPracticeItems(moduleCode?: string): PracticeItem[] {
   return items
 }
 
+/** Questions for a topic's round-by-round quiz: multiple choice and written questions. */
+export function getTopicQuizItems(topicId: string): PracticeItem[] {
+  return getPracticeItems().filter((i) => i.topicId === topicId && i.kind !== 'flashcard')
+}
+
+/** Every topic with quiz questions, grouped by module, for the quiz hub. */
+export function getTopicQuizIndex(): { code: string; name: string; topics: { id: string; title: string; count: number }[] }[] {
+  const counts = new Map<string, number>()
+  for (const i of getPracticeItems()) if (i.kind !== 'flashcard' && i.topicId) counts.set(i.topicId, (counts.get(i.topicId) ?? 0) + 1)
+  return getModules()
+    .filter((m) => m.hasContent)
+    .map((m) => ({
+      code: m.code,
+      name: m.name,
+      topics: getModuleTopics(m.code)
+        .filter((t) => counts.get(t.id))
+        .map((t) => ({ id: t.id, title: t.title, count: Math.min(counts.get(t.id)!, 50) })),
+    }))
+    .filter((m) => m.topics.length)
+}
+
 export function getTimetable() {
   const t = load().timetable
   return { group: t.group, term: t.term, weeks: t.weeks, compulsory: t.compulsory, sessions: t.sessions }

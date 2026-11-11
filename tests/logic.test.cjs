@@ -113,4 +113,19 @@ t('slides → cards: title front, points back, filler slides skipped', () => {
   ], () => `c${++i}`)
   assert.deepEqual(cards, [{ id: 'c1', front: 'Tear film layers', back: '• Lipid\n• Aqueous\n• Mucin' }])
 })
+const { ladderOrder, toRounds, unlockedRounds, levelKey } = require('../.test-build/quizLadder.js')
+const q = (kind, id) => ({ kind, id })
+t('quiz ladder: a written question after every four MCQs', () => {
+  const order = ladderOrder([...Array(9)].map((_, i) => q('mcq', 'm' + i)).concat([q('case', 'c0'), q('case', 'c1')]))
+  assert.deepEqual(order.map((x) => x.id), ['m0', 'm1', 'm2', 'm3', 'c0', 'm4', 'm5', 'm6', 'm7', 'c1', 'm8'])
+})
+t('quiz ladder: capped at 50, rounds of 10', () => {
+  const order = ladderOrder([...Array(70)].map((_, i) => q('mcq', 'm' + i)))
+  assert.equal(order.length, 50); assert.deepEqual(toRounds(order).map((r) => r.length), [10, 10, 10, 10, 10])
+})
+t('quiz ladder: last round can be short', () => assert.deepEqual(toRounds([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).map((r) => r.length), [10, 2]))
+t('quiz ladder: unlocked rounds default 1, clamped to total', () => {
+  assert.equal(unlockedRounds({}, 'x', 3), 1)
+  assert.equal(unlockedRounds({ [levelKey('x')]: [9] }, 'x', 3), 3)
+})
 console.log(`\n${n} passed`)
