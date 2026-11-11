@@ -599,6 +599,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0411",
+          "q": "Which eye movement response is present from birth?",
+          "options": [
+            {
+              "text": "Optokinetic nystagmus (OKN)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Smooth pursuit",
+              "correct": false,
+              "feedback": "Develops over the first months."
+            },
+            {
+              "text": "Accurate vergence",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Reading saccades",
+              "correct": false,
+              "feedback": "Much later."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0412",
+          "q": "Early infant pursuit is usually",
+          "options": [
+            {
+              "text": "jerky (saccadic) before becoming smooth",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "perfectly smooth",
+              "correct": false,
+              "feedback": "Not at first."
+            },
+            {
+              "text": "absent for years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "only vertical",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0413",
+          "q": "Trichromatic colour vision is usually present by about",
+          "options": [
+            {
+              "text": "2–3 months",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "birth",
+              "correct": false,
+              "feedback": "Immature."
+            },
+            {
+              "text": "5 years",
+              "correct": false,
+              "feedback": "Earlier."
+            },
+            {
+              "text": "12 years",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0414",
+          "q": "At birth, the fovea is",
+          "options": [
+            {
+              "text": "immature, with cones still packing in over several years",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "fully mature",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "absent",
+              "correct": false,
+              "feedback": "It's present."
+            },
+            {
+              "text": "rod-filled",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0415",
+          "q": "Optic nerve myelination continues until about",
+          "options": [
+            {
+              "text": "2 years",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "birth",
+              "correct": false,
+              "feedback": "Continues after."
+            },
+            {
+              "text": "20 years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "6 months only",
+              "correct": false,
+              "feedback": "Longer."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0416",
+          "q": "A newborn's axial length is about",
+          "options": [
+            {
+              "text": "16–17 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "24 mm",
+              "correct": false,
+              "feedback": "Adult."
+            },
+            {
+              "text": "10 mm",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "30 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0417",
+          "q": "An adult's axial length is about",
+          "options": [
+            {
+              "text": "23–24 mm",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "17 mm",
+              "correct": false,
+              "feedback": "Newborn."
+            },
+            {
+              "text": "30 mm",
+              "correct": false,
+              "feedback": "Very myopic."
+            },
+            {
+              "text": "12 mm",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0418",
+          "q": "As the eye grows, the cornea and lens",
+          "options": [
+            {
+              "text": "flatten and lose power, offsetting the longer eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "steepen",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "stay the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "disappear",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x0419",
+          "q": "Intermittent misalignment in the first few weeks is",
+          "options": [
+            {
+              "text": "common and often normal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "always a squint needing surgery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a sign of glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never seen",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04110",
+          "q": "A constant squint after about 3–4 months should be",
+          "options": [
+            {
+              "text": "referred",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "ignored",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "treated with sunglasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "reviewed at age 10",
+              "correct": false,
+              "feedback": "Too late."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04111",
+          "q": "UK ROP screening is offered to babies born before",
+          "options": [
+            {
+              "text": "31 weeks or under 1501 g",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "40 weeks",
+              "correct": false,
+              "feedback": "Full term."
+            },
+            {
+              "text": "36 weeks",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "20 weeks",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04112",
+          "q": "Delayed visual maturation means",
+          "options": [
+            {
+              "text": "a baby seems not to see well at first but improves",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "permanent blindness",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04113",
+          "q": "Cerebral (cortical) visual impairment is caused by",
+          "options": [
+            {
+              "text": "damage to the visual brain rather than the eyes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "glaucoma only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04114",
+          "q": "Albinism typically causes",
+          "options": [
+            {
+              "text": "nystagmus, reduced VA and foveal hypoplasia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "perfect vision",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04115",
+          "q": "In the UK, the newborn red reflex check is repeated at about",
+          "options": [
+            {
+              "text": "6–8 weeks",
+              "correct": true,
+              "feedback": "Yes, after the first check within 72 hours."
+            },
+            {
+              "text": "5 years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "2 days only",
+              "correct": false,
+              "feedback": "Repeated."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04116",
+          "q": "Average refraction falls from about +2 D at birth to about",
+          "options": [
+            {
+              "text": "+0.5 to +1 D by school age",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "−3 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "+5 D",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0 at 1 month",
+              "correct": false,
+              "feedback": "Too fast."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04117",
+          "q": "Anisometropia in early infancy is often",
+          "options": [
+            {
+              "text": "transient",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "permanent",
+              "correct": false,
+              "feedback": "Often not."
+            },
+            {
+              "text": "impossible",
+              "correct": false,
+              "feedback": "It happens."
+            },
+            {
+              "text": "caused by glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04118",
+          "q": "The earliest and most sensitive period for deprivation amblyopia is",
+          "options": [
+            {
+              "text": "the first months of life",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "the teenage years",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "adulthood",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "after age 10",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04119",
+          "q": "Visual evoked potentials (VEPs) measure",
+          "options": [
+            {
+              "text": "the brain's electrical response to visual stimuli",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "refraction",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "tear film",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04120",
+          "q": "Which infant behaviour suggests poor vision?",
+          "options": [
+            {
+              "text": "Not making eye contact or following faces by 2–3 months",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Smiling at faces",
+              "correct": false,
+              "feedback": "Normal."
+            },
+            {
+              "text": "Reaching for toys",
+              "correct": false,
+              "feedback": "Normal."
+            },
+            {
+              "text": "Following lights",
+              "correct": false,
+              "feedback": "Normal."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04121",
+          "q": "Wandering, searching eye movements in an infant suggest",
+          "options": [
+            {
+              "text": "poor vision: refer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "tiredness only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04122",
+          "q": "Why are premature babies at risk of ROP?",
+          "options": [
+            {
+              "text": "Their retinal vessels haven't finished growing",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They have cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They're myopic",
+              "correct": false,
+              "feedback": "Not the cause."
+            },
+            {
+              "text": "They're hyperopic",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04123",
+          "q": "A baby's VA improves rapidly over the first",
+          "options": [
+            {
+              "text": "6–12 months",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "10 years only",
+              "correct": false,
+              "feedback": "Mostly early."
+            },
+            {
+              "text": "day",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "It improves."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04124",
+          "q": "Which visual function is most mature at birth?",
+          "options": [
+            {
+              "text": "Light perception and pupil responses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Stereopsis",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Fine acuity",
+              "correct": false,
+              "feedback": "Later."
+            },
+            {
+              "text": "Reading",
+              "correct": false,
+              "feedback": "Much later."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04125",
+          "q": "Accommodation in young infants is",
+          "options": [
+            {
+              "text": "limited at first, improving over the first months",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "perfect from birth",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "absent forever",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "excessive",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04126",
+          "q": "Why do parents' observations matter?",
+          "options": [
+            {
+              "text": "They see the child's everyday visual behaviour",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They don't",
+              "correct": false,
+              "feedback": "They do."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They replace tests",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04127",
+          "q": "A child born with congenital cataract in one eye should have surgery",
+          "options": [
+            {
+              "text": "within the first weeks to months",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "at age 10",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "Surgery is needed."
+            },
+            {
+              "text": "only if both eyes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04128",
+          "q": "Which condition causes a white pupil and is life-threatening?",
+          "options": [
+            {
+              "text": "Retinoblastoma",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Conjunctivitis",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04129",
+          "q": "Visual milestones can be delayed in",
+          "options": [
+            {
+              "text": "premature or neurologically affected children",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "every child",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no one",
+              "correct": false,
+              "feedback": "Some."
+            },
+            {
+              "text": "only in girls",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-visual-development-x04130",
+          "q": "Why is early detection of vision problems important?",
+          "options": [
+            {
+              "text": "Treatment works best during the sensitive period",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It isn't",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To sell glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1211,6 +2021,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0411",
+          "q": "Which stereo test needs no glasses and uses random dots?",
+          "options": [
+            {
+              "text": "Lang",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "TNO",
+              "correct": false,
+              "feedback": "Red-green glasses."
+            },
+            {
+              "text": "Randot",
+              "correct": false,
+              "feedback": "Polarised glasses."
+            },
+            {
+              "text": "Titmus",
+              "correct": false,
+              "feedback": "Polarised."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0412",
+          "q": "Which stereo test uses real depth with clear plastic plates?",
+          "options": [
+            {
+              "text": "Frisby",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "TNO",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Titmus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lang",
+              "correct": false,
+              "feedback": "Random dot cards."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0413",
+          "q": "The TNO test uses",
+          "options": [
+            {
+              "text": "red-green glasses and random dots",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "polarised glasses",
+              "correct": false,
+              "feedback": "Randot."
+            },
+            {
+              "text": "no glasses",
+              "correct": false,
+              "feedback": "Lang/Frisby."
+            },
+            {
+              "text": "prisms",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0414",
+          "q": "The Titmus fly test uses",
+          "options": [
+            {
+              "text": "polarised glasses and contour stereo",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "red-green glasses",
+              "correct": false,
+              "feedback": "TNO."
+            },
+            {
+              "text": "no glasses",
+              "correct": false,
+              "feedback": "Lang."
+            },
+            {
+              "text": "prisms",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0415",
+          "q": "Which colour test suits young children who don't know numbers?",
+          "options": [
+            {
+              "text": "A picture or shape-based test (e.g. Color Vision Testing Made Easy)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ishihara numbers",
+              "correct": false,
+              "feedback": "Needs numbers."
+            },
+            {
+              "text": "Farnsworth 100-hue",
+              "correct": false,
+              "feedback": "Too hard."
+            },
+            {
+              "text": "Anomaloscope",
+              "correct": false,
+              "feedback": "Not for young children."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0416",
+          "q": "UK school-entry vision screening is usually at",
+          "options": [
+            {
+              "text": "age 4–5",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "birth",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "age 11",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "age 16",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0417",
+          "q": "In UK school screening, a child is usually referred if VA is worse than",
+          "options": [
+            {
+              "text": "0.2 logMAR in either eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1.0 logMAR",
+              "correct": false,
+              "feedback": "Too lenient."
+            },
+            {
+              "text": "0.0",
+              "correct": false,
+              "feedback": "Too strict."
+            },
+            {
+              "text": "0.5 only",
+              "correct": false,
+              "feedback": "Too lenient."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0418",
+          "q": "Kay pictures and Keeler crowded logMAR tests are usually used at",
+          "options": [
+            {
+              "text": "3 m",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "6 m only",
+              "correct": false,
+              "feedback": "Usually 3 m."
+            },
+            {
+              "text": "50 cm",
+              "correct": false,
+              "feedback": "Cardiff."
+            },
+            {
+              "text": "10 m",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x0419",
+          "q": "Sheridan Gardiner (single letters) is less ideal because",
+          "options": [
+            {
+              "text": "it's uncrowded and overestimates VA in amblyopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's too hard",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it uses colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it needs glasses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04110",
+          "q": "How can motility be tested in a toddler?",
+          "options": [
+            {
+              "text": "Following an interesting toy into each gaze",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Asking them to read",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not at all",
+              "correct": false,
+              "feedback": "It can be tested."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04111",
+          "q": "Which objective method gives refraction in a non-verbal child?",
+          "options": [
+            {
+              "text": "Retinoscopy",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Subjective refraction",
+              "correct": false,
+              "feedback": "Needs answers."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "Needs answers."
+            },
+            {
+              "text": "JCC",
+              "correct": false,
+              "feedback": "Needs answers."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04112",
+          "q": "Which test checks fields in a young child?",
+          "options": [
+            {
+              "text": "Confrontation with toys brought in from the side",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Humphrey 24-2",
+              "correct": false,
+              "feedback": "Too hard."
+            },
+            {
+              "text": "Esterman",
+              "correct": false,
+              "feedback": "Too hard."
+            },
+            {
+              "text": "Amsler",
+              "correct": false,
+              "feedback": "Not for fields."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04113",
+          "q": "Why test each eye separately in children?",
+          "options": [
+            {
+              "text": "Amblyopia in one eye can be hidden by the good eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04114",
+          "q": "How can you occlude a child's eye if they won't keep a hand over it?",
+          "options": [
+            {
+              "text": "An adhesive patch or occluding glasses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Don't occlude",
+              "correct": false,
+              "feedback": "You need to."
+            },
+            {
+              "text": "Close their eye with your finger",
+              "correct": false,
+              "feedback": "Uncomfortable and peeping risk."
+            },
+            {
+              "text": "Tape their eye shut tightly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04115",
+          "q": "A child 'peeks' around the occluder. What does it suggest?",
+          "options": [
+            {
+              "text": "The occluded eye may be the better eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Normal behaviour only",
+              "correct": false,
+              "feedback": "Possibly, but note it."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04116",
+          "q": "Which test helps check binocular function quickly in toddlers?",
+          "options": [
+            {
+              "text": "Lang stereo test",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Amsler",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Duochrome",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04117",
+          "q": "Why use a matching card in letter-matching tests?",
+          "options": [
+            {
+              "text": "The child points rather than names the letter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To test colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For decoration",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To test IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04118",
+          "q": "Which test is preferred for children who can name letters?",
+          "options": [
+            {
+              "text": "A crowded logMAR letter chart",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Grating cards",
+              "correct": false,
+              "feedback": "Too basic."
+            },
+            {
+              "text": "Cardiff cards",
+              "correct": false,
+              "feedback": "Younger children."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "Colour."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04119",
+          "q": "Which near vision test can be used with children?",
+          "options": [
+            {
+              "text": "Near picture or letter tests with matching",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "N5 only",
+              "correct": false,
+              "feedback": "Needs reading."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Tests exist."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04120",
+          "q": "Why should you give lots of praise to children during tests?",
+          "options": [
+            {
+              "text": "It keeps them motivated and cooperative",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's required by law",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It changes results",
+              "correct": false,
+              "feedback": "Not directly."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04121",
+          "q": "What's 'fixation preference' testing?",
+          "options": [
+            {
+              "text": "Seeing which eye the child prefers to fix with",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Measuring VA with letters",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Measuring IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Testing colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04122",
+          "q": "Which test is a vanishing optotype test?",
+          "options": [
+            {
+              "text": "Cardiff acuity cards",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keeler cards",
+              "correct": false,
+              "feedback": "Gratings."
+            },
+            {
+              "text": "Kay pictures",
+              "correct": false,
+              "feedback": "Pictures."
+            },
+            {
+              "text": "Snellen",
+              "correct": false,
+              "feedback": "Letters."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04123",
+          "q": "Why should a child's VA be recorded in logMAR?",
+          "options": [
+            {
+              "text": "It's more precise and comparable over time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's shorter",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It's required for adults only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not used",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04124",
+          "q": "Which is typical VA for a healthy 5-year-old on a crowded logMAR test?",
+          "options": [
+            {
+              "text": "About 0.1 logMAR or better",
+              "correct": true,
+              "feedback": "Yes, roughly."
+            },
+            {
+              "text": "1.0 logMAR",
+              "correct": false,
+              "feedback": "Poor."
+            },
+            {
+              "text": "0.6 logMAR",
+              "correct": false,
+              "feedback": "Poor."
+            },
+            {
+              "text": "No measurable VA",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04125",
+          "q": "Which test detects colour deficiency in older children?",
+          "options": [
+            {
+              "text": "Ishihara",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Snellen",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lang",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cardiff",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04126",
+          "q": "A child performs poorly on the first test. What should you do?",
+          "options": [
+            {
+              "text": "Retest later or with a different method before concluding",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Diagnose amblyopia immediately",
+              "correct": false,
+              "feedback": "Too soon."
+            },
+            {
+              "text": "Ignore",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Refer urgently always",
+              "correct": false,
+              "feedback": "Not always."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04127",
+          "q": "Why use a toy or video fixation target for cover tests in toddlers?",
+          "options": [
+            {
+              "text": "To hold attention and control accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To relax them only",
+              "correct": false,
+              "feedback": "Not only."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To test colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04128",
+          "q": "Which test might show a child sees better at near than distance?",
+          "options": [
+            {
+              "text": "Comparing near and distance VA",
+              "correct": true,
+              "feedback": "Yes, e.g. myopia."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lang",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Amsler",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04129",
+          "q": "Who leads UK school vision screening?",
+          "options": [
+            {
+              "text": "Orthoptists (or trained screeners under orthoptic supervision)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Dentists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Pharmacists",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Teachers",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-assessing-vision-x04130",
+          "q": "Why test vision in children with learning difficulties carefully?",
+          "options": [
+            {
+              "text": "They have higher rates of eye problems and may need adapted tests",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They don't need testing",
+              "correct": false,
+              "feedback": "They do."
+            },
+            {
+              "text": "They always have normal vision",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -1817,6 +3437,816 @@
             },
             {
               "text": "With eyes closed",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0411",
+          "q": "After cyclopentolate, how long does recovery of accommodation usually take?",
+          "options": [
+            {
+              "text": "About 24 hours",
+              "correct": true,
+              "feedback": "Yes, roughly."
+            },
+            {
+              "text": "10 minutes",
+              "correct": false,
+              "feedback": "Too short."
+            },
+            {
+              "text": "A week",
+              "correct": false,
+              "feedback": "Atropine."
+            },
+            {
+              "text": "A month",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0412",
+          "q": "Which systemic signs suggest atropine toxicity?",
+          "options": [
+            {
+              "text": "Flushing, fever, fast heart rate and dry mouth",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Slow heart rate and tears",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Itchy skin only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Signs."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0413",
+          "q": "How can systemic absorption of drops be reduced in children?",
+          "options": [
+            {
+              "text": "Punctal occlusion for a minute or two after instillation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Instilling more drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Lying them upside down",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0414",
+          "q": "Atropine for cycloplegic refraction is usually started",
+          "options": [
+            {
+              "text": "a few days before the test, at home",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "in the clinic just before",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "after the test",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "It's used."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0415",
+          "q": "Which drop strength is used for preterm infants?",
+          "options": [
+            {
+              "text": "Weaker concentrations, e.g. cyclopentolate 0.5%",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Atropine 1% four times daily",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "Cyclopentolate 2%",
+              "correct": false,
+              "feedback": "Too strong."
+            },
+            {
+              "text": "None ever",
+              "correct": false,
+              "feedback": "Weaker drops are used."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0416",
+          "q": "Before instilling drops in a child, you should get consent from",
+          "options": [
+            {
+              "text": "the parent or guardian (and the child's assent)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "nobody",
+              "correct": false,
+              "feedback": "Consent needed."
+            },
+            {
+              "text": "the receptionist",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "the school",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0417",
+          "q": "What should be recorded about the drops?",
+          "options": [
+            {
+              "text": "Name, strength, batch, expiry, time and which eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only 'drops'",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Record."
+            },
+            {
+              "text": "The price",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0418",
+          "q": "Dilation during cycloplegic refraction also allows",
+          "options": [
+            {
+              "text": "a fundus examination",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "IOP measurement only",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "colour testing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "stereo testing",
+              "correct": false,
+              "feedback": "Test before drops."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x0419",
+          "q": "Which tests should be done before cycloplegic drops?",
+          "options": [
+            {
+              "text": "VA, cover test, stereo and motility",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only ret",
+              "correct": false,
+              "feedback": "After drops."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Do these first."
+            },
+            {
+              "text": "Fundus exam",
+              "correct": false,
+              "feedback": "After drops."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04110",
+          "q": "How much plus is usually prescribed for a child with accommodative esotropia?",
+          "options": [
+            {
+              "text": "The full cycloplegic hyperopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Half",
+              "correct": false,
+              "feedback": "Usually full."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Minus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04111",
+          "q": "For a non-strabismic hyperopic child, some practitioners",
+          "options": [
+            {
+              "text": "prescribe slightly less than the full cycloplegic plus",
+              "correct": true,
+              "feedback": "Yes, often."
+            },
+            {
+              "text": "prescribe minus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "always give double",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never prescribe",
+              "correct": false,
+              "feedback": "Sometimes needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04112",
+          "q": "Why may cycloplegic retinoscopy still leave a little accommodation?",
+          "options": [
+            {
+              "text": "Cyclopentolate doesn't fully block accommodation in all children",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It always does",
+              "correct": false,
+              "feedback": "Not completely."
+            },
+            {
+              "text": "The child is tired",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04113",
+          "q": "A child's ret without drops is +1.00 but with cyclopentolate +4.00. What does this show?",
+          "options": [
+            {
+              "text": "Latent hyperopia held by accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Measurement error only",
+              "correct": false,
+              "feedback": "Not likely."
+            },
+            {
+              "text": "Astigmatism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04114",
+          "q": "Which child needs extra care with cyclopentolate?",
+          "options": [
+            {
+              "text": "One with a history of seizures or a neurological condition",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A healthy 6-year-old",
+              "correct": false,
+              "feedback": "Standard."
+            },
+            {
+              "text": "A hyperopic child",
+              "correct": false,
+              "feedback": "Standard."
+            },
+            {
+              "text": "A myopic child",
+              "correct": false,
+              "feedback": "Standard."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04115",
+          "q": "After cycloplegia, what should children wear outside?",
+          "options": [
+            {
+              "text": "Sunglasses or a hat for comfort",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Light sensitivity."
+            },
+            {
+              "text": "An eye patch",
+              "correct": false,
+              "feedback": "Not needed."
+            },
+            {
+              "text": "Contact lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04116",
+          "q": "Cyclopentolate stings because",
+          "options": [
+            {
+              "text": "it's slightly acidic",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's hot",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's alcohol",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it doesn't",
+              "correct": false,
+              "feedback": "It can."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04117",
+          "q": "Why combine cyclopentolate with phenylephrine sometimes?",
+          "options": [
+            {
+              "text": "To improve dilation for a fundus view",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To increase cycloplegia",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "To lower IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04118",
+          "q": "How long should you wait before scoping after cyclopentolate?",
+          "options": [
+            {
+              "text": "About 30–45 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 minute",
+              "correct": false,
+              "feedback": "Too soon."
+            },
+            {
+              "text": "3 hours",
+              "correct": false,
+              "feedback": "Too long."
+            },
+            {
+              "text": "1 day",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04119",
+          "q": "A child's pupils are still small and reactive after 40 minutes. What next?",
+          "options": [
+            {
+              "text": "Consider another drop and wait",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Scope anyway",
+              "correct": false,
+              "feedback": "Unreliable."
+            },
+            {
+              "text": "Give up",
+              "correct": false,
+              "feedback": "Try again."
+            },
+            {
+              "text": "Use atropine immediately",
+              "correct": false,
+              "feedback": "Not usually."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04120",
+          "q": "Which is a reason to repeat cycloplegic refraction later?",
+          "options": [
+            {
+              "text": "Hyperopia changes as children grow",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It never changes",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To test IOP",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04121",
+          "q": "Why is cycloplegic refraction important in strabismus?",
+          "options": [
+            {
+              "text": "Uncorrected hyperopia can drive esotropia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It isn't",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "It treats strabismus alone",
+              "correct": false,
+              "feedback": "Glasses do, if accommodative."
+            },
+            {
+              "text": "For colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04122",
+          "q": "Atropine drops in a child at home must be",
+          "options": [
+            {
+              "text": "kept out of reach, as swallowing can be dangerous",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "shared with siblings",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "left anywhere",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "diluted",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04123",
+          "q": "Which retinoscopy working-distance lens is still allowed for under cycloplegia?",
+          "options": [
+            {
+              "text": "The usual working-distance lens (e.g. +1.50 at 67 cm)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Still allowed."
+            },
+            {
+              "text": "Double",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Minus",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04124",
+          "q": "What is 'tonus allowance'?",
+          "options": [
+            {
+              "text": "A small reduction in plus to account for normal ciliary tone",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Extra plus",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A drop",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04125",
+          "q": "Which parents' worry should you address before drops?",
+          "options": [
+            {
+              "text": "That vision will be blurred for a day and it's temporary",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "That it causes blindness",
+              "correct": false,
+              "feedback": "It doesn't."
+            },
+            {
+              "text": "That it changes eye colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Explain."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04126",
+          "q": "A child with suspected high hyperopia but no strabismus needs cycloplegia because",
+          "options": [
+            {
+              "text": "accommodation can hide the hyperopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "it's always myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it changes eye colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it's quicker",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04127",
+          "q": "A child's eye turns more after drops are instilled. Why?",
+          "options": [
+            {
+              "text": "Usually it doesn't; check for blurred near effort or occlusion effects",
+              "correct": true,
+              "feedback": "Yes, reassess."
+            },
+            {
+              "text": "Drops cause squints permanently",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's normal",
+              "correct": false,
+              "feedback": "Reassess."
+            },
+            {
+              "text": "Atropine always does",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04128",
+          "q": "Which feature confirms adequate cycloplegia?",
+          "options": [
+            {
+              "text": "Stable retinoscopy reflex and dilated, unreactive pupils",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Child is quiet",
+              "correct": false,
+              "feedback": "Not reliable."
+            },
+            {
+              "text": "10 minutes passed",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Tears",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04129",
+          "q": "Which drug is contraindicated in a child with known allergy to it?",
+          "options": [
+            {
+              "text": "That drug, whichever it is",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Allergies matter."
+            },
+            {
+              "text": "Only atropine",
+              "correct": false,
+              "feedback": "Any."
+            },
+            {
+              "text": "Only fluorescein",
+              "correct": false,
+              "feedback": "Any."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-cycloplegic-x04130",
+          "q": "Why give parents written advice after drops?",
+          "options": [
+            {
+              "text": "So they know what to expect and when to seek help",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To fill time",
               "correct": false,
               "feedback": "No."
             }
@@ -2438,6 +4868,816 @@
             }
           ],
           "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0411",
+          "q": "Amblyopia is often defined clinically as a VA difference between eyes of",
+          "options": [
+            {
+              "text": "2 logMAR lines (0.2) or more",
+              "correct": true,
+              "feedback": "Yes, with no other cause."
+            },
+            {
+              "text": "half a line",
+              "correct": false,
+              "feedback": "Too small."
+            },
+            {
+              "text": "10 lines",
+              "correct": false,
+              "feedback": "Too large."
+            },
+            {
+              "text": "no difference",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0412",
+          "q": "Why is anisometropic amblyopia often detected late?",
+          "options": [
+            {
+              "text": "The eyes look straight and the child sees well with the good eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's always obvious",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's painful",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's rare",
+              "correct": false,
+              "feedback": "Common."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0413",
+          "q": "Eccentric fixation is more common in",
+          "options": [
+            {
+              "text": "strabismic amblyopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "anisometropic amblyopia",
+              "correct": false,
+              "feedback": "Less common."
+            },
+            {
+              "text": "normal eyes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0414",
+          "q": "PEDIG found that for severe amblyopia, initial patching of",
+          "options": [
+            {
+              "text": "6 hours a day was similar to full-time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "1 minute a day was enough",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "full-time was always needed",
+              "correct": false,
+              "feedback": "Not needed."
+            },
+            {
+              "text": "no patching",
+              "correct": false,
+              "feedback": "Patching helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0415",
+          "q": "PEDIG found weekend atropine for moderate amblyopia was",
+          "options": [
+            {
+              "text": "about as effective as daily atropine",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "useless",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "harmful",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "better than everything",
+              "correct": false,
+              "feedback": "Similar."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0416",
+          "q": "Bangerter filters are",
+          "options": [
+            {
+              "text": "translucent films on the glasses that blur the better eye",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "contact lenses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "patches stuck to the skin",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0417",
+          "q": "How can patching compliance be measured objectively?",
+          "options": [
+            {
+              "text": "Occlusion dose monitors",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Asking the child only",
+              "correct": false,
+              "feedback": "Subjective."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "VA alone",
+              "correct": false,
+              "feedback": "Indirect."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0418",
+          "q": "When should amblyopia treatment usually stop?",
+          "options": [
+            {
+              "text": "When VA plateaus over consecutive visits",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "After one week",
+              "correct": false,
+              "feedback": "Too soon."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "It stops."
+            },
+            {
+              "text": "When the child complains",
+              "correct": false,
+              "feedback": "Not the criterion."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x0419",
+          "q": "About what proportion of treated children have recurrence within a year?",
+          "options": [
+            {
+              "text": "About a quarter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Some do."
+            },
+            {
+              "text": "All",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "90%",
+              "correct": false,
+              "feedback": "Too high."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04110",
+          "q": "Why might treatment be tapered rather than stopped abruptly?",
+          "options": [
+            {
+              "text": "To reduce the chance of recurrence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To save money",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To make it harder",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No reason",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04111",
+          "q": "Can older children still improve with amblyopia treatment?",
+          "options": [
+            {
+              "text": "Yes, some improve even into the teens",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No, never after age 3",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only adults",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only with surgery",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04112",
+          "q": "Meridional amblyopia is caused by",
+          "options": [
+            {
+              "text": "uncorrected astigmatism in early childhood",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "myopia only",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "cataract",
+              "correct": false,
+              "feedback": "Deprivation."
+            },
+            {
+              "text": "squint",
+              "correct": false,
+              "feedback": "Strabismic."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04113",
+          "q": "Unilateral congenital cataract surgery is ideally done",
+          "options": [
+            {
+              "text": "within the first 6 weeks or so",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "at age 5",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "at age 18",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "never",
+              "correct": false,
+              "feedback": "It's needed."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04114",
+          "q": "Which skin problem can patching cause?",
+          "options": [
+            {
+              "text": "Irritation or allergy to the adhesive",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No problems",
+              "correct": false,
+              "feedback": "Some."
+            },
+            {
+              "text": "Eczema everywhere",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Burns",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04115",
+          "q": "Why monitor the good eye's VA during patching?",
+          "options": [
+            {
+              "text": "To catch occlusion amblyopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It never changes",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "To check colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04116",
+          "q": "Patching may reveal diplopia because",
+          "options": [
+            {
+              "text": "treatment can break suppression in a child with a squint",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "patches cause double vision directly",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "it never happens",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "it causes cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04117",
+          "q": "Can a person with amblyopia hold a car licence?",
+          "options": [
+            {
+              "text": "Yes, if they meet the binocular VA and field standards",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "They can."
+            },
+            {
+              "text": "Only with patches",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only Group 2",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04118",
+          "q": "Perceptual learning for amblyopia means",
+          "options": [
+            {
+              "text": "repeated practice on visual tasks to improve performance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "surgery",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "doing nothing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04119",
+          "q": "Which dichoptic treatment uses films shown with different images to each eye?",
+          "options": [
+            {
+              "text": "Digital binocular treatments (e.g. Luminopia-type systems)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Patching",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Atropine",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Bangerter",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04120",
+          "q": "Why should glasses be worn full time first?",
+          "options": [
+            {
+              "text": "Many children improve with glasses alone",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's cheaper",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "To delay treatment pointlessly",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not necessary",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04121",
+          "q": "Strabismic amblyopes typically show",
+          "options": [
+            {
+              "text": "a stronger crowding effect",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "no crowding effect",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "better VA with crowded tests",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "colour loss always",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04122",
+          "q": "Why must amblyopia be distinguished from organic disease?",
+          "options": [
+            {
+              "text": "Reduced VA may have another cause that needs treatment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They're the same",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04123",
+          "q": "Bilateral refractive amblyopia is caused by",
+          "options": [
+            {
+              "text": "high bilateral hyperopia or astigmatism",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "unilateral squint",
+              "correct": false,
+              "feedback": "Strabismic."
+            },
+            {
+              "text": "unilateral cataract",
+              "correct": false,
+              "feedback": "Deprivation."
+            },
+            {
+              "text": "myopia only",
+              "correct": false,
+              "feedback": "Less common."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04124",
+          "q": "Amblyopia affects about what proportion of children?",
+          "options": [
+            {
+              "text": "About 2–3%",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "50%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "0.01%",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "20%",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04125",
+          "q": "Why does amblyopia matter in adulthood?",
+          "options": [
+            {
+              "text": "Losing the good eye later would leave poor vision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It always resolves",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It causes cataract",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04126",
+          "q": "What's the role of the orthoptist in amblyopia?",
+          "options": [
+            {
+              "text": "Assessing and managing treatment in hospital clinics",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Prescribing all glasses",
+              "correct": false,
+              "feedback": "Optometrists usually."
+            },
+            {
+              "text": "Surgery",
+              "correct": false,
+              "feedback": "Ophthalmologists."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Major role."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04127",
+          "q": "Which explanation helps parents with patching?",
+          "options": [
+            {
+              "text": "Why it's needed, how long each day and how to make it fun",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Explain."
+            },
+            {
+              "text": "That it's optional",
+              "correct": false,
+              "feedback": "Compliance matters."
+            },
+            {
+              "text": "That it hurts",
+              "correct": false,
+              "feedback": "It shouldn't."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04128",
+          "q": "Which VA test is best for monitoring amblyopia?",
+          "options": [
+            {
+              "text": "A crowded logMAR test",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Single letters",
+              "correct": false,
+              "feedback": "Overestimates."
+            },
+            {
+              "text": "Grating only",
+              "correct": false,
+              "feedback": "Less sensitive."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04129",
+          "q": "Which risk factor is a strong cause of amblyopia?",
+          "options": [
+            {
+              "text": "Strabismus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Being a girl",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Living in a city",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Wearing contact lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-amblyopia-x04130",
+          "q": "A child's amblyopic eye improves from 0.6 to 0.2 logMAR. What next?",
+          "options": [
+            {
+              "text": "Continue and monitor until it plateaus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Stop immediately",
+              "correct": false,
+              "feedback": "Too early."
+            },
+            {
+              "text": "Double the patching always",
+              "correct": false,
+              "feedback": "Not always."
+            },
+            {
+              "text": "Refer for surgery",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
         }
       ],
       "cases": [],
@@ -3024,6 +6264,816 @@
               "text": "Rural Africa",
               "correct": false,
               "feedback": "Lower."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0411",
+          "q": "Roughly how much myopia does 1 mm of extra axial length cause?",
+          "options": [
+            {
+              "text": "About 2.5–3 D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 0.25 D",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "About 10 D",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "It causes myopia."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0412",
+          "q": "An axial length over about 26 mm suggests",
+          "options": [
+            {
+              "text": "high myopia and higher risk of complications",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "hyperopia",
+              "correct": false,
+              "feedback": "Short eye."
+            },
+            {
+              "text": "normal",
+              "correct": false,
+              "feedback": "Long."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0413",
+          "q": "Which study found 0.05% atropine most effective among low doses?",
+          "options": [
+            {
+              "text": "LAMP",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "CITT",
+              "correct": false,
+              "feedback": "Convergence."
+            },
+            {
+              "text": "PEDIG",
+              "correct": false,
+              "feedback": "Amblyopia."
+            },
+            {
+              "text": "AREDS",
+              "correct": false,
+              "feedback": "AMD."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0414",
+          "q": "Which is a side effect of atropine for myopia control?",
+          "options": [
+            {
+              "text": "Light sensitivity and near blur",
+              "correct": true,
+              "feedback": "Yes, more at higher doses."
+            },
+            {
+              "text": "Myopia increase",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "Not at low dose."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0415",
+          "q": "What's 'rebound' in atropine treatment?",
+          "options": [
+            {
+              "text": "Faster progression after stopping, especially at higher doses",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A bouncing eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "An allergy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A side effect in the lids",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0416",
+          "q": "DIMS spectacle lenses (e.g. MiyoSmart) use",
+          "options": [
+            {
+              "text": "many small plus segments around a clear centre",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "a single bifocal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "prism",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "tint",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0417",
+          "q": "HAL lenses (e.g. Stellest) use",
+          "options": [
+            {
+              "text": "rings of highly aspherical lenslets",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "flat glass",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "a single add",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "prism",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0418",
+          "q": "How long should myopia control spectacles be worn each day?",
+          "options": [
+            {
+              "text": "Most waking hours",
+              "correct": true,
+              "feedback": "Yes, full time."
+            },
+            {
+              "text": "1 hour",
+              "correct": false,
+              "feedback": "Too little."
+            },
+            {
+              "text": "Only at night",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only for sport",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0419",
+          "q": "Why does outdoor time help?",
+          "options": [
+            {
+              "text": "Bright light may raise retinal dopamine, slowing eye growth",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It tires the eyes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It changes the cornea",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It helps."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04110",
+          "q": "Which factor raises a child's myopia risk most?",
+          "options": [
+            {
+              "text": "Having two myopic parents",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Eating vegetables",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Playing outside",
+              "correct": false,
+              "feedback": "Protective."
+            },
+            {
+              "text": "Wearing a hat",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04111",
+          "q": "About what share of the world's population was predicted to be myopic by 2050?",
+          "options": [
+            {
+              "text": "About half",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "About 5%",
+              "correct": false,
+              "feedback": "Too low."
+            },
+            {
+              "text": "Everyone",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "About 90%",
+              "correct": false,
+              "feedback": "Too high."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04112",
+          "q": "Earlier onset of myopia usually means",
+          "options": [
+            {
+              "text": "higher final myopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "lower final myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no change",
+              "correct": false,
+              "feedback": "It matters."
+            },
+            {
+              "text": "hyperopia later",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04113",
+          "q": "How often should a child on myopia control be reviewed?",
+          "options": [
+            {
+              "text": "About every 6 months",
+              "correct": true,
+              "feedback": "Yes, commonly."
+            },
+            {
+              "text": "Every 5 years",
+              "correct": false,
+              "feedback": "Too long."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Review."
+            },
+            {
+              "text": "Weekly",
+              "correct": false,
+              "feedback": "Too often."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04114",
+          "q": "Which measurement best tracks myopia control success?",
+          "options": [
+            {
+              "text": "Axial length with an optical biometer",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "VA alone",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "IOP",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04115",
+          "q": "Which group is the International Myopia Institute (IMI)?",
+          "options": [
+            {
+              "text": "An expert group publishing evidence-based myopia guidance",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A spectacle brand",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A drug company",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A school",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04116",
+          "q": "Why is ortho-k discussed carefully with parents?",
+          "options": [
+            {
+              "text": "It slows progression but carries a small infection risk from overnight wear",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's risk-free",
+              "correct": false,
+              "feedback": "Small risk."
+            },
+            {
+              "text": "It cures myopia permanently",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's illegal",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04117",
+          "q": "Which myopia complication can cause sudden central distortion?",
+          "options": [
+            {
+              "text": "Myopic choroidal neovascularisation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "Gradual."
+            },
+            {
+              "text": "Dry eye",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04118",
+          "q": "Why are myopes at higher risk of retinal detachment?",
+          "options": [
+            {
+              "text": "A longer eye has thinner, stretched peripheral retina",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They wear glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They read more",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "They don't",
+              "correct": false,
+              "feedback": "They are."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04119",
+          "q": "Which is the expected annual axial growth in a typical non-myopic child?",
+          "options": [
+            {
+              "text": "About 0.1 mm or less",
+              "correct": true,
+              "feedback": "Yes, roughly."
+            },
+            {
+              "text": "1 mm",
+              "correct": false,
+              "feedback": "Too much."
+            },
+            {
+              "text": "5 mm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "None ever",
+              "correct": false,
+              "feedback": "Some growth."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04120",
+          "q": "Can myopia control treatments be combined?",
+          "options": [
+            {
+              "text": "Yes, e.g. atropine with ortho-k or special lenses",
+              "correct": true,
+              "feedback": "Yes, sometimes."
+            },
+            {
+              "text": "Never",
+              "correct": false,
+              "feedback": "Sometimes."
+            },
+            {
+              "text": "Only with glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only in adults",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04121",
+          "q": "Standard progressive or bifocal lenses for myopia control showed",
+          "options": [
+            {
+              "text": "only small effects in trials such as COMET",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "large effects",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "no study",
+              "correct": false,
+              "feedback": "They were studied."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04122",
+          "q": "Why measure cycloplegic refraction in young myopes?",
+          "options": [
+            {
+              "text": "To avoid over-minusing from accommodation",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It isn't needed",
+              "correct": false,
+              "feedback": "It helps."
+            },
+            {
+              "text": "To change eye colour",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04123",
+          "q": "Which advice about screens is reasonable?",
+          "options": [
+            {
+              "text": "Take regular breaks and balance near work with outdoor time",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Screens cure myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Ban all reading",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Screens have no link",
+              "correct": false,
+              "feedback": "Near work may contribute."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04124",
+          "q": "Why record baseline axial length before starting treatment?",
+          "options": [
+            {
+              "text": "To compare progression later",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "For billing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            },
+            {
+              "text": "To choose a tint",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04125",
+          "q": "Which outcome counts as successful myopia control?",
+          "options": [
+            {
+              "text": "Slower progression than expected without treatment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Myopia disappearing",
+              "correct": false,
+              "feedback": "Unrealistic."
+            },
+            {
+              "text": "VA improving without glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No glasses needed",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04126",
+          "q": "Which children benefit most from myopia control?",
+          "options": [
+            {
+              "text": "Young children with progressing myopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Stable adult myopes",
+              "correct": false,
+              "feedback": "Less benefit."
+            },
+            {
+              "text": "Hyperopes",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Presbyopes",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04127",
+          "q": "Myopia in the general population is rising mainly because of",
+          "options": [
+            {
+              "text": "environmental factors such as less outdoor time and more near work",
+              "correct": true,
+              "feedback": "Yes, alongside genetics."
+            },
+            {
+              "text": "genetics alone",
+              "correct": false,
+              "feedback": "Too fast to be only genes."
+            },
+            {
+              "text": "glasses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "diet only",
+              "correct": false,
+              "feedback": "Not mainly."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04128",
+          "q": "Why give parents realistic expectations?",
+          "options": [
+            {
+              "text": "Treatments slow, but don't stop or reverse, myopia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Treatments cure myopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They don't work at all",
+              "correct": false,
+              "feedback": "They help."
+            },
+            {
+              "text": "It's not needed",
+              "correct": false,
+              "feedback": "It is."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x04129",
+          "q": "Myopia also increases lifetime risk of",
+          "options": [
+            {
+              "text": "glaucoma and cataract",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "presbyopia",
+              "correct": false,
+              "feedback": "Everyone gets it."
+            },
+            {
+              "text": "keratoconus",
+              "correct": false,
+              "feedback": "Not directly."
+            },
+            {
+              "text": "hyperopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "id": "pap-myopia-x0441",
+          "q": "A 7-year-old's refraction goes from −0.75 D to −1.75 D in a year. What does it suggest?",
+          "options": [
+            {
+              "text": "Fast progression: discuss myopia management",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Normal and nothing to do",
+              "correct": false,
+              "feedback": "It's fast for a young child."
+            },
+            {
+              "text": "Hyperopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Measurement error only",
+              "correct": false,
+              "feedback": "Check, but likely real."
             }
           ],
           "explanation": ""
