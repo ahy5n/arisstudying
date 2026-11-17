@@ -102,51 +102,79 @@
               "feedback": "Low-contrast loss can coexist with normal high-contrast acuity."
             },
             {
-              "text": "Repeat the Snellen chart",
+              "text": "Repeating the Snellen chart in brighter light",
               "correct": false,
               "feedback": "It's already 6/6 and won't show the problem."
             },
             {
-              "text": "Stereoacuity",
+              "text": "Stereoacuity (for example the TNO test)",
               "correct": false,
               "feedback": "Doesn't address washed-out vision."
             },
             {
-              "text": "Colour vision with Ishihara",
+              "text": "Colour vision (for example Ishihara)",
               "correct": false,
               "feedback": "Ishihara screens red-green colour deficiency."
             }
           ],
           "explanation": "Contrast sensitivity picks up early cataract and other losses missed by acuity.",
-          "link": "vpe-acuity-contrast#when-contrast-sensitivity-matters"
+          "link": "vpe-acuity-contrast#when-contrast-sensitivity-matters",
+          "needsReview": true
         },
         {
           "id": "vpe-ac-3",
-          "q": "Which feature makes logMAR charts more repeatable than Snellen charts?",
+          "q": "Which statement about logMAR charts is wrong?",
           "options": [
             {
-              "text": "The same number of letters per line, with equal log steps between lines",
+              "text": "Lower lines have more letters than upper lines",
               "correct": true,
-              "feedback": "This keeps the task equally hard at every level."
+              "feedback": "Yes, that's wrong: that's a Snellen feature."
             },
             {
-              "text": "They use only the letter E",
+              "text": "Each line is a step of 0.1 log units",
               "correct": false,
-              "feedback": "LogMAR charts use a set of letters of similar difficulty."
+              "feedback": "True."
             },
             {
-              "text": "They are always viewed at 6 m",
+              "text": "Each letter is worth 0.02 log units",
               "correct": false,
-              "feedback": "Many are designed for 4 m or 3 m."
+              "feedback": "True."
             },
             {
-              "text": "They have bigger letters",
+              "text": "Letter spacing scales with letter size",
               "correct": false,
-              "feedback": "Letter size isn't the reason."
+              "feedback": "True."
             }
           ],
-          "explanation": "Consistent design gives reliable, letter-by-letter measurement.",
-          "link": "vpe-acuity-contrast#why-logmar-charts-are-better"
+          "explanation": "LogMAR charts have five letters per line, equal log steps and proportional spacing, so a change of one line means the same thing at every size.",
+          "link": "vpe-acuity-contrast#why-logmar-charts-are-better",
+          "original": {
+            "q": "Which feature makes logMAR charts more repeatable than Snellen charts?",
+            "options": [
+              {
+                "text": "The same number of letters per line, with equal log steps between lines",
+                "correct": true,
+                "feedback": "This keeps the task equally hard at every level."
+              },
+              {
+                "text": "They use only the letter E",
+                "correct": false,
+                "feedback": "LogMAR charts use a set of letters of similar difficulty."
+              },
+              {
+                "text": "They are always viewed at 6 m",
+                "correct": false,
+                "feedback": "Many are designed for 4 m or 3 m."
+              },
+              {
+                "text": "They have bigger letters",
+                "correct": false,
+                "feedback": "Letter size isn't the reason."
+              }
+            ],
+            "explanation": "Consistent design gives reliable, letter-by-letter measurement."
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0091",
@@ -204,57 +232,111 @@
         },
         {
           "id": "vpe-acuity-contrast-x0093",
-          "q": "What does a 6/6 letter subtend overall?",
+          "q": "What angle does a whole 6/12 letter subtend at the eye?",
           "options": [
             {
-              "text": "5 minutes of arc",
+              "text": "10 minutes of arc",
               "correct": true,
-              "feedback": "Yes; each stroke 1 minute."
+              "feedback": "Yes: twice the 5 minutes of a 6/6 letter."
             },
             {
-              "text": "1 minute",
+              "text": "5 minutes of arc",
               "correct": false,
-              "feedback": "That's each stroke."
+              "feedback": "That's a 6/6 letter."
             },
             {
-              "text": "1 degree",
+              "text": "2 minutes of arc",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the 6/12 stroke width."
             },
             {
-              "text": "10 minutes",
+              "text": "1 minute of arc",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the 6/6 stroke width."
             }
           ],
-          "explanation": ""
+          "explanation": "A 6/6 letter subtends 5′ overall with 1′ details; a 6/12 letter is twice that size.",
+          "original": {
+            "q": "What does a 6/6 letter subtend overall?",
+            "options": [
+              {
+                "text": "5 minutes of arc",
+                "correct": true,
+                "feedback": "Yes; each stroke 1 minute."
+              },
+              {
+                "text": "1 minute",
+                "correct": false,
+                "feedback": "That's each stroke."
+              },
+              {
+                "text": "1 degree",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "10 minutes",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0094",
-          "q": "Where does the contrast sensitivity function peak?",
+          "q": "For a healthy adult, which grating would be easiest to see at very low contrast?",
           "options": [
             {
-              "text": "About 3–5 cycles per degree",
+              "text": "4 cycles per degree",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: near the peak of the CSF."
+            },
+            {
+              "text": "0.5 cycles per degree",
+              "correct": false,
+              "feedback": "Sensitivity falls at low frequencies."
             },
             {
               "text": "30 cycles per degree",
               "correct": false,
+              "feedback": "Sensitivity falls at high frequencies."
+            },
+            {
+              "text": "50 cycles per degree",
+              "correct": false,
               "feedback": "Near the cut-off."
-            },
-            {
-              "text": "0.1 cycles per degree",
-              "correct": false,
-              "feedback": "Low."
-            },
-            {
-              "text": "It's flat",
-              "correct": false,
-              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The contrast sensitivity function peaks at about 3–5 cycles per degree.",
+          "original": {
+            "q": "Where does the contrast sensitivity function peak?",
+            "options": [
+              {
+                "text": "About 3–5 cycles per degree",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "30 cycles per degree",
+                "correct": false,
+                "feedback": "Near the cut-off."
+              },
+              {
+                "text": "0.1 cycles per degree",
+                "correct": false,
+                "feedback": "Low."
+              },
+              {
+                "text": "It's flat",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0095",
@@ -266,49 +348,77 @@
               "feedback": "Yes."
             },
             {
-              "text": "Letter size",
+              "text": "Letter size, line by line",
               "correct": false,
               "feedback": "Same size."
             },
             {
-              "text": "Colour",
+              "text": "The colour of the letters",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Distance",
+              "text": "The viewing distance",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0096",
-          "q": "Michelson contrast is",
+          "q": "A grating has Lmax = 80 cd/m² and Lmin = 20 cd/m². What is its Michelson contrast?",
           "options": [
             {
-              "text": "(Lmax − Lmin) ÷ (Lmax + Lmin)",
+              "text": "0.6",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: 60 ÷ 100."
             },
             {
-              "text": "Lmax ÷ Lmin",
+              "text": "0.75",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's (80 − 20) ÷ 80."
             },
             {
-              "text": "Lmax − Lmin",
+              "text": "4",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the ratio."
             },
             {
-              "text": "(L − Lb) ÷ Lb",
+              "text": "0.25",
               "correct": false,
-              "feedback": "That's Weber."
+              "feedback": "That's 20 ÷ 80."
             }
           ],
-          "explanation": ""
+          "explanation": "Michelson contrast = (Lmax − Lmin) ÷ (Lmax + Lmin).",
+          "original": {
+            "q": "Michelson contrast is",
+            "options": [
+              {
+                "text": "(Lmax − Lmin) ÷ (Lmax + Lmin)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Lmax ÷ Lmin",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Lmax − Lmin",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "(L − Lb) ÷ Lb",
+                "correct": false,
+                "feedback": "That's Weber."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0097",
@@ -338,7 +448,14 @@
           "explanation": ""
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "On a logMAR chart a patient reads every letter on the 0.20 line and three of the five letters on the 0.10 line.",
+          "question": "What is their logMAR score, and why might you also measure contrast sensitivity?",
+          "modelAnswer": "Each letter is worth 0.02 log units. Reading all of the 0.20 line gives 0.20, and three more letters on the next line take off 3 × 0.02, so the score is 0.14 logMAR, a little worse than 6/7.5. High-contrast acuity only tests the smallest detail seen at maximum contrast. Contrast sensitivity, for example on a Pelli-Robson chart, tests larger, fainter detail and often explains complaints such as 'vision is misty' in cataract, corneal oedema or optic nerve disease when acuity looks good.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists: guidance on visual acuity",
@@ -419,23 +536,24 @@
               "feedback": "Inherited defects are present from birth and the same in both eyes."
             },
             {
-              "text": "Deuteranomaly",
+              "text": "Deuteranomaly, a congenital defect",
               "correct": false,
               "feedback": "Inherited defects affect both eyes equally and don't change."
             },
             {
-              "text": "Normal ageing",
+              "text": "Normal ageing of the lens",
               "correct": false,
               "feedback": "Ageing doesn't cause a sudden one-eyed change."
             },
             {
-              "text": "Tritanopia",
+              "text": "Tritanopia, a congenital defect",
               "correct": false,
               "feedback": "Congenital tritan defects are bilateral and stable."
             }
           ],
           "explanation": "Monocular or changing colour vision suggests disease.",
-          "link": "vpe-colour-vision#acquired-colour-defects"
+          "link": "vpe-colour-vision#acquired-colour-defects",
+          "needsReview": true
         },
         {
           "id": "vpe-cv-2",
@@ -475,23 +593,24 @@
               "feedback": "Males have one X, so one faulty copy is enough."
             },
             {
-              "text": "Males have fewer cones",
+              "text": "Males have fewer cones in the retina",
               "correct": false,
               "feedback": "Cone numbers aren't the cause."
             },
             {
-              "text": "It's caused by the Y chromosome",
+              "text": "It is carried on the Y chromosome",
               "correct": false,
               "feedback": "The genes are on the X chromosome."
             },
             {
-              "text": "Hormonal differences",
+              "text": "Male hormones alter the cone pigments",
               "correct": false,
               "feedback": "It's genetic inheritance."
             }
           ],
           "explanation": "X-linked recessive inheritance.",
-          "link": "vpe-colour-vision#types-of-inherited-deficiency"
+          "link": "vpe-colour-vision#types-of-inherited-deficiency",
+          "needsReview": true
         },
         {
           "id": "vpe-colour-vision-x0091",
@@ -522,30 +641,57 @@
         },
         {
           "id": "vpe-colour-vision-x0092",
-          "q": "Which is the most common colour deficiency?",
+          "q": "A male patient makes a few errors on Ishihara, and further testing shows a mild green (M-cone) anomaly. Which is most likely?",
           "options": [
             {
               "text": "Deuteranomaly",
               "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "Tritanopia",
-              "correct": false,
-              "feedback": "Rare."
-            },
-            {
-              "text": "Achromatopsia",
-              "correct": false,
-              "feedback": "Very rare."
+              "feedback": "Yes: the commonest congenital type."
             },
             {
               "text": "Protanopia",
               "correct": false,
-              "feedback": "Less common."
+              "feedback": "That's L cones, and complete."
+            },
+            {
+              "text": "Tritanomaly",
+              "correct": false,
+              "feedback": "That's S cones; rare congenitally."
+            },
+            {
+              "text": "Achromatopsia",
+              "correct": false,
+              "feedback": "No colour vision at all."
             }
           ],
-          "explanation": ""
+          "explanation": "Deuteranomaly (a shifted M cone) is the most common congenital colour deficiency.",
+          "original": {
+            "q": "Which is the most common colour deficiency?",
+            "options": [
+              {
+                "text": "Deuteranomaly",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Tritanopia",
+                "correct": false,
+                "feedback": "Rare."
+              },
+              {
+                "text": "Achromatopsia",
+                "correct": false,
+                "feedback": "Very rare."
+              },
+              {
+                "text": "Protanopia",
+                "correct": false,
+                "feedback": "Less common."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-colour-vision-x0093",
@@ -603,30 +749,57 @@
         },
         {
           "id": "vpe-colour-vision-x0095",
-          "q": "How is congenital red-green deficiency inherited?",
+          "q": "A man with congenital red–green deficiency and a woman with normal colour genes have a daughter. What is she?",
           "options": [
             {
-              "text": "X-linked recessive",
+              "text": "A carrier with (usually) normal colour vision",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: she inherits his X."
             },
             {
-              "text": "Autosomal dominant",
+              "text": "Colour deficient, like her father",
               "correct": false,
-              "feedback": "Tritan."
+              "feedback": "She'd need two affected X chromosomes."
             },
             {
-              "text": "Not inherited",
+              "text": "Unaffected and not a carrier",
               "correct": false,
-              "feedback": "It is."
+              "feedback": "She must inherit his X."
             },
             {
-              "text": "Y-linked",
+              "text": "Affected only if she has sons",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Red–green deficiency is X-linked recessive. Every daughter of an affected father is a carrier; his sons are unaffected.",
+          "original": {
+            "q": "How is congenital red-green deficiency inherited?",
+            "options": [
+              {
+                "text": "X-linked recessive",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Autosomal dominant",
+                "correct": false,
+                "feedback": "Tritan."
+              },
+              {
+                "text": "Not inherited",
+                "correct": false,
+                "feedback": "It is."
+              },
+              {
+                "text": "Y-linked",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-colour-vision-x0096",
@@ -743,23 +916,24 @@
               "feedback": "The fovea has no rods, so it's less sensitive in the dark."
             },
             {
-              "text": "The pupil gets bigger",
+              "text": "The pupil dilates when you look away",
               "correct": false,
               "feedback": "Looking aside doesn't change pupil size."
             },
             {
-              "text": "Cones are more sensitive off-centre",
+              "text": "Cones are more sensitive away from the fovea",
               "correct": false,
               "feedback": "Rods, not cones, give the extra sensitivity."
             },
             {
-              "text": "Accommodation relaxes",
+              "text": "Accommodation relaxes when you look aside",
               "correct": false,
               "feedback": "Not the reason."
             }
           ],
           "explanation": "Scotopic vision depends on rods, absent at the fovea.",
-          "link": "vpe-adaptation#why-rods-take-longer"
+          "link": "vpe-adaptation#why-rods-take-longer",
+          "needsReview": true
         },
         {
           "id": "vpe-ad-2",
@@ -819,57 +993,111 @@
         },
         {
           "id": "vpe-adaptation-x0091",
-          "q": "When does the rod-cone break occur?",
+          "q": "Which statement about dark adaptation is wrong?",
           "options": [
             {
-              "text": "After about 5–10 minutes in the dark",
+              "text": "The rod–cone break happens within about 30 seconds in the dark",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it's usually about 5–10 minutes."
             },
             {
-              "text": "Instantly",
+              "text": "Cones adapt first and then reach a plateau",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "After 2 hours",
+              "text": "Rods keep improving for 20 to 30 minutes",
               "correct": false,
-              "feedback": "Too long."
+              "feedback": "True."
             },
             {
-              "text": "Never",
+              "text": "A red target shows only the cone branch",
               "correct": false,
-              "feedback": "It does."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The curve has a cone branch that plateaus after about 5–10 minutes, then the rod–cone break, then the slower rod branch.",
+          "original": {
+            "q": "When does the rod-cone break occur?",
+            "options": [
+              {
+                "text": "After about 5–10 minutes in the dark",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Instantly",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "After 2 hours",
+                "correct": false,
+                "feedback": "Too long."
+              },
+              {
+                "text": "Never",
+                "correct": false,
+                "feedback": "It does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-adaptation-x0092",
-          "q": "Why do rods recover slowly?",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "Rhodopsin takes longer to regenerate",
+              "text": "Rods recover faster than cones after bright light",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: rhodopsin regenerates slowly."
             },
             {
-              "text": "They're larger",
+              "text": "Bright light bleaches the photopigment",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "They're fewer",
+              "text": "Cone pigment regenerates within minutes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "They don't recover",
+              "text": "Full rod sensitivity can take 30 minutes",
               "correct": false,
-              "feedback": "They do."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Rods recover slowly because rhodopsin takes longer to regenerate than cone pigments.",
+          "original": {
+            "q": "Why do rods recover slowly?",
+            "options": [
+              {
+                "text": "Rhodopsin takes longer to regenerate",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "They're larger",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "They're fewer",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "They don't recover",
+                "correct": false,
+                "feedback": "They do."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-adaptation-x0093",
@@ -900,114 +1128,177 @@
         },
         {
           "id": "vpe-adaptation-x0094",
-          "q": "Poor night vision can be an early sign of",
+          "q": "A patient with long-standing gut malabsorption reports poor vision at night and dry, gritty eyes. Which deficiency is most likely?",
           "options": [
             {
-              "text": "retinitis pigmentosa or vitamin A deficiency",
+              "text": "Vitamin A",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: needed for rhodopsin and a healthy ocular surface."
             },
             {
-              "text": "myopia only",
+              "text": "Vitamin C",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this pattern."
             },
             {
-              "text": "presbyopia",
+              "text": "Iron",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this pattern."
             },
             {
-              "text": "conjunctivitis",
+              "text": "Vitamin D",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this pattern."
             }
           ],
-          "explanation": ""
+          "explanation": "Vitamin A deficiency causes night blindness (it's needed for rhodopsin) and xerophthalmia.",
+          "original": {
+            "q": "Poor night vision can be an early sign of",
+            "options": [
+              {
+                "text": "retinitis pigmentosa or vitamin A deficiency",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myopia only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "presbyopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "conjunctivitis",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-adaptation-x0095",
           "q": "Scotopic vision has",
           "options": [
             {
-              "text": "high sensitivity, no colour and poor acuity",
+              "text": "high sensitivity, no colour, poor acuity",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "good colour",
+              "text": "good colour vision and high acuity",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "high acuity",
+              "text": "high acuity but low sensitivity",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "no sensitivity",
+              "text": "low sensitivity and good colour vision",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "vpe-adaptation-x0096",
           "q": "What is the Purkinje shift?",
           "options": [
             {
-              "text": "Peak sensitivity moves to shorter wavelengths in dim light, so blues look brighter",
+              "text": "Peak sensitivity shifts to shorter wavelengths in dim light",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Colours look redder at night",
+              "text": "Colours look redder as the light fades at night",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Loss of acuity",
+              "text": "Acuity is lost as the light level falls",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Pupil constriction",
+              "text": "The pupil constricts as the eye dark adapts",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "vpe-adaptation-x0097",
-          "q": "Which contributes to light adaptation?",
+          "q": "Which statement about light adaptation is wrong?",
           "options": [
             {
-              "text": "Pupil size, photopigment bleaching and neural changes",
+              "text": "Pupil changes account for most of it",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: the pupil only changes retinal illuminance about 16-fold."
             },
             {
-              "text": "Only the pupil",
+              "text": "Photopigment bleaching contributes",
               "correct": false,
-              "feedback": "Not only."
+              "feedback": "True."
             },
             {
-              "text": "Only tears",
+              "text": "Neural changes contribute",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Nothing",
+              "text": "Adaptation covers a very wide range of light levels",
               "correct": false,
-              "feedback": "Several do."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Pupil size, bleaching and neural gain changes all contribute, but the pupil's share is small compared with the huge range of light levels.",
+          "original": {
+            "q": "Which contributes to light adaptation?",
+            "options": [
+              {
+                "text": "Pupil size, photopigment bleaching and neural changes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the pupil",
+                "correct": false,
+                "feedback": "Not only."
+              },
+              {
+                "text": "Only tears",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Several do."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "A patient walks from bright sunshine into a dark cinema. At first they can see nothing, after a few minutes they can make out the seats, and after half an hour they see quite well.",
+          "question": "Explain this using the dark adaptation curve.",
+          "modelAnswer": "The dark adaptation curve has two branches. Cones adapt first and quickly, reaching their limit within about five to eight minutes, which lets the patient find the seats. Rods are far more sensitive but their rhodopsin was bleached by the sunlight and regenerates slowly; they take over at the rod-cone break after roughly seven to ten minutes and go on gaining sensitivity for 30 to 40 minutes. In the dark the patient therefore sees with rods: no colour, poor detail, and a central scotoma because the fovea has no rods.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "RNIB: retinitis pigmentosa",
@@ -1088,30 +1379,31 @@
               "feedback": "Neurological defects respect the vertical midline."
             },
             {
-              "text": "Glaucoma",
+              "text": "Early glaucoma",
               "correct": false,
               "feedback": "Glaucoma respects the horizontal midline."
             },
             {
-              "text": "Cataract",
+              "text": "A nuclear cataract",
               "correct": false,
               "feedback": "Cataract causes general depression, not a sharp border."
             },
             {
-              "text": "A poorly fitting trial lens",
+              "text": "A misplaced trial lens rim",
               "correct": false,
               "feedback": "Lens rim artefacts are usually peripheral rings."
             }
           ],
           "explanation": "Vertical-midline defects point to the chiasm or beyond.",
-          "link": "vpe-visual-fields#reading-a-field-printout"
+          "link": "vpe-visual-fields#reading-a-field-printout",
+          "needsReview": true
         },
         {
           "id": "vpe-vf-2",
           "q": "A patient's field shows 40% false positives. What should you do?",
           "options": [
             {
-              "text": "Treat it as unreliable, re-instruct and repeat",
+              "text": "Treat as unreliable; re-instruct and repeat",
               "correct": true,
               "feedback": "Many false positives (a 'trigger-happy' patient) make the result untrustworthy."
             },
@@ -1121,18 +1413,19 @@
               "feedback": "Not on an unreliable test."
             },
             {
-              "text": "Accept it as normal",
+              "text": "Accept it as a normal field result",
               "correct": false,
               "feedback": "False positives can make a field look better than it is."
             },
             {
-              "text": "Ignore reliability indices",
+              "text": "Ignore the reliability indices",
               "correct": false,
               "feedback": "Always check reliability first."
             }
           ],
           "explanation": "Check reliability before interpreting any field.",
-          "link": "vpe-visual-fields#reading-a-field-printout"
+          "link": "vpe-visual-fields#reading-a-field-printout",
+          "needsReview": true
         },
         {
           "id": "vpe-vf-3",
@@ -1144,23 +1437,24 @@
               "feedback": "Threshold testing finds small changes at each point."
             },
             {
-              "text": "It is faster than every other method",
+              "text": "It is quicker than every other method",
               "correct": false,
               "feedback": "Threshold tests can take several minutes per eye."
             },
             {
-              "text": "It doesn't need fixation",
+              "text": "It doesn't depend on steady fixation",
               "correct": false,
               "feedback": "Good fixation is essential."
             },
             {
-              "text": "It measures the far periphery best",
+              "text": "It maps the far periphery best",
               "correct": false,
               "feedback": "Kinetic perimetry maps the far periphery better."
             }
           ],
           "explanation": "Early glaucoma causes subtle threshold loss.",
-          "link": "vpe-visual-fields#static-and-kinetic-perimetry"
+          "link": "vpe-visual-fields#static-and-kinetic-perimetry",
+          "needsReview": true
         },
         {
           "id": "vpe-visual-fields-x0091",
@@ -1191,138 +1485,273 @@
         },
         {
           "id": "vpe-visual-fields-x0092",
-          "q": "What is the 'hill of vision'?",
+          "q": "Which statement about the 'hill of vision' is wrong?",
           "options": [
             {
-              "text": "Sensitivity highest at fixation, falling towards the edge",
+              "text": "Sensitivity is highest at the edge of the field",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it's highest at fixation."
             },
             {
-              "text": "A field defect",
+              "text": "Sensitivity falls towards the periphery",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "The blind spot",
+              "text": "Glaucoma can depress parts of the hill",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "A perimeter",
+              "text": "The blind spot is a deep hole in it",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Sensitivity is highest at fixation and falls towards the edge.",
+          "original": {
+            "q": "What is the 'hill of vision'?",
+            "options": [
+              {
+                "text": "Sensitivity highest at fixation, falling towards the edge",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A field defect",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The blind spot",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A perimeter",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-visual-fields-x0093",
-          "q": "Which is static automated perimetry?",
+          "q": "You move a target in from the edge of the field to map the boundary where it's first seen. Which kind of perimetry is this?",
           "options": [
             {
-              "text": "Humphrey 24-2",
+              "text": "Kinetic, e.g. Goldmann",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Goldmann",
+              "text": "Static, e.g. Humphrey 24-2",
               "correct": false,
-              "feedback": "Kinetic."
+              "feedback": "Static targets don't move."
             },
             {
-              "text": "Confrontation",
+              "text": "Suprathreshold static",
               "correct": false,
-              "feedback": "Gross."
+              "feedback": "Still static."
             },
             {
-              "text": "Amsler",
+              "text": "FDT",
               "correct": false,
-              "feedback": "Central grid."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Kinetic perimetry moves the target to map isopters; static perimetry changes brightness at fixed points.",
+          "original": {
+            "q": "Which is static automated perimetry?",
+            "options": [
+              {
+                "text": "Humphrey 24-2",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Goldmann",
+                "correct": false,
+                "feedback": "Kinetic."
+              },
+              {
+                "text": "Confrontation",
+                "correct": false,
+                "feedback": "Gross."
+              },
+              {
+                "text": "Amsler",
+                "correct": false,
+                "feedback": "Central grid."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-visual-fields-x0094",
-          "q": "Which is a reliability index?",
+          "q": "A field printout shows 40% false negatives. What does that suggest?",
           "options": [
             {
-              "text": "Fixation losses",
+              "text": "Unreliable results, often from fatigue or inattention",
               "correct": true,
-              "feedback": "Yes, with false positives and negatives."
+              "feedback": "Yes."
             },
             {
-              "text": "Mean deviation",
-              "correct": false,
-              "feedback": "Global index."
-            },
-            {
-              "text": "Blind spot size",
+              "text": "A highly reliable field that can be trusted",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "VA",
+              "text": "A trigger-happy patient pressing too often",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's false positives."
+            },
+            {
+              "text": "A real defect that must be referred at once",
+              "correct": false,
+              "feedback": "Check reliability first."
             }
           ],
-          "explanation": ""
+          "explanation": "False negatives, fixation losses and false positives are the reliability indices; check them before reading any defect.",
+          "original": {
+            "q": "Which is a reliability index?",
+            "options": [
+              {
+                "text": "Fixation losses",
+                "correct": true,
+                "feedback": "Yes, with false positives and negatives."
+              },
+              {
+                "text": "Mean deviation",
+                "correct": false,
+                "feedback": "Global index."
+              },
+              {
+                "text": "Blind spot size",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "VA",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-visual-fields-x0095",
-          "q": "What does the DVLA Group 1 standard need?",
+          "q": "A car driver's binocular Esterman field extends 110° horizontally with no central defect. Do they meet the Group 1 standard?",
           "options": [
             {
-              "text": "At least 120° horizontally with no significant defect within 20° of fixation",
+              "text": "No: at least 120° is needed",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "60°",
+              "text": "Yes",
+              "correct": false,
+              "feedback": "110° is too little."
+            },
+            {
+              "text": "Only at night",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "180°",
+              "text": "Only with glasses",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "No field standard",
-              "correct": false,
-              "feedback": "There is one."
+              "feedback": "Not about glasses."
             }
           ],
-          "explanation": ""
+          "explanation": "Group 1 needs at least 120° horizontally with no significant defect within 20° of fixation.",
+          "original": {
+            "q": "What does the DVLA Group 1 standard need?",
+            "options": [
+              {
+                "text": "At least 120° horizontally with no significant defect within 20° of fixation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "60°",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "180°",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No field standard",
+                "correct": false,
+                "feedback": "There is one."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-visual-fields-x0096",
-          "q": "How big is the physiological blind spot?",
+          "q": "The blind spot is about 5.5° wide. Roughly how wide is the 'invisible' area on a wall 1 m away?",
           "options": [
             {
-              "text": "About 5° wide and 7° tall",
+              "text": "About 10 cm",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: tan 5.5° × 100 cm ≈ 9.6 cm."
             },
             {
-              "text": "About 1°",
+              "text": "About 1 cm",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too small."
             },
             {
-              "text": "About 30°",
+              "text": "About 50 cm",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too big."
             },
             {
-              "text": "0°",
+              "text": "About 1 m",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too big."
             }
           ],
-          "explanation": ""
+          "explanation": "The physiological blind spot is about 5–5.5° wide and 7–7.5° tall, about 15° temporal to fixation.",
+          "original": {
+            "q": "How big is the physiological blind spot?",
+            "options": [
+              {
+                "text": "About 5° wide and 7° tall",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "About 1°",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "About 30°",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "0°",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1460,17 +1889,12 @@
         },
         {
           "id": "vpe-st-3",
-          "q": "Which is a monocular depth cue?",
+          "q": "A patient with one eye judges the depth of fence posts by moving their head from side to side. Which cue are they using?",
           "options": [
             {
               "text": "Motion parallax",
               "correct": true,
-              "feedback": "Nearer objects move faster across the view when you move your head, even with one eye."
-            },
-            {
-              "text": "Binocular disparity",
-              "correct": false,
-              "feedback": "Needs two eyes."
+              "feedback": "Yes: a monocular cue."
             },
             {
               "text": "Stereopsis",
@@ -1478,13 +1902,45 @@
               "feedback": "Needs two eyes."
             },
             {
-              "text": "Fusional vergence",
+              "text": "Convergence",
               "correct": false,
-              "feedback": "A binocular process."
+              "feedback": "Needs two eyes."
+            },
+            {
+              "text": "Binocular disparity",
+              "correct": false,
+              "feedback": "Needs two eyes."
             }
           ],
-          "explanation": "Monocular cues include motion parallax, size, overlap and perspective.",
-          "link": "vpe-stereopsis#stereopsis-and-everyday-life"
+          "explanation": "Motion parallax, size, overlap, perspective and shading are monocular depth cues.",
+          "link": "vpe-stereopsis#stereopsis-and-everyday-life",
+          "original": {
+            "q": "Which is a monocular depth cue?",
+            "options": [
+              {
+                "text": "Motion parallax",
+                "correct": true,
+                "feedback": "Nearer objects move faster across the view when you move your head, even with one eye."
+              },
+              {
+                "text": "Binocular disparity",
+                "correct": false,
+                "feedback": "Needs two eyes."
+              },
+              {
+                "text": "Stereopsis",
+                "correct": false,
+                "feedback": "Needs two eyes."
+              },
+              {
+                "text": "Fusional vergence",
+                "correct": false,
+                "feedback": "A binocular process."
+              }
+            ],
+            "explanation": "Monocular cues include motion parallax, size, overlap and perspective."
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0091",
@@ -1515,57 +1971,111 @@
         },
         {
           "id": "vpe-stereopsis-x0092",
-          "q": "What is the horopter?",
+          "q": "Which statement about the horopter is wrong?",
           "options": [
             {
-              "text": "Points seen singly with no disparity",
+              "text": "Points on it fall on non-corresponding retinal points",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: they fall on corresponding points."
             },
             {
-              "text": "A field defect",
+              "text": "Points on it have zero retinal disparity",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "A stereo test",
+              "text": "Panum's fusional area surrounds it",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "The blind spot",
+              "text": "Points close to it can still be fused",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The horopter is the set of points seen singly with no disparity; Panum's fusional area is the small zone around it.",
+          "original": {
+            "q": "What is the horopter?",
+            "options": [
+              {
+                "text": "Points seen singly with no disparity",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A field defect",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A stereo test",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The blind spot",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0093",
-          "q": "Normal stereoacuity is about",
+          "q": "A 6-year-old scores 400 seconds of arc on a random-dot stereo test. What should you do?",
           "options": [
             {
-              "text": "60 seconds of arc or better",
+              "text": "Treat it as reduced and look for amblyopia or strabismus",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "10 degrees",
+              "text": "Record it as normal for a child of that age",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Normal is about 60″ or better."
             },
             {
-              "text": "600 seconds",
+              "text": "Retest in ten years, when they are older",
               "correct": false,
-              "feedback": "Poor."
+              "feedback": "Too late."
             },
             {
-              "text": "1 second",
+              "text": "Prescribe base-in prism to help fusion",
               "correct": false,
-              "feedback": "Exceptional."
+              "feedback": "Investigate first."
             }
           ],
-          "explanation": ""
+          "explanation": "Normal stereoacuity is about 60 seconds of arc or better; reduced stereo is a useful sign of amblyopia or strabismus.",
+          "original": {
+            "q": "Normal stereoacuity is about",
+            "options": [
+              {
+                "text": "60 seconds of arc or better",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "10 degrees",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "600 seconds",
+                "correct": false,
+                "feedback": "Poor."
+              },
+              {
+                "text": "1 second",
+                "correct": false,
+                "feedback": "Exceptional."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0094",
@@ -1596,30 +2106,57 @@
         },
         {
           "id": "vpe-stereopsis-x0095",
-          "q": "Reduced stereoacuity in a child may suggest",
+          "q": "A child has good acuity in each eye but poor stereo. What's the most useful next test?",
           "options": [
             {
-              "text": "amblyopia or strabismus",
+              "text": "A cover test for strabismus or a microtropia",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "myopia only",
+              "text": "Colour vision with the Ishihara plates",
+              "correct": false,
+              "feedback": "Not first."
+            },
+            {
+              "text": "Intraocular pressure by tonometry",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "dry eye",
+              "text": "Corneal curvature by keratometry",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "nothing",
-              "correct": false,
-              "feedback": "It's a useful sign."
             }
           ],
-          "explanation": ""
+          "explanation": "Reduced stereoacuity points towards strabismus or amblyopia, so check binocular status.",
+          "original": {
+            "q": "Reduced stereoacuity in a child may suggest",
+            "options": [
+              {
+                "text": "amblyopia or strabismus",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myopia only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "It's a useful sign."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0096",
@@ -1653,30 +2190,38 @@
           "q": "What is Panum's fusional area?",
           "options": [
             {
-              "text": "The small zone around the horopter where disparate images still fuse",
+              "text": "The zone around the horopter where disparate images still fuse",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The fovea",
+              "text": "The central part of the fovea with the highest acuity",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "The blind spot",
+              "text": "The blind spot where the optic nerve leaves the eye",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "A cortical area",
+              "text": "The area of visual cortex that processes disparity",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "A 7-year-old with a constant small-angle esotropia passes a stereotest that has contour-based pictures but fails a random-dot stereotest.",
+          "question": "Why the difference, and what does it tell you?",
+          "modelAnswer": "Contour-based tests such as the Titmus fly contain monocular cues: with one eye the displaced contours can be seen shifted sideways, so a child without true stereopsis can pass the coarser plates. Random-dot tests such as the TNO or Lang have no monocular contours, so the shape is only visible with true binocular disparity detection (global stereopsis), which needs bifoveal fixation. Failing random-dot stereopsis is consistent with a constant squint and suppression or anomalous correspondence. Stereoacuity is recorded in seconds of arc, and lower is better.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists: guidance on examining children",
@@ -1752,12 +2297,12 @@
           "q": "A patient after a stroke can see objects clearly but cannot recognise familiar faces. Which area is likely affected?",
           "options": [
             {
-              "text": "The ventral stream in the temporal lobe",
+              "text": "The ventral stream (temporal lobe)",
               "correct": true,
               "feedback": "Face recognition depends on the ventral ('what') stream."
             },
             {
-              "text": "Area V5/MT",
+              "text": "Area V5/MT, for motion",
               "correct": false,
               "feedback": "That would affect motion perception."
             },
@@ -1767,13 +2312,14 @@
               "feedback": "That causes field loss, not face recognition problems."
             },
             {
-              "text": "The dorsal stream",
+              "text": "The dorsal stream (parietal)",
               "correct": false,
               "feedback": "Dorsal is about location and action."
             }
           ],
           "explanation": "Prosopagnosia comes from damage to ventral stream areas.",
-          "link": "vpe-motion-form#two-streams-beyond-v1"
+          "link": "vpe-motion-form#two-streams-beyond-v1",
+          "needsReview": true
         },
         {
           "id": "vpe-mf-2",
@@ -1785,23 +2331,24 @@
               "feedback": "Centre excitation without surround inhibition gives the biggest response."
             },
             {
-              "text": "The whole field is evenly lit",
+              "text": "The whole receptive field is evenly lit",
               "correct": false,
               "feedback": "The surround cancels much of the centre's response."
             },
             {
-              "text": "Light falls only on the surround",
+              "text": "Light falls only on its surround",
               "correct": false,
               "feedback": "That inhibits an ON-centre cell."
             },
             {
-              "text": "It's completely dark",
+              "text": "The receptive field is completely dark",
               "correct": false,
               "feedback": "It fires least then."
             }
           ],
           "explanation": "Centre–surround organisation makes cells respond to local contrast.",
-          "link": "vpe-motion-form#lateral-inhibition"
+          "link": "vpe-motion-form#lateral-inhibition",
+          "needsReview": true
         },
         {
           "id": "vpe-mf-3",
@@ -1833,7 +2380,7 @@
         },
         {
           "id": "vpe-motion-form-x0091",
-          "q": "Which pathway handles motion and low contrast?",
+          "q": "A patient has normal acuity but struggles to see flickering, low-contrast targets. Which pathway is most likely affected?",
           "options": [
             {
               "text": "Magnocellular",
@@ -1843,74 +2390,155 @@
             {
               "text": "Parvocellular",
               "correct": false,
-              "feedback": "Detail and colour."
+              "feedback": "Fine detail and colour."
             },
             {
               "text": "Koniocellular",
               "correct": false,
-              "feedback": "Blue-yellow."
+              "feedback": "Blue–yellow."
             },
             {
-              "text": "None",
+              "text": "Ventral stream",
               "correct": false,
-              "feedback": "Magno."
+              "feedback": "Recognition."
             }
           ],
-          "explanation": ""
+          "explanation": "The magnocellular pathway is fast, handles motion and low contrast, and has poor colour and fine-detail sensitivity.",
+          "original": {
+            "q": "Which pathway handles motion and low contrast?",
+            "options": [
+              {
+                "text": "Magnocellular",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Parvocellular",
+                "correct": false,
+                "feedback": "Detail and colour."
+              },
+              {
+                "text": "Koniocellular",
+                "correct": false,
+                "feedback": "Blue-yellow."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Magno."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-motion-form-x0092",
-          "q": "Damage to V5 can cause",
+          "q": "After bilateral damage near the temporo-occipital junction, a patient sees pouring tea as a frozen column. What is this?",
           "options": [
             {
-              "text": "akinetopsia",
+              "text": "Akinetopsia (motion blindness)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "achromatopsia",
+              "text": "Prosopagnosia (face blindness)",
               "correct": false,
-              "feedback": "V4."
+              "feedback": "Faces."
             },
             {
-              "text": "prosopagnosia",
+              "text": "Achromatopsia (colour blindness)",
               "correct": false,
-              "feedback": "Temporal."
+              "feedback": "Colour."
             },
             {
-              "text": "hemianopia",
+              "text": "Blindsight (vision without awareness)",
               "correct": false,
-              "feedback": "V1."
+              "feedback": "Different."
             }
           ],
-          "explanation": ""
+          "explanation": "Area V5 (MT) is specialised for motion; bilateral damage can cause akinetopsia.",
+          "original": {
+            "q": "Damage to V5 can cause",
+            "options": [
+              {
+                "text": "akinetopsia",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "achromatopsia",
+                "correct": false,
+                "feedback": "V4."
+              },
+              {
+                "text": "prosopagnosia",
+                "correct": false,
+                "feedback": "Temporal."
+              },
+              {
+                "text": "hemianopia",
+                "correct": false,
+                "feedback": "V1."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-motion-form-x0093",
-          "q": "Lateral inhibition explains",
+          "q": "A strip of grey steps shows a thin light band and a thin dark band at each edge. What explains the bands?",
           "options": [
             {
-              "text": "Mach bands and the Hermann grid",
+              "text": "Lateral inhibition",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: they're Mach bands."
             },
             {
-              "text": "colour constancy",
+              "text": "Chromatic aberration",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "stereopsis",
+              "text": "Diffraction",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "presbyopia",
+              "text": "Afterimages",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Neighbouring cells inhibit each other, exaggerating contrast at edges (Mach bands, the Hermann grid).",
+          "original": {
+            "q": "Lateral inhibition explains",
+            "options": [
+              {
+                "text": "Mach bands and the Hermann grid",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "colour constancy",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "stereopsis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "presbyopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-motion-form-x0094",
@@ -1922,22 +2550,23 @@
               "feedback": "Yes."
             },
             {
-              "text": "guiding action",
+              "text": "guiding reaching and action",
               "correct": false,
               "feedback": "Dorsal."
             },
             {
-              "text": "motion",
+              "text": "perceiving motion",
               "correct": false,
               "feedback": "Dorsal."
             },
             {
-              "text": "eye movements",
+              "text": "controlling eye movements",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "vpe-motion-form-x0095",
@@ -1976,22 +2605,23 @@
               "feedback": "Yes."
             },
             {
-              "text": "uniform light",
+              "text": "uniform light, because they sum the whole field",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "darkness",
+              "text": "darkness, because light inhibits them",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "motion only",
+              "text": "motion only, because they ignore still images",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "vpe-motion-form-x0097",
@@ -2003,25 +2633,33 @@
               "feedback": "Yes."
             },
             {
-              "text": "large and fast",
+              "text": "large, fast and sensitive to motion",
               "correct": false,
               "feedback": "Magno."
             },
             {
-              "text": "motion detectors",
+              "text": "motion detectors with no colour signal",
               "correct": false,
               "feedback": "Magno."
             },
             {
-              "text": "absent in the fovea",
+              "text": "absent from the fovea and found peripherally",
               "correct": false,
               "feedback": "Plentiful there."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "After staring at a waterfall for a minute, a hiker looks at the rocks beside it and sees them appear to drift upwards.",
+          "question": "What is this effect called and how is it explained?",
+          "modelAnswer": "This is the motion aftereffect, or waterfall illusion. Neurons tuned to downward motion, in V1 and especially in area V5/MT, adapt during prolonged viewing and their responsiveness falls. Perceived motion depends on the balance between neurons tuned to opposite directions. When the eyes move to a stationary scene, the unadapted upward-tuned neurons are relatively more active than the fatigued downward-tuned ones, so the brain signals upward motion even though nothing is moving. It is evidence for direction-selective, opponent motion channels.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists",
@@ -2102,23 +2740,24 @@
               "feedback": "The person must choose, so their willingness to say 'yes' matters less."
             },
             {
-              "text": "They are always the fastest method",
+              "text": "They are always the quickest method to run",
               "correct": false,
               "feedback": "They can take longer."
             },
             {
-              "text": "They need no instructions",
+              "text": "They need no instructions for the patient",
               "correct": false,
               "feedback": "Instructions are still needed."
             },
             {
-              "text": "They measure the absolute maximum vision",
+              "text": "They measure the absolute best vision possible",
               "correct": false,
               "feedback": "They measure threshold, not a maximum."
             }
           ],
           "explanation": "Forced choice separates sensitivity from criterion effects.",
-          "link": "vpe-psychophysics#signal-detection-theory"
+          "link": "vpe-psychophysics#signal-detection-theory",
+          "needsReview": true
         },
         {
           "id": "vpe-ps-2",
@@ -2205,84 +2844,165 @@
         },
         {
           "id": "vpe-psychophysics-x0092",
-          "q": "Which method randomises preset stimulus levels?",
+          "q": "You show 7 fixed contrast levels in random order, 20 times each, and plot the percentage seen. Which method is this?",
           "options": [
             {
               "text": "Constant stimuli",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: accurate but slow."
             },
             {
               "text": "Limits",
               "correct": false,
-              "feedback": "Ascending or descending."
+              "feedback": "Levels go up or down in order."
             },
             {
               "text": "Adjustment",
               "correct": false,
-              "feedback": "Patient controls it."
+              "feedback": "The patient controls the level."
             },
             {
               "text": "Staircase",
               "correct": false,
-              "feedback": "Adaptive."
+              "feedback": "Levels adapt to responses."
             }
           ],
-          "explanation": ""
+          "explanation": "The method of constant stimuli presents preset levels in random order.",
+          "original": {
+            "q": "Which method randomises preset stimulus levels?",
+            "options": [
+              {
+                "text": "Constant stimuli",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Limits",
+                "correct": false,
+                "feedback": "Ascending or descending."
+              },
+              {
+                "text": "Adjustment",
+                "correct": false,
+                "feedback": "Patient controls it."
+              },
+              {
+                "text": "Staircase",
+                "correct": false,
+                "feedback": "Adaptive."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0093",
-          "q": "Why use forced-choice methods?",
+          "q": "A cautious patient only says 'yes' when completely sure. Which method reduces the effect of this on the threshold?",
           "options": [
             {
-              "text": "They reduce the effect of the patient's response criterion",
+              "text": "Forced choice ('which interval had the target?')",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "They're quicker",
+              "text": "Yes/no ('did you see the target?')",
               "correct": false,
-              "feedback": "Not necessarily."
+              "feedback": "Affected by caution."
             },
             {
-              "text": "They need no stimulus",
+              "text": "Adjustment (the patient sets the level)",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Still affected."
             },
             {
-              "text": "They're more fun",
+              "text": "Method of limits (an ascending series)",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Still affected."
             }
           ],
-          "explanation": ""
+          "explanation": "Forced-choice methods reduce the effect of the patient's response criterion.",
+          "original": {
+            "q": "Why use forced-choice methods?",
+            "options": [
+              {
+                "text": "They reduce the effect of the patient's response criterion",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "They're quicker",
+                "correct": false,
+                "feedback": "Not necessarily."
+              },
+              {
+                "text": "They need no stimulus",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "They're more fun",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0094",
-          "q": "What does Weber's law state?",
+          "q": "Someone can just tell 100 from 102 units. Following Weber's law, what's the just noticeable difference at 300 units?",
           "options": [
             {
-              "text": "The JND is a constant fraction of the starting intensity",
+              "text": "About 6 units",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: a constant 2%."
             },
             {
-              "text": "The JND is constant",
+              "text": "About 2 units",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That ignores Weber's law."
             },
             {
-              "text": "Thresholds don't exist",
+              "text": "About 20 units",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too big."
             },
             {
-              "text": "I = I₀ cos²θ",
+              "text": "About 0.6 units",
               "correct": false,
-              "feedback": "Malus."
+              "feedback": "Too small."
             }
           ],
-          "explanation": ""
+          "explanation": "Weber's law: ΔI ÷ I is roughly constant across a wide middle range.",
+          "original": {
+            "q": "What does Weber's law state?",
+            "options": [
+              {
+                "text": "The JND is a constant fraction of the starting intensity",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The JND is constant",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Thresholds don't exist",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "I = I₀ cos²θ",
+                "correct": false,
+                "feedback": "Malus."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0095",
@@ -2294,79 +3014,141 @@
               "feedback": "Yes."
             },
             {
-              "text": "Criterion",
+              "text": "The criterion (β or c)",
               "correct": false,
               "feedback": "That's β or c."
             },
             {
-              "text": "Reaction time",
+              "text": "The observer's reaction time",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Contrast",
+              "text": "The contrast of the stimulus",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0096",
-          "q": "What is an absolute threshold?",
+          "q": "You find the dimmest light a dark-adapted patient can detect. What have you measured?",
           "options": [
             {
-              "text": "The weakest stimulus that can be detected",
+              "text": "Absolute threshold",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The smallest detectable difference",
+              "text": "Difference threshold",
               "correct": false,
-              "feedback": "That's JND."
+              "feedback": "That's the smallest detectable change."
             },
             {
-              "text": "The brightest stimulus",
+              "text": "Weber fraction",
               "correct": false,
-              "feedback": "No."
+              "feedback": "A ratio."
             },
             {
-              "text": "Threshold for pain",
+              "text": "Contrast sensitivity",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Related, but not this."
             }
           ],
-          "explanation": ""
+          "explanation": "The absolute threshold is the weakest stimulus that can be detected.",
+          "original": {
+            "q": "What is an absolute threshold?",
+            "options": [
+              {
+                "text": "The weakest stimulus that can be detected",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The smallest detectable difference",
+                "correct": false,
+                "feedback": "That's JND."
+              },
+              {
+                "text": "The brightest stimulus",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Threshold for pain",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0097",
-          "q": "Which method lets the patient control the stimulus?",
+          "q": "A patient turns a knob until a flicker just disappears. Which method is this?",
           "options": [
             {
               "text": "Adjustment",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the patient controls the stimulus."
             },
             {
               "text": "Constant stimuli",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Limits",
-              "correct": false,
-              "feedback": "Examiner controls."
+              "feedback": "Fixed random levels."
             },
             {
               "text": "Forced choice",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Picks between options."
+            },
+            {
+              "text": "Staircase",
+              "correct": false,
+              "feedback": "Examiner-led."
             }
           ],
-          "explanation": ""
+          "explanation": "In the method of adjustment the patient controls the stimulus level.",
+          "original": {
+            "q": "Which method lets the patient control the stimulus?",
+            "options": [
+              {
+                "text": "Adjustment",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Constant stimuli",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Limits",
+                "correct": false,
+                "feedback": "Examiner controls."
+              },
+              {
+                "text": "Forced choice",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "You want to measure a patient's contrast detection threshold quickly in clinic, without wasting trials on stimuli that are obviously visible or invisible.",
+          "question": "Which psychophysical method suits this, and how does it work?",
+          "modelAnswer": "Use an adaptive staircase. The stimulus is made harder after correct responses and easier after incorrect ones, so trials concentrate around threshold; the threshold is taken as the average of several reversal points. It is faster than the method of constant stimuli, which presents fixed levels many times in random order to build a full psychometric function, and less biased than the method of limits. Combining a staircase with a forced-choice task removes the effect of how cautious the patient's own criterion is. Automated perimetry uses the same idea.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists",

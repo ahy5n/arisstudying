@@ -95,31 +95,58 @@
         },
         {
           "id": "clp-st-2",
-          "q": "Which is a GOC Standard for Optical Students?",
+          "q": "On placement a student realises they recorded the wrong eye's acuity yesterday. Which GOC student standard applies most directly?",
           "options": [
             {
               "text": "Be honest and open when things go wrong",
               "correct": true,
-              "feedback": "Candour applies to students as well as registrants."
+              "feedback": "Yes."
             },
             {
-              "text": "Only follow your supervisor's instructions",
+              "text": "Keep up to date with CPD",
               "correct": false,
-              "feedback": "You have your own professional responsibilities."
+              "feedback": "Not this."
             },
             {
-              "text": "Avoid recording mistakes",
+              "text": "Work within the law on advertising",
               "correct": false,
-              "feedback": "Records must be accurate."
+              "feedback": "No."
             },
             {
-              "text": "Choose only patients you find easy",
+              "text": "Ignore it if no harm resulted",
               "correct": false,
-              "feedback": "You need breadth of experience."
+              "feedback": "No."
             }
           ],
-          "explanation": "The student standards mirror the Standards of Practice.",
-          "link": "clp-structure#goc-standards-for-optical-students"
+          "explanation": "GOC Standards for Optical Students include being honest and open when things go wrong.",
+          "link": "clp-structure#goc-standards-for-optical-students",
+          "original": {
+            "q": "Which is a GOC Standard for Optical Students?",
+            "options": [
+              {
+                "text": "Be honest and open when things go wrong",
+                "correct": true,
+                "feedback": "Candour applies to students as well as registrants."
+              },
+              {
+                "text": "Only follow your supervisor's instructions",
+                "correct": false,
+                "feedback": "You have your own professional responsibilities."
+              },
+              {
+                "text": "Avoid recording mistakes",
+                "correct": false,
+                "feedback": "Records must be accurate."
+              },
+              {
+                "text": "Choose only patients you find easy",
+                "correct": false,
+                "feedback": "You need breadth of experience."
+              }
+            ],
+            "explanation": "The student standards mirror the Standards of Practice."
+          },
+          "needsReview": true
         },
         {
           "id": "clp-st-3",
@@ -131,50 +158,78 @@
               "feedback": "Fill gaps early so you meet the requirements."
             },
             {
-              "text": "Wait until the last month",
+              "text": "Wait until the last month and then see what's missing",
               "correct": false,
               "feedback": "There may not be time."
             },
             {
-              "text": "Record adults as children",
+              "text": "Record some adult patients as children to fill the gap",
               "correct": false,
               "feedback": "That would be dishonest."
             },
             {
-              "text": "Ignore it: children aren't required",
+              "text": "Ignore it, because seeing children isn't a requirement",
               "correct": false,
               "feedback": "Breadth across age groups is expected."
             }
           ],
           "explanation": "Track your log and plan around gaps.",
-          "link": "clp-structure#working-with-your-supervisor"
+          "link": "clp-structure#working-with-your-supervisor",
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0101",
-          "q": "Who signs off a pre-registration student's progress?",
+          "q": "A pre-registration student wants their competencies signed off. Who can do this?",
           "options": [
             {
-              "text": "A named supervisor who is a registered optometrist",
+              "text": "Their named supervisor, a registered optometrist",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Any colleague",
+              "text": "Any member of the practice staff who watched them",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "The patient",
+              "text": "Another student who has already been signed off",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Nobody",
+              "text": "The patient they examined, by signing a form",
               "correct": false,
-              "feedback": "The supervisor does."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A named supervisor who is a registered optometrist signs off progress.",
+          "original": {
+            "q": "Who signs off a pre-registration student's progress?",
+            "options": [
+              {
+                "text": "A named supervisor who is a registered optometrist",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Any colleague",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nobody",
+                "correct": false,
+                "feedback": "The supervisor does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0102",
@@ -186,49 +241,51 @@
               "feedback": "Yes."
             },
             {
-              "text": "It's always distant",
+              "text": "It's distant from the first day and stays that way",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "It stops after a week",
+              "text": "It stops altogether after the first week",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "It never changes",
+              "text": "It stays equally close until the final assessment",
               "correct": false,
               "feedback": "It changes."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0103",
           "q": "What does the portfolio contain?",
           "options": [
             {
-              "text": "Patient episodes, reflections, feedback and evidence against outcomes",
+              "text": "Patient episodes, reflections, feedback, evidence",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only exam results",
+              "text": "Only the results of university examinations",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Only a CV",
+              "text": "Only a CV and a list of employers",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Patients' names and addresses",
+              "text": "Patients' names, addresses and full records",
               "correct": false,
               "feedback": "Never."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0104",
@@ -240,22 +297,23 @@
               "feedback": "Yes."
             },
             {
-              "text": "Only at the end",
+              "text": "Only at the end, for the final assessment",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "No",
+              "text": "No, registration starts on qualifying",
               "correct": false,
               "feedback": "Yes, you must."
             },
             {
-              "text": "Only if paid",
+              "text": "Only if the placement is a paid one",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0105",
@@ -267,79 +325,141 @@
               "feedback": "Yes."
             },
             {
-              "text": "It's optional",
+              "text": "It's optional, but it looks good on a CV",
               "correct": false,
               "feedback": "It's required."
             },
             {
-              "text": "To get more pay",
+              "text": "To qualify for a higher rate of pay",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "To finish faster",
+              "text": "To finish the placement year sooner",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0106",
-          "q": "What does the final assessment lead to?",
+          "q": "A student passes the final assessment of the scheme for registration. What can they do next?",
           "options": [
             {
-              "text": "Eligibility to register as a fully qualified optometrist",
+              "text": "Apply to join the GOC register as a fully qualified optometrist",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Automatic IP status",
+              "text": "Start independent prescribing straight away",
+              "correct": false,
+              "feedback": "Needs further training."
+            },
+            {
+              "text": "Nothing until they complete another degree",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "A dispensing qualification",
+              "text": "Work only under supervision for good",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Nothing",
-              "correct": false,
-              "feedback": "It leads to registration."
             }
           ],
-          "explanation": ""
+          "explanation": "The final assessment leads to eligibility to register as a fully qualified optometrist.",
+          "original": {
+            "q": "What does the final assessment lead to?",
+            "options": [
+              {
+                "text": "Eligibility to register as a fully qualified optometrist",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Automatic IP status",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A dispensing qualification",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "It leads to registration."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-structure-x0107",
-          "q": "Which standards apply during placement?",
+          "q": "A pre-registration student says the registrant standards don't apply to them yet. Which standards do apply?",
           "options": [
             {
-              "text": "GOC Standards for Optical Students",
+              "text": "The GOC Standards for Optical Students",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "None",
               "correct": false,
-              "feedback": "They apply."
+              "feedback": "They're covered."
             },
             {
-              "text": "Only employer rules",
+              "text": "Only the employer's handbook",
               "correct": false,
-              "feedback": "Not only."
+              "feedback": "Not instead."
             },
             {
-              "text": "Standards of Practice for registrants",
+              "text": "The NHS constitution only",
               "correct": false,
-              "feedback": "Those apply after qualifying."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "GOC Standards for Optical Students apply during placement.",
+          "original": {
+            "q": "Which standards apply during placement?",
+            "options": [
+              {
+                "text": "GOC Standards for Optical Students",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "They apply."
+              },
+              {
+                "text": "Only employer rules",
+                "correct": false,
+                "feedback": "Not only."
+              },
+              {
+                "text": "Standards of Practice for registrants",
+                "correct": false,
+                "feedback": "Those apply after qualifying."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "In your first month on placement you see a patient with a condition you have never managed before, and the clinic is running late.",
+          "question": "What should you do, and what does this say about how supervision works?",
+          "modelAnswer": "Say so and ask your supervisor before the patient leaves. As a student or trainee you work under supervision: your supervisor remains responsible for the patient, and you must work within your competence. Present your findings clearly, say what you think is going on and what you would do, then agree the plan and document who advised what. Add the case to your log and reflect on it afterwards. Time pressure is never a reason to guess: patient safety comes first under the GOC standards.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "GOC: Standards for Optical Students",
@@ -424,23 +544,24 @@
               "feedback": "Specific, honest, with a clear action."
             },
             {
-              "text": "'Saw a patient with a haemorrhage. It was interesting.'",
+              "text": "'Saw a patient with a retinal haemorrhage today. It was interesting to see one in real life.'",
               "correct": false,
               "feedback": "Description only, no learning."
             },
             {
-              "text": "'Everything went fine today.'",
+              "text": "'Everything went fine today and I finished all my patients on time, which was good.'",
               "correct": false,
               "feedback": "No reflection."
             },
             {
-              "text": "'My supervisor found something I missed but it wasn't my fault.'",
+              "text": "'My supervisor found something I missed, but the clinic was busy so it wasn't my fault.'",
               "correct": false,
               "feedback": "Avoids learning from it."
             }
           ],
           "explanation": "Strong reflections end with a specific action.",
-          "link": "clp-patient-log#a-good-reflection"
+          "link": "clp-patient-log#a-good-reflection",
+          "needsReview": true
         },
         {
           "id": "clp-pl-2",
@@ -480,77 +601,132 @@
               "feedback": "It moves you from what happened to what you'll change."
             },
             {
-              "text": "To record patient details",
+              "text": "To record patient details in a set order",
               "correct": false,
               "feedback": "That's the clinical record."
             },
             {
-              "text": "To replace supervision",
+              "text": "To replace the need for supervision",
               "correct": false,
               "feedback": "It works alongside supervision."
             },
             {
-              "text": "To grade patients",
+              "text": "To grade patients by how complex they are",
               "correct": false,
               "feedback": "Not its purpose."
             }
           ],
           "explanation": "Reflection drives improvement.",
-          "link": "clp-patient-log#from-log-to-cpd"
+          "link": "clp-patient-log#from-log-to-cpd",
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0101",
-          "q": "What must never appear in your portfolio?",
+          "q": "Which portfolio entry breaks the rules?",
           "options": [
             {
-              "text": "Identifiable patient details",
+              "text": "'Mrs J. Smith, 14 High St, DOB 02/03/1950: referred for wet AMD'",
               "correct": true,
-              "feedback": "Yes: anonymise everything."
+              "feedback": "Yes: identifiable details."
             },
             {
-              "text": "Age bands",
+              "text": "'F, 70s, sudden distortion R, referred urgently'",
               "correct": false,
-              "feedback": "Allowed."
+              "feedback": "Fine."
             },
             {
-              "text": "Your reflections",
+              "text": "'M, 40s, contact lens aftercare, no issues'",
               "correct": false,
-              "feedback": "Required."
+              "feedback": "Fine."
             },
             {
-              "text": "Supervisor feedback",
+              "text": "'Child, 7, cycloplegic refraction'",
               "correct": false,
-              "feedback": "Useful."
+              "feedback": "Fine."
             }
           ],
-          "explanation": ""
+          "explanation": "Identifiable patient details must never appear in a portfolio.",
+          "original": {
+            "q": "What must never appear in your portfolio?",
+            "options": [
+              {
+                "text": "Identifiable patient details",
+                "correct": true,
+                "feedback": "Yes: anonymise everything."
+              },
+              {
+                "text": "Age bands",
+                "correct": false,
+                "feedback": "Allowed."
+              },
+              {
+                "text": "Your reflections",
+                "correct": false,
+                "feedback": "Required."
+              },
+              {
+                "text": "Supervisor feedback",
+                "correct": false,
+                "feedback": "Useful."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0102",
-          "q": "Which reflective model has six stages?",
+          "q": "A student writes: description, feelings, evaluation, analysis, conclusion and action plan. Which model are they using?",
           "options": [
             {
-              "text": "Gibbs' cycle",
+              "text": "Gibbs' reflective cycle, which has those six stages",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: six stages."
             },
             {
-              "text": "Driscoll",
+              "text": "Driscoll's 'What? So what? Now what?'",
               "correct": false,
               "feedback": "Three questions."
             },
             {
-              "text": "SOAP",
+              "text": "Kolb's experiential learning cycle",
               "correct": false,
-              "feedback": "Records."
+              "feedback": "Four stages."
             },
             {
-              "text": "LOFTSEA",
+              "text": "SBAR (situation, background, assessment, recommendation)",
               "correct": false,
-              "feedback": "Symptoms."
+              "feedback": "Communication."
             }
           ],
-          "explanation": ""
+          "explanation": "Gibbs' cycle has six stages.",
+          "original": {
+            "q": "Which reflective model has six stages?",
+            "options": [
+              {
+                "text": "Gibbs' cycle",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Driscoll",
+                "correct": false,
+                "feedback": "Three questions."
+              },
+              {
+                "text": "SOAP",
+                "correct": false,
+                "feedback": "Records."
+              },
+              {
+                "text": "LOFTSEA",
+                "correct": false,
+                "feedback": "Symptoms."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0103",
@@ -562,22 +738,23 @@
               "feedback": "Yes."
             },
             {
-              "text": "Being long",
+              "text": "Being as long and detailed as possible",
               "correct": false,
               "feedback": "Not length."
             },
             {
-              "text": "Describing only",
+              "text": "Describing what happened and nothing more",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Being vague",
+              "text": "Keeping it general so it fits any case",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0104",
@@ -589,106 +766,195 @@
               "feedback": "Yes."
             },
             {
-              "text": "To fill pages",
+              "text": "To fill the pages of the logbook faster",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "It's optional",
+              "text": "It's optional, as long as numbers are high",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Only children matter",
+              "text": "Only paediatric patients count towards it",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0105",
-          "q": "What should you ask for after observed episodes?",
+          "q": "A supervisor watched a student's whole sight test but said only 'fine'. What should the student ask for?",
           "options": [
             {
-              "text": "Written feedback",
+              "text": "Written feedback on what went well and what to improve",
               "correct": true,
-              "feedback": "Yes, then reflect on it."
+              "feedback": "Yes."
             },
             {
-              "text": "Payment",
+              "text": "Nothing more, as 'fine' is enough to go on",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Ask."
             },
             {
-              "text": "Nothing",
+              "text": "A higher grade for the observed session",
               "correct": false,
-              "feedback": "Ask for feedback."
+              "feedback": "Not the point."
             },
             {
-              "text": "Patient contact details",
+              "text": "A different patient to be observed with",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the point."
             }
           ],
-          "explanation": ""
+          "explanation": "Ask for written feedback after observed episodes.",
+          "original": {
+            "q": "What should you ask for after observed episodes?",
+            "options": [
+              {
+                "text": "Written feedback",
+                "correct": true,
+                "feedback": "Yes, then reflect on it."
+              },
+              {
+                "text": "Payment",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Ask for feedback."
+              },
+              {
+                "text": "Patient contact details",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0106",
-          "q": "Which detail should a log entry include?",
+          "q": "Which log entry is most complete?",
           "options": [
             {
-              "text": "What you did, findings, management and supervision level",
+              "text": "'Adult CL aftercare: normal; hygiene reviewed; direct supervision'",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: what, findings, management and supervision level."
             },
             {
-              "text": "The patient's full name",
+              "text": "'Saw a patient in the afternoon clinic today, all fine'",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too vague."
             },
             {
-              "text": "Their phone number",
+              "text": "'Good day overall, with a lot learned from the patients'",
               "correct": false,
-              "feedback": "No."
+              "feedback": "No detail."
             },
             {
-              "text": "Your opinion of them",
+              "text": "'Retinoscopy, subjective and ophthalmoscopy done today'",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Incomplete."
             }
           ],
-          "explanation": ""
+          "explanation": "A log entry should include what you did, findings, management and supervision level.",
+          "original": {
+            "q": "Which detail should a log entry include?",
+            "options": [
+              {
+                "text": "What you did, findings, management and supervision level",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The patient's full name",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Their phone number",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Your opinion of them",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-patient-log-x0107",
-          "q": "Good reflection ends with",
+          "q": "Which reflection ending is strongest?",
           "options": [
             {
-              "text": "what you'll do differently and how you'll check it worked",
+              "text": "'Next time I'll check pupils before dilating, and I'll audit my next 10 records to confirm'",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: action plus how you'll check."
             },
             {
-              "text": "a summary only",
+              "text": "'It went fine and I wouldn't change anything about how I did it'",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "No action."
             },
             {
-              "text": "blame",
+              "text": "'I felt nervous throughout and was glad when it was over'",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Feelings only."
             },
             {
-              "text": "nothing",
+              "text": "'The patient was difficult, which made the test much harder'",
               "correct": false,
-              "feedback": "It should lead to action."
+              "feedback": "Blaming."
             }
           ],
-          "explanation": ""
+          "explanation": "Good reflection ends with what you'll do differently and how you'll check it worked.",
+          "original": {
+            "q": "Good reflection ends with",
+            "options": [
+              {
+                "text": "what you'll do differently and how you'll check it worked",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "a summary only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "blame",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "It should lead to action."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "Halfway through the placement year your log has plenty of routine refractions but almost no paediatric, low vision or contact lens aftercare patients.",
+          "question": "Why does that matter and what do you do about it?",
+          "modelAnswer": "Your log is evidence that you have met the range of experience and learning outcomes needed for registration, not just a count of patients. Gaps found late are hard to fill. Review the log against the requirements regularly with your supervisor, tell the practice which patient types you need so the diary can be planned, and arrange time in other clinics or settings if your practice rarely sees them. Write reflective entries on the cases you do see: what happened, what you learned and what you would do differently.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "GOC: CPD",
@@ -785,23 +1051,24 @@
               "feedback": "To look for a retinal tear or detachment."
             },
             {
-              "text": "Colour vision testing",
+              "text": "Colour vision testing of each eye",
               "correct": false,
               "feedback": "Not the priority."
             },
             {
-              "text": "Stereoacuity",
+              "text": "Stereoacuity with a random-dot test",
               "correct": false,
               "feedback": "Not relevant to these symptoms."
             },
             {
-              "text": "Nothing extra",
+              "text": "Nothing beyond the usual routine",
               "correct": false,
               "feedback": "These symptoms need a dilated check."
             }
           ],
           "explanation": "Flashes and floaters: dilated peripheral retinal examination.",
-          "link": "clp-routine-exam#tailoring-the-examination"
+          "link": "clp-routine-exam#tailoring-the-examination",
+          "needsReview": true
         },
         {
           "id": "clp-re-2",
@@ -813,23 +1080,24 @@
               "feedback": "Small, asymptomatic changes rarely need new glasses."
             },
             {
-              "text": "Insist on new glasses",
+              "text": "Insist that they order new glasses today",
               "correct": false,
               "feedback": "Not clinically justified."
             },
             {
-              "text": "Refer to hospital",
+              "text": "Refer them to the hospital eye service",
               "correct": false,
               "feedback": "No reason to refer."
             },
             {
-              "text": "Don't mention the change",
+              "text": "Leave the change out of the conversation",
               "correct": false,
               "feedback": "Explain your findings."
             }
           ],
           "explanation": "Prescribe when it helps the patient.",
-          "link": "clp-routine-exam#deciding-whether-to-prescribe"
+          "link": "clp-routine-exam#deciding-whether-to-prescribe",
+          "needsReview": true
         },
         {
           "id": "clp-re-3",
@@ -869,49 +1137,77 @@
               "feedback": "Yes."
             },
             {
-              "text": "IP",
+              "text": "IP (Independent Prescribing)",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "DESP",
+              "text": "DESP (Diabetic Eye Screening Programme)",
               "correct": false,
               "feedback": "Screening."
             },
             {
-              "text": "CVI",
+              "text": "CVI (Certificate of Vision Impairment)",
               "correct": false,
               "feedback": "Certification."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0102",
-          "q": "In Scotland, NHS eye examinations are",
+          "q": "A 35-year-old with no risk factors in Glasgow asks if they'll have to pay for an NHS eye examination. What do you tell them?",
           "options": [
             {
-              "text": "free for everyone",
+              "text": "No: NHS eye examinations are free for everyone in Scotland",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "only for children",
+              "text": "Yes, unless they are aged 60 or over",
+              "correct": false,
+              "feedback": "That's England."
+            },
+            {
+              "text": "Yes: only children are examined free",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "not available",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "only for over 60s",
+              "text": "Yes: only people with diabetes are free",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In Scotland, NHS eye examinations are free for everyone.",
+          "original": {
+            "q": "In Scotland, NHS eye examinations are",
+            "options": [
+              {
+                "text": "free for everyone",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "only for children",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "not available",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "only for over 60s",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0103",
@@ -923,49 +1219,51 @@
               "feedback": "Yes."
             },
             {
-              "text": "Tonometry",
+              "text": "Tonometry, pachymetry and gonioscopy",
               "correct": false,
               "feedback": "Eye health."
             },
             {
-              "text": "Keratometry",
+              "text": "Keratometry and topography",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Focimetry",
+              "text": "Focimetry and frame measurements",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0104",
           "q": "What should finish the exam?",
           "options": [
             {
-              "text": "Explaining findings, prescribing or not, advice, referral if needed, recall and records",
+              "text": "Findings, Rx decision, advice, referral, recall, records",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Just the Rx",
+              "text": "Handing over the prescription and nothing more",
               "correct": false,
               "feedback": "Not enough."
             },
             {
-              "text": "Nothing",
+              "text": "Nothing: the patient can leave once tests are done",
               "correct": false,
               "feedback": "Always finish properly."
             },
             {
-              "text": "A sale",
+              "text": "A recommendation for the most expensive lenses",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0105",
@@ -977,79 +1275,141 @@
               "feedback": "Yes."
             },
             {
-              "text": "Never",
+              "text": "Never in community practice",
               "correct": false,
               "feedback": "Often needed."
             },
             {
-              "text": "Always first for children",
+              "text": "Always first, for every child",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Only in hospital",
+              "text": "Only once the patient is in hospital",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0106",
-          "q": "Which objective refraction methods are used?",
+          "q": "A child won't sit still for the autorefractor. Which objective method can you use instead?",
           "options": [
             {
-              "text": "Retinoscopy or autorefraction",
+              "text": "Retinoscopy",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "JCC",
+              "text": "Subjective refraction",
               "correct": false,
-              "feedback": "Subjective."
+              "feedback": "Not objective."
             },
             {
-              "text": "Duochrome",
+              "text": "Keratometry only",
               "correct": false,
-              "feedback": "Subjective."
+              "feedback": "Not refraction."
             },
             {
-              "text": "Pinhole",
+              "text": "Visual fields",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Objective refraction is by retinoscopy or autorefraction.",
+          "original": {
+            "q": "Which objective refraction methods are used?",
+            "options": [
+              {
+                "text": "Retinoscopy or autorefraction",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "JCC",
+                "correct": false,
+                "feedback": "Subjective."
+              },
+              {
+                "text": "Duochrome",
+                "correct": false,
+                "feedback": "Subjective."
+              },
+              {
+                "text": "Pinhole",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0107",
-          "q": "What history items are essential?",
+          "q": "A student's history covers the reason for visit and symptoms only. What's missing?",
           "options": [
             {
-              "text": "Reason for visit, symptoms, ocular and general health, medicines, allergies and family history",
+              "text": "Ocular and general health, drugs, allergies, family",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only the reason for visit",
+              "text": "Nothing: that covers a full history",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Missing key items."
             },
             {
-              "text": "Only medicines",
+              "text": "Their favourite colour and frame style",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "No."
             },
             {
-              "text": "None",
+              "text": "Their hobbies and nothing else",
               "correct": false,
-              "feedback": "All matter."
+              "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "Essential history includes reason for visit, symptoms, ocular and general health, medicines, allergies and family history.",
+          "original": {
+            "q": "What history items are essential?",
+            "options": [
+              {
+                "text": "Reason for visit, symptoms, ocular and general health, medicines, allergies and family history",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the reason for visit",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Only medicines",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "All matter."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "On placement you are given a 30-minute appointment for a 68-year-old new patient with diabetes and a family history of glaucoma.",
+          "question": "How do you prioritise within the time?",
+          "modelAnswer": "Let the history set the priorities. Keep the history focused but cover diabetes control and duration, medication, whether they attend diabetic eye screening, and the family history. Make sure the essential tests are done well: acuity, refraction, pupils, IOP, anterior chamber angle, disc and macula assessment (ideally dilated), and fields given the glaucoma risk. Explain findings, advise on review interval and record everything. If you cannot complete a test that is clinically needed, say so, book the patient back or refer, and tell your supervisor rather than leaving a gap.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists: Guidance for Professional Practice",
@@ -1158,23 +1518,24 @@
               "feedback": "Urgency, question and key findings up front."
             },
             {
-              "text": "'Please see this patient.'",
+              "text": "'Please see this patient, who attended my practice today for a sight test.'",
               "correct": false,
               "feedback": "No reason or urgency."
             },
             {
-              "text": "'Patient has an eye problem.'",
+              "text": "'This patient has an eye problem that I would like you to look at, please.'",
               "correct": false,
               "feedback": "Too vague."
             },
             {
-              "text": "'Dear Doctor, I hope you are well.'",
+              "text": "'Dear Doctor, I hope you are well. I am writing about a patient of mine.'",
               "correct": false,
               "feedback": "Get to the point first."
             }
           ],
           "explanation": "Lead with urgency, suspected diagnosis and key findings.",
-          "link": "clp-referrals#what-a-good-referral-letter-looks-like"
+          "link": "clp-referrals#what-a-good-referral-letter-looks-like",
+          "needsReview": true
         },
         {
           "id": "clp-rf-3",
@@ -1206,138 +1567,247 @@
         },
         {
           "id": "clp-referrals-x0101",
-          "q": "How should emergency referrals be made?",
+          "q": "You find a suspected retinal detachment. How should you refer?",
           "options": [
             {
-              "text": "By phone, followed up in writing",
+              "text": "Phone the eye unit, then follow up in writing",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "By letter only",
+              "text": "Post a letter",
               "correct": false,
               "feedback": "Too slow."
             },
             {
-              "text": "By email only",
+              "text": "Ask the patient to see their GP next week",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Too slow."
             },
             {
-              "text": "Not at all",
+              "text": "Email with no call",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not for emergencies."
             }
           ],
-          "explanation": ""
+          "explanation": "Emergency referrals should be made by phone and followed up in writing.",
+          "original": {
+            "q": "How should emergency referrals be made?",
+            "options": [
+              {
+                "text": "By phone, followed up in writing",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "By letter only",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "By email only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Not at all",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-referrals-x0102",
-          "q": "Which guidance helps decide urgency?",
+          "q": "You're unsure how urgently to refer a patient with a new iris lesion. Which resource helps most?",
           "options": [
             {
-              "text": "College of Optometrists Clinical Management Guidelines",
+              "text": "The College of Optometrists Clinical Management Guidelines",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The Highway Code",
+              "text": "Whatever a search engine returns first",
+              "correct": false,
+              "feedback": "Not authoritative."
+            },
+            {
+              "text": "The patient's own preference for timing",
+              "correct": false,
+              "feedback": "Not decisive."
+            },
+            {
+              "text": "The GOC's online register of optometrists",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "BNF only",
-              "correct": false,
-              "feedback": "Medicines."
-            },
-            {
-              "text": "None",
-              "correct": false,
-              "feedback": "CMGs help."
             }
           ],
-          "explanation": ""
+          "explanation": "The College's Clinical Management Guidelines help decide urgency.",
+          "original": {
+            "q": "Which guidance helps decide urgency?",
+            "options": [
+              {
+                "text": "College of Optometrists Clinical Management Guidelines",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The Highway Code",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "BNF only",
+                "correct": false,
+                "feedback": "Medicines."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "CMGs help."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-referrals-x0103",
-          "q": "What should a referral include?",
+          "q": "A referral letter says 'Please see: ?glaucoma.' What's missing?",
           "options": [
             {
-              "text": "Details, reason, urgency, history and findings with both eyes' acuities",
+              "text": "Urgency, history and findings including both eyes' acuities",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only the diagnosis",
+              "text": "Nothing: a short letter is the clearest",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Too little."
             },
             {
-              "text": "Only the name",
+              "text": "Your home address and phone number",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "No."
             },
             {
-              "text": "Your fees",
+              "text": "The patient's hobbies and occupation only",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A referral should include details, reason, urgency, history and findings with both eyes' acuities.",
+          "original": {
+            "q": "What should a referral include?",
+            "options": [
+              {
+                "text": "Details, reason, urgency, history and findings with both eyes' acuities",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the diagnosis",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Only the name",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Your fees",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-referrals-x0104",
-          "q": "What should the patient be told?",
+          "q": "You're referring a patient urgently. What should you tell them?",
           "options": [
             {
-              "text": "Why, how urgent, what to expect and what to do if worse",
+              "text": "Why, how urgent, what to expect and what to do if it gets worse",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Nothing",
-              "correct": false,
-              "feedback": "Always tell them."
-            },
-            {
-              "text": "Only that it's fine",
+              "text": "Nothing at all, to avoid worrying them",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "To wait a year",
+              "text": "Only the name of the hospital they will attend",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not enough."
+            },
+            {
+              "text": "That it's routine, so there is no need to hurry",
+              "correct": false,
+              "feedback": "Not if urgent."
             }
           ],
-          "explanation": ""
+          "explanation": "Tell the patient why, how urgent, what to expect and what to do if it gets worse.",
+          "original": {
+            "q": "What should the patient be told?",
+            "options": [
+              {
+                "text": "Why, how urgent, what to expect and what to do if worse",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Always tell them."
+              },
+              {
+                "text": "Only that it's fine",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To wait a year",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-referrals-x0105",
           "q": "What are local pathways for?",
           "options": [
             {
-              "text": "Routing patients to services like urgent eye care, glaucoma repeat measures or cataract direct referral",
+              "text": "Routing patients to the right service",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Avoiding referral",
+              "text": "Avoiding the need to refer anyone to hospital at all",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Charging patients",
+              "text": "Deciding how much to charge patients for a referral",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Nothing",
+              "text": "Nothing in practice: they only exist on paper",
               "correct": false,
               "feedback": "They help."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-referrals-x0106",
@@ -1349,22 +1819,23 @@
               "feedback": "Yes."
             },
             {
-              "text": "Nothing",
+              "text": "Nothing: the letter is the record",
               "correct": false,
               "feedback": "Record it."
             },
             {
-              "text": "Only the date",
+              "text": "Only the date it was sent",
               "correct": false,
               "feedback": "Not enough."
             },
             {
-              "text": "Only the hospital",
+              "text": "Only the name of the hospital",
               "correct": false,
               "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1454,51 +1925,53 @@
               "feedback": "Competence depends on understanding, not age alone."
             },
             {
-              "text": "Never under 16",
+              "text": "No: nobody under 16 can ever consent",
               "correct": false,
               "feedback": "Young people can consent if competent."
             },
             {
-              "text": "Only with a teacher present",
+              "text": "Only with a teacher present as a witness",
               "correct": false,
               "feedback": "Not a requirement."
             },
             {
-              "text": "Only if they bring ID",
+              "text": "Only if they bring photo identification",
               "correct": false,
               "feedback": "Not related to consent."
             }
           ],
           "explanation": "Assess the young person's understanding of the specific decision.",
-          "link": "clp-records-consent-safeguarding#consent-and-capacity"
+          "link": "clp-records-consent-safeguarding#consent-and-capacity",
+          "needsReview": true
         },
         {
           "id": "clp-rc-2",
           "q": "You notice bruising around a child's eye; the parent's explanation doesn't match the injury. What should you do?",
           "options": [
             {
-              "text": "Record the facts and follow your safeguarding policy (speak to the lead / local authority)",
+              "text": "Record the facts and follow your safeguarding policy",
               "correct": true,
               "feedback": "Report concerns; don't investigate yourself."
             },
             {
-              "text": "Confront the parent",
+              "text": "Confront the parent about it in the room",
               "correct": false,
               "feedback": "Could put the child at risk."
             },
             {
-              "text": "Ignore it unless certain",
+              "text": "Ignore it unless you are completely certain",
               "correct": false,
               "feedback": "You don't need proof to raise a concern."
             },
             {
-              "text": "Ask the child detailed leading questions",
+              "text": "Ask the child detailed, leading questions",
               "correct": false,
               "feedback": "Leave investigation to trained professionals."
             }
           ],
           "explanation": "Record and refer through safeguarding routes.",
-          "link": "clp-records-consent-safeguarding#recognising-safeguarding-concerns"
+          "link": "clp-records-consent-safeguarding#recognising-safeguarding-concerns",
+          "needsReview": true
         },
         {
           "id": "clp-rc-3",
@@ -1510,50 +1983,78 @@
               "feedback": "Specific, timed and complete."
             },
             {
-              "text": "'IOPs normal'",
+              "text": "'IOPs normal in both eyes, no concerns at this visit'",
               "correct": false,
               "feedback": "No values, method or time."
             },
             {
-              "text": "'Eyes fine'",
+              "text": "'Eyes fine, pressures and everything else checked'",
               "correct": false,
               "feedback": "Doesn't say what was checked."
             },
             {
-              "text": "'Did pressures'",
+              "text": "'Did pressures before dilating, as per the protocol'",
               "correct": false,
               "feedback": "No result."
             }
           ],
           "explanation": "Record values, methods, times and drugs.",
-          "link": "clp-records-consent-safeguarding#good-records"
+          "link": "clp-records-consent-safeguarding#good-records",
+          "needsReview": true
         },
         {
           "id": "clp-records-consent-safeguarding-x0101",
-          "q": "Records must be",
+          "q": "Which record practice is wrong?",
           "options": [
             {
-              "text": "clear, accurate, contemporaneous, dated and attributable",
+              "text": "Writing up the notes from memory a week later",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: records should be contemporaneous."
             },
             {
-              "text": "brief and undated",
+              "text": "Dating each entry as it is made",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Good."
             },
             {
-              "text": "kept at home",
+              "text": "Signing or initialling every entry",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Good."
             },
             {
-              "text": "in pencil",
+              "text": "Writing clearly and avoiding odd abbreviations",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Good."
             }
           ],
-          "explanation": ""
+          "explanation": "Records must be clear, accurate, contemporaneous, dated and attributable.",
+          "original": {
+            "q": "Records must be",
+            "options": [
+              {
+                "text": "clear, accurate, contemporaneous, dated and attributable",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "brief and undated",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "kept at home",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "in pencil",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-records-consent-safeguarding-x0102",
@@ -1565,76 +2066,131 @@
               "feedback": "Yes."
             },
             {
-              "text": "Ask any relative to sign",
+              "text": "Ask any relative who is present to sign for them",
               "correct": false,
               "feedback": "Not the rule."
             },
             {
-              "text": "Refuse to examine",
+              "text": "Refuse to examine them until capacity returns",
               "correct": false,
               "feedback": "Not necessarily."
             },
             {
-              "text": "Assume consent",
+              "text": "Assume consent, because they attended",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-records-consent-safeguarding-x0103",
-          "q": "What should you do if you suspect abuse?",
+          "q": "A child at a sight test has unexplained bruises and seems frightened of their parent. What should you do?",
           "options": [
             {
-              "text": "Follow the safeguarding policy and report concerns",
+              "text": "Follow the safeguarding policy and report your concerns",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Ignore it",
+              "text": "Confront the parent with your suspicions",
               "correct": false,
-              "feedback": "Never."
+              "feedback": "Not appropriate."
             },
             {
-              "text": "Confront the abuser",
+              "text": "Ignore it, as it isn't an eye problem",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Post online",
+              "text": "Post about it online to ask for advice",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Follow the safeguarding policy and report concerns.",
+          "original": {
+            "q": "What should you do if you suspect abuse?",
+            "options": [
+              {
+                "text": "Follow the safeguarding policy and report concerns",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Ignore it",
+                "correct": false,
+                "feedback": "Never."
+              },
+              {
+                "text": "Confront the abuser",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Post online",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-records-consent-safeguarding-x0104",
-          "q": "When can confidentiality be breached?",
+          "q": "A patient who drives tells you they'll keep driving despite failing the visual standard. Can confidentiality be breached?",
           "options": [
             {
-              "text": "In specific circumstances such as risk of serious harm",
+              "text": "Yes, in specific cases such as a risk of serious harm",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Whenever asked",
+              "text": "Never, under any circumstances at all",
+              "correct": false,
+              "feedback": "It can be."
+            },
+            {
+              "text": "Always, and with anyone who asks",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Never",
+              "text": "Only if the police ask in writing",
               "correct": false,
-              "feedback": "There are exceptions."
-            },
-            {
-              "text": "For marketing",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Not only."
             }
           ],
-          "explanation": ""
+          "explanation": "Confidentiality can be breached in specific circumstances, such as risk of serious harm.",
+          "original": {
+            "q": "When can confidentiality be breached?",
+            "options": [
+              {
+                "text": "In specific circumstances such as risk of serious harm",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Whenever asked",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Never",
+                "correct": false,
+                "feedback": "There are exceptions."
+              },
+              {
+                "text": "For marketing",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-records-consent-safeguarding-x0105",
@@ -1673,22 +2229,23 @@
               "feedback": "Yes."
             },
             {
-              "text": "they ask",
+              "text": "they ask to be seen alone",
               "correct": false,
               "feedback": "Not the test."
             },
             {
-              "text": "they're 15",
+              "text": "they're at least 15 years old",
               "correct": false,
               "feedback": "Not age alone."
             },
             {
-              "text": "never",
+              "text": "never: a parent must always consent",
               "correct": false,
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "",
+          "needsReview": true
         },
         {
           "id": "clp-records-consent-safeguarding-x0107",
@@ -1718,7 +2275,14 @@
           "explanation": ""
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "A 14-year-old attends alone for contact lens aftercare and asks you not to tell their parents that they sometimes sleep in the lenses.",
+          "question": "How do you approach consent and confidentiality?",
+          "modelAnswer": "A young person under 16 can consent to their own care if they are Gillick competent: able to understand the information, weigh it up and communicate a decision. If so, they are also owed confidentiality. Explain the risks of overnight wear clearly, encourage them to involve a parent, and record your assessment of competence and the advice given. Confidentiality is not absolute: if you had concerns that they or someone else was at risk of serious harm, follow the safeguarding procedure and discuss with your supervisor or safeguarding lead.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "College of Optometrists: Guidance for Professional Practice",
@@ -1823,59 +2387,87 @@
         },
         {
           "id": "clp-rg-2",
-          "q": "Which is required before doing NHS sight tests in England?",
+          "q": "A newly registered optometrist in England wants to start NHS sight tests next week. What must they have first?",
           "options": [
             {
               "text": "Inclusion on the ophthalmic performers list",
               "correct": true,
-              "feedback": "As well as GOC registration."
+              "feedback": "Yes."
             },
             {
               "text": "An independent prescribing qualification",
               "correct": false,
-              "feedback": "Not needed for routine NHS sight tests."
+              "feedback": "Not needed."
             },
             {
-              "text": "Five years' experience",
+              "text": "A master's degree in clinical optometry",
               "correct": false,
-              "feedback": "Not required."
+              "feedback": "Not needed."
             },
             {
-              "text": "A glaucoma certificate",
+              "text": "Nothing beyond their GOC registration",
               "correct": false,
-              "feedback": "Not required for routine testing."
+              "feedback": "They need it."
             }
           ],
-          "explanation": "NHS work needs performers list inclusion.",
-          "link": "clp-registration#your-first-job"
+          "explanation": "In England you need to be on the ophthalmic performers list to do NHS sight tests.",
+          "link": "clp-registration#your-first-job",
+          "original": {
+            "q": "Which is required before doing NHS sight tests in England?",
+            "options": [
+              {
+                "text": "Inclusion on the ophthalmic performers list",
+                "correct": true,
+                "feedback": "As well as GOC registration."
+              },
+              {
+                "text": "An independent prescribing qualification",
+                "correct": false,
+                "feedback": "Not needed for routine NHS sight tests."
+              },
+              {
+                "text": "Five years' experience",
+                "correct": false,
+                "feedback": "Not required."
+              },
+              {
+                "text": "A glaucoma certificate",
+                "correct": false,
+                "feedback": "Not required for routine testing."
+              }
+            ],
+            "explanation": "NHS work needs performers list inclusion."
+          },
+          "needsReview": true
         },
         {
           "id": "clp-rg-3",
           "q": "What's the best way to prepare for practical final assessments?",
           "options": [
             {
-              "text": "Practise full routines under time pressure and get observed feedback on weaker areas",
+              "text": "Practise timed full routines and get observed feedback on weak areas",
               "correct": true,
               "feedback": "Targeted, realistic practice works best."
             },
             {
-              "text": "Only read textbooks",
+              "text": "Read the textbooks again and avoid practical work",
               "correct": false,
               "feedback": "Practical skills need practice."
             },
             {
-              "text": "Avoid observation so you aren't nervous",
+              "text": "Avoid being observed, so you don't get nervous",
               "correct": false,
               "feedback": "Observation builds confidence and finds gaps."
             },
             {
-              "text": "Focus only on rare conditions",
+              "text": "Concentrate on rare conditions that might come up",
               "correct": false,
               "feedback": "Core safety and routine matter most."
             }
           ],
           "explanation": "Rehearse the real thing and close gaps early.",
-          "link": "clp-registration#preparing-for-final-assessments"
+          "link": "clp-registration#preparing-for-final-assessments",
+          "needsReview": true
         },
         {
           "id": "clp-registration-x0101",
@@ -1906,7 +2498,7 @@
         },
         {
           "id": "clp-registration-x0102",
-          "q": "What insurance is required?",
+          "q": "An optometrist starts locum work. Which insurance must they hold?",
           "options": [
             {
               "text": "Professional indemnity insurance",
@@ -1914,22 +2506,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Car insurance",
+              "text": "Travel insurance for the journey",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Travel insurance",
+              "text": "Income protection insurance",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "None",
+              "text": "None, if the practice is insured",
               "correct": false,
-              "feedback": "It's required."
+              "feedback": "Required."
             }
           ],
-          "explanation": ""
+          "explanation": "Professional indemnity insurance is required.",
+          "original": {
+            "q": "What insurance is required?",
+            "options": [
+              {
+                "text": "Professional indemnity insurance",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Car insurance",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Travel insurance",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "It's required."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-registration-x0103",
@@ -1960,61 +2579,115 @@
         },
         {
           "id": "clp-registration-x0104",
-          "q": "What's needed for NHS work in England?",
+          "q": "Which statement about starting NHS work in England is wrong?",
           "options": [
             {
-              "text": "Inclusion on the ophthalmic performers list",
+              "text": "GOC registration alone lets you do NHS sight tests",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: you also need to be on the ophthalmic performers list."
             },
             {
-              "text": "Nothing extra",
+              "text": "You need to be on the ophthalmic performers list",
               "correct": false,
-              "feedback": "It's required."
+              "feedback": "True."
             },
             {
-              "text": "A hospital post",
+              "text": "You need professional indemnity insurance",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "IP status",
+              "text": "You need to be GOC registered",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "NHS work in England needs inclusion on the ophthalmic performers list as well as GOC registration.",
+          "original": {
+            "q": "What's needed for NHS work in England?",
+            "options": [
+              {
+                "text": "Inclusion on the ophthalmic performers list",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing extra",
+                "correct": false,
+                "feedback": "It's required."
+              },
+              {
+                "text": "A hospital post",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "IP status",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-registration-x0105",
-          "q": "Which standards apply once registered?",
+          "q": "A newly qualified optometrist asks which GOC standards apply now. What do you say?",
           "options": [
             {
-              "text": "GOC Standards of Practice for Optometrists and Dispensing Opticians",
+              "text": "The Standards of Practice for Optometrists and Dispensing Opticians",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Student standards",
+              "text": "The Standards for Optical Students, as before",
               "correct": false,
-              "feedback": "Replaced."
+              "feedback": "That was before."
             },
             {
-              "text": "None",
+              "text": "None until they have practised for a year",
               "correct": false,
               "feedback": "They apply."
             },
             {
-              "text": "Hospital rules only",
+              "text": "Only the NHS contract rules for sight tests",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not instead."
             }
           ],
-          "explanation": ""
+          "explanation": "Once registered, the GOC Standards of Practice for Optometrists and Dispensing Opticians apply.",
+          "original": {
+            "q": "Which standards apply once registered?",
+            "options": [
+              {
+                "text": "GOC Standards of Practice for Optometrists and Dispensing Opticians",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Student standards",
+                "correct": false,
+                "feedback": "Replaced."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "They apply."
+              },
+              {
+                "text": "Hospital rules only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-registration-x0106",
-          "q": "What does CPD include?",
+          "q": "Which activity is required as part of GOC CPD?",
           "options": [
             {
               "text": "Peer review and reflection across the cycle",
@@ -2022,26 +2695,53 @@
               "feedback": "Yes."
             },
             {
-              "text": "Only reading",
+              "text": "Reading the optical news each week",
               "correct": false,
-              "feedback": "More than that."
+              "feedback": "Not CPD."
             },
             {
-              "text": "Nothing",
+              "text": "Nothing specific: any learning counts",
               "correct": false,
-              "feedback": "It's required."
+              "feedback": "Required."
             },
             {
-              "text": "Only exams",
+              "text": "Attending lectures and nothing else",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "CPD includes peer review and reflection across the cycle.",
+          "original": {
+            "q": "What does CPD include?",
+            "options": [
+              {
+                "text": "Peer review and reflection across the cycle",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only reading",
+                "correct": false,
+                "feedback": "More than that."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "It's required."
+              },
+              {
+                "text": "Only exams",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "clp-registration-x0107",
-          "q": "What must you do once eligible?",
+          "q": "A student has passed everything and is now eligible to qualify. What must they do before practising as an optometrist?",
           "options": [
             {
               "text": "Apply to the GOC to join the register",
@@ -2049,25 +2749,59 @@
               "feedback": "Yes."
             },
             {
-              "text": "Nothing",
+              "text": "Start practising straight away",
               "correct": false,
-              "feedback": "Apply."
+              "feedback": "Not before registering."
             },
             {
-              "text": "Start practising immediately",
+              "text": "Sit another degree",
               "correct": false,
-              "feedback": "Register first."
+              "feedback": "No."
             },
             {
-              "text": "Wait a year",
+              "text": "Wait five years",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Once eligible, apply to the GOC to join the register.",
+          "original": {
+            "q": "What must you do once eligible?",
+            "options": [
+              {
+                "text": "Apply to the GOC to join the register",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Apply."
+              },
+              {
+                "text": "Start practising immediately",
+                "correct": false,
+                "feedback": "Register first."
+              },
+              {
+                "text": "Wait a year",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "scenario": "A friend who has just passed their final assessments is offered a locum shift for the following weekend, before their GOC registration has come through.",
+          "question": "Can they take it?",
+          "modelAnswer": "No. 'Optometrist' is a protected title and testing sight is a restricted function under the Opticians Act: they can only practise as an optometrist once their name is on the GOC register as fully qualified. Until then they are still a student registrant and may only work under supervision. They also need professional indemnity insurance in place and, for NHS sight tests, to be on the relevant NHS performers list. Working before registration risks a criminal offence and their future registration.",
+          "needsReview": true
+        }
+      ],
       "links": [
         {
           "label": "GOC: registration",

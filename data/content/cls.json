@@ -1,0 +1,3749 @@
+{
+  "module": "CLS",
+  "verifyNote": "Written from standard UK contact lens practice and manufacturers' published specifications. Brand names, materials and parameters change as lenses are relaunched, so check the current specification before relying on a figure.",
+  "topics": [
+    {
+      "id": "cls-lens-technology",
+      "title": "How soft lens technology works",
+      "summary": "Brand names hide a small number of ideas. A soft lens is either a hydrogel or a silicone hydrogel; what separates brands is how much oxygen gets through (Dk/t), how stiff the lens is (modulus), and how the maker keeps a water-hating silicone surface wet. Learn the ideas and you can place any new lens on the map.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Hydrogels carry oxygen only through their water, so Dk rises with water content. Silicone hydrogels carry it mainly through silicone, so Dk is high even at low water content.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "why": "Oxygen dissolves far better in silicone than in water. In a hydrogel the only route through is the water phase; in a silicone hydrogel the silicone phase forms a continuous path, so adding water actually lowers Dk slightly."
+        },
+        {
+          "text": "Dk/t is what the cornea gets: material Dk divided by lens thickness. Manufacturers quote it at the centre of a −3.00 D lens. Plus lenses and torics are thicker, so their real Dk/t is lower.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Holden and Mertz suggested a Dk/t of about 24 to avoid corneal swelling in daily wear and about 87 for overnight wear. Later work raised the overnight figure to around 125.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "These are average thresholds from a small number of studies, measured centrally. Peripheral thickness, the patient's own oxygen needs and limbal redness all vary, so treat them as guides, not pass marks."
+        },
+        {
+          "text": "Silicone hates water, so every silicone hydrogel needs a wetting strategy. There are four broad routes: plasma surface treatment, an internal wetting agent (often PVP), a material that is wettable on its own, and a distinct high-water surface layer or water gradient.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Modulus is stiffness. Early silicone hydrogels were stiff (above about 1 MPa) and linked to mechanical problems such as SEALs and papillary conjunctivitis. Most modern ones are softer, nearer to hydrogels.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Many lenses add something to the blister solution or the polymer: wetting agents, moisturisers or comfort polymers. These can help at insertion, but most of the effect is short-lived.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Comfort claims for packaging additives come mostly from manufacturer-funded studies. Independent evidence that one additive beats another across a whole day is limited."
+        },
+        {
+          "text": "Ionic, high-water hydrogels (FDA group IV, such as etafilcon A) attract lysozyme from tears. Silicone hydrogels attract more lipid. Deposits affect comfort, vision and the choice of care solution.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "UV-blocking lenses (class 1 or 2) absorb UV but don't cover the whole eye, so they don't replace sunglasses. Some newer lenses also filter part of the blue-violet light.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "There's no good evidence that filtering blue-violet light from screens protects the retina or improves sleep. Present it as a feature, not a health benefit."
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Comparing Dk (material) with Dk/t (lens). The cornea gets Dk/t, and it falls as the lens gets thicker.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Assuming higher water means more oxygen in a silicone hydrogel. That's only true for hydrogels.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Quoting a −3.00 D Dk/t for a +6.00 D or toric lens. Thicker lenses deliver much less oxygen.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Wetting strategies by brand",
+          "body": "Plasma treatment: lotrafilcon A and B (Air Optix). Internal wetting agent (PVP): senofilcon A (Acuvue Oasys, HydraClear Plus and HydraLuxe) and samfilcon A (Bausch + Lomb ULTRA, MoistureSeal). Naturally wettable material with no coating or agent: comfilcon A (Biofinity), stenfilcon A (MyDay), fanfilcon A (Avaira Vitality), all branded Aquaform by CooperVision. Water gradient: delefilcon A (Dailies Total1) and lehfilcon A (Total30), with a silicone core and a very high-water surface. High-water surface layer: verofilcon A (Precision1, SmartSurface).",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Names and technologies change as lenses are relaunched. Check the current manufacturer's specification before quoting a parameter in practice."
+        },
+        {
+          "heading": "Reading a lens specification sheet",
+          "body": "Look for: material (USAN name ending -filcon), water content, Dk and Dk/t at −3.00 D, modulus, centre thickness, base curves, diameter, power range, replacement schedule, licensed wear (daily or extended) and UV class. Then compare against what the patient needs: Rx range, corneal size and curvature, wearing pattern and budget.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What does Dk/t measure?",
+          "back": "Oxygen transmissibility of the actual lens: material permeability (Dk) divided by thickness (t)."
+        },
+        {
+          "front": "Why does a silicone hydrogel's Dk fall slightly as water rises?",
+          "back": "Oxygen travels mainly through the silicone; more water means proportionally less silicone."
+        },
+        {
+          "front": "Four ways to keep a silicone hydrogel surface wet",
+          "back": "Plasma treatment, internal wetting agent (e.g. PVP), naturally wettable material, or a high-water surface layer / water gradient."
+        },
+        {
+          "front": "Which hydrogel group attracts most lysozyme?",
+          "back": "FDA group IV: ionic, high water (e.g. etafilcon A)."
+        },
+        {
+          "front": "Holden–Mertz Dk/t guides",
+          "back": "About 24 for daily wear, about 87 for overnight (later revised to around 125)."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-lens-technology-1",
+          "q": "A patient switches from a −3.00 D to a +5.00 D lens of the same material and design. What happens to the oxygen reaching the central cornea?",
+          "options": [
+            {
+              "text": "It falls, because the plus lens is thicker centrally",
+              "correct": true,
+              "feedback": "Yes: same Dk, bigger t, lower Dk/t."
+            },
+            {
+              "text": "It rises, because plus lenses are thinner",
+              "correct": false,
+              "feedback": "Plus lenses are thicker centrally."
+            },
+            {
+              "text": "It doesn't change, because the material is the same",
+              "correct": false,
+              "feedback": "Dk is the same; Dk/t isn't."
+            },
+            {
+              "text": "It doubles",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Dk/t = Dk ÷ thickness, so a thicker lens transmits less oxygen."
+        },
+        {
+          "id": "cls-lens-technology-2",
+          "q": "Which statement about silicone hydrogels is wrong?",
+          "options": [
+            {
+              "text": "Increasing water content raises their oxygen permeability",
+              "correct": true,
+              "feedback": "Yes, that's wrong: oxygen travels mainly through the silicone."
+            },
+            {
+              "text": "They need a wetting strategy because silicone is hydrophobic",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "They tend to attract lipid deposits",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "They can reach high Dk at low water content",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "In silicone hydrogels, Dk depends on the silicone phase, not the water."
+        },
+        {
+          "id": "cls-lens-technology-3",
+          "q": "A lens has Dk 140 and a centre thickness of 0.08 mm. Roughly what is its Dk/t?",
+          "options": [
+            {
+              "text": "175",
+              "correct": true,
+              "feedback": "Yes: 140 ÷ 0.008 cm = 17,500 → 175 in the usual units."
+            },
+            {
+              "text": "11",
+              "correct": false,
+              "feedback": "You've multiplied, not divided."
+            },
+            {
+              "text": "1,750",
+              "correct": false,
+              "feedback": "Check the units."
+            },
+            {
+              "text": "17.5",
+              "correct": false,
+              "feedback": "Off by a factor of 10."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Dk/t = Dk ÷ t (t in cm): 140 ÷ 0.008 = 17,500, quoted as 175 × 10⁻⁹."
+        },
+        {
+          "id": "cls-lens-technology-4",
+          "q": "A wearer of an etafilcon A lens has filmy, white protein deposits by the end of the fortnight. Why this material?",
+          "options": [
+            {
+              "text": "It's ionic and high water, so it attracts lysozyme",
+              "correct": true,
+              "feedback": "Yes: FDA group IV."
+            },
+            {
+              "text": "It's a silicone hydrogel, which attracts lipid",
+              "correct": false,
+              "feedback": "It isn't."
+            },
+            {
+              "text": "It's a rigid material, which attracts mucin",
+              "correct": false,
+              "feedback": "It's soft."
+            },
+            {
+              "text": "It's non-ionic and low water, so it binds protein",
+              "correct": false,
+              "feedback": "That group deposits least."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Ionic high-water hydrogels attract the most lysozyme."
+        },
+        {
+          "id": "cls-lens-technology-5",
+          "q": "A practitioner says a lens 'has no coating or wetting agent, the material itself is wettable'. Which lens fits this description?",
+          "options": [
+            {
+              "text": "Biofinity (comfilcon A)",
+              "correct": true,
+              "feedback": "Yes: CooperVision's Aquaform approach."
+            },
+            {
+              "text": "Air Optix plus HydraGlyde (lotrafilcon B)",
+              "correct": false,
+              "feedback": "Plasma-treated."
+            },
+            {
+              "text": "Acuvue Oasys (senofilcon A)",
+              "correct": false,
+              "feedback": "Uses an internal wetting agent (PVP)."
+            },
+            {
+              "text": "Dailies Total1 (delefilcon A)",
+              "correct": false,
+              "feedback": "Water gradient surface."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Comfilcon A is designed to be wettable without surface treatment or added wetting agents."
+        },
+        {
+          "id": "cls-lens-technology-6",
+          "q": "A patient asks whether a blue-light-filtering contact lens will protect their eyes from their laptop. What's the most accurate answer?",
+          "options": [
+            {
+              "text": "There's no good evidence it protects the eye; it's a preference at most",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes: it has been shown to prevent macular degeneration",
+              "correct": false,
+              "feedback": "Not shown."
+            },
+            {
+              "text": "Yes: it has been shown to cure digital eye strain",
+              "correct": false,
+              "feedback": "Not shown."
+            },
+            {
+              "text": "It blocks all UV and blue light, so sunglasses aren't needed",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Evidence for health benefits from blue-violet filtering is weak."
+        },
+        {
+          "id": "cls-lens-technology-7",
+          "q": "An early silicone hydrogel wearer develops a superior arcuate epithelial lesion (SEAL). Which lens property is most likely involved?",
+          "options": [
+            {
+              "text": "High modulus (stiffness)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Low water content alone",
+              "correct": false,
+              "feedback": "Not the main factor."
+            },
+            {
+              "text": "UV blocking",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Tint",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Stiffer lenses press on the superior cornea under the lid, linked to SEALs and CLPC."
+        },
+        {
+          "id": "cls-lens-technology-8",
+          "q": "Which lens is designed with a water gradient, from a silicone core to a very high-water surface?",
+          "options": [
+            {
+              "text": "Dailies Total1 (delefilcon A)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Acuvue Moist (etafilcon A)",
+              "correct": false,
+              "feedback": "A hydrogel."
+            },
+            {
+              "text": "Biofinity (comfilcon A)",
+              "correct": false,
+              "feedback": "Naturally wettable, no gradient."
+            },
+            {
+              "text": "Proclear (omafilcon A)",
+              "correct": false,
+              "feedback": "Phosphorylcholine hydrogel."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Delefilcon A has a silicone hydrogel core and a hydrogel-like surface."
+        },
+        {
+          "id": "cls-lens-technology-9",
+          "q": "A colleague says, 'This lens's Dk/t is 147, so it's fine for overnight wear in everyone.' What's wrong?",
+          "options": [
+            {
+              "text": "Dk/t is one factor: licensing and the patient's own risks also matter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing: anything above 87 is safe overnight for everyone",
+              "correct": false,
+              "feedback": "Overnight wear still carries extra infection risk."
+            },
+            {
+              "text": "147 is too low even for daily wear in most patients",
+              "correct": false,
+              "feedback": "It's well above 24."
+            },
+            {
+              "text": "Dk/t has no effect on the cornea, so it isn't relevant",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Overnight wear raises microbial keratitis risk regardless of oxygen; it also has to be licensed."
+        },
+        {
+          "id": "cls-lens-technology-10",
+          "q": "What does a UV class 1 lens NOT do?",
+          "options": [
+            {
+              "text": "Protect the lids, conjunctiva and outer eye from UV",
+              "correct": true,
+              "feedback": "Yes: it only covers the cornea and the area beneath it."
+            },
+            {
+              "text": "Absorb most UVB",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "Absorb most UVA",
+              "correct": false,
+              "feedback": "Class 1 absorbs most."
+            },
+            {
+              "text": "Reduce UV reaching the lens and retina",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "UV-blocking lenses are not a substitute for wraparound sunglasses."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A first-year student says, 'Why do we bother with hydrogel dailies when silicone hydrogels give so much more oxygen?'",
+          "question": "Explain the trade-offs between hydrogel and silicone hydrogel materials.",
+          "modelAnswer": "Silicone hydrogels give far more oxygen (less limbal redness, safer for long hours and overnight) but tend to be stiffer, attract lipid and need a wetting strategy; some patients find them less comfortable. Hydrogels are soft, wettable and often cheaper, give enough oxygen for most low-Rx daily wearers for moderate hours, but deliver little oxygen in high powers or long wear and high-water ionic types attract protein. Choose on the patient's Rx, hours, comfort, cost and risk, not on oxygen alone."
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "Alcon professional site",
+          "url": "https://www.alcon.com/"
+        },
+        {
+          "label": "CooperVision UK",
+          "url": "https://www.coopervision.co.uk/"
+        }
+      ],
+      "askClaude": "Explain how soft lens technology works to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-sihy-brands",
+      "title": "Silicone hydrogel brands: what they are and when to use them",
+      "summary": "Four companies make most lenses fitted in the UK: Johnson & Johnson (Acuvue), Alcon (Air Optix, Dailies, Precision1, Total30), CooperVision (Biofinity, MyDay, clariti, MiSight) and Bausch + Lomb (ULTRA, Biotrue). Know each company's main silicone hydrogels, the technology behind them, and the patient each suits.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Acuvue Oasys (senofilcon A, 2-weekly): 38% water, Dk/t about 147, PVP internal wetting agent (HydraClear Plus), low modulus. Also licensed for some extended wear. A good all-rounder for long hours and screen users.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Acuvue Oasys 1-Day (senofilcon A, daily): HydraLuxe technology and Dk/t about 121. Acuvue Oasys MAX 1-Day adds TearStable and an OptiBlue filter for part of the blue-violet light.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Air Optix plus HydraGlyde (lotrafilcon B, monthly): 33% water, Dk/t about 138, plasma-treated surface plus a HydraGlyde wetting agent. Firmer than many lenses, so it handles well; deposit resistance is a selling point.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Air Optix Night & Day Aqua (lotrafilcon A, monthly): 24% water, Dk/t about 175, licensed for up to 30 nights' continuous wear. Also widely used as a bandage lens.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Biofinity (comfilcon A, monthly): 48% water, Dk/t about 160, naturally wettable (Aquaform) with a low modulus. Wide parameters, including extended-range (XR) powers and toric and multifocal options. A common first choice for reusable wear.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Dailies Total1 (delefilcon A, daily): Dk/t about 156, water gradient from 33% at the core to over 80% at the surface. Often chosen for patients with end-of-day dryness who want a premium daily.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Precision1 (verofilcon A, daily): 51% water, Dk/t about 100, SmartSurface (a thin high-water surface layer). Marketed for new wearers; firm enough to handle easily.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "MyDay (stenfilcon A, daily): 54% water, Dk/t about 100, Aquaform and a soft modulus. clariti 1 day (somofilcon A): 56% water, Dk/t about 86, usually a lower-cost silicone hydrogel daily.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Bausch + Lomb ULTRA (samfilcon A, monthly) uses MoistureSeal, a PVP-based approach. Their silicone hydrogel daily, kalifilcon A (INFUSE, sold in some markets as ULTRA ONE DAY), uses ProBalance Technology with osmoprotectants and electrolytes.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Brand names and availability vary between countries and change over time. Check the current UK range before recommending one."
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Recommending a lens by brand loyalty rather than by parameters, wearing pattern and the patient's symptoms.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Assuming two lenses with similar Dk/t will feel the same: modulus, surface and edge design differ.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Switching a comfortable, healthy wearer to a 'better' lens for no clinical reason.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Daily or reusable?",
+          "body": "Daily disposables remove the need for care solutions, cut deposit build-up and lower the risk of some complications, especially for occasional wearers and patients with allergy. Reusable lenses cost less per day and suit patients with high or unusual prescriptions (wider parameters) and regular full-time wear, but need good compliance with cleaning, storage and case replacement.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "Picking within a category",
+          "body": "Start from the parameters: is the Rx, base curve and diameter available? Then the wearing pattern (hours, overnight, sport), the eye (dry eye, allergy, deposits, corneal size), handling, and cost. Fit the lens you think best, assess on-eye fit and comfort after settling, and keep a second option in mind if comfort or fit isn't right.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Acuvue Oasys material and wetting technology",
+          "back": "Senofilcon A with an internal PVP wetting agent (HydraClear Plus)."
+        },
+        {
+          "front": "Biofinity material and approach",
+          "back": "Comfilcon A; naturally wettable (Aquaform), no surface treatment."
+        },
+        {
+          "front": "Licensed for up to 30 nights' continuous wear",
+          "back": "Air Optix Night & Day Aqua (lotrafilcon A)."
+        },
+        {
+          "front": "Water gradient daily disposable",
+          "back": "Dailies Total1 (delefilcon A)."
+        },
+        {
+          "front": "Precision1's surface technology",
+          "back": "SmartSurface: a thin high-water layer on a silicone hydrogel lens."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-sihy-brands-1",
+          "q": "A −12.50 D myope wants monthly lenses. Which is most likely to be available in their power?",
+          "options": [
+            {
+              "text": "Biofinity XR",
+              "correct": true,
+              "feedback": "Yes: extended-range parameters."
+            },
+            {
+              "text": "A standard daily in −0.50 to −6.00 D",
+              "correct": false,
+              "feedback": "Not in range."
+            },
+            {
+              "text": "A cosmetic tinted daily",
+              "correct": false,
+              "feedback": "Limited powers."
+            },
+            {
+              "text": "MiSight 1 day",
+              "correct": false,
+              "feedback": "Myopia control for children."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Check the parameter range first; extended-range lenses exist for high Rxs."
+        },
+        {
+          "id": "cls-sihy-brands-2",
+          "q": "A firefighter on long shifts sometimes needs to sleep in his lenses. Which lens is licensed for this?",
+          "options": [
+            {
+              "text": "Air Optix Night & Day Aqua",
+              "correct": true,
+              "feedback": "Yes: up to 30 nights."
+            },
+            {
+              "text": "Biotrue ONEday",
+              "correct": false,
+              "feedback": "Daily wear."
+            },
+            {
+              "text": "Dailies AquaComfort Plus",
+              "correct": false,
+              "feedback": "Daily wear."
+            },
+            {
+              "text": "Precision1",
+              "correct": false,
+              "feedback": "Daily wear."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Use a lens licensed for extended wear, and explain the higher infection risk."
+        },
+        {
+          "id": "cls-sihy-brands-3",
+          "q": "A new wearer finds soft lenses floppy and hard to handle. Which daily might handle more easily?",
+          "options": [
+            {
+              "text": "Precision1",
+              "correct": true,
+              "feedback": "Yes: relatively firm and designed for new wearers."
+            },
+            {
+              "text": "A very thin, high-water hydrogel",
+              "correct": false,
+              "feedback": "Floppier."
+            },
+            {
+              "text": "A 2-week lens worn as a daily",
+              "correct": false,
+              "feedback": "Not the point."
+            },
+            {
+              "text": "A scleral lens",
+              "correct": false,
+              "feedback": "Not for this."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Stiffer silicone hydrogels are often easier to handle."
+        },
+        {
+          "id": "cls-sihy-brands-4",
+          "q": "Which statement about Dailies Total1 is wrong?",
+          "options": [
+            {
+              "text": "It's a monthly lens",
+              "correct": true,
+              "feedback": "Yes, that's wrong: it's a daily disposable."
+            },
+            {
+              "text": "It has a water gradient surface",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It's made of delefilcon A",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It's a silicone hydrogel",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Dailies Total1 is a delefilcon A daily with a water gradient."
+        },
+        {
+          "id": "cls-sihy-brands-5",
+          "q": "A patient wears Acuvue Oasys 2-weekly and asks why they can't stretch them to a month. What's the best reason to give?",
+          "options": [
+            {
+              "text": "It's licensed for two-week replacement, and deposits and comfort worsen after that",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "They would cost more over the year if worn for a month",
+              "correct": false,
+              "feedback": "Not a clinical reason."
+            },
+            {
+              "text": "The lens material starts to dissolve after two weeks",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "There's no real reason: a month is fine if they feel comfortable",
+              "correct": false,
+              "feedback": "There is."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Follow the licensed replacement schedule."
+        },
+        {
+          "id": "cls-sihy-brands-6",
+          "q": "A patient's 2-weekly lenses are comfortable but they want to save money. Which change is most reasonable?",
+          "options": [
+            {
+              "text": "A monthly SiHy with a matched fit, plus compliance advice",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Wear each pair of two-weekly lenses for two months",
+              "correct": false,
+              "feedback": "Over-wear."
+            },
+            {
+              "text": "Sleep in the lenses to get more wear out of them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Buy lenses online without a current specification",
+              "correct": false,
+              "feedback": "Illegal and unsafe."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Switch to a lens licensed for longer replacement rather than over-wearing."
+        },
+        {
+          "id": "cls-sihy-brands-7",
+          "q": "Which company makes Biofinity, MyDay and clariti?",
+          "options": [
+            {
+              "text": "CooperVision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Alcon",
+              "correct": false,
+              "feedback": "Air Optix, Dailies, Precision1."
+            },
+            {
+              "text": "Johnson & Johnson",
+              "correct": false,
+              "feedback": "Acuvue."
+            },
+            {
+              "text": "Bausch + Lomb",
+              "correct": false,
+              "feedback": "ULTRA, Biotrue."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "CooperVision makes Biofinity, MyDay, clariti and MiSight."
+        },
+        {
+          "id": "cls-sihy-brands-8",
+          "q": "A practitioner swaps a happy Biofinity wearer onto a new brand 'because it's newer'. Two weeks later the patient has discomfort. What was the error?",
+          "options": [
+            {
+              "text": "Changing a healthy fit without a clinical reason",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Not trying an older lens design first",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not changing the lens brand sooner",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Not allowing the patient time to adapt",
+              "correct": false,
+              "feedback": "Not the main error."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "If it isn't broken, don't change it without a reason."
+        },
+        {
+          "id": "cls-sihy-brands-9",
+          "q": "A patient with low vision for small print wants daily lenses but has fine-motor problems. Which feature matters most?",
+          "options": [
+            {
+              "text": "Ease of handling (stiffness and an inside-out mark)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A blue light filter in the lens material",
+              "correct": false,
+              "feedback": "Not relevant."
+            },
+            {
+              "text": "The highest oxygen transmissibility available",
+              "correct": false,
+              "feedback": "Less relevant."
+            },
+            {
+              "text": "A tinted iris pattern to make it visible",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Choose a lens the patient can actually insert and remove safely."
+        },
+        {
+          "id": "cls-sihy-brands-10",
+          "q": "Which wetting approach does Air Optix plus HydraGlyde use?",
+          "options": [
+            {
+              "text": "Plasma surface treatment plus a HydraGlyde wetting agent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A water gradient surface with no wetting agent",
+              "correct": false,
+              "feedback": "That's Total1/Total30."
+            },
+            {
+              "text": "No surface treatment of any kind at all",
+              "correct": false,
+              "feedback": "That's Aquaform."
+            },
+            {
+              "text": "A phosphorylcholine material that holds water",
+              "correct": false,
+              "feedback": "That's Proclear."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Lotrafilcon B is plasma-treated and has HydraGlyde added."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 28-year-old office worker wears 2-weekly hydrogel lenses for 12 hours a day and has red eyes and end-of-day dryness. She's not interested in glasses.",
+          "question": "Which lens would you consider, and why?",
+          "modelAnswer": "Increase oxygen and improve surface wettability: a silicone hydrogel (for example a daily such as Dailies Total1, Acuvue Oasys 1-Day or MyDay, or a reusable such as Biofinity or Acuvue Oasys). A daily removes solution and deposit issues. Also assess and treat the tear film and lids, review screen habits and blinking, reduce wearing time if possible, and review comfort and limbal redness at aftercare."
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "CooperVision UK",
+          "url": "https://www.coopervision.co.uk/"
+        },
+        {
+          "label": "Acuvue UK",
+          "url": "https://www.acuvue.com/en-gb/"
+        },
+        {
+          "label": "Bausch + Lomb UK",
+          "url": "https://www.bausch.co.uk/"
+        }
+      ],
+      "askClaude": "Explain silicone hydrogel brands: what they are and when to use them to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-hydrogel-lenses",
+      "title": "Hydrogel lenses: when they still make sense",
+      "summary": "Hydrogels are older but still widely fitted, especially as daily disposables. They are soft, comfortable on insertion and often cheaper, but deliver less oxygen. Know the main brands and the patients who still do well in them.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Acuvue Moist (etafilcon A, daily): 58% water, Dk/t about 25, with Lacreon (a PVP wetting agent). Class 1 UV blocking. Ionic, so it can attract protein.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Dailies AquaComfort Plus (nelfilcon A, daily): about 69% water, Dk/t about 26. Releases comfort agents (PVA, HPMC and PEG) when the patient blinks ('blink-activated').",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Biotrue ONEday (nesofilcon A, daily): 78% water, Dk/t about 42, HyperGel material. Marketed as matching the water content of the cornea.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Proclear (omafilcon A): about 60–62% water, with phosphorylcholine (PC Technology), which binds water and resists dehydration. Often tried for mild dryness. MiSight 1 day is also made in omafilcon A.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Evidence that PC lenses help dry eye comes largely from short studies; results vary between patients."
+        },
+        {
+          "text": "Hydrogels suit low to moderate prescriptions worn for moderate hours, occasional wear, and patients who find silicone hydrogels less comfortable or too expensive.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "why": "At low powers a hydrogel daily usually gives enough oxygen for daily wear of moderate length; the shortfall grows with power, thickness and wearing time."
+        },
+        {
+          "text": "Avoid hydrogels for long hours, overnight wear and high plus or high minus powers, where low Dk/t may cause limbal redness, oedema and neovascularisation.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Own-brand or 'private label' lenses sold by chains and online are usually a major manufacturer's lens under another name. Check the material and parameters before assuming it's different.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Refitting a comfortable, healthy hydrogel wearer just because silicone hydrogels exist.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Forgetting that high-water hydrogels can dehydrate in dry, air-conditioned settings and lose power and comfort.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Signs a hydrogel isn't giving enough oxygen",
+          "body": "Limbal redness, microcysts, striae or folds, corneal neovascularisation and a myopic shift. If you see these, review wearing time and consider a silicone hydrogel.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "Cost",
+          "body": "Hydrogel dailies are often cheaper than silicone hydrogel dailies, which can decide whether a patient wears dailies at all. A cheaper daily may be safer than a reusable lens that's poorly cared for.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Blink-activated moisture lens",
+          "back": "Dailies AquaComfort Plus (nelfilcon A)."
+        },
+        {
+          "front": "What does phosphorylcholine do in Proclear?",
+          "back": "Binds water and resists dehydration."
+        },
+        {
+          "front": "Biotrue ONEday water content",
+          "back": "About 78%."
+        },
+        {
+          "front": "Signs of hypoxia with a hydrogel",
+          "back": "Limbal redness, microcysts, striae, neovascularisation, myopic shift."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-hydrogel-lenses-1",
+          "q": "A 16-year-old wants lenses for weekend football only, −2.00 D each eye, on a tight budget. Which is most sensible?",
+          "options": [
+            {
+              "text": "A hydrogel daily disposable",
+              "correct": true,
+              "feedback": "Yes: occasional, low Rx, no care needed, low cost."
+            },
+            {
+              "text": "A monthly silicone hydrogel",
+              "correct": false,
+              "feedback": "Care burden for occasional wear."
+            },
+            {
+              "text": "An extended-wear lens",
+              "correct": false,
+              "feedback": "Not needed."
+            },
+            {
+              "text": "A scleral lens",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Hydrogel dailies suit occasional wear at low powers."
+        },
+        {
+          "id": "cls-hydrogel-lenses-2",
+          "q": "A +6.50 D hyperope in hydrogel monthlies has limbal redness and new vessels at the superior limbus. What should you change?",
+          "options": [
+            {
+              "text": "Refit with a silicone hydrogel",
+              "correct": true,
+              "feedback": "Yes: plus lenses are thick, so Dk/t is low."
+            },
+            {
+              "text": "Keep the same lens but add drops",
+              "correct": false,
+              "feedback": "Doesn't fix oxygen."
+            },
+            {
+              "text": "A higher-water hydrogel of the same thickness",
+              "correct": false,
+              "feedback": "Small gain."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Act."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "High plus powers in hydrogels give low Dk/t."
+        },
+        {
+          "id": "cls-hydrogel-lenses-3",
+          "q": "Which statement about Acuvue Moist is wrong?",
+          "options": [
+            {
+              "text": "It's a silicone hydrogel",
+              "correct": true,
+              "feedback": "Yes, that's wrong: it's etafilcon A, a hydrogel."
+            },
+            {
+              "text": "It contains a PVP wetting agent",
+              "correct": false,
+              "feedback": "True (Lacreon)."
+            },
+            {
+              "text": "It's a daily disposable",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It's ionic",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Etafilcon A is an ionic high-water hydrogel."
+        },
+        {
+          "id": "cls-hydrogel-lenses-4",
+          "q": "A patient in an air-conditioned office says her high-water hydrogel lenses get blurry and dry by the afternoon. Which explanation fits?",
+          "options": [
+            {
+              "text": "The lens dehydrates, changing fit and power and reducing comfort",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The lens absorbs too much oxygen during the day",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "The lens is too stiff for an office environment",
+              "correct": false,
+              "feedback": "Hydrogels are soft."
+            },
+            {
+              "text": "It's normal, and nothing can be done to change it",
+              "correct": false,
+              "feedback": "Options exist."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "High-water hydrogels can dehydrate in low humidity."
+        },
+        {
+          "id": "cls-hydrogel-lenses-5",
+          "q": "A patient buys an own-brand daily lens online, believing it's a different product from the branded one they used before. What should you tell them?",
+          "options": [
+            {
+              "text": "Many own-brand lenses are a major maker's lens rebranded, so check the parameters",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Own-brand lenses are always of lower quality than branded lenses",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "They must never switch between brands for any reason",
+              "correct": false,
+              "feedback": "Not true."
+            },
+            {
+              "text": "Buying contact lenses online is against the law in the UK",
+              "correct": false,
+              "feedback": "Not with a valid specification."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Compare material and parameters, not names."
+        },
+        {
+          "id": "cls-hydrogel-lenses-6",
+          "q": "A patient with mild dryness in hydrogel monthlies doesn't want silicone hydrogels. Which material is often tried?",
+          "options": [
+            {
+              "text": "Omafilcon A (Proclear), with phosphorylcholine",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Etafilcon A worn as a monthly lens",
+              "correct": false,
+              "feedback": "Not a dryness choice."
+            },
+            {
+              "text": "A PMMA rigid corneal lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Any hydrogel with a handling tint",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Phosphorylcholine binds water and resists dehydration."
+        },
+        {
+          "id": "cls-hydrogel-lenses-7",
+          "q": "Which lens is described as 'blink-activated'?",
+          "options": [
+            {
+              "text": "Dailies AquaComfort Plus",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Biofinity (comfilcon A)",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "MiSight 1 day (omafilcon A)",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Acuvue Oasys (senofilcon A)",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Nelfilcon A releases comfort polymers when the patient blinks."
+        },
+        {
+          "id": "cls-hydrogel-lenses-8",
+          "q": "Which patient is the LEAST suitable for a hydrogel daily?",
+          "options": [
+            {
+              "text": "A shift worker who wears lenses for 18 hours and sometimes naps in them",
+              "correct": true,
+              "feedback": "Yes: needs high Dk/t."
+            },
+            {
+              "text": "An occasional weekend wearer with a −1.50 D prescription",
+              "correct": false,
+              "feedback": "Suitable."
+            },
+            {
+              "text": "A child with allergies who wears −1.00 D lenses for sport",
+              "correct": false,
+              "feedback": "Suitable."
+            },
+            {
+              "text": "A part-time wearer who is keeping to a tight budget",
+              "correct": false,
+              "feedback": "Suitable."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Long hours and naps need a silicone hydrogel."
+        },
+        {
+          "id": "cls-hydrogel-lenses-9",
+          "q": "Which hydrogel claims to match the cornea's water content?",
+          "options": [
+            {
+              "text": "Biotrue ONEday",
+              "correct": true,
+              "feedback": "Yes: 78% water."
+            },
+            {
+              "text": "Acuvue Moist",
+              "correct": false,
+              "feedback": "58%."
+            },
+            {
+              "text": "Proclear",
+              "correct": false,
+              "feedback": "About 60%."
+            },
+            {
+              "text": "Dailies AquaComfort Plus",
+              "correct": false,
+              "feedback": "About 69%."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Biotrue ONEday is 78% water."
+        },
+        {
+          "id": "cls-hydrogel-lenses-10",
+          "q": "A patient shows corneal microcysts after years of hydrogel wear. What do they indicate?",
+          "options": [
+            {
+              "text": "Chronic hypoxia",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Allergy",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Infection",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal ageing",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Microcysts are a sign of chronic hypoxia."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A wearer refitted from a hydrogel daily disposable to a silicone hydrogel daily disposable reports that the new lenses feel less comfortable and their lids feel irritated.",
+          "question": "Is it reasonable to go back to a hydrogel?",
+          "modelAnswer": "Yes, if the eyes are healthy. Silicone hydrogels are stiffer (higher modulus) and their surfaces can be less wettable, so some wearers find them less comfortable or develop mechanical changes such as papillae. For daily wear of a thin, low-powered lens over a normal day, a modern hydrogel can give enough oxygen. Check for signs of hypoxia (limbal redness, vessels, striae) and consider the power and wearing time: if there are none and they do not sleep in lenses, a hydrogel daily disposable is a sound choice. Review as usual.",
+          "needsReview": true
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "CooperVision UK",
+          "url": "https://www.coopervision.co.uk/"
+        },
+        {
+          "label": "Bausch + Lomb UK",
+          "url": "https://www.bausch.co.uk/"
+        }
+      ],
+      "askClaude": "Explain hydrogel lenses: when they still make sense to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-toric",
+      "title": "Toric soft lenses: stabilisation designs and brands",
+      "summary": "A toric lens only works if it sits at the right orientation and comes back there after every blink. Each manufacturer has its own stabilisation design. Know the designs, how to judge rotation, and how to correct for it.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Consider a toric lens when the refractive cylinder is about 0.75 D or more, especially if spherical lenses give poor or variable vision.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "This is a guide. Some patients are happy with a spherical lens and 0.75 D of cyl; others notice 0.50 D. Judge by vision and patient needs, and consider the cyl-to-sphere ratio."
+        },
+        {
+          "text": "Prism ballast: the lens is thicker at the bottom, so gravity and lid pressure keep it base down. Simple and robust, but the extra thickness lowers oxygen and can be felt.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Dynamic (thin-zone) stabilisation: thinner zones at top and bottom let the lids squeeze the lens into place. No prism, but it relies on normal lid position and blinking.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Acuvue: Blink Stabilized Design, with four stabilisation zones that use lid pressure; same design across Acuvue torics.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Alcon: Precision Balance 8|4 (Air Optix plus HydraGlyde for Astigmatism, Dailies Total1 for Astigmatism, Precision1 for Astigmatism), a ballast-based design with added thickness around 8 and 4 o'clock.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "CooperVision: Optimized Toric Lens Geometry (Biofinity toric, MyDay toric and others), a ballast band with a uniform thickness across the horizontal meridian.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Bausch + Lomb: OpticAlign (ULTRA for Astigmatism), a low-torque, ballast-style design; Biotrue ONEday for Astigmatism uses a peri-ballast design.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Design names are marketing terms and may change. The mechanism (prism, peri-ballast or thin-zone) matters more than the name."
+        },
+        {
+          "text": "LARS: if the lens rotates to the Left (from your view), Add the rotation to the axis; if it rotates Right, Subtract it.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "why": "The lens's cylinder sits rotated by the same amount the lens has turned. Adjusting the ordered axis by that amount puts the cylinder back where the eye needs it."
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Applying LARS from the patient's point of view. It's from the practitioner's view.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Changing the axis for a lens that rotates unstably. Correct only stable, consistent rotation; if it swings, change design.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Forgetting vertex correction on both meridians for higher powers.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Judging rotation",
+          "body": "Use the lens's markings (lines or dots, usually at 6 o'clock or 3 and 9 o'clock). Measure rotation with a narrow, rotatable slit beam or a graticule, after the lens has settled for at least 10 to 20 minutes. Check stability over several blinks and with eye movements. Record direction and amount.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "Worked example",
+          "body": "Spectacle Rx −2.00 / −1.50 × 180. The trial lens settles 10° to the left (from your view) and is stable. By LARS add 10°: order axis 10.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "LARS",
+          "back": "Left Add, Right Subtract (from the practitioner's view)."
+        },
+        {
+          "front": "How does prism ballast stabilise a lens?",
+          "back": "A thicker base sits down under gravity and lid action."
+        },
+        {
+          "front": "Acuvue toric design",
+          "back": "Blink Stabilized Design."
+        },
+        {
+          "front": "Alcon toric design",
+          "back": "Precision Balance 8|4."
+        },
+        {
+          "front": "When not to compensate for rotation",
+          "back": "When the rotation is unstable or variable."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-toric-1",
+          "q": "A toric trial lens settles 15° to the right (from your view) and is stable. Spectacle Rx −3.00 / −1.25 × 90. What axis do you order?",
+          "options": [
+            {
+              "text": "75",
+              "correct": true,
+              "feedback": "Yes: right subtract, 90 − 15."
+            },
+            {
+              "text": "105",
+              "correct": false,
+              "feedback": "That's adding."
+            },
+            {
+              "text": "90",
+              "correct": false,
+              "feedback": "Ignores rotation."
+            },
+            {
+              "text": "165",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "LARS: right rotation, subtract."
+        },
+        {
+          "id": "cls-toric-2",
+          "q": "A toric lens settles 10° to the left (your view), stable. Spectacle axis 170. What axis do you order?",
+          "options": [
+            {
+              "text": "180",
+              "correct": true,
+              "feedback": "Yes: left add, 170 + 10."
+            },
+            {
+              "text": "160",
+              "correct": false,
+              "feedback": "That's subtracting."
+            },
+            {
+              "text": "10",
+              "correct": false,
+              "feedback": "Check the arithmetic."
+            },
+            {
+              "text": "170",
+              "correct": false,
+              "feedback": "Ignores rotation."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "LARS: left add."
+        },
+        {
+          "id": "cls-toric-3",
+          "q": "A toric lens rocks 20° either side with each blink. What should you do?",
+          "options": [
+            {
+              "text": "Try a different stabilisation design or lens",
+              "correct": true,
+              "feedback": "Yes: don't compensate for unstable rotation."
+            },
+            {
+              "text": "Order the axis 20° different to compensate",
+              "correct": false,
+              "feedback": "Not for unstable rotation."
+            },
+            {
+              "text": "Accept it, as all torics rock a little",
+              "correct": false,
+              "feedback": "Vision will fluctuate."
+            },
+            {
+              "text": "Increase the cylinder power by one step",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Only compensate for stable rotation."
+        },
+        {
+          "id": "cls-toric-4",
+          "q": "A patient with a low, tight lower lid has poor toric stability with a thin-zone design. Why might a prism-ballast design help?",
+          "options": [
+            {
+              "text": "It relies less on lid action to stay in place",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It lets more oxygen through to the cornea",
+              "correct": false,
+              "feedback": "Less, if anything."
+            },
+            {
+              "text": "It has no orientation markings to confuse",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It's always the cheaper design to order",
+              "correct": false,
+              "feedback": "Not the point."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Thin-zone designs rely on normal lid pressure; ballast designs use gravity as well."
+        },
+        {
+          "id": "cls-toric-5",
+          "q": "Which statement about prism-ballast torics is wrong?",
+          "options": [
+            {
+              "text": "They are thinner inferiorly",
+              "correct": true,
+              "feedback": "Yes, that's wrong: they're thicker at the base."
+            },
+            {
+              "text": "They can reduce oxygen inferiorly",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "They can cause a vertical prism difference if worn in one eye only",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "They use gravity and lid action",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Prism ballast adds thickness at the base."
+        },
+        {
+          "id": "cls-toric-6",
+          "q": "A −0.75 / −0.50 × 180 patient sees well with spherical lenses and is happy. What should you do?",
+          "options": [
+            {
+              "text": "Keep the spherical lenses",
+              "correct": true,
+              "feedback": "Yes: no need for a toric."
+            },
+            {
+              "text": "Switch to a toric anyway",
+              "correct": false,
+              "feedback": "No clinical need."
+            },
+            {
+              "text": "Refuse to fit",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Use a rigid lens",
+              "correct": false,
+              "feedback": "Not needed."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Fit toric when vision or needs justify it."
+        },
+        {
+          "id": "cls-toric-7",
+          "q": "Which brand uses Optimized Toric Lens Geometry?",
+          "options": [
+            {
+              "text": "CooperVision (e.g. Biofinity toric)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Alcon (e.g. Air Optix for Astigmatism)",
+              "correct": false,
+              "feedback": "Precision Balance 8|4."
+            },
+            {
+              "text": "Johnson & Johnson (e.g. Acuvue Oasys)",
+              "correct": false,
+              "feedback": "Blink Stabilized Design."
+            },
+            {
+              "text": "Bausch + Lomb (e.g. Ultra for Astigmatism)",
+              "correct": false,
+              "feedback": "OpticAlign."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "CooperVision's toric design is Optimized Toric Lens Geometry."
+        },
+        {
+          "id": "cls-toric-8",
+          "q": "When should you assess toric lens rotation?",
+          "options": [
+            {
+              "text": "After the lens has settled, at least 10 to 20 minutes",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Immediately after the lens is inserted",
+              "correct": false,
+              "feedback": "Not settled."
+            },
+            {
+              "text": "Only at the first aftercare visit",
+              "correct": false,
+              "feedback": "Too late."
+            },
+            {
+              "text": "Never: trust the markings on the label",
+              "correct": false,
+              "feedback": "Always check."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Let the lens settle before judging rotation."
+        },
+        {
+          "id": "cls-toric-9",
+          "q": "A patient with −6.00 / −2.50 × 180 needs a toric. Which step is easy to forget?",
+          "options": [
+            {
+              "text": "Vertex-correct each principal meridian",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Measure the PD",
+              "correct": false,
+              "feedback": "Not needed for CLs."
+            },
+            {
+              "text": "Check the frame fit",
+              "correct": false,
+              "feedback": "Not for CLs."
+            },
+            {
+              "text": "Use LARS from the patient's view",
+              "correct": false,
+              "feedback": "Wrong view."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Vertex-correct both meridians, then convert back to sph/cyl."
+        },
+        {
+          "id": "cls-toric-10",
+          "q": "A toric lens marking sits at 6 o'clock, stable. What do you order?",
+          "options": [
+            {
+              "text": "The vertex-corrected spectacle axis, unchanged",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The spectacle axis with 10° added",
+              "correct": false,
+              "feedback": "Not needed."
+            },
+            {
+              "text": "The spectacle axis with 10° subtracted",
+              "correct": false,
+              "feedback": "Not needed."
+            },
+            {
+              "text": "A different stabilisation design",
+              "correct": false,
+              "feedback": "Not needed."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "No rotation, no compensation."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "Spectacle Rx R −4.50 / −1.75 × 20. A toric trial lens settles 10° to the right (your view) and is stable.",
+          "question": "Work out the lens to order.",
+          "modelAnswer": "Vertex-correct each meridian (12 mm): −4.50 → about −4.25; −6.25 → about −5.75. So about −4.25 / −1.50. LARS: right subtract, axis 20 − 10 = 10. Order −4.25 / −1.50 × 10 (nearest available), then check over-refraction and rotation at collection."
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "Acuvue UK",
+          "url": "https://www.acuvue.com/en-gb/"
+        },
+        {
+          "label": "CooperVision UK",
+          "url": "https://www.coopervision.co.uk/"
+        }
+      ],
+      "askClaude": "Explain toric soft lenses: stabilisation designs and brands to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-presbyopia",
+      "title": "Contact lenses for presbyopia: multifocals and monovision",
+      "summary": "Most presbyopic contact lens wearers can be fitted with soft multifocals or monovision. Each brand has its own optical design and fitting guide. Success depends more on following the guide and setting expectations than on the brand.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Simultaneous-vision multifocals put distance and near zones in front of the pupil at the same time; the brain learns to attend to the clear image. Expect some loss of contrast and possible night haloes.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "why": "Light from distance and near zones both reach the retina, so each image is overlaid with a blurred one. That lowers contrast, especially in dim light when the pupil enlarges."
+        },
+        {
+          "text": "Centre-near aspheric designs (for example Air Optix plus HydraGlyde Multifocal and Dailies Total1 Multifocal with 'Precision Profile') put near power in the centre, decreasing towards the edge.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Biofinity Multifocal (Balanced Progressive Technology) comes in D (centre-distance) and N (centre-near) lenses, often with a D lens on the dominant eye at higher adds.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Acuvue Oasys Multifocal (Pupil Optimized Design) varies the optics with the patient's Rx and add to match typical pupil sizes. MyDay Multifocal uses a Binocular Progressive System with different designs for each add.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Monovision: one eye (usually the dominant one) is corrected for distance and the other for near. Simple and cheap, but reduces stereopsis and may not suit drivers at night or patients with high adds.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Ocular dominance tests don't always agree, and some patients prefer the non-dominant eye for distance. Trial both if in doubt."
+        },
+        {
+          "text": "Modified monovision: a multifocal in one eye and a single-vision lens in the other, or multifocals with different designs, to boost one distance.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Follow the manufacturer's fitting guide: start from the right add and design, let lenses settle (about 10 to 15 minutes), assess binocularly in real-life lighting, and adjust in ±0.25 D steps before changing design.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Assessing multifocal vision monocularly in a dark room. Assess binocularly in normal lighting with real tasks.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Giving the full reading add from the spectacle Rx. Fitting guides often start with a lower add.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Forgetting to warn about driving at night with monovision or multifocals.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Setting expectations",
+          "body": "Explain that multifocals are a compromise: most people get good vision for most tasks, but not perfect vision at every distance. Agree the priority tasks first (driving, computer, phone). Give a trial of at least a week before judging.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "Troubleshooting",
+          "body": "Distance poor: add −0.25 D to the dominant eye's distance power, or switch that eye to a D or lower-add design. Near poor: add +0.25 D to the non-dominant eye, or raise the add in that eye. Both poor: check fit, centration, the tear film and the Rx, and reconsider expectations.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Main optical trade-off of simultaneous-vision multifocals",
+          "back": "Reduced contrast and possible haloes, worse in dim light."
+        },
+        {
+          "front": "Biofinity Multifocal lens types",
+          "back": "D (centre-distance) and N (centre-near)."
+        },
+        {
+          "front": "Monovision: usual distance eye",
+          "back": "The dominant eye."
+        },
+        {
+          "front": "Settling time before assessing a multifocal",
+          "back": "About 10 to 15 minutes."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-presbyopia-1",
+          "q": "A 55-year-old multifocal wearer can read well but finds distance blurry. Following a typical fitting guide, what's the first step?",
+          "options": [
+            {
+              "text": "Add −0.25 D to the dominant eye's distance power",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Raise the add power in both eyes",
+              "correct": false,
+              "feedback": "Worsens distance."
+            },
+            {
+              "text": "Abandon multifocals for monovision",
+              "correct": false,
+              "feedback": "Too soon."
+            },
+            {
+              "text": "Add +0.25 D to the distance power in both eyes",
+              "correct": false,
+              "feedback": "Worsens distance."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Adjust in small steps before changing design."
+        },
+        {
+          "id": "cls-presbyopia-2",
+          "q": "A taxi driver who drives mostly at night asks about monovision. What's the main concern?",
+          "options": [
+            {
+              "text": "Reduced stereopsis and contrast at night, affecting driving",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's illegal for anyone who drives for a living",
+              "correct": false,
+              "feedback": "It isn't, if they meet the standard."
+            },
+            {
+              "text": "It raises the risk of contact lens infection",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It's always rejected by patients over fifty",
+              "correct": false,
+              "feedback": "Many adapt."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Discuss driving and night vision before fitting monovision."
+        },
+        {
+          "id": "cls-presbyopia-3",
+          "q": "A patient tries multifocals for 10 minutes and says distance is 'not as crisp' as in glasses. What's the most appropriate response?",
+          "options": [
+            {
+              "text": "Explain the compromise and give a real-world trial of about a week",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Abandon multifocals and refit single vision at once",
+              "correct": false,
+              "feedback": "Too soon."
+            },
+            {
+              "text": "Give the full spectacle add in both eyes",
+              "correct": false,
+              "feedback": "Worsens distance."
+            },
+            {
+              "text": "Refit with rigid gas-permeable lenses instead",
+              "correct": false,
+              "feedback": "Not first."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Set expectations and allow adaptation."
+        },
+        {
+          "id": "cls-presbyopia-4",
+          "q": "Which statement about simultaneous-vision multifocals is wrong?",
+          "options": [
+            {
+              "text": "Vision is best in dim light, when the pupil is large",
+              "correct": true,
+              "feedback": "Yes, that's wrong: contrast often drops in dim light."
+            },
+            {
+              "text": "Both distance and near images reach the retina at once",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Haloes at night can occur",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Fitting guides start with specific adds",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Larger pupils in dim light often reduce performance."
+        },
+        {
+          "id": "cls-presbyopia-5",
+          "q": "A practitioner judges a multifocal fit monocularly in a darkened room and finds both distances poor. What's wrong with the method?",
+          "options": [
+            {
+              "text": "Multifocals should be judged binocularly, in normal light, on real tasks",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing: that is the standard way to assess them",
+              "correct": false,
+              "feedback": "The method is wrong."
+            },
+            {
+              "text": "They should have used cycloplegia before testing",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "They should have checked stereopsis and nothing else",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Assess binocularly in normal lighting."
+        },
+        {
+          "id": "cls-presbyopia-6",
+          "q": "Which design is centre-near aspheric?",
+          "options": [
+            {
+              "text": "Air Optix plus HydraGlyde Multifocal",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Biofinity Multifocal D lens",
+              "correct": false,
+              "feedback": "Centre-distance."
+            },
+            {
+              "text": "A single-vision toric lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A prism-ballast toric lens",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Alcon's Precision Profile is centre-near aspheric."
+        },
+        {
+          "id": "cls-presbyopia-7",
+          "q": "A monovision wearer complains of poor depth judgement playing tennis. What could help?",
+          "options": [
+            {
+              "text": "Modified monovision, multifocals or a sports pair",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A stronger near lens in the reading eye",
+              "correct": false,
+              "feedback": "Worse."
+            },
+            {
+              "text": "A near lens in both eyes for sport",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing: it settles with adaptation",
+              "correct": false,
+              "feedback": "Options exist."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Monovision reduces stereopsis; adapt the approach to the task."
+        },
+        {
+          "id": "cls-presbyopia-8",
+          "q": "A presbyope has +2.50 D adds in spectacles. What does a typical fitting guide do with the contact lens add?",
+          "options": [
+            {
+              "text": "Often starts lower, following the guide's own add steps",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Always matches the +2.50 D spectacle add",
+              "correct": false,
+              "feedback": "Not necessarily."
+            },
+            {
+              "text": "Uses +3.50 D to allow for the vertex distance",
+              "correct": false,
+              "feedback": "Too high."
+            },
+            {
+              "text": "Ignores the add and corrects distance only",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Follow the manufacturer's fitting guide."
+        },
+        {
+          "id": "cls-presbyopia-9",
+          "q": "A patient's multifocal lenses decentre noticeably. What effect might this have?",
+          "options": [
+            {
+              "text": "Variable vision, because the optical zones are off the pupil",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Better near vision, as the add moves down",
+              "correct": false,
+              "feedback": "Not reliably."
+            },
+            {
+              "text": "Better contrast, as less light is scattered",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No effect, as the design is symmetrical",
+              "correct": false,
+              "feedback": "It matters."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Multifocals depend on good centration."
+        },
+        {
+          "id": "cls-presbyopia-10",
+          "q": "Which statement about monovision is wrong?",
+          "options": [
+            {
+              "text": "It improves stereopsis",
+              "correct": true,
+              "feedback": "Yes, that's wrong: it reduces it."
+            },
+            {
+              "text": "It's simple and cheap",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "The dominant eye usually takes distance",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It can be combined with multifocals",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Monovision reduces stereopsis."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 50-year-old accountant has worn monthly spherical lenses for 20 years. She now struggles to read her phone and doesn't want reading glasses over her lenses. She drives, mainly in daylight.",
+          "question": "How would you manage her?",
+          "modelAnswer": "Discuss options: multifocal soft lenses, monovision or modified monovision, or readers over lenses. Ask about key tasks (computer, phone, driving). Fit a multifocal in her current material if available, following the fitting guide (dominance, starting add, settling time, binocular assessment in normal light). Set expectations, warn about night driving, and give a week's trial before adjusting in ±0.25 D steps."
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "Alcon professional site",
+          "url": "https://www.alcon.com/"
+        },
+        {
+          "label": "CooperVision UK",
+          "url": "https://www.coopervision.co.uk/"
+        }
+      ],
+      "askClaude": "Explain contact lenses for presbyopia: multifocals and monovision to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-myopia-control",
+      "title": "Myopia control with contact lenses",
+      "summary": "Some contact lenses are designed to slow myopia progression in children, not just correct it. The main options are daily dual-focus soft lenses (MiSight 1 day) and orthokeratology. Know the evidence, the patients who suit them, and how to talk to parents.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "MiSight 1 day (omafilcon A, CooperVision) has a central distance zone with concentric +2.00 D treatment zones (ActivControl) that create myopic defocus on the peripheral retina.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "In the 3-year MiSight trial, children aged 8 to 12 at the start had about 59% less progression in refraction and 52% less axial elongation than with single-vision lenses.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "These are average results from one manufacturer-funded trial in a selected group. Individual children vary; some still progress. Present the evidence as a likely reduction, not a guarantee."
+        },
+        {
+          "text": "Orthokeratology (ortho-k) uses reverse-geometry rigid lenses worn overnight to flatten the central cornea, so the child can see without lenses by day. It also slows axial growth, on average by around 40 to 50% in studies. Menicon Bloom Night is one UK option for myopia management.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "why": "Ortho-k flattens the centre and steepens the mid-periphery of the cornea, which shifts peripheral images towards myopic defocus, a signal thought to slow eye growth."
+        },
+        {
+          "text": "Overnight ortho-k carries a small risk of microbial keratitis, including Acanthamoeba. Strict hygiene, no tap water, and regular aftercare are essential.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Other options: myopia control spectacle lenses (for example DIMS and HAL designs) and low-dose atropine drops. They can sometimes be combined.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Good candidates: younger children with progressing myopia, parents who are motivated and a child able to handle lenses (often from about 8 years). Measure axial length if possible to monitor.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Myopia management is about reducing the risk of high myopia and its complications later (myopic maculopathy, retinal detachment, glaucoma), not just sharper vision now.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Promising that a lens will stop myopia. It slows progression on average.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Monitoring only refraction. Axial length is a better measure of eye growth.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Talking to parents",
+          "body": "Explain what myopia is, why it progresses in childhood, the options (spectacles, myopia control lenses, ortho-k, atropine), the likely benefit and the risks, cost and commitment. Record the discussion and consent. Review at least every 6 months.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "Licensing and off-label use",
+          "body": "Some myopia control products are specifically licensed or CE-marked for this use; others are used off-label. Know which applies, explain it, and follow College guidance on managing myopia.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "MiSight treatment zone power",
+          "back": "+2.00 D concentric treatment zones."
+        },
+        {
+          "front": "MiSight 3-year reduction in refraction progression",
+          "back": "About 59% (52% in axial length)."
+        },
+        {
+          "front": "How ortho-k slows myopia (theory)",
+          "back": "Mid-peripheral steepening gives peripheral myopic defocus."
+        },
+        {
+          "front": "Best measure of myopia progression",
+          "back": "Axial length."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-myopia-control-1",
+          "q": "An 8-year-old's myopia has increased by 0.75 D in a year. Both parents are myopic. The family want to slow it. Which contact lens option has the strongest trial evidence in this age group?",
+          "options": [
+            {
+              "text": "MiSight 1 day",
+              "correct": true,
+              "feedback": "Yes: 3-year RCT data in 8–12-year-olds."
+            },
+            {
+              "text": "A standard single-vision daily",
+              "correct": false,
+              "feedback": "Corrects but doesn't slow."
+            },
+            {
+              "text": "A multifocal designed for presbyopia",
+              "correct": false,
+              "feedback": "Off-label."
+            },
+            {
+              "text": "A tinted cosmetic lens",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "MiSight has 3-year randomised trial data in children."
+        },
+        {
+          "id": "cls-myopia-control-2",
+          "q": "A parent asks if MiSight will stop their child's myopia. What's the most accurate answer?",
+          "options": [
+            {
+              "text": "It slows progression on average; it doesn't stop it, and children vary",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Yes: it stops myopia completely in most children",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "No: it has no measurable effect on progression",
+              "correct": false,
+              "feedback": "It does on average."
+            },
+            {
+              "text": "Only if it is worn overnight, like ortho-k",
+              "correct": false,
+              "feedback": "It's a daytime lens."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Present myopia control as reducing progression, not stopping it."
+        },
+        {
+          "id": "cls-myopia-control-3",
+          "q": "A 10-year-old ortho-k wearer rinses lenses with tap water. Which risk concerns you most?",
+          "options": [
+            {
+              "text": "Acanthamoeba keratitis",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Presbyopia",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Colour vision loss",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Never let water contact lenses or cases."
+        },
+        {
+          "id": "cls-myopia-control-4",
+          "q": "Which statement about orthokeratology is wrong?",
+          "options": [
+            {
+              "text": "It's worn during the day and removed at night",
+              "correct": true,
+              "feedback": "Yes, that's wrong: it's worn overnight."
+            },
+            {
+              "text": "It reshapes the cornea temporarily",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It can slow axial growth",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It carries a risk of microbial keratitis",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Ortho-k lenses are worn overnight."
+        },
+        {
+          "id": "cls-myopia-control-5",
+          "q": "A 7-year-old is progressing but can't yet manage lenses. Which alternative could you discuss?",
+          "options": [
+            {
+              "text": "Myopia control spectacle lenses or low-dose atropine",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "No treatment is possible until they can wear lenses",
+              "correct": false,
+              "feedback": "Options exist."
+            },
+            {
+              "text": "Monovision spectacles to relax accommodation",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Waiting until 16, when myopia has stabilised",
+              "correct": false,
+              "feedback": "Progression happens now."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Spectacle lenses and atropine are alternatives."
+        },
+        {
+          "id": "cls-myopia-control-6",
+          "q": "How should you monitor a child in myopia control?",
+          "options": [
+            {
+              "text": "Axial length and refraction, at least every 6 months",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Visual acuity only, once a year",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Refraction every five years",
+              "correct": false,
+              "feedback": "Too long."
+            },
+            {
+              "text": "Only when the child complains of blur",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Axial length is the best measure of progression."
+        },
+        {
+          "id": "cls-myopia-control-7",
+          "q": "Why is slowing myopia worthwhile even by 1 D?",
+          "options": [
+            {
+              "text": "Each dioptre raises the lifetime risk of myopic maculopathy and other complications",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It removes the need for any spectacles or lenses in adult life",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "It improves colour vision and contrast sensitivity in childhood",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It doesn't matter clinically, but parents like to see a number",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Lower final myopia lowers complication risk."
+        },
+        {
+          "id": "cls-myopia-control-8",
+          "q": "How does MiSight create its treatment effect?",
+          "options": [
+            {
+              "text": "Concentric +2.00 D zones put myopic defocus on the retina",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It flattens the central cornea overnight",
+              "correct": false,
+              "feedback": "That's ortho-k."
+            },
+            {
+              "text": "It filters blue light from digital screens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "It releases low-dose atropine into the tears",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Dual-focus optics give peripheral myopic defocus."
+        },
+        {
+          "id": "cls-myopia-control-9",
+          "q": "An ortho-k child has a central corneal staining and reduced vision one morning. What should you do?",
+          "options": [
+            {
+              "text": "Stop wear and examine promptly for infection",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Carry on and review in 6 months",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "Increase wearing time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Swap to tap-water rinsing",
+              "correct": false,
+              "feedback": "Never."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Treat possible keratitis seriously in overnight wear."
+        },
+        {
+          "id": "cls-myopia-control-10",
+          "q": "Which child is the best candidate for myopia control lenses?",
+          "options": [
+            {
+              "text": "A motivated 9-year-old who has progressed 0.75 D in a year",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A 17-year-old whose prescription has been stable for years",
+              "correct": false,
+              "feedback": "Little progression left."
+            },
+            {
+              "text": "A 4-year-old who can't yet handle or tolerate lenses",
+              "correct": false,
+              "feedback": "Too young for lenses."
+            },
+            {
+              "text": "An adult presbyope with long-standing low myopia",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Younger progressing children benefit most."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "Parents of an 11-year-old with −2.50 D, progressing 0.50 D a year, ask about contact lenses that 'stop myopia'. The child plays football.",
+          "question": "Outline your discussion and plan.",
+          "modelAnswer": "Explain myopia progression and why control matters (risk of high myopia complications). Options: MiSight 1 day (daily wear, dual-focus, trial evidence), ortho-k (overnight, freedom by day, higher infection risk), myopia control spectacles, atropine. Explain likely benefit (reduction, not cure), costs, commitment and hygiene. If lenses chosen, check handling, measure axial length, and review every 6 months. Record consent."
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "MiSight 3-year trial (Chamberlain et al., 2019)",
+          "url": "https://doi.org/10.1097/OPX.0000000000001410"
+        },
+        {
+          "label": "Myopia Profile",
+          "url": "https://www.myopiaprofile.com/"
+        },
+        {
+          "label": "MiSight UK",
+          "url": "https://www.misight.co.uk/"
+        }
+      ],
+      "askClaude": "Explain myopia control with contact lenses to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-specialist-lenses",
+      "title": "Rigid, scleral and specialist lenses",
+      "summary": "Rigid and specialist lenses are fitted less often but solve problems soft lenses can't: irregular corneas, high astigmatism, severe ocular surface disease and cosmetic or therapeutic needs. Know the materials, the main designs and when to refer to a specialist fitter.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Modern rigid lenses are gas-permeable fluorosilicone acrylates, such as Boston XO (hexafocon A, Dk about 100) and Menicon Z (tisilfocon A, Dk about 163). Higher Dk materials suit overnight and thicker lenses; lower Dk materials are often stiffer and more stable.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Rigid lenses correct corneal astigmatism and irregularity because the tear lens fills the space under the lens, creating a new smooth front surface.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "why": "Tears have nearly the same refractive index as the cornea, so the back of a spherical rigid lens plus the tear layer optically replaces the irregular corneal front surface."
+        },
+        {
+          "text": "Keratoconus designs (for example Rose K2) use small optic zones and steeper back curves with flatter periphery to follow a cone. Variants exist for nipple cones, post-graft corneas and irregular corneas.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Scleral lenses vault the whole cornea and land on the conjunctiva over the sclera, with a reservoir of unpreserved saline. They suit irregular corneas, severe dry eye and exposure, and patients who can't tolerate corneal rigid lenses.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Hybrid lenses (a rigid centre with a soft skirt, such as SynergEyes designs) and soft lenses for irregular corneas (such as KeraSoft IC) are alternatives when comfort with rigid lenses is poor.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Bandage (therapeutic) lenses, usually high-Dk silicone hydrogels such as Air Optix Night & Day Aqua or Acuvue Oasys, protect the cornea after injury or surgery and relieve pain. They're used under close supervision.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Cosmetic and prosthetic lenses: coloured lenses (for example Air Optix Colors, 1-Day Acuvue Define) change or enhance eye colour; prosthetic lenses mask scarred or disfigured eyes or reduce glare in aniridia.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Fitting complex keratoconus or scleral lenses without the training and equipment. Refer to a specialist practitioner or hospital contact lens clinic.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Forgetting that rigid lenses don't correct lenticular astigmatism; residual astigmatism remains.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Scleral lens basics",
+          "body": "Fill the bowl with unpreserved saline and insert with the patient face-down to avoid bubbles. Check central and limbal clearance with an optic section or OCT, and conjunctival landing for blanching or impingement. Remove with a plunger. Midday fogging is common; remove, clean and refill.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "When to refer",
+          "body": "Progressive keratoconus (for corneal cross-linking assessment), post-graft or post-surgical corneas, failed fits, and therapeutic lens needs usually go to a hospital or specialist contact lens practice.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Why does a rigid lens correct corneal astigmatism?",
+          "back": "The tear lens fills the gap, giving a smooth new front surface."
+        },
+        {
+          "front": "Keratoconus rigid lens design example",
+          "back": "Rose K2 (small optic zone, multi-curve)."
+        },
+        {
+          "front": "What fills a scleral lens before insertion?",
+          "back": "Unpreserved saline."
+        },
+        {
+          "front": "Typical bandage lens material",
+          "back": "A high-Dk silicone hydrogel (e.g. lotrafilcon A, senofilcon A)."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-specialist-lenses-1",
+          "q": "A patient with keratoconus has 6/18 in glasses and 6/6 with a rigid lens. Why the difference?",
+          "options": [
+            {
+              "text": "The tear lens under the rigid lens smooths out the irregular cornea",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "The rigid lens is thicker, so it bends light more",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "The rigid lens magnifies the image more than glasses",
+              "correct": false,
+              "feedback": "Not the main reason."
+            },
+            {
+              "text": "Glasses can't correct the myopia in keratoconus",
+              "correct": false,
+              "feedback": "They can."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "The rigid lens and tear layer replace the irregular corneal surface."
+        },
+        {
+          "id": "cls-specialist-lenses-2",
+          "q": "A patient with severe dry eye from graft-versus-host disease can't tolerate soft lenses or eye drops alone. Which lens might help?",
+          "options": [
+            {
+              "text": "A scleral lens with a saline reservoir",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A high-water hydrogel daily lens",
+              "correct": false,
+              "feedback": "Would dehydrate."
+            },
+            {
+              "text": "A small PMMA corneal lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Monovision soft lenses",
+              "correct": false,
+              "feedback": "Irrelevant."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Sclerals keep the cornea bathed in fluid."
+        },
+        {
+          "id": "cls-specialist-lenses-3",
+          "q": "A keratoconus patient finds rigid lenses uncomfortable. Which alternatives could you discuss?",
+          "options": [
+            {
+              "text": "Hybrid lenses, soft lenses for irregular corneas, or sclerals",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Stopping all forms of optical correction",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Thicker spectacle lenses with more cylinder",
+              "correct": false,
+              "feedback": "Limited."
+            },
+            {
+              "text": "Daily disposable cosmetic tinted lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Several designs can improve comfort."
+        },
+        {
+          "id": "cls-specialist-lenses-4",
+          "q": "Which statement about scleral lenses is wrong?",
+          "options": [
+            {
+              "text": "They rest on the cornea",
+              "correct": true,
+              "feedback": "Yes, that's wrong: they vault the cornea and land on the conjunctiva over the sclera."
+            },
+            {
+              "text": "They hold a fluid reservoir",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "They're inserted filled with saline",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "They can help irregular corneas",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Sclerals clear the cornea entirely."
+        },
+        {
+          "id": "cls-specialist-lenses-5",
+          "q": "A patient has a large corneal abrasion after surgery and needs a bandage lens. Which is most suitable?",
+          "options": [
+            {
+              "text": "A high-Dk silicone hydrogel licensed for continuous wear",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A low-Dk hydrogel lens worn overnight",
+              "correct": false,
+              "feedback": "Too little oxygen."
+            },
+            {
+              "text": "A tinted cosmetic lens to hide the eye",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "A PMMA corneal lens for protection",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Bandage lenses need high oxygen transmissibility."
+        },
+        {
+          "id": "cls-specialist-lenses-6",
+          "q": "A patient with 2.50 D of corneal astigmatism and 0.50 D of lenticular astigmatism is fitted with a spherical rigid lens. What residual cylinder do you expect?",
+          "options": [
+            {
+              "text": "About 0.50 D",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "None at all",
+              "correct": false,
+              "feedback": "Lenticular astigmatism remains."
+            },
+            {
+              "text": "About 2.50 D",
+              "correct": false,
+              "feedback": "Corneal part is corrected."
+            },
+            {
+              "text": "About 3.00 D",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "A spherical rigid lens corrects corneal, not lenticular, astigmatism."
+        },
+        {
+          "id": "cls-specialist-lenses-7",
+          "q": "Which material is a high-Dk rigid gas-permeable material?",
+          "options": [
+            {
+              "text": "Menicon Z (tisilfocon A)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "PMMA (polymethyl methacrylate)",
+              "correct": false,
+              "feedback": "Dk about zero."
+            },
+            {
+              "text": "Etafilcon A (Acuvue 2)",
+              "correct": false,
+              "feedback": "A soft hydrogel."
+            },
+            {
+              "text": "Nelfilcon A (Dailies AquaComfort Plus)",
+              "correct": false,
+              "feedback": "A soft hydrogel."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Fluorosilicone acrylates have high Dk."
+        },
+        {
+          "id": "cls-specialist-lenses-8",
+          "q": "A young adult's keratoconus is getting worse over a year. What should you do as well as refitting lenses?",
+          "options": [
+            {
+              "text": "Refer for assessment for corneal cross-linking",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nothing more than refitting the lenses",
+              "correct": false,
+              "feedback": "Progression needs referral."
+            },
+            {
+              "text": "Advise rubbing the eyes when they itch",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Switch to spectacles and discharge them",
+              "correct": false,
+              "feedback": "Not the point."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Progressive keratoconus should be referred for cross-linking."
+        },
+        {
+          "id": "cls-specialist-lenses-9",
+          "q": "A patient wants coloured lenses for a party, bought from a market stall. What should you tell them?",
+          "options": [
+            {
+              "text": "Coloured lenses, even plano, must be supplied under professional supervision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "That's fine, as long as they are only worn for one evening",
+              "correct": false,
+              "feedback": "Unsafe and illegal in the UK."
+            },
+            {
+              "text": "Only lenses with a prescription need to be fitted properly",
+              "correct": false,
+              "feedback": "Plano lenses also do."
+            },
+            {
+              "text": "They are safe to share with friends if rinsed in between",
+              "correct": false,
+              "feedback": "Never."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Zero-powered cosmetic lenses are regulated in the UK."
+        },
+        {
+          "id": "cls-specialist-lenses-10",
+          "q": "A child with aniridia has severe glare. Which lens might help?",
+          "options": [
+            {
+              "text": "A prosthetic or tinted lens with an iris",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A clear daily disposable lens",
+              "correct": false,
+              "feedback": "No glare control."
+            },
+            {
+              "text": "A centre-near multifocal lens",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Monovision soft lenses",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Prosthetic lenses can reduce glare in aniridia."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A patient with advanced keratoconus can no longer keep a corneal rigid lens on the eye; it pops out and causes central staining.",
+          "question": "What lens options are there?",
+          "modelAnswer": "Options that vault or stabilise over an irregular cornea: a scleral or mini-scleral lens, which rests on the sclera and vaults the cornea completely over a fluid reservoir, giving good comfort, stability and vision; a hybrid lens with a rigid centre and soft skirt; or a piggyback system, with a rigid lens over a soft silicone hydrogel carrier. These are fitted in specialist or hospital contact lens clinics. If no lens gives adequate vision or tolerance, the patient is assessed for corneal surgery such as keratoplasty.",
+          "needsReview": true
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "Opticians Act 1989, section 27 (sale of contact lenses)",
+          "url": "https://www.legislation.gov.uk/ukpga/1989/44/section/27"
+        }
+      ],
+      "askClaude": "Explain rigid, scleral and specialist lenses to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-care-systems",
+      "title": "Care systems and solution brands",
+      "summary": "Reusable lenses are only as safe as the way they're cleaned and stored. Know the main types of care system, examples of each, and how to choose and explain one.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Multipurpose solutions (MPS) clean, rinse, disinfect and store in one bottle. Examples: Opti-Free PureMoist (Alcon), Biotrue MPS (Bausch + Lomb), Complete RevitaLens (J&J). Most work best with a rub and rinse step even if labelled 'no rub'.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Hydrogen peroxide systems (for example AOSept Plus with HydraGlyde or Clear Care) use 3% peroxide with a platinum disc or neutraliser. They're preservative-free once neutralised and suit patients sensitive to MPS.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Peroxide must be fully neutralised (usually at least 6 hours) before the lenses go in. Never put peroxide straight into the eye: it causes severe pain and epithelial damage.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Rigid lens systems: for example Boston Simplus (one bottle) or Menicon Unique pH. Some patients also need a periodic protein remover such as Menicon Progent.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Never use tap water or saliva on lenses or cases, and don't top up old solution. Water exposure is the main risk factor for Acanthamoeba keratitis.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Replace the lens case at least every month (or as the manufacturer says), rinse it with fresh solution and air-dry it face-down.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Some MPS–lens combinations caused more corneal staining in studies (solution-induced corneal staining), but its clinical meaning is debated.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "Solution-induced staining is not proven to raise infection risk. Use it as one reason to switch, alongside symptoms."
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Telling a patient to rinse lenses with tap water 'just this once'.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Recommending a 'no rub' regime without explaining that rubbing still improves cleaning.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Choosing a care system",
+          "body": "Daily disposables need none. For reusable lenses, start with a well-tested MPS. Consider peroxide for sensitivity, allergy or heavy deposits, as long as the patient will follow neutralisation steps. Check compatibility with the lens material and keep the regime simple enough to follow.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "heading": "Compliance",
+          "body": "Most wearers break at least one rule (overwearing lenses, topping up solution, sleeping in lenses, water exposure). Ask open questions at every aftercare, explain why each step matters, and give written instructions.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Main risk factor for Acanthamoeba keratitis",
+          "back": "Water exposure (tap water, swimming, showering in lenses)."
+        },
+        {
+          "front": "Minimum neutralisation time for most peroxide systems",
+          "back": "About 6 hours."
+        },
+        {
+          "front": "How often to replace the lens case",
+          "back": "At least monthly (or per the manufacturer)."
+        },
+        {
+          "front": "Example rigid lens protein remover",
+          "back": "Menicon Progent."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-care-systems-1",
+          "q": "A patient using AOSept Plus puts lenses in after 1 hour and has severe stinging. What happened?",
+          "options": [
+            {
+              "text": "The peroxide wasn't fully neutralised",
+              "correct": true,
+              "feedback": "Yes: usually at least 6 hours."
+            },
+            {
+              "text": "They're allergic to the lens",
+              "correct": false,
+              "feedback": "Unlikely."
+            },
+            {
+              "text": "The case is new",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal for peroxide",
+              "correct": false,
+              "feedback": "Not if neutralised."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Peroxide must neutralise fully before insertion."
+        },
+        {
+          "id": "cls-care-systems-2",
+          "q": "A monthly lens wearer with an MPS develops diffuse corneal staining and stinging. What change is reasonable?",
+          "options": [
+            {
+              "text": "Try a peroxide system or a different MPS, or switch to dailies",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rinse and store the lenses in tap water instead",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Stop cleaning the lenses and just soak them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Continue unchanged and review in a year",
+              "correct": false,
+              "feedback": "Symptoms need action."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Consider solution sensitivity."
+        },
+        {
+          "id": "cls-care-systems-3",
+          "q": "Which practice is wrong?",
+          "options": [
+            {
+              "text": "Topping up yesterday's solution in the case",
+              "correct": true,
+              "feedback": "Yes, that's wrong: always use fresh solution."
+            },
+            {
+              "text": "Rubbing and rinsing lenses",
+              "correct": false,
+              "feedback": "Good."
+            },
+            {
+              "text": "Replacing the case monthly",
+              "correct": false,
+              "feedback": "Good."
+            },
+            {
+              "text": "Air-drying the case face-down",
+              "correct": false,
+              "feedback": "Good."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Never top up old solution."
+        },
+        {
+          "id": "cls-care-systems-4",
+          "q": "A patient swims weekly in their lenses. What advice should you give?",
+          "options": [
+            {
+              "text": "Avoid swimming in lenses, or wear goggles and discard dailies afterwards",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "It's completely safe as long as the pool is chlorinated",
+              "correct": false,
+              "feedback": "Water exposure is a key risk."
+            },
+            {
+              "text": "Rinse the lenses in the pool water before leaving",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Sleep in the lenses afterwards to let them settle",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Water exposure raises Acanthamoeba risk."
+        },
+        {
+          "id": "cls-care-systems-5",
+          "q": "Which care system type is preservative-free once neutralised?",
+          "options": [
+            {
+              "text": "Hydrogen peroxide",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Multipurpose solution",
+              "correct": false,
+              "feedback": "Contains preservatives."
+            },
+            {
+              "text": "Saline with thiomersal",
+              "correct": false,
+              "feedback": "Contains preservative."
+            },
+            {
+              "text": "Tap water",
+              "correct": false,
+              "feedback": "Never."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Neutralised peroxide leaves no preservative."
+        },
+        {
+          "id": "cls-care-systems-6",
+          "q": "A rigid lens wearer has protein film despite daily cleaning. What might you add?",
+          "options": [
+            {
+              "text": "A periodic protein remover such as Menicon Progent",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A rinse with tap water after cleaning",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Nothing: protein film is harmless",
+              "correct": false,
+              "feedback": "Deposits need action."
+            },
+            {
+              "text": "A soft lens multipurpose solution",
+              "correct": false,
+              "feedback": "Not designed for this."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Intensive cleaners help with RGP deposits."
+        },
+        {
+          "id": "cls-care-systems-7",
+          "q": "Which patient most needs no care system at all?",
+          "options": [
+            {
+              "text": "An occasional wearer with allergy",
+              "correct": true,
+              "feedback": "Yes: daily disposables."
+            },
+            {
+              "text": "A full-time monthly wearer",
+              "correct": false,
+              "feedback": "Needs care."
+            },
+            {
+              "text": "A scleral wearer",
+              "correct": false,
+              "feedback": "Needs care."
+            },
+            {
+              "text": "An ortho-k wearer",
+              "correct": false,
+              "feedback": "Needs care."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Daily disposables need no care system."
+        },
+        {
+          "id": "cls-care-systems-8",
+          "q": "What's the best way to check compliance at aftercare?",
+          "options": [
+            {
+              "text": "Ask open questions and have the patient show you their routine",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Assume they comply unless there's a problem",
+              "correct": false,
+              "feedback": "Most don't fully."
+            },
+            {
+              "text": "Ask 'You follow the rules, don't you?'",
+              "correct": false,
+              "feedback": "Leading."
+            },
+            {
+              "text": "Skip it if the eyes look healthy on the slit lamp",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Most wearers break at least one rule."
+        },
+        {
+          "id": "cls-care-systems-9",
+          "q": "Which statement about 'no rub' MPS is accurate?",
+          "options": [
+            {
+              "text": "Rubbing still improves cleaning and is often recommended",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Rubbing damages modern lens surfaces",
+              "correct": false,
+              "feedback": "Not with proper technique."
+            },
+            {
+              "text": "No rinse or rub is needed with any solution",
+              "correct": false,
+              "feedback": "Not best practice."
+            },
+            {
+              "text": "No-rub solutions disinfect lenses instantly",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Rub and rinse improve cleaning even with 'no rub' products."
+        },
+        {
+          "id": "cls-care-systems-10",
+          "q": "A patient asks why they can't store lenses in saline. What's the reason?",
+          "options": [
+            {
+              "text": "Saline doesn't disinfect",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Saline damages lenses",
+              "correct": false,
+              "feedback": "It doesn't."
+            },
+            {
+              "text": "Saline is illegal",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Saline costs more",
+              "correct": false,
+              "feedback": "Not the point."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Saline only rinses and stores; it doesn't kill microbes."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A patient newly switched to a hydrogen peroxide system put a lens in after only about ten minutes of soaking. The eye is red, stinging and watering.",
+          "question": "What has happened and what advice do you give?",
+          "modelAnswer": "The peroxide had not been neutralised. One-step systems use a catalytic disc or tablet in a special case and need the full soaking time, usually at least six hours, to convert peroxide to water and oxygen. Un-neutralised peroxide causes a painful toxic keratoconjunctivitis that is usually self-limiting. Remove the lens, irrigate the eye, check the cornea with fluorescein, and give lubricants and review as needed. Re-teach the routine: always use the supplied case, never rinse lenses with peroxide before insertion, never swap cases, and wait the full time.",
+          "needsReview": true
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        }
+      ],
+      "askClaude": "Explain care systems and solution brands to me step by step, then quiz me on it."
+    },
+    {
+      "id": "cls-choosing-lens",
+      "title": "Choosing the right lens for the patient",
+      "summary": "Picking a lens is a clinical decision, not a sales one. Start with the patient's eyes, prescription, lifestyle and budget, then work through modality, material, design and brand. This topic pulls the rest of the section together with common patient scenarios.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "CLS",
+        "needsReview": true
+      },
+      "keyPoints": [
+        {
+          "text": "Work in order: is the patient suitable? What's the Rx (sphere, cyl, add)? How will they wear lenses (hours, days a week, overnight, sport)? What does the anterior eye show (tear film, lids, allergy, deposits)? What can they afford? Then choose modality, material, design and brand.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Dry or uncomfortable wearers: improve the tear film and lids first, then consider a daily silicone hydrogel with a strong wetting approach, shorter wearing time, and compatible preservative-free drops.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Allergy and papillary conjunctivitis: daily disposables, to avoid deposits and preservatives.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Occasional wearers and sport: daily disposables; soft lenses are more stable than rigid lenses for contact sports.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "High prescriptions: check the parameter range early. High plus and high minus need high Dk/t (silicone hydrogels); very high or irregular astigmatism may need rigid or specialist lenses.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Overnight wear raises the risk of microbial keratitis several times over, whatever the material. Use only lenses licensed for it, and only after discussing the risk.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "In the UK, contact lenses (including zero-powered cosmetic lenses) may only be sold by, or under the supervision of, a registered practitioner, or against a valid specification. Fitting is limited to optometrists, contact lens opticians and doctors.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Give the patient a written specification after fitting, with an expiry date, and arrange aftercare. Explain the signs that mean they should remove lenses and seek help: Red eye, Pain, Blurred vision or light sensitivity.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "examTraps": [
+        {
+          "text": "Choosing the brand first and the patient second.",
+          "priority": "clinical",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Fitting overnight wear without discussing the higher infection risk and recording consent.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        },
+        {
+          "text": "Handing out lenses without written care instructions and an aftercare plan.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "goDeeper": [
+        {
+          "heading": "Quick guide by patient",
+          "body": "Occasional or sport wearer: hydrogel or silicone hydrogel daily. Full-time, long hours: silicone hydrogel daily or reusable. Dry eye: tear film first, then premium silicone hydrogel daily. Allergy: daily. Astigmatism ≥ about 0.75 D: toric. Presbyopia: multifocal or monovision. Progressing child myope: myopia control. Irregular cornea: rigid, hybrid or scleral. Overnight: licensed high-Dk lens, informed consent.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true,
+          "limits": "These are starting points, not rules. Two patients with the same profile can do best in different lenses."
+        },
+        {
+          "heading": "Aftercare checklist",
+          "body": "Ask about wearing time, comfort, vision, care routine and compliance. Check VA and over-refraction, lens fit and surface, then remove and examine the cornea with fluorescein, the lids (evert), limbus and tear film. Record findings with a grading scale and plan the next step.",
+          "priority": "exam-core",
+          "module": "CLS",
+          "needsReview": true
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Order of decisions when choosing a lens",
+          "back": "Suitability → Rx → wearing pattern → anterior eye → budget → modality, material, design, brand."
+        },
+        {
+          "front": "Warning signs a wearer should act on",
+          "back": "Red eye, pain, blurred vision or light sensitivity: remove lenses and seek help."
+        },
+        {
+          "front": "Who can fit contact lenses in the UK",
+          "back": "Optometrists, contact lens opticians (DOs with the specialty) and doctors."
+        },
+        {
+          "front": "Best modality for allergy",
+          "back": "Daily disposables."
+        }
+      ],
+      "mcq": [
+        {
+          "id": "cls-choosing-lens-1",
+          "q": "A 30-year-old with seasonal allergic conjunctivitis wants lenses all year. Which modality fits best?",
+          "options": [
+            {
+              "text": "Daily disposable",
+              "correct": true,
+              "feedback": "Yes: no deposits or care-solution preservatives."
+            },
+            {
+              "text": "Monthly hydrogel with MPS",
+              "correct": false,
+              "feedback": "Deposits and preservatives."
+            },
+            {
+              "text": "Extended wear",
+              "correct": false,
+              "feedback": "Not helpful."
+            },
+            {
+              "text": "Rigid lenses",
+              "correct": false,
+              "feedback": "Not first choice."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Daily disposables suit allergy."
+        },
+        {
+          "id": "cls-choosing-lens-2",
+          "q": "A rugby player wants lenses for matches. Which is the best option?",
+          "options": [
+            {
+              "text": "Soft daily disposables",
+              "correct": true,
+              "feedback": "Yes: stable and replaceable."
+            },
+            {
+              "text": "Rigid corneal lenses",
+              "correct": false,
+              "feedback": "Can dislodge."
+            },
+            {
+              "text": "Scleral lenses",
+              "correct": false,
+              "feedback": "Not for this."
+            },
+            {
+              "text": "Monthly lenses kept in a pocket",
+              "correct": false,
+              "feedback": "Unhygienic."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Soft dailies suit contact sport."
+        },
+        {
+          "id": "cls-choosing-lens-3",
+          "q": "A full-time wearer wants to sleep in their lenses most nights. Which step is essential before agreeing?",
+          "options": [
+            {
+              "text": "Use a lens licensed for extended wear, and discuss and record the higher infection risk",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Fit any daily disposable lens and let them sleep in it as they wish",
+              "correct": false,
+              "feedback": "Not licensed for overnight."
+            },
+            {
+              "text": "No discussion is needed if the eyes look healthy at the fitting",
+              "correct": false,
+              "feedback": "Consent matters."
+            },
+            {
+              "text": "Use a conventional hydrogel, as it is more comfortable overnight",
+              "correct": false,
+              "feedback": "Too little oxygen."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Overnight wear needs a licensed lens and informed consent."
+        },
+        {
+          "id": "cls-choosing-lens-4",
+          "q": "A patient wants to buy lenses online without an up-to-date specification. What's the position in the UK?",
+          "options": [
+            {
+              "text": "Sellers must supply against a valid specification or under supervision",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Anyone can sell contact lenses without any checks",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Specifications never expire once they are issued",
+              "correct": false,
+              "feedback": "They have expiry dates."
+            },
+            {
+              "text": "Online sales of contact lenses are banned outright",
+              "correct": false,
+              "feedback": "They're allowed with a valid spec."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "The Opticians Act restricts sale of contact lenses."
+        },
+        {
+          "id": "cls-choosing-lens-5",
+          "q": "A full-time lens wearer has red eyes, dry eye symptoms and meibomian gland dysfunction. What comes first?",
+          "options": [
+            {
+              "text": "Treat the lids and tear film",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Fit a higher-water hydrogel",
+              "correct": false,
+              "feedback": "Not first."
+            },
+            {
+              "text": "Increase wearing time",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Stop all treatment",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Manage the ocular surface before changing lenses."
+        },
+        {
+          "id": "cls-choosing-lens-6",
+          "q": "Which statement is wrong?",
+          "options": [
+            {
+              "text": "Silicone hydrogels remove the extra infection risk of overnight wear",
+              "correct": true,
+              "feedback": "Yes, that's wrong: the risk stays raised."
+            },
+            {
+              "text": "Overnight wear raises the risk of microbial keratitis",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Lenses for overnight use must be licensed for it",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "The discussion and consent should be recorded",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "High oxygen doesn't remove the infection risk of sleeping in lenses."
+        },
+        {
+          "id": "cls-choosing-lens-7",
+          "q": "A patient asks what to do if their eye becomes red and painful while wearing lenses. What should you say?",
+          "options": [
+            {
+              "text": "Remove lenses and seek urgent advice",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Keep wearing them",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Put the lens back after rinsing in tap water",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Wait a week",
+              "correct": false,
+              "feedback": "Too slow."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Red eye, pain and blurred vision are warning signs."
+        },
+        {
+          "id": "cls-choosing-lens-8",
+          "q": "A −1.25 / −1.75 × 180 patient wants occasional daily lenses. Which choice is best?",
+          "options": [
+            {
+              "text": "A toric daily disposable",
+              "correct": true,
+              "feedback": "Yes: significant cyl and occasional use."
+            },
+            {
+              "text": "A spherical monthly",
+              "correct": false,
+              "feedback": "Cyl uncorrected."
+            },
+            {
+              "text": "A rigid lens for occasional wear",
+              "correct": false,
+              "feedback": "Adaptation issues."
+            },
+            {
+              "text": "Monovision",
+              "correct": false,
+              "feedback": "Irrelevant."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Correct significant cyl and match the modality to the wearing pattern."
+        },
+        {
+          "id": "cls-choosing-lens-9",
+          "q": "Who can legally fit contact lenses in the UK?",
+          "options": [
+            {
+              "text": "Optometrists, contact lens opticians and doctors",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Any optical assistant trained in store",
+              "correct": false,
+              "feedback": "Not to fit."
+            },
+            {
+              "text": "Pharmacists who sell lens solutions",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Online retailers with a UK address",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Fitting is limited to registered practitioners with the right qualifications."
+        },
+        {
+          "id": "cls-choosing-lens-10",
+          "q": "What should a patient receive after a contact lens fit?",
+          "options": [
+            {
+              "text": "A written specification with an expiry date, care advice and an aftercare plan",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Only the lenses themselves and a receipt for the fitting fee",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "A copy of their spectacle prescription and nothing else",
+              "correct": false,
+              "feedback": "Different document."
+            },
+            {
+              "text": "Nothing in writing: verbal advice at the fitting is enough",
+              "correct": false,
+              "feedback": "Required."
+            }
+          ],
+          "needsReview": true,
+          "explanation": "Give a specification and clear instructions."
+        }
+      ],
+      "cases": [
+        {
+          "scenario": "A 22-year-old student wants lenses for nights out and the gym, about three times a week. Rx R −3.25 / −0.50 × 90, L −3.00 DS. Mild hay fever. Budget is tight.",
+          "question": "Recommend a lens and explain your choice.",
+          "modelAnswer": "Daily disposables suit part-time wear, allergy and hygiene. The 0.50 D cyl is small, so a spherical lens should give good vision. A hydrogel or lower-cost silicone hydrogel daily (for example clariti 1 day or a hydrogel daily) balances cost and health for a few days a week. Fit, check vision and fit after settling, teach handling and removal, and give a specification, written instructions and an aftercare date. Advise no water exposure, no sleeping in lenses, and to remove lenses if red, painful or blurred."
+        }
+      ],
+      "links": [
+        {
+          "label": "College of Optometrists: clinical guidance",
+          "url": "https://guidance.college-optometrists.org/"
+        },
+        {
+          "label": "Opticians Act 1989, section 27 (sale of contact lenses)",
+          "url": "https://www.legislation.gov.uk/ukpga/1989/44/section/27"
+        },
+        {
+          "label": "GOC",
+          "url": "https://optical.org/"
+        }
+      ],
+      "askClaude": "Explain choosing the right lens for the patient to me step by step, then quiz me on it."
+    }
+  ]
+}
