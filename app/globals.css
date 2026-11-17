@@ -173,7 +173,7 @@
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
-/* ── Print / "Save for GoodNotes" ───────────────────────────────────── */
+/* ── Print / "Save as PDF" ───────────────────────────────────── */
 @media print {
   @page { size: A4 portrait; margin: 16mm 16mm 18mm 16mm; }
   html, body { background: var(--fig-bg) !important; font-size: 11pt; }

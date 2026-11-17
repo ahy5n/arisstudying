@@ -21,7 +21,7 @@ export function DiagramFigure({ diagram, print = false }: { diagram: NonNullable
             </ul>
           </>
         )}
-        {!print && <p className="mt-4 text-[13px] text-muted">A nice one to draw yourself in GoodNotes.</p>}
+        {!print && <p className="mt-4 text-[13px] text-muted">A nice one to draw yourself.</p>}
       </figure>
     )
   }

@@ -39,7 +39,7 @@ export function NotesBox({ topicId }: { topicId: string }) {
     <div>
       <textarea
         className="field min-h-36 resize-y leading-relaxed"
-        placeholder="Quick typed notes — your main notes stay in GoodNotes."
+        placeholder="Quick typed notes on this topic."
         value={body}
         onChange={(e) => onChange(e.target.value)}
         aria-label="My notes"

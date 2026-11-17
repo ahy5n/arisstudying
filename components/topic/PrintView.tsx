@@ -35,9 +35,9 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
         <BackLink href={`/t/${t.id}`}>Back to the topic</BackLink>
         <div className="card mt-3 flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between">
           <div className="text-[15px] text-muted">
-            <p className="font-semibold text-ink">Save for GoodNotes</p>
+            <p className="font-semibold text-ink">Save as PDF</p>
             <p className="mt-1">
-              Tap the button, then in the print sheet tap <b>Share</b> (or pinch out on the preview) and choose <b>GoodNotes</b> or <b>Save to Files</b>.
+              Tap the button, then in the print sheet tap <b>Share</b> (or pinch out on the preview) and choose <b>Save to Files</b> or your notes app.
               On a Mac, choose “Save as PDF”.
             </p>
           </div>

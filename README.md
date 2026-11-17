@@ -7,7 +7,7 @@ All of v1, v2 and v3 from `BRIEF.md` are built.
 
 | | What's in it |
 |---|---|
-| **v1** | Username + password sign-in · home dashboard (greeting, encouragement, verse, next two weeks) · module library with progress rings · module pages (ticks, sessions, editable names) · full AaD topics (summary, key points, exam traps, SVG diagrams, go deeper, checklists, flashcards, multiple choice, clinical cases, label the diagram, notes, links) · mistakes deck (Leitner) · quick quiz and module quiz · Ask Claude · Flag this · Save for GoodNotes (A4 PDF) |
+| **v1** | Username + password sign-in · home dashboard (greeting, encouragement, verse, next two weeks) · module library with progress rings · module pages (ticks, sessions, editable names) · full AaD topics (summary, key points, exam traps, SVG diagrams, go deeper, checklists, flashcards, multiple choice, clinical cases, label the diagram, notes, links) · mistakes deck (Leitner) · quick quiz and module quiz · Ask Claude · Flag this · Save as PDF (A4) |
 | **v2** | 70% tracker (pre-filled from the timetable) · Settings (Claude project link, change password, sign out, your flags) · PWA (manifest + icons, Add to Home Screen) |
 | **v3** | Drop a new `data/content/*.json` file in and it just works. A content checker runs before every build. See [docs/ADDING-A-MODULE.md](docs/ADDING-A-MODULE.md). |
 | **Slides & materials** | `/slides`: every lecture deck, handout and worksheet by week and session (from `data/slides.json`), with slide-by-slide outlines for decks that have been added. Materials also appear under their sessions on module pages and as "From your lectures" on topic pages. The files themselves aren't hosted (they're the university's) — only outlines. |
@@ -84,11 +84,11 @@ Safari → open the site → **Share → Add to Home Screen**. It opens full scr
 
 - **Content** is read from `data/` at build time (no CMS). `data/` files are used exactly as supplied.
 - **Storage**: `lib/store/` has one interface with two backends: Supabase (when the env vars are set) and browser storage (when they aren't). Saves are optimistic and queued per row, so quick taps always land in order.
-- **Diagrams** are hand-built inline SVGs in `components/diagrams/Diagrams.tsx` (AaD) and `MoreDiagrams.tsx` (other modules), keyed by `diagram.id`. Unknown ids (and the focimeter, which is too complex to draw well) show a “Diagram to sketch” card with the description and labels instead. That card doubles as a GoodNotes prompt.
+- **Diagrams** are hand-built inline SVGs in `components/diagrams/Diagrams.tsx` (AaD) and `MoreDiagrams.tsx` (other modules), keyed by `diagram.id`. Unknown ids (and the focimeter, which is too complex to draw well) show a “Diagram to sketch” card with the description and labels instead. That card doubles as a prompt to draw it yourself.
 - **Mistakes deck**: wrong answer, “Again” or “Partly”/“Missed it” → box 1 (tomorrow). Right while due → next box (3 days, 7 days, 14 days) → retired. Wrong at any point → back to box 1. Right when not yet due doesn't skip boxes.
 - **Quick quiz**: 10 questions from all full modules; ones she's ever got wrong are 3× as likely, ones still in the deck 6×.
 - **70% tracker**: weighted average of marked, weighted, graded items; the “needed” figure is `(70 × total weight − points so far) ÷ remaining weight`. Pass/fail items are excluded. Until every upcoming item has a weighting it says “so far” rather than claiming a final result.
-- **PDF export**: “Save for GoodNotes” opens an A4 print view with a ~50 mm right margin for handwriting, a “Test yourself” section and the answers at the end.
+- **PDF export**: “Save as PDF” opens an A4 print view with a ~50 mm right margin for handwriting, a “Test yourself” section and the answers at the end.
 - **Dates** are always UK time (Europe/London), whatever the device clock says.
 
 ## Project layout

@@ -88,7 +88,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
     <div className="flex flex-wrap gap-2">
       <Link href={`/t/${t.id}/print`} className="btn btn-quiet">
         <DownloadIcon className="size-[18px]" />
-        Save for GoodNotes (PDF)
+        Save as PDF
       </Link>
       <AskClaudeButton text={t.askClaude} />
       <FlagButton topicId={t.id} />
@@ -325,7 +325,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
             <div className="flex flex-col gap-2 [&_.btn]:w-full [&_.btn]:justify-start">
               <Link href={`/t/${t.id}/print`} className="btn btn-quiet">
                 <DownloadIcon className="size-[18px]" />
-                Save for GoodNotes
+                Save as PDF
               </Link>
               <AskClaudeButton text={t.askClaude} />
               <FlagButton topicId={t.id} />
