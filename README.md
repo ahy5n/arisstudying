@@ -62,6 +62,8 @@ npx vercel
 
 In the Vercel project: **Settings → Environment Variables**, add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` (and the email-domain one if you changed it), then redeploy.
 
+**Explain it** (each topic page): Ari writes the topic in her own words and Claude marks it against the key points, then says what she missed and what to add next time. It needs `ANTHROPIC_API_KEY` (from console.anthropic.com → API keys) in the same Vercel settings, as a Secret. `MARK_MODEL` optionally changes the model (default `claude-opus-5-5`). Code: `app/api/mark/route.ts`, `components/topic/ExplainIt.tsx`.
+
 The build runs `scripts/fetch-verses.mjs` first. It fetches the exact Arabic and Sahih International English for the 16 verses from api.quran.com into `data/verses.resolved.json`. Until that has run with network access, the verse card shows the English fallback and hides the Arabic (on purpose, so it never shows wrong text). To fetch them locally:
 
 ```bash
