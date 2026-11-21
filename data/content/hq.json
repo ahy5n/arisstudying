@@ -390,7 +390,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Higher certificates, such as glaucoma or medical retina, qualify optometrists for extended roles in community schemes and hospital clinics.",
           "needsReview": true
         },
         {
@@ -472,7 +472,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "Community cataract follow-up is commissioned as an enhanced service, beyond the standard sight test.",
           "needsReview": true
         }
       ],
@@ -723,7 +723,7 @@
               "feedback": "Not typical early."
             }
           ],
-          "explanation": "",
+          "explanation": "Glaucoma damages nerve fibre bundles, which don't cross the horizontal raphe, so defects are arcuate or nasal steps respecting the horizontal.",
           "needsReview": true
         },
         {
@@ -805,7 +805,8 @@
               "feedback": "Healthy."
             }
           ],
-          "explanation": ""
+          "explanation": "A splinter haemorrhage at the disc margin is a sign of glaucoma, often next to a notch or thinning of the rim.",
+          "needsReview": true
         },
         {
           "id": "hq-glaucoma-x0105",
@@ -1237,7 +1238,7 @@
               "feedback": "R3."
             }
           ],
-          "explanation": "",
+          "explanation": "In English diabetic eye screening, R0 is none, R1 background, R2 pre-proliferative and R3 proliferative retinopathy.",
           "needsReview": true
         },
         {
@@ -1319,7 +1320,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "OCT gives cross-sectional images of the retina, showing intraretinal and subretinal fluid directly.",
+          "needsReview": true
         },
         {
           "id": "hq-medical-retina-x0105",
@@ -1346,7 +1348,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Geographic atrophy is the late stage of dry (non-neovascular) AMD; wet AMD involves choroidal neovascularisation.",
+          "needsReview": true
         },
         {
           "id": "hq-medical-retina-x0106",
@@ -1427,7 +1430,8 @@
               "feedback": "R0."
             }
           ],
-          "explanation": ""
+          "explanation": "R1 is background retinopathy: microaneurysms, dot and blot haemorrhages and exudates, without pre-proliferative features.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1733,7 +1737,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Optometrists trained for minor or urgent eye care services can remove superficial corneal foreign bodies within the service protocol.",
           "needsReview": true
         },
         {
@@ -1815,7 +1819,8 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": ""
+          "explanation": "Medicines are supplied under Patient Group Directions or, for independent prescribers, on their own prescription.",
+          "needsReview": true
         },
         {
           "id": "hq-acute-eye-care-x0106",
@@ -1896,7 +1901,8 @@
               "feedback": "Not acute."
             }
           ],
-          "explanation": ""
+          "explanation": "Red eye is one of the most common presentations in acute services, along with flashes and floaters and foreign bodies.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -2113,7 +2119,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Additional Supply lets optometrists supply some extra prescription-only medicines on a set list, such as certain anti-allergy and anti-infective drops.",
           "needsReview": true
         },
         {
@@ -2357,7 +2363,8 @@
               "feedback": "Both."
             }
           ],
-          "explanation": ""
+          "explanation": "Both Additional Supply and Supplementary Prescribing need GOC-approved training before they can be used.",
+          "needsReview": true
         },
         {
           "id": "hq-additional-supply-sp-x0107",
@@ -2384,7 +2391,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In supplementary prescribing, the clinical management plan is agreed between the independent (medical) prescriber, the supplementary prescriber and the patient.",
           "needsReview": true
         }
       ],

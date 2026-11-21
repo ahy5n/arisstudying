@@ -281,7 +281,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "With peripheral loss, central acuity is often kept, so reading may be fine, but obstacles and steps at the sides are missed.",
+          "needsReview": true
         },
         {
           "id": "lva-causes-impact-x0104",
@@ -362,7 +363,7 @@
               "feedback": "It's common."
             }
           ],
-          "explanation": "",
+          "explanation": "Charles Bonnet hallucinations are common with sight loss, but many patients won't mention them unless asked, for fear of seeming mentally ill. Reassurance helps.",
           "needsReview": true
         },
         {
@@ -390,7 +391,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "AMD is the leading cause of certifiable sight loss in older adults in the UK, alongside glaucoma and diabetic retinopathy.",
+          "needsReview": true
         },
         {
           "id": "lva-causes-impact-x0107",
@@ -655,7 +657,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Starting with what the patient most wants to do shapes every choice afterwards: which tests, which aids and which advice.",
+          "needsReview": true
         },
         {
           "id": "lva-assessment-x0102",
@@ -682,7 +685,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "At 6 m a low vision patient may read only one letter or none. Moving closer lets them read several lines, giving a measurable, more reliable score.",
           "needsReview": true
         },
         {
@@ -710,7 +713,8 @@
               "feedback": "Very large."
             }
           ],
-          "explanation": ""
+          "explanation": "Typical newspaper text is about N8. N5 is small print, and N24 and N48 are headline sizes.",
+          "needsReview": true
         },
         {
           "id": "lva-assessment-x0104",
@@ -791,7 +795,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With a central scotoma, patients learn to use a preferred retinal locus outside the damaged fovea: eccentric viewing.",
           "needsReview": true
         },
         {
@@ -819,7 +823,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "With reduced acuity, ±0.25 D makes no noticeable difference; larger steps give a change the patient can actually judge.",
           "needsReview": true
         },
         {
@@ -847,7 +851,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Amsler grid tests about the central 10–20°, showing distortion and scotomas in seconds.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1036,7 +1041,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Retinal image size is inversely proportional to viewing distance, so halving the distance doubles the image.",
+          "needsReview": true
         },
         {
           "id": "lva-magnification-x0102",
@@ -1063,7 +1069,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Magnification needed = current print size ÷ target print size = N12 ÷ N6 = 2×.",
+          "needsReview": true
         },
         {
           "id": "lva-magnification-x0103",
@@ -1090,7 +1097,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With a 25 cm reference, magnification = F ÷ 4, so F = 4 × 3 = +12 D.",
+          "needsReview": true
         },
         {
           "id": "lva-magnification-x0104",
@@ -1225,7 +1233,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Reading at threshold is slow and tiring. Extra magnification gives an acuity reserve, so reading is fluent and comfortable.",
           "needsReview": true
         },
         {
@@ -1470,7 +1478,8 @@
               "feedback": "Stand magnifiers suit."
             }
           ],
-          "explanation": ""
+          "explanation": "A stand magnifier rests on the page at a fixed distance, so a tremor doesn't move the image in and out of focus.",
+          "needsReview": true
         },
         {
           "id": "lva-aids-x0102",
@@ -1551,7 +1560,8 @@
               "feedback": "Galilean does."
             }
           ],
-          "explanation": ""
+          "explanation": "A Galilean telescope (plus objective, minus eyepiece) gives an upright image directly; a Keplerian one needs prisms to re-invert it.",
+          "needsReview": true
         },
         {
           "id": "lva-aids-x0104",
@@ -1578,7 +1588,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Aids are often abandoned when patients weren't shown how to use them for their own tasks, or weren't followed up.",
           "needsReview": true
         },
         {
@@ -1876,7 +1886,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Smaller pupils and less clear media mean an older eye receives much less retinal light, so it often needs about three times the light of a young eye.",
+          "needsReview": true
         },
         {
           "id": "lva-lighting-nonoptical-x0102",
@@ -1957,7 +1968,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A typoscope blocks the glare of white paper around the line being read, raising contrast and helping keep your place.",
           "needsReview": true
         },
         {
@@ -2093,7 +2104,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A symbol cane is short and white, to show others that the user has sight loss; it isn't used to detect obstacles.",
+          "needsReview": true
         },
         {
           "id": "lva-lighting-nonoptical-x0107",
@@ -2120,7 +2132,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Thick black lines on white paper raise contrast, which helps more than size when contrast sensitivity is reduced.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -2419,7 +2432,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Registration with the local council is voluntary; certification makes it possible but the patient chooses whether to register.",
+          "needsReview": true
         },
         {
           "id": "lva-certification-support-x0103",
@@ -2500,7 +2514,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Referral of Vision Impairment (RVI) or Letter of Vision Impairment (LVI) can get people support from social care before they're eligible for certification.",
           "needsReview": true
         },
         {
@@ -2582,7 +2596,7 @@
               "feedback": "There are."
             }
           ],
-          "explanation": "",
+          "explanation": "Certification forms and processes differ between England, Scotland, Wales and Northern Ireland, though they have the same aim.",
           "needsReview": true
         }
       ],

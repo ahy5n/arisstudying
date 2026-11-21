@@ -201,7 +201,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "logMAR = log₁₀ (MAR), and MAR for 6/12 is 12 ÷ 6 = 2, so log₁₀ 2 ≈ 0.30.",
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0092",
@@ -228,7 +229,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each logMAR line is 0.1 and has five letters, so each letter is worth 0.02.",
+          "needsReview": true
         },
         {
           "id": "vpe-acuity-contrast-x0093",
@@ -363,7 +365,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pelli-Robson letters are all the same size; contrast falls by 0.15 log units between each group of three letters.",
           "needsReview": true
         },
         {
@@ -445,7 +447,8 @@
               "feedback": "Much worse."
             }
           ],
-          "explanation": ""
+          "explanation": "On logMAR, 0.00 is 6/6 and lower numbers are better, so −0.10 (about 6/4.8) beats 6/6.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -637,7 +640,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Red-green defects are X-linked, so they're far more common in males (about 8%) than in females (about 0.5%).",
+          "needsReview": true
         },
         {
           "id": "vpe-colour-vision-x0092",
@@ -718,7 +722,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ishihara plates are designed to screen for protan and deutan (red-green) defects; they don't test tritan (blue-yellow) defects.",
+          "needsReview": true
         },
         {
           "id": "vpe-colour-vision-x0094",
@@ -745,7 +750,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Acquired eye disease such as glaucoma, diabetic retinopathy or cataract often causes tritan (blue-yellow) loss first.",
+          "needsReview": true
         },
         {
           "id": "vpe-colour-vision-x0095",
@@ -826,7 +832,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cones work trichromatically, but later neurones code colour in opposing pairs (red-green, blue-yellow), as Hering's opponent theory describes.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1124,7 +1131,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rods are most sensitive to about 507 nm (blue-green), while photopic cone vision peaks at about 555 nm.",
+          "needsReview": true
         },
         {
           "id": "vpe-adaptation-x0094",
@@ -1205,7 +1213,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rod (scotopic) vision is very sensitive but has only one photopigment, so there's no colour, and heavy pooling gives poor acuity.",
           "needsReview": true
         },
         {
@@ -1233,7 +1241,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "As light falls, vision switches from cones (peak about 555 nm) to rods (about 507 nm), so blues look brighter and reds darker.",
           "needsReview": true
         },
         {
@@ -1481,7 +1489,8 @@
               "feedback": "That's both eyes roughly."
             }
           ],
-          "explanation": ""
+          "explanation": "One eye's field extends about 90–100° temporally, but only about 60° nasally and upwards and about 70° downwards.",
+          "needsReview": true
         },
         {
           "id": "vpe-visual-fields-x0092",
@@ -1967,7 +1976,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When one object covers part of another, we see it as nearer: interposition, a monocular depth cue.",
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0092",
@@ -2102,7 +2112,8 @@
               "feedback": "Colour."
             }
           ],
-          "explanation": ""
+          "explanation": "The Frisby test uses real depth (shapes printed on clear plates of different thickness), so no glasses are needed.",
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0095",
@@ -2183,7 +2194,8 @@
               "feedback": "Colour."
             }
           ],
-          "explanation": ""
+          "explanation": "The Lang test needs no glasses and uses pictures, so it works well with young children.",
+          "needsReview": true
         },
         {
           "id": "vpe-stereopsis-x0097",
@@ -2210,7 +2222,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Panum's area is the small region around the horopter within which images with slight disparity still fuse, giving stereopsis without diplopia.",
           "needsReview": true
         }
       ],
@@ -2565,7 +2577,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The ventral ('what') stream runs to the temporal lobe and handles recognition of objects and faces; the dorsal ('where/how') stream handles action and motion.",
           "needsReview": true
         },
         {
@@ -2593,7 +2605,8 @@
               "feedback": "Smooth paths."
             }
           ],
-          "explanation": ""
+          "explanation": "The Gestalt law of proximity says elements close together are seen as a group.",
+          "needsReview": true
         },
         {
           "id": "vpe-motion-form-x0096",
@@ -2620,7 +2633,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Centre-surround receptive fields fire most when the centre and surround are lit differently, as at an edge, so ganglion cells signal contrast.",
           "needsReview": true
         },
         {
@@ -2648,7 +2661,7 @@
               "feedback": "Plentiful there."
             }
           ],
-          "explanation": "",
+          "explanation": "Parvocellular cells have small receptive fields, carry colour opponency and fine detail, and respond more slowly than magnocellular cells.",
           "needsReview": true
         }
       ],
@@ -2840,7 +2853,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Threshold is usually defined as the stimulus detected 50% of the time (75% in two-alternative forced choice, where chance is 50%).",
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0092",
@@ -3029,7 +3043,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "d′ is the distance between the noise and signal-plus-noise distributions, a measure of sensitivity independent of how willing the observer is to say 'yes'.",
           "needsReview": true
         },
         {

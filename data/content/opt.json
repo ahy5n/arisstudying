@@ -229,7 +229,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "sin c = n₂ ÷ n₁ = 1 ÷ 1.5 ≈ 0.667, and the angle whose sine is 0.667 is about 41.8°. Beyond that angle, light is totally internally reflected.",
+          "needsReview": true
         },
         {
           "id": "opt-refraction-prisms-x0093",
@@ -256,7 +257,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For a thin prism, deviation ≈ (n − 1) × apical angle = (1.5 − 1) × 10° = 5°.",
+          "needsReview": true
         },
         {
           "id": "opt-refraction-prisms-x0094",
@@ -283,7 +285,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "1Δ displaces light 1 cm at 1 m, so the angle is tan⁻¹(1/100) ≈ 0.57°.",
+          "needsReview": true
         },
         {
           "id": "opt-refraction-prisms-x0095",
@@ -310,7 +313,8 @@
               "feedback": "No: that's dispersion."
             }
           ],
-          "explanation": ""
+          "explanation": "Refractive index is higher for shorter wavelengths (dispersion), so blue light is bent more than green or red.",
+          "needsReview": true
         },
         {
           "id": "opt-refraction-prisms-x0096",
@@ -337,7 +341,8 @@
               "feedback": "Crown glass is about 1.52."
             }
           ],
-          "explanation": ""
+          "explanation": "The cornea's refractive index is about 1.376, a little higher than the aqueous (1.336) and water (1.333).",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -541,7 +546,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vergence = 1 ÷ distance in metres. Light from a real object diverges, so its sign is negative: 1 ÷ −0.25 = −4.00 D.",
+          "needsReview": true
         },
         {
           "id": "opt-vergence-thin-lenses-x0092",
@@ -568,7 +574,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Image vergence L′ = L + F = −4.00 + 10.00 = +6.00 D.",
+          "needsReview": true
         },
         {
           "id": "opt-vergence-thin-lenses-x0093",
@@ -595,7 +602,8 @@
               "feedback": "Positive vergence means a real image behind."
             }
           ],
-          "explanation": ""
+          "explanation": "Image distance = 1 ÷ L′ = 1 ÷ 6 = 0.167 m. Positive vergence means converging light, so a real image forms behind the lens.",
+          "needsReview": true
         },
         {
           "id": "opt-vergence-thin-lenses-x0094",
@@ -622,7 +630,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Focal length = 1 ÷ power = 1 ÷ 5 = 0.2 m, which is 20 cm.",
+          "needsReview": true
         },
         {
           "id": "opt-vergence-thin-lenses-x0095",
@@ -649,7 +658,8 @@
               "feedback": "Different effect."
             }
           ],
-          "explanation": ""
+          "explanation": "Minus lenses make objects appear to move with the lens; plus lenses give 'against' movement.",
+          "needsReview": true
         },
         {
           "id": "opt-vergence-thin-lenses-x0096",
@@ -676,7 +686,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "The size of the magnification (2) gives the size ratio, and the negative sign means the image is inverted.",
           "needsReview": true
         }
       ],
@@ -896,7 +906,8 @@
               "feedback": "Wrong sign."
             }
           ],
-          "explanation": ""
+          "explanation": "Surface power F = (n′ − n) ÷ r = (1.5 − 1) ÷ 0.10 = +5.00 D.",
+          "needsReview": true
         },
         {
           "id": "opt-thick-lenses-x0092",
@@ -1031,7 +1042,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When thickness is negligible, the thick-lens term disappears, so every power reduces to the sum of the two surface powers.",
+          "needsReview": true
         },
         {
           "id": "opt-thick-lenses-x0095",
@@ -1058,7 +1070,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Nodal points coincide with the principal points whenever the media on both sides have the same refractive index, as in air.",
+          "needsReview": true
         },
         {
           "id": "opt-thick-lenses-x0096",
@@ -1139,7 +1152,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A front-surface near addition is specified as a front vertex power difference, so it's checked with the lens front surface against the focimeter.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1331,7 +1345,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A plane mirror reflects light so it appears to come from behind the mirror: the image is virtual, upright, the same size and the same distance behind.",
           "needsReview": true
         },
         {
@@ -1359,7 +1373,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A mirror's focal length is half its radius of curvature: 20 ÷ 2 = 10 cm.",
+          "needsReview": true
         },
         {
           "id": "opt-mirrors-x0093",
@@ -1386,7 +1401,8 @@
               "feedback": "Concave does."
             }
           ],
-          "explanation": ""
+          "explanation": "A concave mirror curves towards the incoming light, so it reflects parallel rays towards a focus in front of it.",
+          "needsReview": true
         },
         {
           "id": "opt-mirrors-x0094",
@@ -1413,7 +1429,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Turning the mirror by θ changes both the angle of incidence and of reflection by θ, so the reflected beam turns by 2θ.",
+          "needsReview": true
         },
         {
           "id": "opt-mirrors-x0095",
@@ -1440,7 +1457,8 @@
               "feedback": "It forms the first."
             }
           ],
-          "explanation": ""
+          "explanation": "Purkinje image I is the reflection from the front surface of the cornea, the brightest one, used by keratometers.",
+          "needsReview": true
         },
         {
           "id": "opt-mirrors-x0096",
@@ -1467,7 +1485,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A convex mirror diverges light, so it always forms a virtual, upright, smaller image behind the mirror.",
+          "needsReview": true
         },
         {
           "id": "opt-mirrors-x0097",
@@ -1712,7 +1731,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Emsley reduced eye models the whole eye as a single surface of +60 D (cornea about +43 D, lens about +17 D in situ).",
+          "needsReview": true
         },
         {
           "id": "opt-visual-optics-x0092",
@@ -1793,7 +1813,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ocular refraction = 1 ÷ far-point distance. The far point is in front of the eye, so it's negative: 1 ÷ −0.50 = −2.00 D.",
+          "needsReview": true
         },
         {
           "id": "opt-visual-optics-x0094",
@@ -1820,7 +1841,8 @@
               "feedback": "It gives myopia."
             }
           ],
-          "explanation": ""
+          "explanation": "In a +60 D eye, each extra millimetre of axial length makes the eye about 3 D more myopic.",
+          "needsReview": true
         },
         {
           "id": "opt-visual-optics-x0095",
@@ -1901,7 +1923,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A hyperopic eye focuses light behind the retina, so it needs extra converging (plus) power, from lenses or from accommodation.",
           "needsReview": true
         }
       ],
@@ -2093,7 +2115,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A cylinder is curved in only one meridian. Along its axis it's flat, so it has no power there; maximum power is at 90° to the axis.",
+          "needsReview": true
         },
         {
           "id": "opt-astigmatism-cylinders-x0092",
@@ -2120,7 +2143,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Spherical equivalent = sphere + half the cylinder = −2.00 + (−0.50) = −2.50 D.",
+          "needsReview": true
         },
         {
           "id": "opt-astigmatism-cylinders-x0093",
@@ -2147,7 +2171,8 @@
               "feedback": "Axis rotates."
             }
           ],
-          "explanation": ""
+          "explanation": "To transpose: new sphere = sphere + cyl (+2.00 − 1.50 = +0.50), change the cyl sign (+1.50), and rotate the axis by 90° (to 180).",
+          "needsReview": true
         },
         {
           "id": "opt-astigmatism-cylinders-x0094",
@@ -2174,7 +2199,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The circle of least confusion lies halfway, in dioptres, between the two line foci, where the blur patch is smallest.",
           "needsReview": true
         },
         {
@@ -2202,7 +2227,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In with-the-rule astigmatism the vertical meridian is steeper, so it's corrected with minus cyl at an axis near 180.",
           "needsReview": true
         },
         {
@@ -2230,7 +2255,8 @@
               "feedback": "Wrong sign."
             }
           ],
-          "explanation": ""
+          "explanation": "A cylinder has its full power at 90° to its axis. The axis is 180, so along 90 the power is the full −2.00 D.",
+          "needsReview": true
         },
         {
           "id": "opt-astigmatism-cylinders-x0097",
@@ -2257,7 +2283,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power in an oblique meridian is C sin²θ, where θ is the angle from the axis: −2.00 × sin²45° = −2.00 × 0.5 = −1.00 D.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -2449,7 +2476,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Accommodative demand = 1 ÷ distance in metres = 1 ÷ 0.25 = 4.00 D.",
+          "needsReview": true
         },
         {
           "id": "opt-accommodation-presbyopia-x0092",
@@ -2530,7 +2558,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For an emmetrope, the near point is 1 ÷ amplitude = 1 ÷ 5 = 0.2 m, which is 20 cm.",
+          "needsReview": true
         },
         {
           "id": "opt-accommodation-presbyopia-x0094",
@@ -2611,7 +2640,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's average amplitude = 18.5 − 0.3 × age = 18.5 − 12 = 6.5 D.",
+          "needsReview": true
         },
         {
           "id": "opt-accommodation-presbyopia-x0096",
@@ -2638,7 +2668,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Keep half the 2.00 D amplitude in reserve, so 1.00 D can be used comfortably. The add covers the rest: 2.50 − 1.00 = +1.50.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -2834,7 +2865,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A layer λ/4n thick makes the two reflected waves half a wavelength out of step, so they cancel and reflection drops.",
+          "needsReview": true
         },
         {
           "id": "opt-aberrations-physical-x0092",
@@ -2915,7 +2947,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Diffraction at a circular aperture limits resolution: the smallest resolvable angle (in radians) is about 1.22λ divided by the aperture diameter D.",
+          "needsReview": true
         },
         {
           "id": "opt-aberrations-physical-x0094",
@@ -2996,7 +3029,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Malus's law: light through a second polariser at angle θ to the first is reduced to I₀ cos²θ, so it's blocked at 90°.",
+          "needsReview": true
         },
         {
           "id": "opt-aberrations-physical-x0096",
