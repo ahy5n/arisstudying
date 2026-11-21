@@ -197,7 +197,8 @@
               "feedback": "That's +2.50."
             }
           ],
-          "explanation": ""
+          "explanation": "A +10 D lens focuses at 1 ÷ 10 = 0.1 m, so an emmetropic examiner sees the anterior eye clearly at 10 cm.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0052",
@@ -278,7 +279,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The bright light on the macula is uncomfortable and constricts the pupil, so it's left until last.",
           "needsReview": true
         },
         {
@@ -306,7 +307,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With the eye's +60 D acting as a magnifier (60 ÷ 4), the emmetropic fundus is magnified about 15×.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0055",
@@ -387,7 +389,7 @@
               "feedback": "Always record."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording each structure descriptively shows it was examined and gives a baseline; 'NAD' says nothing specific.",
           "needsReview": true
         },
         {
@@ -415,7 +417,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The peripheral retina is examined in 8 directions of gaze to cover all areas.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0161",
@@ -442,7 +445,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "The red reflex is viewed from about 30–50 cm, so both pupils and any opacities can be seen.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0162",
@@ -469,7 +473,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An absent red reflex in a baby can mean a cataract or retinoblastoma, so it needs urgent referral.",
           "needsReview": true
         },
         {
@@ -497,7 +501,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A myopic eye makes light converge too much, so minus lenses are needed to focus on the fundus.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0164",
@@ -524,7 +529,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Red-free light makes vessels and haemorrhages look dark and shows the nerve fibre layer more clearly.",
           "needsReview": true
         },
         {
@@ -552,7 +557,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A small aperture fits through an undilated pupil and causes fewer corneal reflections.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0166",
@@ -579,7 +585,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A direct ophthalmoscope gives an upright, virtual image of the fundus.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0167",
@@ -606,7 +613,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Getting closer increases the field of view, just as looking through a keyhole up close shows more of the room.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0168",
@@ -633,7 +641,7 @@
               "feedback": "It's useful."
             }
           ],
-          "explanation": "",
+          "explanation": "The graticule is used to check fixation and estimate the size of lesions.",
           "needsReview": true
         },
         {
@@ -661,7 +669,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Lesion size and position are usually described in disc diameters (DD), using the disc as a scale.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x01610",
@@ -688,7 +697,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The slit aperture bends over raised or depressed areas, which helps judge elevation.",
           "needsReview": true
         },
         {
@@ -716,7 +725,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A hyperopic eye has less power, so magnification is lower and the field of view is wider than in emmetropia.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0332",
@@ -743,7 +753,8 @@
               "feedback": "Not available."
             }
           ],
-          "explanation": ""
+          "explanation": "A hyperopic or aphakic eye has too little power, so plus lenses are needed to focus on the fundus.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0333",
@@ -770,7 +781,8 @@
               "feedback": "Not the reason."
             }
           ],
-          "explanation": ""
+          "explanation": "The lens wheel only has spherical lenses, so it can't correct high astigmatism.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0334",
@@ -797,7 +809,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An uncorrected myopic examiner needs their own minus added on the wheel.",
           "needsReview": true
         },
         {
@@ -825,7 +837,7 @@
               "feedback": "Not enough."
             }
           ],
-          "explanation": "",
+          "explanation": "The usual order is red reflex, media, disc, vessels, then the macula last because the light is uncomfortable.",
           "needsReview": true
         },
         {
@@ -853,7 +865,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The disc's size, shape, colour, cup, rim and margins should all be recorded.",
           "needsReview": true
         },
         {
@@ -881,7 +893,7 @@
               "feedback": "Vague."
             }
           ],
-          "explanation": "",
+          "explanation": "Giving distance in disc diameters and direction from the disc lets anyone find the lesion again.",
           "needsReview": true
         },
         {
@@ -909,7 +921,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Dim lighting makes the pupil larger and reduces reflections.",
           "needsReview": true
         },
         {
@@ -937,7 +949,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Looking at a distant target keeps the eye still and accommodation relaxed.",
           "needsReview": true
         },
         {
@@ -965,7 +977,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A smaller aperture and approaching slightly off-centre keep corneal reflections out of the view.",
           "needsReview": true
         },
         {
@@ -993,7 +1005,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A PanOptic-style ophthalmoscope gives a wider field of view than a standard direct one.",
           "needsReview": true
         },
         {
@@ -1021,7 +1033,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Dialling in +10 to +20 D lets the direct ophthalmoscope focus on the anterior eye.",
           "needsReview": true
         },
         {
@@ -1049,7 +1061,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The cobalt blue filter makes fluorescein fluoresce, for viewing staining.",
           "needsReview": true
         },
         {
@@ -1077,7 +1089,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The grid aperture helps check fixation and estimate lesion size.",
           "needsReview": true
         },
         {
@@ -1105,7 +1117,7 @@
               "feedback": "It helps."
             }
           ],
-          "explanation": "",
+          "explanation": "A bigger pupil lets more light in and out, giving a wider and clearer view.",
           "needsReview": true
         },
         {
@@ -1133,7 +1145,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The disc lies about 15° nasal to the fovea, so approaching from about 15° temporally brings it into view.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x03317",
@@ -1160,7 +1173,7 @@
               "feedback": "Periphery."
             }
           ],
-          "explanation": "",
+          "explanation": "Asking the patient to look at the light briefly brings the macula into view.",
           "needsReview": true
         },
         {
@@ -1188,7 +1201,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The infant red reflex check looks for cataract, retinoblastoma and large refractive errors.",
           "needsReview": true
         },
         {
@@ -1216,7 +1229,8 @@
               "feedback": "Refer."
             }
           ],
-          "explanation": ""
+          "explanation": "A white pupil reflex can mean retinoblastoma or a cataract, so it needs urgent referral.",
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x03320",
@@ -1243,7 +1257,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Unequal red reflexes in a child can suggest anisometropia, a squint or an opacity.",
           "needsReview": true
         },
         {
@@ -1325,7 +1339,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Keeping both eyes open is more comfortable and helps you relax your accommodation.",
           "needsReview": true
         },
         {
@@ -1353,7 +1367,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In red-free light, the RNFL looks bright and striated, so defects show as dark wedges.",
           "needsReview": true
         },
         {
@@ -1381,7 +1395,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "All retinal vessels lead back to the disc, so following one finds it quickly.",
           "needsReview": true
         },
         {
@@ -1409,7 +1423,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Direct ophthalmoscopy is monocular, so there's no stereo, and it has a small field of view.",
           "needsReview": true
         },
         {
@@ -1437,7 +1451,7 @@
               "feedback": "Try strategies."
             }
           ],
-          "explanation": "",
+          "explanation": "A clear distant target and short bursts of examination help a patient keep their eye still.",
           "needsReview": true
         },
         {
@@ -1465,7 +1479,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Checking the red reflex from a distance first shows any media opacities.",
           "needsReview": true
         },
         {
@@ -1493,7 +1507,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Record that the view was limited and why, rather than recording normal findings you didn't see.",
           "needsReview": true
         },
         {
@@ -1521,7 +1535,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The light on the macula is uncomfortable and constricts the pupil, so it's examined last.",
           "needsReview": true
         },
         {
@@ -1549,7 +1563,7 @@
               "feedback": "Moderate plus."
             }
           ],
-          "explanation": "",
+          "explanation": "The vitreous lies in front of the retina, so a moderate plus setting brings it into focus.",
           "needsReview": true
         }
       ],
@@ -1789,7 +1803,8 @@
               "feedback": "About 12x."
             }
           ],
-          "explanation": ""
+          "explanation": "A lower-power condensing lens gives more magnification: +60 D gives about 18× at a 16× slit lamp setting.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0052",
@@ -1924,7 +1939,7 @@
               "feedback": "Second."
             }
           ],
-          "explanation": "",
+          "explanation": "Pulling back, you first see the lens surface, then a blurred red reflex, then the fundus comes into focus.",
           "needsReview": true
         },
         {
@@ -1952,7 +1967,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Slit lamp BIO gives a better view through cataract and in high myopia, where direct ophthalmoscopy is difficult.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0161",
@@ -1979,7 +1995,8 @@
               "feedback": "BIO."
             }
           ],
-          "explanation": ""
+          "explanation": "The 60 D lens gives the highest magnification of these, so it shows the most detail of the disc.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0162",
@@ -2006,7 +2023,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The condensing lens image is inverted and laterally reversed, so a lesion on the left is actually to the right.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0163",
@@ -2087,7 +2105,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Tilting the lens slightly moves the surface reflections out of your line of sight.",
           "needsReview": true
         },
         {
@@ -2115,7 +2133,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "A narrow slit bends over raised or depressed areas, showing elevation and cupping.",
           "needsReview": true
         },
         {
@@ -2143,7 +2161,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Lowering the light intensity makes the exam more comfortable.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0167",
@@ -2170,7 +2189,8 @@
               "feedback": "Goniolens."
             }
           ],
-          "explanation": ""
+          "explanation": "A Super Field lens gives a wide view of the fundus.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0168",
@@ -2197,7 +2217,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Condensing lenses should be cleaned with a lens cloth to avoid scratching the coatings.",
           "needsReview": true
         },
         {
@@ -2225,7 +2245,8 @@
               "feedback": "Need a pupil."
             }
           ],
-          "explanation": ""
+          "explanation": "A dilated pupil gives a much wider and brighter view.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x01610",
@@ -2252,7 +2273,8 @@
               "feedback": "Not the reason."
             }
           ],
-          "needsReview": true
+          "needsReview": true,
+          "explanation": "At the edge of the view, lens aberrations and the pupil edge (vignetting) dim and distort the image, so recentre the lesion."
         },
         {
           "id": "peg-indirect-volk-x0331",
@@ -2279,7 +2301,7 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": "",
+          "explanation": "A higher-power lens such as 90 D works through a smaller pupil.",
           "needsReview": true
         },
         {
@@ -2307,7 +2329,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The 60 D lens is held about 13 mm from the cornea.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0333",
@@ -2334,7 +2357,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The 90 D lens is held about 7 mm from the cornea.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0334",
@@ -2361,7 +2385,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The condensing lens forms a real, aerial image between the lens and the slit lamp.",
           "needsReview": true
         },
         {
@@ -2389,7 +2413,8 @@
               "feedback": "Too high to start."
             }
           ],
-          "explanation": ""
+          "explanation": "Starting at low magnification, about 10×, makes the image easier to find.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0336",
@@ -2416,7 +2441,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A tall, narrow beam coaxial with the microscope passes through the pupil easily.",
           "needsReview": true
         },
         {
@@ -2444,7 +2469,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Shine the beam through the pupil, place the lens in front of the eye, then pull the slit lamp back until the fundus focuses.",
           "needsReview": true
         },
         {
@@ -2472,7 +2497,8 @@
               "feedback": "That's closer to 60 D."
             }
           ],
-          "explanation": ""
+          "explanation": "With a 90 D lens, multiply the slit height by about 1.3 to estimate disc size.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0339",
@@ -2499,7 +2525,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Different lenses magnify differently, so each needs its own correction factor.",
           "needsReview": true
         },
         {
@@ -2527,7 +2553,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact lenses such as a three-mirror touch the cornea, so they need anaesthetic and a coupling gel.",
           "needsReview": true
         },
         {
@@ -2555,7 +2581,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The binocular microscope of the slit lamp gives a stereoscopic view.",
           "needsReview": true
         },
         {
@@ -2583,7 +2609,7 @@
               "feedback": "Wide-field lenses."
             }
           ],
-          "explanation": "",
+          "explanation": "Wide-field lenses give the widest field of the common slit lamp lenses.",
           "needsReview": true
         },
         {
@@ -2611,7 +2637,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The lens is designed to be held off the eye; pressing it on is uncomfortable for the patient.",
           "needsReview": true
         },
         {
@@ -2639,7 +2665,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tilting the lens and anti-reflection coatings reduce reflections from the lens surfaces.",
           "needsReview": true
         },
         {
@@ -2667,7 +2693,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Keeping condensing lenses in their case protects them from scratches.",
           "needsReview": true
         },
         {
@@ -2695,7 +2721,8 @@
               "feedback": "Posterior pole."
             }
           ],
-          "explanation": ""
+          "explanation": "To view the superior retina, the patient looks up.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x03317",
@@ -2722,7 +2749,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The image is inverted, so something at the bottom of the view is in the superior retina.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x03318",
@@ -2749,7 +2777,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Slit lamp BIO gives a stereoscopic, magnified view, so it's good for judging disc cupping and macular elevation.",
           "needsReview": true
         },
         {
@@ -2777,7 +2805,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A slit beam bends over raised areas, showing macular elevation.",
           "needsReview": true
         },
         {
@@ -2805,7 +2833,7 @@
               "feedback": "Not a drawback."
             }
           ],
-          "explanation": "",
+          "explanation": "Slit lamp BIO takes more skill than direct ophthalmoscopy and is easier with a dilated pupil.",
           "needsReview": true
         },
         {
@@ -2833,7 +2861,8 @@
               "feedback": "It helps."
             }
           ],
-          "explanation": ""
+          "explanation": "Lower light keeps a photophobic patient more comfortable, so they cooperate better.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x03322",
@@ -2860,7 +2889,7 @@
               "feedback": "Try first."
             }
           ],
-          "explanation": "",
+          "explanation": "Gently holding the upper lid stops it blocking the view during the exam.",
           "needsReview": true
         },
         {
@@ -2888,7 +2917,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dilation gives a much better view of the periphery and macula.",
           "needsReview": true
         },
         {
@@ -2916,7 +2945,7 @@
               "feedback": "Both."
             }
           ],
-          "explanation": "",
+          "explanation": "The image through a condensing lens is inverted and laterally reversed.",
           "needsReview": true
         },
         {
@@ -2944,7 +2973,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The patient looks towards the area you want to see, bringing it into view.",
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x03326",
@@ -2971,7 +3001,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Moving the slit lamp with the joystick fine-tunes the focus on the aerial image.",
           "needsReview": true
         },
         {
@@ -2999,7 +3029,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cleaning between patients prevents infection and keeps the view clear.",
           "needsReview": true
         },
         {
@@ -3027,7 +3057,7 @@
               "feedback": "Needs a bigger pupil."
             }
           ],
-          "explanation": "",
+          "explanation": "The 60 D lens gives more magnification, so it shows more detail of the disc.",
           "needsReview": true
         },
         {
@@ -3055,7 +3085,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Warming the lens or using anti-fog coatings reduces condensation on it.",
           "needsReview": true
         },
         {
@@ -3083,7 +3113,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Slit lamp BIO is a standard part of fundus examination in UK practice.",
           "needsReview": true
         }
       ],
@@ -3288,7 +3318,7 @@
               "feedback": "Healthy."
             }
           ],
-          "explanation": "",
+          "explanation": "Glaucoma typically enlarges the cup vertically as the neuroretinal rim is lost at the top and bottom.",
           "needsReview": true
         },
         {
@@ -3424,7 +3454,8 @@
               "feedback": "Rim is healthy."
             }
           ],
-          "explanation": ""
+          "explanation": "Large discs naturally have large cups; an intact rim that follows the ISNT rule suggests a physiological cup.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0055",
@@ -3451,7 +3482,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In the Blue Mountains Eye Study, the average disc diameter was about 1.5 mm.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0161",
@@ -3478,7 +3510,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A healthy neuroretinal rim is orange-pink.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0162",
@@ -3505,7 +3538,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A pale disc suggests loss of nerve fibres and blood supply: optic atrophy.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0163",
@@ -3532,7 +3566,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A splinter (Drance) haemorrhage at the disc margin is associated with glaucoma, especially normal-tension glaucoma.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0164",
@@ -3559,7 +3594,7 @@
               "feedback": "Atrophy."
             }
           ],
-          "explanation": "",
+          "explanation": "A swollen disc has blurred, raised margins.",
           "needsReview": true
         },
         {
@@ -3587,7 +3622,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Papilloedema is bilateral disc swelling caused by raised intracranial pressure.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0166",
@@ -3614,7 +3650,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Optic disc drusen can make the disc look swollen: pseudopapilloedema.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0167",
@@ -3641,7 +3678,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Myopic eyes often have a tilted disc with a crescent of exposed sclera or choroid.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0168",
@@ -3668,7 +3706,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Glaucoma usually thins the rim at the top and bottom first, so the vertical CD ratio matters most.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0169",
@@ -3695,7 +3734,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A localised notch in the neuroretinal rim is a sign of glaucoma.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x01610",
@@ -3722,7 +3762,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Beta-zone peripapillary atrophy is associated with glaucoma.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0331",
@@ -3749,7 +3790,8 @@
               "feedback": "Some cup is normal."
             }
           ],
-          "explanation": ""
+          "explanation": "A typical cup-to-disc ratio is around 0.3, though it varies widely.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0332",
@@ -3776,7 +3818,8 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "A cup-to-disc difference of more than about 0.2 between the eyes is suspicious for glaucoma.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0333",
@@ -3803,7 +3846,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Large discs have larger cups, so a large CD ratio may be normal in a large disc.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0334",
@@ -3830,7 +3874,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A small, crowded disc with no cup ('disc at risk') is a risk factor for NAION.",
           "needsReview": true
         },
         {
@@ -3858,7 +3902,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A dark wedge in the RNFL shows localised loss of nerve fibres, as in glaucoma.",
           "needsReview": true
         },
         {
@@ -3886,7 +3930,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When the rim thins, a vessel that ran along it is left exposed (baring), a sign of rim loss.",
           "needsReview": true
         },
         {
@@ -3914,7 +3958,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The laminar dot sign is the lamina cribrosa's pores visible in a deep cup, a sign of glaucoma.",
           "needsReview": true
         },
         {
@@ -3942,7 +3986,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Temporal disc pallor is classically seen after optic neuritis, for example in multiple sclerosis.",
           "needsReview": true
         },
         {
@@ -3970,7 +4014,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'Bow-tie' optic atrophy affects the nasal and temporal parts of the disc, from a lesion at the chiasm or optic tract.",
           "needsReview": true
         },
         {
@@ -3998,7 +4042,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sectoral pallor after sudden painless vision loss suggests past anterior ischaemic optic neuropathy.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03311",
@@ -4025,7 +4070,7 @@
               "feedback": "Glaucoma."
             }
           ],
-          "explanation": "",
+          "explanation": "True swelling shows engorged veins, haemorrhages and no spontaneous venous pulsation.",
           "needsReview": true
         },
         {
@@ -4053,7 +4098,8 @@
               "feedback": "Keratoconus."
             }
           ],
-          "explanation": ""
+          "explanation": "Paton's lines are curved folds in the retina around a swollen disc.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03313",
@@ -4080,7 +4126,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In early papilloedema, visual acuity is usually normal.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03314",
@@ -4107,7 +4154,8 @@
               "feedback": "Yellow."
             }
           ],
-          "explanation": ""
+          "explanation": "White, feathery patches at the disc margin that hide vessels are myelinated nerve fibres, which are benign.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03315",
@@ -4134,7 +4182,8 @@
               "feedback": "Red."
             }
           ],
-          "explanation": ""
+          "explanation": "An optic disc pit is a small grey depression, usually on the temporal side of the disc.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03316",
@@ -4161,7 +4210,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The 'double ring' sign is typical of optic nerve hypoplasia.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03317",
@@ -4188,7 +4238,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Buried drusen are best shown with autofluorescence, B-scan ultrasound or OCT.",
           "needsReview": true
         },
         {
@@ -4216,7 +4266,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A morning glory anomaly is an enlarged, funnel-shaped disc with vessels radiating out.",
           "needsReview": true
         },
         {
@@ -4244,7 +4294,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In glaucomatous cupping, vessels can be pushed nasally (nasalisation).",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03320",
@@ -4271,7 +4322,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Bayoneting is vessels kinking sharply as they pass over the edge of a deep cup.",
           "needsReview": true
         },
         {
@@ -4299,7 +4350,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "The area of pallor can be smaller than the true cup, so judging by contour is more accurate.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03322",
@@ -4326,7 +4378,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The average vertical disc diameter is about 1.8 mm.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03323",
@@ -4353,7 +4406,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tilted discs are most common in myopia.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03324",
@@ -4380,7 +4434,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A coloboma happens when the optic fissure doesn't close during development.",
           "needsReview": true
         },
         {
@@ -4408,7 +4462,8 @@
               "feedback": "Not this."
             }
           ],
-          "explanation": ""
+          "explanation": "Long-standing papilloedema leads to a pale, atrophic disc with gliosis.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03326",
@@ -4435,7 +4490,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A disc haemorrhage is linked with glaucoma progression, so closer monitoring or referral is needed.",
           "needsReview": true
         },
         {
@@ -4463,7 +4518,8 @@
               "feedback": "Benign."
             }
           ],
-          "explanation": ""
+          "explanation": "New bilateral disc swelling may be papilloedema from raised intracranial pressure, which is urgent.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03328",
@@ -4490,7 +4546,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The neuroretinal rim is made of the axons of retinal ganglion cells.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x03329",
@@ -4517,7 +4574,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Comparing photos over time shows gradual changes that are hard to judge from memory.",
           "needsReview": true
         },
         {
@@ -4545,7 +4602,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "Megalopapilla is a large disc with a correspondingly large cup, usually a normal variant.",
           "needsReview": true
         }
       ],
@@ -4689,7 +4746,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Arteries are narrower than veins, so a normal artery-to-vein ratio is about 2:3.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0052",
@@ -4716,7 +4774,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In myopia the RPE is thinner, so choroidal vessels show through, giving a tigroid (tessellated) fundus.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0053",
@@ -4797,7 +4856,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The fovea lies about 2 to 2.5 disc diameters temporal to the disc.",
           "needsReview": true
         },
         {
@@ -4825,7 +4884,7 @@
               "feedback": "Arteries have a brighter reflex."
             }
           ],
-          "explanation": "",
+          "explanation": "Arteries are narrower, lighter red and have a brighter central light reflex than veins.",
           "needsReview": true
         },
         {
@@ -4853,7 +4912,7 @@
               "feedback": "Not related."
             }
           ],
-          "explanation": "",
+          "explanation": "The foveal reflex fades with age and with changes such as drusen.",
           "needsReview": true
         },
         {
@@ -4881,7 +4940,7 @@
               "feedback": "They're vessels."
             }
           ],
-          "explanation": "",
+          "explanation": "The foveal avascular zone has no retinal vessels, so light reaches the cones unobstructed.",
           "needsReview": true
         },
         {
@@ -4963,7 +5022,7 @@
               "feedback": "It's just not diagnostic alone."
             }
           ],
-          "explanation": "",
+          "explanation": "About 10–20% of normal eyes have no spontaneous venous pulsation, so its absence alone isn't diagnostic.",
           "needsReview": true
         },
         {
@@ -4991,7 +5050,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The fovea is about 1.5 mm across.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0162",
@@ -5018,7 +5078,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Drusen at the macula are a sign of age-related macular degeneration.",
           "needsReview": true
         },
         {
@@ -5046,7 +5106,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cotton wool spots are small infarcts in the nerve fibre layer.",
           "needsReview": true
         },
         {
@@ -5074,7 +5134,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Flame haemorrhages lie in the nerve fibre layer, which gives them their streaky shape.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0165",
@@ -5101,7 +5162,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hard exudates are lipid deposits in the outer plexiform layer, left by leaking vessels.",
           "needsReview": true
         },
         {
@@ -5129,7 +5190,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Arteries are lighter and narrower than veins.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0167",
@@ -5156,7 +5218,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A cilioretinal artery arises from the ciliary (choroidal) circulation rather than the central retinal artery.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0168",
@@ -5183,7 +5246,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The fovea lies about 2.5 disc diameters temporal to the disc.",
           "needsReview": true
         },
         {
@@ -5211,7 +5274,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Spontaneous venous pulsation is seen in about 80–90% of normal eyes.",
           "needsReview": true
         },
         {
@@ -5239,7 +5302,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A myopic crescent is an area beside the disc where the sclera is exposed.",
           "needsReview": true
         },
         {
@@ -5267,7 +5330,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The foveal avascular zone is about 0.5 mm across.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0332",
@@ -5294,7 +5358,8 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "The macula's yellow colour comes from xanthophyll pigments, lutein and zeaxanthin.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0333",
@@ -5321,7 +5386,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The umbo is the tiny reflex at the centre of the foveola.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0334",
@@ -5348,7 +5414,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hard drusen are small, sharp-edged yellow deposits.",
           "needsReview": true
         },
         {
@@ -5376,7 +5442,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Soft drusen are larger and less defined, and carry a higher risk of progression to advanced AMD than hard drusen.",
           "needsReview": true
         },
         {
@@ -5404,7 +5470,8 @@
               "feedback": "That's the small/intermediate boundary."
             }
           ],
-          "explanation": ""
+          "explanation": "Large drusen are over about 125 µm, roughly the width of a vein at the disc margin.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0337",
@@ -5431,7 +5498,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Geographic atrophy, a sharply outlined area of RPE loss, is advanced dry AMD.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0338",
@@ -5458,7 +5526,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Sudden distortion with a macular haemorrhage suggests leaking new vessels: wet AMD.",
           "needsReview": true
         },
         {
@@ -5486,7 +5554,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An epiretinal membrane gives the macula a cellophane-like sheen and can wrinkle the retina.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03310",
@@ -5513,7 +5582,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Central serous chorioretinopathy typically affects young to middle-aged men, often linked with stress or steroids.",
           "needsReview": true
         },
         {
@@ -5541,7 +5610,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the Watzke-Allen test, a full-thickness hole makes the slit beam look broken where it crosses the hole.",
           "needsReview": true
         },
         {
@@ -5569,7 +5638,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hollenhorst plaques are bright yellow cholesterol emboli lodged at arterial bifurcations.",
           "needsReview": true
         },
         {
@@ -5597,7 +5666,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hollenhorst plaques usually come from atheroma in the carotid arteries, so they suggest stroke risk.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03314",
@@ -5624,7 +5694,7 @@
               "feedback": "Darker."
             }
           ],
-          "explanation": "",
+          "explanation": "A preretinal (subhyaloid) haemorrhage settles into a boat shape with a flat top, in front of the retina.",
           "needsReview": true
         },
         {
@@ -5652,7 +5722,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Roth spots, white-centred haemorrhages, can occur in endocarditis, leukaemia and other systemic diseases.",
           "needsReview": true
         },
         {
@@ -5680,7 +5750,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A flat, slate-grey choroidal lesion with clear borders is most likely a benign naevus.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03317",
@@ -5707,7 +5778,7 @@
               "feedback": "Reassuring."
             }
           ],
-          "explanation": "",
+          "explanation": "Thickness, orange pigment and subretinal fluid are risk features suggesting a naevus may be a melanoma.",
           "needsReview": true
         },
         {
@@ -5735,7 +5806,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "CHRPE (congenital hypertrophy of the RPE) looks like a flat, dark patch, often with a pale halo.",
           "needsReview": true
         },
         {
@@ -5763,7 +5834,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Venous beading is a sign of severe (pre-proliferative) diabetic retinopathy.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03320",
@@ -5790,7 +5862,8 @@
               "feedback": "NFL haemorrhages."
             }
           ],
-          "explanation": ""
+          "explanation": "Microaneurysms look like tiny red dots, often the earliest sign of diabetic retinopathy.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03321",
@@ -5871,7 +5944,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Retinal veins are darker and wider than arteries.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03323",
@@ -5898,7 +5972,8 @@
               "feedback": "Foveola."
             }
           ],
-          "explanation": ""
+          "explanation": "The macula is about 5.5 mm across.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03324",
@@ -5925,7 +6000,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An Amsler grid lets patients check their central vision for distortion or gaps at home.",
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03325",
@@ -5952,7 +6028,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The foveal reflex fades with age, so a dull reflex in an older adult isn't always abnormal.",
           "needsReview": true
         },
         {
@@ -5980,7 +6056,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a branch retinal artery occlusion, the retina supplied by that artery becomes pale and swollen.",
           "needsReview": true
         },
         {
@@ -6008,7 +6084,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A branch retinal vein occlusion causes haemorrhages in the area drained by the blocked vein.",
           "needsReview": true
         },
         {
@@ -6036,7 +6112,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The fovea is thin and has no inner retinal layers to swell, so the red choroid shows through the pale, swollen retina around it.",
           "needsReview": true
         },
         {
@@ -6064,7 +6140,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "AREDS2 supplements contain lutein, zeaxanthin, vitamins C and E, zinc and copper.",
           "needsReview": true
         },
         {
@@ -6092,7 +6168,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Smoking is a modifiable risk factor for AMD; age, genetics and ethnicity can't be changed.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -6382,7 +6459,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A thick cornea is harder to flatten, so GAT over-reads; thin corneas under-read.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0054",
@@ -6517,7 +6595,8 @@
               "feedback": "Very high."
             }
           ],
-          "explanation": ""
+          "explanation": "Normal IOP is roughly 10–21 mmHg.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0057",
@@ -6598,7 +6677,8 @@
               "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "IOP varies with each heartbeat and between readings, so averaging several readings is more reliable.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0161",
@@ -6625,7 +6705,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The GAT dial reads in grams; multiply by 10 to get mmHg, so 2.2 means 22 mmHg.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0162",
@@ -6652,7 +6733,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Thick mires mean extra fluid is involved, so more force is needed and IOP is overestimated.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0163",
@@ -6679,7 +6761,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A thin cornea is easier to flatten, so GAT under-reads.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0164",
@@ -6706,7 +6789,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With over 3 D of corneal astigmatism, align the prism at 43° to the minus cyl axis, or average readings at 90° apart.",
           "needsReview": true
         },
         {
@@ -6734,7 +6817,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Tonometer prisms touch the cornea, so they must be disinfected or single-use to prevent infection and prion spread.",
           "needsReview": true
         },
         {
@@ -6762,7 +6845,8 @@
               "feedback": "Needs anaesthetic."
             }
           ],
-          "explanation": ""
+          "explanation": "Rebound (iCare) tonometry is so brief and light that no anaesthetic is needed.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0167",
@@ -6789,7 +6873,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "IOP usually varies by about 3–6 mmHg over the day.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0168",
@@ -6816,7 +6901,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ocular hypertension is IOP above 21 mmHg without glaucomatous damage.",
           "needsReview": true
         },
         {
@@ -6844,7 +6929,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pressing the lids against the globe pushes on the eye, so the reading is falsely high.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x01610",
@@ -6871,7 +6957,8 @@
               "feedback": "Rebound."
             }
           ],
-          "explanation": ""
+          "explanation": "The Perkins tonometer is a handheld version of Goldmann applanation.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0341",
@@ -6898,7 +6985,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "At 3.06 mm, the cornea's rigidity and the tear film's surface tension cancel out, so the force reflects IOP.",
           "needsReview": true
         },
         {
@@ -6926,7 +7013,7 @@
               "feedback": "It should be."
             }
           ],
-          "explanation": "",
+          "explanation": "GAT calibration is checked with the calibration weight bar supplied with the tonometer.",
           "needsReview": true
         },
         {
@@ -6954,7 +7041,7 @@
               "feedback": "Pulsation is normal."
             }
           ],
-          "explanation": "",
+          "explanation": "The mires pulse with the heartbeat, so read where they touch at the middle of the pulse.",
           "needsReview": true
         },
         {
@@ -6982,7 +7069,7 @@
               "feedback": "Schiotz."
             }
           ],
-          "explanation": "",
+          "explanation": "The Tono-Pen uses a small applanating probe.",
           "needsReview": true
         },
         {
@@ -7010,7 +7097,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An NCT detects applanation from a peak in light reflected off the flattened cornea.",
           "needsReview": true
         },
         {
@@ -7038,7 +7125,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Ocular Response Analyzer measures corneal hysteresis as well as IOP.",
           "needsReview": true
         },
         {
@@ -7066,7 +7153,7 @@
               "feedback": "Affected."
             }
           ],
-          "explanation": "",
+          "explanation": "Dynamic contour tonometry is designed to be less affected by corneal thickness.",
           "needsReview": true
         },
         {
@@ -7094,7 +7181,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Schiotz tonometry uses weights to indent the cornea; the amount of indentation shows the pressure.",
           "needsReview": true
         },
         {
@@ -7122,7 +7209,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Average central corneal thickness is about 540–550 µm.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03410",
@@ -7149,7 +7237,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A thinner cornea is easier to flatten, so GAT under-reads by a few mmHg.",
           "needsReview": true
         },
         {
@@ -7177,7 +7265,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A tight collar or holding the breath raises venous pressure, which can raise the IOP reading.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03412",
@@ -7204,7 +7293,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "IOP usually rises a little when lying down.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03413",
@@ -7231,7 +7321,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Exercise usually causes a temporary fall in IOP.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03414",
@@ -7258,7 +7349,8 @@
               "feedback": "Possible."
             }
           ],
-          "explanation": ""
+          "explanation": "A swollen cornea is softer and easier to flatten, so GAT tends to under-read.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03415",
@@ -7285,7 +7377,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact tonometry can massage the eye and lower the next reading, so NCT is done first.",
           "needsReview": true
         },
         {
@@ -7313,7 +7405,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Record the method, time of day, readings and which eye, because all of them affect interpretation.",
           "needsReview": true
         },
         {
@@ -7341,7 +7433,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A steroid responder is someone whose IOP rises with steroid use.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03418",
@@ -7368,7 +7461,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact tonometry can cause corneal abrasion and spread infection if the prism isn't cleaned.",
           "needsReview": true
         },
         {
@@ -7396,7 +7489,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each gram of force on the GAT dial equals 10 mmHg.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03420",
@@ -7423,7 +7517,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The average adult IOP is about 15–16 mmHg.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03421",
@@ -7450,7 +7545,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ocular pulse amplitude is the change in IOP with each heartbeat.",
           "needsReview": true
         },
         {
@@ -7478,7 +7573,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pressing on the eye with your fingers only gives a crude estimate of very high or low IOP.",
           "needsReview": true
         },
         {
@@ -7506,7 +7601,7 @@
               "feedback": "Slit lamp."
             }
           ],
-          "explanation": "",
+          "explanation": "Rebound tonometry is quick, needs no anaesthetic and is used for children and home monitoring.",
           "needsReview": true
         },
         {
@@ -7588,7 +7683,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The GAT prism touches the cornea, so a topical anaesthetic is needed.",
           "needsReview": true
         },
         {
@@ -7616,7 +7711,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Thin mires mean too little fluorescein, so IOP is underestimated.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03427",
@@ -7643,7 +7739,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High IOP with healthy discs and fields is ocular hypertension, not glaucoma.",
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03428",
@@ -7670,7 +7767,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Normal-tension glaucoma is glaucomatous damage despite IOP in the normal range.",
           "needsReview": true
         },
         {
@@ -7698,7 +7795,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "IOP varies, so one reading may not be typical; repeating gives a truer picture.",
           "needsReview": true
         },
         {
@@ -7726,7 +7823,7 @@
               "feedback": "Not if indicated."
             }
           ],
-          "explanation": "",
+          "explanation": "Explaining and warning the patient first helps them stay relaxed and keep their eye open.",
           "needsReview": true
         }
       ],
@@ -7941,7 +8038,8 @@
               "feedback": "Too young as a cut-off."
             }
           ],
-          "explanation": ""
+          "explanation": "Glaucoma risk rises with age, so everyone over 35 should have the diagnostic triad checked.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0053",
@@ -7968,7 +8066,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The vascular theory, poor blood flow at the lamina, explains damage at normal pressures better than the mechanical theory.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0054",
@@ -8157,7 +8256,8 @@
               "feedback": "Not mentioned."
             }
           ],
-          "explanation": ""
+          "explanation": "Patients often do better on a second field as they learn the test: a learning effect.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0058",
@@ -8184,7 +8284,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "NICE NG81 says to refer if IOP is 24 mmHg or more on repeat measurement with contact tonometry.",
           "needsReview": true
         },
         {
@@ -8266,7 +8366,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "IOP varies, so NICE says to repeat the measurement before referring.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0163",
@@ -8293,7 +8394,8 @@
               "feedback": "Nerve fibres."
             }
           ],
-          "explanation": ""
+          "explanation": "Glaucoma damages nerve fibre bundles that arc around the fovea, so defects follow the same arcs.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0164",
@@ -8320,7 +8422,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A nasal step is a step-like defect at the nasal horizontal meridian, because fibres don't cross the horizontal raphe.",
           "needsReview": true
         },
         {
@@ -8348,7 +8450,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High false negatives mean the patient missed points they should see, suggesting fatigue or inattention.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0166",
@@ -8375,7 +8478,8 @@
               "feedback": "Reliability."
             }
           ],
-          "explanation": ""
+          "explanation": "Mean deviation (MD) summarises the overall depression of the field compared with normal.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0167",
@@ -8402,7 +8506,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A prostaglandin analogue is usually the first-line glaucoma drop.",
           "needsReview": true
         },
         {
@@ -8430,7 +8534,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Corneal thickness affects IOP readings, and a thin cornea is itself a risk factor for glaucoma.",
           "needsReview": true
         },
         {
@@ -8458,7 +8562,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Progression analysis compares a series of fields over time to detect real change.",
           "needsReview": true
         },
         {
@@ -8486,7 +8590,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Haloes with a narrow angle suggest intermittent angle closure, which needs referral.",
           "needsReview": true
         },
         {
@@ -8514,7 +8618,8 @@
               "feedback": "Not open-angle."
             }
           ],
-          "explanation": ""
+          "explanation": "Pseudoexfoliative glaucoma is secondary, caused by exfoliation material blocking the meshwork.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0342",
@@ -8541,7 +8646,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pigment dispersion glaucoma typically affects young, myopic men.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0343",
@@ -8568,7 +8674,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Neovascular glaucoma follows retinal ischaemia, such as central retinal vein occlusion or diabetes.",
           "needsReview": true
         },
         {
@@ -8596,7 +8702,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Angle recession glaucoma follows blunt trauma that tears the ciliary body.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0345",
@@ -8623,7 +8730,7 @@
               "feedback": "Macula/nerve."
             }
           ],
-          "explanation": "",
+          "explanation": "Early glaucoma often shows a paracentral scotoma or a nasal step.",
           "needsReview": true
         },
         {
@@ -8651,7 +8758,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "End-stage glaucoma often leaves only a small central island of vision.",
           "needsReview": true
         },
         {
@@ -8679,7 +8786,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Glaucoma Hemifield Test compares the upper and lower field, which glaucoma usually affects unequally.",
           "needsReview": true
         },
         {
@@ -8707,7 +8814,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The visual field index expresses remaining visual function as a percentage.",
           "needsReview": true
         },
         {
@@ -8735,7 +8842,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A target pressure is an IOP chosen for that patient, at which further damage is unlikely.",
           "needsReview": true
         },
         {
@@ -8763,7 +8870,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "DVLA guidance for car drivers says they must tell the DVLA if glaucoma affects both eyes.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03411",
@@ -8790,7 +8898,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A parent or sibling with glaucoma increases a person's risk.",
           "needsReview": true
         },
         {
@@ -8818,7 +8926,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Repeat readings and refinement schemes confirm findings before referral, reducing unnecessary referrals.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03413",
@@ -8845,7 +8954,7 @@
               "feedback": "Details."
             }
           ],
-          "explanation": "",
+          "explanation": "The referral should include IOP (with method and time), disc and field findings and risk factors.",
           "needsReview": true
         },
         {
@@ -8873,7 +8982,8 @@
               "feedback": "Act."
             }
           ],
-          "explanation": ""
+          "explanation": "Very high IOP risks rapid damage, so it needs urgent referral.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03415",
@@ -8900,7 +9010,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High fixation losses mean the patient's eye moved, so the field is unreliable.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03416",
@@ -8927,7 +9038,8 @@
               "feedback": "It can."
             }
           ],
-          "explanation": ""
+          "explanation": "Cataract scatters light and dims stimuli, causing a general depression of the field.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03417",
@@ -8954,7 +9066,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Damage to the nasal part of the disc affects fibres serving the temporal field, giving a temporal wedge defect.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03418",
@@ -8981,7 +9094,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rim loss that matches a field defect strongly suggests glaucoma.",
           "needsReview": true
         },
         {
@@ -9009,7 +9122,7 @@
               "feedback": "It's managed."
             }
           ],
-          "explanation": "",
+          "explanation": "In the UK, established glaucoma is managed by hospitals or accredited community schemes.",
           "needsReview": true
         },
         {
@@ -9037,7 +9150,7 @@
               "feedback": "It's often not."
             }
           ],
-          "explanation": "",
+          "explanation": "Glaucoma has no symptoms until late, and drops can have side effects, so adherence is hard.",
           "needsReview": true
         },
         {
@@ -9065,7 +9178,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Glaucoma kills retinal ganglion cells, so the damage can't be reversed.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03422",
@@ -9092,7 +9206,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Under NICE guidance, an IOP of 24 mmHg or more on repeat should be referred.",
           "needsReview": true
         },
         {
@@ -9120,7 +9234,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Low blood pressure and vasospasm reduce blood flow to the nerve, a risk factor for normal-tension glaucoma.",
           "needsReview": true
         },
         {
@@ -9148,7 +9262,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A thin cornea makes IOP read low and is itself a risk factor, so it affects the treatment decision.",
           "needsReview": true
         },
         {
@@ -9176,7 +9290,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Gonioscopy is the only way to directly confirm that the angle is open.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03426",
@@ -9203,7 +9318,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An RAPD shows one optic nerve is more damaged than the other.",
           "needsReview": true
         },
         {
@@ -9231,7 +9346,7 @@
               "feedback": "Macula."
             }
           ],
-          "explanation": "",
+          "explanation": "SITA Standard or SITA Fast 24-2 are commonly used for glaucoma monitoring.",
           "needsReview": true
         },
         {
@@ -9259,7 +9374,7 @@
               "feedback": "It happens."
             }
           ],
-          "explanation": "",
+          "explanation": "Many ganglion cells can be lost before a field defect appears, so the disc may look damaged first.",
           "needsReview": true
         },
         {
@@ -9287,7 +9402,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "People diagnosed with glaucoma get free NHS sight tests in England.",
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x03430",
@@ -9314,7 +9430,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pre-perimetric glaucoma is structural damage to the nerve before any field loss can be detected.",
           "needsReview": true
         }
       ],
@@ -9506,7 +9622,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A standard fundus camera usually captures about 45° of the fundus.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0053",
@@ -9587,7 +9704,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The ellipsoid zone is part of the photoreceptors, in their inner segments.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0055",
@@ -9614,7 +9732,7 @@
               "feedback": "That's green."
             }
           ],
-          "explanation": "",
+          "explanation": "'Red disease' is a false alarm from a poor scan or an eye unlike the normative database.",
           "needsReview": true
         },
         {
@@ -9804,7 +9922,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Optomap gives an ultra-widefield view of about 200° of the retina.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0161",
@@ -9885,7 +10004,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "OCT has an axial resolution of about 5 µm, fine enough to see individual retinal layers.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0163",
@@ -9912,7 +10032,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "OCT angiography detects movement of blood cells, showing blood flow without injecting dye.",
           "needsReview": true
         },
         {
@@ -9940,7 +10060,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fluorescein angiography needs dye injected into a vein, so it's done in hospital.",
           "needsReview": true
         },
         {
@@ -9968,7 +10088,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fundus autofluorescence shows lipofuscin in the RPE, which changes in many retinal diseases.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0166",
@@ -9995,7 +10116,7 @@
               "feedback": "Not retina."
             }
           ],
-          "explanation": "",
+          "explanation": "The nerve fibre layer is the innermost retinal layer, next to the vitreous.",
           "needsReview": true
         },
         {
@@ -10023,7 +10144,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A weak signal gives unreliable measurements, so check signal strength before interpreting a scan.",
           "needsReview": true
         },
         {
@@ -10051,7 +10172,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'Green disease' is real damage that's hidden because the result falls within the normal range.",
           "needsReview": true
         },
         {
@@ -10079,7 +10200,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Normative databases often exclude high myopes, so their results can be misleading.",
           "needsReview": true
         },
         {
@@ -10107,7 +10228,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Segmentation errors are when the software draws layer boundaries in the wrong place.",
           "needsReview": true
         },
         {
@@ -10135,7 +10256,8 @@
               "feedback": "Not OCT."
             }
           ],
-          "explanation": ""
+          "explanation": "Swept-source OCT uses a tunable laser at a longer wavelength, so it penetrates deeper into the choroid.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0342",
@@ -10162,7 +10284,8 @@
               "feedback": "Angiography."
             }
           ],
-          "explanation": ""
+          "explanation": "Time-domain OCT was the original, slower design, replaced by spectral-domain OCT.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0343",
@@ -10189,7 +10312,7 @@
               "feedback": "Rings."
             }
           ],
-          "explanation": "",
+          "explanation": "The ETDRS grid has 9 subfields in rings of 1, 3 and 6 mm diameter.",
           "needsReview": true
         },
         {
@@ -10217,7 +10340,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ganglion cells are lost early in glaucoma, so macular ganglion cell analysis helps detect it.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0345",
@@ -10244,7 +10368,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An RNFL circle scan is usually about 3.4 mm across, centred on the disc.",
           "needsReview": true
         },
         {
@@ -10272,7 +10396,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The RNFL is thickest superiorly and inferiorly, so the TSNIT plot shows a double hump.",
           "needsReview": true
         },
         {
@@ -10300,7 +10424,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Subretinal fluid on OCT is typical of central serous chorioretinopathy or wet AMD.",
           "needsReview": true
         },
         {
@@ -10328,7 +10452,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Drusen show on OCT as bumps of the RPE.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0349",
@@ -10355,7 +10480,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A full-thickness macular hole shows as a gap through all the retinal layers at the fovea.",
           "needsReview": true
         },
         {
@@ -10383,7 +10508,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In vitreomacular traction, the vitreous stays attached at the fovea and pulls it upwards.",
           "needsReview": true
         },
         {
@@ -10411,7 +10536,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An epiretinal membrane shows as a bright line on the inner surface of the retina.",
           "needsReview": true
         },
         {
@@ -10439,7 +10564,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Geographic atrophy has lost its RPE and lipofuscin, so it looks dark on autofluorescence.",
           "needsReview": true
         },
         {
@@ -10467,7 +10592,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Indocyanine green angiography shows the choroidal vessels best.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x03414",
@@ -10494,7 +10620,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "B-scan ultrasound can image the retina when the media are too cloudy to see through.",
           "needsReview": true
         },
         {
@@ -10522,7 +10648,8 @@
               "feedback": "Artefact."
             }
           ],
-          "explanation": ""
+          "explanation": "A blink blocks the scan briefly, creating a dark band artefact.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x03416",
@@ -10549,7 +10676,7 @@
               "feedback": "Shadows."
             }
           ],
-          "explanation": "",
+          "explanation": "Floaters can cast shadows on the scan.",
           "needsReview": true
         },
         {
@@ -10577,7 +10704,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinal images are part of the patient's confidential record.",
           "needsReview": true
         },
         {
@@ -10605,7 +10732,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Sharing images needs the patient's consent and a secure route.",
           "needsReview": true
         },
         {
@@ -10633,7 +10760,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ultra-widefield imaging captures about 200° of the retina.",
           "needsReview": true
         },
         {
@@ -10661,7 +10788,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ultra-widefield images are built from laser wavelengths, so their colours are pseudocolour.",
           "needsReview": true
         },
         {
@@ -10689,7 +10816,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Intraretinal cysts on OCT are a sign of macular oedema.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x03422",
@@ -10716,7 +10844,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "OCT measures macular thickness and fluid, showing diabetic macular oedema.",
           "needsReview": true
         },
         {
@@ -10744,7 +10872,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the RNFL circle isn't centred on the disc, some sectors are measured further away and look falsely thin.",
           "needsReview": true
         },
         {
@@ -10772,7 +10900,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Different OCT devices measure differently, so comparisons over time should use the same device.",
           "needsReview": true
         },
         {
@@ -10800,7 +10928,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The ellipsoid zone represents the inner segments of the photoreceptors.",
           "needsReview": true
         },
         {
@@ -10828,7 +10956,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Disruption of the ellipsoid zone suggests damage to the photoreceptors.",
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x03427",
@@ -10855,7 +10984,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Anterior segment OCT can measure corneal thickness and image the angle.",
           "needsReview": true
         },
         {
@@ -10883,7 +11012,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fluorescein and ICG angiography need dye injected into a vein.",
           "needsReview": true
         },
         {
@@ -10911,7 +11040,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fundus photos are mainly useful for documenting appearance so change can be seen over time.",
           "needsReview": true
         },
         {
@@ -10939,7 +11068,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Artefacts and normative databases can mislead, so OCT results must be read alongside the clinical picture.",
           "needsReview": true
         },
         {
@@ -10967,7 +11096,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hyperreflective foci on OCT may suggest inflammation or lipid deposits.",
           "needsReview": true
         }
       ],
@@ -11134,7 +11263,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A +20 D condensing lens forms a real image that is inverted and laterally reversed.",
           "needsReview": true
         },
         {
@@ -11162,7 +11291,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Headset BIO with a +20 D lens gives a field of about 45° at about 3× magnification.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0053",
@@ -11297,7 +11427,7 @@
               "feedback": "Mirrors are used."
             }
           ],
-          "explanation": "",
+          "explanation": "With a contact fundus lens, you use the mirror opposite the area you want to see.",
           "needsReview": true
         },
         {
@@ -11325,7 +11455,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Place the light spot in the upper part of your view and size it to the pupil, at a comfortable brightness.",
           "needsReview": true
         },
         {
@@ -11407,7 +11537,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lattice degeneration has thinned retina with firm vitreous attachment at its edges, linked with tears and detachment.",
           "needsReview": true
         },
         {
@@ -11435,7 +11565,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A horseshoe tear has a flap pulled by the vitreous and can quickly lead to detachment, so it needs urgent referral.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0163",
@@ -11462,7 +11593,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "White without pressure is a common, usually benign appearance of the peripheral retina.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0164",
@@ -11489,7 +11621,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cobblestone (paving stone) degeneration is a benign area of chorioretinal atrophy.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0165",
@@ -11516,7 +11649,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Weiss ring is the ring where the vitreous was attached at the disc, so it shows a posterior vitreous detachment.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0166",
@@ -11543,7 +11677,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For headset BIO, the patient is usually reclined or lying down so you can look down into the eye.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0167",
@@ -11570,7 +11705,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "To see the superior periphery, the patient looks up.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0168",
@@ -11597,7 +11733,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A pigmented demarcation line forms at the edge of a long-standing detachment.",
           "needsReview": true
         },
         {
@@ -11625,7 +11761,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinoschisis is a splitting between the layers of the retina.",
           "needsReview": true
         },
         {
@@ -11653,7 +11789,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The direct ophthalmoscope's field is too small to reach the far periphery.",
           "needsReview": true
         },
         {
@@ -11681,7 +11817,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The vortex vein ampullae lie near the equator, so they mark it.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0352",
@@ -11708,7 +11845,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The long posterior ciliary nerves and arteries run along the horizontal meridian.",
           "needsReview": true
         },
         {
@@ -11736,7 +11873,7 @@
               "feedback": "It's firmly attached."
             }
           ],
-          "explanation": "",
+          "explanation": "The vitreous base straddles the ora serrata and is firmly attached there.",
           "needsReview": true
         },
         {
@@ -11764,7 +11901,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "About 10–15% of acute symptomatic PVDs have a retinal tear.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0355",
@@ -11791,7 +11929,8 @@
               "feedback": "Rhegmatogenous means break."
             }
           ],
-          "explanation": ""
+          "explanation": "A rhegmatogenous detachment is caused by a break in the retina that lets fluid get underneath.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0356",
@@ -11818,7 +11957,8 @@
               "feedback": "It can."
             }
           ],
-          "explanation": ""
+          "explanation": "In proliferative diabetic retinopathy, fibrovascular tissue can contract and pull the retina off: tractional detachment.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0357",
@@ -11845,7 +11985,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In exudative detachment, the fluid isn't held by a break, so it shifts with head position.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0358",
@@ -11872,7 +12013,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A fresh rhegmatogenous detachment looks grey, corrugated and moves with eye movements.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0359",
@@ -11899,7 +12041,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fluid drains out through the break and the RPE, so IOP is often slightly lower than in the other eye.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03510",
@@ -11926,7 +12069,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In an operculated hole, the piece of retina has torn free and floats above the hole.",
           "needsReview": true
         },
         {
@@ -11954,7 +12097,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Atrophic round holes in lattice have no vitreous pulling on them, so they're lower risk than horseshoe tears.",
           "needsReview": true
         },
         {
@@ -11982,7 +12125,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Snail track degeneration looks like white, frosty bands in the peripheral retina.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03513",
@@ -12009,7 +12153,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Microcystoid degeneration near the ora serrata is common and benign.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03514",
@@ -12036,7 +12181,8 @@
               "feedback": "Pigment."
             }
           ],
-          "explanation": ""
+          "explanation": "Asteroid hyalosis is many tiny white particles that bounce back into place as the eye moves; it's usually benign.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03515",
@@ -12063,7 +12209,8 @@
               "feedback": "Retina."
             }
           ],
-          "explanation": ""
+          "explanation": "Synchysis scintillans is glittering cholesterol crystals that settle at the bottom of the vitreous.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03516",
@@ -12090,7 +12237,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinoschisis is a smooth dome with an absolute scotoma and no pigment in the vitreous, unlike detachment.",
           "needsReview": true
         },
         {
@@ -12118,7 +12265,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinoschisis is most often found inferotemporally, and often in both eyes.",
           "needsReview": true
         },
         {
@@ -12146,7 +12293,7 @@
               "feedback": "Treat."
             }
           ],
-          "explanation": "",
+          "explanation": "A symptomatic horseshoe tear is commonly sealed with laser or cryotherapy to prevent detachment.",
           "needsReview": true
         },
         {
@@ -12174,7 +12321,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "If the macula is still attached, prompt surgery can save central vision.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03520",
@@ -12201,7 +12349,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "New floaters, flashes or a curtain could mean a tear or detachment developing.",
           "needsReview": true
         },
         {
@@ -12229,7 +12377,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A higher-power BIO lens such as 28 D gives a wider field with less magnification.",
           "needsReview": true
         },
         {
@@ -12257,7 +12405,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The pars plana lies behind the ciliary folds (pars plicata), in front of the ora serrata.",
           "needsReview": true
         },
         {
@@ -12285,7 +12433,8 @@
               "feedback": "Refer."
             }
           ],
-          "explanation": ""
+          "explanation": "Pavingstone degeneration is benign, so it doesn't need referral if typical.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03524",
@@ -12312,7 +12461,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A dense vitreous haemorrhage can hide a tear or detachment, so a B-scan is needed urgently.",
           "needsReview": true
         },
         {
@@ -12340,7 +12489,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinal tufts are small nodules that can cause traction and tears.",
           "needsReview": true
         },
         {
@@ -12368,7 +12517,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High myopes have longer eyes with thinner peripheral retina, so a higher risk of detachment.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03527",
@@ -12395,7 +12545,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Flashes and floaters can come from a retinal tear, so the periphery must be checked with dilation.",
           "needsReview": true
         },
         {
@@ -12423,7 +12573,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ultra-widefield imaging can capture and document lesions in the far periphery.",
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x03529",
@@ -12450,7 +12601,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Weiss ring shows the vitreous has separated from the disc: a posterior vitreous detachment.",
           "needsReview": true
         },
         {
@@ -12478,7 +12629,7 @@
               "feedback": "It can be."
             }
           ],
-          "explanation": "",
+          "explanation": "A tear can develop in the weeks after a PVD, so patients are often reviewed.",
           "needsReview": true
         }
       ],
@@ -12687,7 +12838,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In bright light the normal pupil constricts, so if the difference is bigger then, the larger pupil isn't constricting properly.",
           "needsReview": true
         },
         {
@@ -12769,7 +12920,8 @@
               "feedback": "That's linked to Adie's."
             }
           ],
-          "explanation": ""
+          "explanation": "Argyll Robertson pupils (small, irregular, light-near dissociation) are classically caused by neurosyphilis.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0054",
@@ -12850,7 +13002,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The optic nerve carries the afferent signal for the pupil light reflex.",
           "needsReview": true
         },
         {
@@ -12878,7 +13030,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The parasympathetic pathway runs from the Edinger-Westphal nucleus via CN III and the ciliary ganglion to the sphincter.",
           "needsReview": true
         },
         {
@@ -12906,7 +13058,7 @@
               "feedback": "One."
             }
           ],
-          "explanation": "",
+          "explanation": "In dim light the normal pupil dilates, so if the difference is bigger then, the smaller pupil isn't dilating properly.",
           "needsReview": true
         },
         {
@@ -12934,7 +13086,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Horner's syndrome is ptosis, miosis and anhidrosis, from loss of sympathetic supply.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0165",
@@ -12961,7 +13114,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Pancoast tumour at the lung apex can damage the sympathetic chain, causing Horner's syndrome.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0166",
@@ -12988,7 +13142,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An Adie's pupil has denervation supersensitivity, so dilute pilocarpine constricts it more than a normal pupil.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0167",
@@ -13015,7 +13170,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If 1% pilocarpine doesn't constrict the pupil, the receptors are blocked by a drug such as atropine.",
           "needsReview": true
         },
         {
@@ -13043,7 +13198,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An RAPD is graded by placing neutral density filters over the good eye until the response balances.",
           "needsReview": true
         },
         {
@@ -13071,7 +13226,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In light-near dissociation the pupil constricts more to a near target than to light.",
           "needsReview": true
         },
         {
@@ -13099,7 +13254,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In bright light, pupils are typically about 2–4 mm.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0351",
@@ -13126,7 +13282,7 @@
               "feedback": "Lid."
             }
           ],
-          "explanation": "",
+          "explanation": "The sphincter pupillae, supplied by parasympathetic fibres, constricts the pupil.",
           "needsReview": true
         },
         {
@@ -13154,7 +13310,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The dilator pupillae, supplied by sympathetic fibres, dilates the pupil.",
           "needsReview": true
         },
         {
@@ -13182,7 +13338,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The first-order sympathetic neuron runs from the hypothalamus to the spinal cord at C8–T2.",
           "needsReview": true
         },
         {
@@ -13210,7 +13366,8 @@
               "feedback": "Parasympathetic."
             }
           ],
-          "explanation": ""
+          "explanation": "The third-order neuron starts at the superior cervical ganglion and runs to the eye.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0355",
@@ -13237,7 +13394,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In Horner's syndrome, the dilator becomes supersensitive, so apraclonidine dilates the affected pupil.",
           "needsReview": true
         },
         {
@@ -13265,7 +13422,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A sudden, painful Horner's syndrome can be caused by carotid artery dissection, which is urgent.",
           "needsReview": true
         },
         {
@@ -13293,7 +13450,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Sympathetic supply is needed for iris pigment to develop, so congenital Horner's can leave that iris lighter.",
           "needsReview": true
         },
         {
@@ -13321,7 +13478,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Adie's tonic pupil is most common in young women.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0359",
@@ -13348,7 +13506,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Holmes-Adie syndrome is an Adie's pupil with reduced deep tendon reflexes.",
           "needsReview": true
         },
         {
@@ -13376,7 +13534,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Segmental, worm-like iris movements are typical of an Adie's tonic pupil.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03511",
@@ -13403,7 +13562,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Parinaud's (dorsal midbrain) syndrome causes light-near dissociation with an upgaze palsy.",
           "needsReview": true
         },
         {
@@ -13431,7 +13590,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Even a dense cataract rarely causes an RAPD, because enough light still reaches the retina.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03513",
@@ -13458,7 +13618,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The pupil response is shared between the eyes, so an RAPD doesn't make the pupils different sizes.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03514",
@@ -13485,7 +13646,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Physiological anisocoria is usually 1 mm or less and similar in light and dark.",
           "needsReview": true
         },
         {
@@ -13513,7 +13674,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Atropine or scopolamine (for example from patches) can accidentally dilate a pupil.",
           "needsReview": true
         },
         {
@@ -13541,7 +13702,8 @@
               "feedback": "Bilateral."
             }
           ],
-          "explanation": ""
+          "explanation": "Opioids cause small (miotic) pupils.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03517",
@@ -13568,7 +13730,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Keep the light on each eye for about 2–3 seconds before swinging.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03518",
@@ -13595,7 +13758,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Pupils are larger in dim light, so their reactions are easier to see.",
           "needsReview": true
         },
         {
@@ -13623,7 +13786,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hippus is small rhythmic fluctuations in pupil size under steady light, which is normal.",
           "needsReview": true
         },
         {
@@ -13651,7 +13814,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pupils get smaller with age (senile miosis).",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03521",
@@ -13678,7 +13842,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A third nerve palsy with a dilated pupil may be caused by an aneurysm compressing the nerve.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03522",
@@ -13705,7 +13870,8 @@
               "feedback": "Confirms Horner's."
             }
           ],
-          "explanation": ""
+          "explanation": "Hydroxyamphetamine dilates the pupil only if the third-order neuron is intact, so failure localises the lesion there.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03523",
@@ -13732,7 +13898,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cocaine blocks noradrenaline reuptake, but in Horner's there's little noradrenaline, so the pupil doesn't dilate.",
           "needsReview": true
         },
         {
@@ -13760,7 +13926,7 @@
               "feedback": "Not RAPD."
             }
           ],
-          "explanation": "",
+          "explanation": "With an RAPD, when the light swings to the affected eye both pupils dilate, because less light is sensed.",
           "needsReview": true
         },
         {
@@ -13788,7 +13954,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The near response is tested by bringing a near target towards the patient.",
           "needsReview": true
         },
         {
@@ -13816,7 +13982,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Diabetes can damage the autonomic nerves to the iris, giving small, sluggish pupils.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03527",
@@ -13843,7 +14010,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dilation stops you assessing pupil reactions, so they must be recorded first.",
           "needsReview": true
         },
         {
@@ -13871,7 +14038,8 @@
               "feedback": "Small pupil."
             }
           ],
-          "explanation": ""
+          "explanation": "If even 1% pilocarpine doesn't constrict a dilated pupil, it's likely blocked by a drug.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03529",
@@ -13898,7 +14066,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Marcus Gunn pupil is another name for a relative afferent pupillary defect.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x03530",
@@ -13925,7 +14094,8 @@
               "feedback": "Different."
             }
           ],
-          "explanation": ""
+          "explanation": "Argyll Robertson pupils 'accommodate but don't react': they constrict to near but not to light.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -14194,7 +14364,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The 24-2 test checks 54 points in the central 24°.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0162",
@@ -14221,7 +14392,8 @@
               "feedback": "Crude."
             }
           ],
-          "explanation": ""
+          "explanation": "The 10-2 tests the central 10° with closely spaced points, so it suits central field loss.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0163",
@@ -14248,7 +14420,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Heijl-Krakau monitoring presents targets in the blind spot; if seen, the eye has moved off fixation.",
           "needsReview": true
         },
         {
@@ -14276,7 +14448,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The temporal lobe carries fibres from the inferior retina (Meyer's loop), so damage causes a superior quadrantanopia.",
           "needsReview": true
         },
         {
@@ -14304,7 +14476,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Macular sparing with a homonymous hemianopia suggests an occipital lesion, because the macular area has a dual blood supply.",
           "needsReview": true
         },
         {
@@ -14332,7 +14504,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A swollen disc enlarges the area with no photoreceptors, so papilloedema can enlarge the blind spot.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0167",
@@ -14359,7 +14532,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An altitudinal defect respecting the horizontal is typical of ischaemic optic neuropathy.",
           "needsReview": true
         },
         {
@@ -14387,7 +14560,8 @@
               "feedback": "Not by itself."
             }
           ],
-          "explanation": ""
+          "explanation": "Patients often improve on their second test as they learn it: the learning effect.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0169",
@@ -14414,7 +14588,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "The pattern deviation plot removes generalised depression, such as from cataract, to show focal defects.",
           "needsReview": true
         },
         {
@@ -14442,7 +14616,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The further back a homonymous lesion is, the more alike (congruous) the defects in each eye become.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0351",
@@ -14469,7 +14644,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The normal monocular field extends about 100° temporally.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0352",
@@ -14496,7 +14672,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The normal monocular field extends about 60° nasally.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0353",
@@ -14523,7 +14700,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The hill of vision describes sensitivity, highest at fixation and falling towards the periphery.",
           "needsReview": true
         },
         {
@@ -14551,7 +14728,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Static perimetry shows still targets at fixed points and varies their brightness.",
           "needsReview": true
         },
         {
@@ -14579,7 +14756,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Kinetic perimetry moves targets in from the periphery to map isopters (lines of equal sensitivity).",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0356",
@@ -14606,7 +14784,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Humphrey testing usually uses Goldmann size III targets.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0357",
@@ -14633,7 +14812,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The 10-2 test points are spaced 2° apart.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0358",
@@ -14660,7 +14840,8 @@
               "feedback": "Esterman."
             }
           ],
-          "explanation": ""
+          "explanation": "The 30-2 test checks 76 points in the central 30°.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0359",
@@ -14687,7 +14868,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Esterman binocular test uses 120 points, for driving assessments.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03510",
@@ -14714,7 +14896,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Frequency doubling technology perimetry is used mainly for glaucoma screening.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03511",
@@ -14741,7 +14924,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A suprathreshold strategy checks whether a target brighter than expected threshold is seen, which is quick.",
           "needsReview": true
         },
         {
@@ -14769,7 +14952,8 @@
               "feedback": "Normals."
             }
           ],
-          "explanation": ""
+          "explanation": "The total deviation plot compares each point with age-matched normal values.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03513",
@@ -14796,7 +14980,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pattern standard deviation reflects localised (focal) loss, as opposed to overall depression.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03514",
@@ -14823,7 +15008,7 @@
               "feedback": "It's an artefact."
             }
           ],
-          "explanation": "",
+          "explanation": "The rim of a trial lens can block the outer field, causing a ring of reduced sensitivity at about 25–30°.",
           "needsReview": true
         },
         {
@@ -14851,7 +15036,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A droopy upper lid blocks the superior field, giving an artefact.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03516",
@@ -14878,7 +15064,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Bjerrum's area is the arcuate region about 10–20° from fixation, where glaucoma defects often appear.",
           "needsReview": true
         },
         {
@@ -14906,7 +15092,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A junctional scotoma comes from a lesion where the optic nerve joins the chiasm.",
           "needsReview": true
         },
         {
@@ -14934,7 +15120,8 @@
               "feedback": "Not first."
             }
           ],
-          "explanation": ""
+          "explanation": "A pituitary tumour presses on the chiasm from below, affecting inferior nasal fibres first, which serve the superior temporal fields.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03519",
@@ -14961,7 +15148,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A craniopharyngioma presses from above, affecting superior fibres first, which serve the inferior temporal fields.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03520",
@@ -14988,7 +15176,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The parietal lobe carries fibres from the superior retina, so damage causes an inferior quadrantanopia ('pie on the floor').",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03521",
@@ -15015,7 +15204,8 @@
               "feedback": "It joins them."
             }
           ],
-          "explanation": ""
+          "explanation": "A centrocaecal scotoma joins the point of fixation to the blind spot.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03522",
@@ -15042,7 +15232,7 @@
               "feedback": "Ring."
             }
           ],
-          "explanation": "",
+          "explanation": "Toxic or nutritional optic neuropathy commonly causes centrocaecal scotomas.",
           "needsReview": true
         },
         {
@@ -15070,7 +15260,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Blur depresses sensitivity, so the right near correction is needed for central field testing.",
           "needsReview": true
         },
         {
@@ -15098,7 +15288,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A high false-positive rate means the patient pressed the button when no target was shown.",
           "needsReview": true
         },
         {
@@ -15126,7 +15316,8 @@
               "feedback": "Different purpose."
             }
           ],
-          "explanation": ""
+          "explanation": "SITA Faster is the quickest strategy for routine Humphrey testing.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03526",
@@ -15153,7 +15344,7 @@
               "feedback": "It's measurable."
             }
           ],
-          "explanation": "",
+          "explanation": "The physiological blind spot is about 5–6° wide and 7–8° tall.",
           "needsReview": true
         },
         {
@@ -15289,7 +15480,8 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": ""
+          "explanation": "A defect that changes a lot between visits may be unreliable or due to learning, so it needs confirming.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03530",
@@ -15316,7 +15508,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Repeating a new defect before a non-urgent referral confirms it's real and not an artefact.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0061",
@@ -15451,7 +15644,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The retinal image is inverted, so the inferior retina sees the superior field.",
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0064",
@@ -15478,7 +15672,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In kinetic perimetry, an isopter is a line joining points of equal sensitivity.",
           "needsReview": true
         },
         {
@@ -15506,7 +15700,7 @@
               "feedback": "0 dB is the brightest."
             }
           ],
-          "explanation": "",
+          "explanation": "In perimetry, 1 dB is 0.1 log unit of stimulus intensity; 0 dB is the brightest stimulus.",
           "needsReview": true
         },
         {
@@ -15534,7 +15728,7 @@
               "feedback": "Too low."
             }
           ],
-          "explanation": "",
+          "explanation": "About half to three quarters of people who have had a stroke get some field loss, most often homonymous hemianopia.",
           "needsReview": true
         }
       ],
