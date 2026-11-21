@@ -176,7 +176,7 @@
               "feedback": "Some is held."
             }
           ],
-          "explanation": "",
+          "explanation": "The conjunctival sac holds only about 7–10 µl, so most of a 30–50 µl drop spills over the lid or drains away.",
           "needsReview": true
         },
         {
@@ -204,7 +204,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "Drops drain through the nasolacrimal duct to the nasal mucosa, where they're absorbed straight into the bloodstream.",
           "needsReview": true
         },
         {
@@ -232,7 +232,7 @@
               "feedback": "Not the method."
             }
           ],
-          "explanation": "",
+          "explanation": "Gently closing the eyes or pressing on the inner corner (punctal occlusion) slows drainage into the nose, reducing systemic absorption.",
           "needsReview": true
         },
         {
@@ -260,7 +260,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Melanin in dark irides binds some drugs, so less is free to act at first and dilation is slower.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0075",
@@ -395,7 +396,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The epithelium lets lipophilic drugs through and the stroma lets hydrophilic ones through, so a drug needs both properties.",
           "needsReview": true
         },
         {
@@ -531,7 +532,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Latanoprost is given as an inactive ester that is converted to the active acid by enzymes in the cornea.",
           "needsReview": true
         },
         {
@@ -559,7 +560,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "Ointments stay in the eye longer than drops, but they blur vision while present.",
           "needsReview": true
         },
         {
@@ -587,7 +588,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Preservatives such as BAK can damage the ocular surface with long-term use; preservative-free drops avoid this.",
           "needsReview": true
         },
         {
@@ -615,7 +616,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Drug absorbed through the nasal mucosa goes straight into the circulation, bypassing first-pass metabolism in the liver.",
           "needsReview": true
         },
         {
@@ -643,7 +644,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Melanin binds the drug and then releases it slowly, so in dark irides drugs act more slowly but for longer.",
           "needsReview": true
         },
         {
@@ -671,7 +672,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Gels are more viscous, so they stay in contact with the eye for longer than drops.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0189",
@@ -698,7 +700,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The eye can only hold a small volume, so excess spills over the lid margin or drains through the puncta.",
           "needsReview": true
         },
         {
@@ -726,7 +728,8 @@
               "feedback": "Retina."
             }
           ],
-          "explanation": ""
+          "explanation": "Most anterior eye drugs are given topically, as drops or ointment, to reach the front of the eye directly.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0461",
@@ -753,7 +756,7 @@
               "feedback": "ADME."
             }
           ],
-          "explanation": "",
+          "explanation": "ADME stands for absorption, distribution, metabolism and excretion: the stages of pharmacokinetics.",
           "needsReview": true
         },
         {
@@ -781,7 +784,8 @@
               "feedback": "Some does."
             }
           ],
-          "explanation": ""
+          "explanation": "Because of drainage, tear turnover and the corneal barrier, under about 5% of a drop usually reaches the aqueous.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0463",
@@ -808,7 +812,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A typical commercial eye drop is about 30–50 µL, larger than the eye can hold.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0464",
@@ -835,7 +840,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The un-ionised form is more lipid-soluble, so it crosses the lipid-rich corneal epithelium more easily.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0465",
@@ -862,7 +868,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Viscosity agents such as hypromellose thicken the drop so it stays on the eye longer.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0466",
@@ -889,7 +896,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In a suspension, the drug particles settle, so it must be shaken to get an even dose.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0467",
@@ -916,7 +924,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ciclosporin doesn't dissolve well in water, so it's often formulated as an oil-in-water emulsion.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0468",
@@ -943,7 +952,8 @@
               "feedback": "One must be last."
             }
           ],
-          "explanation": ""
+          "explanation": "Ointment goes in last, because it forms a barrier that would stop a drop being absorbed.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0469",
@@ -970,7 +980,8 @@
               "feedback": "They exist."
             }
           ],
-          "explanation": ""
+          "explanation": "Polyquad and similar preservatives are gentler on the ocular surface than benzalkonium chloride (BAK).",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04610",
@@ -997,7 +1008,7 @@
               "feedback": "Usually do."
             }
           ],
-          "explanation": "",
+          "explanation": "Soft lenses can absorb preservatives such as BAK and release them onto the cornea, causing toxicity.",
           "needsReview": true
         },
         {
@@ -1025,7 +1036,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The blood-retinal barrier limits how much of a drug in the blood can reach the retina.",
           "needsReview": true
         },
         {
@@ -1053,7 +1064,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The blood-aqueous barrier limits how much of a drug passes from the blood into the aqueous humour.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04613",
@@ -1080,7 +1092,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Topical drugs don't reach the retina well, so wet AMD is treated with intravitreal injections.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04614",
@@ -1107,7 +1120,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Oral acetazolamide is absorbed from the gut and reaches the eye through the bloodstream.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04615",
@@ -1134,7 +1148,8 @@
               "feedback": "They do."
             }
           ],
-          "explanation": ""
+          "explanation": "Drugs in the aqueous mainly leave the eye with the aqueous outflow, through the trabecular meshwork and uveoscleral routes.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04616",
@@ -1161,7 +1176,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Half-life is the time it takes for the drug concentration to fall by half.",
           "needsReview": true
         },
         {
@@ -1189,7 +1204,7 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": "",
+          "explanation": "Tear turnover and drainage clear drugs from the eye quickly, so some need dosing several times a day.",
           "needsReview": true
         },
         {
@@ -1217,7 +1232,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tilting the head back and pulling the lower lid down makes a pocket for the drop, and keeping the tip off the eye avoids contamination.",
           "needsReview": true
         },
         {
@@ -1245,7 +1260,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Drop dispensers and bottle aids help patients with poor dexterity instil drops accurately.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04620",
@@ -1272,7 +1288,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tears constantly replace themselves and wash drugs out of the eye, reducing contact time.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04621",
@@ -1299,7 +1316,7 @@
               "feedback": "Blocked by stroma."
             }
           ],
-          "explanation": "",
+          "explanation": "To cross both the lipid-rich epithelium and the water-rich stroma, a drug needs to be both lipid- and water-soluble.",
           "needsReview": true
         },
         {
@@ -1327,7 +1344,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Preservative-free multi-dose bottles use filters or one-way valves to keep the solution free from contamination.",
           "needsReview": true
         },
         {
@@ -1355,7 +1372,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Older patients often take many medicines (polypharmacy), which raises the risk of interactions and side effects.",
           "needsReview": true
         },
         {
@@ -1383,7 +1400,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Blinking pumps tears and drug into the drainage system, so gentle eye closure keeps the drug in contact longer.",
           "needsReview": true
         },
         {
@@ -1411,7 +1428,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "The nasal mucosa has a rich blood supply, so drug draining there is absorbed straight into the blood.",
           "needsReview": true
         },
         {
@@ -1439,7 +1456,7 @@
               "feedback": "Weight matters."
             }
           ],
-          "explanation": "",
+          "explanation": "Children have a low body weight, so the same drop gives a much higher dose per kilogram.",
           "needsReview": true
         },
         {
@@ -1467,7 +1484,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Sustained-release implants release drug slowly over weeks or months.",
           "needsReview": true
         },
         {
@@ -1495,7 +1512,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ointments last longer but blur vision, so they're often used at night when clear vision isn't needed.",
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x04629",
@@ -1522,7 +1540,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Inflammation can damage the corneal epithelium, a major barrier, so more drug gets through.",
           "needsReview": true
         },
         {
@@ -1550,7 +1568,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Bioavailability is the proportion of a drug that reaches its target site in active form.",
           "needsReview": true
         }
       ],
@@ -1834,7 +1852,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dilating an eye with an iris-clip lens could let the lens dislocate, so these patients shouldn't be dilated.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0073",
@@ -1915,7 +1934,8 @@
               "feedback": "Check staining."
             }
           ],
-          "explanation": ""
+          "explanation": "Topical anaesthetics remove the protective blink and can affect the epithelium, so check for corneal staining afterwards.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0075",
@@ -1996,7 +2016,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenylephrine is an alpha-1 agonist that contracts the iris dilator muscle, widening the pupil.",
           "needsReview": true
         },
         {
@@ -2078,7 +2098,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide's effects usually wear off within about 4–6 hours.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0184",
@@ -2105,7 +2126,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Proxymetacaine usually stings the least of the common topical anaesthetics.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0185",
@@ -2132,7 +2154,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Proxymetacaine should be stored in a fridge to keep it stable.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0186",
@@ -2159,7 +2182,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pilocarpine is a cholinergic agonist that constricts the pupil (a miotic).",
           "needsReview": true
         },
         {
@@ -2187,7 +2210,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide is an antimuscarinic: it blocks acetylcholine at the iris sphincter and ciliary muscle.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0188",
@@ -2214,7 +2238,7 @@
               "feedback": "Advise."
             }
           ],
-          "explanation": "",
+          "explanation": "Patients shouldn't drive until their vision meets the driving standard again, as dilation causes blur and glare.",
           "needsReview": true
         },
         {
@@ -2242,7 +2266,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide relaxes the sphincter and phenylephrine contracts the dilator, so together they give faster, fuller dilation.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x01810",
@@ -2269,7 +2294,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lissamine green stains damaged and devitalised conjunctival cells, which is useful in dry eye assessment.",
           "needsReview": true
         },
         {
@@ -2297,7 +2322,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Homatropine is an antimuscarinic whose strength and duration lie between cyclopentolate and atropine.",
           "needsReview": true
         },
         {
@@ -2325,7 +2350,8 @@
               "feedback": "Not most."
             }
           ],
-          "explanation": ""
+          "explanation": "Tetracaine usually stings the most of the common topical anaesthetics.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0463",
@@ -2352,7 +2378,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Topical anaesthetics act within about 10–20 seconds.",
           "needsReview": true
         },
         {
@@ -2434,7 +2460,7 @@
               "feedback": "Wait."
             }
           ],
-          "explanation": "",
+          "explanation": "The cornea is numb, so the patient shouldn't rub their eyes until feeling returns, or they could scratch the cornea.",
           "needsReview": true
         },
         {
@@ -2516,7 +2542,7 @@
               "feedback": "Not the reason."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenylephrine 10% can raise blood pressure and affect the heart; 2.5% dilates well with fewer risks.",
           "needsReview": true
         },
         {
@@ -2544,7 +2570,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenylephrine 10% can raise blood pressure and strain the heart, so it's avoided in heart disease and hypertension.",
           "needsReview": true
         },
         {
@@ -2572,7 +2598,8 @@
               "feedback": "It dilates."
             }
           ],
-          "explanation": ""
+          "explanation": "Phenylephrine acts only on the dilator muscle, so it dilates the pupil without affecting accommodation.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04610",
@@ -2599,7 +2626,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pilocarpine can cause brow ache and, rarely, retinal detachment or angle closure, so it isn't routinely used to reverse dilation.",
           "needsReview": true
         },
         {
@@ -2627,7 +2654,8 @@
               "feedback": "Surgery."
             }
           ],
-          "explanation": ""
+          "explanation": "Lissamine green stains devitalised cells and mucus green.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04612",
@@ -2654,7 +2682,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rose bengal stains devitalised cells red, but it often stings.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04613",
@@ -2681,7 +2710,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Single-use fluorescein strips avoid the contamination risk of multi-dose solutions.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04614",
@@ -2708,7 +2738,7 @@
               "feedback": "After too if at risk."
             }
           ],
-          "explanation": "",
+          "explanation": "For at-risk patients, measure IOP before dilating, and again afterwards if there's concern about a rise.",
           "needsReview": true
         },
         {
@@ -2736,7 +2766,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Assessing the anterior chamber angle before dilating reduces the risk of triggering angle closure.",
           "needsReview": true
         },
         {
@@ -2764,7 +2794,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "New flashes and floaters, or unexplained vision loss, need a dilated view of the peripheral retina and fundus.",
           "needsReview": true
         },
         {
@@ -2792,7 +2822,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cyclopentolate is an antimuscarinic.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04618",
@@ -2819,7 +2850,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenylephrine is an alpha-1 adrenergic agonist.",
           "needsReview": true
         },
         {
@@ -2847,7 +2878,7 @@
               "feedback": "They should."
             }
           ],
-          "explanation": "",
+          "explanation": "Blur and glare after dilation may mean the patient no longer meets the driving vision standard.",
           "needsReview": true
         },
         {
@@ -2875,7 +2906,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording the drug, strength, eye, time, batch and expiry means any reaction can be traced.",
           "needsReview": true
         },
         {
@@ -2957,7 +2988,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Infants are small, so a drop gives a high dose per kilogram and a higher risk of systemic effects.",
           "needsReview": true
         },
         {
@@ -3039,7 +3070,8 @@
               "feedback": "Record it."
             }
           ],
-          "explanation": ""
+          "explanation": "Repeated use of topical anaesthetics can cause serious corneal damage, so they must never be given to patients to take home.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04625",
@@ -3066,7 +3098,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fluorescein is needed for tear break-up time (TBUT) and corneal staining.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04626",
@@ -3093,7 +3126,8 @@
               "feedback": "Too long."
             }
           ],
-          "explanation": ""
+          "explanation": "The pupil usually returns to normal about 4–6 hours after tropicamide.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04627",
@@ -3120,7 +3154,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Expired drops may be less effective or unsafe, so the date must be checked.",
           "needsReview": true
         },
         {
@@ -3148,7 +3182,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Itchy, swollen lids suggest an allergy, so ask about it and use a different drug or avoid it.",
           "needsReview": true
         },
         {
@@ -3176,7 +3210,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Apraclonidine dilates a Horner's pupil and has little effect on a normal pupil, so it confirms Horner's syndrome.",
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04630",
@@ -3203,7 +3238,8 @@
               "feedback": "Horner's."
             }
           ],
-          "explanation": ""
+          "explanation": "An Adie's pupil is supersensitive to dilute pilocarpine (0.1%), which constricts it more than a normal pupil.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -3415,7 +3451,8 @@
               "feedback": "End-of-use."
             }
           ],
-          "explanation": ""
+          "explanation": "In the classification of adverse reactions, Type D means 'delayed', appearing some time after the drug is used.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0072",
@@ -3766,7 +3803,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Type A reactions are 'augmented': predictable from the drug's action and related to the dose.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0182",
@@ -3847,7 +3885,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The black triangle marks new medicines under additional monitoring, so all suspected reactions should be reported.",
           "needsReview": true
         },
         {
@@ -3875,7 +3913,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Intramuscular adrenaline is the first-line treatment for anaphylaxis.",
           "needsReview": true
         },
         {
@@ -3903,7 +3941,8 @@
               "feedback": "Monitor."
             }
           ],
-          "explanation": ""
+          "explanation": "Feeling faint and pale after drops is most likely a vasovagal episode, often from anxiety, rather than anaphylaxis.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0186",
@@ -3930,7 +3969,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenylephrine 10% is an alpha agonist that can raise blood pressure.",
           "needsReview": true
         },
         {
@@ -3958,7 +3997,8 @@
               "feedback": "Harm."
             }
           ],
-          "explanation": ""
+          "explanation": "Repeated misuse of topical anaesthetics damages the corneal epithelium, causing toxic keratopathy.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0188",
@@ -3985,7 +4025,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cyclopentolate can rarely cause central nervous system effects in children, such as hallucinations or behavioural changes.",
           "needsReview": true
         },
         {
@@ -4013,7 +4053,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Red, itchy lids after starting drops suggests a contact allergy, often to a preservative.",
           "needsReview": true
         },
         {
@@ -4041,7 +4081,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Type B reactions are 'bizarre': unpredictable and not related to the dose, such as allergies.",
           "needsReview": true
         },
         {
@@ -4069,7 +4109,7 @@
               "feedback": "Type E."
             }
           ],
-          "explanation": "",
+          "explanation": "Type C reactions are 'chronic', appearing with long-term use.",
           "needsReview": true
         },
         {
@@ -4097,7 +4137,7 @@
               "feedback": "Type B."
             }
           ],
-          "explanation": "",
+          "explanation": "Type E reactions are 'end of use', happening when a drug is stopped.",
           "needsReview": true
         },
         {
@@ -4125,7 +4165,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Type F reactions are 'failure': the treatment doesn't work as expected.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0464",
@@ -4152,7 +4193,7 @@
               "feedback": "It's allergic."
             }
           ],
-          "explanation": "",
+          "explanation": "Anaphylaxis is a type I (IgE-mediated, immediate) hypersensitivity reaction.",
           "needsReview": true
         },
         {
@@ -4180,7 +4221,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact dermatitis is a type IV (delayed, cell-mediated) hypersensitivity reaction.",
           "needsReview": true
         },
         {
@@ -4208,7 +4249,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The adult dose of adrenaline for anaphylaxis is 500 micrograms intramuscularly (0.5 mL of 1:1000).",
           "needsReview": true
         },
         {
@@ -4236,7 +4277,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Anaphylaxis is life-threatening, so call 999 and monitor the patient; a second dose may be needed.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0468",
@@ -4263,7 +4305,8 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": ""
+          "explanation": "Neomycin is a common cause of contact allergy in eye drops.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0469",
@@ -4290,7 +4333,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Long-term glaucoma drops can rarely cause conjunctival scarring that looks like pemphigoid (pseudopemphigoid).",
           "needsReview": true
         },
         {
@@ -4318,7 +4361,8 @@
               "feedback": "It can."
             }
           ],
-          "explanation": ""
+          "explanation": "A steroid-induced IOP rise usually appears after about 2–6 weeks of treatment.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x04611",
@@ -4345,7 +4389,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenylephrine can interact with MAOIs and tricyclic antidepressants, causing a dangerous rise in blood pressure.",
           "needsReview": true
         },
         {
@@ -4373,7 +4417,7 @@
               "feedback": "Risk."
             }
           ],
-          "explanation": "",
+          "explanation": "Timolol and verapamil both slow the heart, so together they can cause dangerous bradycardia.",
           "needsReview": true
         },
         {
@@ -4401,7 +4445,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Timolol drops are absorbed into the blood, so their beta blockade adds to the oral beta blocker's.",
           "needsReview": true
         },
         {
@@ -4429,7 +4473,7 @@
               "feedback": "Use carefully."
             }
           ],
-          "explanation": "",
+          "explanation": "In pregnancy, use drops only when needed, with punctal occlusion to reduce absorption.",
           "needsReview": true
         },
         {
@@ -4457,7 +4501,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Medical emergencies such as anaphylaxis or collapse can happen in practice, so optometrists need basic life support skills.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x04616",
@@ -4484,7 +4529,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Taking many medicines increases the chance of interactions and side effects.",
           "needsReview": true
         },
         {
@@ -4512,7 +4557,7 @@
               "feedback": "Acetazolamide."
             }
           ],
-          "explanation": "",
+          "explanation": "Brimonidine commonly causes an allergic follicular conjunctivitis.",
           "needsReview": true
         },
         {
@@ -4540,7 +4585,7 @@
               "feedback": "Acetazolamide."
             }
           ],
-          "explanation": "",
+          "explanation": "Prostaglandin analogues typically cause red eyes and longer, darker lashes.",
           "needsReview": true
         },
         {
@@ -4568,7 +4613,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Topical dorzolamide often stings on instillation and can leave a bitter taste.",
           "needsReview": true
         },
         {
@@ -4596,7 +4641,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Clinical trials are too small to detect rare side effects, so reports after licensing find them.",
           "needsReview": true
         },
         {
@@ -4624,7 +4669,7 @@
               "feedback": "Anyone."
             }
           ],
-          "explanation": "",
+          "explanation": "Anyone, including health professionals and patients, can submit a Yellow Card report to the MHRA.",
           "needsReview": true
         },
         {
@@ -4652,7 +4697,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Flushing and restlessness after atropine are signs of antimuscarinic toxicity.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x04623",
@@ -4679,7 +4725,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lying the patient down and raising their legs helps blood return to the brain in a faint.",
           "needsReview": true
         },
         {
@@ -4707,7 +4753,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Nausea is common after intravenous fluorescein for angiography, but rare with topical use.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x04625",
@@ -4734,7 +4781,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Antihistamines and some antidepressants have anticholinergic effects that reduce tear production.",
           "needsReview": true
         },
         {
@@ -4762,7 +4809,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "An adverse drug reaction is a harmful, unintended effect of a drug at normal doses.",
           "needsReview": true
         },
         {
@@ -4790,7 +4837,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A previous reaction to a drug suggests a higher risk of reacting again.",
           "needsReview": true
         },
         {
@@ -4818,7 +4865,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Children (low body weight) and older people (other medicines and health conditions) are at higher risk of systemic effects.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x04629",
@@ -4845,7 +4893,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The drug, the reaction, how it was managed and the patient's allergy status should all be recorded.",
           "needsReview": true
         },
         {
@@ -4873,7 +4921,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Red, swollen lids appearing two days after starting drops fits a delayed (type IV) contact allergy.",
           "needsReview": true
         }
       ],
@@ -5131,7 +5179,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Medicines and Healthcare products Regulatory Agency (MHRA) enforces the Human Medicines Regulations.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0072",
@@ -5158,7 +5207,8 @@
               "feedback": "P does."
             }
           ],
-          "explanation": ""
+          "explanation": "P (pharmacy) medicines can only be sold in a pharmacy under a pharmacist's supervision; POMs need a prescription.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0073",
@@ -5185,7 +5235,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Under the optometry exemptions, the GSL eye products optometrists supply are mainly eye lotions; medicated eye drops are P or POM.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0074",
@@ -5212,7 +5263,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Only optometrists on the GOC's Additional Supply specialty register can supply the extra AS medicines.",
           "needsReview": true
         },
         {
@@ -5456,7 +5507,8 @@
               "feedback": "POM."
             }
           ],
-          "explanation": ""
+          "explanation": "Prescription-only medicines (POMs) need a prescription from an authorised prescriber.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0184",
@@ -5483,7 +5535,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Optometrists can use certain POMs, such as cyclopentolate, in practice under exemptions in medicines law.",
           "needsReview": true
         },
         {
@@ -5511,7 +5563,8 @@
               "feedback": "They did."
             }
           ],
-          "explanation": ""
+          "explanation": "Chloramphenicol eye drops became available as a pharmacy (P) medicine in 2005.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0186",
@@ -5538,7 +5591,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The MHRA regulates medicines and medical devices in the UK.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0187",
@@ -5565,7 +5619,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Optometrist independent prescribers can't prescribe controlled drugs.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0188",
@@ -5592,7 +5647,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Independent prescribing needs extra training and entry on the GOC's specialty register.",
           "needsReview": true
         },
         {
@@ -5620,7 +5675,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A signed order lets an optometrist obtain medicines from a pharmacy for use in their practice.",
           "needsReview": true
         },
         {
@@ -5702,7 +5757,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Opticians Act 1989 regulates the optical professions in the UK.",
           "needsReview": true
         },
         {
@@ -5730,7 +5785,7 @@
               "feedback": "Three."
             }
           ],
-          "explanation": "",
+          "explanation": "The GOC's specialty registers for medicines are Additional Supply, Supplementary Prescribing and Independent Prescribing.",
           "needsReview": true
         },
         {
@@ -5758,7 +5813,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "IP training includes theory, supervised clinical experience and a final assessment.",
           "needsReview": true
         },
         {
@@ -5786,7 +5841,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A prescription for a POM is usually valid for 6 months from the date it was signed.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0465",
@@ -5813,7 +5869,8 @@
               "feedback": "Age."
             }
           ],
-          "explanation": ""
+          "explanation": "For a child under 12, the prescription must state the child's age, because doses depend on it.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x0466",
@@ -5840,7 +5897,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Off-label prescribing means using a licensed medicine outside the terms of its licence, which is lawful but needs justification.",
           "needsReview": true
         },
         {
@@ -5868,7 +5925,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An unlicensed 'special' is a medicine with no UK marketing authorisation, made for an individual patient's needs.",
           "needsReview": true
         },
         {
@@ -5896,7 +5953,7 @@
               "feedback": "Wider guidelines."
             }
           ],
-          "explanation": "",
+          "explanation": "The College of Optometrists publishes the Clinical Management Guidelines.",
           "needsReview": true
         },
         {
@@ -5924,7 +5981,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Antimicrobial stewardship means using antibiotics only when needed, to limit resistance.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x04610",
@@ -5951,7 +6009,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Optometrists can sell or supply P medicines in the course of their professional practice.",
           "needsReview": true
         },
         {
@@ -5979,7 +6037,7 @@
               "feedback": "Some."
             }
           ],
-          "explanation": "",
+          "explanation": "Dispensing opticians can supply GSL and P medicines in the course of their practice.",
           "needsReview": true
         },
         {
@@ -6007,7 +6065,7 @@
               "feedback": "Some."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact lens opticians may use certain anaesthetics and stains in contact lens practice.",
           "needsReview": true
         },
         {
@@ -6035,7 +6093,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "AS optometrists can supply certain POMs in an emergency, within the legal exemptions.",
           "needsReview": true
         },
         {
@@ -6063,7 +6121,7 @@
               "feedback": "Not enough."
             }
           ],
-          "explanation": "",
+          "explanation": "Records should show what was supplied, to whom, why and the batch, so any problem can be traced.",
           "needsReview": true
         },
         {
@@ -6091,7 +6149,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Medicines must be stored securely and at the right temperature to stay safe and effective.",
           "needsReview": true
         },
         {
@@ -6119,7 +6177,8 @@
               "feedback": "Device/GSL."
             }
           ],
-          "explanation": ""
+          "explanation": "Cyclopentolate is a prescription-only medicine for most uses, which optometrists can use under exemptions.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x04617",
@@ -6146,7 +6205,7 @@
               "feedback": "POM."
             }
           ],
-          "explanation": "",
+          "explanation": "Some lubricant drops are general sale, so they can be bought in supermarkets.",
           "needsReview": true
         },
         {
@@ -6174,7 +6233,7 @@
               "feedback": "Scope."
             }
           ],
-          "explanation": "",
+          "explanation": "Systemic conditions such as hypertension are outside an optometrist's scope of practice.",
           "needsReview": true
         },
         {
@@ -6202,7 +6261,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The General Pharmaceutical Council (GPhC) regulates and inspects pharmacies in Great Britain.",
+          "needsReview": true
         },
         {
           "id": "pha-law-x04620",
@@ -6229,7 +6289,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The MHRA licenses medicines and monitors their safety after they're on the market.",
           "needsReview": true
         },
         {
@@ -6257,7 +6317,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Minor eye conditions services run under local NHS contracts with set protocols.",
           "needsReview": true
         },
         {
@@ -6285,7 +6345,7 @@
               "feedback": "Required."
             }
           ],
-          "explanation": "",
+          "explanation": "The whole prescription must be legible, and it must be signed by the prescriber.",
           "needsReview": true
         },
         {
@@ -6313,7 +6373,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prescribing for family members is discouraged, except in emergencies, because objectivity can be compromised.",
           "needsReview": true
         },
         {
@@ -6341,7 +6401,7 @@
               "feedback": "It's expected."
             }
           ],
-          "explanation": "",
+          "explanation": "Guidance, evidence and safety information change, so prescribers must keep up to date.",
           "needsReview": true
         },
         {
@@ -6369,7 +6429,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "General sale list (GSL) medicines can be sold without a pharmacist present.",
           "needsReview": true
         },
         {
@@ -6397,7 +6457,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pharmacy (P) medicines are sold in a pharmacy under a pharmacist's supervision.",
           "needsReview": true
         },
         {
@@ -6425,7 +6485,7 @@
               "feedback": "Explain."
             }
           ],
-          "explanation": "",
+          "explanation": "Medicines must be supplied for the person who needs them, after they've been assessed.",
           "needsReview": true
         },
         {
@@ -6453,7 +6513,7 @@
               "feedback": "PGDs."
             }
           ],
-          "explanation": "",
+          "explanation": "Patient Group Directions allow named health professionals to supply medicines to groups of patients under a written protocol.",
           "needsReview": true
         },
         {
@@ -6481,7 +6541,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Prescribing beyond your competence puts patients at risk, so independent prescribers must work within it.",
           "needsReview": true
         },
         {
@@ -6509,7 +6569,7 @@
               "feedback": "It shows this."
             }
           ],
-          "explanation": "",
+          "explanation": "The GOC specialty register shows which registrants hold AS, SP or IP qualifications.",
           "needsReview": true
         }
       ],
@@ -6760,7 +6820,7 @@
               "feedback": "Treat."
             }
           ],
-          "explanation": "",
+          "explanation": "Herpes simplex keratitis is treated with an antiviral; steroids alone can make it much worse.",
           "needsReview": true
         },
         {
@@ -6842,7 +6902,8 @@
               "feedback": "They have risks."
             }
           ],
-          "explanation": ""
+          "explanation": "Topical steroids can raise IOP, cause cataract and worsen herpes or fungal infections.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0075",
@@ -6977,7 +7038,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Chloramphenicol is a broad-spectrum antibiotic.",
           "needsReview": true
         },
         {
@@ -7005,7 +7066,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fusidic acid is mainly active against Gram-positive bacteria such as Staphylococcus.",
           "needsReview": true
         },
         {
@@ -7033,7 +7094,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact lens-related bacterial keratitis is often caused by Pseudomonas, so fluoroquinolones are used.",
           "needsReview": true
         },
         {
@@ -7115,7 +7176,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Olopatadine is both an antihistamine and a mast cell stabiliser, used for allergic conjunctivitis.",
           "needsReview": true
         },
         {
@@ -7197,7 +7258,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ketorolac is a non-steroidal anti-inflammatory drug (NSAID).",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0188",
@@ -7224,7 +7286,8 @@
               "feedback": "Treat."
             }
           ],
-          "explanation": ""
+          "explanation": "Acanthamoeba keratitis is treated with biguanides such as PHMB or chlorhexidine.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0189",
@@ -7251,7 +7314,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Mast cell stabilisers prevent the release of histamine but don't treat an established reaction, so they must be started early.",
           "needsReview": true
         },
         {
@@ -7333,7 +7396,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A bacteriostatic antibiotic stops bacteria multiplying, letting the immune system clear them.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0462",
@@ -7360,7 +7424,8 @@
               "feedback": "It works."
             }
           ],
-          "explanation": ""
+          "explanation": "A bactericidal antibiotic kills bacteria directly.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0463",
@@ -7387,7 +7452,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Gentamicin is an aminoglycoside antibiotic.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0464",
@@ -7414,7 +7480,8 @@
               "feedback": "Aminoglycoside."
             }
           ],
-          "explanation": ""
+          "explanation": "Ofloxacin is a fluoroquinolone antibiotic.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0465",
@@ -7441,7 +7508,7 @@
               "feedback": "Treat."
             }
           ],
-          "explanation": "",
+          "explanation": "Herpes zoster ophthalmicus is treated with oral antivirals, ideally started within 72 hours of the rash.",
           "needsReview": true
         },
         {
@@ -7469,7 +7536,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Aciclovir eye ointment is usually applied five times a day.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0467",
@@ -7496,7 +7564,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Natamycin is used for filamentous fungal keratitis, for example from Fusarium.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0468",
@@ -7523,7 +7592,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "NSAID drops such as nepafenac or bromfenac reduce the risk of macular oedema after cataract surgery.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0469",
@@ -7604,7 +7674,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Loteprednol is a 'soft' steroid designed to be metabolised quickly, giving less IOP rise.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04611",
@@ -7631,7 +7702,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Stopping steroids suddenly after long use can cause rebound inflammation, so they're tapered.",
           "needsReview": true
         },
         {
@@ -7659,7 +7730,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "Vasoconstrictors such as xylometazoline shrink the vessels, but with overuse the effect wears off and redness rebounds.",
           "needsReview": true
         },
         {
@@ -7687,7 +7758,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ketotifen is an antihistamine and mast cell stabiliser.",
           "needsReview": true
         },
         {
@@ -7769,7 +7840,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dexamethasone is a steroid and neomycin and polymyxin B are antibiotics, so this is a steroid-antibiotic combination.",
           "needsReview": true
         },
         {
@@ -7797,7 +7868,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Azithromycin eye drops can treat bacterial conjunctivitis and trachoma.",
           "needsReview": true
         },
         {
@@ -7825,7 +7896,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Oral doxycycline is used for MGD and ocular rosacea mainly for its anti-inflammatory effect.",
           "needsReview": true
         },
         {
@@ -7853,7 +7924,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Tetracyclines can stain developing teeth and affect bone, so they're avoided in under-12s and pregnancy.",
           "needsReview": true
         },
         {
@@ -7881,7 +7952,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Unnecessary or incomplete antibiotic courses encourage the survival of resistant bacteria.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04620",
@@ -7908,7 +7980,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Chloramphenicol can be supplied in pharmacies for children aged 2 and over.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04621",
@@ -7935,7 +8008,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Ointment stays longer in the eye, so using it at night gives cover through sleep when blurred vision doesn't matter.",
           "needsReview": true
         },
         {
@@ -7963,7 +8036,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Steroids suppress the immune response, so they can make infections like herpes much worse if the cause is unknown.",
           "needsReview": true
         },
         {
@@ -7991,7 +8064,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Topical steroids can raise IOP, so it should be monitored.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04624",
@@ -8018,7 +8092,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Antihistamines or mast cell stabilisers are first-line for mild seasonal allergic conjunctivitis.",
           "needsReview": true
         },
         {
@@ -8046,7 +8120,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Long-term topical NSAIDs can rarely cause corneal melting.",
           "needsReview": true
         },
         {
@@ -8074,7 +8148,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ganciclovir gel is an alternative antiviral for herpes simplex epithelial keratitis.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04627",
@@ -8101,7 +8176,7 @@
               "feedback": "Treat."
             }
           ],
-          "explanation": "",
+          "explanation": "Microbial keratitis is treated in hospital with intensive antibiotics, after taking corneal scrapes for culture.",
           "needsReview": true
         },
         {
@@ -8129,7 +8204,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fusidic acid eye drops are usually given twice a day.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04629",
@@ -8156,7 +8232,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "NSAIDs reduce inflammation without raising IOP the way steroids can.",
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04630",
@@ -8183,7 +8260,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ciclosporin eye drops are used for dry eye with inflammation, as an immunomodulator.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -8373,7 +8451,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prostaglandin analogues lower IOP mainly by increasing uveoscleral outflow.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0072",
@@ -8400,7 +8479,7 @@
               "feedback": "Avoid in young children."
             }
           ],
-          "explanation": "",
+          "explanation": "Timolol is a non-selective beta blocker, so it can cause bronchospasm in asthma.",
           "needsReview": true
         },
         {
@@ -8752,7 +8831,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dorzolamide is a topical carbonic anhydrase inhibitor, which reduces aqueous production.",
           "needsReview": true
         },
         {
@@ -8780,7 +8859,8 @@
               "feedback": "It works."
             }
           ],
-          "explanation": ""
+          "explanation": "Pilocarpine contracts the ciliary muscle, opening the trabecular meshwork and increasing outflow.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0185",
@@ -8807,7 +8887,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Brimonidine is an alpha-2 adrenergic agonist.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0186",
@@ -8834,7 +8915,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Fixed combinations mean fewer drops a day, which makes it easier for patients to stick to treatment.",
           "needsReview": true
         },
         {
@@ -8862,7 +8943,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prostaglandin analogues are usually used once daily, in the evening.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0188",
@@ -8889,7 +8971,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Beta blockers slow the heart, so they're avoided in bradycardia and heart block, as well as asthma.",
           "needsReview": true
         },
         {
@@ -8917,7 +8999,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Oral acetazolamide commonly causes tingling in the fingers and can cause kidney stones.",
           "needsReview": true
         },
         {
@@ -9107,7 +9189,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prostaglandin-associated periorbitopathy causes loss of orbital fat and a deeper upper lid sulcus.",
           "needsReview": true
         },
         {
@@ -9135,7 +9217,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prostaglandin analogues can worsen inflammation and herpes, so they're used with care in uveitis or past herpes keratitis.",
           "needsReview": true
         },
         {
@@ -9163,7 +9245,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Betaxolol is relatively cardioselective (beta-1), so it has less effect on the airways than timolol.",
           "needsReview": true
         },
         {
@@ -9191,7 +9273,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Timolol drops are usually used twice a day; some gel forms are once daily.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0467",
@@ -9218,7 +9301,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Beta blockers can mask warning signs of low blood sugar, such as a fast heartbeat.",
           "needsReview": true
         },
         {
@@ -9246,7 +9329,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Brinzolamide is a topical carbonic anhydrase inhibitor.",
           "needsReview": true
         },
         {
@@ -9274,7 +9357,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Carbonic anhydrase inhibitors are sulphonamides, so they need caution in people with sulphonamide allergy.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04610",
@@ -9301,7 +9385,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Apraclonidine is mainly used short-term, for example to prevent IOP spikes after laser.",
           "needsReview": true
         },
         {
@@ -9329,7 +9413,8 @@
               "feedback": "Acetazolamide."
             }
           ],
-          "explanation": ""
+          "explanation": "Brimonidine can cause tiredness and a dry mouth.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04612",
@@ -9356,7 +9441,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Netarsudil is a Rho kinase inhibitor that increases trabecular outflow.",
           "needsReview": true
         },
         {
@@ -9384,7 +9469,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Conjunctival redness is a common side effect of netarsudil.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04614",
@@ -9411,7 +9497,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pilocarpine contracts the ciliary muscle and pupil, causing brow ache and dim vision.",
           "needsReview": true
         },
         {
@@ -9439,7 +9525,8 @@
               "feedback": "Brinzolamide and brimonidine."
             }
           ],
-          "explanation": ""
+          "explanation": "Cosopt combines dorzolamide and timolol.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04616",
@@ -9466,7 +9553,7 @@
               "feedback": "Has timolol."
             }
           ],
-          "explanation": "",
+          "explanation": "Brinzolamide with brimonidine (Simbrinza) is the only one of these without a beta blocker.",
           "needsReview": true
         },
         {
@@ -9494,7 +9581,7 @@
               "feedback": "Contraindicated."
             }
           ],
-          "explanation": "",
+          "explanation": "Acetazolamide given intravenously rapidly lowers IOP in acute angle closure.",
           "needsReview": true
         },
         {
@@ -9522,7 +9609,8 @@
               "feedback": "Used."
             }
           ],
-          "explanation": ""
+          "explanation": "Mydriatics dilate the pupil, which can make angle closure worse.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04619",
@@ -9549,7 +9637,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Preservative-free drops reduce long-term ocular surface damage from preservatives such as BAK.",
           "needsReview": true
         },
         {
@@ -9577,7 +9665,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Poor drop technique means less drug reaches the eye, so IOP may not be controlled.",
           "needsReview": true
         },
         {
@@ -9605,7 +9693,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Phone alarms or apps remind patients to use their drops.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04622",
@@ -9632,7 +9721,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Glaucoma treatment controls IOP but doesn't cure the disease, so it's usually lifelong.",
           "needsReview": true
         },
         {
@@ -9714,7 +9803,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prostaglandin analogues mainly increase uveoscleral outflow.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04625",
@@ -9741,7 +9831,8 @@
               "feedback": "PGA."
             }
           ],
-          "explanation": ""
+          "explanation": "Wheeze or breathlessness suggests bronchospasm from timolol, which can be dangerous.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04626",
@@ -9768,7 +9859,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "SLT doesn't rely on the patient using drops every day, which avoids adherence problems.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04627",
@@ -9795,7 +9887,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If glaucoma progresses at the current IOP, a lower target may be needed.",
           "needsReview": true
         },
         {
@@ -9823,7 +9915,8 @@
               "feedback": "Not typically."
             }
           ],
-          "explanation": ""
+          "explanation": "Beta blockers can cause or worsen depression and fatigue.",
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04629",
@@ -9850,7 +9943,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pilocarpine pulls on the peripheral retina via the ciliary muscle and can rarely cause retinal detachment.",
           "needsReview": true
         },
         {
@@ -9878,7 +9971,8 @@
               "feedback": "Short-term."
             }
           ],
-          "explanation": ""
+          "explanation": "NICE guidance recommends a prostaglandin analogue as the usual first drop when treatment beyond SLT is needed.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -10199,7 +10293,7 @@
               "feedback": "Mainly peripheral constriction."
             }
           ],
-          "explanation": "",
+          "explanation": "Vigabatrin causes irreversible peripheral field constriction in about a third of patients.",
           "needsReview": true
         },
         {
@@ -10497,7 +10591,7 @@
               "feedback": "Possible."
             }
           ],
-          "explanation": "",
+          "explanation": "Bisphosphonates can cause uveitis or scleritis.",
           "needsReview": true
         },
         {
@@ -10525,7 +10619,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Isotretinoin affects the meibomian glands, causing dry eye.",
           "needsReview": true
         },
         {
@@ -10553,7 +10647,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sildenafil can cause a temporary blue tinge to vision.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0185",
@@ -10580,7 +10675,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Digoxin toxicity can cause yellow-tinged vision (xanthopsia).",
           "needsReview": true
         },
         {
@@ -10608,7 +10703,7 @@
               "feedback": "Risk."
             }
           ],
-          "explanation": "",
+          "explanation": "Anticholinergic drugs dilate the pupil, which can trigger angle closure in eyes with narrow angles.",
           "needsReview": true
         },
         {
@@ -10690,7 +10785,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pentosan polysulfate can cause a pigmentary maculopathy.",
           "needsReview": true
         },
         {
@@ -10718,7 +10813,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Antihistamines reduce tear production, causing dry eye.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x01810",
@@ -10745,7 +10841,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Many systemic medicines can affect the eyes, so the drug history helps spot side effects and risks.",
           "needsReview": true
         },
         {
@@ -10827,7 +10923,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Isoniazid, like ethambutol, can cause optic neuropathy.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0463",
@@ -10908,7 +11005,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Phenothiazines such as chlorpromazine can deposit pigment on the lens and cornea.",
           "needsReview": true
         },
         {
@@ -10936,7 +11033,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High doses of thioridazine can cause pigmentary retinopathy.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0466",
@@ -10963,7 +11061,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tetracyclines and excess vitamin A can trigger idiopathic intracranial hypertension.",
           "needsReview": true
         },
         {
@@ -10991,7 +11089,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rifabutin can cause uveitis.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0468",
@@ -11018,7 +11117,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fingolimod can cause macular oedema, so patients often have eye checks after starting it.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0469",
@@ -11045,7 +11145,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "MEK inhibitors can cause fluid under the retina that looks like serous detachment.",
           "needsReview": true
         },
         {
@@ -11073,7 +11173,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "Immune checkpoint inhibitors can trigger uveitis and other inflammation in the eye.",
           "needsReview": true
         },
         {
@@ -11101,7 +11201,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "Bladder antimuscarinics reduce accommodation and dilate the pupil, causing near blur and a risk of angle closure.",
           "needsReview": true
         },
         {
@@ -11129,7 +11229,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Opioids typically cause small (pinpoint) pupils.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x04613",
@@ -11156,7 +11257,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Anticoagulants make bleeding more likely, including subconjunctival haemorrhage.",
           "needsReview": true
         },
         {
@@ -11184,7 +11285,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Methanol poisoning damages the optic nerve, causing severe toxic optic neuropathy.",
           "needsReview": true
         },
         {
@@ -11212,7 +11313,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Interferon treatment can cause retinopathy with cotton wool spots and haemorrhages.",
           "needsReview": true
         },
         {
@@ -11240,7 +11341,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Quinine toxicity can cause sudden visual loss.",
           "needsReview": true
         },
         {
@@ -11268,7 +11369,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Isotretinoin can reduce night vision as well as causing dry eye.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x04618",
@@ -11295,7 +11397,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "SSRIs and some other antidepressants can dilate the pupil, occasionally triggering angle closure in predisposed eyes.",
           "needsReview": true
         },
         {
@@ -11323,7 +11425,7 @@
               "feedback": "It's done."
             }
           ],
-          "explanation": "",
+          "explanation": "In the UK, hydroxychloroquine screening usually starts after 5 years, or after 1 year with risk factors.",
           "needsReview": true
         },
         {
@@ -11351,7 +11453,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A higher dose per kilogram and kidney disease increase the risk of hydroxychloroquine retinal toxicity.",
           "needsReview": true
         },
         {
@@ -11379,7 +11481,7 @@
               "feedback": "Not typically."
             }
           ],
-          "explanation": "",
+          "explanation": "Tamoxifen can cause a crystalline maculopathy.",
           "needsReview": true
         },
         {
@@ -11407,7 +11509,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Systemic steroids are linked with posterior subcapsular cataract and raised IOP.",
           "needsReview": true
         },
         {
@@ -11435,7 +11537,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Chloroquine is closely related to hydroxychloroquine but more toxic to the retina.",
           "needsReview": true
         },
         {
@@ -11463,7 +11565,8 @@
               "feedback": "Fields."
             }
           ],
-          "explanation": ""
+          "explanation": "Digoxin can cause yellow-tinged vision.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x04625",
@@ -11544,7 +11647,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Optometrists may be the first to notice eye side effects of systemic drugs.",
           "needsReview": true
         },
         {
@@ -11572,7 +11675,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tell the prescriber, who can decide on the drug, and consider a Yellow Card report.",
           "needsReview": true
         },
         {
@@ -11600,7 +11703,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cidofovir can cause uveitis and low IOP (hypotony).",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x04629",
@@ -11627,7 +11731,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Anticholinergic drugs reduce secretions, causing both dry mouth and dry eyes.",
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x04630",
@@ -11654,7 +11759,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Long-term oral steroids can cause cataract and raised IOP, so regular checks are needed.",
           "needsReview": true
         }
       ],
