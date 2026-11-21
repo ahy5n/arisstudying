@@ -189,7 +189,8 @@
               "feedback": "That's the box centre distance (52 + 18)."
             }
           ],
-          "explanation": ""
+          "explanation": "In a boxed frame marking, the numbers are lens size, distance between lenses (DBL), then side length, so the DBL is 18 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0022",
@@ -216,7 +217,8 @@
               "feedback": "That's the side length."
             }
           ],
-          "explanation": ""
+          "explanation": "Box centre distance = lens size + DBL = 54 + 17 = 71 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0023",
@@ -351,7 +353,7 @@
               "feedback": "They move in towards the nose."
             }
           ],
-          "explanation": "",
+          "explanation": "Decentration per eye = (box centre distance − PD) ÷ 2 = (70 − 62) ÷ 2 = 4 mm, and the OCs move inwards towards the nose.",
           "needsReview": true
         },
         {
@@ -433,7 +435,8 @@
               "feedback": "Depth adds nothing here."
             }
           ],
-          "explanation": ""
+          "explanation": "A small frame with box centres close to the PD needs little decentration and a small blank, so plus lenses can be thinner.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0028",
@@ -460,7 +463,7 @@
               "feedback": "The point is ambiguity."
             }
           ],
-          "explanation": "",
+          "explanation": "A height like '3 mm' could mean above or below the horizontal centre line, so it must say which.",
           "needsReview": true
         },
         {
@@ -488,7 +491,8 @@
               "feedback": "That's the side length."
             }
           ],
-          "explanation": ""
+          "explanation": "Box centre distance = lens size + DBL = 48 + 22 = 70 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0122",
@@ -515,7 +519,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the marking lens size□DBL side length, the last number (140) is the side length in mm.",
           "needsReview": true
         },
         {
@@ -543,7 +547,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the boxing system, the horizontal box dimension is the width of the rectangle that just encloses the lens shape.",
           "needsReview": true
         },
         {
@@ -625,7 +629,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Minimum blank size = effective diameter + 2 × decentration = 56 + 2 × 3 = 62 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0126",
@@ -652,7 +657,8 @@
               "feedback": "They differ."
             }
           ],
-          "explanation": ""
+          "explanation": "Box centre distance is 50 + 20 = 70 mm, so each lens is decentred (70 − 64) ÷ 2 = 3 mm inwards.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0127",
@@ -679,7 +685,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pantoscopic angle is the forward tilt of the front, with the lower rims tilted towards the cheeks.",
           "needsReview": true
         },
         {
@@ -707,7 +713,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Titanium is hypoallergenic and nickel-free, so it's safest for nickel allergy.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0129",
@@ -734,7 +741,8 @@
               "feedback": "Pads seen from above."
             }
           ],
-          "explanation": ""
+          "explanation": "The let-back angle is the angle of the sides, seen from above, relative to the normal to the front.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x01210",
@@ -761,7 +769,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "If the box centre distance matches the PD, little decentration is needed, so smaller blanks and thinner lenses can be used.",
           "needsReview": true
         },
         {
@@ -789,7 +797,8 @@
               "feedback": "DBL only."
             }
           ],
-          "explanation": ""
+          "explanation": "Box centre distance = lens size + DBL = 54 + 18 = 72 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0222",
@@ -816,7 +825,8 @@
               "feedback": "They differ."
             }
           ],
-          "explanation": ""
+          "explanation": "Box centre distance is 72 mm, so each lens is decentred (72 − 66) ÷ 2 = 3 mm inwards.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0223",
@@ -843,7 +853,8 @@
               "feedback": "The OCs move in."
             }
           ],
-          "explanation": ""
+          "explanation": "Box centre distance is 56 + 16 = 72 mm, so decentration per eye = (72 − 60) ÷ 2 = 6 mm inwards.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0224",
@@ -870,7 +881,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Minimum blank size = effective diameter + 2 × decentration = 58 + 2 × 4 = 66 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0225",
@@ -897,7 +909,8 @@
               "feedback": "They're decentred."
             }
           ],
-          "explanation": ""
+          "explanation": "Each half of the 70 mm box centre distance is 35 mm, so R decentres 35 − 30 = 5 mm in and L 35 − 33 = 2 mm in.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0226",
@@ -924,7 +937,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The box centre is the centre of the rectangle that encloses the lens shape.",
           "needsReview": true
         },
         {
@@ -952,7 +965,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The horizontal box dimension is also called the lens size or eye size.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x0228",
@@ -979,7 +993,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The datum line runs midway between horizontal tangents to the top and bottom of the lens.",
           "needsReview": true
         },
         {
@@ -1007,7 +1021,8 @@
               "feedback": "Some frames, less common."
             }
           ],
-          "explanation": ""
+          "explanation": "Cellulose acetate is the most common plastic frame material.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02210",
@@ -1034,7 +1049,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Optyl is a thermoset epoxy that 'remembers' its shape and returns to it when heated.",
           "needsReview": true
         },
         {
@@ -1062,7 +1077,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Titanium is very light and hypoallergenic.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02212",
@@ -1089,7 +1105,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Memory metal frames are often a nickel-titanium alloy, so they may not suit people with nickel allergy.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02213",
@@ -1116,7 +1133,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A supra frame holds the lower edge of the lens with a nylon cord sitting in a groove in the lens edge.",
           "needsReview": true
         },
         {
@@ -1144,7 +1161,8 @@
               "feedback": "Not ideal."
             }
           ],
-          "explanation": ""
+          "explanation": "Polycarbonate and Trivex are tough and resist cracking at the drill holes, so they suit rimless mounts.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02215",
@@ -1171,7 +1189,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Side length is measured from the dowel (hinge) point to the tip of the side.",
           "needsReview": true
         },
         {
@@ -1199,7 +1217,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Length to bend is the distance from the joint to where the side bends down behind the ear.",
           "needsReview": true
         },
         {
@@ -1281,7 +1299,8 @@
               "feedback": "Front tilt."
             }
           ],
-          "explanation": ""
+          "explanation": "The splay angle is the angle of the pads seen from above.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02219",
@@ -1308,7 +1327,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Face form (wrap) is the frame front curving around the face.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02220",
@@ -1335,7 +1355,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "Dress frames usually have a pantoscopic angle of about 8–12°.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02221",
@@ -1362,7 +1383,8 @@
               "feedback": "Not the reason."
             }
           ],
-          "explanation": ""
+          "explanation": "Minus lenses are thickest at the edge, so a small, round frame reduces edge thickness and weight.",
+          "needsReview": true
         },
         {
           "id": "aad-frame-measurement-x02222",
@@ -1389,7 +1411,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Plus lenses are thickest in the centre, and a bigger blank needs a thicker centre to keep a usable edge.",
           "needsReview": true
         },
         {
@@ -1417,7 +1439,7 @@
               "feedback": "It's printed."
             }
           ],
-          "explanation": "",
+          "explanation": "The frame marking is usually printed inside a side or on the bridge.",
           "needsReview": true
         },
         {
@@ -1445,7 +1467,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The vertical box dimension is the depth of the lens shape.",
           "needsReview": true
         },
         {
@@ -1473,7 +1495,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The vertical position of the optical centre is usually given relative to the horizontal centre line.",
           "needsReview": true
         },
         {
@@ -1555,7 +1577,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Sides should sit comfortably behind the ears without pressing on the head.",
           "needsReview": true
         },
         {
@@ -1583,7 +1605,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Frame markings can be approximate, so measuring gives accurate dimensions.",
           "needsReview": true
         },
         {
@@ -1611,7 +1633,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cellulose acetate softens with heat, so it can be adjusted by warming.",
           "needsReview": true
         },
         {
@@ -1639,7 +1661,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Crest height relates to the height of the bridge crest above the lenses.",
           "needsReview": true
         }
       ],
@@ -1836,7 +1858,7 @@
               "feedback": "Not the reason."
             }
           ],
-          "explanation": "",
+          "explanation": "At a short distance, a difference between your PD and the patient's adds error; at arm's length the error is much smaller.",
           "needsReview": true
         },
         {
@@ -1864,7 +1886,8 @@
               "feedback": "Not relevant."
             }
           ],
-          "explanation": ""
+          "explanation": "Varifocals have their corridor placed for each eye, so monocular PDs are essential to put each fitting cross over its pupil.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0023",
@@ -1891,7 +1914,8 @@
               "feedback": "The standard says ±5.00 D."
             }
           ],
-          "explanation": ""
+          "explanation": "Under BS 2738-3, back vertex distance must be measured for powers over ±5.00 D, where it affects the effective power.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0024",
@@ -1918,7 +1942,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A pupillometer measures from the first Purkinje image (the corneal reflex) through an optical system, avoiding parallax.",
           "needsReview": true
         },
         {
@@ -2000,7 +2024,8 @@
               "feedback": "Too big a change."
             }
           ],
-          "explanation": ""
+          "explanation": "Moving a minus lens closer increases its effect, so less minus is needed: about −9.62 D.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0122",
@@ -2027,7 +2052,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Moving a plus lens further away increases its effect, so less plus is needed: about +9.71 D.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0123",
@@ -2054,7 +2080,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "To avoid parallax, close your right eye and have the patient look at your open left eye while you align the zero.",
           "needsReview": true
         },
         {
@@ -2082,7 +2108,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "The eyes converge for near, so near PD at 40 cm is usually about 3–4 mm less than distance PD.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0125",
@@ -2109,7 +2136,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lowering the OCs with tilt keeps the optical axis passing through the eye's centre of rotation.",
           "needsReview": true
         },
         {
@@ -2137,7 +2164,8 @@
               "feedback": "Surface curve."
             }
           ],
-          "explanation": ""
+          "explanation": "A distometer measures back vertex distance.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0127",
@@ -2164,7 +2192,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The varifocal fitting cross is placed at the centre of the pupil in the patient's natural posture.",
           "needsReview": true
         },
         {
@@ -2192,7 +2220,8 @@
               "feedback": "Height matters."
             }
           ],
-          "explanation": ""
+          "explanation": "A slightly higher segment makes the near zone easier to reach for a lot of close work.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0129",
@@ -2219,7 +2248,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A corneal-reflex pupillometer measures from the reflections on the cornea.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x01210",
@@ -2246,7 +2276,7 @@
               "feedback": "Not the fix."
             }
           ],
-          "explanation": "",
+          "explanation": "Adjustable pads or a low-bridge fit let the frame sit at the right height on a low, flat bridge.",
           "needsReview": true
         },
         {
@@ -2274,7 +2304,8 @@
               "feedback": "Wrong way."
             }
           ],
-          "explanation": ""
+          "explanation": "Near centration distance = PD × reading distance ÷ (reading distance + 27 mm) = 64 × 400 ÷ 427 ≈ 60 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0222",
@@ -2301,7 +2332,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The OCs drop about 0.5 mm per degree of tilt, so 6° needs them about 3 mm below the pupil.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0223",
@@ -2328,7 +2360,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "Moving a plus lens 4 mm further away needs less plus: 8 ÷ (1 + 0.004 × 8) = 8 ÷ 1.032 ≈ +7.75 D.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0224",
@@ -2355,7 +2388,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "Moving a minus lens 4 mm closer needs less minus: −6 ÷ (1 + 0.004 × 6) = −6 ÷ 1.024 ≈ −5.86 D.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0225",
@@ -2382,7 +2416,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A trifocal segment top is usually fitted at the lower pupil margin, higher than a bifocal.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x0226",
@@ -2409,7 +2444,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Heights change if the head tilts, so they must be measured in the patient's natural posture.",
           "needsReview": true
         },
         {
@@ -2437,7 +2472,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Marking the chosen frame's dummy lenses allows for exactly how that frame sits on the face.",
           "needsReview": true
         },
         {
@@ -2465,7 +2500,7 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": "",
+          "explanation": "Measuring through the closed lid includes the lid thickness, so about 1 mm is added.",
           "needsReview": true
         },
         {
@@ -2493,7 +2528,8 @@
               "feedback": "Contact lens."
             }
           ],
-          "explanation": ""
+          "explanation": "A typical vertex distance is about 12–14 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x02210",
@@ -2520,7 +2556,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With high powers, a small centration error causes a lot of prism (Prentice's rule), so accurate monocular PDs matter.",
           "needsReview": true
         },
         {
@@ -2548,7 +2584,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An asymmetric face means the two pupils aren't equally far from the nose, which matters most for varifocals.",
           "needsReview": true
         },
         {
@@ -2576,7 +2612,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A higher ear tilts the frame, so adjust the sides to level it.",
           "needsReview": true
         },
         {
@@ -2604,7 +2640,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Looking at your open eye keeps the patient's visual axis lined up with the ruler, avoiding error.",
           "needsReview": true
         },
         {
@@ -2632,7 +2668,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Without tilt, a distance lens's optical centre should line up with the pupil centre.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x02215",
@@ -2659,7 +2696,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Reading closer needs more convergence, so the near centration distance is slightly smaller at 33 cm.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x02216",
@@ -2686,7 +2724,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Bridge width and nose shape decide which bridge will fit comfortably.",
           "needsReview": true
         },
         {
@@ -2714,7 +2752,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Head width helps choose the frame size and how far the sides need to spread.",
           "needsReview": true
         },
         {
@@ -2742,7 +2780,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vertex distance changes the effective power most for high-powered lenses.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x02219",
@@ -2769,7 +2808,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The effective power of a high-powered lens depends on how far it sits from the eye, so the lab needs the vertex distance.",
           "needsReview": true
         },
         {
@@ -2797,7 +2836,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A 2 mm difference is significant, so re-measure and use the most reliable result.",
           "needsReview": true
         },
         {
@@ -2825,7 +2864,7 @@
               "feedback": "Not level."
             }
           ],
-          "explanation": "",
+          "explanation": "Sit about 40 cm away, level with the patient's eyes, to measure PD accurately with a rule.",
           "needsReview": true
         },
         {
@@ -2853,7 +2892,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Varifocal fitting heights are measured from the pupil centre down to the lowest point of the rim.",
           "needsReview": true
         },
         {
@@ -2881,7 +2920,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The horizontal centre line is halfway up the 40 mm depth, at 20 mm, so an 18 mm segment height is 2 mm below it.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x02224",
@@ -2908,7 +2948,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A slightly higher segment makes the reading area easier to use for a lot of reading.",
+          "needsReview": true
         },
         {
           "id": "aad-facial-measurements-x02225",
@@ -2935,7 +2976,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Adjusting a frame changes how it sits, so heights must be measured after adjustment.",
           "needsReview": true
         },
         {
@@ -2963,7 +3004,7 @@
               "feedback": "They matter."
             }
           ],
-          "explanation": "",
+          "explanation": "Wrap and vertex distance change the lens's effective power and prism, so they're critical for wrap-around frames.",
           "needsReview": true
         },
         {
@@ -2991,7 +3032,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The eyes converge at near, so the near PD is smaller and must be measured for reading glasses.",
           "needsReview": true
         },
         {
@@ -3019,7 +3060,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Set for near at 40 cm, a pupillometer measures the near PD at that distance.",
           "needsReview": true
         },
         {
@@ -3047,7 +3088,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "A child's PD increases as their head grows, so it needs re-measuring often.",
           "needsReview": true
         },
         {
@@ -3075,7 +3116,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Adult distance PDs typically range from about 54 to 74 mm.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -3282,7 +3324,8 @@
               "feedback": "c is 0.6 cm, not 0.06."
             }
           ],
-          "explanation": ""
+          "explanation": "Prentice: P = cF = 0.6 cm × 4 = 2.4Δ. Looking below the OC of a minus lens gives base-down prism.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0022",
@@ -3309,7 +3352,8 @@
               "feedback": "Wrong sign."
             }
           ],
-          "explanation": ""
+          "explanation": "A cylinder at axis 180 has its full power at 90 (vertical), so the vertical power is −2.00 + (−1.00) = −3.00 D.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0023",
@@ -3336,7 +3380,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A cylinder at axis 90 has no power along 90 (vertical), so the vertical power is just the sphere, +3.00 D.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0024",
@@ -3363,7 +3408,7 @@
               "feedback": "Use cm."
             }
           ],
-          "explanation": "",
+          "explanation": "At 1 cm below: R 2Δ and L 5Δ, both base down. Same direction, so subtract: 3Δ differential.",
           "needsReview": true
         },
         {
@@ -3391,7 +3436,8 @@
               "feedback": "Used."
             }
           ],
-          "explanation": ""
+          "explanation": "Prism depends on power and decentration (Prentice), not thickness, so thinner lenses don't change it.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0026",
@@ -3418,7 +3464,8 @@
               "feedback": "Only at the OC."
             }
           ],
-          "explanation": ""
+          "explanation": "A plus lens has its base towards the optical centre, so looking nasally through it gives base-out prism.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0121",
@@ -3445,7 +3492,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "P = 0.3 cm × 4 = 1.2Δ. Above the OC of a plus lens, the base points down towards the OC.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0122",
@@ -3472,7 +3520,8 @@
               "feedback": "There's prism."
             }
           ],
-          "explanation": ""
+          "explanation": "Each lens gives 0.2 cm × 2 = 0.4Δ; plus lenses decentred nasally give base in, so 0.8Δ base in in total.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0123",
@@ -3499,7 +3548,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "c = P ÷ F = 2 ÷ 5 = 0.4 cm = 4 mm. A plus lens gives base in the direction of decentration, so decentre outwards.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0124",
@@ -3526,7 +3576,8 @@
               "feedback": "Units."
             }
           ],
-          "explanation": ""
+          "explanation": "c = 1 ÷ 4 = 0.25 cm = 2.5 mm. A minus lens gives base opposite to the decentration, so decentre down for base up.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0125",
@@ -3553,7 +3604,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Perpendicular prisms combine as vectors: √(3² + 4²) = 5Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0126",
@@ -3580,7 +3632,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "One prism dioptre deviates light by 1 cm at a distance of 1 m.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0127",
@@ -3607,7 +3660,8 @@
               "feedback": "There is prism."
             }
           ],
-          "explanation": ""
+          "explanation": "Plus lenses have their base towards the OC, so reading below the OC gives base-up prism.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0128",
@@ -3634,7 +3688,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A slab-off is ground on the more minus lens, giving base-up prism in its reading area to balance the other eye.",
           "needsReview": true
         },
         {
@@ -3662,7 +3716,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "At distance the eyes look through the OCs, so there's no prism; reading below them, unequal powers give unequal vertical prism.",
           "needsReview": true
         },
         {
@@ -3690,7 +3744,8 @@
               "feedback": "Centimetres."
             }
           ],
-          "explanation": ""
+          "explanation": "Prentice's rule: prism (Δ) = decentration (cm) × power (D).",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0221",
@@ -3717,7 +3772,8 @@
               "feedback": "Units."
             }
           ],
-          "explanation": ""
+          "explanation": "The cylinder at axis 90 acts horizontally, so the horizontal power is +3.00 D. P = 0.5 × 3 = 1.5Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0222",
@@ -3744,7 +3800,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The cylinder at axis 180 acts vertically, so the vertical power is −5.00 D. P = 0.5 × 5 = 2.5Δ, base down below a minus OC.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0223",
@@ -3771,7 +3828,7 @@
               "feedback": "They differ."
             }
           ],
-          "explanation": "",
+          "explanation": "At 0.8 cm below: R gives 3.2Δ and L 0.8Δ, both base up. The difference is 2.4Δ.",
           "needsReview": true
         },
         {
@@ -3799,7 +3856,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A 2Δ prism displaces 2 cm per metre, so at 2 m it's 4 cm.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0225",
@@ -3826,7 +3884,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Light bends towards the base, so the object appears displaced towards the apex.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0226",
@@ -3853,7 +3912,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "The eyes can only fuse a small amount of vertical prism, so vertical tolerances are tighter.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0227",
@@ -3880,7 +3940,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "P = 0.2 × 6 = 1.2Δ. A minus lens gives base opposite to the decentration, so decentring out gives base in.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0228",
@@ -3907,7 +3968,8 @@
               "feedback": "Units."
             }
           ],
-          "explanation": ""
+          "explanation": "P = 0.2 × 6 = 1.2Δ. A plus lens gives base in the direction of decentration, so decentring in gives base in.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x0229",
@@ -3934,7 +3996,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "By Prentice's rule, prism = decentration × power, so a wrong PD matters more with high powers.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02210",
@@ -3961,7 +4024,8 @@
               "feedback": "There is prism."
             }
           ],
-          "explanation": ""
+          "explanation": "Each eye is 2 mm out: P = 0.2 × 8 = 1.6Δ, base in for minus lenses, so 3.2Δ base in in total.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02211",
@@ -3988,7 +4052,8 @@
               "feedback": "There is prism."
             }
           ],
-          "explanation": ""
+          "explanation": "Each eye is 2 mm in: P = 0.2 × 5 = 1Δ, base in for plus lenses, so 2Δ base in in total.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02212",
@@ -4015,7 +4080,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Base up on the right has the same vertical effect as base down on the left, so split it as R 1Δ up and L 1Δ down.",
           "needsReview": true
         },
         {
@@ -4043,7 +4108,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prisms combine as vectors: √(4² + 3²) = 5Δ, mostly base in.",
           "needsReview": true
         },
         {
@@ -4071,7 +4136,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the blank is big enough, decentring the lens gives the prism without grinding it in.",
           "needsReview": true
         },
         {
@@ -4099,7 +4164,7 @@
               "feedback": "You can't."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism from decentration equals decentration × power, so a zero-power lens gives no prism.",
           "needsReview": true
         },
         {
@@ -4127,7 +4192,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prism = decentration × power, so the highest power gives the most prism per millimetre.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02217",
@@ -4154,7 +4220,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A slab-off or dissimilar segments can add balancing vertical prism in the reading area.",
           "needsReview": true
         },
         {
@@ -4182,7 +4248,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dissimilar segments have their optical centres at different heights, adding vertical prism to balance the eyes.",
           "needsReview": true
         },
         {
@@ -4210,7 +4276,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lenses move with the eye, so the eyes always look through the optical centres.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02220",
@@ -4237,7 +4304,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "One prism dioptre is about 0.57°.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02221",
@@ -4264,7 +4332,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prism dioptres = 100 × tan(angle of deviation).",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02222",
@@ -4291,7 +4360,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The prism measured at the prism reference point should equal the prescribed prism.",
           "needsReview": true
         },
         {
@@ -4319,7 +4388,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Half the 70 mm box centre distance is 35 mm, so each lens is decentred 35 − 31 = 4 mm inwards.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02224",
@@ -4346,7 +4416,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "With asymmetric PDs, halving the binocular PD decentres the eyes unequally, giving prism that matters at high powers.",
           "needsReview": true
         },
         {
@@ -4374,7 +4444,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Looking 1 cm to the right through each +5.00 lens gives 5Δ, with the base towards the OC (to the left) in both.",
           "needsReview": true
         },
         {
@@ -4402,7 +4472,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A cylinder at axis 90 acts horizontally, so the vertical meridian has only the sphere: +1.00 D.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02227",
@@ -4429,7 +4500,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A cylinder at axis 180 acts vertically, so the horizontal meridian has only the sphere: −2.00 D.",
+          "needsReview": true
         },
         {
           "id": "aad-centration-prism-x02228",
@@ -4456,7 +4528,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prescribed prism and decentration both move where the optical centre sits in the lens.",
           "needsReview": true
         },
         {
@@ -4484,7 +4556,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The OCs are 3 mm out on each −4.00 lens: P = 0.3 × 4 = 1.2Δ base in per eye, so the patient must diverge.",
           "needsReview": true
         },
         {
@@ -4512,7 +4584,7 @@
               "feedback": "It can't on its own."
             }
           ],
-          "explanation": "",
+          "explanation": "A fused bifocal with equal adds has segments placed the same in each eye, so it can't add differential prism.",
           "needsReview": true
         }
       ],
@@ -4677,7 +4749,8 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "A higher refractive index bends light more, so flatter curves and a thinner lens give the same power.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0022",
@@ -4704,7 +4777,7 @@
               "feedback": "Unrelated."
             }
           ],
-          "explanation": "",
+          "explanation": "The Abbe number measures dispersion: a high value means low dispersion and less colour fringing.",
           "needsReview": true
         },
         {
@@ -4732,7 +4805,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "((1.5 − 1) ÷ (1.5 + 1))² = (0.5 ÷ 2.5)² = 0.04, so about 4% is reflected.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0024",
@@ -4813,7 +4887,7 @@
               "feedback": "Usually lower."
             }
           ],
-          "explanation": "",
+          "explanation": "Higher-index surfaces reflect more light, so anti-reflection coatings make a bigger difference.",
           "needsReview": true
         },
         {
@@ -4841,7 +4915,8 @@
               "feedback": "Higher."
             }
           ],
-          "explanation": ""
+          "explanation": "Polycarbonate has an Abbe number of about 30, lower than CR39, crown glass and Trivex.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0027",
@@ -4868,7 +4943,7 @@
               "feedback": "Not the reason."
             }
           ],
-          "explanation": "",
+          "explanation": "High-index materials have lower Abbe numbers, causing more colour fringing, so they're only worth it if genuinely thinner.",
           "needsReview": true
         },
         {
@@ -4896,7 +4971,8 @@
               "feedback": "High-index plastic."
             }
           ],
-          "explanation": ""
+          "explanation": "CR39 has a refractive index of about 1.498.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0122",
@@ -4923,7 +4999,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Polycarbonate has a low Abbe number of about 30.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0123",
@@ -4950,7 +5027,8 @@
               "feedback": "Not impact resistant."
             }
           ],
-          "explanation": ""
+          "explanation": "Trivex has an index of about 1.53, an Abbe number of about 45 and good impact resistance.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0124",
@@ -4977,7 +5055,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Transverse chromatic aberration = prism ÷ Abbe number = 5 ÷ 50 = 0.1Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0125",
@@ -5004,7 +5083,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "((1.7 − 1) ÷ (1.7 + 1))² = (0.7 ÷ 2.7)² ≈ 0.067, so about 6.7% is reflected.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0126",
@@ -5031,7 +5111,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Curve variation factor = 0.523 ÷ 0.7 ≈ 0.75, so the surfaces are about 75% as steep as in crown glass.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0127",
@@ -5058,7 +5139,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Abbe number V = (nd − 1) ÷ (nF − nC).",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0128",
@@ -5085,7 +5167,8 @@
               "feedback": "Not with high-index glass."
             }
           ],
-          "explanation": ""
+          "explanation": "Glass is heavier than plastic and can shatter, so it's less popular for spectacles.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0129",
@@ -5112,7 +5195,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Glass lenses can be toughened by heat treatment or chemical treatment.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x01210",
@@ -5193,7 +5277,8 @@
               "feedback": "Trivex."
             }
           ],
-          "explanation": ""
+          "explanation": "Crown glass has a density of about 2.5 g/cm³, about twice that of CR39.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0222",
@@ -5220,7 +5305,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "CR39 has a density of about 1.32 g/cm³.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0223",
@@ -5247,7 +5333,8 @@
               "feedback": "Denser."
             }
           ],
-          "explanation": ""
+          "explanation": "Trivex is the lightest common lens material, at about 1.11 g/cm³.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0224",
@@ -5274,7 +5361,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "CR39 is a thermosetting plastic: it sets permanently when cured.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0225",
@@ -5301,7 +5389,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Polycarbonate is a thermoplastic, so it can be melted and injection moulded.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0226",
@@ -5328,7 +5417,8 @@
               "feedback": "They do."
             }
           ],
-          "explanation": ""
+          "explanation": "Polycarbonate's surface scratches easily, so it needs a hard coat.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0227",
@@ -5409,7 +5499,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "1.74 plastic has a low Abbe number of about 33.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x0229",
@@ -5436,7 +5527,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Crown glass has an Abbe number of about 59, so very little dispersion.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02210",
@@ -5463,7 +5555,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "High-index materials have a low Abbe number, so they cause colour fringes when looking off-axis.",
           "needsReview": true
         },
         {
@@ -5491,7 +5583,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Constringence is another name for the Abbe number.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02212",
@@ -5518,7 +5611,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dispersive power is the reciprocal of the Abbe number: 1 ÷ V.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02213",
@@ -5545,7 +5639,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each surface reflects about 4%, so the two surfaces of an uncoated lens reflect about 8% in total.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02214",
@@ -5572,7 +5667,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Acetone can damage polycarbonate, causing cracking.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02215",
@@ -5599,7 +5695,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Photochromic glass contains silver halide crystals that darken in UV light and clear again without it.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02216",
@@ -5626,7 +5723,8 @@
               "feedback": "Glass."
             }
           ],
-          "explanation": ""
+          "explanation": "Mid-index plastic has a refractive index of about 1.56.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02217",
@@ -5707,7 +5805,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High-index materials are often denser, so a thinner lens can still weigh more than expected.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02219",
@@ -5734,7 +5833,8 @@
               "feedback": "Thicker than 1.74."
             }
           ],
-          "explanation": ""
+          "explanation": "1.74 plastic has the highest index of these, so it gives the thinnest edges on a −8.00 D lens.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02220",
@@ -5761,7 +5861,8 @@
               "feedback": "It's scratch resistant."
             }
           ],
-          "explanation": ""
+          "explanation": "Crown glass has excellent optics but is heavy and can shatter.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02221",
@@ -5842,7 +5943,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Higher-index lenses reflect more light at each surface, so an anti-reflection coating matters more.",
           "needsReview": true
         },
         {
@@ -5870,7 +5971,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Refractive index = speed of light in a vacuum ÷ speed of light in the material.",
           "needsReview": true
         },
         {
@@ -5898,7 +5999,8 @@
               "feedback": "Usually less."
             }
           ],
-          "explanation": ""
+          "explanation": "A higher-index material bends light more, so flatter curves give the same power.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02225",
@@ -5925,7 +6027,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Laminated glass has layers bonded together, which hold fragments in place if it breaks.",
           "needsReview": true
         },
         {
@@ -5953,7 +6055,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Chemically toughened glass is soaked in a molten salt bath, where ion exchange strengthens the surface.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02227",
@@ -5980,7 +6083,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Thermally toughened glass is heated, then cooled quickly with air jets.",
           "needsReview": true
         },
         {
@@ -6008,7 +6111,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Glass can shatter on impact, so it's not advised for sport.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02229",
@@ -6035,7 +6139,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Trivex has an Abbe number of about 45.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-materials-x02230",
@@ -6062,7 +6167,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Trivex is impact-resistant, light and has good optics (higher Abbe number than polycarbonate), so it suits children.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -6242,7 +6348,8 @@
               "feedback": "That has the most error."
             }
           ],
-          "explanation": ""
+          "explanation": "A Percival form gives zero mean oblique error, balancing the two oblique powers around the right value.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0023",
@@ -6323,7 +6430,8 @@
               "feedback": "That's equiconvex."
             }
           ],
-          "explanation": ""
+          "explanation": "Tscherning's ellipse gives two point-focal solutions for +5.00 D; the flatter (Ostwalt) one is about +12.50 / −7.50.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0025",
@@ -6350,7 +6458,7 @@
               "feedback": "They show there's no solution."
             }
           ],
-          "explanation": "",
+          "explanation": "Above about +7.00 D the ellipse has no real solution, so no two-sphere form removes oblique astigmatism.",
           "needsReview": true
         },
         {
@@ -6378,7 +6486,8 @@
               "feedback": "They aren't."
             }
           ],
-          "explanation": ""
+          "explanation": "A flatter lens gives negative mean oblique error, which a young myope can clear by accommodating.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0027",
@@ -6459,7 +6568,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A hard coat improves the scratch resistance of plastic lenses.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0029",
@@ -6486,7 +6596,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Most windscreens block UV, so standard photochromics don't get enough UV to darken in a car.",
           "needsReview": true
         },
         {
@@ -6514,7 +6624,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An AR coating makes light reflected from its two surfaces cancel out by destructive interference.",
           "needsReview": true
         },
         {
@@ -6542,7 +6652,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The ideal single-layer coating index is √(lens index) = √1.5 ≈ 1.22.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0123",
@@ -6569,7 +6680,7 @@
               "feedback": "Photochromic."
             }
           ],
-          "explanation": "",
+          "explanation": "A hydrophobic top coat repels water and grease, making lenses easier to clean.",
           "needsReview": true
         },
         {
@@ -6597,7 +6708,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Glare reflected from flat surfaces is mostly horizontally polarised, so a vertical transmission axis blocks it.",
           "needsReview": true
         },
         {
@@ -6625,7 +6736,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Standard photochromic lenses are activated by UV light.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0126",
@@ -6652,7 +6764,8 @@
               "feedback": "Allowed in daytime."
             }
           ],
-          "explanation": ""
+          "explanation": "Category 4 lenses let through so little light that they're unsafe for driving.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0127",
@@ -6679,7 +6792,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A UV400 lens blocks ultraviolet up to 400 nm, covering UVA and UVB.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0128",
@@ -6706,7 +6820,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A meniscus lens has both surfaces curved the same way: one convex, one concave.",
           "needsReview": true
         },
         {
@@ -6734,7 +6848,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Best form is the lens form that minimises oblique aberrations, giving the clearest vision off-axis.",
           "needsReview": true
         },
         {
@@ -6762,7 +6876,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Flatter lenses bulge less and magnify less, so they look better in the frame.",
           "needsReview": true
         },
         {
@@ -6790,7 +6904,7 @@
               "feedback": "It's on one surface."
             }
           ],
-          "explanation": "",
+          "explanation": "Modern spectacle lenses usually put the cylinder on the back surface (minus cylinder form).",
           "needsReview": true
         },
         {
@@ -6818,7 +6932,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The base curve is usually the front curve that the lens design is built around.",
           "needsReview": true
         },
         {
@@ -6846,7 +6960,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Spectacle magnification is the product of the power factor and the shape factor.",
           "needsReview": true
         },
         {
@@ -6874,7 +6988,8 @@
               "feedback": "Not if the back compensates."
             }
           ],
-          "explanation": ""
+          "explanation": "Steepening the front curve increases the shape factor, so magnification increases.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0235",
@@ -6901,7 +7016,7 @@
               "feedback": "Both concave."
             }
           ],
-          "explanation": "",
+          "explanation": "Plano-convex and plano-concave lenses are flat on one side.",
           "needsReview": true
         },
         {
@@ -6929,7 +7044,8 @@
               "feedback": "Category 4."
             }
           ],
-          "explanation": ""
+          "explanation": "Category 0 filters transmit 80–100% of light: clear or very light tints.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0237",
@@ -6956,7 +7072,8 @@
               "feedback": "Category 4."
             }
           ],
-          "explanation": ""
+          "explanation": "Category 3 sunglasses transmit about 8–18% of light.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0238",
@@ -6983,7 +7100,8 @@
               "feedback": "Category 4."
             }
           ],
-          "explanation": ""
+          "explanation": "Category 2 sunglasses transmit about 18–43% of light.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x0239",
@@ -7010,7 +7128,8 @@
               "feedback": "Allowed."
             }
           ],
-          "explanation": ""
+          "explanation": "At night there's little light, so lenses transmitting less than about 75% shouldn't be used for night driving.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02310",
@@ -7037,7 +7156,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Any tint reduces the already low light at night, so tinted 'night-driving' lenses aren't advised.",
           "needsReview": true
         },
         {
@@ -7065,7 +7184,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Photochromic reactions are temperature-dependent: in cold they darken more and fade more slowly.",
           "needsReview": true
         },
         {
@@ -7093,7 +7212,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Many screens emit polarised light, so polarised lenses at certain angles can make them look dark.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02313",
@@ -7120,7 +7240,7 @@
               "feedback": "There's some."
             }
           ],
-          "explanation": "",
+          "explanation": "Many AR coatings leave a faint greenish or blue-purple residual reflection.",
           "needsReview": true
         },
         {
@@ -7148,7 +7268,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An AR coating reduces reflections from the lens surfaces, which cause ghost images.",
           "needsReview": true
         },
         {
@@ -7176,7 +7296,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A multilayer AR coating reduces reflection across a broad range of visible wavelengths.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02316",
@@ -7203,7 +7324,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hard coats are often applied by dipping in a siloxane lacquer, or by spin coating.",
           "needsReview": true
         },
         {
@@ -7231,7 +7352,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A gradient tint is darker at the top and fades towards the bottom.",
           "needsReview": true
         },
         {
@@ -7259,7 +7380,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Power rings come from reflections at the thick edge; an AR coating and treated edges reduce them.",
           "needsReview": true
         },
         {
@@ -7287,7 +7408,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "High plus lenses magnify, so the eyes look bigger to others.",
           "needsReview": true
         },
         {
@@ -7315,7 +7436,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High minus lenses minify, so the eyes look smaller to others.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02321",
@@ -7342,7 +7464,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A mirror coating reflects light from the front of the lens, reducing glare.",
           "needsReview": true
         },
         {
@@ -7370,7 +7492,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An anti-fog coating reduces condensation forming on the lens.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02323",
@@ -7397,7 +7520,8 @@
               "feedback": "Not usually."
             }
           ],
-          "explanation": ""
+          "explanation": "Wrap-around frames have a curved front, so they need lenses with steeper base curves.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02324",
@@ -7424,7 +7548,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "Tilting a lens around the face changes its effective power, adding unwanted sphere, cylinder and prism.",
           "needsReview": true
         },
         {
@@ -7452,7 +7576,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The best-form base curve depends on the lens power.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02326",
@@ -7479,7 +7604,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'Blue light filtering' lenses cut some short-wavelength blue light, not all of it.",
           "needsReview": true
         },
         {
@@ -7507,7 +7632,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Category 4 tints are for very bright places such as glaciers or snowfields.",
           "needsReview": true
         },
         {
@@ -7535,7 +7660,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "A small frame and flatter front reduce edge thickness and power rings in high minus lenses.",
           "needsReview": true
         },
         {
@@ -7563,7 +7688,8 @@
               "feedback": "They do."
             }
           ],
-          "explanation": ""
+          "explanation": "Standard photochromics take several minutes to fade indoors.",
+          "needsReview": true
         },
         {
           "id": "aad-lens-form-coatings-x02330",
@@ -7590,7 +7716,8 @@
               "feedback": "Hard coat."
             }
           ],
-          "explanation": ""
+          "explanation": "The hard coat goes on first, under the AR stack, and the top coat goes on last.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -7859,7 +7986,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "D28 describes a flat-top, D-shaped segment 28 mm wide.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0121",
@@ -7886,7 +8014,8 @@
               "feedback": "Round segments jump."
             }
           ],
-          "explanation": ""
+          "explanation": "Image jump = distance from segment top to segment OC (cm) × add. For a round 28 segment, that's 1.4 cm × 2.00 = 2.8Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0122",
@@ -7913,7 +8042,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A flat-top segment's optical centre is close to its top, so there's less prism at the dividing line.",
           "needsReview": true
         },
         {
@@ -7941,7 +8070,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An executive bifocal has its segment optical centre on the dividing line, so there's no image jump.",
           "needsReview": true
         },
         {
@@ -7969,7 +8098,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A fused bifocal has a segment of higher-index glass fused into a depression in the main lens.",
           "needsReview": true
         },
         {
@@ -7997,7 +8126,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A trifocal's intermediate portion is usually about half the near add.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0126",
@@ -8024,7 +8154,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near segments are usually inset about 2 mm per eye to allow for convergence.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0127",
@@ -8051,7 +8182,8 @@
               "feedback": "Both give base down here."
             }
           ],
-          "explanation": ""
+          "explanation": "The distance lens gives 0.8 × 2 = 1.6Δ base down; the NVP is 9 mm above the seg OC, giving 0.9 × 2 = 1.8Δ base down. Total 3.4Δ base down.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0128",
@@ -8078,7 +8210,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A double-D bifocal has a near segment at the top too, for close work above eye level.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0129",
@@ -8105,7 +8238,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A solid bifocal's segment is made by a different surface curve on the same material.",
           "needsReview": true
         },
         {
@@ -8133,7 +8266,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The executive segment spans the full width of the lens, making it thick and heavy.",
           "needsReview": true
         },
         {
@@ -8161,7 +8294,8 @@
               "feedback": "Progressives."
             }
           ],
-          "explanation": ""
+          "explanation": "Benjamin Franklin is often credited with inventing the split bifocal.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0232",
@@ -8188,7 +8322,8 @@
               "feedback": "Round segments jump."
             }
           ],
-          "explanation": ""
+          "explanation": "For a round 38 segment, the segment OC is 1.9 cm below the top: 1.9 × 2.00 = 3.8Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0233",
@@ -8215,7 +8350,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For a round 22 segment, the segment OC is 1.1 cm below the top: 1.1 × 1.50 = 1.65Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0234",
@@ -8242,7 +8378,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Image jump depends on the add and the distance from the segment top to the segment's optical centre.",
           "needsReview": true
         },
         {
@@ -8270,7 +8406,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Image jump is noticed as the eye crosses the segment top, where the prism suddenly changes.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x0236",
@@ -8297,7 +8434,7 @@
               "feedback": "Visible edge."
             }
           ],
-          "explanation": "",
+          "explanation": "A blended bifocal has its segment edge smoothed so the line isn't visible.",
           "needsReview": true
         },
         {
@@ -8325,7 +8462,7 @@
               "feedback": "Bifocals are used."
             }
           ],
-          "explanation": "",
+          "explanation": "Children need the segment high, near the lower pupil margin, so they actually look through it for near.",
           "needsReview": true
         },
         {
@@ -8353,7 +8490,7 @@
               "feedback": "Sometimes, but bifocals are common."
             }
           ],
-          "explanation": "",
+          "explanation": "An executive or large D segment set high makes sure the child uses the add for all near work.",
           "needsReview": true
         },
         {
@@ -8381,7 +8518,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Plastic CR39 bifocals are usually moulded in one piece (solid).",
           "needsReview": true
         },
         {
@@ -8409,7 +8546,8 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "A wider segment gives a wider near field of view.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02311",
@@ -8436,7 +8574,7 @@
               "feedback": "PPL."
             }
           ],
-          "explanation": "",
+          "explanation": "A trifocal has distance, intermediate and near portions.",
           "needsReview": true
         },
         {
@@ -8464,7 +8602,8 @@
               "feedback": "No ledge."
             }
           ],
-          "explanation": ""
+          "explanation": "An executive (E-line) bifocal has a visible ledge across the full width of the lens.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02313",
@@ -8491,7 +8630,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Segment height is measured from the lowest point of the rim to the segment top.",
           "needsReview": true
         },
         {
@@ -8519,7 +8658,8 @@
               "feedback": "That's an E-line."
             }
           ],
-          "explanation": ""
+          "explanation": "In a D28 segment, the optical centre is usually about 5 mm below the segment top.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02315",
@@ -8546,7 +8686,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Looking down at stairs through the reading segment blurs them, because it's focused for near.",
           "needsReview": true
         },
         {
@@ -8574,7 +8714,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "A lower segment keeps out of the way when looking down at the ball, which golfers prefer.",
           "needsReview": true
         },
         {
@@ -8602,7 +8742,7 @@
               "feedback": "Both."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism at the near visual point comes from both the main lens and the segment.",
           "needsReview": true
         },
         {
@@ -8630,7 +8770,8 @@
               "feedback": "That's the jump."
             }
           ],
-          "explanation": ""
+          "explanation": "For R28 the seg OC is 14 mm below the top, so an NVP 5 mm below the top is 9 mm above it: 0.9 × 2 = 1.8Δ base down.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02319",
@@ -8711,7 +8852,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Denser, higher-index glass in the segment adds power without changing the surface curve.",
           "needsReview": true
         },
         {
@@ -8739,7 +8880,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A trifocal segment top is usually set at the lower pupil margin.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02322",
@@ -8766,7 +8908,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A computer at 66 cm needs intermediate power, which a trifocal or progressive provides.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02323",
@@ -8793,7 +8936,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A wider segment gives a wider reading area.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02324",
@@ -8820,7 +8964,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The eyes converge to read, so the reading portion is moved inwards.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02325",
@@ -8847,7 +8992,7 @@
               "feedback": "PPLs better."
             }
           ],
-          "explanation": "",
+          "explanation": "Bifocals give a wide, undistorted reading field, while progressives have narrower zones.",
           "needsReview": true
         },
         {
@@ -8875,7 +9020,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An inverted segment at the top helps people who need near vision above eye level.",
           "needsReview": true
         },
         {
@@ -8903,7 +9048,8 @@
               "feedback": "Some issues."
             }
           ],
-          "explanation": ""
+          "explanation": "Image jump and a sharp break between zones are common problems for new bifocal wearers.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02328",
@@ -8930,7 +9076,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Adjusting a frame changes how it sits, so segment heights must be measured after adjustment.",
           "needsReview": true
         },
         {
@@ -8958,7 +9104,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The near visual point is usually about 8–10 mm below the distance optical centre.",
+          "needsReview": true
         },
         {
           "id": "aad-multifocals-x02330",
@@ -8985,7 +9132,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A double-D bifocal has near segments at the top and bottom of the lens.",
           "needsReview": true
         }
       ],
@@ -9178,7 +9325,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "To transpose: new sphere = +1.00 + (−2.00) = −1.00, change the cyl sign to +2.00, and rotate the axis by 90° to 120.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0022",
@@ -9205,7 +9353,8 @@
               "feedback": "The axis must rotate."
             }
           ],
-          "explanation": ""
+          "explanation": "New sphere = −3.00 + 1.50 = −1.50, cyl becomes −1.50, axis rotates from 90 to 180.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0023",
@@ -9340,7 +9489,7 @@
               "feedback": "Later."
             }
           ],
-          "explanation": "",
+          "explanation": "Focus the eyepiece for your own eye first, then check the instrument reads zero.",
           "needsReview": true
         },
         {
@@ -9368,7 +9517,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "Front-surface adds are specified as front vertex powers; measuring with back vertex power over-reads on steep, thick lenses.",
           "needsReview": true
         },
         {
@@ -9450,7 +9599,7 @@
               "feedback": "Check the order first."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism thinning is equal in both lenses, so 1Δ base down each is thinning and the extra 1Δ on the right is prescribed or an error.",
           "needsReview": true
         },
         {
@@ -9478,7 +9627,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "New sphere = +2.00 + (−1.00) = +1.00, cyl becomes +1.00, axis rotates from 45 to 135.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0122",
@@ -9505,7 +9655,8 @@
               "feedback": "Change the sign."
             }
           ],
-          "explanation": ""
+          "explanation": "New sphere = −1.25 + (−0.75) = −2.00, cyl becomes +0.75, axis rotates from 160 to 70.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0123",
@@ -9532,7 +9683,8 @@
               "feedback": "They are."
             }
           ],
-          "explanation": ""
+          "explanation": "The hidden engravings on a varifocal are about 34 mm apart.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0124",
@@ -9559,7 +9711,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A spherical lens has the same power in every meridian, so all the target lines focus together.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0125",
@@ -9586,7 +9739,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A toric lens focuses each line at a different setting; the difference between them is the cylinder power.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0126",
@@ -9613,7 +9767,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Geneva lens measure is calibrated for crown glass, n = 1.523.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0127",
@@ -9694,7 +9849,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Front-surface adds are measured as front vertex powers, so turn the lens round and compare near and distance readings.",
           "needsReview": true
         },
         {
@@ -9776,7 +9931,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Distortion often comes from fit, such as vertex distance, tilt or centration, so check those first.",
           "needsReview": true
         },
         {
@@ -9804,7 +9959,8 @@
               "feedback": "Change the cyl sign."
             }
           ],
-          "explanation": ""
+          "explanation": "New sphere = +0.75 + (−1.50) = −0.75, cyl becomes +1.50, axis rotates from 120 to 30.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0232",
@@ -9831,7 +9987,8 @@
               "feedback": "Rotate the axis."
             }
           ],
-          "explanation": ""
+          "explanation": "New sphere = −4.00 + 2.00 = −2.00, cyl becomes −2.00, axis rotates from 15 to 105.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0233",
@@ -9858,7 +10015,8 @@
               "feedback": "Rotate the axis."
             }
           ],
-          "explanation": ""
+          "explanation": "New sphere = +1.50 + 0.50 = +2.00, cyl becomes −0.50, axis rotates from 180 to 90.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0234",
@@ -9885,7 +10043,7 @@
               "feedback": "It's displaced."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism shows on a focimeter as the target displaced from the centre.",
           "needsReview": true
         },
         {
@@ -9913,7 +10071,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "On a focimeter the target moves towards the base, so it moving up means base up.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0236",
@@ -9940,7 +10099,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Marking both optical centres and measuring between them gives the PD of the finished spectacles.",
           "needsReview": true
         },
         {
@@ -9968,7 +10127,8 @@
               "feedback": "They do."
             }
           ],
-          "explanation": ""
+          "explanation": "An axis error matters more with a stronger cylinder, so tolerances are tighter for higher cylinders.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x0238",
@@ -9995,7 +10155,7 @@
               "feedback": "PD."
             }
           ],
-          "explanation": "",
+          "explanation": "A polariscope shows stress patterns in glass lenses, for example from toughening.",
           "needsReview": true
         },
         {
@@ -10023,7 +10183,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Callipers measure lens thickness.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x02310",
@@ -10050,7 +10211,7 @@
               "feedback": "Plus sphere."
             }
           ],
-          "explanation": "",
+          "explanation": "A cylinder distorts lines differently as the lens is rotated, giving a 'scissors' movement.",
           "needsReview": true
         },
         {
@@ -10078,7 +10239,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Plus lenses give 'against' movement when moved side to side; minus lenses give 'with' movement.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x02312",
@@ -10105,7 +10267,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Reflecting a light off the surface shows scratches and other surface defects clearly.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x02313",
@@ -10132,7 +10295,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The manufacturer's template lets you re-mark the fitting cross from the hidden engravings.",
           "needsReview": true
         },
         {
@@ -10160,7 +10323,7 @@
               "feedback": "It's engraved."
             }
           ],
-          "explanation": "",
+          "explanation": "On most progressives, the add is engraved below the temporal circle.",
           "needsReview": true
         },
         {
@@ -10188,7 +10351,7 @@
               "feedback": "Check."
             }
           ],
-          "explanation": "",
+          "explanation": "At collection, check acuity, comfort, fit and centration.",
           "needsReview": true
         },
         {
@@ -10216,7 +10379,7 @@
               "feedback": "Adjust."
             }
           ],
-          "explanation": "",
+          "explanation": "Adjusting the pads or bridge, and the side bends, stops a frame sliding down.",
           "needsReview": true
         },
         {
@@ -10244,7 +10407,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A frame higher on the right is usually fixed by adjusting the angle of the right side.",
           "needsReview": true
         },
         {
@@ -10272,7 +10435,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Effective power depends on vertex distance, so the spectacles must sit where the power was calculated for.",
           "needsReview": true
         },
         {
@@ -10300,7 +10463,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Check the eyepiece focus and that the focimeter reads zero before using it.",
           "needsReview": true
         },
         {
@@ -10328,7 +10491,8 @@
               "feedback": "Not specifically."
             }
           ],
-          "explanation": ""
+          "explanation": "Placing the back surface against the stop measures back vertex power, which is how prescriptions are specified.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x02321",
@@ -10355,7 +10519,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A digital focimeter measures sphere, cylinder, axis and prism automatically.",
           "needsReview": true
         },
         {
@@ -10437,7 +10601,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Check the axis against the tolerance for that cylinder power, and have the lens remade if it's outside.",
           "needsReview": true
         },
         {
@@ -10465,7 +10629,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Different materials or coatings look different and can give different vision between the eyes.",
           "needsReview": true
         },
         {
@@ -10493,7 +10657,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Opening the side bends slightly reduces pressure behind the ears.",
+          "needsReview": true
         },
         {
           "id": "aad-verification-fitting-x02326",
@@ -10520,7 +10685,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Headaches with new glasses can come from a manufacturing or centration error, so verify the lenses first.",
           "needsReview": true
         },
         {
@@ -10548,7 +10713,7 @@
               "feedback": "Damages plastic."
             }
           ],
-          "explanation": "",
+          "explanation": "Lens cleaner and a microfibre cloth clean without scratching.",
           "needsReview": true
         },
         {
@@ -10576,7 +10741,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The OC height should match the pupil, allowing for pantoscopic tilt.",
           "needsReview": true
         },
         {
@@ -10604,7 +10769,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Some adaptation to new glasses is normal, but they should come back if it doesn't settle.",
           "needsReview": true
         },
         {
@@ -10632,7 +10797,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "At collection, explain how to wear and care for the glasses and when to come back.",
           "needsReview": true
         }
       ],
@@ -10790,7 +10955,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "15 mm × 0.133 D per mm ≈ 2.00 D, so the add 15 mm down is +2.00 D.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0022",
@@ -10817,7 +10983,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "With a high add, a short corridor packs the power change into less space, increasing astigmatism and narrowing clear zones.",
           "needsReview": true
         },
         {
@@ -10845,7 +11011,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Standard progressive corridors usually need about 18 mm below the fitting cross; short corridors about 14 mm.",
           "needsReview": true
         },
         {
@@ -10873,7 +11039,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In side gaze, the eyes look through different parts of the lenses with unequal magnification, causing a swimming feeling.",
           "needsReview": true
         },
         {
@@ -10901,7 +11067,7 @@
               "feedback": "Not one of the listed extras."
             }
           ],
-          "explanation": "",
+          "explanation": "Free-form progressives are calculated for how the frame sits, so they need vertex distance, pantoscopic and wrap angles.",
           "needsReview": true
         },
         {
@@ -10929,7 +11095,7 @@
               "feedback": "Best-form ellipses."
             }
           ],
-          "explanation": "",
+          "explanation": "Bernard Maitenaz designed the first commercially successful progressive lens (Varilux).",
           "needsReview": true
         },
         {
@@ -10957,7 +11123,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "On most progressives, the prism reference point is about 4 mm below the fitting cross.",
           "needsReview": true
         },
         {
@@ -10985,7 +11151,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism thinning reduces the thickness and weight of progressive lenses.",
           "needsReview": true
         },
         {
@@ -11013,7 +11179,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism thinning is usually about two thirds of the add, base down, in both lenses.",
           "needsReview": true
         },
         {
@@ -11041,7 +11207,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A hard design packs the astigmatism into the periphery, giving wider clear zones but a harsher edge.",
           "needsReview": true
         },
         {
@@ -11069,7 +11235,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Minkwitz's theorem: astigmatism increases sideways from the corridor at twice the rate the power changes along it.",
           "needsReview": true
         },
         {
@@ -11097,7 +11263,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An office (degressive) lens gives good near and intermediate vision for desk work.",
           "needsReview": true
         },
         {
@@ -11125,7 +11291,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "If the frame is too shallow, the near zone can be cut off when the lens is glazed.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0128",
@@ -11152,7 +11319,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The corridor must line up with each eye, so monocular PDs are needed.",
           "needsReview": true
         },
         {
@@ -11180,7 +11347,7 @@
               "feedback": "Add."
             }
           ],
-          "explanation": "",
+          "explanation": "The distance power is checked in the distance reference circle above the fitting cross.",
           "needsReview": true
         },
         {
@@ -11208,7 +11375,8 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": ""
+          "explanation": "Early presbyopes with low adds have less peripheral distortion, so they adapt most easily.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0231",
@@ -11235,7 +11403,8 @@
               "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "The manufacturer's logo is usually engraved below the nasal engraving circle.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0232",
@@ -11262,7 +11431,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The corridor length is the distance from the fitting cross to where the full near add is reached.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0233",
@@ -11289,7 +11459,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A standard progressive corridor is typically about 14–18 mm long.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0234",
@@ -11316,7 +11487,7 @@
               "feedback": "Not this pattern."
             }
           ],
-          "explanation": "",
+          "explanation": "If the fitting cross is too high, the corridor sits in front of the pupil, so the wearer tips their chin down to find the distance zone.",
           "needsReview": true
         },
         {
@@ -11344,7 +11515,7 @@
               "feedback": "Not this pattern."
             }
           ],
-          "explanation": "",
+          "explanation": "If the fitting cross is too low, the near zone is too far down, so the wearer has to lift their chin to reach it.",
           "needsReview": true
         },
         {
@@ -11372,7 +11543,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If only one eye reads clearly, that eye's PD or height is probably wrong, so its corridor misses the pupil.",
           "needsReview": true
         },
         {
@@ -11400,7 +11571,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "As a rule of thumb, the maximum unwanted astigmatism in a progressive is about equal to the add.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x0238",
@@ -11427,7 +11599,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A higher add means a bigger power change down the corridor, which creates more astigmatism and narrower clear zones.",
           "needsReview": true
         },
         {
@@ -11455,7 +11627,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In an asymmetric design, the right and left lenses differ, placing the near zone for convergence.",
           "needsReview": true
         },
         {
@@ -11483,7 +11655,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A multi-design progressive changes its design for each add, rather than using one design for all.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x02311",
@@ -11510,7 +11683,7 @@
               "feedback": "Most adapt."
             }
           ],
-          "explanation": "",
+          "explanation": "Most people adapt to progressives within a few days to two weeks.",
           "needsReview": true
         },
         {
@@ -11538,7 +11711,7 @@
               "feedback": "Not usually."
             }
           ],
-          "explanation": "",
+          "explanation": "Turning the head to look sideways and lowering the eyes to read keeps the wearer in the clear zones.",
           "needsReview": true
         },
         {
@@ -11566,7 +11739,8 @@
               "feedback": "Theorem."
             }
           ],
-          "explanation": ""
+          "explanation": "Bernard Maitenaz invented Varilux, the first commercially successful progressive, in 1959.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x02314",
@@ -11593,7 +11767,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Read the add from the engraving, then confirm it by the difference in front vertex power between near and distance.",
           "needsReview": true
         },
         {
@@ -11621,7 +11795,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Vertex distance, pantoscopic tilt and wrap angle let free-form progressives be optimised for how the frame sits.",
           "needsReview": true
         },
         {
@@ -11649,7 +11823,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Free-form surfacing shapes the surface point by point, allowing personalised designs.",
           "needsReview": true
         },
         {
@@ -11677,7 +11851,7 @@
               "feedback": "Options exist."
             }
           ],
-          "explanation": "",
+          "explanation": "A design with a wider near zone, or an office lens, gives a wider reading area.",
           "needsReview": true
         },
         {
@@ -11705,7 +11879,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The eyes converge when reading, so the near zone is inset.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x02319",
@@ -11732,7 +11907,7 @@
               "feedback": "Usually fine."
             }
           ],
-          "explanation": "",
+          "explanation": "High anisometropia gives unequal prism in the periphery, and little head movement makes peripheral distortion harder to avoid.",
           "needsReview": true
         },
         {
@@ -11760,7 +11935,7 @@
               "feedback": "Not usually."
             }
           ],
-          "explanation": "",
+          "explanation": "Progressives give clear vision at all distances with no visible line.",
           "needsReview": true
         },
         {
@@ -11788,7 +11963,7 @@
               "feedback": "Distorted."
             }
           ],
-          "explanation": "",
+          "explanation": "To read, look down through the near zone at the bottom of the corridor.",
           "needsReview": true
         },
         {
@@ -11816,7 +11991,7 @@
               "feedback": "Not specifically."
             }
           ],
-          "explanation": "",
+          "explanation": "Progressives have astigmatism either side of the corridor, so looking sideways at near is blurred.",
           "needsReview": true
         },
         {
@@ -11844,7 +12019,7 @@
               "feedback": "No intermediate."
             }
           ],
-          "explanation": "",
+          "explanation": "An office progressive gives wide intermediate and near zones for screen and desk work.",
           "needsReview": true
         },
         {
@@ -11926,7 +12101,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Fitting heights depend on how that particular frame sits, so they must be measured in it.",
           "needsReview": true
         },
         {
@@ -11954,7 +12129,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the fitting is 2 mm too wide, the corridor misses the pupil, so reading is narrow or blurred.",
           "needsReview": true
         },
         {
@@ -11982,7 +12157,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Short-corridor progressives fit shallow frames where a standard corridor wouldn't fit.",
+          "needsReview": true
         },
         {
           "id": "aad-ppl-x02328",
@@ -12009,7 +12185,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Peripheral astigmatism and changes in magnification make the image move, causing a 'swim' at first.",
           "needsReview": true
         },
         {
@@ -12037,7 +12213,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The fitting cross is the point that is placed in front of the pupil centre.",
           "needsReview": true
         },
         {
@@ -12065,7 +12241,7 @@
               "feedback": "They are."
             }
           ],
-          "explanation": "",
+          "explanation": "Checking the marks at collection confirms each fitting cross is centred on its pupil.",
           "needsReview": true
         }
       ],
@@ -12462,7 +12638,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High minus lenses minify more towards the edge, so straight lines bow inwards: barrel distortion.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0124",
@@ -12489,7 +12666,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Oblique astigmatic error = tangential power − sagittal power (T − S).",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0125",
@@ -12516,7 +12694,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Mean oblique error = (T + S) ÷ 2 − back vertex power.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0126",
@@ -12543,7 +12722,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The eye's pupil lets only a narrow beam through the lens, so spherical aberration and coma are small.",
           "needsReview": true
         },
         {
@@ -12571,7 +12750,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A point-focal design aims for zero oblique astigmatism.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0128",
@@ -12598,7 +12778,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "At 1 cm off-axis a +5.00 D lens gives 5Δ; TCA = prism ÷ V = 5 ÷ 40 = 0.125Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0129",
@@ -12625,7 +12806,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Longitudinal chromatic aberration = power ÷ Abbe number = 4 ÷ 50 = 0.08 D.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x01210",
@@ -12652,7 +12834,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Distortion happens because magnification changes with the angle of view, bending straight lines.",
           "needsReview": true
         },
         {
@@ -12680,7 +12862,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The five Seidel aberrations are spherical aberration, coma, oblique astigmatism, curvature of field and distortion.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0242",
@@ -12707,7 +12890,8 @@
               "feedback": "Monochromatic."
             }
           ],
-          "explanation": ""
+          "explanation": "The two chromatic aberrations are longitudinal and transverse.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0243",
@@ -12734,7 +12918,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Oblique astigmatism happens when a pencil passes through the lens obliquely, forming two line foci.",
           "needsReview": true
         },
         {
@@ -12762,7 +12946,7 @@
               "feedback": "Different."
             }
           ],
-          "explanation": "",
+          "explanation": "Curvature of field means a flat object is imaged on a curved surface rather than a flat one.",
           "needsReview": true
         },
         {
@@ -12790,7 +12974,7 @@
               "feedback": "Not directly."
             }
           ],
-          "explanation": "",
+          "explanation": "The far point sphere is the surface where the image must fall as the eye rotates for clear vision.",
           "needsReview": true
         },
         {
@@ -12818,7 +13002,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The eye's centre of rotation is about 13.5 mm behind the cornea.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0247",
@@ -12845,7 +13030,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The flatter branch of Tscherning's ellipse is the Ostwalt branch.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0248",
@@ -12872,7 +13058,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The steeper branch of Tscherning's ellipse is the Wollaston branch.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x0249",
@@ -12899,7 +13086,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Percival design aims for zero mean oblique error (zero curvature of field).",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02410",
@@ -12926,7 +13114,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Oblique astigmatic error = T − S = −5.25 − (−5.10) = −0.15 D.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02411",
@@ -12953,7 +13142,8 @@
               "feedback": "Sign."
             }
           ],
-          "explanation": ""
+          "explanation": "Mean oblique error = (T + S) ÷ 2 − BVP = (−5.25 − 5.10) ÷ 2 − (−5.00) = −0.175 D.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02412",
@@ -12980,7 +13170,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "At 1 cm off-axis a −6.00 D lens gives 6Δ; TCA = 6 ÷ 30 = 0.2Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02413",
@@ -13007,7 +13198,8 @@
               "feedback": "Impossible off-axis."
             }
           ],
-          "explanation": ""
+          "explanation": "A practical rule is to keep transverse chromatic aberration below about 0.1Δ, so it isn't noticed.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02414",
@@ -13034,7 +13226,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "Above about +7.00 D, no spherical form removes oblique astigmatism, so aspheric surfaces are needed.",
           "needsReview": true
         },
         {
@@ -13062,7 +13254,7 @@
               "feedback": "Same sign as the lens."
             }
           ],
-          "explanation": "",
+          "explanation": "Tilting a spherical lens adds extra sphere and a cylinder of the same sign as the lens.",
           "needsReview": true
         },
         {
@@ -13090,7 +13282,8 @@
               "feedback": "It induces cylinder."
             }
           ],
-          "explanation": ""
+          "explanation": "Pantoscopic tilt rotates the lens about a horizontal axis, inducing a cylinder with its axis horizontal.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02417",
@@ -13117,7 +13310,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Free-form lenses compensate the Rx for wrap and tilt, cancelling the induced sphere and cylinder.",
           "needsReview": true
         },
         {
@@ -13145,7 +13338,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a plus lens with spherical aberration, marginal rays are bent more and focus closer to the lens.",
           "needsReview": true
         },
         {
@@ -13173,7 +13366,7 @@
               "feedback": "Oblique astigmatism."
             }
           ],
-          "explanation": "",
+          "explanation": "Coma produces a comet-shaped blur from off-axis points.",
           "needsReview": true
         },
         {
@@ -13201,7 +13394,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Distortion changes the shape of the image without making it blurred.",
           "needsReview": true
         },
         {
@@ -13229,7 +13422,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High plus lenses magnify more towards the edge, so straight lines bow outwards: pincushion distortion.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02422",
@@ -13256,7 +13450,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Off-axis errors increase with lens power, so aberrations matter more for high powers.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02423",
@@ -13283,7 +13478,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A high Abbe number means low dispersion, which limits transverse chromatic aberration.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02424",
@@ -13310,7 +13506,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A compromise design balances oblique astigmatism and mean oblique error rather than removing one fully.",
           "needsReview": true
         },
         {
@@ -13338,7 +13534,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An oblique pencil forms two line foci: tangential and sagittal.",
           "needsReview": true
         },
         {
@@ -13366,7 +13562,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "For minus lenses, best-form curves are generally normal meniscus forms.",
           "needsReview": true
         },
         {
@@ -13394,7 +13590,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "At 1.2 cm off-axis a +5.00 D lens gives 6Δ; TCA = 6 ÷ 50 = 0.12Δ.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02428",
@@ -13421,7 +13618,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Longitudinal chromatic aberration = power ÷ V = 8 ÷ 40 = 0.2 D.",
+          "needsReview": true
         },
         {
           "id": "aad-aberrations-x02429",
@@ -13448,7 +13646,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Flat-form high-minus lenses have large oblique errors, so peripheral vision is poor.",
           "needsReview": true
         },
         {
@@ -13476,7 +13674,7 @@
               "feedback": "Mostly material."
             }
           ],
-          "explanation": "",
+          "explanation": "Lens design mainly aims to keep vision clear off-axis as the eye turns; on-axis vision is usually fine.",
           "needsReview": true
         }
       ],
@@ -13689,7 +13887,8 @@
               "feedback": "p > 1."
             }
           ],
-          "explanation": ""
+          "explanation": "In conicoid terms, p = 1 describes a sphere (a circle in cross-section).",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0022",
@@ -13716,7 +13915,7 @@
               "feedback": "You can."
             }
           ],
-          "explanation": "",
+          "explanation": "An aspheric plus front surface flattens towards the edge, so the lens measure reading falls.",
           "needsReview": true
         },
         {
@@ -13744,7 +13943,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A progressive isn't rotationally symmetric, so it isn't an aspheric lens in the strict sense.",
           "needsReview": true
         },
         {
@@ -13772,7 +13971,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "High index and an aspheric surface each reduce thickness, so combining them saves thickness twice over.",
           "needsReview": true
         },
         {
@@ -13800,7 +13999,8 @@
               "feedback": "That overcorrects."
             }
           ],
-          "explanation": ""
+          "explanation": "For a high-plus front surface aiming at zero oblique astigmatism, p is about 0, a parabola.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0026",
@@ -13827,7 +14027,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "If an aspheric lens is off-centre, you look through its periphery, where the design doesn't suit; never decentre it for prism.",
           "needsReview": true
         },
         {
@@ -13855,7 +14055,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An atoroidal surface uses a different asphericity in each meridian, so both cylinder meridians are corrected.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0121",
@@ -13882,7 +14083,8 @@
               "feedback": "Oblate ellipse."
             }
           ],
-          "explanation": ""
+          "explanation": "A parabola has p = 0.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0122",
@@ -13909,7 +14111,8 @@
               "feedback": "Prolate ellipse."
             }
           ],
-          "explanation": ""
+          "explanation": "A hyperbola has p less than 0.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0123",
@@ -13936,7 +14139,8 @@
               "feedback": "Below 0."
             }
           ],
-          "explanation": ""
+          "explanation": "An oblate ellipse has p greater than 1.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0124",
@@ -13963,7 +14167,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sag = r − √(r² − y²) = 100 − √(10,000 − 900) ≈ 100 − 95.4 = 4.6 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0125",
@@ -13990,7 +14195,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The approximate sag formula is s ≈ y² ÷ 2r.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0126",
@@ -14017,7 +14223,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An aspheric plus lens can be flatter and thinner, so it magnifies the eyes less and looks better.",
           "needsReview": true
         },
         {
@@ -14045,7 +14251,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An atoric surface is a toric surface with aspheric meridians.",
           "needsReview": true
         },
         {
@@ -14073,7 +14279,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "As the surface flattens, its power falls towards the periphery, which offsets the oblique errors.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0129",
@@ -14100,7 +14307,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "An aspheric surface's curvature changes across it, so the lens measure reading changes too.",
           "needsReview": true
         },
         {
@@ -14128,7 +14335,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High-plus lenticular lenses were used for aphakia, before intraocular lenses.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0241",
@@ -14155,7 +14363,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A prolate ellipse surface flattens towards the periphery.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0242",
@@ -14182,7 +14391,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An oblate ellipse surface steepens towards the periphery.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0243",
@@ -14209,7 +14419,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An aspheric minus lens usually has a back surface that flattens towards the edge, reducing edge thickness.",
           "needsReview": true
         },
         {
@@ -14237,7 +14447,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sag = 80 − √(6400 − 400) = 80 − √6000 ≈ 80 − 77.5 = 2.5 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0245",
@@ -14264,7 +14475,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Approximate sag = y² ÷ 2r = 400 ÷ 100 = 4 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0246",
@@ -14291,7 +14503,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Surface power = (n − 1) ÷ r = 0.5 ÷ 0.1 = 5.00 D.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0247",
@@ -14318,7 +14531,8 @@
               "feedback": "Too thin."
             }
           ],
-          "explanation": ""
+          "explanation": "r = 0.5 ÷ 4 = 125 mm; the sag over a 30 mm half-width is about 3.6 mm, plus the 1 mm edge, so about 4.6 mm.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x0248",
@@ -14345,7 +14559,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Aspheric lenses only work well when centred; off-centre fitting adds off-axis errors.",
           "needsReview": true
         },
         {
@@ -14373,7 +14587,7 @@
               "feedback": "PPL."
             }
           ],
-          "explanation": "",
+          "explanation": "A lenticular lens has a small central optical zone on a thin carrier.",
           "needsReview": true
         },
         {
@@ -14401,7 +14615,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A blended lenticular smooths the edge of the central zone so it's less visible.",
           "needsReview": true
         },
         {
@@ -14429,7 +14643,8 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": ""
+          "explanation": "An aspheric plus lens is flatter, thinner and lighter than a spherical one.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02412",
@@ -14456,7 +14671,7 @@
               "feedback": "That's toric."
             }
           ],
-          "explanation": "",
+          "explanation": "An aspheric surface has curvature that changes from the centre to the edge.",
           "needsReview": true
         },
         {
@@ -14484,7 +14699,8 @@
               "feedback": "Oblate."
             }
           ],
-          "explanation": ""
+          "explanation": "In conicoid terms a sphere has p = 1, which means eccentricity e = 0.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02414",
@@ -14511,7 +14727,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Shape factor p and eccentricity e are related by p = 1 − e².",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02415",
@@ -14538,7 +14755,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Without allowing for tilt, the lens's optical axis doesn't pass through the eye's centre of rotation.",
           "needsReview": true
         },
         {
@@ -14566,7 +14783,7 @@
               "feedback": "Lighter."
             }
           ],
-          "explanation": "",
+          "explanation": "Aspheric plus lenses magnify the eyes less and bulge less, so they look better.",
           "needsReview": true
         },
         {
@@ -14594,7 +14811,8 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": ""
+          "explanation": "Moderate to high powers benefit most from aspheric design.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02418",
@@ -14621,7 +14839,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An atoric surface is designed so both cylinder meridians are corrected off-axis.",
           "needsReview": true
         },
         {
@@ -14649,7 +14867,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Higher-order aspheric surfaces are described with extra polynomial terms beyond the basic conic.",
           "needsReview": true
         },
         {
@@ -14677,7 +14895,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Decentring an aspheric lens moves you into its periphery, where the design isn't intended to be looked through.",
           "needsReview": true
         },
         {
@@ -14705,7 +14923,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An aphakic eye has lost the lens's power, so it typically needs about +10 to +14 D.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02422",
@@ -14732,7 +14951,7 @@
               "feedback": "There are reasons."
             }
           ],
-          "explanation": "",
+          "explanation": "High-plus aphakic spectacles cause large magnification, a ring scotoma and distortion.",
           "needsReview": true
         },
         {
@@ -14760,7 +14979,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Aspheric surfaces are made with CNC generators and moulding.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02424",
@@ -14787,7 +15007,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Aspheric high-plus lenses are flatter and lighter, so the eyes look less magnified.",
           "needsReview": true
         },
         {
@@ -14815,7 +15035,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An aspheric minus lens has thinner edges than a spherical one.",
           "needsReview": true
         },
         {
@@ -14843,7 +15063,7 @@
               "feedback": "Not the point."
             }
           ],
-          "explanation": "",
+          "explanation": "Different lens measure readings at the centre and edge suggest an aspheric surface.",
           "needsReview": true
         },
         {
@@ -14871,7 +15091,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Conicoids include spheres, ellipsoids, paraboloids and hyperboloids.",
           "needsReview": true
         },
         {
@@ -14899,7 +15119,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "High index and aspheric design both reduce thickness and weight.",
           "needsReview": true
         },
         {
@@ -14927,7 +15147,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Free-form surfacing makes it easier to personalise aspheric designs for each patient.",
+          "needsReview": true
         },
         {
           "id": "aad-aspheric-x02430",
@@ -14954,7 +15175,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "High hyperopes have thick-centred lenses, especially in large frames, so aspheric design helps most.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -15120,7 +15342,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Group 2 drivers need at least 6/7.5 in the better eye and 6/60 in the other, with spectacles no stronger than +8 D.",
           "needsReview": true
         },
         {
@@ -15148,7 +15370,7 @@
               "feedback": "There is a field standard."
             }
           ],
-          "explanation": "",
+          "explanation": "The Group 1 standard requires a field at least 120° wide, with no significant defect within 20° of fixation.",
           "needsReview": true
         },
         {
@@ -15176,7 +15398,7 @@
               "feedback": "Any qualifying user can request one."
             }
           ],
-          "explanation": "",
+          "explanation": "Under HSE rules, people who use screens daily for an hour or more at a time can ask their employer for an eye test.",
           "needsReview": true
         },
         {
@@ -15258,7 +15480,8 @@
               "feedback": "Mainly dangerous with optical instruments."
             }
           ],
-          "explanation": ""
+          "explanation": "Class 3b lasers can damage the eye with very brief exposures, so protective eyewear is recommended.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0027",
@@ -15285,7 +15508,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Glare reflected from water, snow or sand is polarised, so polarised filters reduce it.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0028",
@@ -15312,7 +15536,7 @@
               "feedback": "There is one."
             }
           ],
-          "explanation": "",
+          "explanation": "Train drivers must meet a standard of about 6/9 and 6/12, N8 at near, and normal colour vision.",
           "needsReview": true
         },
         {
@@ -15340,7 +15564,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Group 1 standard requires reading a number plate at 20 m.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0122",
@@ -15367,7 +15592,8 @@
               "feedback": "Increased robustness."
             }
           ],
-          "explanation": ""
+          "explanation": "In EN 166, B means medium-energy impact resistance.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0123",
@@ -15394,7 +15620,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Health and Safety (Display Screen Equipment) Regulations 1992 cover screen users.",
           "needsReview": true
         },
         {
@@ -15422,7 +15648,7 @@
               "feedback": "Never."
             }
           ],
-          "explanation": "",
+          "explanation": "A chemical splash needs immediate, prolonged irrigation with water.",
           "needsReview": true
         },
         {
@@ -15450,7 +15676,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Class 2 lasers are low power and the blink reflex normally protects the eye.",
           "needsReview": true
         },
         {
@@ -15478,7 +15704,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "UV from a welding arc burns the corneal epithelium, causing photokeratitis ('arc eye').",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0127",
@@ -15559,7 +15786,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A person with one eye can drive a car if they meet the standard and have adapted to the loss.",
           "needsReview": true
         },
         {
@@ -15587,7 +15814,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Welding filters are graded by shade number, with higher numbers being darker.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x01210",
@@ -15614,7 +15842,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "UVC and UVB are absorbed by the cornea and are the most hazardous to it.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0241",
@@ -15641,7 +15870,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The DVLA uses the Esterman binocular field test.",
           "needsReview": true
         },
         {
@@ -15669,7 +15898,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "It's the driver's legal responsibility to tell the DVLA about a condition that affects driving.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0243",
@@ -15696,7 +15926,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Advise the patient not to drive and to tell the DVLA, record it, and follow GOC and DVLA guidance if they keep driving.",
           "needsReview": true
         },
         {
@@ -15724,7 +15954,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Group 2 drivers must meet standards in each eye, so someone with only one eye can't hold a Group 2 licence.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0245",
@@ -15751,7 +15982,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Diplopia must be reported to the DVLA, because it affects safe driving.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0246",
@@ -15778,7 +16010,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The new-style number plate test uses characters 79 mm high, read at 20 m.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x0247",
@@ -15805,7 +16038,7 @@
               "feedback": "N."
             }
           ],
-          "explanation": "",
+          "explanation": "In EN 166, F means low-energy impact resistance.",
           "needsReview": true
         },
         {
@@ -15833,7 +16066,7 @@
               "feedback": "K."
             }
           ],
-          "explanation": "",
+          "explanation": "In EN 166, A means high-energy impact resistance.",
           "needsReview": true
         },
         {
@@ -15861,7 +16094,7 @@
               "feedback": "3."
             }
           ],
-          "explanation": "",
+          "explanation": "In EN 166, K means resistance to damage by fine particles (scratching).",
           "needsReview": true
         },
         {
@@ -15889,7 +16122,8 @@
               "feedback": "4."
             }
           ],
-          "explanation": ""
+          "explanation": "In EN 166, N means resistance to fogging.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02411",
@@ -15916,7 +16150,7 @@
               "feedback": "9."
             }
           ],
-          "explanation": "",
+          "explanation": "In EN 166, 3 means protection from liquid droplets and splashes.",
           "needsReview": true
         },
         {
@@ -15944,7 +16178,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "EN 166 optical class 1 is the best optical quality, suitable for continuous wear.",
           "needsReview": true
         },
         {
@@ -15972,7 +16206,8 @@
               "feedback": "Sunglasses."
             }
           ],
-          "explanation": ""
+          "explanation": "EN 207 covers laser eye protection.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02414",
@@ -15999,7 +16234,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Long-term infrared exposure, as in glass blowing, can cause cataract.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02415",
@@ -16026,7 +16262,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Looking at the sun can burn the retina, causing solar retinopathy.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02416",
@@ -16053,7 +16290,7 @@
               "feedback": "Not for penetration."
             }
           ],
-          "explanation": "",
+          "explanation": "A fixed object in the eye should be left in place, shielded without pressure, and referred urgently.",
           "needsReview": true
         },
         {
@@ -16081,7 +16318,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Squash balls are the right size to fit the orbit and travel very fast, causing serious eye injuries.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02418",
@@ -16108,7 +16346,8 @@
               "feedback": "Only for DSE use."
             }
           ],
-          "explanation": ""
+          "explanation": "Employers must pay for spectacles needed specifically for screen work, at least a basic pair.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02419",
@@ -16135,7 +16374,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds.",
           "needsReview": true
         },
         {
@@ -16163,7 +16402,8 @@
               "feedback": "Too dark."
             }
           ],
-          "explanation": ""
+          "explanation": "Office lighting of around 300–500 lux is typically recommended.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02421",
@@ -16190,7 +16430,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Disability glare is glare that reduces visual performance.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02422",
@@ -16217,7 +16458,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Discomfort glare is annoying but doesn't reduce visual performance.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02423",
@@ -16244,7 +16486,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Smaller pupils and changes in the lens mean older eyes get less light, so they need more.",
           "needsReview": true
         },
         {
@@ -16272,7 +16514,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Commercial pilots, and some electrical and transport roles, have colour vision requirements.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02425",
@@ -16299,7 +16542,8 @@
               "feedback": "Refraction."
             }
           ],
-          "explanation": ""
+          "explanation": "Ishihara plates are often used to screen colour vision for jobs, with further tests if failed.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02426",
@@ -16326,7 +16570,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Polycarbonate is highly impact-resistant, so it's used in sports goggles.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02427",
@@ -16353,7 +16598,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prescription swimming goggles are available with spherical power.",
+          "needsReview": true
         },
         {
           "id": "aad-occupational-x02428",
@@ -16380,7 +16626,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Group 2 drivers need a binocular field of at least 160° horizontally.",
           "needsReview": true
         },
         {
@@ -16408,7 +16654,7 @@
               "feedback": "Too low."
             }
           ],
-          "explanation": "",
+          "explanation": "Group 1 drivers need acuity of about 6/12 with both eyes open, with glasses if needed.",
           "needsReview": true
         },
         {
@@ -16436,7 +16682,7 @@
               "feedback": "Consider the task."
             }
           ],
-          "explanation": "",
+          "explanation": "A jeweller works with fine detail up close, so near acuity and good lighting matter most.",
           "needsReview": true
         }
       ],
