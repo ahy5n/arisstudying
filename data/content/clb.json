@@ -202,7 +202,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact lenses move with the eye, so you look through the optical centre in every direction of gaze. There's no prism or peripheral aberration as with spectacles.",
           "needsReview": true
         },
         {
@@ -230,7 +230,8 @@
               "feedback": "It is."
             }
           ],
-          "needsReview": true
+          "needsReview": true,
+          "explanation": "HVID (horizontal visible iris diameter) estimates corneal diameter, which guides the total lens diameter for good coverage."
         },
         {
           "id": "clb-intro-history-x0043",
@@ -257,7 +258,8 @@
               "feedback": "That's research questions."
             }
           ],
-          "explanation": ""
+          "explanation": "SOCRATES (site, onset, character, radiation, associations, timing, exacerbating or relieving factors, severity) structures questions about a symptom.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0044",
@@ -284,7 +286,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Drugs such as antihistamines, antidepressants, isotretinoin and beta-blockers can reduce tear production, blinking or corneal sensation, which affects lens tolerance and safety.",
           "needsReview": true
         },
         {
@@ -312,7 +314,7 @@
               "feedback": "That's its own category."
             }
           ],
-          "explanation": "",
+          "explanation": "Therapeutic (bandage) lenses protect and promote healing of the cornea after disease, surgery or trauma, and relieve pain.",
           "needsReview": true
         },
         {
@@ -340,7 +342,8 @@
               "feedback": "It's used for optic zone choice."
             }
           ],
-          "explanation": ""
+          "explanation": "Pupil size in room light and in dim light guides optic zone and multifocal design choices, and helps explain haloes at night.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0141",
@@ -367,7 +370,8 @@
               "feedback": "Sketches only, 1508."
             }
           ],
-          "explanation": ""
+          "explanation": "In 1888 Adolf Fick made one of the first glass scleral lenses. Kalt and Müller worked on similar lenses at about the same time.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0142",
@@ -394,7 +398,8 @@
               "feedback": "Oxygen criteria."
             }
           ],
-          "explanation": ""
+          "explanation": "Otto Wichterle and Drahoslav Lím developed HEMA hydrogel soft lenses in Czechoslovakia in the late 1950s and 1960s.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0143",
@@ -421,7 +426,8 @@
               "feedback": "Scleral."
             }
           ],
-          "explanation": ""
+          "explanation": "PMMA (polymethyl methacrylate) made the first corneal hard lenses possible, introduced by Tuohy in 1948.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0144",
@@ -447,7 +453,9 @@
               "correct": false,
               "feedback": "No."
             }
-          ]
+          ],
+          "explanation": "Cosmetic reasons include not wanting to be seen wearing spectacles, or preferring how they look without them.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0145",
@@ -474,7 +482,8 @@
               "feedback": "No."
             }
           ],
-          "needsReview": true
+          "needsReview": true,
+          "explanation": "Bandage soft lenses protect the healing epithelium in recurrent corneal erosion and reduce pain."
         },
         {
           "id": "clb-intro-history-x0146",
@@ -501,7 +510,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Active anterior eye infection or inflammation is a contraindication. Lenses shouldn't be fitted until it has resolved.",
           "needsReview": true
         },
         {
@@ -529,7 +538,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Knowing why the patient wants lenses and how they will use them guides the choice of lens type and modality, and the expectations you set.",
           "needsReview": true
         },
         {
@@ -557,7 +566,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Baseline findings let you tell whether redness or staining at aftercare is new and lens-related.",
           "needsReview": true
         },
         {
@@ -585,7 +594,7 @@
               "feedback": "Usually fine."
             }
           ],
-          "explanation": "",
+          "explanation": "Dusty, smoky or chemical environments can get under lenses and cause irritation, deposits or injury.",
           "needsReview": true
         },
         {
@@ -613,7 +622,8 @@
               "feedback": "Spectacles are fine."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lenses suit contact sports because there's no frame to break or injure the eye, and they give a wide field of view.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0281",
@@ -640,7 +650,8 @@
               "feedback": "1948."
             }
           ],
-          "explanation": ""
+          "explanation": "Around 1508 Leonardo da Vinci sketched neutralising the cornea by looking through water. It wasn't a lens, but the principle is the same.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0282",
@@ -667,7 +678,8 @@
               "feedback": "1960s."
             }
           ],
-          "explanation": ""
+          "explanation": "In 1636 René Descartes described a water-filled tube placed against the eye to change its optics.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0283",
@@ -694,7 +706,8 @@
               "feedback": "Oxygen criteria."
             }
           ],
-          "explanation": ""
+          "explanation": "In 1948 Kevin Tuohy made the first PMMA corneal lens, much smaller than earlier sclerals.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0284",
@@ -721,7 +734,8 @@
               "feedback": "Much earlier."
             }
           ],
-          "explanation": ""
+          "explanation": "Silicone hydrogel lenses reached the market around 1998–1999, greatly raising oxygen supply.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0285",
@@ -748,7 +762,8 @@
               "feedback": "Earlier."
             }
           ],
-          "explanation": ""
+          "explanation": "Daily disposable soft lenses appeared in the mid-1990s.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x0286",
@@ -775,7 +790,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Under UK law, all contact lenses, including cosmetic plano lenses, must be sold under the supervision of a registered practitioner.",
           "needsReview": true
         },
         {
@@ -803,7 +818,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "UK suppliers must check a valid, in-date contact lens specification before supplying lenses, including online.",
           "needsReview": true
         },
         {
@@ -831,7 +846,7 @@
               "feedback": "Specific details."
             }
           ],
-          "explanation": "",
+          "explanation": "A specification must identify the lens fully: lens type or brand, its parameters (BOZR, TD, power) and the expiry date.",
           "needsReview": true
         },
         {
@@ -859,7 +874,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "HVID and palpebral aperture help choose rigid lens diameter and predict whether it will sit between the lids or attach to the upper lid.",
           "needsReview": true
         },
         {
@@ -887,7 +902,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Typical palpebral aperture height is about 10 mm (roughly 8–11 mm).",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02811",
@@ -914,7 +930,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lid tension and position affect how a lens sits, moves and centres, especially for rigid lenses.",
           "needsReview": true
         },
         {
@@ -942,7 +958,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Incomplete or infrequent blinking reduces tear exchange and spreading, causing drying, staining and deposits.",
           "needsReview": true
         },
         {
@@ -970,7 +986,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Poorly controlled diabetes reduces corneal sensitivity and healing, and raises infection risk, so lens wear needs extra care.",
           "needsReview": true
         },
         {
@@ -998,7 +1014,8 @@
               "feedback": "Bandage lenses are used."
             }
           ],
-          "explanation": ""
+          "explanation": "After PRK, a bandage soft lens protects the healing epithelium and reduces pain.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02815",
@@ -1025,7 +1042,8 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "In keratoconus, rigid lenses (corneal or scleral) give a smooth optical surface that masks irregular astigmatism.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02816",
@@ -1052,7 +1070,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lenses reduce the difference in image size between the eyes (aniseikonia) in high anisometropia.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02817",
@@ -1079,7 +1098,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In the taco test, gently fold the lens: the edges should point straight up. Viewed from the side, a correct lens has a bowl shape, while an inside-out one has flared edges.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02818",
@@ -1106,7 +1126,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Patients must be able to insert and remove lenses safely and hygienically before leaving, or they may have problems at home.",
           "needsReview": true
         },
         {
@@ -1134,7 +1154,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Arthritis, tremor or poor dexterity can make inserting, removing and cleaning lenses hard.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02820",
@@ -1161,7 +1182,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Sleeping in lenses and water exposure are the biggest modifiable risks for serious infection, so ask about both.",
           "needsReview": true
         },
         {
@@ -1189,7 +1210,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lenses split and thin the tear film, so a patient with severe dry eye may get more dryness, discomfort and complications.",
           "needsReview": true
         },
         {
@@ -1217,7 +1238,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Children can wear contact lenses if they (with their parents) can handle them hygienically and responsibly. There's no minimum legal age.",
           "needsReview": true
         },
         {
@@ -1245,7 +1266,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Record baseline redness, staining, lids, tear film and limbal vessels, so lens-related changes can be spotted at aftercare.",
           "needsReview": true
         },
         {
@@ -1273,7 +1294,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Myopia control lenses (e.g. dual-focus soft or ortho-k) are used to slow myopia progression in children.",
           "needsReview": true
         },
         {
@@ -1301,7 +1322,7 @@
               "feedback": "Advantage."
             }
           ],
-          "explanation": "",
+          "explanation": "Disadvantages include the risk of infection and complications, and the ongoing cost of lenses and solutions.",
           "needsReview": true
         },
         {
@@ -1329,7 +1350,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Disposable and frequent-replacement soft lenses were launched in the late 1980s.",
+          "needsReview": true
         },
         {
           "id": "clb-intro-history-x02827",
@@ -1356,7 +1378,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prosthetic lenses (with painted or opaque irises and pupils) improve the appearance of a scarred or disfigured eye.",
           "needsReview": true
         },
         {
@@ -1384,7 +1406,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the UK, contact lenses can be fitted only by registered optometrists, contact lens opticians or registered medical practitioners.",
           "needsReview": true
         },
         {
@@ -1412,7 +1434,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Aftercare checks fit, ocular health and compliance, so complications are caught early.",
           "needsReview": true
         },
         {
@@ -1440,7 +1462,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Poor hygiene or not following instructions are major risk factors for complications, so these patients may be poor candidates.",
           "needsReview": true
         }
       ],
@@ -1697,7 +1719,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power = (n − 1) ÷ r = 0.3375 ÷ 0.0075 m = 337.5 ÷ 7.50 = 45.00 D.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0042",
@@ -1724,7 +1747,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Constant eye movements would make the mire image impossible to measure, so a prism doubles it. The two images move together, and their separation (which sets the image size) can still be read steadily.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0043",
@@ -1751,7 +1775,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Scheiner disc makes the mire image double when the instrument is out of focus, so you know the working distance is correct before you read.",
           "needsReview": true
         },
         {
@@ -1779,7 +1803,7 @@
               "feedback": "It reflects an assumption."
             }
           ],
-          "explanation": "",
+          "explanation": "Keratometers measure only the front surface. The fictitious index 1.3375 lowers the result to allow for the negative back surface, giving an estimate of total corneal power.",
           "needsReview": true
         },
         {
@@ -1807,7 +1831,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near 7.8 mm, each 0.05 mm of radius is about 0.25 D (337.5 ÷ 7.8² × 0.05 ≈ 0.28 D), so 0.05 mm between meridians is about 0.25 D of corneal astigmatism.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0046",
@@ -1834,7 +1859,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Taking three readings per meridian and averaging them reduces measurement error and gives a more repeatable K value.",
           "needsReview": true
         },
         {
@@ -1862,7 +1887,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power = 337.5 ÷ r(mm) = 337.5 ÷ 8.00 ≈ 42.19 D.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0142",
@@ -1889,7 +1915,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "r = 337.5 ÷ F = 337.5 ÷ 45.00 = 7.50 mm.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0143",
@@ -1916,7 +1943,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With-the-rule corneal astigmatism has the vertical meridian steeper (more powerful) than the horizontal. It is common in young eyes.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0144",
@@ -1943,7 +1971,8 @@
               "feedback": "Too big."
             }
           ],
-          "explanation": ""
+          "explanation": "The keratometer's mires reflect from two points on a ring roughly 3 mm across, so it only samples the central cornea, not the whole surface.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0145",
@@ -1970,7 +1999,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A one-position keratometer (e.g. Bausch & Lomb) has separate doubling for both principal meridians, so both are measured without rotating it through 90°.",
           "needsReview": true
         },
         {
@@ -1998,7 +2027,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Regular mires need a smooth, regular reflecting surface. Distorted mires point to irregular astigmatism (e.g. keratoconus, scarring) or a poor tear film.",
           "needsReview": true
         },
         {
@@ -2026,7 +2055,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The front surface of the cornea (with its tear film) acts as a convex mirror. The size of the reflected mire image gives the radius of curvature.",
           "needsReview": true
         },
         {
@@ -2054,7 +2083,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Steel balls of precisely known radius are measured as a check. Any error is used to correct or recalibrate the instrument.",
           "needsReview": true
         },
         {
@@ -2082,7 +2111,8 @@
               "feedback": "That's corneal."
             }
           ],
-          "explanation": ""
+          "explanation": "Residual = refractive − corneal. Corneal 1.50 D WTR is −1.50 × 180, so −0.50 × 180 − (−1.50 × 180) = +1.00 × 180, which is −1.00 × 90 in minus cylinder.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x01410",
@@ -2109,7 +2139,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "A spherical rigid lens's tear lens neutralises corneal astigmatism only. Residual (mainly lenticular) astigmatism stays uncorrected and may need a toric design.",
           "needsReview": true
         },
         {
@@ -2137,7 +2167,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power = 337.5 ÷ 7.70 ≈ 43.83 D.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0282",
@@ -2164,7 +2195,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power = 337.5 ÷ 7.40 ≈ 45.61 D.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0283",
@@ -2191,7 +2223,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "r = 337.5 ÷ 42.00 ≈ 8.04 mm.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0284",
@@ -2218,7 +2251,8 @@
               "feedback": "There's a difference."
             }
           ],
-          "explanation": ""
+          "explanation": "7.80 mm ≈ 43.27 D (horizontal) and 7.50 mm = 45.00 D (vertical). The vertical is steeper by about 1.75 D, which is with-the-rule.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0285",
@@ -2299,7 +2333,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Javal's rule predicts total (refractive) astigmatism from corneal astigmatism, roughly 1.25 × corneal plus 0.50 D against-the-rule (−0.50 × 90).",
           "needsReview": true
         },
         {
@@ -2327,7 +2361,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The average central corneal radius is about 7.8 mm, which equals about 43 D with n = 1.3375.",
           "needsReview": true
         },
         {
@@ -2355,7 +2389,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "K readings over about 48 D (radius under about 7.0 mm) are unusually steep and raise suspicion of keratoconus, especially with irregular mires or high astigmatism.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x0289",
@@ -2382,7 +2417,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Javal-Schiøtz keratometer measures one meridian at a time and must be rotated 90° to measure the other, so it is a two-position instrument.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02810",
@@ -2409,7 +2445,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Bausch & Lomb keratometer is a one-position instrument with separate horizontal and vertical doubling, so both meridians are read without rotating.",
           "needsReview": true
         },
         {
@@ -2437,7 +2473,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Focusing the eyepiece for your own eye first stops your refractive error or accommodation from causing measurement errors.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02812",
@@ -2464,7 +2501,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ks are recorded as radius (mm) or power (D) for each principal meridian with its axis, e.g. 7.80 @ 180 / 7.60 @ 90.",
           "needsReview": true
         },
         {
@@ -2492,7 +2529,7 @@
               "feedback": "That's astigmatism."
             }
           ],
-          "explanation": "",
+          "explanation": "Mean K is the average of the two principal meridian readings. It is used in IOL calculations and some contact lens fitting.",
           "needsReview": true
         },
         {
@@ -2520,7 +2557,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "IOL power formulas need corneal power (K) and axial length to predict the lens power that gives the target refraction.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02815",
@@ -2547,7 +2585,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A well-used keratometer gives readings to about ±0.02 mm (around ±0.12 D) on a regular cornea.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02816",
@@ -2574,7 +2613,8 @@
               "feedback": "A use."
             }
           ],
-          "explanation": ""
+          "explanation": "Keratometry measures corneal curvature. Intraocular pressure is measured by tonometry.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02817",
@@ -2601,7 +2641,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lens BOZR is usually chosen relative to flat K (on K or slightly flatter) to get an alignment fit.",
           "needsReview": true
         },
         {
@@ -2629,7 +2669,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Residual astigmatism is the part not accounted for by the front cornea. It mostly comes from the crystalline lens, with a small contribution from the back cornea.",
           "needsReview": true
         },
         {
@@ -2657,7 +2697,8 @@
               "feedback": "It can."
             }
           ],
-          "explanation": ""
+          "explanation": "The keratometer only samples a central ring about 3 mm across, so the peripheral cornea needs topography instead.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02820",
@@ -2684,7 +2725,8 @@
               "feedback": "Thickness."
             }
           ],
-          "explanation": ""
+          "explanation": "A corneal topographer (videokeratoscope or Scheimpflug system) maps curvature across the whole cornea, while a keratometer only measures the centre.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02821",
@@ -2711,7 +2753,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pachymetry measures corneal thickness, by ultrasound or optically.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02822",
@@ -2738,7 +2781,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneal 1.50 D WTR is −1.50 × 180, which equals the refractive cylinder, so residual = −1.50 × 180 − (−1.50 × 180) ≈ zero.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02823",
@@ -2765,7 +2809,8 @@
               "feedback": "That's corneal."
             }
           ],
-          "explanation": ""
+          "explanation": "Residual = refractive − corneal. Corneal 1.00 D WTR is −1.00 × 180, which equals +1.00 × 90, so −0.50 × 90 − (+1.00 × 90) = −1.50 × 90.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02824",
@@ -2792,7 +2837,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Knowing which meridian is steep gives the axis and type (with-, against-the-rule or oblique) of corneal astigmatism, which you need for fitting and comparison.",
           "needsReview": true
         },
         {
@@ -2820,7 +2865,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "Ks that change between visits suggest progressive ectasia (e.g. keratoconus) or contact lens-induced corneal warpage, so investigate further, for example with topography.",
           "needsReview": true
         },
         {
@@ -2848,7 +2893,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Doubling lets the image size be measured by aligning two moving images against each other, so eye movements don't spoil the reading.",
           "needsReview": true
         },
         {
@@ -2876,7 +2921,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid (especially PMMA or poorly fitting) lenses can mould the cornea. This corneal warpage changes Ks for a while after the lenses are removed.",
           "needsReview": true
         },
         {
@@ -2904,7 +2949,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near 7.8 mm, 0.05 mm is about 0.25–0.28 D, so 0.10 mm is about 0.50–0.60 D.",
+          "needsReview": true
         },
         {
           "id": "clb-keratometry-x02829",
@@ -2931,7 +2977,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The principal meridians are the steepest and flattest meridians of an astigmatic cornea. In regular astigmatism they are 90° apart.",
           "needsReview": true
         },
         {
@@ -2959,7 +3005,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Oblique astigmatism has its principal meridians between 30° and 60° or between 120° and 150°, i.e. away from the horizontal and vertical.",
           "needsReview": true
         }
       ],
@@ -3129,7 +3175,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dk is the material's oxygen permeability. Dk/t divides it by the lens thickness to give the transmissibility of that particular lens.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0042",
@@ -3156,7 +3203,7 @@
               "feedback": "It's chosen deliberately."
             }
           ],
-          "explanation": "",
+          "explanation": "Oxygen permeability rises with temperature, so Dk is quoted at about 34–35°C, the temperature of a lens on the eye.",
           "needsReview": true
         },
         {
@@ -3184,7 +3231,8 @@
               "feedback": "Too high."
             }
           ],
-          "explanation": ""
+          "explanation": "Holden and Mertz found a Dk/t of about 24 avoids corneal swelling in daily wear and about 87 is needed to limit overnight swelling to normal levels in extended wear.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0044",
@@ -3265,7 +3313,8 @@
               "feedback": "Not hypoxic."
             }
           ],
-          "explanation": ""
+          "explanation": "Epithelial microcysts are a classic sign of chronic hypoxia, alongside oedema, endothelial blebs, polymegethism and limbal neovascularisation.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0046",
@@ -3292,7 +3341,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "A drop that spreads flat has a small contact angle. Angles below 90° mean the surface is more wettable.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0047",
@@ -3319,7 +3369,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fatt's original polarographic method didn't correct for edge and boundary effects, which overestimated Dk by about 25%.",
           "needsReview": true
         },
         {
@@ -3347,7 +3397,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Silicone hydrogels greatly reduced hypoxic complications, but microbial keratitis rates in overnight wear didn't fall. The risk comes from more than hypoxia.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0141",
@@ -3428,7 +3479,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Silicone is very permeable to oxygen, so in silicone hydrogels oxygen travels mainly through the silicone phase rather than the water.",
           "needsReview": true
         },
         {
@@ -3510,7 +3561,8 @@
               "feedback": "Low water ionic."
             }
           ],
-          "explanation": ""
+          "explanation": "FDA groups: I is low-water non-ionic, II is high-water non-ionic, III is low-water ionic, and IV is high-water ionic.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0145",
@@ -3537,7 +3589,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Group IV materials are high water and negatively charged, so they attract positively charged tear proteins, especially lysozyme.",
           "needsReview": true
         },
         {
@@ -3565,7 +3617,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Water content is the percentage of a fully hydrated lens's weight that is water.",
           "needsReview": true
         },
         {
@@ -3593,7 +3645,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Holden and Mertz's criterion for avoiding corneal swelling in daily (open-eye) wear is a Dk/t of about 24.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0148",
@@ -3620,7 +3673,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dk is expressed in barrer, quoted as × 10⁻¹¹ (cm²/s)(ml O₂/ml × mmHg).",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0149",
@@ -3647,7 +3701,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Silicone is hydrophobic, so many silicone hydrogels are plasma treated (or contain wetting agents) to make the surface wettable and resist lipid deposits.",
           "needsReview": true
         },
         {
@@ -3675,7 +3729,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "High-water lenses lose water in low humidity. Dehydration steepens and shrinks the lens, tightening the fit and causing dryness symptoms.",
           "needsReview": true
         },
         {
@@ -3703,7 +3757,7 @@
               "feedback": "Silicone hydrogels add silicone."
             }
           ],
-          "explanation": "",
+          "explanation": "Conventional hydrogels are made from hydrophilic polymers such as HEMA (hydroxyethyl methacrylate), which absorb water and become soft.",
           "needsReview": true
         },
         {
@@ -3731,7 +3785,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ionic materials carry a negative surface charge, which attracts the positively charged tear enzyme lysozyme.",
           "needsReview": true
         },
         {
@@ -3759,7 +3813,8 @@
               "feedback": "Some."
             }
           ],
-          "explanation": ""
+          "explanation": "The hydrophobic silicone in silicone hydrogels attracts more lipid deposits, while ionic hydrogels attract more protein.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0284",
@@ -3786,7 +3841,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'Jelly bumps' are raised mixed deposits of calcium, lipid and protein on the lens surface.",
           "needsReview": true
         },
         {
@@ -3814,7 +3869,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "PVP (polyvinylpyrrolidone) is built into some silicone hydrogels as an internal wetting agent to improve surface wettability.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0286",
@@ -3841,7 +3897,8 @@
               "feedback": "Some oxygen passes."
             }
           ],
-          "explanation": ""
+          "explanation": "HEMA-based hydrogels have a low Dk of about 8–10, because oxygen only passes through their water.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0287",
@@ -3868,7 +3925,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Silicone hydrogels typically have a Dk of about 60–160 or more, many times that of conventional hydrogels.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0288",
@@ -3895,7 +3953,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dk/t = Dk ÷ thickness in cm: 100 ÷ 0.01 cm = 100 (× 10⁻⁹ units).",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x0289",
@@ -3922,7 +3981,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dk/t is Dk divided by thickness, so doubling the thickness halves the transmissibility.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02810",
@@ -3949,7 +4009,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Minus lenses are thinnest in the centre and thicker towards the periphery, so Dk/t (Dk ÷ t) is lower there.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02811",
@@ -3976,7 +4037,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With too little oxygen, the epithelium switches to anaerobic metabolism. Lactate builds up in the stroma and draws in water, so the cornea swells.",
           "needsReview": true
         },
         {
@@ -4004,7 +4065,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Lower oxygen with the eyes closed causes about 3–4% corneal swelling overnight even without lenses. It clears soon after waking.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02813",
@@ -4031,7 +4093,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With the eye open, the cornea gets oxygen from air (about 21%, around 155 mmHg). With the eye closed it drops to about 8% (around 55 mmHg) from the palpebral conjunctiva.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02814",
@@ -4112,7 +4175,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Water has a lower refractive index (1.333) than the polymer, so the more water a hydrogel holds, the lower its refractive index.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02816",
@@ -4139,7 +4203,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Because refractive index falls predictably with water content, a hand refractometer can estimate a soft lens's water content.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02817",
@@ -4166,7 +4231,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Silicone hydrogels don't fit the original four FDA groups, so they have been placed in a separate Group V.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02818",
@@ -4193,7 +4259,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "More water means less polymer, so high-water lenses are mechanically weaker and tear or split more easily.",
           "needsReview": true
         },
         {
@@ -4221,7 +4287,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A light handling tint makes the lens easy to see in the case or on a finger without changing eye colour.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02820",
@@ -4248,7 +4315,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Class I UV blockers absorb more UV (over 90% UVA and 99% UVB) than Class II (over 70% UVA and 95% UVB).",
           "needsReview": true
         },
         {
@@ -4276,7 +4343,8 @@
               "feedback": "Surface."
             }
           ],
-          "explanation": ""
+          "explanation": "Modulus measures a material's stiffness (resistance to deformation). Higher-modulus silicone hydrogels are stiffer.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02822",
@@ -4303,7 +4371,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The lower the contact angle, the more a liquid spreads across the surface, so wettability is better.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02823",
@@ -4330,7 +4399,7 @@
               "feedback": "Not the issue."
             }
           ],
-          "explanation": "",
+          "explanation": "Pure silicone elastomer lenses let plenty of oxygen through but are very hydrophobic. They attract lipid and can bind to the eye, so they're rarely used now.",
           "needsReview": true
         },
         {
@@ -4358,7 +4427,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Silicone hydrogels combine a silicone phase, which carries oxygen, with a hydrogel phase, which gives water, softness, wettability and ion permeability for lens movement.",
           "needsReview": true
         },
         {
@@ -4386,7 +4455,7 @@
               "feedback": "Some."
             }
           ],
-          "explanation": "",
+          "explanation": "Corneal oedema from hypoxia scatters light, giving haloes, blur or 'misty' vision, typically after long wearing times.",
           "needsReview": true
         },
         {
@@ -4414,7 +4483,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Chronic hypoxia can cause limbal hyperaemia and limbal neovascularisation as vessels grow in to supply oxygen.",
           "needsReview": true
         },
         {
@@ -4442,7 +4511,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Daily disposable lenses come in many materials so practitioners can balance cost, comfort, oxygen supply and wettability for each patient.",
           "needsReview": true
         },
         {
@@ -4470,7 +4539,8 @@
               "feedback": "Sunglasses."
             }
           ],
-          "explanation": ""
+          "explanation": "ISO 18369 covers contact lens terminology, classification, tolerances and testing of materials.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-materials-x02829",
@@ -4497,7 +4567,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Discomfort at the end of the day is closely linked to lens surface wettability and dehydration over the wearing day.",
           "needsReview": true
         },
         {
@@ -4525,7 +4595,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dk increases with temperature, so measuring at eye temperature (about 34–35°C) gives values that match what happens on the eye.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -4817,7 +4888,7 @@
               "feedback": "Loose."
             }
           ],
-          "explanation": "",
+          "explanation": "In a good fit the lens moves easily when pushed up with the lower lid, then recentres smoothly. No movement means tight. A lens that drops or stays decentred is loose.",
           "needsReview": true
         },
         {
@@ -4845,7 +4916,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Soft lenses should cover the whole cornea plus a margin onto the conjunctiva in all directions of gaze. An exposed limbus causes irritation and desiccation.",
           "needsReview": true
         },
         {
@@ -4873,7 +4944,8 @@
               "feedback": "Not the classic sign."
             }
           ],
-          "explanation": ""
+          "explanation": "A tight lens can vault the cornea. Each blink briefly flexes it into better alignment, so vision clears for a moment and then blurs again.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0046",
@@ -4900,7 +4972,8 @@
               "feedback": "Far too loose."
             }
           ],
-          "explanation": ""
+          "explanation": "A well-fitting soft lens moves about 0.2–0.4 mm on each blink in primary gaze, enough for tear exchange without discomfort.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0047",
@@ -4927,7 +5000,7 @@
               "feedback": "Only if needed."
             }
           ],
-          "explanation": "",
+          "explanation": "Once the fit is acceptable, over-refract to fine-tune the power and record the visual acuity before you finalise the lens.",
           "needsReview": true
         },
         {
@@ -4955,7 +5028,8 @@
               "feedback": "Possibly, but loose fits look like this."
             }
           ],
-          "explanation": ""
+          "explanation": "Decentration, too much movement and an edge that lifts away from the conjunctiva are the signs of a loose soft lens fit.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0142",
@@ -4982,7 +5056,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A steeper BOZR or a larger diameter increases the lens's sagittal depth, which tightens the fit.",
           "needsReview": true
         },
         {
@@ -5010,7 +5084,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A flatter BOZR or a smaller diameter reduces the sagittal depth, which loosens the fit.",
           "needsReview": true
         },
         {
@@ -5038,7 +5112,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Use LARS: Left Add, Right Subtract (rotation as you look at the eye). The lens rotates 10° left, so order 180 + 10 = 190, which is written as 10.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0145",
@@ -5065,7 +5140,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Soft lenses absorb sodium fluorescein and stain. High-molecular-weight fluorescein exists, but white-light assessment is standard.",
           "needsReview": true
         },
         {
@@ -5093,7 +5168,8 @@
               "feedback": "Too small."
             }
           ],
-          "explanation": ""
+          "explanation": "Most soft lenses are about 14.0–14.5 mm in diameter, larger than the cornea (HVID about 11.7 mm), so they overlap onto the conjunctiva.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0147",
@@ -5174,7 +5250,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Soft torics are stabilised by prism ballast (a thicker base down) or by thin zones (dynamic or double-slab-off designs) that use lid pressure to hold orientation.",
           "needsReview": true
         },
         {
@@ -5202,7 +5278,8 @@
               "feedback": "Too loose."
             }
           ],
-          "explanation": ""
+          "explanation": "On upgaze, a well-fitting lens lags slightly, about 0.5 mm. No lag suggests tight, and a lot of lag suggests loose.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x01410",
@@ -5229,7 +5306,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Soft lens fit (centration, coverage, movement) is judged with diffuse white light at the slit lamp, because standard fluorescein would stain the lens.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0281",
@@ -5256,7 +5334,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fit depends mainly on how the lens's sagittal depth compares with the eye's sag over the same chord. Both BOZR and diameter change sag.",
           "needsReview": true
         },
         {
@@ -5284,7 +5362,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A larger diameter increases the lens's sagittal depth relative to the eye, so the fit becomes tighter.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0283",
@@ -5311,7 +5390,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A steeper (smaller) BOZR increases the sagittal depth, which tightens the fit.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0284",
@@ -5338,7 +5418,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "About 0.2–0.4 mm of movement on blinking in primary gaze shows the lens isn't tight but is still stable.",
           "needsReview": true
         },
         {
@@ -5366,7 +5446,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "The cornea should be fully covered in all gazes. An exposed limbus means the lens is too small or decentred.",
           "needsReview": true
         },
         {
@@ -5394,7 +5474,7 @@
               "feedback": "Tight."
             }
           ],
-          "explanation": "",
+          "explanation": "A loose lens moves and decentres after each blink, so vision fluctuates.",
           "needsReview": true
         },
         {
@@ -5422,7 +5502,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A ring indentation on the conjunctiva after removal (sometimes with vessel blanching) shows the lens edge was pressing too hard, which means a tight fit.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0288",
@@ -5449,7 +5530,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When a cylinder rotates off axis, the residual cylinder is about 2 × C × sin(θ) = 2 × 2.00 × sin 10° ≈ 0.70 DC.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x0289",
@@ -5476,7 +5558,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Toric lenses only work if they settle in a stable orientation. Rotation that varies from blink to blink makes vision fluctuate.",
           "needsReview": true
         },
         {
@@ -5504,7 +5586,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Toric marks are usually at 6 o'clock or at 3 and 9 o'clock. They show orientation, not the cylinder axis itself.",
           "needsReview": true
         },
         {
@@ -5532,7 +5614,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Multifocal success depends on choosing the right design and dominant-eye strategy for the patient's visual tasks, not just matching the add.",
           "needsReview": true
         },
         {
@@ -5560,7 +5642,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An inside-out soft lens often shows a flared edge profile, moves more, decentres and feels less comfortable.",
           "needsReview": true
         },
         {
@@ -5588,7 +5670,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Single-use trial lenses remove the risk of cross-infection (including prions and Acanthamoeba) from reused diagnostic lenses.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x02814",
@@ -5615,7 +5698,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Soft lens diameter is usually about HVID + 2 to 3 mm, giving full corneal coverage with a conjunctival overlap.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x02815",
@@ -5642,7 +5726,7 @@
               "feedback": "Required."
             }
           ],
-          "explanation": "",
+          "explanation": "A contact lens specification must identify the lens fully: material or brand, BOZR, total diameter, power and the prescription expiry date.",
           "needsReview": true
         },
         {
@@ -5670,7 +5754,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the push-up test, you push the lens up with the lower lid through the lower lid margin and judge how easily it moves and how it recentres.",
           "needsReview": true
         },
         {
@@ -5698,7 +5782,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "A blink can briefly flex or shift a tight lens into better alignment, so vision clears just after blinking.",
           "needsReview": true
         },
         {
@@ -5726,7 +5810,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Over time, dehydration, deposits or changes to the ocular surface can tighten a lens that once fitted well, which is why aftercare matters.",
           "needsReview": true
         },
         {
@@ -5754,7 +5838,7 @@
               "feedback": "Fine."
             }
           ],
-          "explanation": "",
+          "explanation": "If a sphere clearly improves acuity on over-refraction, the contact lens sphere power needs changing.",
           "needsReview": true
         },
         {
@@ -5782,7 +5866,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "LARS: the lens rotates to the left (clockwise as you look), so add: 180 + 10 = 190, which is written as 10.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x02821",
@@ -5809,7 +5894,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A toric is usually considered once uncorrected cylinder of about 0.75 DC or more noticeably reduces vision with a spherical lens.",
           "needsReview": true
         },
         {
@@ -5837,7 +5922,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The lens must cover the cornea in every gaze. Decentring in some gazes can expose the limbus and cause discomfort.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x02823",
@@ -5864,7 +5950,8 @@
               "feedback": "Adjust."
             }
           ],
-          "explanation": ""
+          "explanation": "Decentration usually means the fit is too loose. Tightening it with a larger diameter or steeper BOZR helps it centre.",
+          "needsReview": true
         },
         {
           "id": "clb-soft-fitting-x02824",
@@ -5891,7 +5978,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The fit can change after hours of wear and days of adaptation (dehydration, settling), so it is reassessed at aftercare.",
           "needsReview": true
         },
         {
@@ -5919,7 +6006,7 @@
               "feedback": "Much thicker."
             }
           ],
-          "explanation": "",
+          "explanation": "Low-minus soft lenses are typically about 0.06–0.08 mm thick in the centre. Rigid lenses, sclerals and high plus lenses are much thicker.",
           "needsReview": true
         },
         {
@@ -5947,7 +6034,7 @@
               "feedback": "Dailies or not at all."
             }
           ],
-          "explanation": "",
+          "explanation": "Reusable monthly lenses suit motivated full-time wearers who are happy to clean and store lenses properly. Dailies suit occasional wear, solution allergies or poor hygiene.",
           "needsReview": true
         },
         {
@@ -5975,7 +6062,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lag on upgaze shows how much the lens slips as the eye looks up. Too much lag means the lens is loose.",
           "needsReview": true
         },
         {
@@ -6003,7 +6090,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Building up wearing time gradually lets the eye adapt, and lets you spot problems before they become serious.",
           "needsReview": true
         },
         {
@@ -6031,7 +6118,7 @@
               "feedback": "Check."
             }
           ],
-          "explanation": "",
+          "explanation": "Immediate discomfort usually means the lens is inside out, damaged or has debris on it, so check the lens before assuming a fit problem.",
           "needsReview": true
         },
         {
@@ -6059,7 +6146,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Full coverage stops the lens edge sitting on the cornea or leaving the limbus exposed, which causes irritation and desiccation staining.",
           "needsReview": true
         }
       ],
@@ -6345,7 +6432,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A steep lens vaults the corneal centre, so fluorescein pools centrally. The lens bears in the mid-periphery (dark ring) with little edge clearance.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0042",
@@ -6372,7 +6460,8 @@
               "feedback": "Too small."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneal rigid lenses are usually about 2 mm smaller than HVID, so for an HVID of 11.5 mm, a total diameter of about 9.50 mm.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0043",
@@ -6399,7 +6488,8 @@
               "feedback": "That's touch."
             }
           ],
-          "explanation": ""
+          "explanation": "An alignment fit has a thin, even central tear layer of about 15–20 µm, which shows as faint green under fluorescein. Below about 10 µm looks dark (touch).",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0141",
@@ -6480,7 +6570,7 @@
               "feedback": "Too steep."
             }
           ],
-          "explanation": "",
+          "explanation": "An alignment fit shows a thin even layer of fluorescein centrally and in the mid-periphery, with a narrow bright band of edge clearance.",
           "needsReview": true
         },
         {
@@ -6508,7 +6598,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A BOZR steeper than K traps a positive tear lens (about +0.25 D per 0.05 mm), so extra minus is needed in the contact lens to offset it.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0144",
@@ -6535,7 +6626,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tears fill the space between the spherical back surface and the toric cornea. Because the tear index is close to the cornea's, this tear lens largely neutralises corneal astigmatism.",
           "needsReview": true
         },
         {
@@ -6563,7 +6654,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In USAN names, '-focon' marks a rigid gas permeable lens material, e.g. fluorosilicone acrylates.",
           "needsReview": true
         },
         {
@@ -6591,7 +6682,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In USAN names, '-filcon' marks a soft (hydrogel or silicone hydrogel) material, e.g. 'senofilcon'.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0147",
@@ -6618,7 +6710,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "On high corneal toricity, a spherical lens bears along the flat meridian and rocks. A toric back surface matches the cornea and stabilises the fit.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0148",
@@ -6699,7 +6792,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In a lid-attached fit, the upper part of the lens tucks under the upper lid, which holds it up and moves it with the lid. This is often more comfortable.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x01410",
@@ -6726,7 +6820,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Staining at 3 and 9 o'clock comes from incomplete blinking and edge-related drying of the exposed peripheral cornea beside the lens, so edge design and blinking matter.",
           "needsReview": true
         },
         {
@@ -6754,7 +6848,8 @@
               "feedback": "It's based on K."
             }
           ],
-          "explanation": ""
+          "explanation": "For an alignment fit, rigid corneal lenses usually start on flat K or slightly flatter (about 0.05–0.10 mm), depending on toricity and diameter.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0292",
@@ -6781,7 +6876,8 @@
               "feedback": "Sclerals."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneal rigid lenses are typically about 9.0–10.0 mm in diameter. Soft lenses are about 14 mm and sclerals larger still.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0293",
@@ -6808,7 +6904,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Flatter peripheral curves give edge lift (edge clearance). This allows tear exchange, easier removal and comfort, and stops the edge digging in.",
           "needsReview": true
         },
         {
@@ -6836,7 +6932,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Fluorescein looks dark where the tear layer is very thin (under about 10 µm), so dark areas mean touch or bearing.",
           "needsReview": true
         },
         {
@@ -6864,7 +6960,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "A fluorescein strip moistened with saline is touched to the bulbar conjunctiva (often the lower temporal), and blinking spreads it under the lens.",
           "needsReview": true
         },
         {
@@ -6892,7 +6988,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each 0.05 mm steeper than K adds about +0.25 D of tear lens, so 0.10 mm steeper gives about +0.50 D.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0297",
@@ -6919,7 +7016,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fitting 0.05 mm flatter than K creates a negative tear lens of about −0.25 D.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0298",
@@ -6946,7 +7044,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A BOZR on K means no tear lens. Vertex is negligible, so the contact lens power equals the spectacle power, −3.00 D.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x0299",
@@ -6973,7 +7072,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "0.10 mm steeper gives a +0.50 D tear lens, so the lens needs 0.50 D more minus: −3.00 − 0.50 = −3.50 D.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x02910",
@@ -7000,7 +7100,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dimple veiling is when air bubbles trapped under a steep rigid lens press small pits into the epithelium. Fluorescein pools in them.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x02911",
@@ -7027,7 +7128,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A lens that rides low often causes poor blinking over it, leading to 3 and 9 o'clock staining and discomfort.",
           "needsReview": true
         },
         {
@@ -7055,7 +7156,7 @@
               "feedback": "Sometimes."
             }
           ],
-          "explanation": "",
+          "explanation": "Back-surface torics are usually considered once corneal astigmatism exceeds about 2.00–2.50 D, when a spherical lens won't fit or centre well.",
           "needsReview": true
         },
         {
@@ -7083,7 +7184,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If a thin spherical lens flexes to match a toric cornea, the tear lens doesn't fully neutralise the corneal astigmatism, so residual astigmatism appears on over-refraction.",
           "needsReview": true
         },
         {
@@ -7111,7 +7212,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A radiuscope (or optical spherometer) uses the Drysdale method to measure a rigid lens's back optic zone radius.",
           "needsReview": true
         },
         {
@@ -7139,7 +7240,8 @@
               "feedback": "Cornea."
             }
           ],
-          "explanation": ""
+          "explanation": "A V-gauge (or band magnifier) measures a rigid lens's total diameter: the lens is slid along a tapering channel until it stops.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x02916",
@@ -7166,7 +7268,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pulling the outer canthus taut and blinking lets the lid margins squeeze the lens out without the finger touching the eye.",
           "needsReview": true
         },
         {
@@ -7194,7 +7296,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lenses cause noticeable lid awareness at first, so wearing time is built up gradually as the lids adapt.",
           "needsReview": true
         },
         {
@@ -7222,7 +7324,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Adding fluorine to fluorosilicone acrylates improves wettability and deposit resistance, offsetting the drawbacks of the silicone that increases Dk.",
           "needsReview": true
         },
         {
@@ -7250,7 +7352,7 @@
               "feedback": "Steep spherical fit."
             }
           ],
-          "explanation": "",
+          "explanation": "On a WTR cornea, the flatter horizontal meridian aligns with a spherical lens (touch), while fluorescein pools above and below, giving a horizontal 'dumbbell' band of touch.",
           "needsReview": true
         },
         {
@@ -7278,7 +7380,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An interpalpebral fit sits between the upper and lower lids without tucking under the upper lid, and usually uses a smaller diameter.",
           "needsReview": true
         },
         {
@@ -7306,7 +7408,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Smaller-diameter rigid lenses tend to sit between the lids and move more on blinking. Larger ones are more often lid-attached.",
           "needsReview": true
         },
         {
@@ -7334,7 +7436,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A bitoric lens has toric back and front surfaces: the back for fit on a toric cornea and the front to correct the induced astigmatism.",
           "needsReview": true
         },
         {
@@ -7362,7 +7464,8 @@
               "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "Reflex tearing after insertion thickens the tear film and makes the lens move a lot, so wait until it settles before judging the fluorescein pattern.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x02924",
@@ -7389,7 +7492,7 @@
               "feedback": "Care is needed."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lenses need a rigid lens cleaner and a conditioning (wetting and soaking) solution. Tap water must never be used, because of Acanthamoeba.",
           "needsReview": true
         },
         {
@@ -7417,7 +7520,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "Higher-Dk materials are softer and less stable, so some scratch, flex and attract deposits more and need replacing more often.",
           "needsReview": true
         },
         {
@@ -7445,7 +7548,7 @@
               "feedback": "Cornea."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lens back vertex power is measured on a focimeter with the back surface against the lens stop.",
           "needsReview": true
         },
         {
@@ -7473,7 +7576,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A well-fitting corneal rigid lens moves smoothly by about 1–2 mm with each blink, which allows tear exchange.",
           "needsReview": true
         },
         {
@@ -7501,7 +7604,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In keratoconus, an apical clearance fit (or light three-point touch) avoids heavy bearing on the thin, steep cone.",
+          "needsReview": true
         },
         {
           "id": "clb-rgp-fitting-x02929",
@@ -7528,7 +7632,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "A rigid lens keeps its shape and traps a tear lens that neutralises corneal astigmatism. A soft spherical lens drapes over the cornea and copies its toricity.",
           "needsReview": true
         },
         {
@@ -7556,7 +7660,7 @@
               "feedback": "Risks."
             }
           ],
-          "explanation": "",
+          "explanation": "A very flat lens bears centrally on the cornea, rocks and decentres, and can cause central staining and discomfort.",
           "needsReview": true
         }
       ],
@@ -7744,7 +7848,7 @@
               "feedback": "Too much change."
             }
           ],
-          "explanation": "",
+          "explanation": "Fc = F ÷ (1 − dF) = −8.00 ÷ (1 − 0.012 × −8.00) = −8.00 ÷ 1.096 ≈ −7.30 D, so order −7.25 D. Minus lenses need less power closer to the eye.",
           "needsReview": true
         },
         {
@@ -7772,7 +7876,7 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": "",
+          "explanation": "Fc = +8.00 ÷ (1 − 0.012 × 8.00) = +8.00 ÷ 0.904 ≈ +8.85 D, so order +8.75 D. Plus lenses need more power when moved closer to the eye.",
           "needsReview": true
         },
         {
@@ -7908,7 +8012,7 @@
               "feedback": "Not for higher powers."
             }
           ],
-          "explanation": "",
+          "explanation": "Vertex correction isn't linear, so convert the power in each principal meridian separately, then rebuild the sphere and cylinder from the two results.",
           "needsReview": true
         },
         {
@@ -8044,7 +8148,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power is in dioptres (1/metres), so d must be in metres: 12 mm is 0.012.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0141",
@@ -8071,7 +8176,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "−6.00 ÷ (1 + 0.072) ≈ −5.60 D, so the nearest available power is −5.50 D. Myopes need less minus at the cornea.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0142",
@@ -8098,7 +8204,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "+6.00 ÷ (1 − 0.072) ≈ +6.47 D, so +6.50 D. Hyperopes need more plus at the cornea.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0143",
@@ -8125,7 +8232,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "−12.00 ÷ (1 + 0.144) ≈ −10.49 D, so −10.50 D. The difference grows quickly at high powers.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0144",
@@ -8152,7 +8260,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "+12.00 ÷ (1 − 0.144) ≈ +14.02 D, so +14.00 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0145",
@@ -8179,7 +8288,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The meridians are −4.00 (at 180) and −6.00 (at 90). These convert to about −3.82 and −5.60 D, giving roughly −3.75 / −1.75 × 180. The cylinder shrinks as well as the sphere.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0146",
@@ -8206,7 +8316,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Moving a plus lens closer to the eye reduces its effective power, so hyperopes need more plus in contact lenses than in spectacles.",
           "needsReview": true
         },
         {
@@ -8234,7 +8344,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Compared with spectacles, contact lenses lower the near accommodative demand for hyperopes and raise it for myopes.",
           "needsReview": true
         },
         {
@@ -8262,7 +8372,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Back vertex power is measured with the back surface against the focimeter stop. Blot the lens dry first so surface liquid doesn't distort the reading.",
           "needsReview": true
         },
         {
@@ -8290,7 +8400,8 @@
               "feedback": "They don't."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lenses move with the eye, so the line of sight stays near the optical centre and no prism is induced in down-gaze, unlike spectacles.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x01410",
@@ -8317,7 +8428,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Minus spectacle lenses minify the image because of their distance from the eye. At the cornea, contact lenses minify much less, so high myopes see things larger and often with better acuity.",
           "needsReview": true
         },
         {
@@ -8345,7 +8456,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "−5.00 ÷ (1 + 0.060) ≈ −4.72 D, so −4.75 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0292",
@@ -8372,7 +8484,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "+5.00 ÷ (1 − 0.060) ≈ +5.32 D, so +5.25 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0293",
@@ -8399,7 +8512,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "−7.00 ÷ (1 + 0.084) ≈ −6.46 D, so −6.50 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0294",
@@ -8426,7 +8540,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "+10.00 ÷ (1 − 0.120) ≈ +11.36 D, so +11.25 or +11.50 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0295",
@@ -8453,7 +8568,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "−15.00 ÷ (1 + 0.180) ≈ −12.71 D, so −12.75 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0296",
@@ -8480,7 +8596,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "With d = 0.014 m: −8.00 ÷ (1 + 0.112) ≈ −7.19 D, so −7.25 D. A longer vertex distance means a bigger change.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0297",
@@ -8507,7 +8624,7 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": "",
+          "explanation": "+14.00 ÷ (1 − 0.168) ≈ +16.83 D, so about +16.75 to +17.00 D. Aphakic powers change a lot.",
           "needsReview": true
         },
         {
@@ -8535,7 +8652,8 @@
               "feedback": "Wrong direction."
             }
           ],
-          "explanation": ""
+          "explanation": "The meridians are −2.00 (at 90) and −5.00 (at 180). These convert to about −1.95 and −4.71 D, giving roughly −2.00 / −2.75 × 90.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x0299",
@@ -8562,7 +8680,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ocular refraction is the correction needed at the corneal plane. It differs from the spectacle Rx by the vertex effect.",
           "needsReview": true
         },
         {
@@ -8590,7 +8708,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "As a myope converges to read through minus spectacles, the eyes look nasal to the optical centres. This gives base-in prism, which reduces the convergence needed.",
           "needsReview": true
         },
         {
@@ -8618,7 +8736,7 @@
               "feedback": "Small differences."
             }
           ],
-          "explanation": "",
+          "explanation": "Compared with spectacles, myopes in contact lenses lose the base-in prism and the reduced accommodative demand, so they must converge and accommodate a little more at near.",
           "needsReview": true
         },
         {
@@ -8646,7 +8764,7 @@
               "feedback": "Small differences."
             }
           ],
-          "explanation": "",
+          "explanation": "Plus spectacles give hyperopes base-out prism and a higher accommodative demand at near. In contact lenses both fall, so they accommodate and converge a little less.",
           "needsReview": true
         },
         {
@@ -8674,7 +8792,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Over-refraction is done with the contact lens in place, using trial lenses in front of it to find any residual correction.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02914",
@@ -8701,7 +8820,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Over-refraction adds to the lens power: −3.00 + 0.50 = −2.50 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02915",
@@ -8728,7 +8848,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Over-refraction adds to the lens power: −4.00 + (−0.75) = −4.75 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02916",
@@ -8755,7 +8876,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A high-power over-refraction lens also sits about 12 mm in front of the eye, so its effective power at the cornea differs and must be vertex-corrected too.",
           "needsReview": true
         },
         {
@@ -8783,7 +8904,8 @@
               "feedback": "Not for low powers."
             }
           ],
-          "explanation": ""
+          "explanation": "Below about ±4.00 D the vertex change is under 0.25 D, so it can usually be ignored.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02918",
@@ -8810,7 +8932,8 @@
               "feedback": "Only corneal."
             }
           ],
-          "explanation": ""
+          "explanation": "On a rigid lens, the tear lens can neutralise the corneal component of a vertex-corrected cylinder. Only residual cylinder needs correcting in the lens.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02919",
@@ -8837,7 +8960,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Back vertex power is the lens's power measured from its back surface, the surface that sits on the eye.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02920",
@@ -8864,7 +8988,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "At high powers, the change in vertex distance from spectacle plane to cornea alters the effective power a lot, so each correction needs its own power.",
           "needsReview": true
         },
         {
@@ -8892,7 +9016,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Minus spectacles minify the retinal image. Contact lenses at the cornea minify much less, so the image is larger and acuity may improve.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02922",
@@ -8919,7 +9044,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Plus spectacles magnify. Contact lenses at the cornea magnify much less, so things look smaller than they did in glasses.",
           "needsReview": true
         },
         {
@@ -9001,7 +9126,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Convert 12 mm to metres: 0.012 m.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02925",
@@ -9028,7 +9154,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Myopes have a higher accommodative demand at near in contact lenses than in minus spectacles, so presbyopic symptoms can appear sooner.",
           "needsReview": true
         },
         {
@@ -9056,7 +9182,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "−4.25 ÷ (1 + 0.051) ≈ −4.04 D, so −4.00 D is the closest step.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02927",
@@ -9083,7 +9210,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "+4.25 ÷ (1 − 0.051) ≈ +4.48 D, so +4.50 D.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02928",
@@ -9110,7 +9238,8 @@
               "feedback": "Too far."
             }
           ],
-          "explanation": ""
+          "explanation": "The meridians are −6.00 and −7.00. These convert to about −5.60 and −6.46 D. The sphere and cylinder both reduce, and −5.50 / −0.75 × 180 is the closest option.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02929",
@@ -9137,7 +9266,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A spherical-equivalent lens uses the sphere plus half the cylinder, which places the circle of least confusion on the retina for low astigmatism.",
+          "needsReview": true
         },
         {
           "id": "clb-vertex-power-x02930",
@@ -9164,7 +9294,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A spherical rigid lens keeps its shape, and the tear lens beneath it neutralises corneal astigmatism, so no toric surface is needed.",
           "needsReview": true
         }
       ],
@@ -9455,7 +9585,7 @@
               "feedback": "Neutralisation is needed."
             }
           ],
-          "explanation": "",
+          "explanation": "Un-neutralised 3% hydrogen peroxide causes severe stinging and epithelial damage, so neutralisation must be complete before the lenses go in.",
           "needsReview": true
         },
         {
@@ -9483,7 +9613,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cases develop biofilm. Rinse with fresh solution (never water), air-dry face down with the caps off, and replace at least monthly.",
           "needsReview": true
         },
         {
@@ -9565,7 +9695,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Use the rule 'Look good, feel good, see well?'. If any of these fail, the wearer should remove the lenses and seek advice promptly, because infection can progress quickly.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x0047",
@@ -9646,7 +9777,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Sleeping in lenses not approved for overnight wear raises the risk of microbial keratitis many times over.",
           "needsReview": true
         },
         {
@@ -9674,7 +9805,7 @@
               "feedback": "Both."
             }
           ],
-          "explanation": "",
+          "explanation": "Rubbing and rinsing removes deposits and microbes far better than soaking alone, even with 'no-rub' solutions.",
           "needsReview": true
         },
         {
@@ -9702,7 +9833,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cases build up biofilm over time, so they should be replaced at least monthly (often with each new bottle).",
           "needsReview": true
         },
         {
@@ -9784,7 +9915,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Topping up dilutes the disinfectant and leaves contaminated solution in the case, so always discard old solution and use fresh.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x0145",
@@ -9811,7 +9943,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Peroxide systems use 3% hydrogen peroxide, which is then neutralised to water and oxygen before wear.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x0146",
@@ -9838,7 +9971,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rinse the case with fresh solution and leave it to air-dry face down with the caps off. Towels and tap water introduce microbes.",
           "needsReview": true
         },
         {
@@ -9866,7 +9999,8 @@
               "feedback": "It neutralises."
             }
           ],
-          "explanation": ""
+          "explanation": "The platinum catalyst disc breaks hydrogen peroxide down into water and oxygen, which neutralises it in one-step systems.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x0148",
@@ -9893,7 +10027,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tap water can carry Acanthamoeba, so showering in lenses is best avoided. If unavoidable, keep the eyes closed.",
           "needsReview": true
         },
         {
@@ -9921,7 +10055,7 @@
               "feedback": "Riskier."
             }
           ],
-          "explanation": "",
+          "explanation": "Water can carry Acanthamoeba, so the safest option is daily disposables under watertight goggles, discarded straight after swimming.",
           "needsReview": true
         },
         {
@@ -9949,7 +10083,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Saliva is full of bacteria and isn't sterile, so it should never be used to wet or clean lenses.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x0291",
@@ -9976,7 +10111,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Multipurpose solutions combine a disinfectant, surfactant cleaner, buffers and wetting agents for cleaning, rinsing, disinfecting and storing.",
           "needsReview": true
         },
         {
@@ -10004,7 +10139,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Common MPS disinfectants include PHMB (polyhexanide) and Polyquad (polyquaternium-1), often alongside Aldox.",
           "needsReview": true
         },
         {
@@ -10032,7 +10167,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Disinfection needs the full soak time on the product label, typically 4–6 hours or overnight.",
           "needsReview": true
         },
         {
@@ -10060,7 +10195,8 @@
               "feedback": "It can't."
             }
           ],
-          "explanation": ""
+          "explanation": "Saline only rinses and stores lenses. It contains no disinfectant, so it can't kill microbes.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x0295",
@@ -10087,7 +10223,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Peroxide that hasn't been neutralised causes intense stinging, redness and epithelial damage.",
           "needsReview": true
         },
         {
@@ -10115,7 +10251,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Solutions can interact with certain lens materials, causing staining or discomfort, so changes should be made on professional advice.",
           "needsReview": true
         },
         {
@@ -10143,7 +10279,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Once opened, solutions can become contaminated, so discard them by the date on the bottle, often about 90 days.",
           "needsReview": true
         },
         {
@@ -10171,7 +10307,7 @@
               "feedback": "Not necessary."
             }
           ],
-          "explanation": "",
+          "explanation": "Put lenses in before make-up so it can't get onto them, and take them out before removing make-up.",
           "needsReview": true
         },
         {
@@ -10199,7 +10335,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Wash hands and dry them on a clean, lint-free towel so fibres and microbes don't transfer to the lenses.",
           "needsReview": true
         },
         {
@@ -10227,7 +10363,7 @@
               "feedback": "Rub."
             }
           ],
-          "explanation": "",
+          "explanation": "Follow the product instructions, usually about 10–20 seconds of rubbing per side, then rinse.",
           "needsReview": true
         },
         {
@@ -10255,7 +10391,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A biofilm is a slimy layer of microbes stuck to the case. It protects them from disinfectants, which is why cases must be cleaned and replaced.",
           "needsReview": true
         },
         {
@@ -10283,7 +10419,8 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "Lenses build up deposits and lose surface quality over time, so replacing them on schedule keeps them comfortable and lowers complication risk.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x02913",
@@ -10310,7 +10447,7 @@
               "feedback": "Consider stopping."
             }
           ],
-          "explanation": "",
+          "explanation": "Illness, dehydration and eye rubbing increase the risk of complications, so wearers should consider switching to spectacles until they recover.",
           "needsReview": true
         },
         {
@@ -10338,7 +10475,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Carry spare lenses, a case, solution and spectacles, so lenses can be removed or replaced safely wherever you are.",
           "needsReview": true
         },
         {
@@ -10366,7 +10503,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hot tubs can harbour Acanthamoeba and Pseudomonas, so avoid wearing lenses in them, or use goggles and daily disposables.",
           "needsReview": true
         },
         {
@@ -10394,7 +10531,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Home-made saline isn't sterile and has been linked to Acanthamoeba keratitis.",
           "needsReview": true
         },
         {
@@ -10422,7 +10559,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Long or sharp nails can tear soft lenses or scratch the eye during insertion and removal.",
           "needsReview": true
         },
         {
@@ -10450,7 +10587,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Overnight wear raises the risk of microbial keratitis several times (around 5 or more times) compared with daily wear.",
           "needsReview": true
         },
         {
@@ -10478,7 +10615,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In two-step peroxide systems, lenses are disinfected in peroxide and then neutralised separately (e.g. with a tablet). One-step systems do both in one case.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x02920",
@@ -10505,7 +10643,7 @@
               "feedback": "Not usually."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lenses are stored in a rigid conditioning solution that disinfects and wets the surface. Never use water or saliva.",
           "needsReview": true
         },
         {
@@ -10533,7 +10671,7 @@
               "feedback": "Can be used carefully."
             }
           ],
-          "explanation": "",
+          "explanation": "Apply hairspray before inserting lenses, with the eyes closed, so the spray can't coat the lenses.",
           "needsReview": true
         },
         {
@@ -10561,7 +10699,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Damp, closed cases let microbes and biofilm grow, so air-dry the case with the caps off.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x02923",
@@ -10588,7 +10727,8 @@
               "feedback": "Lower risk."
             }
           ],
-          "explanation": ""
+          "explanation": "Overnight wear of lenses not designed for it is the biggest risk factor, and smoking adds further risk.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x02924",
@@ -10615,7 +10755,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Enzyme tablets broke down protein deposits (mainly lysozyme) on reusable lenses. They're less used now that lenses are replaced more often.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x02925",
@@ -10642,7 +10783,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Buying without professional supervision means fits and aftercare aren't checked, which is linked to more complications.",
           "needsReview": true
         },
         {
@@ -10670,7 +10811,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "A red, painful eye or blurred vision could mean infection, so remove the lenses and seek advice the same day.",
           "needsReview": true
         },
         {
@@ -10698,7 +10839,7 @@
               "feedback": "They often are."
             }
           ],
-          "explanation": "",
+          "explanation": "A fresh lens every day means no deposit or allergen build-up and no exposure to care solutions, which helps allergy sufferers.",
           "needsReview": true
         },
         {
@@ -10726,7 +10867,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tap, pool and sea water can contain Acanthamoeba and bacteria that cling to lenses, so water exposure is a major infection risk.",
+          "needsReview": true
         },
         {
           "id": "clb-care-hygiene-x02929",
@@ -10753,7 +10895,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A dropped lens is contaminated. Clean, rub and fully disinfect it before wear, or replace it. Never rinse it under the tap.",
           "needsReview": true
         },
         {
@@ -10781,7 +10923,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Don't let the bottle tip touch anything, and keep it capped, so the solution stays sterile.",
           "needsReview": true
         }
       ],
@@ -11139,7 +11281,8 @@
               "feedback": "Steer towards dailies."
             }
           ],
-          "explanation": ""
+          "explanation": "Daily disposables cut deposit build-up and remove care solutions from the picture, which lowers the risk of infiltrative events, especially with blepharitis.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0044",
@@ -11220,7 +11363,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Large papillae on the upper tarsal conjunctiva in a lens wearer are the hallmark of contact lens papillary conjunctivitis (CLPC).",
           "needsReview": true
         },
         {
@@ -11248,7 +11391,8 @@
               "feedback": "Rare."
             }
           ],
-          "explanation": ""
+          "explanation": "Pseudomonas aeruginosa, a Gram-negative bacterium, is the most common cause of contact lens-related microbial keratitis.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0143",
@@ -11329,7 +11473,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "CLARE (contact lens acute red eye) is a sudden red, uncomfortable eye on waking after sleeping in lenses, often with small peripheral infiltrates. It is linked to Gram-negative bacterial toxins.",
           "needsReview": true
         },
         {
@@ -11357,7 +11501,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Neovascularisation is driven by chronic hypoxia, so manage it by increasing oxygen supply (higher-Dk materials) and reducing wearing time.",
           "needsReview": true
         },
         {
@@ -11385,7 +11529,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "After switching to a high-Dk lens, microcysts often increase for a week or so as the epithelium recovers, then gradually clear over a few months.",
           "needsReview": true
         },
         {
@@ -11413,7 +11557,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vertical striae in the posterior stroma appear at about 5% corneal swelling, and folds at about 8% or more.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0148",
@@ -11440,7 +11585,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Variation in endothelial cell size (polymegethism) is associated with long-term chronic hypoxia and acidosis from lens wear.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0149",
@@ -11467,7 +11613,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Diffuse punctate staining in both eyes soon after changing solution suggests solution toxicity or sensitivity.",
           "needsReview": true
         },
         {
@@ -11495,7 +11641,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Mucin balls are small spheres of mucus and debris trapped under (usually stiffer) silicone hydrogel lenses. They leave pits that pool fluorescein.",
           "needsReview": true
         },
         {
@@ -11523,7 +11669,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A CLPU is a small, round, peripheral, sterile infiltrate with overlying staining. It is usually less painful than microbial keratitis.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0292",
@@ -11550,7 +11697,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Microcysts act as diverging lenses (higher index than the surrounding tissue), so in marginal retro-illumination they show reversed illumination.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0293",
@@ -11577,7 +11725,8 @@
               "feedback": "They're visible."
             }
           ],
-          "explanation": ""
+          "explanation": "Vacuoles are fluid-filled, with a lower index than the surroundings, so in retro-illumination they show unreversed illumination. This tells them apart from microcysts.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0294",
@@ -11604,7 +11753,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Endothelial blebs appear within minutes of lens insertion in response to acute acidosis, and they settle after about 30 minutes.",
           "needsReview": true
         },
         {
@@ -11632,7 +11781,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact lens SLK has been linked to hypersensitivity to preservatives such as thiomersal, along with mechanical irritation.",
           "needsReview": true
         },
         {
@@ -11660,7 +11809,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The 2005–2006 Fusarium keratitis outbreak was linked to one multipurpose solution (ReNu with MoistureLoc), which was then withdrawn.",
           "needsReview": true
         },
         {
@@ -11688,7 +11837,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pseudomonas keratitis progresses quickly, with pain, discharge, a dense infiltrate and sometimes a ring infiltrate. It can perforate the cornea within days.",
           "needsReview": true
         },
         {
@@ -11716,7 +11865,7 @@
               "feedback": "Avoid."
             }
           ],
-          "explanation": "",
+          "explanation": "Suspected microbial keratitis is an emergency: stop lens wear and refer the same day for corneal scrapes and intensive antibiotics. Don't patch the eye.",
           "needsReview": true
         },
         {
@@ -11744,7 +11893,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Lenses, the case and solution can be cultured to help identify the organism and guide treatment.",
           "needsReview": true
         },
         {
@@ -11772,7 +11921,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Overnight wear is the single biggest risk factor for contact lens microbial keratitis.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02911",
@@ -11799,7 +11949,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Corneal exhaustion syndrome is sudden intolerance to lenses after years of hypoxic (low-Dk) wear, with endothelial changes.",
           "needsReview": true
         },
         {
@@ -11827,7 +11977,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An abrasion from a damaged lens edge shows well-defined fluorescein staining that matches the shape of the damage.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02913",
@@ -11854,7 +12005,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Preservative allergy causes red, itchy eyes in both eyes with diffuse punctate staining, and it improves when the solution is changed.",
           "needsReview": true
         },
         {
@@ -11882,7 +12033,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Sterile infiltrative keratitis is usually small, peripheral and mild with little staining. MK is larger, more central, painful and ulcerated.",
           "needsReview": true
         },
         {
@@ -11910,7 +12061,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lenses (especially PMMA or poorly fitting ones) can mould the cornea, changing its topography and refraction.",
           "needsReview": true
         },
         {
@@ -11938,7 +12089,8 @@
               "feedback": "Check first."
             }
           ],
-          "explanation": ""
+          "explanation": "Most lens complications start with reducing or stopping wear and reviewing, then fixing the cause (fit, material, hygiene, care system).",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02917",
@@ -11965,7 +12117,8 @@
               "feedback": "Gram-negative."
             }
           ],
-          "explanation": ""
+          "explanation": "Staphylococcus aureus is Gram-positive. Pseudomonas, Serratia and E. coli are Gram-negative.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02918",
@@ -11992,7 +12145,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A SEAL (superior epithelial arcuate lesion) is an arc-shaped lesion in the superior cornea caused by mechanical pressure from a stiff lens under the upper lid.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02919",
@@ -12019,7 +12173,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Stop or reduce wear to let the papillae settle (sometimes with mast cell stabilisers), then refit with more frequent replacement, ideally daily disposables.",
           "needsReview": true
         },
         {
@@ -12047,7 +12201,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneal vessels grow in mainly because of chronic hypoxia from low-oxygen lenses or long wearing times.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02921",
@@ -12074,7 +12229,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A painful, white, staining lesion in a lens wearer should be treated as microbial keratitis and referred urgently until proven otherwise.",
           "needsReview": true
         },
         {
@@ -12102,7 +12257,8 @@
               "feedback": "Lowers risk."
             }
           ],
-          "explanation": ""
+          "explanation": "Smoking is a known independent risk factor for contact lens microbial keratitis.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02923",
@@ -12129,7 +12285,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Measure the infiltrate's size with the slit lamp graticule (or beam length) so it can be compared reliably over time.",
           "needsReview": true
         },
         {
@@ -12157,7 +12313,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A large infiltrate with hypopyon shows severe bacterial keratitis. It is sight-threatening and needs emergency treatment.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02925",
@@ -12238,7 +12395,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "CLARE presents as an acute red, uncomfortable eye on waking after overnight lens wear.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02927",
@@ -12265,7 +12423,8 @@
               "feedback": "Sometimes, but HSV is classic."
             }
           ],
-          "explanation": ""
+          "explanation": "Acanthamoeba keratitis can show a dendritic-like epitheliopathy, so it is often first misdiagnosed as herpes simplex keratitis, which delays the right treatment.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02928",
@@ -12292,7 +12451,7 @@
               "feedback": "They are."
             }
           ],
-          "explanation": "",
+          "explanation": "Microbial keratitis, especially from Pseudomonas, can develop within hours, so any red, painful or blurred eye in a lens wearer needs prompt action.",
           "needsReview": true
         },
         {
@@ -12320,7 +12479,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fluorescein staining shows epithelial damage, revealing abrasions, punctate staining and ulcers.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x02930",
@@ -12347,7 +12507,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Smoking increases the risk of microbial keratitis, and combining it with overnight wear multiplies the risk.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -12623,7 +12784,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Grading to 0.1 detects smaller changes between visits than whole numbers, which can hide real improvement or worsening.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0043",
@@ -12650,7 +12812,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Photographic scales need large image sets for each condition, and photos vary in lighting, magnification and field, which makes comparison harder.",
           "needsReview": true
         },
         {
@@ -12732,7 +12894,7 @@
               "feedback": "That's staining."
             }
           ],
-          "explanation": "",
+          "explanation": "Objective systems analyse a digital image, measuring the proportion of red (or vessel coverage) to give a redness score.",
           "needsReview": true
         },
         {
@@ -12760,7 +12922,8 @@
               "feedback": "Not the key point."
             }
           ],
-          "explanation": ""
+          "explanation": "Scales differ in their steps and anchors, so every grade must name the scale used for future comparisons to make sense.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0141",
@@ -12787,7 +12950,8 @@
               "feedback": "Angle."
             }
           ],
-          "explanation": ""
+          "explanation": "The Efron scales are painted artist's illustrations of contact lens complications at grades 0–4.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0142",
@@ -12814,7 +12978,7 @@
               "feedback": "Lens."
             }
           ],
-          "explanation": "",
+          "explanation": "The CCLRU (Brien Holden Vision Institute) scales use photographs. The Efron scales are painted.",
           "needsReview": true
         },
         {
@@ -12842,7 +13006,8 @@
               "feedback": "Grade 4."
             }
           ],
-          "explanation": ""
+          "explanation": "On 0–4 scales: 0 is normal, 1 trace, 2 mild, 3 moderate and 4 severe.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0144",
@@ -12869,7 +13034,7 @@
               "feedback": "Changes matter."
             }
           ],
-          "explanation": "",
+          "explanation": "Changes within about 1 grade fall inside normal observer variability, so a change of more than one grade is usually clinically significant.",
           "needsReview": true
         },
         {
@@ -12897,7 +13062,8 @@
               "feedback": "Earlier."
             }
           ],
-          "explanation": ""
+          "explanation": "Grades 0–2 usually need monitoring at most. From about grade 3 (moderate), clinical action is generally needed.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0146",
@@ -12924,7 +13090,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Scales have different reference images and steps, so grades from different scales can't be compared directly.",
           "needsReview": true
         },
         {
@@ -12952,7 +13118,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Grading is subjective, so results vary between clinicians (inter-observer) and between repeat grades by the same clinician (intra-observer).",
           "needsReview": true
         },
         {
@@ -12980,7 +13146,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Redness can vary between the nasal, temporal, superior, inferior and limbal zones, so grading each zone captures localised change.",
           "needsReview": true
         },
         {
@@ -13008,7 +13174,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A slit lamp with a camera captures images that can be graded and compared over time, either subjectively or objectively.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x01410",
@@ -13035,7 +13202,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Interpolation means grading between the reference images (e.g. 1.5 or 2.3), which improves sensitivity to change.",
           "needsReview": true
         },
         {
@@ -13063,7 +13230,8 @@
               "feedback": "Grade 4."
             }
           ],
-          "explanation": ""
+          "explanation": "Efron grade 0 is normal.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0302",
@@ -13090,7 +13258,8 @@
               "feedback": "Grade 4."
             }
           ],
-          "explanation": ""
+          "explanation": "Efron grade 1 is trace, which is usually not clinically significant.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0303",
@@ -13117,7 +13286,8 @@
               "feedback": "Grade 0."
             }
           ],
-          "explanation": ""
+          "explanation": "Efron grade 4 is severe and needs clinical action.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0304",
@@ -13144,7 +13314,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneal staining is graded for type (pattern), extent (area) and depth (how far fluorescein penetrates) in each zone.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0305",
@@ -13171,7 +13342,7 @@
               "feedback": "Too few."
             }
           ],
-          "explanation": "",
+          "explanation": "Corneal staining is often recorded in five zones (central, superior, inferior, nasal, temporal), each graded separately.",
           "needsReview": true
         },
         {
@@ -13199,7 +13370,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Microcysts are graded by counting them in retro-illumination, which is more repeatable than a descriptive scale.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0307",
@@ -13226,7 +13398,8 @@
               "feedback": "Angle."
             }
           ],
-          "explanation": ""
+          "explanation": "The Oxford scheme grades ocular surface staining using panels A to E (0–5) of increasing punctate density.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0308",
@@ -13253,7 +13426,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Inter-observer reliability is the agreement between different clinicians grading the same eye.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x0309",
@@ -13280,7 +13454,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Intra-observer reliability is the agreement when the same clinician grades the same eye twice.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03010",
@@ -13307,7 +13482,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Training with standard reference images and using the same scale and method consistently improves reliability.",
           "needsReview": true
         },
         {
@@ -13335,7 +13510,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Magnification, illumination and filters change how redness and staining look, so keep settings consistent so grades are comparable.",
           "needsReview": true
         },
         {
@@ -13363,7 +13538,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In CLPC, grade the papillae on the upper tarsal conjunctiva (size and redness) after everting the lid.",
           "needsReview": true
         },
         {
@@ -13391,7 +13566,7 @@
               "feedback": "It is, with consent."
             }
           ],
-          "explanation": "",
+          "explanation": "Photos give a permanent record that can be compared directly at later visits or by other clinicians.",
           "needsReview": true
         },
         {
@@ -13419,7 +13594,8 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "A fall in grade from 3.0 to 1.5 suggests the condition has improved, for example after refitting.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03015",
@@ -13446,7 +13622,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Grades only make sense if the eye and scale are recorded, so someone else (or you later) can interpret and compare them.",
           "needsReview": true
         },
         {
@@ -13474,7 +13650,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Image analysis software measures vessel coverage or the redness of the image, giving an objective, repeatable grade.",
           "needsReview": true
         },
         {
@@ -13502,7 +13678,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Assessing the lid margin includes grading blepharitis and meibomian gland dysfunction, which affect lens comfort and complications.",
           "needsReview": true
         },
         {
@@ -13530,7 +13706,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Limbal redness is more specifically linked to hypoxia than general bulbar redness, so it is graded separately.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03019",
@@ -13557,7 +13734,8 @@
               "feedback": "Different."
             }
           ],
-          "explanation": ""
+          "explanation": "Neovascularisation is graded by how far vessels extend past the limbus into the cornea (in mm) and by their extent.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03020",
@@ -13584,7 +13762,7 @@
               "feedback": "They are."
             }
           ],
-          "explanation": "",
+          "explanation": "Unusual or atypical signs may not match any scale image, so a clear written description (or a photo) records them better.",
           "needsReview": true
         },
         {
@@ -13612,7 +13790,7 @@
               "feedback": "They help."
             }
           ],
-          "explanation": "",
+          "explanation": "Grading consistently over time shows small worsening early, so problems can be managed before they become serious.",
           "needsReview": true
         },
         {
@@ -13640,7 +13818,7 @@
               "feedback": "It happens."
             }
           ],
-          "explanation": "",
+          "explanation": "As clinicians gain experience, their grading can drift systematically. This is a learning effect that can affect comparisons over time.",
           "needsReview": true
         },
         {
@@ -13668,7 +13846,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Grades 0–1 (normal to trace) usually need no action. Grade 2 needs monitoring, and grades 3–4 need action.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03024",
@@ -13695,7 +13874,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Conjunctival staining, including lid wiper staining, helps detect dry eye and lid wiper epitheliopathy.",
           "needsReview": true
         },
         {
@@ -13723,7 +13902,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lissamine green stains dead and damaged cells and shows up well on the conjunctiva, so it is used to grade conjunctival staining.",
           "needsReview": true
         },
         {
@@ -13751,7 +13930,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Signs vary across the eye, so grade the same zones each time for valid comparisons.",
           "needsReview": true
         },
         {
@@ -13779,7 +13958,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Efron grading scales illustrate about 16 contact lens complications.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03028",
@@ -13806,7 +13986,7 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": "",
+          "explanation": "Grade 2 is mild. Compare with previous visits and look for causes such as fit, material, hypoxia or dryness rather than acting automatically.",
           "needsReview": true
         },
         {
@@ -13834,7 +14014,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Computerised image analysis removes the observer's subjectivity, so it is the most objective and repeatable approach.",
+          "needsReview": true
         },
         {
           "id": "clb-grading-x03030",
@@ -13861,7 +14042,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Coarser 0.5 steps can miss small real changes that 0.1 steps would pick up.",
           "needsReview": true
         }
       ],
@@ -14047,7 +14228,7 @@
               "feedback": "Too much flattening."
             }
           ],
-          "explanation": "",
+          "explanation": "The normal cornea is a prolate ellipse: steepest at the centre and flattening towards the periphery.",
           "needsReview": true
         },
         {
@@ -14075,7 +14256,8 @@
               "feedback": "That's a hyperbola."
             }
           ],
-          "explanation": ""
+          "explanation": "The average corneal eccentricity is about 0.47 (e² ≈ 0.22). 0 is a sphere and 1 is a parabola.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0043",
@@ -14102,7 +14284,8 @@
               "feedback": "Regular astigmatism shows one."
             }
           ],
-          "explanation": ""
+          "explanation": "In WTR astigmatism the vertical meridian is steeper, so the steep (warm-coloured) bow tie runs vertically on the map.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0044",
@@ -14129,7 +14312,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "On curvature maps, warm colours (red, orange) show steeper areas and cool colours (blue) show flatter areas.",
           "needsReview": true
         },
         {
@@ -14211,7 +14394,8 @@
               "feedback": "Height maps do."
             }
           ],
-          "explanation": ""
+          "explanation": "Elevation (height) maps show the cornea's shape against a reference surface. This is what refractive surgery and simulated rigid lens fluorescein patterns need.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0047",
@@ -14238,7 +14422,8 @@
               "feedback": "It does create error."
             }
           ],
-          "explanation": ""
+          "explanation": "Misaligning the topographer by around 2.5 mm can create about 1 D of false astigmatism, so centring and alignment are critical.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0048",
@@ -14265,7 +14450,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Placido-based videokeratoscopes typically cover about 7–9 mm of the cornea, far more than the central 3 mm a keratometer measures.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0141",
@@ -14292,7 +14478,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Placido topographer projects concentric illuminated rings onto the cornea and analyses their reflected image. The spacing of the rings shows the local curvature.",
           "needsReview": true
         },
         {
@@ -14320,7 +14506,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Scheimpflug imaging photographs optical sections of the cornea, so it can map front and back elevation as well as thickness. Placido systems only measure the front.",
           "needsReview": true
         },
         {
@@ -14402,7 +14588,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Keratoconus typically shows focal steepening below the centre, giving inferior–superior asymmetry, often with an asymmetric or skewed bow tie.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0145",
@@ -14429,7 +14616,8 @@
               "feedback": "0 < e < 1."
             }
           ],
-          "explanation": ""
+          "explanation": "Eccentricity 0 is a sphere, between 0 and 1 is a prolate ellipse, 1 is a parabola, and above 1 is a hyperbola.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0146",
@@ -14456,7 +14644,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "p = 1 − e² = 1 − 0.45² = 1 − 0.20 ≈ 0.80.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0147",
@@ -14483,7 +14672,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Elevation maps show the corneal height above or below a reference surface, usually a best-fit sphere.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0148",
@@ -14510,7 +14700,7 @@
               "feedback": "That's keratoconus."
             }
           ],
-          "explanation": "",
+          "explanation": "Ortho-k flattens the central cornea, and the mid-periphery steepens around it, giving a centred 'bull's eye': a cool centre with a warm ring.",
           "needsReview": true
         },
         {
@@ -14538,7 +14728,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "An absolute scale uses the same fixed colour steps on every map, so maps from different visits or patients can be compared directly.",
           "needsReview": true
         },
         {
@@ -14566,7 +14756,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A regular cornea shows a symmetric bow tie. An asymmetric or skewed bow tie suggests irregular astigmatism, for example early keratoconus.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0301",
@@ -14593,7 +14784,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Steeper areas reflect a smaller mire image, so the Placido rings appear closer together. Wider spacing means flatter areas.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0302",
@@ -14620,7 +14812,8 @@
               "feedback": "Pachymetry."
             }
           ],
-          "explanation": ""
+          "explanation": "Axial (sagittal) maps measure curvature relative to the instrument axis. This smooths local changes, while tangential maps show local steepening better.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0303",
@@ -14647,7 +14840,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "A normalised scale sets its colour range from each map's own minimum and maximum, so the steps change from map to map.",
           "needsReview": true
         },
         {
@@ -14675,7 +14868,7 @@
               "feedback": "They can."
             }
           ],
-          "explanation": "",
+          "explanation": "With a normalised scale, even small differences in power are spread across the full colour range. A nearly normal cornea can look dramatically abnormal.",
           "needsReview": true
         },
         {
@@ -14703,7 +14896,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Sim K values are the topographer's estimate of the central principal meridian powers over the zone a keratometer would measure.",
           "needsReview": true
         },
         {
@@ -14731,7 +14924,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Inferior steepening greater than superior steepening (a raised I–S value) is a key topographic sign of keratoconus.",
           "needsReview": true
         },
         {
@@ -14759,7 +14952,8 @@
               "feedback": "Bull's eye."
             }
           ],
-          "explanation": ""
+          "explanation": "Pellucid marginal degeneration gives a 'crab-claw' or 'kissing birds' pattern: steepening in the inferior periphery with flattening along the vertical axis.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0308",
@@ -14786,7 +14980,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "If the ortho-k lens rides low, the treatment zone decentres downwards. This gives a 'smiley face' arc of steepening above it rather than a centred ring.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x0309",
@@ -14813,7 +15008,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Myopic LASIK removes central stromal tissue, so the central cornea flattens.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03010",
@@ -14840,7 +15036,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lens warpage gives irregular topography, often flattened where the lens sat and steeper elsewhere.",
           "needsReview": true
         },
         {
@@ -14868,7 +15064,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Scheimpflug devices build a 3D model of the cornea, so they can produce thickness (pachymetry) maps, including the thinnest point.",
           "needsReview": true
         },
         {
@@ -14896,7 +15092,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Placido systems image the rings reflected by the tear film, so dry patches or an irregular tear film distort the rings and give false readings.",
           "needsReview": true
         },
         {
@@ -14924,7 +15120,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Anterior segment OCT resolves the corneal layers and can map epithelial thickness.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03014",
@@ -14951,7 +15148,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Eccentricity describes how the cornea flattens towards the periphery, which matters when choosing rigid and ortho-k back surface designs.",
           "needsReview": true
         },
         {
@@ -14979,7 +15176,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A symmetric bow tie with the halves aligned along one meridian is the typical pattern of regular astigmatism.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03016",
@@ -15006,7 +15204,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "On power and curvature maps, warm colours (red, orange) show steeper, more powerful areas.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03017",
@@ -15033,7 +15232,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "On power and curvature maps, cool colours (blue) show flatter, less powerful areas.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03018",
@@ -15060,7 +15260,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Refractive power maps use Snell's law at the corneal surface to calculate the true refractive power at each point.",
           "needsReview": true
         },
         {
@@ -15088,7 +15288,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Repeat topography detects increasing steepening early, so cross-linking can be offered before vision is lost.",
           "needsReview": true
         },
         {
@@ -15116,7 +15316,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneal cross-linking uses riboflavin and UVA to create extra collagen bonds, stiffening the cornea and halting progressive ectasia such as keratoconus.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03021",
@@ -15143,7 +15344,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "On elevation maps, warm colours mark points above the best-fit reference surface and cool colours mark points below it.",
           "needsReview": true
         },
         {
@@ -15171,7 +15372,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Changes in the back surface can appear before front surface changes, so posterior elevation maps help detect early or subclinical keratoconus.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03023",
@@ -15198,7 +15400,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Placido topographers only measure the front corneal surface, and they depend on a good tear film.",
           "needsReview": true
         },
         {
@@ -15226,7 +15428,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the patient doesn't fixate centrally, the map is decentred and can show false asymmetry or astigmatism.",
           "needsReview": true
         },
         {
@@ -15254,7 +15456,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A normal cornea is prolate: steepest centrally and flattening gradually towards the periphery.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03026",
@@ -15281,7 +15484,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The I–S index compares inferior with superior corneal power. A raised value is a common topographic screen for keratoconus.",
           "needsReview": true
         },
         {
@@ -15309,7 +15512,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A centred bull's eye (central flattening ringed by steepening) shows a well-centred ortho-k treatment zone.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03028",
@@ -15336,7 +15540,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Topography can reveal irregular astigmatism, ectasia or warpage that explains unexplained astigmatism or reduced acuity.",
           "needsReview": true
         },
         {
@@ -15364,7 +15568,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A difference map subtracts one map from another, showing exactly where and how much the cornea changed between visits.",
+          "needsReview": true
         },
         {
           "id": "clb-topography-x03030",
@@ -15391,7 +15596,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Videokeratoscopes analyse thousands of points across the cornea, while a keratometer only gives two meridian readings.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -15693,7 +15899,7 @@
               "feedback": "Volume."
             }
           ],
-          "explanation": "",
+          "explanation": "Tear break-up time (with fluorescein, or non-invasive NIBUT) measures how long the tear film stays stable after a blink. Schirmer and phenol red measure quantity.",
           "needsReview": true
         },
         {
@@ -15775,7 +15981,7 @@
               "feedback": "That's lactoferrin."
             }
           ],
-          "explanation": "",
+          "explanation": "Lysozyme is an antibacterial enzyme that breaks down bacterial cell walls. Its positive charge draws it to negatively charged ionic lens materials.",
           "needsReview": true
         },
         {
@@ -15803,7 +16009,8 @@
               "feedback": "Increases it."
             }
           ],
-          "explanation": ""
+          "explanation": "Concentrating on computer screens, reading or other demanding tasks lowers the blink rate, which increases evaporation and dryness.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0141",
@@ -15938,7 +16145,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The phenol red thread test takes 15 seconds. The thread turns red as it absorbs tears, and the length that changes colour is measured.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0144",
@@ -15965,7 +16173,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Schirmer I without anaesthetic: wetting of more than 10 mm in 5 minutes is normal, and 5 mm or less suggests aqueous deficiency.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0145",
@@ -15992,7 +16201,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A normal spontaneous blink rate is about 15–20 blinks per minute, and it falls during concentrated tasks.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0146",
@@ -16019,7 +16229,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lactoferrin binds iron, which bacteria need to grow, so it acts as an antibacterial tear protein.",
           "needsReview": true
         },
         {
@@ -16047,7 +16257,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "The tear film in front of a lens is thinner and less stable than over the cornea, so it breaks up and evaporates faster.",
           "needsReview": true
         },
         {
@@ -16075,7 +16285,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A lower tear meniscus height of about 0.2 mm or more is normal. Lower values suggest aqueous deficiency.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0149",
@@ -16102,7 +16313,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lid wiper epitheliopathy is staining of the marginal conjunctiva of the upper lid, best seen with lissamine green (or fluorescein).",
           "needsReview": true
         },
         {
@@ -16130,7 +16341,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A lens splits the tear film into thinner pre-lens and post-lens layers. The pre-lens film breaks up and evaporates faster, which worsens dryness.",
           "needsReview": true
         },
         {
@@ -16158,7 +16369,8 @@
               "feedback": "Membrane-associated."
             }
           ],
-          "explanation": ""
+          "explanation": "MUC5AC is the main gel-forming mucin secreted by conjunctival goblet cells. MUC1, MUC4 and MUC16 are membrane-bound.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0302",
@@ -16185,7 +16397,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Membrane-bound mucins (MUC1, MUC4, MUC16) on the epithelial surface form the glycocalyx, which makes the surface wettable.",
           "needsReview": true
         },
         {
@@ -16213,7 +16425,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Secretory IgA is the main immunoglobulin in tears, giving immune defence at the mucosal surface.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0304",
@@ -16240,7 +16453,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Normal tear pH is about 7.4, close to neutral, though it varies slightly through the day.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0305",
@@ -16267,7 +16481,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Normal tear osmolarity is about 300 mOsm/L. Values above about 308 suggest dry eye.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0306",
@@ -16294,7 +16509,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Tears drain through the upper and lower puncta, along the canaliculi into the lacrimal sac, then down the nasolacrimal duct.",
           "needsReview": true
         },
         {
@@ -16322,7 +16537,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The nasolacrimal duct opens into the inferior meatus of the nose, under the inferior turbinate.",
           "needsReview": true
         },
         {
@@ -16350,7 +16565,8 @@
               "feedback": "Too high."
             }
           ],
-          "explanation": ""
+          "explanation": "Basal tear production is about 1–1.5 µL per minute. Reflex tearing can increase it greatly.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x0309",
@@ -16377,7 +16593,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sensory input for reflex tearing comes from the cornea and conjunctiva through the ophthalmic division of the trigeminal nerve (CN V).",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03010",
@@ -16404,7 +16621,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Parasympathetic secretomotor fibres to the lacrimal gland travel with the facial nerve (CN VII), via the greater petrosal nerve and pterygopalatine ganglion.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03011",
@@ -16431,7 +16649,8 @@
               "feedback": "Mostly menisci."
             }
           ],
-          "explanation": ""
+          "explanation": "Most of the tear volume (around 75–90%) sits in the upper and lower tear menisci. Only a small amount spreads over the cornea.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03012",
@@ -16458,7 +16677,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "On interferometry, an open meshwork pattern means a thin lipid layer. Amorphous and coloured fringe patterns mean thicker layers.",
           "needsReview": true
         },
         {
@@ -16486,7 +16705,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Coloured interference fringes show a thick lipid layer, which can occur with meibomian gland changes.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03014",
@@ -16513,7 +16733,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Schirmer II measures reflex tearing by irritating the nasal mucosa (with a cotton bud) while the strip is in place.",
           "needsReview": true
         },
         {
@@ -16541,7 +16761,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Soft lenses cover the cornea and conjunctiva, so only about 1–2% of the tears under the lens are exchanged with each blink. Debris can build up underneath.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03016",
@@ -16568,7 +16789,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Smaller rigid lenses move more and have edge lift, so about 10–20% of the post-lens tears are exchanged with each blink.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03017",
@@ -16595,7 +16817,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lipocalin binds lipids and helps stabilise the tear film by reducing surface tension.",
           "needsReview": true
         },
         {
@@ -16623,7 +16845,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Keratograph-type systems project a Placido or grid pattern and automatically detect when it distorts, giving an objective NIBUT.",
           "needsReview": true
         },
         {
@@ -16651,7 +16873,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "TFOS DEWS II defines dry eye as a multifactorial disease with loss of tear film homeostasis and ocular symptoms, involving tear instability, hyperosmolarity, inflammation and damage.",
           "needsReview": true
         },
         {
@@ -16679,7 +16901,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "The lens splits the tear film, leaving a thin pre-lens layer that breaks up and evaporates faster.",
           "needsReview": true
         },
         {
@@ -16707,7 +16929,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The post-lens tear film under a soft lens is very thin, only a few micrometres, which limits tear exchange.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03022",
@@ -16734,7 +16957,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Lysozyme is an antibacterial enzyme that breaks bonds in bacterial cell walls.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03023",
@@ -16761,7 +16985,7 @@
               "feedback": "It stains."
             }
           ],
-          "explanation": "",
+          "explanation": "Rose bengal stains cells not protected by mucin, as well as dead or damaged cells.",
           "needsReview": true
         },
         {
@@ -16789,7 +17013,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Rose bengal is toxic to epithelial cells, so it stings much more than lissamine green.",
           "needsReview": true
         },
         {
@@ -16817,7 +17041,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The lid wiper, the part of the upper lid margin that touches the eye, spreads the tear film across the surface with each blink.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03026",
@@ -16844,7 +17069,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Interferometry shows the patterns of the tear lipid layer, which indicate its thickness and quality.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03027",
@@ -16871,7 +17097,8 @@
               "feedback": "Convergence."
             }
           ],
-          "explanation": ""
+          "explanation": "The CLDEQ-8 is an 8-item questionnaire designed for dryness and discomfort in contact lens wearers.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03028",
@@ -16898,7 +17125,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A NIBUT under about 10 seconds suggests poor tear stability, and 4 seconds is clearly reduced.",
+          "needsReview": true
         },
         {
           "id": "clb-tear-film-x03029",
@@ -16925,7 +17153,7 @@
               "feedback": "It helps."
             }
           ],
-          "explanation": "",
+          "explanation": "Blinking spreads the tears and also pumps them through the puncta into the drainage system.",
           "needsReview": true
         },
         {
@@ -16953,7 +17181,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Falling androgen levels around the menopause are linked to meibomian gland dysfunction and more dry eye.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -17160,7 +17389,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Microcysts and limbal vascularisation show the cornea is already hypoxically compromised, so only daily wear (ideally high-Dk) should be offered.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0043",
@@ -17241,7 +17471,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "Total cost depends on how often the patient wears lenses and on care solution costs, so the cheapest option varies.",
           "needsReview": true
         },
         {
@@ -17269,7 +17499,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Replacement schedules are also chosen for non-optical reasons such as therapeutic use, cost, convenience and parameter availability.",
           "needsReview": true
         },
         {
@@ -17297,7 +17527,8 @@
               "feedback": "Needs care between cycles."
             }
           ],
-          "explanation": ""
+          "explanation": "Daily disposables are thrown away after each use, so no case or solutions are needed.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0142",
@@ -17324,7 +17555,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Some silicone hydrogels are approved for continuous wear of up to 30 nights.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0143",
@@ -17351,7 +17583,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Orthokeratology uses reverse-geometry rigid lenses worn overnight to flatten the central cornea temporarily, so the wearer sees clearly without lenses during the day.",
           "needsReview": true
         },
         {
@@ -17379,7 +17611,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Monovision corrects one eye (usually the dominant one) for distance and the other for near, to manage presbyopia.",
           "needsReview": true
         },
         {
@@ -17407,7 +17639,8 @@
               "feedback": "Sclerals."
             }
           ],
-          "explanation": ""
+          "explanation": "Scleral lenses vault the irregular cornea and rest on the sclera, with a smooth saline-filled optical surface. This gives good vision on very irregular corneas.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0146",
@@ -17434,7 +17667,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A hybrid lens has a rigid gas permeable centre for sharp optics and a soft skirt for comfort and centration.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0147",
@@ -17461,7 +17695,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Centre-near and centre-distance designs are simultaneous-vision multifocal contact lenses.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0148",
@@ -17488,7 +17723,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Conventional (traditional) soft lenses are reusable and replaced about once a year.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0149",
@@ -17515,7 +17751,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "For occasional wear, dailies give a fresh sterile lens each time, need no care routine and are only paid for when used.",
           "needsReview": true
         },
         {
@@ -17543,7 +17779,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Opaque tints cover the iris pattern to change eye colour, or to mask a disfigured eye.",
           "needsReview": true
         },
         {
@@ -17571,7 +17807,8 @@
               "feedback": "Different term."
             }
           ],
-          "explanation": ""
+          "explanation": "Flexible wear means daily wear with occasional overnight wear, such as one night now and then.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0302",
@@ -17598,7 +17835,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Extended wear traditionally means up to 6 nights (7 days) of continuous wear, then a night off. Continuous wear means up to 30 nights.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0303",
@@ -17625,7 +17863,8 @@
               "feedback": "Soft."
             }
           ],
-          "explanation": ""
+          "explanation": "Mini-scleral lenses are about 15–18 mm across. Larger sclerals go above about 18 mm.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0304",
@@ -17652,7 +17891,7 @@
               "feedback": "Saline."
             }
           ],
-          "explanation": "",
+          "explanation": "The bowl of a scleral lens is filled with sterile, preservative-free saline before insertion, giving a fluid reservoir over the cornea.",
           "needsReview": true
         },
         {
@@ -17680,7 +17919,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Scleral lenses keep the cornea bathed in fluid, which helps severe ocular surface disease such as Sjögren's or graft-versus-host disease.",
           "needsReview": true
         },
         {
@@ -17708,7 +17947,7 @@
               "feedback": "Similar idea, but one lens."
             }
           ],
-          "explanation": "",
+          "explanation": "In a piggyback system, a rigid lens sits on top of a soft lens. The rigid lens gives the optics and the soft lens gives comfort and protection.",
           "needsReview": true
         },
         {
@@ -17736,7 +17975,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "PMMA is essentially impermeable to oxygen (Dk ≈ 0), which is why gas permeable materials replaced it.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x0308",
@@ -17763,7 +18003,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Enhancement tints are translucent. They intensify or alter light-coloured irises without hiding the iris pattern.",
           "needsReview": true
         },
         {
@@ -17791,7 +18031,7 @@
               "feedback": "Not the issue."
             }
           ],
-          "explanation": "",
+          "explanation": "Novelty lenses are often sold without fitting or aftercare and may be poorly made, which is linked to serious infections. In the UK they must still be supplied under supervision.",
           "needsReview": true
         },
         {
@@ -17819,7 +18059,7 @@
               "feedback": "Not a CL modality."
             }
           ],
-          "explanation": "",
+          "explanation": "Reusable monthly or rigid lenses produce less packaging and plastic waste per year than daily disposables.",
           "needsReview": true
         },
         {
@@ -17847,7 +18087,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Daily disposable toric lenses are available for many astigmatic prescriptions.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03012",
@@ -17874,7 +18115,8 @@
               "feedback": "Poor vision."
             }
           ],
-          "explanation": ""
+          "explanation": "Scleral or hybrid lenses vault the cone or add a soft skirt for comfort, while still giving the sharp optics of a rigid surface.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03013",
@@ -17901,7 +18143,7 @@
               "feedback": "They have some."
             }
           ],
-          "explanation": "",
+          "explanation": "Silicone hydrogels' high Dk greatly reduces hypoxic complications such as neovascularisation and microcysts in full-time wear.",
           "needsReview": true
         },
         {
@@ -17929,7 +18171,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With dailies, every lens is thrown away after one use, so wearers comply with replacement best. Monthly lenses are often over-worn.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03015",
@@ -17956,7 +18199,8 @@
               "feedback": "Conventional."
             }
           ],
-          "explanation": ""
+          "explanation": "Quarterly lenses are replaced every 3 months.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03016",
@@ -17983,7 +18227,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Simultaneous-vision multifocals put the distance and near images on the retina at the same time, and the brain picks out the one in focus.",
           "needsReview": true
         },
         {
@@ -18011,7 +18255,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Translating rigid bifocals are pushed up by the lower lid on down-gaze, so the pupil moves from the distance zone into the near zone.",
           "needsReview": true
         },
         {
@@ -18039,7 +18283,8 @@
               "feedback": "Not always."
             }
           ],
-          "explanation": ""
+          "explanation": "Dailies are often recommended for children because they need no care routine and lower the risk of complications.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03019",
@@ -18066,7 +18311,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rigid lenses give sharp optics and correct corneal astigmatism through the tear lens.",
           "needsReview": true
         },
         {
@@ -18094,7 +18339,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Rigid lenses cause noticeable lid awareness at first, so they need a period of adaptation.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03021",
@@ -18121,7 +18367,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Myopia control lenses keep central vision clear while adding peripheral myopic defocus, which is thought to slow axial elongation.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03022",
@@ -18148,7 +18395,7 @@
               "feedback": "Monthlies need solutions."
             }
           ],
-          "explanation": "",
+          "explanation": "Monthlies can be cheaper for full-time wearers, and they come in a wider range of special parameters (e.g. high toric powers).",
           "needsReview": true
         },
         {
@@ -18176,7 +18423,7 @@
               "feedback": "Some research."
             }
           ],
-          "explanation": "",
+          "explanation": "Drug-eluting contact lenses are being developed (and some are approved) to release medication onto the eye over time.",
           "needsReview": true
         },
         {
@@ -18204,7 +18451,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Corneoscleral lenses (about 12.5–15 mm) land at the limbus area, between corneal rigid lenses and sclerals.",
+          "needsReview": true
         },
         {
           "id": "clb-materials-modalities-x03025",
@@ -18231,7 +18479,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Deposits build up on infrequently replaced lenses, and these are strongly linked to CLPC.",
           "needsReview": true
         },
         {
@@ -18259,7 +18507,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "The best modality depends on how often the patient wears lenses, their ocular health and their ability to comply with care.",
           "needsReview": true
         },
         {
@@ -18287,7 +18535,7 @@
               "feedback": "They don't cover everything."
             }
           ],
-          "explanation": "",
+          "explanation": "UV-blocking lenses only cover the cornea, so the conjunctiva, lids and surrounding skin still need sunglasses or a hat.",
           "needsReview": true
         },
         {
@@ -18315,7 +18563,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "High-Dk rigid lenses give plenty of oxygen for daily wear, and some are approved for extended wear.",
           "needsReview": true
         },
         {
@@ -18343,7 +18591,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ortho-k lenses use reverse geometry: a flatter central zone than the cornea, surrounded by a steeper reverse curve.",
           "needsReview": true
         },
         {
@@ -18371,7 +18619,8 @@
               "feedback": "Lower."
             }
           ],
-          "explanation": ""
+          "explanation": "Overnight (extended) wear carries the highest risk of microbial keratitis of any wearing pattern.",
+          "needsReview": true
         }
       ],
       "cases": [
