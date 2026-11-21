@@ -177,7 +177,7 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
                   <b>
                     Q{qi + 1}: {LETTERS[ci]}. {m.options[ci]?.text}
                   </b>{' '}
-                  — {m.explanation}
+                  {m.explanation?.trim() ? `— ${m.explanation}` : null}
                 </p>
               )
             })}

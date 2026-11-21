@@ -10,6 +10,9 @@ import { shuffle } from './shuffle'
 
 const LETTERS = 'ABCDEFGH'
 
+/** Feedback worth showing: skips bare "Yes." / "No." that add nothing to Correct / Not quite. */
+const hasSaying = (f?: string) => !!f && !/^(yes|no|correct|not this)\.?$/i.test(f.trim())
+
 export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: boolean) => void }) {
   const { recordResult } = useApp()
   // Shuffle after mount so server and client markup agree.
@@ -74,12 +77,19 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
             <p className={`font-rounded text-[17px] font-semibold ${correct ? 'text-good-ink' : 'text-bad-ink'}`}>
               {correct ? 'Correct' : 'Not quite'}
             </p>
-            <p className="mt-1 text-[16px]">{mcq.options[chosen].feedback}</p>
+            {!correct && (
+              <p className="mt-1 text-[16px]">
+                The answer is <b>{mcq.options[correctIdx]?.text}</b>.
+              </p>
+            )}
+            {hasSaying(mcq.options[chosen].feedback) && <p className="mt-1 text-[16px]">{mcq.options[chosen].feedback}</p>}
           </div>
-          <p className="text-[16px] leading-relaxed text-ink">
-            <span className="font-semibold">Why: </span>
-            {mcq.explanation}
-          </p>
+          {mcq.explanation?.trim() && (
+            <p className="text-[16px] leading-relaxed text-ink">
+              <span className="font-semibold">Why: </span>
+              {mcq.explanation}
+            </p>
+          )}
           {!correct && (
             <div className="flex flex-wrap items-center gap-2">
               {mcq.link && (
