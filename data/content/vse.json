@@ -232,7 +232,8 @@
               "feedback": "That's something held constant, not a prediction."
             }
           ],
-          "explanation": ""
+          "explanation": "A hypothesis that predicts a change without saying which direction is two-tailed, so both tails of the distribution are tested.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0012",
@@ -313,7 +314,7 @@
               "feedback": "They'd still know their condition."
             }
           ],
-          "explanation": "",
+          "explanation": "If participants know when they've had alcohol, expectation is confounded with the drug; an identical-looking placebo removes this (single-blind).",
           "needsReview": true
         },
         {
@@ -341,7 +342,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If everyone does alcohol first, practice or fatigue effects can't be separated from the alcohol effect; counterbalancing fixes this.",
           "needsReview": true
         },
         {
@@ -369,7 +370,7 @@
               "feedback": "Fatigue and learning would differ between frequencies."
             }
           ],
-          "explanation": "",
+          "explanation": "With many conditions, full counterbalancing is impractical, so randomised blocks spread order effects evenly across frequencies.",
           "needsReview": true
         },
         {
@@ -397,7 +398,8 @@
               "feedback": "Part of the control condition."
             }
           ],
-          "explanation": ""
+          "explanation": "The dependent variable is what's measured, here the dart score; the alcohol dose is the independent variable.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0112",
@@ -424,7 +426,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A pilot study tests the method on a small scale and helps set levels such as the dose before the main study.",
           "needsReview": true
         },
         {
@@ -452,7 +454,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With two independent variables (alcohol and distance), the design becomes a two-factor design.",
           "needsReview": true
         },
         {
@@ -480,7 +482,8 @@
               "feedback": "It became a confound."
             }
           ],
-          "explanation": ""
+          "explanation": "Lighting now changes along with the independent variable, so it's a confounding variable.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0115",
@@ -507,7 +510,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Nobody can be in both the male and female groups, so a within-subjects design isn't possible.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0116",
@@ -534,7 +538,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Most people in basic vision science studies aren't patients, so they're called participants.",
           "needsReview": true
         },
         {
@@ -562,7 +566,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A ceiling effect is when the task is so easy that everyone scores at the top, hiding any difference.",
           "needsReview": true
         },
         {
@@ -644,7 +648,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Randomised blocks make sure order effects are spread evenly across conditions, which a single random order can't guarantee.",
           "needsReview": true
         },
         {
@@ -672,7 +676,8 @@
               "feedback": "Primary."
             }
           ],
-          "explanation": ""
+          "explanation": "The assignment needs a primary research paper, so a review isn't allowed.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0191",
@@ -699,7 +704,8 @@
               "feedback": "Within-subjects."
             }
           ],
-          "explanation": ""
+          "explanation": "In a between-subjects design, each participant takes part in only one condition.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0192",
@@ -726,7 +732,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Counterbalancing spreads practice and fatigue effects evenly across conditions.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0193",
@@ -753,7 +760,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Latin square arranges condition orders so each condition appears in each position equally often.",
           "needsReview": true
         },
         {
@@ -781,7 +788,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Getting better at a task simply through repetition is a practice effect.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0195",
@@ -808,7 +816,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a double-blind trial, neither the participants nor the assessors know who's in which group.",
           "needsReview": true
         },
         {
@@ -836,7 +844,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When participants guess the aim and change their behaviour, these are demand characteristics.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0197",
@@ -863,7 +872,7 @@
               "feedback": "That's alpha."
             }
           ],
-          "explanation": "",
+          "explanation": "Statistical power is the probability of detecting an effect that really exists.",
           "needsReview": true
         },
         {
@@ -891,7 +900,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A type I error is concluding there's an effect when there isn't (a false positive).",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x0199",
@@ -918,7 +928,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A type II error is missing a real effect (a false negative).",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01910",
@@ -945,7 +956,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The usual alpha level is 0.05: a 5% chance of a false positive is accepted.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01911",
@@ -972,7 +984,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Test-retest reliability means the test gives similar results when repeated.",
           "needsReview": true
         },
         {
@@ -1000,7 +1012,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Validity means the test measures what it's meant to measure.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01913",
@@ -1027,7 +1040,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "External validity is about whether results generalise beyond the study to other people and settings.",
           "needsReview": true
         },
         {
@@ -1055,7 +1068,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Eye colour is named categories with no order, so it's nominal data.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01915",
@@ -1082,7 +1096,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A 0–4 redness scale is ordered, but the steps may not be equal, so it's ordinal.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01916",
@@ -1109,7 +1124,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Axial length has equal intervals and a true zero, so it's ratio data.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01917",
@@ -1136,7 +1152,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a staircase, the stimulus gets harder after correct answers and easier after errors, homing in on threshold.",
           "needsReview": true
         },
         {
@@ -1164,7 +1180,7 @@
               "feedback": "Staircase."
             }
           ],
-          "explanation": "",
+          "explanation": "The method of constant stimuli presents a fixed set of levels in random order, many times each.",
           "needsReview": true
         },
         {
@@ -1192,7 +1208,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With two choices, guessing gives 50% correct.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01920",
@@ -1219,7 +1236,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In 2AFC, threshold is often taken as 75% correct, halfway between chance (50%) and perfect (100%).",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01921",
@@ -1246,7 +1264,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A longitudinal (cohort) design follows the same people over time.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01922",
@@ -1273,7 +1292,8 @@
               "feedback": "RCT."
             }
           ],
-          "explanation": ""
+          "explanation": "A cross-sectional study measures a group at a single point in time.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01923",
@@ -1300,7 +1320,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The right to withdraw means participants can leave a study at any time without giving a reason.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01924",
@@ -1327,7 +1348,8 @@
               "feedback": "Data."
             }
           ],
-          "explanation": ""
+          "explanation": "The Declaration of Helsinki sets out ethical principles for medical research involving people.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01925",
@@ -1354,7 +1376,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "After any deception, participants must be debriefed and told the true aim.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01926",
@@ -1381,7 +1404,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An operational definition states exactly how a variable will be measured.",
           "needsReview": true
         },
         {
@@ -1409,7 +1432,8 @@
               "feedback": "No, just weaker."
             }
           ],
-          "explanation": ""
+          "explanation": "Using pre-existing groups means participants aren't randomly allocated, so the study is quasi-experimental.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01928",
@@ -1436,7 +1460,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When the researcher's expectations influence results, this is experimenter bias.",
+          "needsReview": true
         },
         {
           "id": "vse-research-design-x01929",
@@ -1463,7 +1488,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A larger sample gives more precise estimates and more statistical power.",
           "needsReview": true
         },
         {
@@ -1491,7 +1516,8 @@
               "feedback": "Debated; treat as ordinal."
             }
           ],
-          "explanation": ""
+          "explanation": "A Likert scale gives ordered categories, so it's best treated as ordinal data.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1778,7 +1804,7 @@
               "feedback": "A is the tighter set."
             }
           ],
-          "explanation": "",
+          "explanation": "Both sets have a mean of 10, but set B is much more spread out, so it has the larger standard deviation.",
           "needsReview": true
         },
         {
@@ -1806,7 +1832,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Standard error = SD ÷ √n = 4 ÷ √16 = 4 ÷ 4 = 1.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0013",
@@ -1833,7 +1860,8 @@
               "feedback": "That's not what p means."
             }
           ],
-          "explanation": ""
+          "explanation": "A significant result lets us reject the null hypothesis, giving evidence for the experimental hypothesis, but it doesn't prove it.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0014",
@@ -1860,7 +1888,8 @@
               "feedback": "Relative risk without the baseline is misleading."
             }
           ],
-          "explanation": ""
+          "explanation": "A relative risk means little without the baseline: 100 times a tiny risk can still be very small.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0111",
@@ -1887,7 +1916,8 @@
               "feedback": "Inferential."
             }
           ],
-          "explanation": ""
+          "explanation": "The mean, median and mode are measures of central tendency.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0112",
@@ -1914,7 +1944,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Standard error = SD ÷ √n = 10 ÷ √25 = 10 ÷ 5 = 2.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0113",
@@ -1941,7 +1972,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Standard error = SD ÷ √n, so as n increases the standard error falls.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0114",
@@ -1968,7 +2000,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "Heavily overlapping error bars suggest the difference is unlikely to be meaningful.",
           "needsReview": true
         },
         {
@@ -1996,7 +2028,8 @@
               "feedback": "ANOVA."
             }
           ],
-          "explanation": ""
+          "explanation": "ANOVA compares the means of more than two conditions.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0116",
@@ -2077,7 +2110,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A one-tailed test only tests the predicted direction, so an effect in the other direction can't be claimed.",
           "needsReview": true
         },
         {
@@ -2105,7 +2138,7 @@
               "feedback": "Descriptive."
             }
           ],
-          "explanation": "",
+          "explanation": "Wilcoxon and Mann-Whitney are non-parametric tests, which don't assume normally distributed data.",
           "needsReview": true
         },
         {
@@ -2133,7 +2166,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "About 28,000 people are killed or seriously injured on UK roads each year, roughly 1 in 2,500.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01110",
@@ -2160,7 +2194,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Optometrists judge real risks in practice and explain them to patients, so understanding how people perceive risk matters.",
           "needsReview": true
         },
         {
@@ -2188,7 +2222,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ordered, the values are 3, 4, 6, 8, 10, so the middle value (median) is 6.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0192",
@@ -2215,7 +2250,8 @@
               "feedback": "That's the sum."
             }
           ],
-          "explanation": ""
+          "explanation": "The mean is (2 + 4 + 6 + 8) ÷ 4 = 20 ÷ 4 = 5.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0193",
@@ -2242,7 +2278,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The mode is the most frequent value, which is 3.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0194",
@@ -2269,7 +2306,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In a normal distribution, about 68% of values lie within 1 SD of the mean.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0195",
@@ -2296,7 +2334,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In a normal distribution, about 95% of values lie within 2 SD of the mean.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0196",
@@ -2323,7 +2362,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A z-score is the number of SDs from the mean, so 2 SD above is +2.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0197",
@@ -2350,7 +2390,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Variance is the standard deviation squared.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0198",
@@ -2377,7 +2418,8 @@
               "feedback": "Sensitive."
             }
           ],
-          "explanation": ""
+          "explanation": "The interquartile range uses the middle 50% of data, so outliers don't affect it.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x0199",
@@ -2404,7 +2446,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In positive skew, the long tail of high values pulls the mean above the median.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01910",
@@ -2431,7 +2474,8 @@
               "feedback": "Not an average."
             }
           ],
-          "explanation": ""
+          "explanation": "The median isn't pulled by outliers, so it's the best average for skewed data.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01911",
@@ -2458,7 +2502,8 @@
               "feedback": "Never by itself."
             }
           ],
-          "explanation": ""
+          "explanation": "r = −0.9 is close to −1, so it's a strong negative relationship: as one rises, the other falls.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01912",
@@ -2485,7 +2530,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Shared variance is r² = 0.7² = 0.49, about 49%.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01913",
@@ -2512,7 +2558,8 @@
               "feedback": "Relationship."
             }
           ],
-          "explanation": ""
+          "explanation": "A paired t-test compares the same people measured twice, such as before and after.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01914",
@@ -2539,7 +2586,7 @@
               "feedback": "Two groups use t-test."
             }
           ],
-          "explanation": "",
+          "explanation": "An unpaired (independent) t-test compares the means of two separate groups.",
           "needsReview": true
         },
         {
@@ -2675,7 +2722,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Specificity is the proportion of people without the disease who correctly test negative.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01918",
@@ -2702,7 +2750,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Positive predictive value is the probability that someone who tests positive really has the disease.",
           "needsReview": true
         },
         {
@@ -2730,7 +2778,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When a disease is rarer, more of the positive results are false positives, so PPV falls.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01920",
@@ -2757,7 +2806,8 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "High sensitivity means the test rarely misses people who have the disease.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01921",
@@ -2784,7 +2834,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Absolute risk reduction = 20% − 10% = 10%.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01922",
@@ -2811,7 +2862,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Relative risk reduction = (20 − 10) ÷ 20 = 50%.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01923",
@@ -2838,7 +2890,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Number needed to treat = 1 ÷ absolute risk reduction = 1 ÷ 0.10 = 10.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01924",
@@ -2865,7 +2918,8 @@
               "feedback": "Below 1."
             }
           ],
-          "explanation": ""
+          "explanation": "An odds ratio of 1 means the odds are the same in both groups: no association.",
+          "needsReview": true
         },
         {
           "id": "vse-statistics-x01925",
@@ -2892,7 +2946,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cohen's d expresses effect size as the difference between means in standard deviation units.",
           "needsReview": true
         },
         {
@@ -2920,7 +2974,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Bland-Altman plot shows how well two measurement methods agree.",
           "needsReview": true
         },
         {
@@ -2948,7 +3002,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "Two tonometers can correlate highly but still differ by a consistent amount, so correlation doesn't show agreement.",
           "needsReview": true
         },
         {
@@ -2976,7 +3030,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "At p < 0.05, each test has a 1 in 20 chance of a false positive, so with 20 tests about one may pass by chance.",
           "needsReview": true
         },
         {
@@ -3004,7 +3058,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Bonferroni correction lowers the alpha level for each test, to allow for multiple comparisons.",
           "needsReview": true
         },
         {
@@ -3032,7 +3086,8 @@
               "feedback": "Impossible."
             }
           ],
-          "explanation": ""
+          "explanation": "Studies typically aim for 80% power to detect a real effect.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -3167,7 +3222,8 @@
               "feedback": "Not relevant to the size of the effect."
             }
           ],
-          "explanation": ""
+          "explanation": "A change of 0.02 logMAR is one letter, so even if statistically significant, it may not matter clinically.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0012",
@@ -3194,7 +3250,8 @@
               "feedback": "That risks attrition bias; intention-to-treat is better."
             }
           ],
-          "explanation": ""
+          "explanation": "Concealed allocation and masked assessors limit selection and detection bias, which strengthens an RCT.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0013",
@@ -3221,7 +3278,8 @@
               "feedback": "That's about which studies get published."
             }
           ],
-          "explanation": ""
+          "explanation": "Unequal drop-out between arms can skew the comparison: attrition bias.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0014",
@@ -3248,7 +3306,8 @@
               "feedback": "Less relevant than recall here."
             }
           ],
-          "explanation": ""
+          "explanation": "People with a disease may remember past exposures differently from those without: recall bias.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0015",
@@ -3275,7 +3334,8 @@
               "feedback": "Unrelated."
             }
           ],
-          "explanation": ""
+          "explanation": "Randomisation balances both known and unknown confounders between the groups.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0016",
@@ -3302,7 +3362,8 @@
               "feedback": "A consistent link like this is confounding."
             }
           ],
-          "explanation": ""
+          "explanation": "Smoking is linked to both carrying a lighter and lung cancer, so it's a confounder.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0017",
@@ -3329,7 +3390,7 @@
               "feedback": "Small samples give wide intervals."
             }
           ],
-          "explanation": "",
+          "explanation": "A narrow 95% confidence interval shows the effect is estimated precisely.",
           "needsReview": true
         },
         {
@@ -3357,7 +3418,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A conflict of interest statement shows interests, such as funding, that could bias the work.",
           "needsReview": true
         },
         {
@@ -3385,7 +3446,7 @@
               "feedback": "Unrelated."
             }
           ],
-          "explanation": "",
+          "explanation": "If only 20-year-old students are studied, the results may not apply to other groups.",
           "needsReview": true
         },
         {
@@ -3413,7 +3474,8 @@
               "feedback": "Not this."
             }
           ],
-          "explanation": ""
+          "explanation": "Publication bias is when trials with positive results are more likely to be published.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0112",
@@ -3440,7 +3502,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Intention-to-treat analyses everyone in the group they were randomised to, whether or not they completed treatment.",
           "needsReview": true
         },
         {
@@ -3468,7 +3530,7 @@
               "feedback": "Not shown."
             }
           ],
-          "explanation": "",
+          "explanation": "The interval includes zero, so the true difference may be zero: not significant.",
           "needsReview": true
         },
         {
@@ -3496,7 +3558,8 @@
               "feedback": "Weak."
             }
           ],
-          "explanation": ""
+          "explanation": "A randomised controlled trial is the design that best shows an exposure causes an outcome.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0115",
@@ -3523,7 +3586,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "If assessors don't know the groups, they can't let that knowledge affect measurements: less detection bias.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0116",
@@ -3550,7 +3614,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Without a placebo, part of the apparent benefit may be a placebo effect.",
           "needsReview": true
         },
         {
@@ -3578,7 +3642,7 @@
               "feedback": "It matters."
             }
           ],
-          "explanation": "",
+          "explanation": "How participants were recruited affects bias and how far the results generalise.",
           "needsReview": true
         },
         {
@@ -3606,7 +3670,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A funnel plot can show publication bias, as gaps where small negative studies are missing.",
           "needsReview": true
         },
         {
@@ -3634,7 +3698,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Change in axial length or refraction measures what myopia control is meant to achieve.",
           "needsReview": true
         },
         {
@@ -3662,7 +3726,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Without a control group, change could be due to time, chance or a placebo effect.",
           "needsReview": true
         },
         {
@@ -3690,7 +3754,8 @@
               "feedback": "Diagnostic accuracy."
             }
           ],
-          "explanation": ""
+          "explanation": "CONSORT is the reporting checklist for randomised controlled trials.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0192",
@@ -3717,7 +3782,8 @@
               "feedback": "Appraisal."
             }
           ],
-          "explanation": ""
+          "explanation": "PRISMA guides the reporting of systematic reviews and meta-analyses.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0193",
@@ -3744,7 +3810,8 @@
               "feedback": "CARE."
             }
           ],
-          "explanation": ""
+          "explanation": "STROBE is the reporting guideline for observational studies.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0194",
@@ -3771,7 +3838,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Asking people to remember past exposures risks recall bias.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0195",
@@ -3798,7 +3866,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Allocation concealment stops researchers knowing or influencing which group the next participant joins.",
           "needsReview": true
         },
         {
@@ -3826,7 +3894,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a crossover trial, a washout period lets the effect of the first treatment fade before the second.",
           "needsReview": true
         },
         {
@@ -3854,7 +3922,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Hawthorne effect is people changing their behaviour because they know they're being studied.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0198",
@@ -3881,7 +3950,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Patients picked for extreme values tend to be closer to average when measured again: regression to the mean.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x0199",
@@ -3908,7 +3978,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The ecological fallacy is assuming a group-level association applies to every individual.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01910",
@@ -3935,7 +4006,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dry eye is causing less screen use, not the other way round: reverse causation.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01911",
@@ -3962,7 +4034,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A dose-response relationship is one of the Bradford Hill criteria supporting a causal link.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01912",
@@ -3989,7 +4062,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "P-hacking is running many analyses until something comes out significant.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01913",
@@ -4016,7 +4090,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "HARKing is Hypothesising After the Results are Known, then presenting it as planned.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01914",
@@ -4043,7 +4118,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Pre-registration fixes the hypotheses and analysis plan before the data are seen.",
           "needsReview": true
         },
         {
@@ -4071,7 +4146,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A surrogate outcome is a marker used in place of the outcome that matters, such as IOP for sight loss.",
           "needsReview": true
         },
         {
@@ -4099,7 +4174,7 @@
               "feedback": "Usually not."
             }
           ],
-          "explanation": "",
+          "explanation": "Testing many subgroups increases the chance of false positives.",
           "needsReview": true
         },
         {
@@ -4127,7 +4202,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Peer review is checking of a paper by independent experts before publication.",
           "needsReview": true
         },
         {
@@ -4155,7 +4230,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A preprint is shared publicly before peer review.",
           "needsReview": true
         },
         {
@@ -4183,7 +4258,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A retracted paper's findings can't be trusted, so don't rely on them.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01920",
@@ -4210,7 +4286,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Highlighting a minor outcome when the main one failed is spin.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01921",
@@ -4237,7 +4314,7 @@
               "feedback": "Publication."
             }
           ],
-          "explanation": "",
+          "explanation": "Selection bias arises when the people studied differ from the population of interest.",
           "needsReview": true
         },
         {
@@ -4265,7 +4342,7 @@
               "feedback": "Publication."
             }
           ],
-          "explanation": "",
+          "explanation": "Performance bias arises when groups receive different care apart from the treatment being tested.",
           "needsReview": true
         },
         {
@@ -4293,7 +4370,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A confounder is linked to both the exposure and the outcome, so it can create a false association.",
           "needsReview": true
         },
         {
@@ -4321,7 +4398,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Randomisation balances both known and unknown confounders.",
           "needsReview": true
         },
         {
@@ -4349,7 +4426,7 @@
               "feedback": "Be cautious."
             }
           ],
-          "explanation": "",
+          "explanation": "A huge effect in a tiny trial may be due to chance or bias, so it needs replicating.",
           "needsReview": true
         },
         {
@@ -4377,7 +4454,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Correlation shows two things vary together but doesn't by itself show one causes the other.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01927",
@@ -4404,7 +4482,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Funding can be a source of bias, so it's worth knowing who paid for a study.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01928",
@@ -4431,7 +4510,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A journal's impact factor reflects how often it's cited, not the quality of an individual paper.",
           "needsReview": true
         },
         {
@@ -4459,7 +4538,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Results from 20-year-olds may not apply to children: poor generalisability.",
+          "needsReview": true
         },
         {
           "id": "vse-critique-x01930",
@@ -4486,7 +4566,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Secondary data were collected for another purpose, such as clinical records.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -4620,7 +4701,7 @@
               "feedback": "Evidence alone isn't enough."
             }
           ],
-          "explanation": "",
+          "explanation": "Evidence-based practice combines the best research evidence, clinical expertise and patient values.",
           "needsReview": true
         },
         {
@@ -4648,7 +4729,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In PICO, C stands for Comparison.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0013",
@@ -4675,7 +4757,7 @@
               "feedback": "Lowest."
             }
           ],
-          "explanation": "",
+          "explanation": "A systematic review of RCTs is usually at the top of the evidence hierarchy for treatment questions.",
           "needsReview": true
         },
         {
@@ -4703,7 +4785,8 @@
               "feedback": "That's the Comparison."
             }
           ],
-          "explanation": ""
+          "explanation": "The O in PICO is the Outcome, here myopia progression.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0015",
@@ -4730,7 +4813,7 @@
               "feedback": "They are reviewed."
             }
           ],
-          "explanation": "",
+          "explanation": "Guidelines are evidence-based, but they need to be fitted to the individual patient.",
           "needsReview": true
         },
         {
@@ -4758,7 +4841,8 @@
               "feedback": "Weak evidence isn't proof of no effect."
             }
           ],
-          "explanation": ""
+          "explanation": "One small uncontrolled study is weak evidence, so explain that honestly rather than recommend or dismiss it.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0017",
@@ -4839,7 +4923,7 @@
               "feedback": "Applying comes later."
             }
           ],
-          "explanation": "",
+          "explanation": "EBP starts with asking a focused, answerable question.",
           "needsReview": true
         },
         {
@@ -4867,7 +4951,7 @@
               "feedback": "Appraisal is still essential."
             }
           ],
-          "explanation": "",
+          "explanation": "Searching several databases and the grey literature avoids missing studies, including unpublished ones.",
           "needsReview": true
         },
         {
@@ -4895,7 +4979,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In PICO, P stands for Population (or Patient).",
           "needsReview": true
         },
         {
@@ -4977,7 +5061,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Cochrane systematic review is pre-appraised evidence.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0114",
@@ -5004,7 +5089,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Patient values are part of EBP, so respect their preference for spectacles.",
           "needsReview": true
         },
         {
@@ -5032,7 +5117,7 @@
               "feedback": "Everyone uses it."
             }
           ],
-          "explanation": "",
+          "explanation": "Clinical expertise is one of the three parts of evidence-based practice.",
           "needsReview": true
         },
         {
@@ -5060,7 +5145,7 @@
               "feedback": "Laboratory."
             }
           ],
-          "explanation": "",
+          "explanation": "Quality-of-life scores measure outcomes that matter to patients.",
           "needsReview": true
         },
         {
@@ -5088,7 +5173,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A single new study may be small or biased; the best evidence weighs all relevant studies.",
           "needsReview": true
         },
         {
@@ -5116,7 +5201,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A clinical guideline gives systematically developed recommendations based on evidence.",
           "needsReview": true
         },
         {
@@ -5144,7 +5229,7 @@
               "feedback": "Not clinical."
             }
           ],
-          "explanation": "",
+          "explanation": "This question has a population, intervention, comparison and outcome, so it can be answered.",
           "needsReview": true
         },
         {
@@ -5172,7 +5257,8 @@
               "feedback": "Highest."
             }
           ],
-          "explanation": ""
+          "explanation": "Expert opinion is at the bottom of the usual hierarchy of evidence.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0191",
@@ -5199,7 +5285,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sackett and colleagues gave a classic definition of evidence-based medicine in 1996.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0192",
@@ -5280,7 +5367,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In PICO, O stands for Outcome.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0194",
@@ -5307,7 +5395,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In PICO, I stands for Intervention.",
           "needsReview": true
         },
         {
@@ -5335,7 +5423,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "CASP checklists help appraise different types of study.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0196",
@@ -5362,7 +5451,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "GRADE rates the certainty of a body of evidence.",
           "needsReview": true
         },
         {
@@ -5390,7 +5479,8 @@
               "feedback": "Driving."
             }
           ],
-          "explanation": ""
+          "explanation": "NICE produces national clinical guidelines in the UK.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x0198",
@@ -5417,7 +5507,7 @@
               "feedback": "Not directly."
             }
           ],
-          "explanation": "",
+          "explanation": "In a forest plot, the diamond shows the pooled result of all the studies.",
           "needsReview": true
         },
         {
@@ -5445,7 +5535,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If a study's confidence interval crosses the line of no effect, its result isn't significant.",
           "needsReview": true
         },
         {
@@ -5473,7 +5563,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The I² statistic describes how much the results vary between studies (heterogeneity).",
           "needsReview": true
         },
         {
@@ -5501,7 +5591,7 @@
               "feedback": "That's narrative."
             }
           ],
-          "explanation": "",
+          "explanation": "A systematic review uses a planned, reproducible search and method.",
           "needsReview": true
         },
         {
@@ -5529,7 +5619,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A meta-analysis combines the results of several studies statistically.",
           "needsReview": true
         },
         {
@@ -5557,7 +5647,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A background question asks for general facts, such as the causes of a condition.",
           "needsReview": true
         },
         {
@@ -5585,7 +5675,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A foreground question addresses a specific clinical decision, often framed with PICO.",
           "needsReview": true
         },
         {
@@ -5613,7 +5703,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "MeSH terms are PubMed's controlled vocabulary for indexing articles.",
           "needsReview": true
         },
         {
@@ -5641,7 +5731,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "PubMed is a free database of biomedical literature.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x01917",
@@ -5668,7 +5759,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Shared decision-making means the clinician and patient decide together.",
           "needsReview": true
         },
         {
@@ -5696,7 +5787,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A result can be statistically significant but too small to matter in practice: it lacks clinical significance.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x01919",
@@ -5777,7 +5869,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For treatment questions, cohort studies sit below RCTs and above case series.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x01921",
@@ -5804,7 +5897,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An anecdote is uncontrolled, so the outcome could be due to chance or other factors.",
           "needsReview": true
         },
         {
@@ -5832,7 +5925,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Patients can refuse; respect their choice and document it.",
           "needsReview": true
         },
         {
@@ -5860,7 +5953,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A Cochrane review has already been appraised and synthesised, so it's a filtered (pre-appraised) source.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x01924",
@@ -5887,7 +5981,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "PICOS adds S for study design.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x01925",
@@ -5914,7 +6009,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Be honest that the evidence is uncertain, so the patient can make an informed choice.",
           "needsReview": true
         },
         {
@@ -5942,7 +6037,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "Guidelines can't cover every situation, so clinicians still need to find and appraise evidence themselves.",
           "needsReview": true
         },
         {
@@ -5970,7 +6065,7 @@
               "feedback": "Appraise."
             }
           ],
-          "explanation": "",
+          "explanation": "The final 'Assess' step evaluates how well the decision worked in practice.",
           "needsReview": true
         },
         {
@@ -5998,7 +6093,7 @@
               "feedback": "Different question."
             }
           ],
-          "explanation": "",
+          "explanation": "A diagnostic accuracy study compares a test with a reference standard, so it answers how accurate the test is.",
           "needsReview": true
         },
         {
@@ -6026,7 +6121,8 @@
               "feedback": "Weak."
             }
           ],
-          "explanation": ""
+          "explanation": "A cohort study follows people over time, so it best answers questions about prognosis.",
+          "needsReview": true
         },
         {
           "id": "vse-ebp-x01930",
@@ -6053,7 +6149,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Evidence and best practice change, so CPD keeps clinicians up to date.",
           "needsReview": true
         }
       ],
@@ -6188,7 +6284,8 @@
               "feedback": "Combining with OR is more efficient."
             }
           ],
-          "explanation": ""
+          "explanation": "Synonyms for the same concept are joined with OR, which widens the search.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0012",
@@ -6215,7 +6312,8 @@
               "feedback": "Truncation is for word endings."
             }
           ],
-          "explanation": ""
+          "explanation": "AND finds papers that cover both concepts, which narrows the search.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0013",
@@ -6242,7 +6340,8 @@
               "feedback": "That's one of the requirements."
             }
           ],
-          "explanation": ""
+          "explanation": "The assignment needs a primary research paper, so a narrative review can't be used.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0014",
@@ -6269,7 +6368,8 @@
               "feedback": "Not reliable."
             }
           ],
-          "explanation": ""
+          "explanation": "BMJ Best Practice and NHS pages are reliable, clinically focused sources for definitions.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0015",
@@ -6296,7 +6396,7 @@
               "feedback": "Not a reliable source."
             }
           ],
-          "explanation": "",
+          "explanation": "Opening the GOC document and searching within it is the quickest reliable way to find the guidance.",
           "needsReview": true
         },
         {
@@ -6378,7 +6478,7 @@
               "feedback": "Not the first step."
             }
           ],
-          "explanation": "",
+          "explanation": "If a PDF isn't available from one database, the library suggests trying Google Scholar or Library Search.",
           "needsReview": true
         },
         {
@@ -6406,7 +6506,7 @@
               "feedback": "You still use AND between concepts."
             }
           ],
-          "explanation": "",
+          "explanation": "Authors use different words for the same thing, so listing synonyms makes sure relevant papers aren't missed.",
           "needsReview": true
         },
         {
@@ -6434,7 +6534,8 @@
               "feedback": "That's the AaD or DoC/PaP task."
             }
           ],
-          "explanation": ""
+          "explanation": "The e-portfolio (tasks A to D plus pass/fail attendance elements) is worth 15% of OP2521.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0111",
@@ -6515,7 +6616,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Saving PDFs in an organised folder straight away means you can find them again easily.",
           "needsReview": true
         },
         {
@@ -6543,7 +6644,8 @@
               "feedback": "Excludes."
             }
           ],
-          "explanation": ""
+          "explanation": "Truncation with an asterisk (myop*) finds all words starting with 'myop', including myopia and myopic.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0114",
@@ -6570,7 +6672,7 @@
               "feedback": "Pass/fail."
             }
           ],
-          "explanation": "",
+          "explanation": "The PHE task (and the PPD task) is each worth 4.5% of the module. The AaD and DoC/PaP tasks are worth 3% each.",
           "needsReview": true
         },
         {
@@ -6706,7 +6808,7 @@
               "feedback": "Check relevance."
             }
           ],
-          "explanation": "",
+          "explanation": "The abstract shows whether a paper is relevant and whether it's primary research.",
           "needsReview": true
         },
         {
@@ -6734,7 +6836,8 @@
               "feedback": "Truncation."
             }
           ],
-          "explanation": ""
+          "explanation": "NOT excludes papers containing a term, but should be used carefully as it can remove relevant papers.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0119",
@@ -6761,7 +6864,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "A focused question keeps search results relevant and manageable.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x01110",
@@ -6788,7 +6892,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Disease definitions should come from reliable clinical sources.",
           "needsReview": true
         },
         {
@@ -6816,7 +6920,8 @@
               "feedback": "Truncation."
             }
           ],
-          "explanation": ""
+          "explanation": "AND finds papers containing both terms.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0202",
@@ -6843,7 +6948,8 @@
               "feedback": "Phrase."
             }
           ],
-          "explanation": ""
+          "explanation": "OR combines synonyms, finding papers with either term.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0203",
@@ -6870,7 +6976,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Quotation marks search for the exact phrase.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0204",
@@ -6897,7 +7004,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Brackets control the order in which operators are applied, so synonyms are grouped before AND.",
           "needsReview": true
         },
         {
@@ -6925,7 +7032,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A wildcard such as ? stands for one or no character, so colo?r finds both colour and color.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0206",
@@ -6952,7 +7060,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Searching a key paper's reference list for older studies is backward citation chaining.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0207",
@@ -6979,7 +7088,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Using 'cited by' to find newer papers that cite a study is forward citation chaining.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x0208",
@@ -7006,7 +7116,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Grey literature includes reports, theses and guidance not published in commercial journals.",
           "needsReview": true
         },
         {
@@ -7034,7 +7144,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A DOI gives a permanent identifier that always links to the paper.",
           "needsReview": true
         },
         {
@@ -7062,7 +7172,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "EndNote, Mendeley and Zotero are reference management tools.",
           "needsReview": true
         },
         {
@@ -7090,7 +7200,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Harvard style in-text citations show the author's surname and the year.",
           "needsReview": true
         },
         {
@@ -7118,7 +7228,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Citing a source you only read about in another paper is secondary referencing, written as 'cited in'.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02013",
@@ -7145,7 +7256,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Copying wording without quotation marks or a citation is plagiarism.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02014",
@@ -7172,7 +7284,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Good paraphrasing puts the idea in your own words and still cites the source.",
           "needsReview": true
         },
         {
@@ -7200,7 +7312,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A review article summarises other studies, so it's usually a secondary source.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02016",
@@ -7227,7 +7340,8 @@
               "feedback": "Not usually."
             }
           ],
-          "explanation": ""
+          "explanation": "An original research paper reporting new data is a primary source.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02017",
@@ -7254,7 +7368,8 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "Open access means the paper is free for anyone to read online.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02018",
@@ -7281,7 +7396,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Predatory journals charge authors fees but provide little or no genuine peer review.",
           "needsReview": true
         },
         {
@@ -7309,7 +7424,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Wikipedia isn't peer reviewed and its content changes, so it isn't suitable as an academic reference.",
           "needsReview": true
         },
         {
@@ -7391,7 +7506,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Search filters can limit results by date, language and publication type.",
           "needsReview": true
         },
         {
@@ -7419,7 +7534,7 @@
               "feedback": "Not the main reason."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording the search strategy means someone else can repeat it.",
           "needsReview": true
         },
         {
@@ -7447,7 +7562,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With too few results, add OR synonyms or drop narrow terms to widen the search.",
           "needsReview": true
         },
         {
@@ -7475,7 +7590,7 @@
               "feedback": "More results."
             }
           ],
-          "explanation": "",
+          "explanation": "With too many irrelevant results, add an AND concept or use a phrase to narrow the search.",
           "needsReview": true
         },
         {
@@ -7503,7 +7618,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Subject headings group papers on a topic, whatever words the authors used.",
           "needsReview": true
         },
         {
@@ -7531,7 +7646,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the library doesn't have a paper, you can request it through interlibrary loan.",
           "needsReview": true
         },
         {
@@ -7559,7 +7674,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Google Scholar is useful for broad searching and checking who has cited a paper.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02028",
@@ -7586,7 +7702,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The title and abstract show quickly whether a paper is relevant.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02029",
@@ -7613,7 +7730,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Clinical practice and evidence change over time, so recent sources are usually preferred.",
+          "needsReview": true
         },
         {
           "id": "vse-literature-search-x02030",
@@ -7640,7 +7758,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Organised folders and a reference manager keep track of downloaded papers.",
           "needsReview": true
         }
       ],
@@ -7908,7 +8026,8 @@
               "feedback": "That's different lights looking the same colour."
             }
           ],
-          "explanation": ""
+          "explanation": "As light fades, vision shifts from cones (peak about 550 nm) to rods (about 500 nm): the Purkinje shift.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0012",
@@ -7989,7 +8108,8 @@
               "feedback": "Far too few."
             }
           ],
-          "explanation": ""
+          "explanation": "About one million optic nerve fibres leave each eye, serving about 100 times as many receptors.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0014",
@@ -8070,7 +8190,7 @@
               "feedback": "It has a lot."
             }
           ],
-          "explanation": "",
+          "explanation": "Only about 10% of LGN input comes from the retina; most is feedback from the cortex, so the LGN probably regulates what passes through.",
           "needsReview": true
         },
         {
@@ -8098,7 +8218,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Visible light is roughly 380–760 nm.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0112",
@@ -8125,7 +8246,7 @@
               "feedback": "Some bipolar cells do."
             }
           ],
-          "explanation": "",
+          "explanation": "Photoreceptors hyperpolarise to light, but ON bipolar cells depolarise.",
           "needsReview": true
         },
         {
@@ -8153,7 +8274,8 @@
               "feedback": "Glia."
             }
           ],
-          "explanation": ""
+          "explanation": "Horizontal cells connect receptors sideways in the outer retina; amacrine cells do so further in.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0114",
@@ -8180,7 +8302,8 @@
               "feedback": "They exist."
             }
           ],
-          "explanation": ""
+          "explanation": "About 10% of cones are S (blue) cones.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0115",
@@ -8207,7 +8330,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "There are no S cones at the very centre of the fovea, so a tiny blue spot there isn't seen as blue.",
           "needsReview": true
         },
         {
@@ -8235,7 +8358,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Spatial summation is pooling signals over an area, which increases sensitivity.",
           "needsReview": true
         },
         {
@@ -8263,7 +8386,8 @@
               "feedback": "P-cells."
             }
           ],
-          "explanation": ""
+          "explanation": "P-cells give sustained responses and are colour-sensitive.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0118",
@@ -8344,7 +8468,8 @@
               "feedback": "Both eyes."
             }
           ],
-          "explanation": ""
+          "explanation": "Each LGN receives input about the opposite visual field, so the left LGN represents the right visual field.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x01110",
@@ -8371,7 +8496,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Rods and cones together let the visual system work over a huge range of light levels.",
           "needsReview": true
         },
         {
@@ -8399,7 +8524,7 @@
               "feedback": "Outer."
             }
           ],
-          "explanation": "",
+          "explanation": "The inner limiting membrane and nerve fibre layer are closest to the vitreous.",
           "needsReview": true
         },
         {
@@ -8427,7 +8552,8 @@
               "feedback": "Axons."
             }
           ],
-          "explanation": ""
+          "explanation": "The cell bodies of the photoreceptors are in the outer nuclear layer.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0203",
@@ -8454,7 +8580,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The cell bodies of bipolar, horizontal and amacrine cells are in the inner nuclear layer.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0204",
@@ -8481,7 +8608,7 @@
               "feedback": "Behind."
             }
           ],
-          "explanation": "",
+          "explanation": "The retina is 'inverted', so light must pass through all the inner layers before reaching the photoreceptors.",
           "needsReview": true
         },
         {
@@ -8509,7 +8636,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rods contain the pigment rhodopsin.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0206",
@@ -8536,7 +8664,7 @@
               "feedback": "It isomerises."
             }
           ],
-          "explanation": "",
+          "explanation": "Light isomerises 11-cis retinal to all-trans retinal, starting phototransduction.",
           "needsReview": true
         },
         {
@@ -8564,7 +8692,7 @@
               "feedback": "They use graded potentials."
             }
           ],
-          "explanation": "",
+          "explanation": "In the dark, an inward 'dark current' keeps photoreceptors depolarised and releasing glutamate.",
           "needsReview": true
         },
         {
@@ -8592,7 +8720,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Falling cGMP closes the sodium channels, so the photoreceptor hyperpolarises.",
           "needsReview": true
         },
         {
@@ -8674,7 +8802,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each retina has about 6 million cones.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02011",
@@ -8701,7 +8830,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "S, M and L cones peak at roughly 420, 530 and 560 nm.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02012",
@@ -8728,7 +8858,8 @@
               "feedback": "Rods are missing."
             }
           ],
-          "explanation": ""
+          "explanation": "The very centre of the fovea (foveola) contains only cones; rods are absent.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02013",
@@ -8755,7 +8886,7 @@
               "feedback": "That's the disc."
             }
           ],
-          "explanation": "",
+          "explanation": "The inner retinal layers are pushed aside at the fovea, so light reaches the cones with less scatter.",
           "needsReview": true
         },
         {
@@ -8783,7 +8914,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "At dusk, rods take over, and they're more sensitive to shorter wavelengths, so blues look brighter than reds.",
           "needsReview": true
         },
         {
@@ -8811,7 +8942,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vision using only rods is called scotopic vision.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02016",
@@ -8838,7 +8970,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vision in dim twilight, using both rods and cones, is mesopic.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02017",
@@ -8865,7 +8998,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "On a dark adaptation curve, cones reach their limit after about 10 minutes.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02018",
@@ -8892,7 +9026,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rods reach near-full dark adaptation after about 30 minutes.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02019",
@@ -8919,7 +9054,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The rod-cone break is where rods become more sensitive than cones during dark adaptation.",
           "needsReview": true
         },
         {
@@ -8947,7 +9082,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The RPE recycles visual pigment and absorbs stray light, among other jobs.",
           "needsReview": true
         },
         {
@@ -8975,7 +9110,8 @@
               "feedback": "Neurons."
             }
           ],
-          "explanation": ""
+          "explanation": "Müller cells are glial cells that span the whole thickness of the retina.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02022",
@@ -9002,7 +9138,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ganglion cell axons inside the eye are unmyelinated, which keeps the retina transparent.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02023",
@@ -9029,7 +9166,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Just over half of the optic nerve fibres, those from the nasal retina, cross at the chiasm.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02024",
@@ -9056,7 +9194,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Fibres from the nasal retina cross at the chiasm; temporal fibres stay on the same side.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02025",
@@ -9083,7 +9222,8 @@
               "feedback": "1 and 2."
             }
           ],
-          "explanation": ""
+          "explanation": "LGN layers 1 and 2 are magnocellular.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02026",
@@ -9110,7 +9250,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "LGN layers 1, 4 and 6 receive input from the contralateral eye.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02027",
@@ -9137,7 +9278,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Koniocellular cells lie between the main layers of the LGN.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02028",
@@ -9164,7 +9306,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The pretectum in the midbrain helps control the pupil light reflex.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02029",
@@ -9191,7 +9334,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The blind spot lies about 15° temporal to fixation, matching the optic disc's nasal position.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x02030",
@@ -9218,7 +9362,8 @@
               "feedback": "Blue."
             }
           ],
-          "explanation": ""
+          "explanation": "Macular pigment (lutein and zeaxanthin) mainly absorbs blue light.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -9476,7 +9621,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Light on the inhibitory surround reduces an on-centre cell's firing below its resting rate.",
           "needsReview": true
         },
         {
@@ -9504,7 +9649,8 @@
               "feedback": "Only if the surround were lit alone."
             }
           ],
-          "explanation": ""
+          "explanation": "Uniform light stimulates centre and surround equally, so they cancel and the cell fires at about its spontaneous rate.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0013",
@@ -9531,7 +9677,7 @@
               "feedback": "Edges are what's kept."
             }
           ],
-          "explanation": "",
+          "explanation": "The edge falls where the response crosses from above to below the spontaneous level: the zero-crossing.",
           "needsReview": true
         },
         {
@@ -9559,7 +9705,8 @@
               "feedback": "Width matters."
             }
           ],
-          "explanation": ""
+          "explanation": "A wider Gaussian averages over a larger area, filtering out fine detail and blurring the image.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0015",
@@ -9586,7 +9733,8 @@
               "feedback": "That's much later."
             }
           ],
-          "explanation": ""
+          "explanation": "Convolution by ganglion cells analyses the image at several spatial scales, highlights edges and removes redundancy.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0111",
@@ -9613,7 +9761,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hartline introduced the term 'receptive field' in 1938.",
           "needsReview": true
         },
         {
@@ -9641,7 +9789,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Kuffler described the centre-surround organisation of ganglion cell receptive fields in 1953.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0113",
@@ -9668,7 +9817,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A transient response is a burst of firing at the onset of a stimulus.",
           "needsReview": true
         },
         {
@@ -9696,7 +9845,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Dark on the inhibitory surround means less inhibition, so an on-centre cell's response increases.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0115",
@@ -9777,7 +9927,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In the fovea, a ganglion cell's centre may receive input from a single cone, giving high resolution.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0117",
@@ -9804,7 +9955,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "A centre-surround cell only changes its firing when luminance varies within its receptive field.",
           "needsReview": true
         },
         {
@@ -9832,7 +9983,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In image processing, convolution kernels play the same role as receptive fields.",
           "needsReview": true
         },
         {
@@ -9860,7 +10011,8 @@
               "feedback": "Fine."
             }
           ],
-          "explanation": ""
+          "explanation": "Fine hairs are small details, so they're at a fine spatial scale.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x01110",
@@ -9887,7 +10039,8 @@
               "feedback": "Convergence."
             }
           ],
-          "explanation": ""
+          "explanation": "More receptors converge onto each ganglion cell in the periphery, so receptive fields are larger.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0201",
@@ -9914,7 +10067,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hartline studied lateral inhibition in the Limulus (horseshoe crab) eye.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0202",
@@ -9941,7 +10095,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Mach bands are bright and dark stripes seen at the edges of a luminance ramp.",
           "needsReview": true
         },
         {
@@ -9969,7 +10123,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Mach bands are explained by lateral inhibition exaggerating changes in luminance.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0204",
@@ -9996,7 +10151,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A centre-surround receptive field is often modelled as a difference of two Gaussians.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0205",
@@ -10023,7 +10179,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Michelson contrast = (Lmax − Lmin) ÷ (Lmax + Lmin).",
           "needsReview": true
         },
         {
@@ -10051,7 +10207,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contrast = (60 − 40) ÷ (60 + 40) = 20 ÷ 100 = 0.2.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0207",
@@ -10078,7 +10235,8 @@
               "feedback": "That's temporal."
             }
           ],
-          "explanation": ""
+          "explanation": "Spatial frequency is measured in cycles per degree of visual angle.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0208",
@@ -10105,7 +10263,8 @@
               "feedback": "Too high."
             }
           ],
-          "explanation": ""
+          "explanation": "Human contrast sensitivity peaks at about 3–5 cycles per degree.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x0209",
@@ -10132,7 +10291,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The high spatial frequency cut-off for good adult vision is about 50–60 cycles per degree.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02010",
@@ -10159,7 +10319,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Very low frequencies stimulate centre and surround almost equally, so they cancel out.",
           "needsReview": true
         },
         {
@@ -10187,7 +10347,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A centre-surround cell responds best to a middle range of spatial frequencies: a band-pass filter.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02012",
@@ -10214,7 +10375,8 @@
               "feedback": "It removes detail."
             }
           ],
-          "explanation": ""
+          "explanation": "Gaussian blur is a low-pass filter: it removes high spatial frequencies (fine detail).",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02013",
@@ -10241,7 +10403,8 @@
               "feedback": "Parvo."
             }
           ],
-          "explanation": ""
+          "explanation": "Midget ganglion cells feed the parvocellular pathway.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02014",
@@ -10268,7 +10431,8 @@
               "feedback": "Magno."
             }
           ],
-          "explanation": ""
+          "explanation": "Parasol ganglion cells feed the magnocellular pathway.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02015",
@@ -10295,7 +10459,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "Small bistratified ganglion cells carry S-cone (blue-yellow) signals to the koniocellular layers.",
           "needsReview": true
         },
         {
@@ -10323,7 +10487,7 @@
               "feedback": "They respond well."
             }
           ],
-          "explanation": "",
+          "explanation": "M cells have larger receptive fields and better temporal resolution than P cells.",
           "needsReview": true
         },
         {
@@ -10351,7 +10515,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ganglion cells signal stimulus strength by their firing rate, since each spike is all-or-none.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02018",
@@ -10378,7 +10543,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Firing without any stimulus is spontaneous activity.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02019",
@@ -10405,7 +10571,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A sinusoidal grating varies in luminance smoothly, following a sine wave.",
           "needsReview": true
         },
         {
@@ -10433,7 +10599,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Phase describes a grating's position relative to a reference point.",
           "needsReview": true
         },
         {
@@ -10461,7 +10627,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fourier analysis says any image can be built from sine-wave gratings of different frequencies, orientations, phases and contrasts.",
           "needsReview": true
         },
         {
@@ -10489,7 +10655,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A centre-surround filter responds most where luminance changes, so it enhances edges.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02023",
@@ -10516,7 +10683,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cat X cells are roughly similar to primate P (midget) cells.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02024",
@@ -10543,7 +10711,8 @@
               "feedback": "They respond."
             }
           ],
-          "explanation": ""
+          "explanation": "Cat Y cells respond nonlinearly and transiently.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02025",
@@ -10570,7 +10739,8 @@
               "feedback": "Little response."
             }
           ],
-          "explanation": ""
+          "explanation": "An off-centre cell fires most when its centre is dark.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02026",
@@ -10597,7 +10767,7 @@
               "feedback": "MT."
             }
           ],
-          "explanation": "",
+          "explanation": "Most LGN receptive fields are centre-surround, like those of ganglion cells.",
           "needsReview": true
         },
         {
@@ -10625,7 +10795,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Centre-surround antagonism partly explains why a grey patch looks lighter on a dark surround.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02028",
@@ -10652,7 +10823,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Foveal ganglion cells have very small receptive fields, giving high resolution.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02029",
@@ -10679,7 +10851,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Doubling the spatial frequency fits twice as many bars in the same space, so each bar's width halves.",
+          "needsReview": true
         },
         {
           "id": "vse-receptive-fields-x02030",
@@ -10706,7 +10879,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The contrast sensitivity function plots sensitivity against spatial frequency.",
           "needsReview": true
         }
       ],
@@ -11064,7 +11237,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "A simple cell's response changes with both contrast and orientation, so one cell can't tell them apart; a population is needed.",
           "needsReview": true
         },
         {
@@ -11092,7 +11265,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The cortex is less than 2 mm thick.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0112",
@@ -11119,7 +11293,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "LGN input arrives mainly in layer 4C of V1.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0113",
@@ -11200,7 +11375,8 @@
               "feedback": "Selective."
             }
           ],
-          "explanation": ""
+          "explanation": "Simple cells are selective for orientation, size and position, but not generally for colour.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0115",
@@ -11227,7 +11403,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A population code represents information in the pattern of activity across many cells.",
           "needsReview": true
         },
         {
@@ -11255,7 +11431,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The tilt aftereffect is measured psychophysically, after adapting to a tilted pattern.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0117",
@@ -11282,7 +11459,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Each V1 module covers about 1 mm of cortex and contains about 100,000 cells.",
           "needsReview": true
         },
         {
@@ -11310,7 +11487,8 @@
               "feedback": "Superficial."
             }
           ],
-          "explanation": ""
+          "explanation": "Blobs are most apparent in the superficial layers of V1.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0119",
@@ -11337,7 +11515,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Brodmann's area 17 is V1, the primary visual cortex.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x01110",
@@ -11364,7 +11543,8 @@
               "feedback": "Found in both simple and complex."
             }
           ],
-          "explanation": ""
+          "explanation": "End-stopped cells respond best to contours that end inside their receptive field.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0201",
@@ -11391,7 +11571,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hubel and Wiesel shared the 1981 Nobel Prize for their work on the visual cortex.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0202",
@@ -11418,7 +11599,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "V1 lies mainly along the calcarine sulcus in the occipital lobe.",
           "needsReview": true
         },
         {
@@ -11446,7 +11627,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "V1 is called striate cortex because of the visible stria of Gennari.",
           "needsReview": true
         },
         {
@@ -11474,7 +11655,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Magnocellular input arrives in layer 4Cα of V1.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0205",
@@ -11501,7 +11683,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Parvocellular input arrives in layer 4Cβ of V1.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0206",
@@ -11528,7 +11711,8 @@
               "feedback": "Input."
             }
           ],
-          "explanation": ""
+          "explanation": "Layers 2 and 3 send output from V1 to V2.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0207",
@@ -11555,7 +11739,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Layer 6 of V1 sends feedback to the LGN.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x0208",
@@ -11582,7 +11767,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ocular dominance columns are strips of cortex driven mainly by one eye.",
           "needsReview": true
         },
         {
@@ -11610,7 +11795,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Where orientation preferences meet around a point, the map forms a pinwheel.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02010",
@@ -11637,7 +11823,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a retinotopic map, neighbouring points on the retina map to neighbouring points in the cortex.",
           "needsReview": true
         },
         {
@@ -11665,7 +11851,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cortical magnification means more cortex is devoted to the central visual field than the periphery.",
           "needsReview": true
         },
         {
@@ -11693,7 +11879,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The left visual field is represented in the right V1.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02013",
@@ -11720,7 +11907,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The upper visual field maps to the lower bank of the calcarine sulcus.",
           "needsReview": true
         },
         {
@@ -11748,7 +11935,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The fovea is represented at the occipital pole.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02015",
@@ -11775,7 +11963,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Beyond layer 4C, most V1 cells respond to both eyes (binocular).",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02016",
@@ -11802,7 +11991,8 @@
               "feedback": "Not directly."
             }
           ],
-          "explanation": ""
+          "explanation": "Cells tuned to binocular disparity support stereopsis.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02017",
@@ -11829,7 +12019,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A direction-selective cell responds best to motion in one particular direction.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02018",
@@ -11856,7 +12047,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A complex cell responds to an oriented bar anywhere in its receptive field, regardless of exact position.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02019",
@@ -11883,7 +12075,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Simple cells are thought to sum their inputs roughly linearly.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02020",
@@ -11910,7 +12103,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hubel and Wiesel proposed that LGN receptive fields lined up in a row produce a simple cell's orientation tuning.",
           "needsReview": true
         },
         {
@@ -11938,7 +12131,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Covering one eye during the critical period makes most V1 cells respond only to the open eye.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02022",
@@ -11965,7 +12159,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A simple cell's receptive field is often modelled as a Gabor function: a sine wave inside a Gaussian envelope.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02023",
@@ -12046,7 +12241,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Blob cells are mainly concerned with colour.",
+          "needsReview": true
         },
         {
           "id": "vse-v1-x02025",
@@ -12073,7 +12269,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The ice cube model shows orientation columns and ocular dominance columns running at right angles.",
           "needsReview": true
         },
         {
@@ -12101,7 +12297,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A hypercolumn contains cells for all orientations and both eyes for one patch of visual field.",
           "needsReview": true
         },
         {
@@ -12129,7 +12325,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Layer 4B carries magnocellular-driven, direction-selective signals out to MT and the V2 thick stripes, feeding the motion and depth (dorsal) route.",
           "needsReview": true
         },
         {
@@ -12157,7 +12353,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "V1 is retinotopic, so losing part of it removes vision in the matching part of the visual field, giving a scotoma that corresponds to the lesion.",
           "needsReview": true
         },
         {
@@ -12185,7 +12381,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ocular dominance columns can only be reshaped by deprivation during an early critical period (weeks to months in kittens and monkeys), which is why early treatment of amblyopia matters.",
           "needsReview": true
         },
         {
@@ -12213,7 +12409,7 @@
               "feedback": "Not specifically."
             }
           ],
-          "explanation": "",
+          "explanation": "End-stopped (hypercomplex) cells prefer bars of a limited length; extending the bar past the receptive field into an inhibitory end zone reduces the response, so they signal ends and corners.",
           "needsReview": true
         }
       ],
@@ -12522,7 +12718,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The colour-selective V1 blobs project to the V2 thin stripes, which then pass colour information on to V4.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0012",
@@ -12603,7 +12800,7 @@
               "feedback": "They can't."
             }
           ],
-          "explanation": "",
+          "explanation": "Faces are recognised at the individual level within one class, while most object tests only ask for the category. A fair test of a dedicated face system has to give control objects equally hard within-class judgements.",
           "needsReview": true
         },
         {
@@ -12631,7 +12828,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Baizer et al. injected different retrograde tracers into parietal and temporal cortex. Few cells were double-labelled, which suggests the two streams draw on largely separate populations.",
           "needsReview": true
         },
         {
@@ -12659,7 +12856,8 @@
               "feedback": "Dorsal."
             }
           ],
-          "explanation": ""
+          "explanation": "The ventral ('what') stream runs V1 → V2 → V4 → inferotemporal cortex. MT, MST and 7a belong to the dorsal stream.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0112",
@@ -12686,7 +12884,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In Brodmann's scheme V1 is area 17, V2 is area 18 and V3 is roughly area 19.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0113",
@@ -12767,7 +12966,7 @@
               "feedback": "V1."
             }
           ],
-          "explanation": "",
+          "explanation": "Ungerleider and Mishkin (1982) proposed the ventral 'what' and dorsal 'where' streams. Milner and Goodale later recast them as perception versus action.",
           "needsReview": true
         },
         {
@@ -12795,7 +12994,8 @@
               "feedback": "General term."
             }
           ],
-          "explanation": ""
+          "explanation": "The colour-selective clusters in V4 are called globs, by analogy with the V1 blobs. The regions between them are interglobs.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0116",
@@ -12822,7 +13022,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rolls and Tovee estimated that an individual face is coded by a sparse population of around 100 cells, which sits between a single grandmother cell and a fully distributed code.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0117",
@@ -12849,7 +13050,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Carbon monoxide can selectively damage the interblob and interstripe (form) system while sparing the blobs, so a patient may still see colour but be unable to perceive shape.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0118",
@@ -12930,7 +13132,8 @@
               "feedback": "Before V1."
             }
           ],
-          "explanation": ""
+          "explanation": "V2 sits directly next to V1 and receives most of its input from it. It then relays signals into both streams.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x01110",
@@ -12957,7 +13160,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Macaque cortex has over 30 visual areas joined by more than 300 connections, organised hierarchically into the two broad streams.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0211",
@@ -13038,7 +13242,8 @@
               "feedback": "V1."
             }
           ],
-          "explanation": ""
+          "explanation": "The pale interstripes of V2 get input from the V1 interblobs and carry form (orientation and shape). Thin stripes carry colour and thick stripes carry motion and depth.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0213",
@@ -13065,7 +13270,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cerebral achromatopsia is loss of colour vision caused by damage to the V4/V8 complex in ventral occipitotemporal cortex, even though the cones are normal.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0214",
@@ -13092,7 +13298,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The fusiform face area, on the fusiform gyrus, responds more to faces than to other objects in fMRI.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0215",
@@ -13119,7 +13326,8 @@
               "feedback": "Limulus."
             }
           ],
-          "explanation": ""
+          "explanation": "Nancy Kanwisher and colleagues (1997) named and described the fusiform face area with fMRI.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0216",
@@ -13146,7 +13354,8 @@
               "feedback": "Early vision."
             }
           ],
-          "explanation": ""
+          "explanation": "The parahippocampal place area responds strongly to scenes, buildings and spatial layouts rather than to single objects or faces.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x0217",
@@ -13173,7 +13382,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The lateral occipital complex responds more to intact objects with clear shape than to scrambled versions, so it is linked to processing object form.",
           "needsReview": true
         },
         {
@@ -13201,7 +13410,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Receptive fields grow along the ventral stream. IT fields are very large and often cross the midline, which allows recognition anywhere in the visual field.",
           "needsReview": true
         },
         {
@@ -13229,7 +13438,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "IT cells show invariance: they respond to their preferred object across changes in size, position and often viewpoint, which recognition needs.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02110",
@@ -13256,7 +13466,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A grandmother cell is the hypothetical extreme of local coding, where a single neuron fires only to one specific person or object.",
           "needsReview": true
         },
         {
@@ -13284,7 +13494,8 @@
               "feedback": "That's a grandmother cell."
             }
           ],
-          "explanation": ""
+          "explanation": "In sparse coding, each object activates a relatively small set of cells. It is a middle ground between one cell per object and every cell joining in.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02112",
@@ -13311,7 +13522,8 @@
               "feedback": "Colour."
             }
           ],
-          "explanation": ""
+          "explanation": "Apperceptive agnosia is a failure at the level of forming a percept. Patients can't copy or match shapes even though acuity is good.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02113",
@@ -13338,7 +13550,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In associative agnosia the percept is intact, so the patient can copy a drawing, but it can't be linked to stored meaning, so they can't name or recognise it.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02114",
@@ -13365,7 +13578,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Turning faces upside down impairs recognition far more than it does for other objects, which suggests faces are processed in a special, configural way.",
           "needsReview": true
         },
         {
@@ -13393,7 +13606,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the Thatcher illusion, inverted eyes and mouth look grotesque only when the face is upright. This shows that upright faces are processed holistically, through the configuration of their features.",
           "needsReview": true
         },
         {
@@ -13421,7 +13634,8 @@
               "feedback": "FFA."
             }
           ],
-          "explanation": ""
+          "explanation": "Lawrence Weiskrantz studied patient DB, who after V1 damage could point to and discriminate stimuli in his blind field while reporting that he saw nothing.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02117",
@@ -13448,7 +13662,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Riddoch phenomenon is conscious awareness of moving stimuli in an otherwise blind field after V1 damage, probably carried by routes to MT that bypass V1.",
           "needsReview": true
         },
         {
@@ -13530,7 +13744,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each processing stage adds delay, so response latency increases from V1 towards IT.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02120",
@@ -13557,7 +13772,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Zeki found that V4 cells respond to a surface's perceived colour (which stays constant) rather than to the wavelength reaching the eye, so he linked V4 to colour constancy.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02121",
@@ -13584,7 +13800,8 @@
               "feedback": "Colour plates."
             }
           ],
-          "explanation": ""
+          "explanation": "Zeki and Land used Mondrians, displays of many coloured patches named after the painter, to separate perceived colour from the wavelength composition of the light.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02122",
@@ -13611,7 +13828,7 @@
               "feedback": "Attention modulates them."
             }
           ],
-          "explanation": "",
+          "explanation": "Attending to a stimulus in a V4 cell's receptive field increases its response and can sharpen its tuning, so V4 is strongly modulated by attention.",
           "needsReview": true
         },
         {
@@ -13639,7 +13856,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ungerleider and Mishkin called the ventral stream to inferotemporal cortex the 'what' pathway, used for recognising objects.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02124",
@@ -13720,7 +13938,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Developmental (congenital) prosopagnosia is a lifelong difficulty recognising faces with no brain injury. Acquired prosopagnosia follows damage such as a stroke.",
           "needsReview": true
         },
         {
@@ -13748,7 +13966,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tanaka found that IT cells responding to similar moderately complex features are grouped into columns, much like the columnar organisation of V1.",
+          "needsReview": true
         },
         {
           "id": "vse-ventral-stream-x02127",
@@ -13829,7 +14048,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In blindsight, patients can respond to stimuli in a field blinded by V1 damage without being aware of them. This shows some processing survives through routes that bypass V1.",
           "needsReview": true
         },
         {
@@ -13857,7 +14076,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The human colour area (the V4/V8 complex) lies in ventral occipital cortex near the fusiform gyrus, and damage there causes achromatopsia.",
           "needsReview": true
         },
         {
@@ -13885,7 +14104,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "People with prosopagnosia can't identify faces, so they rely on other cues such as voice, gait, hairstyle or clothing.",
           "needsReview": true
         }
       ],
@@ -14216,7 +14435,7 @@
               "feedback": "That's optic ataxia."
             }
           ],
-          "explanation": "",
+          "explanation": "Akinetopsia is loss of motion perception after damage to MT/V5, as in Zihl's patient LM, while other visual abilities are largely preserved.",
           "needsReview": true
         },
         {
@@ -14244,7 +14463,8 @@
               "feedback": "Centre-surround."
             }
           ],
-          "explanation": ""
+          "explanation": "MST cells have large receptive fields and prefer complex flow patterns (expansion, contraction, rotation, spirals), which suits them for analysing optic flow during self-motion.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0111",
@@ -14271,7 +14491,8 @@
               "feedback": "Larger."
             }
           ],
-          "explanation": ""
+          "explanation": "MT receptive fields are about 5–10° across, roughly ten times bigger than V1's at the same eccentricity, so they can integrate motion over a wider area.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0112",
@@ -14298,7 +14519,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "MST receptive fields are very large, around 30–50°, which suits analysing whole-field optic flow.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0113",
@@ -14325,7 +14547,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A motion discontinuity is a boundary where the direction or speed of motion changes. It can reveal the edges of objects that are otherwise camouflaged.",
           "needsReview": true
         },
         {
@@ -14353,7 +14575,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Gaze-locked cells in parietal area 7a respond to a stimulus only when the eyes are in a particular position, helping convert retinal positions into head-centred space.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0115",
@@ -14434,7 +14657,8 @@
               "feedback": "Colour."
             }
           ],
-          "explanation": ""
+          "explanation": "In Zeki's scheme, colour runs from the V1 blobs to the V2 thin stripes and then to V4. Motion goes through MT.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0117",
@@ -14461,7 +14685,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Optic ataxia (misreaching under visual guidance) follows damage to the posterior parietal cortex in the dorsal stream.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0118",
@@ -14488,7 +14713,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Studies with the Titchener/Ebbinghaus circles asked whether grip size is fooled as much as perceived size. The original finding was that grasping is less affected, which supported separate perception and action streams.",
           "needsReview": true
         },
         {
@@ -14516,7 +14741,7 @@
               "feedback": "They aren't."
             }
           ],
-          "explanation": "",
+          "explanation": "In akinetopsia, motion is seen as a series of frozen snapshots, so the patient can't see the liquid rising in the cup and it overflows.",
           "needsReview": true
         },
         {
@@ -14544,7 +14769,7 @@
               "feedback": "That route exists."
             }
           ],
-          "explanation": "",
+          "explanation": "A secondary route from the retina through the superior colliculus and pulvinar reaches MT and parietal cortex without passing through V1. It may support blindsight.",
           "needsReview": true
         },
         {
@@ -14572,7 +14797,8 @@
               "feedback": "Colour-orientation."
             }
           ],
-          "explanation": ""
+          "explanation": "After adapting to motion in one direction, a stationary scene appears to move the opposite way. This is the motion (waterfall) aftereffect.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0212",
@@ -14599,7 +14825,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prolonged motion fatigues cells tuned to that direction, so the balance tips towards the opposite direction when you look at something still.",
           "needsReview": true
         },
         {
@@ -14627,7 +14853,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Newsome used random-dot kinematograms in which only a percentage of dots move coherently. Varying coherence measured how motion signals in MT relate to the monkey's judgements.",
           "needsReview": true
         },
         {
@@ -14655,7 +14881,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Electrically stimulating a cluster of MT cells tuned to one direction biased the monkeys' choices towards that direction, which shows MT activity causally contributes to motion perception.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0215",
@@ -14682,7 +14909,8 @@
               "feedback": "Memory."
             }
           ],
-          "explanation": ""
+          "explanation": "Zihl et al. (1983) described patient LM, who lost motion perception after bilateral damage including the MT/V5 region.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0216",
@@ -14709,7 +14937,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "MST analyses optic flow, the expanding pattern produced by moving forward, which helps judge heading.",
           "needsReview": true
         },
         {
@@ -14737,7 +14965,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Balint's syndrome follows bilateral parietal damage: simultanagnosia (seeing one object at a time), optic ataxia (misreaching) and ocular apraxia (difficulty directing gaze).",
           "needsReview": true
         },
         {
@@ -14765,7 +14993,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Right parietal damage often causes hemispatial neglect, where the patient ignores the left side of space even though there may be no field loss.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x0219",
@@ -14792,7 +15021,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Through a small aperture, a cell only sees motion perpendicular to an edge, so many true directions look the same. Combining signals across edges (as in MT) solves this.",
           "needsReview": true
         },
         {
@@ -14820,7 +15049,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "V1 cells respond to the separate component gratings of a plaid, while some MT ('pattern') cells respond to the combined direction, which solves the aperture problem.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02111",
@@ -14847,7 +15077,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Milner and Goodale described the dorsal stream as vision for action (guiding reaching and grasping) and the ventral stream as vision for perception.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02112",
@@ -14874,7 +15105,7 @@
               "feedback": "She could."
             }
           ],
-          "explanation": "",
+          "explanation": "DF had visual form agnosia from ventral damage. She couldn't report a slot's orientation, but could rotate her hand correctly to post a card, because her dorsal stream was intact.",
           "needsReview": true
         },
         {
@@ -14902,7 +15133,8 @@
               "feedback": "Magno."
             }
           ],
-          "explanation": ""
+          "explanation": "The dorsal stream gets most of its input from the fast magnocellular pathway, which suits motion and spatial processing.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02114",
@@ -14929,7 +15161,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Apparent (phi) motion is seeing movement between two lights flashed in sequence at different positions. It is the basis of film and animation.",
           "needsReview": true
         },
         {
@@ -14957,7 +15189,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Point-light walkers show only a few dots on the joints, yet people instantly see a walking human. This shows vision is highly tuned to biological motion.",
           "needsReview": true
         },
         {
@@ -14985,7 +15217,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The superior temporal sulcus (STS) responds strongly to biological motion such as walking point-light figures.",
           "needsReview": true
         },
         {
@@ -15013,7 +15245,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vection is the illusion of self-motion caused by a large moving visual scene, such as a neighbouring train pulling out.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02118",
@@ -15094,7 +15327,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "LIP, in the parietal lobe, is involved in planning saccades and directing spatial attention.",
           "needsReview": true
         },
         {
@@ -15122,7 +15355,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Most MT cells are tuned to the direction and speed of motion and are organised in direction columns.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02121",
@@ -15149,7 +15383,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The dorsal stream runs from V1 up to the posterior parietal lobe. The ventral stream runs down into the temporal lobe.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02122",
@@ -15176,7 +15411,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ungerleider and Mishkin called the dorsal stream the 'where' pathway because it handles spatial location.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02123",
@@ -15203,7 +15439,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In optic ataxia, patients can see and recognise objects but misreach for them, especially in peripheral vision, because the parietal visuomotor link is damaged.",
           "needsReview": true
         },
         {
@@ -15231,7 +15467,8 @@
               "feedback": "Heading."
             }
           ],
-          "explanation": ""
+          "explanation": "When you move forward, the flow field expands outwards from the point you're heading towards (the focus of expansion).",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02125",
@@ -15258,7 +15495,7 @@
               "feedback": "They impair it."
             }
           ],
-          "explanation": "",
+          "explanation": "MT lesions in monkeys raise thresholds for judging motion direction, which shows MT is needed for normal motion perception.",
           "needsReview": true
         },
         {
@@ -15286,7 +15523,8 @@
               "feedback": "It's fast."
             }
           ],
-          "explanation": ""
+          "explanation": "Actions such as catching or grasping need moment-to-moment visual guidance, so the dorsal stream runs fast, mainly on magnocellular input.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02127",
@@ -15313,7 +15551,7 @@
               "feedback": "It was."
             }
           ],
-          "explanation": "",
+          "explanation": "Aglioti et al. found that grip aperture tracked the discs' real size even when perceived size was fooled. This supported separate streams, though later studies questioned it.",
           "needsReview": true
         },
         {
@@ -15341,7 +15579,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Simultanagnosia, part of Balint's syndrome, is the inability to see more than one object at a time.",
           "needsReview": true
         },
         {
@@ -15369,7 +15607,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Saccades are fast, ballistic eye movements that jump gaze between targets. Pursuit tracks moving targets smoothly.",
+          "needsReview": true
         },
         {
           "id": "vse-dorsal-stream-x02130",
@@ -15396,7 +15635,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The dorsal stream codes space relative to the observer (eye, head, hand) so it can guide actions. This is why it is called egocentric.",
           "needsReview": true
         }
       ],
@@ -15565,7 +15804,8 @@
               "feedback": "That's moving together."
             }
           ],
-          "explanation": ""
+          "explanation": "Elements that are close together are grouped. This is the Gestalt law of proximity.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0012",
@@ -15592,7 +15832,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Good continuation means we group elements along smooth, continuous paths rather than sharp changes of direction.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0013",
@@ -15619,7 +15860,7 @@
               "feedback": "They can (Rubin's vase)."
             }
           ],
-          "explanation": "",
+          "explanation": "Prägnanz, the overarching Gestalt principle, says we perceive the simplest, most regular organisation the stimulus allows.",
           "needsReview": true
         },
         {
@@ -15647,7 +15888,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rubin's vase can be seen as a vase or as two faces. Figure and ground swap, but only one is seen as figure at a time.",
           "needsReview": true
         },
         {
@@ -15675,7 +15916,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A target defined by a single feature pops out and is detected in parallel, so reaction time barely changes as distractors are added.",
           "needsReview": true
         },
         {
@@ -15703,7 +15944,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Field, Hayes and Hess showed that chains of Gabor elements aligned along a path are easy to spot in noise, while misaligned chains aren't. This led to the idea of an association field linking aligned cells.",
           "needsReview": true
         },
         {
@@ -15731,7 +15972,7 @@
               "feedback": "Pop-out occurred."
             }
           ],
-          "explanation": "",
+          "explanation": "Enns and Rensink found that search could be driven by 3D scene properties such as depth and lighting. Marr's strictly bottom-up 2D-before-3D order predicts that can't happen so early.",
           "needsReview": true
         },
         {
@@ -15759,7 +16000,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Gestalt psychology was founded in early 20th-century Germany by Max Wertheimer, Kurt Koffka and Wolfgang Köhler.",
           "needsReview": true
         },
         {
@@ -15841,7 +16082,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Amodal completion is perceiving a partly hidden object as complete behind the thing covering it, even though the hidden part isn't seen.",
           "needsReview": true
         },
         {
@@ -15869,7 +16110,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Zhou et al. (2000) found V2 cells that signal which side of an edge 'owns' the border (the figure side), which is an early step in figure-ground segregation.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0115",
@@ -15896,7 +16138,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A conjunction target (e.g. a red vertical among red horizontals and green verticals) needs serial attention, so reaction time rises with each added item.",
           "needsReview": true
         },
         {
@@ -15924,7 +16166,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Texture segmentation is dividing an image into regions based on differences in texture, such as element orientation.",
           "needsReview": true
         },
         {
@@ -15952,7 +16194,7 @@
               "feedback": "Colour."
             }
           ],
-          "explanation": "",
+          "explanation": "Orientation-tuned simple cells in V1 act like filters that respond to local texture elements, so they underlie texture segmentation.",
           "needsReview": true
         },
         {
@@ -15980,7 +16222,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'Simplicity' has no agreed objective measure, so Prägnanz is hard to test experimentally.",
           "needsReview": true
         },
         {
@@ -16008,7 +16250,7 @@
               "feedback": "They have."
             }
           ],
-          "explanation": "",
+          "explanation": "The Gestalt laws can conflict (e.g. proximity against similarity), and which one wins depends on their relative strength, not a fixed ranking.",
           "needsReview": true
         },
         {
@@ -16036,7 +16278,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The association field describes facilitatory links between cells tuned to aligned, collinear orientations along a smooth path, which supports contour integration.",
           "needsReview": true
         },
         {
@@ -16118,7 +16360,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Palmer's principle of common region says elements enclosed within the same boundary or area are grouped together.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0213",
@@ -16145,7 +16388,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Uniform connectedness (Palmer and Rock) says elements physically joined by lines are seen as one unit, often overriding proximity or similarity.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0214",
@@ -16172,7 +16416,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Closure is the tendency to perceive incomplete figures, such as a circle with a gap, as complete wholes.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0215",
@@ -16199,7 +16444,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Regions that are smaller, enclosed, convex or symmetric tend to be seen as figure. The larger surround tends to become ground.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0216",
@@ -16226,7 +16472,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Kanizsa triangle creates a bright triangle with clear edges where there is no physical luminance contour. These are illusory (subjective) contours.",
           "needsReview": true
         },
         {
@@ -16254,7 +16500,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Necker cube is a reversible figure: its line drawing fits two 3D interpretations, and perception flips between them.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0218",
@@ -16281,7 +16528,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Treisman's feature integration theory says separate features (colour, orientation) are registered in parallel but need focused attention to be bound into one object.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x0219",
@@ -16308,7 +16556,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When attention is overloaded or diverted, features from different objects can be wrongly combined. This is an illusory conjunction, as feature integration theory predicts.",
           "needsReview": true
         },
         {
@@ -16336,7 +16584,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A target with a unique basic feature pops out: it is found immediately whatever the number of distractors.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02111",
@@ -16363,7 +16612,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The binding problem asks how features processed in different areas (colour, shape, motion) are combined into a single object percept.",
           "needsReview": true
         },
         {
@@ -16391,7 +16640,8 @@
               "feedback": "V1."
             }
           ],
-          "explanation": ""
+          "explanation": "Julesz proposed textons, basic texture features such as elongated blobs, line terminators and crossings, whose differences allow effortless texture segregation.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02113",
@@ -16418,7 +16668,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Textures that differ in a basic feature such as element orientation segregate instantly. Textures with the same features in different arrangements need scrutiny.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02114",
@@ -16445,7 +16696,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Crowding is when nearby flanking items make a peripheral target hard to identify, even though it would be visible on its own.",
           "needsReview": true
         },
         {
@@ -16473,7 +16724,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Navon found global precedence: the overall shape is usually processed faster than the local elements and can interfere with judging them.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02116",
@@ -16500,7 +16752,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Marr's stages are the primal sketch (edges and features), then the 2½-D sketch (viewer-centred surfaces), then the 3D model (object-centred).",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02117",
@@ -16527,7 +16780,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The 2½-D sketch represents visible surfaces, their orientation and depth from the viewer's point of view.",
           "needsReview": true
         },
         {
@@ -16555,7 +16808,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Biederman proposed that objects are recognised from about 36 simple volumetric parts called geons, such as cylinders, cones and blocks.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02119",
@@ -16582,7 +16836,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Symmetry is a strong figural cue: symmetric regions tend to be seen as figure rather than ground.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02120",
@@ -16609,7 +16864,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Parallel contours tend to be grouped together as belonging to the same object. This is parallelism.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02121",
@@ -16636,7 +16892,8 @@
               "feedback": "Common fate."
             }
           ],
-          "explanation": ""
+          "explanation": "Good continuation predicts that smooth, continuous contours are grouped, and that we avoid interpretations with abrupt changes of direction.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02122",
@@ -16663,7 +16920,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In parallel (feature) search, set size doesn't add time, so the reaction-time slope is near zero.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02123",
@@ -16690,7 +16948,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Camouflage exploits grouping: the animal's colours and textures group with the background, so it doesn't segregate as a separate figure.",
           "needsReview": true
         },
         {
@@ -16718,7 +16976,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vecera et al. found that the lower region of a display is more often seen as figure, perhaps because objects usually stand on the ground below the horizon.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02125",
@@ -16745,7 +17004,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Grouping organises the image into coherent objects and surfaces, which is a necessary step before they can be recognised.",
           "needsReview": true
         },
         {
@@ -16773,7 +17032,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Von der Heydt and colleagues found V2 cells that respond to illusory contours, so these are signalled early in the visual cortex.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02127",
@@ -16800,7 +17060,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prägnanz (good form) says we perceive the simplest, most regular interpretation available.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02128",
@@ -16827,7 +17088,8 @@
               "feedback": "It can."
             }
           ],
-          "explanation": ""
+          "explanation": "In backward masking, a mask presented just after a brief target can prevent it from being consciously seen.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02129",
@@ -16854,7 +17116,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contours in noise are detected best when the elements are aligned with the path (collinear), as the association field predicts.",
+          "needsReview": true
         },
         {
           "id": "vse-perceptual-grouping-x02130",
@@ -16881,7 +17144,7 @@
               "feedback": "Many features."
             }
           ],
-          "explanation": "",
+          "explanation": "Similarity grouping can use any shared feature, such as colour, size, shape or orientation.",
           "needsReview": true
         }
       ],
@@ -17061,7 +17324,8 @@
               "feedback": "That's what changed."
             }
           ],
-          "explanation": ""
+          "explanation": "Luminance = illumination × reflectance, so dimming the light scales both surfaces equally. Their ratio stays at 10:1, and this lets vision recover relative reflectance.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x0012",
@@ -17088,7 +17352,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ratios only give relative lightness. Anchoring sets an absolute scale, usually by treating the highest-luminance region as white.",
           "needsReview": true
         },
         {
@@ -17116,7 +17380,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The two regions have the same luminance except for a sharp cusp at the border. Because vision responds mainly to sharp edges and ignores gradual gradients, the whole region on one side looks lighter.",
           "needsReview": true
         },
         {
@@ -17144,7 +17408,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Shadow edges usually have a fuzzy penumbra, which tells the system it's a change in illumination rather than in surface reflectance. If the penumbra is hidden, the shadow looks like a dark stain.",
           "needsReview": true
         },
         {
@@ -17226,7 +17490,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Changing the assumed lighting direction can turn craters into volcanoes. This shows shading can set perceived 3D shape, the reverse of layout influencing lightness.",
           "needsReview": true
         },
         {
@@ -17254,7 +17518,8 @@
               "feedback": "Physical."
             }
           ],
-          "explanation": ""
+          "explanation": "Lightness and brightness are perceptual (psychological) variables. Reflectance, illuminance and luminance are physical quantities.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x0111",
@@ -17281,7 +17546,8 @@
               "feedback": "Different."
             }
           ],
-          "explanation": ""
+          "explanation": "Brightness is the perceived intensity of light coming from a region. Lightness is the perceived reflectance of a surface (white to black).",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x0112",
@@ -17308,7 +17574,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lightness constancy is perceiving a surface as having the same lightness (e.g. white paper stays white) despite large changes in illumination.",
           "needsReview": true
         },
         {
@@ -17336,7 +17602,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Luminance = illuminance × reflectance, so 100 × 0.5 = 50.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x0114",
@@ -17363,7 +17630,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In lightness contrast, the same grey looks lighter on a dark surround and darker on a light one.",
           "needsReview": true
         },
         {
@@ -17391,7 +17658,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The bottom-up shadow rule says not to compute lightness ratios across fuzzy (penumbral) edges, because they are probably illumination changes rather than reflectance changes.",
           "needsReview": true
         },
         {
@@ -17419,7 +17686,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The soft, graded penumbra at a shadow's border signals that the edge is caused by illumination.",
           "needsReview": true
         },
         {
@@ -17501,7 +17768,7 @@
               "feedback": "Both."
             }
           ],
-          "explanation": "",
+          "explanation": "Lightness depends on local bottom-up edge signals and also on top-down knowledge of layout, depth and lighting (e.g. Gilchrist, Adelson).",
           "needsReview": true
         },
         {
@@ -17529,7 +17796,8 @@
               "feedback": "Psychological."
             }
           ],
-          "explanation": ""
+          "explanation": "The retinal image only carries luminance (illumination × reflectance mixed together). Reflectance and illumination have to be inferred.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x01110",
@@ -17556,7 +17824,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Gilchrist (1980) showed that the perceived depth arrangement of surfaces changes their perceived lightness, so lightness isn't just local ratios.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x0211",
@@ -17583,7 +17852,7 @@
               "feedback": "That's illumination."
             }
           ],
-          "explanation": "",
+          "explanation": "Natural surface reflectances range from about 3% (black velvet) to about 90% (white snow or paper), roughly 30:1, which is tiny compared with illumination.",
           "needsReview": true
         },
         {
@@ -17611,7 +17880,7 @@
               "feedback": "It varies hugely."
             }
           ],
-          "explanation": "",
+          "explanation": "Illumination can vary by many orders of magnitude (moonlight to sunlight), far more than the roughly 30:1 range of reflectance.",
           "needsReview": true
         },
         {
@@ -17639,7 +17908,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Wallach showed that a disk's perceived lightness depends on the luminance ratio between the disk and its surround, not on its absolute luminance.",
           "needsReview": true
         },
         {
@@ -17667,7 +17936,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the Gelb effect, a black paper lit by a hidden spotlight looks white because it is the brightest thing present. Placing a real white paper next to it re-anchors the scale and it looks black.",
           "needsReview": true
         },
         {
@@ -17695,7 +17964,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The highest-luminance rule anchors lightness by treating the brightest region in the scene (or framework) as white.",
           "needsReview": true
         },
         {
@@ -17723,7 +17992,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The area rule says that the larger a region is, the more it tends to look white (lighter), which competes with the highest-luminance rule.",
           "needsReview": true
         },
         {
@@ -17751,7 +18020,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Land's retinex theory computes lightness from ratios at edges combined across the image, aiming to explain colour and lightness constancy.",
           "needsReview": true
         },
         {
@@ -17779,7 +18048,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In White's illusion, identical grey bars look different depending on which stripes they seem to belong to. Grouping, not local contrast, sets their lightness.",
           "needsReview": true
         },
         {
@@ -17807,7 +18076,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A uniform grey ring on a split background looks the same grey all round. Adding a line splits it into two parts that are compared with different surrounds, so the halves look different.",
           "needsReview": true
         },
         {
@@ -17835,7 +18104,8 @@
               "feedback": "Reflectance."
             }
           ],
-          "explanation": ""
+          "explanation": "Illuminance is the light falling on a surface, measured in lux (lumens per m²).",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02111",
@@ -17862,7 +18132,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Luminance is the light coming from a surface towards the eye, measured in candela per square metre (cd/m²).",
           "needsReview": true
         },
         {
@@ -17890,7 +18160,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "X-junctions where luminance relationships are preserved across the crossing lines signal transparency, i.e. one surface seen through another.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02113",
@@ -17917,7 +18188,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The visual system assumes light comes from above, which lets it interpret shading as bumps or dents.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02114",
@@ -17944,7 +18216,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Inverting the photo flips where the shading falls. With the light-from-above assumption, craters are then read as bumps.",
           "needsReview": true
         },
         {
@@ -17972,7 +18244,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Assimilation is the opposite of contrast: a grey takes on the lightness of nearby elements, as in White's illusion.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02116",
@@ -17999,7 +18272,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Gilchrist's anchoring theory groups regions into frameworks (e.g. a lit area and a shadowed area), each anchored by its own highest luminance.",
           "needsReview": true
         },
         {
@@ -18027,7 +18300,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Scission is splitting the image into separate layers, such as reflectance and illumination, or a transparent surface over an object.",
           "needsReview": true
         },
         {
@@ -18055,7 +18328,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In the Benary cross, the triangles have identical local surrounds but seem to belong to different figures. This changes their perceived lightness and shows grouping matters.",
           "needsReview": true
         },
         {
@@ -18083,7 +18356,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Munsell value is the lightness dimension of the Munsell system, in perceptually equal steps from black (0) to white (10). Hue and chroma are the other two.",
           "needsReview": true
         },
         {
@@ -18111,7 +18384,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Lightness constancy lets us recognise objects by their surface properties despite changing light, such as sun, shade and indoor lighting.",
           "needsReview": true
         },
         {
@@ -18139,7 +18412,8 @@
               "feedback": "Physical."
             }
           ],
-          "explanation": ""
+          "explanation": "Brightness is perceptual: how intense light from a region appears. Luminance is its physical counterpart.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02122",
@@ -18166,7 +18440,8 @@
               "feedback": "Illuminance."
             }
           ],
-          "explanation": ""
+          "explanation": "Reflectance is the physical proportion of incident light a surface reflects. Lightness is its perceptual correlate.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02123",
@@ -18193,7 +18468,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Craik-O'Brien-Cornsweet effect shows that a sharp edge alone can make two equal-luminance regions look different in lightness.",
           "needsReview": true
         },
         {
@@ -18221,7 +18496,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Simultaneous contrast: a grey on a white surround looks darker than the same grey on a black surround.",
           "needsReview": true
         },
         {
@@ -18249,7 +18524,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Shadows normally have soft, fuzzy edges (penumbrae) because light sources aren't points. Reflectance edges are usually sharp.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02126",
@@ -18276,7 +18552,7 @@
               "feedback": "It can't."
             }
           ],
-          "explanation": "",
+          "explanation": "Luminance is the product of reflectance and illumination, so a high luminance could be a dark surface in bright light or a white surface in dim light.",
           "needsReview": true
         },
         {
@@ -18358,7 +18634,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lightness in real scenes depends on edges, grouping into frameworks, perceived depth and inferred lighting, not on luminance alone.",
           "needsReview": true
         },
         {
@@ -18386,7 +18662,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Because luminance mixes reflectance and illumination, a white sheet in shade and a grey sheet in sun can send the same luminance to the eye. Constancy still lets us see them as white and grey.",
+          "needsReview": true
         },
         {
           "id": "vse-lightness-x02130",
@@ -18413,7 +18690,8 @@
               "feedback": "Physical."
             }
           ],
-          "explanation": ""
+          "explanation": "Lightness is the perceptual correlate of surface reflectance. Brightness corresponds to luminance.",
+          "needsReview": true
         }
       ],
       "goDeeper": [],
