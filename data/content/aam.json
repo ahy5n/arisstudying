@@ -160,7 +160,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The working-distance lens is the dioptric value of the working distance: 1 ÷ 0.5 m = +2.00 D.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0032",
@@ -187,7 +188,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Net = gross − working-distance lens: −1.00 − (+1.50) = −2.50 DS.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0033",
@@ -214,7 +216,8 @@
               "feedback": "Neutral shows no movement."
             }
           ],
-          "explanation": ""
+          "explanation": "'With' movement means the far point is behind the examiner (or the eye is hyperopic), so add plus until neutral.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0034",
@@ -241,7 +244,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Close to neutral, moving slightly forward should give 'with' movement and moving slightly back should give 'against'. This confirms you're at the reversal point.",
           "needsReview": true
         },
         {
@@ -269,7 +272,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fixing the near light stimulates accommodation, which makes the eye seem more myopic. A distant target keeps accommodation relaxed.",
           "needsReview": true
         },
         {
@@ -297,7 +300,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Use your right eye for their right eye (and left for left) so you stay close to the patient's visual axis without blocking the fixating eye.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0037",
@@ -324,7 +328,8 @@
               "feedback": "At neutral the pupil fills."
             }
           ],
-          "explanation": ""
+          "explanation": "As you approach neutral, the reflex gets brighter, moves faster and widens until it fills the pupil.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0131",
@@ -351,7 +356,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "'Against' movement means the far point lies between you and the patient (myopia beyond the working distance), so add minus.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0132",
@@ -378,7 +384,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "At 67 cm the working-distance lens is 1 ÷ 0.67 ≈ +1.50 D.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0133",
@@ -405,7 +412,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Net = gross − working-distance lens: +3.00 − 2.00 = +1.00 DS.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0134",
@@ -432,7 +440,8 @@
               "feedback": "Transposes to the wrong axis."
             }
           ],
-          "explanation": ""
+          "explanation": "Subtracting +1.50 gives −2.50 horizontally and −3.50 vertically. The vertical has more minus, so the minus cylinder (−1.00) is at axis 180: −2.50 / −1.00 × 180.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0135",
@@ -513,7 +522,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A scissors reflex (two bands moving towards and away from each other) means irregular astigmatism, for example keratoconus.",
           "needsReview": true
         },
         {
@@ -541,7 +550,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the streak isn't lined up with a principal meridian, the reflex appears broken or offset from the streak. Rotate the streak until they line up to find the axis.",
           "needsReview": true
         },
         {
@@ -569,7 +578,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "MEM dynamic retinoscopy is done while the patient views a near target. It measures the lag (or lead) of accommodation.",
           "needsReview": true
         },
         {
@@ -597,7 +606,7 @@
               "feedback": "Sometimes."
             }
           ],
-          "explanation": "",
+          "explanation": "Cycloplegic drops paralyse accommodation, revealing latent hyperopia in children that active accommodation would otherwise hide.",
           "needsReview": true
         },
         {
@@ -625,7 +634,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far from neutral, the reflex is dull, slow and narrow, which means a large refractive error.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0251",
@@ -652,7 +662,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "'With' movement means the far point is behind the examiner, so the eye is hyperopic, emmetropic or less myopic than the working distance.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0252",
@@ -679,7 +690,8 @@
               "feedback": "Hyperopia gives with."
             }
           ],
-          "explanation": ""
+          "explanation": "'Against' movement means the far point lies between you and the patient, i.e. myopia greater than the working distance's dioptric value.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0253",
@@ -706,7 +718,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "At neutral, the patient's far point (with the lens in place) is at the examiner's peephole, so the pupil fills with light.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0254",
@@ -733,7 +746,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Net = +4.50 − 1.50 = +3.00 DS.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0255",
@@ -760,7 +774,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Net = −0.50 − 2.00 = −2.50 DS.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0256",
@@ -787,7 +802,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Net = +1.50 − 1.50 = plano. The eye is emmetropic in that meridian.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0257",
@@ -814,7 +830,8 @@
               "feedback": "Sphere."
             }
           ],
-          "explanation": ""
+          "explanation": "Subtracting +1.50 gives +0.50 vertically and +1.50 horizontally. The vertical is less plus, so the minus cylinder is at 180: +1.50 / −1.00 × 180.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0258",
@@ -841,7 +858,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Subtracting +2.00 gives −4.00 horizontally and −5.00 vertically, so −4.00 / −1.00 × 180.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0259",
@@ -922,7 +940,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Working off the visual axis measures an oblique, off-axis refraction, which mainly introduces errors in the cylinder.",
           "needsReview": true
         },
         {
@@ -1004,7 +1022,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The working-distance lens is calculated for one distance. If you drift closer or further away, the net result is wrong.",
           "needsReview": true
         },
         {
@@ -1032,7 +1050,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dim lighting makes the reflex easier to see against the pupil and enlarges the pupils.",
           "needsReview": true
         },
         {
@@ -1060,7 +1078,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Mohindra near retinoscopy is done at about 50 cm in a dark room with the child fixing the scope light. A standard adjustment is used in place of the full working-distance lens.",
           "needsReview": true
         },
         {
@@ -1088,7 +1106,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Media opacities such as dense cataract or corneal scarring block the light, so the reflex is poor or absent.",
           "needsReview": true
         },
         {
@@ -1116,7 +1134,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinoscopy is objective. It doesn't need the child to read or respond, which makes it ideal for young or non-verbal patients.",
           "needsReview": true
         },
         {
@@ -1144,7 +1162,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'With' in one meridian and 'against' in the other means one meridian's far point is behind you and the other's is in front, which suggests mixed astigmatism at that distance.",
           "needsReview": true
         },
         {
@@ -1226,7 +1244,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A fogging lens over the other eye keeps it blurred for distance, which helps keep accommodation relaxed while you examine the first eye.",
           "needsReview": true
         },
         {
@@ -1254,7 +1272,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A narrow, slow, dim reflex shows you're far from neutral, so make larger lens changes to get there faster.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02521",
@@ -1281,7 +1300,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinoscopy measures refractive error objectively, from the movement of the reflex.",
           "needsReview": true
         },
         {
@@ -1309,7 +1328,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Neutral lies between the last 'with' (+3.00) and the first 'against' (+3.50), so about +3.25.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02523",
@@ -1336,7 +1356,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near neutral, the reflex widens and may fill the whole pupil.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02524",
@@ -1363,7 +1384,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Retinoscopy and subjective refraction check each other. Large differences can reveal accommodation, technique errors or pathology.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02525",
@@ -1390,7 +1412,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fixing the near light makes the patient accommodate, so the result shows more minus (less plus) than the true distance Rx.",
           "needsReview": true
         },
         {
@@ -1418,7 +1440,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When the reflex lines up with the streak at 30°, that is one principal meridian. The other is 90° away, at 120°.",
           "needsReview": true
         },
         {
@@ -1446,7 +1468,7 @@
               "feedback": "Rotate to align."
             }
           ],
-          "explanation": "",
+          "explanation": "A reflex at an angle to the streak (skew) means the streak isn't on a principal meridian. Rotate it until the reflex lines up.",
           "needsReview": true
         },
         {
@@ -1474,7 +1496,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Use your left eye for the patient's left eye to stay close to their visual axis.",
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02529",
@@ -1501,7 +1524,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A target that's visible but can't be resolved in detail gives the patient nothing to focus on, which discourages accommodation.",
           "needsReview": true
         },
         {
@@ -1529,7 +1552,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cycloplegia removes accommodation, but the optics of the working distance are unchanged, so you still subtract the working-distance lens.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1748,7 +1772,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Red focuses further back than green. If red is clearer, the image sits in front of the retina (over-plussed or under-minused), so add −0.25.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0033",
@@ -1829,7 +1854,8 @@
               "feedback": "Then you shouldn't give it."
             }
           ],
-          "explanation": ""
+          "explanation": "Each −0.25 D should improve VA by about one line. If it doesn't, the extra minus is probably just stimulating accommodation, so don't give it.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0035",
@@ -1856,7 +1882,8 @@
               "feedback": "That would suggest over-minus."
             }
           ],
-          "explanation": ""
+          "explanation": "With the right Rx, +1.00 should blur VA to about 6/12–6/18. Clearer than that suggests the Rx has too much minus.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0036",
@@ -1937,7 +1964,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Extra minus can make letters look smaller and darker as the patient accommodates. Only give it if the letters are actually clearer and VA improves.",
           "needsReview": true
         },
         {
@@ -2019,7 +2046,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A pinhole removes most refractive blur. If VA doesn't improve, the loss is probably due to pathology or amblyopia rather than refractive error.",
           "needsReview": true
         },
         {
@@ -2047,7 +2074,7 @@
               "feedback": "It works in colour-deficient patients too."
             }
           ],
-          "explanation": "",
+          "explanation": "Shorter (green) wavelengths focus in front of longer (red) ones because of longitudinal chromatic aberration. The duochrome compares the two to judge focus.",
           "needsReview": true
         },
         {
@@ -2075,7 +2102,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The test compares the sharpness of the letters rather than their colour, so it still works for red-green colour-deficient patients.",
           "needsReview": true
         },
         {
@@ -2103,7 +2130,7 @@
               "feedback": "That's minus."
             }
           ],
-          "explanation": "",
+          "explanation": "Fogging with about +1.00 to +1.50 D blurs the eye so accommodation relaxes. Plus is then reduced in 0.25 steps.",
           "needsReview": true
         },
         {
@@ -2131,7 +2158,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Rule of 30: multiply the clock hour of the clearest line by 30. 3 × 30 = 90, so the minus cylinder axis is 90.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0136",
@@ -2158,7 +2186,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Maximum plus for best VA avoids over-minus, which would make the patient accommodate unnecessarily and can cause strain.",
           "needsReview": true
         },
         {
@@ -2186,7 +2214,7 @@
               "feedback": "There is."
             }
           ],
-          "explanation": "",
+          "explanation": "Testing each eye separately finds each eye's own Rx and shows up a weaker or amblyopic eye that binocular testing would hide.",
           "needsReview": true
         },
         {
@@ -2214,7 +2242,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the duochrome stays red even with extra −0.25, finish on the point where it is equal or just red. More minus would over-minus.",
           "needsReview": true
         },
         {
@@ -2242,7 +2270,8 @@
               "feedback": "Less VA."
             }
           ],
-          "explanation": ""
+          "explanation": "Both give 6/6, so choose the least minus (most plus) that gives best VA: −2.00.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x01310",
@@ -2269,7 +2298,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The best vision sphere is the most plus (least minus) sphere that gives the best VA.",
           "needsReview": true
         },
         {
@@ -2297,7 +2326,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "6/12 means the patient reads at 6 m what a standard eye could read at 12 m.",
           "needsReview": true
         },
         {
@@ -2325,7 +2354,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "logMAR = log₁₀(MAR). At 6/6 the MAR is 1 minute of arc, and log 1 = 0.0.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0253",
@@ -2352,7 +2382,8 @@
               "feedback": "6/60."
             }
           ],
-          "explanation": ""
+          "explanation": "6/12 gives MAR = 12/6 = 2, and log 2 ≈ 0.3.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0254",
@@ -2379,7 +2410,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "6/60 gives MAR = 10, and log 10 = 1.0.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0255",
@@ -2406,7 +2438,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each logMAR line is 0.1 log units with 5 letters, so each letter is worth 0.02.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0256",
@@ -2433,7 +2466,8 @@
               "feedback": "6/6."
             }
           ],
-          "explanation": ""
+          "explanation": "Decimal VA = 6 ÷ 12 = 0.5.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0257",
@@ -2460,7 +2494,7 @@
               "feedback": "Detail size."
             }
           ],
-          "explanation": "",
+          "explanation": "A 6/6 letter subtends 5 minutes of arc overall, and each stroke or gap is 1 minute of arc.",
           "needsReview": true
         },
         {
@@ -2488,7 +2522,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Viewing the reversed chart in a mirror 3 m away doubles the optical path, giving an effective 6 m test distance.",
           "needsReview": true
         },
         {
@@ -2516,7 +2550,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A pinhole of about 1–1.2 mm cuts out refractive blur without making diffraction too bad.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02510",
@@ -2543,7 +2578,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "Over-minus makes the patient accommodate all the time, which can cause eye strain and headaches, especially at near.",
           "needsReview": true
         },
         {
@@ -2571,7 +2606,7 @@
               "feedback": "Not this test."
             }
           ],
-          "explanation": "",
+          "explanation": "A quick ±0.25 twirl checks the patient prefers the current sphere. They should reject both the extra plus and the extra minus.",
           "needsReview": true
         },
         {
@@ -2599,7 +2634,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Rotating a stenopaeic slit and refining the sphere in each meridian finds the cylinder when VA is poor or the cornea is irregular and the JCC doesn't work well.",
           "needsReview": true
         },
         {
@@ -2627,7 +2662,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Young hyperopes can hold some hyperopia with accommodation (latent hyperopia). They accept less plus subjectively than retinoscopy shows.",
           "needsReview": true
         },
         {
@@ -2655,7 +2690,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The usual order is best sphere, then cylinder (axis then power), then a sphere recheck, then binocular balance.",
           "needsReview": true
         },
         {
@@ -2683,7 +2718,7 @@
               "feedback": "Not exact."
             }
           ],
-          "explanation": "",
+          "explanation": "Record partial lines with the letters missed (e.g. 6/6−2), which gives a more exact measure.",
           "needsReview": true
         },
         {
@@ -2711,7 +2746,8 @@
               "feedback": "Less VA."
             }
           ],
-          "explanation": ""
+          "explanation": "Both give 6/9, so choose the least minus: −1.00.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02517",
@@ -2738,7 +2774,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A trial frame gives a natural head posture and the true vertex distance. This is useful for high Rxs, children, low vision and checking a final Rx.",
           "needsReview": true
         },
         {
@@ -2820,7 +2856,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If VA improves with +1.00, the eye was over-minused: it was accommodating to overcome the extra minus.",
           "needsReview": true
         },
         {
@@ -2848,7 +2884,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "VA varies with chart luminance and contrast, so these need to be standardised for results to be valid and repeatable.",
           "needsReview": true
         },
         {
@@ -2876,7 +2912,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "logMAR charts have 5 letters per line with proportional spacing, so the task is the same at every size. Snellen charts have fewer letters at the top.",
           "needsReview": true
         },
         {
@@ -2904,7 +2940,8 @@
               "feedback": "Near."
             }
           ],
-          "explanation": ""
+          "explanation": "Snellen notation gives the test distance over the distance at which the letter subtends 5 minutes (e.g. 6/12).",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02523",
@@ -2931,7 +2968,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Unaided VA is needed for records, driving and occupational standards, and for comparison over time.",
           "needsReview": true
         },
         {
@@ -2959,7 +2996,8 @@
               "feedback": "6/60."
             }
           ],
-          "explanation": ""
+          "explanation": "6/9 gives MAR = 1.5, and log 1.5 ≈ 0.18.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02525",
@@ -2986,7 +3024,8 @@
               "feedback": "6/9."
             }
           ],
-          "explanation": ""
+          "explanation": "6/24 gives MAR = 4, and log 4 ≈ 0.6.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02526",
@@ -3013,7 +3052,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Changing the cylinder changes the spherical equivalent, so recheck the best sphere afterwards.",
           "needsReview": true
         },
         {
@@ -3041,7 +3080,8 @@
               "feedback": "Ask."
             }
           ],
-          "explanation": ""
+          "explanation": "Ask a neutral comparison question, such as 'better, worse or the same?', so you don't lead the patient.",
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02528",
@@ -3068,7 +3108,7 @@
               "feedback": "Some blur."
             }
           ],
-          "explanation": "",
+          "explanation": "Under-correcting a myope leaves residual myopia, so distance vision is slightly blurred while near vision stays clear.",
           "needsReview": true
         },
         {
@@ -3096,7 +3136,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When red and green are equally clear, the circle of least confusion (the yellow focus) is on the retina.",
           "needsReview": true
         },
         {
@@ -3124,7 +3164,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fogging the first eye while the other is uncovered keeps both eyes' accommodation relaxed, because accommodation is linked between the eyes.",
           "needsReview": true
         }
       ],
@@ -3308,7 +3348,8 @@
               "feedback": "Later."
             }
           ],
-          "explanation": ""
+          "explanation": "Refine the axis first, because an axis error leaves a residual cylinder that makes the power look wrong.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0032",
@@ -3443,7 +3484,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Higher cylinders make axis errors more noticeable, so use small steps (about 5°) for a −2.00 DC cylinder.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0035",
@@ -3470,7 +3512,8 @@
               "feedback": "Only to keep the spherical equivalent."
             }
           ],
-          "explanation": ""
+          "explanation": "If the patient prefers the minus position on the power check, add −0.25 DC. Adjust the sphere by +0.25 for every −0.50 DC to keep the spherical equivalent.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0036",
@@ -3605,7 +3648,8 @@
               "feedback": "The reverse."
             }
           ],
-          "explanation": ""
+          "explanation": "With a weak cylinder, small axis changes barely alter the residual astigmatism, so larger steps are needed for the patient to notice a difference.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0131",
@@ -3632,7 +3676,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A ±0.25 JCC has +0.25 in one principal meridian and −0.25 in the other, which equals a −0.50 DC cylinder with a +0.25 sphere.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0132",
@@ -3713,7 +3758,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The handle sits at 45° to both principal meridians. Flipping it around the handle swaps the plus and minus meridians.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0134",
@@ -3740,7 +3786,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "For the power check, one JCC principal meridian is placed on the cylinder axis, so flipping it adds or removes cylinder power.",
           "needsReview": true
         },
         {
@@ -3768,7 +3814,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "To check for cylinder, present the JCC with its meridians at 90/180 and then at 45/135. A clear preference means some cylinder is needed in that direction.",
           "needsReview": true
         },
         {
@@ -3850,7 +3896,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "When the patient alternates between two positions, the axis is bracketed and lies between them. Stop there.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0138",
@@ -3877,7 +3924,8 @@
               "feedback": "Sometimes."
             }
           ],
-          "explanation": ""
+          "explanation": "A ±0.50 JCC gives a larger blur difference, which helps patients with reduced VA tell the positions apart.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0139",
@@ -3904,7 +3952,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If both positions look equally clear in the power check, the cylinder power is correct.",
           "needsReview": true
         },
         {
@@ -3986,7 +4034,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A ±0.25 JCC is +0.25 in one meridian and −0.25 in the other, i.e. +0.25 / −0.50 × axis.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0252",
@@ -4013,7 +4062,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The JCC's spherical equivalent is +0.25 + (−0.50 ÷ 2) = 0, so it doesn't change the mean focus.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0253",
@@ -4040,7 +4090,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "SE = sphere + half the cylinder: −1.00 + (−0.75) = −1.75 D.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0254",
@@ -4067,7 +4118,8 @@
               "feedback": "Adjust."
             }
           ],
-          "explanation": ""
+          "explanation": "Reducing the minus cylinder by 0.50 raises the SE by +0.25, so add −0.25 to the sphere to keep the SE.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0255",
@@ -4094,7 +4146,8 @@
               "feedback": "Keep it brief."
             }
           ],
-          "explanation": ""
+          "explanation": "Show each position for about 1–2 seconds. Longer lets the patient accommodate and makes it hard to remember the first view.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0256",
@@ -4121,7 +4174,7 @@
               "feedback": "Not a comparison."
             }
           ],
-          "explanation": "",
+          "explanation": "'Which is clearer, one or two, or the same?' gives the choices equally without suggesting an answer.",
           "needsReview": true
         },
         {
@@ -4149,7 +4202,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In a phoropter, the JCC is built in and flipped between its two positions with a knob.",
           "needsReview": true
         },
         {
@@ -4177,7 +4230,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A cluster of dots or round letters lets the patient judge which position looks rounder and clearer.",
           "needsReview": true
         },
         {
@@ -4205,7 +4258,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Cylinder axes are recorded from 1 to 180° (180 rather than 0), measured anticlockwise from the patient's right as you face them.",
           "needsReview": true
         },
         {
@@ -4233,7 +4286,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Axis 180 means the cylinder axis is horizontal. Its power acts in the vertical meridian.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02511",
@@ -4260,7 +4314,7 @@
               "feedback": "Sphere first."
             }
           ],
-          "explanation": "",
+          "explanation": "After refining the power, recheck the axis if the power changed a lot, then recheck the sphere.",
           "needsReview": true
         },
         {
@@ -4288,7 +4342,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "The JCC difference is small, so the patient needs good acuity to compare positions. Too much blur makes their answers unreliable.",
           "needsReview": true
         },
         {
@@ -4316,7 +4370,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If the patient can't choose at any axis, the axis is already right or there is little or no cylinder.",
           "needsReview": true
         },
         {
@@ -4344,7 +4398,8 @@
               "feedback": "Not directly."
             }
           ],
-          "explanation": ""
+          "explanation": "Preferring the plus position means there is too much minus cylinder, so reduce it by 0.25 DC.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02515",
@@ -4371,7 +4426,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Cylinder power is changed in 0.25 DC steps during the JCC check.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02516",
@@ -4398,7 +4454,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A fan and block chart, used with fogging, can find the cylinder axis and estimate its power before JCC refinement.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02517",
@@ -4425,7 +4482,8 @@
               "feedback": "Too small."
             }
           ],
-          "explanation": ""
+          "explanation": "With a low cylinder, small axis changes are hard to detect, so use larger steps of about 15°.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02518",
@@ -4452,7 +4510,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With a high cylinder, small axis errors matter a lot, so use small steps of about 5°.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02519",
@@ -4479,7 +4538,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Residual astigmatism from an axis error is about 2 × C × sin(error), so for the same angle it grows with cylinder power.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02520",
@@ -4506,7 +4566,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "2 × 2.00 × sin 10° ≈ 0.70 DC of residual cylinder.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02521",
@@ -4533,7 +4594,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "The JCC relies on the patient noticing small changes in clarity. Poor VA or irregular astigmatism make that difficult.",
           "needsReview": true
         },
         {
@@ -4561,7 +4622,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For the axis check, the handle is aligned with the cylinder axis, so flipping it rotates the effective axis either way.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02523",
@@ -4588,7 +4650,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "For the power check, a principal meridian of the JCC (the red or white dot) is placed on the cylinder axis.",
           "needsReview": true
         },
         {
@@ -4616,7 +4678,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Bracketing means narrowing in on the axis with smaller and smaller steps until the patient's choices reverse and settle.",
           "needsReview": true
         },
         {
@@ -4644,7 +4706,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The circle of least confusion must be on the retina so that both JCC positions blur equally around it.",
           "needsReview": true
         },
         {
@@ -4672,7 +4734,7 @@
               "feedback": "Check first."
             }
           ],
-          "explanation": "",
+          "explanation": "Always choosing the same position often means misunderstanding or poor technique, so re-explain the task and check your lens placement.",
           "needsReview": true
         },
         {
@@ -4700,7 +4762,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Minus makes letters look smaller and blacker, so ask which looks clearer rather than which looks darker.",
           "needsReview": true
         },
         {
@@ -4728,7 +4790,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "With plus cylinders, turn the axis towards the white (plus) dot the patient prefers. With minus cylinders, follow the red dot.",
           "needsReview": true
         },
         {
@@ -4756,7 +4818,8 @@
               "feedback": "Not if needed."
             }
           ],
-          "explanation": ""
+          "explanation": "Prescribe the least cylinder that gives the best VA to avoid unnecessary distortion.",
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x02530",
@@ -4783,7 +4846,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The cylinder power and axis are needed to make and check the spectacles, and to compare with future prescriptions.",
           "needsReview": true
         }
       ],
@@ -5184,7 +5247,8 @@
               "feedback": "Not the example given."
             }
           ],
-          "explanation": ""
+          "explanation": "A low hyperope with near symptoms benefits from the maximum plus being found binocularly, where accommodation relaxes more fully.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0035",
@@ -5211,7 +5275,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A 6 m chart presents about −0.16 D of vergence, so some patients prefer to keep a little plus in reserve for comfort.",
           "needsReview": true
         },
         {
@@ -5239,7 +5303,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With a binocular refraction there's no separate balancing step, so record that the balance wasn't applicable rather than leaving it blank.",
           "needsReview": true
         },
         {
@@ -5267,7 +5331,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Balancing makes sure both eyes are equally focused (or equally fogged), so accommodation is relaxed equally.",
           "needsReview": true
         },
         {
@@ -5295,7 +5359,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In Turville infinity balance, a septum lets each eye see only part of the chart while both eyes stay open.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0133",
@@ -5376,7 +5441,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vertical prism dissociates the eyes, so the patient sees two charts, one above the other, and compares their clarity.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0135",
@@ -5403,7 +5469,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Balancing compares clarity between the eyes. If best VA differs, equal clarity isn't the right target.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0136",
@@ -5430,7 +5497,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Work out which eye sees the top image (from the prism direction), then add +0.25 to that clearer eye until both are equal.",
           "needsReview": true
         },
         {
@@ -5458,7 +5525,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "After balancing, add plus to both eyes together until best VA is just maintained (maximum plus binocularly).",
           "needsReview": true
         },
         {
@@ -5486,7 +5553,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When VA is unequal (e.g. amblyopia), give each eye its best Rx rather than blurring the good eye to match.",
           "needsReview": true
         },
         {
@@ -5514,7 +5581,7 @@
               "feedback": "Not balancing."
             }
           ],
-          "explanation": "",
+          "explanation": "Polarised duochrome or charts let each eye see different parts of the chart while fusion is kept, with no prism or fog.",
           "needsReview": true
         },
         {
@@ -5542,7 +5609,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Add +0.25 to the clearer eye to blur it slightly, until the two images match.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0251",
@@ -5569,7 +5637,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Accommodation is equal in both eyes (Hering's law), so both need an equally accurate Rx for focus to be balanced.",
           "needsReview": true
         },
         {
@@ -5597,7 +5665,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Binocular summation means binocular VA is usually slightly better than the better eye alone.",
           "needsReview": true
         },
         {
@@ -5625,7 +5693,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fog both eyes by about +0.75 to +1.00 D, to about 6/9, so small differences in blur are easier to compare.",
           "needsReview": true
         },
         {
@@ -5653,7 +5721,7 @@
               "feedback": "You stop."
             }
           ],
-          "explanation": "",
+          "explanation": "Stop when the two images look equal, or when the dominant eye is just 0.25 clearer.",
           "needsReview": true
         },
         {
@@ -5681,7 +5749,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A vertical phoria changes the separation of the dissociated images and can make them harder to compare.",
           "needsReview": true
         },
         {
@@ -5709,7 +5777,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Humphriss fogs one eye by about +0.75 so its central vision is suppressed, while peripheral fusion stays intact and the other eye is refined.",
           "needsReview": true
         },
         {
@@ -5737,7 +5805,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In Turville infinity balance, a septum at the mirror (or chart) blocks each eye from half of the chart.",
           "needsReview": true
         },
         {
@@ -5765,7 +5833,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Alternate occlusion compares the eyes one at a time, so it's less accurate than methods where both eyes view together.",
           "needsReview": true
         },
         {
@@ -5793,7 +5861,7 @@
               "feedback": "Can be."
             }
           ],
-          "explanation": "",
+          "explanation": "Patients with unequal best VA, as in amblyopia, can't be balanced to equal clarity.",
           "needsReview": true
         },
         {
@@ -5821,7 +5889,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A binocular +0.25 at the end checks for over-minus. If the patient accepts it without losing VA, the Rx had too much minus.",
           "needsReview": true
         },
         {
@@ -5849,7 +5917,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Polarised charts show some letters to the right eye only, some to the left only, and some to both, so fusion is kept.",
           "needsReview": true
         },
         {
@@ -5877,7 +5945,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Balancing stops one eye being over- or under-corrected relative to the other, which would leave one eye blurred or straining.",
           "needsReview": true
         },
         {
@@ -5905,7 +5973,8 @@
               "feedback": "One may be clearer."
             }
           ],
-          "explanation": ""
+          "explanation": "If exact balance isn't possible, leave the dominant eye slightly clearer.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02514",
@@ -5932,7 +6001,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Base-up prism moves the image down, so the right eye sees the lower image.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02515",
@@ -5959,7 +6029,8 @@
               "feedback": "Blur the clearer eye."
             }
           ],
-          "explanation": ""
+          "explanation": "The right eye is clearer, so blur it with +0.25 to balance the two eyes.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02516",
@@ -5986,7 +6057,8 @@
               "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "Slightly blurred images make small differences in blur easier to judge, and fogging keeps accommodation relaxed.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02517",
@@ -6013,7 +6085,7 @@
               "feedback": "Investigate."
             }
           ],
-          "explanation": "",
+          "explanation": "Not seeing the second image suggests suppression of one eye, or a large vertical phoria shifting it.",
           "needsReview": true
         },
         {
@@ -6095,7 +6167,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "Presbyopes have little accommodation to compensate, so unequal focus at distance carries through to near and affects comfort.",
           "needsReview": true
         },
         {
@@ -6123,7 +6195,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In Humphriss, one eye is fogged by about +0.75 so its central vision is suppressed while the other eye is refined.",
           "needsReview": true
         },
         {
@@ -6151,7 +6223,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With amblyopia, give each eye its best Rx. Don't blur the good eye to match the weaker one.",
           "needsReview": true
         },
         {
@@ -6179,7 +6251,8 @@
               "feedback": "Needs care but no special chart."
             }
           ],
-          "explanation": ""
+          "explanation": "Alternate occlusion needs no special equipment, but it is less accurate because the eyes aren't viewing together.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02523",
@@ -6206,7 +6279,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "The fogged eye needs to read about 6/12 or worse so its central vision is suppressed, while peripheral fusion is kept.",
           "needsReview": true
         },
         {
@@ -6234,7 +6307,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Accommodation is yoked, so if one eye is under-plussed both eyes accommodate to clear it, and the other eye becomes over-focused and blurred.",
           "needsReview": true
         },
         {
@@ -6262,7 +6335,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Balancing is normally done at distance, and checked at near if needed.",
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02526",
@@ -6289,7 +6363,7 @@
               "feedback": "Some."
             }
           ],
-          "explanation": "",
+          "explanation": "Dissociating methods let cyclophorias and other phorias appear, which can distort the images. Methods that keep fusion avoid this.",
           "needsReview": true
         },
         {
@@ -6317,7 +6391,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A quick dominance test: the patient looks at a distant target through a hole made with their hands, and the eye that lines up with it is dominant.",
           "needsReview": true
         },
         {
@@ -6345,7 +6419,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Balancing first means any plus added binocularly afterwards is shared equally between the eyes.",
           "needsReview": true
         },
         {
@@ -6373,7 +6447,7 @@
               "feedback": "Refine."
             }
           ],
-          "explanation": "",
+          "explanation": "Once the images are equally blurred, remove the fog and refine the Rx binocularly for best VA.",
           "needsReview": true
         },
         {
@@ -6401,7 +6475,7 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism dissociation and alternate occlusion don't rely on fusion, so they suit patients with poor fusion.",
           "needsReview": true
         }
       ],
@@ -6566,7 +6640,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Push-up tends to overestimate and pull-down to underestimate amplitude, so average them: (9 + 7) ÷ 2 = 8 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0032",
@@ -6593,7 +6668,8 @@
               "feedback": "That's for 40."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's average amplitude is 18.5 − 0.3 × age = 18.5 − 6 = 12.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0033",
@@ -6620,7 +6696,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The −3.00 lens adds 3 D of accommodative demand, so amplitude = 3 + 5 = 8 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0034",
@@ -6701,7 +6778,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Accommodative dysfunction can be caused by medication, diabetes, trauma, inflammation, Down's syndrome or cerebral palsy, or it can be idiopathic.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0036",
@@ -6728,7 +6806,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "",
+          "explanation": "Depth of focus and print getting bigger as it approaches let the patient read slightly closer than their true near point, so push-up overestimates.",
           "needsReview": true
         },
         {
@@ -6756,7 +6834,8 @@
               "feedback": "It's useful in younger patients."
             }
           ],
-          "explanation": ""
+          "explanation": "By about 55, true accommodation is almost gone and what's measured is mainly depth of focus.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0131",
@@ -6783,7 +6862,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Amplitude = 1 ÷ near point in metres = 1 ÷ 0.25 = 4 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0132",
@@ -6810,7 +6890,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's minimum is 15 − 0.25 × age = 15 − 10 = 5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0133",
@@ -6837,7 +6918,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's average is 18.5 − 0.3 × age = 18.5 − 12 = 6.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0134",
@@ -6864,7 +6946,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "40 cm needs 2.5 D, and the uncorrected +2.00 D of hyperopia adds to that: 2.5 + 2.00 = 4.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0135",
@@ -6891,7 +6974,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A −3.00 D myope's far point is 1 ÷ 3 = 33 cm, so the target is already in focus and no accommodation is needed.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0136",
@@ -6918,7 +7002,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The near triad is the linked response to near: accommodation, convergence and pupil constriction (miosis).",
           "needsReview": true
         },
         {
@@ -6946,7 +7030,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Accommodative insufficiency means an amplitude below Hofstetter's minimum for age (15 − 0.25 × age), usually with near blur or strain.",
           "needsReview": true
         },
         {
@@ -6974,7 +7058,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The minus side of the flippers needs the patient to accommodate more. Trouble clearing it means difficulty stimulating accommodation.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0139",
@@ -7055,7 +7140,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When the target moves away, blur is noticed later because of depth of focus, so the measured near point is further away and amplitude reads lower.",
           "needsReview": true
         },
         {
@@ -7083,7 +7168,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In accommodation the ciliary muscle contracts and the zonules slacken, so the elastic lens rounds up and its power increases.",
           "needsReview": true
         },
         {
@@ -7111,7 +7196,8 @@
               "feedback": "The anterior surface."
             }
           ],
-          "explanation": ""
+          "explanation": "The front lens surface steepens much more than the back surface during accommodation.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0263",
@@ -7138,7 +7224,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Parasympathetic fibres from the Edinger-Westphal nucleus travel with the oculomotor nerve (CN III) via the ciliary ganglion to the ciliary muscle.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0264",
@@ -7165,7 +7252,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Presbyopia is mainly caused by the crystalline lens hardening and losing elasticity with age. The ciliary muscle still works.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0265",
@@ -7192,7 +7280,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's minimum is 15 − 0.25 × 50 = 2.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0266",
@@ -7219,7 +7308,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's average is 18.5 − 0.3 × 50 = 3.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0267",
@@ -7246,7 +7336,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's maximum is 25 − 0.4 × 30 = 13 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0268",
@@ -7273,7 +7364,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Amplitude = 1 ÷ near point in metres = 1 ÷ 0.20 = 5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0269",
@@ -7300,7 +7392,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "25 cm needs 4 D. The uncorrected −2.00 D myopia already provides 2 D, so the demand is 4 − 2 = 2 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02610",
@@ -7327,7 +7420,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "50 cm needs 2 D, and the uncorrected +3.00 D hyperopia must be overcome too, so the demand is 2 + 3 = 5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02611",
@@ -7354,7 +7448,8 @@
               "feedback": "Hyperope."
             }
           ],
-          "explanation": ""
+          "explanation": "A myope's far point is 1 ÷ myopia: 1 ÷ 4 = 0.25 m, i.e. 25 cm in front of the eye.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02612",
@@ -7381,7 +7476,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near point = 1 ÷ (myopia + amplitude) = 1 ÷ (4 + 6) = 0.10 m, i.e. 10 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02613",
@@ -7408,7 +7504,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near point = 1 ÷ (amplitude − hyperopia) = 1 ÷ (6 − 2) = 0.25 m, i.e. 25 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02614",
@@ -7435,7 +7532,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Minus lens to blur: amplitude = demand + lens = 2.50 (40 cm) + 4.00 = 6.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02615",
@@ -7462,7 +7560,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Accommodative excess (or spasm) keeps the eye focused too close, which causes pseudomyopia: distance blur that varies.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02616",
@@ -7489,7 +7588,7 @@
               "feedback": "Usually a small lag is normal."
             }
           ],
-          "explanation": "",
+          "explanation": "A lead means the eye accommodates more than the target needs. A small lag is the normal response.",
           "needsReview": true
         },
         {
@@ -7517,7 +7616,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With no stimulus (e.g. in the dark), accommodation rests at its tonic level, about 1 D (roughly 0.5–1.5 D).",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02618",
@@ -7544,7 +7644,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "In the dark, with no detail to focus on, accommodation drifts to its tonic resting state (about 1 D). This makes the eye slightly myopic, which is night myopia.",
           "needsReview": true
         },
         {
@@ -7572,7 +7672,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Anticholinergic drugs (e.g. some antihistamines, antidepressants, antispasmodics) block the parasympathetic supply to the ciliary muscle and reduce accommodation.",
           "needsReview": true
         },
         {
@@ -7600,7 +7700,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Small pupils increase depth of focus, so print can be seen clearly a little closer than the true accommodative near point.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02621",
@@ -7627,7 +7728,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Accommodative convergence is the convergence driven by accommodating. The two are neurally linked in the near response.",
           "needsReview": true
         },
         {
@@ -7655,7 +7756,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The AC/A ratio is the amount of accommodative convergence (in Δ) per dioptre of accommodation.",
           "needsReview": true
         },
         {
@@ -7683,7 +7784,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In Nott dynamic retinoscopy, the target stays fixed while the retinoscope is moved back until neutral. The difference in dioptres gives the lag.",
           "needsReview": true
         },
         {
@@ -7711,7 +7812,8 @@
               "feedback": "Reflection."
             }
           ],
-          "explanation": ""
+          "explanation": "Donders published an early table of amplitude against age. Duane later produced the widely used curves.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02625",
@@ -7738,7 +7840,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "Because of vertex distance effects, corrected myopes in spectacles accommodate slightly less at near than emmetropes.",
           "needsReview": true
         },
         {
@@ -7766,7 +7868,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "Because of vertex distance effects, hyperopes in plus spectacles accommodate slightly more at near than emmetropes.",
           "needsReview": true
         },
         {
@@ -7794,7 +7896,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Proximal (psychic) accommodation is driven by knowing or perceiving that an object is near, not by blur.",
           "needsReview": true
         },
         {
@@ -7822,7 +7924,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Accommodative facility measures how quickly the eye can switch focus, e.g. cycles per minute with ±2.00 flippers.",
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x02629",
@@ -7849,7 +7952,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An unexpectedly low amplitude in a young patient can be caused by medication, systemic illness, trauma or uncorrected latent hyperopia, so investigate.",
           "needsReview": true
         },
         {
@@ -7877,7 +7980,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Demand = 1 ÷ distance in metres = 1 ÷ 0.33 ≈ 3 D.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -8041,7 +8145,8 @@
               "feedback": "That's 60+ at 33 cm."
             }
           ],
-          "explanation": ""
+          "explanation": "On the add table, a 55-year-old reading at 40 cm needs about +1.75 as a tentative add. Closer distances need more.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0032",
@@ -8068,7 +8173,8 @@
               "feedback": "That's 50 at 50–60 cm."
             }
           ],
-          "explanation": ""
+          "explanation": "At 50–60 cm a 45-year-old needs very little help, about +0.50 on the table.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0033",
@@ -8095,7 +8201,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Try −0.25 first so you find the least plus that still gives clear near vision, and avoid over-plussing.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0034",
@@ -8122,7 +8229,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The far end is 1 ÷ add = 1 ÷ 2.00 = 50 cm. The near end is 1 ÷ (add + amplitude) = 1 ÷ 3.00 = 33 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0035",
@@ -8149,7 +8257,7 @@
               "feedback": "Not needed."
             }
           ],
-          "explanation": "",
+          "explanation": "If the range doesn't reach the music stand, reduce the add or give an intermediate correction for that distance.",
           "needsReview": true
         },
         {
@@ -8177,7 +8285,7 @@
               "feedback": "They sometimes are."
             }
           ],
-          "explanation": "",
+          "explanation": "Adds are usually equal, but amblyopia, anisometropia or unequal accommodative lag can justify unequal adds after rechecking balance and end points.",
           "needsReview": true
         },
         {
@@ -8205,7 +8313,8 @@
               "feedback": "Many presbyopes need more."
             }
           ],
-          "explanation": ""
+          "explanation": "Adds rarely need to exceed about +3.00 D for normal reading. Higher adds are mainly used for low-vision magnification.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0131",
@@ -8232,7 +8341,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "33 cm needs 3.00 D. Keeping half the amplitude (1.50) in reserve leaves 3.00 − 1.50 = +1.50 for the add.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0132",
@@ -8259,7 +8369,8 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": ""
+          "explanation": "40 cm needs 2.50 D. Half of 1.00 D amplitude is 0.50, so the add is 2.50 − 0.50 = +2.00.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0133",
@@ -8286,7 +8397,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 2.50 = 40 cm. Near end = 1 ÷ (2.50 + 1.00) ≈ 29 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0134",
@@ -8313,7 +8425,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Too much plus brings the whole clear range closer, so the patient has to hold things too near.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0135",
@@ -8340,7 +8453,7 @@
               "feedback": "Not for presbyopes."
             }
           ],
-          "explanation": "",
+          "explanation": "An intermediate (computer) add is usually about half to two-thirds of the near add, to focus at about 50–70 cm.",
           "needsReview": true
         },
         {
@@ -8368,7 +8481,8 @@
               "feedback": "They do."
             }
           ],
-          "explanation": ""
+          "explanation": "A standard monofocal IOL can't accommodate, so pseudophakic patients need a full reading add.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0137",
@@ -8395,7 +8509,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Uncorrected hyperopes use some of their accommodation for distance, so they run out sooner at near and notice presbyopia earlier.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0138",
@@ -8422,7 +8537,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Presbyopic symptoms usually start around 40–45 years as amplitude falls towards the near demand.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0139",
@@ -8449,7 +8565,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Check the add by measuring the patient's range of clear vision at the distances they actually use.",
           "needsReview": true
         },
         {
@@ -8477,7 +8593,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A low myope's uncorrected far point is close, for example 33–50 cm, so they can read without glasses even when presbyopic.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0261",
@@ -8504,7 +8621,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "33 cm needs 3.00 D. Half of 2.00 D amplitude is 1.00, so the add is +2.00.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0262",
@@ -8531,7 +8649,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "40 cm needs 2.50 D. Half of 4.00 D amplitude is 2.00, so the add is +0.50.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0263",
@@ -8558,7 +8677,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 1.50 ≈ 67 cm. Near end = 1 ÷ (1.50 + 2.00) ≈ 29 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0264",
@@ -8585,7 +8705,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 3.00 ≈ 33 cm. Near end = 1 ÷ 3.50 ≈ 29 cm. With little amplitude, the range is narrow.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0265",
@@ -8612,7 +8733,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A typical 50-year-old reading at 40 cm needs an add of about +1.50 D.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0266",
@@ -8639,7 +8761,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "By 60, almost no amplitude remains, so a 40 cm working distance needs close to the full +2.50 D.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0267",
@@ -8666,7 +8789,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The fused cross-cylinder test uses a ±0.50 JCC with its minus axis vertical in front of both eyes, viewing a grid of lines at near.",
           "needsReview": true
         },
         {
@@ -8694,7 +8817,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With the minus axis vertical, horizontal lines look clearer if the eye is lagging (focused behind the target), so add plus.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x0269",
@@ -8721,7 +8845,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Balanced add = tentative add + (NRA + PRA) ÷ 2 = +1.00 + (+1.50 − 0.50) ÷ 2 = +1.50 D.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x02610",
@@ -8748,7 +8873,8 @@
               "feedback": "IOP."
             }
           ],
-          "explanation": ""
+          "explanation": "Low-dose pilocarpine constricts the pupil, which increases depth of focus (pinhole effect) and improves near vision.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x02611",
@@ -8775,7 +8901,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Monovision corrects one eye (usually the dominant one) for distance and the other for near.",
           "needsReview": true
         },
         {
@@ -8803,7 +8929,7 @@
               "feedback": "Usually not."
             }
           ],
-          "explanation": "",
+          "explanation": "Ready readers have the same spherical power in both lenses, with no cylinder or prescribed prism.",
           "needsReview": true
         },
         {
@@ -8831,7 +8957,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Multifocal IOLs give distance and near foci after cataract surgery, reducing the need for reading glasses.",
           "needsReview": true
         },
         {
@@ -8859,7 +8985,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "",
+          "explanation": "High adds let low-vision patients hold things very close, which enlarges the retinal image (relative distance magnification).",
           "needsReview": true
         },
         {
@@ -8887,7 +9013,7 @@
               "feedback": "Too weak."
             }
           ],
-          "explanation": "",
+          "explanation": "33 cm needs more add than 40 cm, so set the add for the tablet distance and check the range covers it.",
           "needsReview": true
         },
         {
@@ -8915,7 +9041,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Too strong an add brings the clear range closer and makes it shorter, so normal reading distances blur.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x02617",
@@ -8942,7 +9069,7 @@
               "feedback": "May not reach."
             }
           ],
-          "explanation": "",
+          "explanation": "A +2.50 add focuses at about 40 cm, so a 70 cm screen is blurred. An intermediate or office lens covers it.",
           "needsReview": true
         },
         {
@@ -9024,7 +9151,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Measuring amplitude helps estimate the tentative add, keeping about half in reserve.",
           "needsReview": true
         },
         {
@@ -9052,7 +9179,7 @@
               "feedback": "They still need one."
             }
           ],
-          "explanation": "",
+          "explanation": "A longer working distance has a lower dioptric demand, so a weaker add is needed than for 40 cm.",
           "needsReview": true
         },
         {
@@ -9080,7 +9207,7 @@
               "feedback": "Comfort."
             }
           ],
-          "explanation": "",
+          "explanation": "Using only about half the available amplitude lets the patient read comfortably for long periods without fatigue.",
           "needsReview": true
         },
         {
@@ -9108,7 +9235,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Real working distance, posture and lighting all change the add needed, so checking under real conditions avoids mistakes.",
           "needsReview": true
         },
         {
@@ -9136,7 +9263,7 @@
               "feedback": "Not needed."
             }
           ],
-          "explanation": "",
+          "explanation": "Early presbyopes can often manage with good lighting, which shrinks the pupil and increases depth of focus, and by holding things slightly further away.",
           "needsReview": true
         },
         {
@@ -9164,7 +9291,8 @@
               "feedback": "Lines."
             }
           ],
-          "explanation": ""
+          "explanation": "Progressive lenses change power gradually with no visible dividing line.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x02625",
@@ -9191,7 +9319,7 @@
               "feedback": "Some."
             }
           ],
-          "explanation": "",
+          "explanation": "Simultaneous-vision multifocals share light between foci, so contrast is often slightly reduced and haloes may appear at night.",
           "needsReview": true
         },
         {
@@ -9219,7 +9347,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Accommodation is equal in both eyes, so presbyopes usually need equal adds.",
           "needsReview": true
         },
         {
@@ -9247,7 +9375,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "Being able to read N5 at 40 cm doesn't help if they really read at 30 cm. Check the add and range at their actual distance.",
           "needsReview": true
         },
         {
@@ -9275,7 +9403,8 @@
               "feedback": "Readers help."
             }
           ],
-          "explanation": ""
+          "explanation": "An emmetropic first-time presbyope only needs help at near, so simple ready readers or single-vision readers are often enough.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x02629",
@@ -9302,7 +9431,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Typical presbyopic symptoms are holding print further away, near blur and tired eyes or headaches after reading.",
           "needsReview": true
         },
         {
@@ -9330,7 +9459,8 @@
               "feedback": "Less add."
             }
           ],
-          "explanation": ""
+          "explanation": "A shorter working distance has a higher dioptric demand, so more add is needed.",
+          "needsReview": true
         }
       ],
       "cases": [
@@ -9506,7 +9636,7 @@
               "feedback": "Not the point."
             }
           ],
-          "explanation": "",
+          "explanation": "Changes over about ±0.75 D can be hard to adapt to, especially in older patients, so consider a partial change if symptoms and VA allow.",
           "needsReview": true
         },
         {
@@ -9534,7 +9664,8 @@
               "feedback": "It's a clue."
             }
           ],
-          "explanation": ""
+          "explanation": "Moving a plus lens further from the eye increases its effective power, so this hyperope needs more plus.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0033",
@@ -9561,7 +9692,7 @@
               "feedback": "Tolerance is the issue."
             }
           ],
-          "explanation": "",
+          "explanation": "For cylinders of 1.00–2.00 DC, axis changes over about 15° may need a partial change to help adaptation.",
           "needsReview": true
         },
         {
@@ -9589,7 +9720,8 @@
               "feedback": "That's for children and the elderly."
             }
           ],
-          "explanation": ""
+          "explanation": "A healthy adult's standard NHS sight test interval is 2 years. Children and the elderly are seen yearly.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0035",
@@ -9616,7 +9748,7 @@
               "feedback": "Not the point."
             }
           ],
-          "explanation": "",
+          "explanation": "Under GOC standards (13.6), you shouldn't undermine another practitioner. Their Rx may have been deliberately modified for clinical reasons.",
           "needsReview": true
         },
         {
@@ -9644,7 +9776,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A 0.25 D change with no symptoms usually isn't worth prescribing. Explain this and keep the current Rx.",
           "needsReview": true
         },
         {
@@ -9672,7 +9804,8 @@
               "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Above about 2–3 D of anisometropia, spectacles cause noticeable aniseikonia and differential prism, so contact lenses are often better.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0133",
@@ -9753,7 +9886,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Children are usually examined every year because their refraction and visual development can change quickly.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0135",
@@ -9780,7 +9914,7 @@
               "feedback": "Only if needed."
             }
           ],
-          "explanation": "",
+          "explanation": "The Opticians Act requires you to give a signed prescription or a statement that none is needed after every sight test.",
           "needsReview": true
         },
         {
@@ -9808,7 +9942,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If VA can't be corrected to normal, there may be pathology. Investigate and refer if the cause is unexplained.",
           "needsReview": true
         },
         {
@@ -9836,7 +9970,8 @@
               "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "A partial cylinder change (power or axis) helps patients adapt when the full change would distort their vision too much.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0138",
@@ -9863,7 +9998,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Patients with diabetes are usually seen every year, as well as attending diabetic retinal screening.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0139",
@@ -9890,7 +10026,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Check that the old frames fit well and suit the new Rx (centration, lens size, thickness) before reglazing.",
           "needsReview": true
         },
         {
@@ -9918,7 +10054,7 @@
               "feedback": "Safety matters."
             }
           ],
-          "explanation": "",
+          "explanation": "Contact lens suitability in children depends on maturity and their ability to handle the lenses safely and hygienically. There's no legal minimum age.",
           "needsReview": true
         },
         {
@@ -9946,7 +10082,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Each dioptre of anisometropia corrected in spectacles gives roughly 1–1.5% difference in image size.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0262",
@@ -9973,7 +10110,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Knapp's law: placing the correction for axial anisometropia at the eye's anterior focal point (about 15 mm) equalises retinal image sizes.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0263",
@@ -10054,7 +10192,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Young low hyperopes can easily accommodate. With no symptoms and good VA, correction usually isn't needed.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0265",
@@ -10081,7 +10220,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Night myopia and dim light make low myopia more noticeable, so a low-minus Rx for night driving can help.",
           "needsReview": true
         },
         {
@@ -10109,7 +10248,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Oblique cylinder changes tilt and distort shapes and spatial perception more, so they're harder to adapt to.",
           "needsReview": true
         },
         {
@@ -10137,7 +10276,7 @@
               "feedback": "They must."
             }
           ],
-          "explanation": "",
+          "explanation": "Spectacles for under-16s must be supplied by, or under the supervision of, a registered optometrist, dispensing optician or doctor.",
           "needsReview": true
         },
         {
@@ -10165,7 +10304,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ready readers can be sold without supervision to people over 16 who aren't sight impaired, provided both lenses have the same power.",
           "needsReview": true
         },
         {
@@ -10193,7 +10332,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "",
+          "explanation": "Changing the base curve alters magnification and how distortion feels, which can cause adaptation problems.",
           "needsReview": true
         },
         {
@@ -10221,7 +10360,8 @@
               "feedback": "Not needed."
             }
           ],
-          "explanation": ""
+          "explanation": "If the full axis change gives little benefit, a partial change or keeping the old axis may be more comfortable for an older patient.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x02611",
@@ -10248,7 +10388,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Occupational glasses suit non-standard working distances or tasks, such as musicians, overhead work or long computer use.",
           "needsReview": true
         },
         {
@@ -10276,7 +10416,7 @@
               "feedback": "Discuss."
             }
           ],
-          "explanation": "",
+          "explanation": "A small VA gain without symptoms is optional. Explain the benefit and let the patient decide.",
           "needsReview": true
         },
         {
@@ -10304,7 +10444,7 @@
               "feedback": "Possible causes."
             }
           ],
-          "explanation": "",
+          "explanation": "With 2.00 D of anisometropia, spectacles cause aniseikonia and differential prism away from the optical centres, which can cause discomfort.",
           "needsReview": true
         },
         {
@@ -10332,7 +10472,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Explaining that a big change may feel strange at first improves acceptance and reduces unnecessary returns.",
           "needsReview": true
         },
         {
@@ -10360,7 +10500,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Myopia control spectacle lenses (e.g. DIMS or HAL designs) add peripheral myopic defocus to slow myopia progression in children.",
           "needsReview": true
         },
         {
@@ -10388,7 +10528,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Daily disposables are ideal for occasional sports wear: no care routine, and a fresh lens each time.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x02617",
@@ -10415,7 +10556,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A −0.25 cylinder can often be left out (adjusting the sphere) if VA and comfort are no different.",
           "needsReview": true
         },
         {
@@ -10443,7 +10584,7 @@
               "feedback": "There are signs."
             }
           ],
-          "explanation": "",
+          "explanation": "Over-minused patients often report headaches or strain and may prefer letters that look smaller and darker.",
           "needsReview": true
         },
         {
@@ -10471,7 +10612,7 @@
               "feedback": "Required details."
             }
           ],
-          "explanation": "",
+          "explanation": "A prescription must include sphere, cylinder, axis, prism and add (where relevant), the date, the patient's details and the prescriber's details.",
           "needsReview": true
         },
         {
@@ -10499,7 +10640,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prism is mainly prescribed to relieve symptoms of a decompensated phoria (or diplopia) when other treatments aren't suitable.",
           "needsReview": true
         },
         {
@@ -10527,7 +10668,8 @@
               "feedback": "Sometimes."
             }
           ],
-          "explanation": ""
+          "explanation": "Partial correction of a large change can help an older patient adapt, at the cost of a small loss of VA.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x02622",
@@ -10554,7 +10696,7 @@
               "feedback": "Full plus usually."
             }
           ],
-          "explanation": "",
+          "explanation": "Full cycloplegic plus is usually given for accommodative esotropia with high hyperopia, to relax accommodation and its linked convergence.",
           "needsReview": true
         },
         {
@@ -10582,7 +10724,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording why you didn't change the Rx shows your clinical reasoning if it's later questioned.",
           "needsReview": true
         },
         {
@@ -10610,7 +10752,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Prescribe what is clinically right and explain it. Patients can replace scratched lenses without a change in Rx.",
           "needsReview": true
         },
         {
@@ -10638,7 +10780,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Unilateral aphakes and significant anisometropes get large differences in spectacle magnification, so they need extra care, often with contact lenses.",
           "needsReview": true
         },
         {
@@ -10666,7 +10808,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Safety and sports eyewear advice helps prevent eye injuries, which are often serious and preventable.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x02627",
@@ -10693,7 +10836,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Wearing glasses doesn't damage the eyes or make them worse. Refractive error changes for other reasons.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x02628",
@@ -10720,7 +10864,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ask about their near tasks and working distances so the add and lens type suit what they actually do.",
           "needsReview": true
         },
         {
@@ -10748,7 +10892,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "If symptoms are new but the Rx hasn't changed, look for other causes, such as binocular vision problems, dry eye or pathology.",
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x02630",
@@ -10775,7 +10920,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "UK drivers need about 6/12 binocularly (and to read a number plate at 20 m). At 6/9, check they still meet the standard and advise them.",
           "needsReview": true
         }
       ],
@@ -11002,7 +11147,7 @@
               "feedback": "Balance comes after monocular subjective."
             }
           ],
-          "explanation": "",
+          "explanation": "The usual sequence is retinoscopy, monocular subjective, binocular balance, binocular best vision sphere, then the near add.",
           "needsReview": true
         },
         {
@@ -11030,7 +11175,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Refine the add binocularly, then check the range of clear vision at the patient's own working distances.",
           "needsReview": true
         },
         {
@@ -11166,7 +11311,7 @@
               "feedback": "It must be written."
             }
           ],
-          "explanation": "",
+          "explanation": "Your clinic record must be completed clearly and signed off by your supervisor.",
           "needsReview": true
         },
         {
@@ -11194,7 +11339,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near point = 1 ÷ (add + amplitude) = 1 ÷ (2.25 + 3.50) = 1 ÷ 5.75 ≈ 17 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0038",
@@ -11221,7 +11367,8 @@
               "feedback": "That's for +1.50."
             }
           ],
-          "explanation": ""
+          "explanation": "The far point with the add is 1 ÷ 2.50 = 0.40 m, i.e. 40 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0039",
@@ -11248,7 +11395,7 @@
               "feedback": "Give full advice."
             }
           ],
-          "explanation": "",
+          "explanation": "Finish by explaining lens options, what to expect while adapting, and when to return.",
           "needsReview": true
         },
         {
@@ -11276,7 +11423,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Near point = 1 ÷ (2.00 + 2.00) = 25 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0132",
@@ -11303,7 +11451,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 1.50 ≈ 67 cm. Near end = 1 ÷ (1.50 + 1.50) ≈ 33 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0133",
@@ -11330,7 +11479,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Measure the distance at which the patient naturally holds their reading material rather than assuming 40 cm.",
           "needsReview": true
         },
         {
@@ -11358,7 +11507,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "N5 refers to print size in points (N notation): 5-point print, a small newspaper size.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0135",
@@ -11385,7 +11535,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "The patient's own reading material shows whether the add works for their real task, print size and distance.",
           "needsReview": true
         },
         {
@@ -11413,7 +11563,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Many presbyopes use screens at 50–70 cm, which a reading add may not cover, so check intermediate vision.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0137",
@@ -11440,7 +11591,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Testing the add binocularly reflects real use, including convergence, and gives a more realistic result.",
           "needsReview": true
         },
         {
@@ -11468,7 +11619,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "New varifocal wearers need time to adapt. Turning the head, rather than just the eyes, keeps the clear corridor in front.",
           "needsReview": true
         },
         {
@@ -11496,7 +11647,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Check their current spectacles and what they use them for, to understand their needs and compare with the new result.",
           "needsReview": true
         },
         {
@@ -11524,7 +11675,7 @@
               "feedback": "Not enough."
             }
           ],
-          "explanation": "",
+          "explanation": "Age only gives a starting point. Working distance and the patient's actual amplitude decide the right add.",
           "needsReview": true
         },
         {
@@ -11552,7 +11703,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 2.00 = 50 cm. Near end = 1 ÷ 3.00 ≈ 33 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0262",
@@ -11579,7 +11731,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 1.25 = 80 cm. Near end = 1 ÷ 3.75 ≈ 27 cm.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0263",
@@ -11606,7 +11759,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Far end = 1 ÷ 2.75 ≈ 36 cm. Near end = 1 ÷ 3.25 ≈ 31 cm, a narrow range.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0264",
@@ -11633,7 +11787,7 @@
               "feedback": "Ask."
             }
           ],
-          "explanation": "",
+          "explanation": "Ask about all near and intermediate tasks (reading, screens, hobbies, work), because each may need a different focal distance.",
           "needsReview": true
         },
         {
@@ -11661,7 +11815,7 @@
               "feedback": "That's VA."
             }
           ],
-          "explanation": "",
+          "explanation": "Record the add for each eye with the working distance, e.g. 'Add R +2.00 L +2.00 at 40 cm'.",
           "needsReview": true
         },
         {
@@ -11689,7 +11843,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The add reduces accommodation and so reduces accommodative convergence, which can increase an exophoria at near. Check it with the add in place.",
           "needsReview": true
         },
         {
@@ -11717,7 +11871,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "Demonstrating the add in a trial frame at their real distances lets the patient confirm it works before ordering.",
           "needsReview": true
         },
         {
@@ -11745,7 +11899,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Good lighting improves contrast and shrinks the pupil, increasing depth of focus, which helps presbyopes read.",
           "needsReview": true
         },
         {
@@ -11773,7 +11927,8 @@
               "feedback": "Readers help."
             }
           ],
-          "explanation": ""
+          "explanation": "For occasional near help, simple single-vision readers are cheap and easy.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x02610",
@@ -11800,7 +11955,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Varifocals or bifocals give distance and near in one pair, which suits people who switch all day.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x02611",
@@ -11827,7 +11983,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "For a driver, make sure the near zone sits low enough not to block the view of the road, while still allowing map or dashboard reading.",
           "needsReview": true
         },
         {
@@ -11855,7 +12011,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Binocular near VA can hide reduced vision in one eye, so test each eye too.",
           "needsReview": true
         },
         {
@@ -11883,7 +12039,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If near vision is still poor with a correct add, look for cataract, maculopathy or poor lighting.",
           "needsReview": true
         },
         {
@@ -11911,7 +12067,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "",
+          "explanation": "The add depends on the working distance (dioptric demand), so measure it first.",
           "needsReview": true
         },
         {
@@ -11939,7 +12095,8 @@
               "feedback": "Lower than expected."
             }
           ],
-          "explanation": ""
+          "explanation": "A healthy presbyope with the right add should read N5 or better.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x02616",
@@ -11966,7 +12123,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Move the near chart in and out until it blurs to find the near and far limits of clear vision.",
           "needsReview": true
         },
         {
@@ -11994,7 +12151,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Walking around in the trial frame checks that distance and floor views are comfortable, especially with a new add or a big change.",
           "needsReview": true
         },
         {
@@ -12022,7 +12179,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Office or progressive lenses cover both 60 cm and 35 cm. A single 35 cm add would blur the laptop.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x02619",
@@ -12049,7 +12207,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "On stairs, lower the head so you look through the distance zone rather than the blurred near zone at the bottom of the lens.",
           "needsReview": true
         },
         {
@@ -12077,7 +12235,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Bifocals give a wide, distortion-free reading area, which some patients prefer to the narrower near zone of progressives.",
           "needsReview": true
         },
         {
@@ -12105,7 +12263,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording the near Rx and working distance means the dispenser can make the correct lenses.",
           "needsReview": true
         },
         {
@@ -12133,7 +12291,7 @@
               "feedback": "Only if needed."
             }
           ],
-          "explanation": "",
+          "explanation": "End with advice, lens options and when to return for the next check.",
           "needsReview": true
         },
         {
@@ -12161,7 +12319,8 @@
               "feedback": "Not the simplest."
             }
           ],
-          "explanation": ""
+          "explanation": "Separate distance and reading glasses are the simplest option, though less convenient than multifocals.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x02624",
@@ -12188,7 +12347,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The near cover test checks binocular status at near, which is important when adding a reading correction.",
           "needsReview": true
         },
         {
@@ -12216,7 +12375,8 @@
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "With only 0.5 D of amplitude, almost all of the near demand has to come from the add.",
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x02626",
@@ -12243,7 +12403,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Making sure the patient understands their options allows informed consent and improves satisfaction.",
           "needsReview": true
         },
         {
@@ -12271,7 +12431,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A stronger add doesn't make things 'safer'. It brings the clear range closer and narrows it, so normal reading distances blur.",
           "needsReview": true
         },
         {
@@ -12299,7 +12459,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lower light reduces contrast and enlarges the pupil, so near performance can drop. Testing both shows real-world function.",
           "needsReview": true
         },
         {
@@ -12327,7 +12487,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "With the distance Rx in place, the near point reflects true accommodation, not uncorrected refractive error.",
           "needsReview": true
         },
         {
@@ -12355,7 +12515,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Hold the near chart at the patient's working distance in good, even light so the test matches real use.",
           "needsReview": true
         }
       ],
@@ -12541,7 +12701,7 @@
               "feedback": "Not specific enough."
             }
           ],
-          "explanation": "",
+          "explanation": "Record the smallest N print read with the test distance, e.g. N5 @ 40 cm.",
           "needsReview": true
         },
         {
@@ -12569,7 +12729,8 @@
               "feedback": "There's a convention."
             }
           ],
-          "explanation": ""
+          "explanation": "By convention, test the right eye first (or the poorer eye if known), then the left, then both.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0033",
@@ -12596,7 +12757,8 @@
               "feedback": "Too high."
             }
           ],
-          "explanation": ""
+          "explanation": "The binocular pass with ±2.00 flippers at 40 cm for adults up to 30 is about 8 cycles per minute or more (monocular about 11).",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0034",
@@ -12623,7 +12785,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Lens rock uses flipper lenses to change the accommodative demand. Distance rock changes focus by switching between near and far targets.",
           "needsReview": true
         },
         {
@@ -12651,7 +12813,7 @@
               "feedback": "Not given as a factor."
             }
           ],
-          "explanation": "",
+          "explanation": "Hyperopes, people with short working distances and those in hot climates tend to need an add earlier.",
           "needsReview": true
         },
         {
@@ -12679,7 +12841,8 @@
               "feedback": "That's for 20."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's average is 18.5 − 0.3 × 30 = 9.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0037",
@@ -12706,7 +12869,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "True near acuity uses single letters or optotypes. In routine practice, near adequacy is tested with N-point reading paragraphs.",
           "needsReview": true
         },
         {
@@ -12734,7 +12897,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Hofstetter's minimum is 15 − 0.25 × 30 = 7.5 D.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0132",
@@ -12761,7 +12925,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "NRA is measured by adding plus binocularly (relaxing accommodation) until the near target first blurs.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0133",
@@ -12788,7 +12953,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "PRA is measured by adding minus binocularly (stimulating accommodation) until the near target first blurs.",
           "needsReview": true
         },
         {
@@ -12816,7 +12981,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A normal near point of convergence is within about 10 cm (often 6–10 cm). A more remote NPC suggests convergence insufficiency.",
           "needsReview": true
         },
         {
@@ -12844,7 +13009,8 @@
               "feedback": "Distance."
             }
           ],
-          "explanation": ""
+          "explanation": "MEM retinoscopy, done while the patient reads at near, measures the lag of accommodation.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0136",
@@ -12871,7 +13037,8 @@
               "feedback": "They're lower."
             }
           ],
-          "explanation": ""
+          "explanation": "Binocularly, vergence has to adjust each time accommodation changes, which slows the switch. This is why binocular facility norms are lower.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0137",
@@ -12898,7 +13065,7 @@
               "feedback": "Use a target."
             }
           ],
-          "explanation": "",
+          "explanation": "Use a line just above the patient's best near VA, so the first sustained blur shows the true near point.",
           "needsReview": true
         },
         {
@@ -12926,7 +13093,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Near VA should be measured at the patient's own working distance so it reflects their real near vision.",
           "needsReview": true
         },
         {
@@ -12954,7 +13121,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Poor or uneven lighting reduces contrast and enlarges the pupil, which underestimates near ability. Use good, even illumination.",
           "needsReview": true
         },
         {
@@ -12982,7 +13149,7 @@
               "feedback": "Not first."
             }
           ],
-          "explanation": "",
+          "explanation": "Near VA worse than expected may mean pathology (e.g. maculopathy, cataract), an incorrect add or a wrong working distance.",
           "needsReview": true
         },
         {
@@ -13010,7 +13177,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "N notation uses printers' point sizes of a standard typeface (Times Roman), e.g. N5 or N8.",
           "needsReview": true
         },
         {
@@ -13038,7 +13205,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "1M print is defined as subtending 5 minutes of arc in height when viewed at 1 m.",
           "needsReview": true
         },
         {
@@ -13066,7 +13233,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "M notation is test distance / print size: 0.40/1.0M, which is about 6/15.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0274",
@@ -13093,7 +13261,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ordinary newspaper text is about N8–N10, which is roughly 1M print.",
           "needsReview": true
         },
         {
@@ -13121,7 +13289,8 @@
               "feedback": "Distance matters."
             }
           ],
-          "explanation": ""
+          "explanation": "Near VA depends on the test distance, so always record it with the result (e.g. N5 at 40 cm).",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0276",
@@ -13148,7 +13317,8 @@
               "feedback": "Refraction."
             }
           ],
-          "explanation": ""
+          "explanation": "MNREAD charts measure reading speed and critical print size, as well as reading acuity.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0277",
@@ -13175,7 +13345,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "At near, the pupils constrict as part of the near triad, along with accommodation and convergence.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0278",
@@ -13202,7 +13373,7 @@
               "feedback": "Use a target."
             }
           ],
-          "explanation": "",
+          "explanation": "The near cover test needs a small, detailed target so the patient accommodates. A light doesn't control accommodation.",
           "needsReview": true
         },
         {
@@ -13230,7 +13401,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Jaeger notation is an older near scale whose sizes aren't standardised between charts.",
           "needsReview": true
         },
         {
@@ -13258,7 +13429,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With two eyes, neural summation usually makes binocular near VA slightly better than either eye alone.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02711",
@@ -13285,7 +13457,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Equivalent viewing distance gives a common measure of magnification, so different low-vision aids and distances can be compared.",
           "needsReview": true
         },
         {
@@ -13313,7 +13485,7 @@
               "feedback": "Record both."
             }
           ],
-          "explanation": "",
+          "explanation": "Reading N5 only with effort gives no reserve. Comfortable sustained reading needs print bigger than the threshold, so consider their comfortable level.",
           "needsReview": true
         },
         {
@@ -13341,7 +13513,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Normal binocular accommodative facility with ±2.00 flippers in young adults is roughly 8–11 cycles per minute.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02714",
@@ -13368,7 +13541,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Accommodative insufficiency is low amplitude for age in a young person. Presbyopia is the normal age-related loss.",
           "needsReview": true
         },
         {
@@ -13396,7 +13569,8 @@
               "feedback": "Not near."
             }
           ],
-          "explanation": ""
+          "explanation": "Blur or strain when reading points to a near vision or accommodative problem.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02716",
@@ -13423,7 +13597,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Binocular near VA and the near cover test check how the two eyes work together at reading distance.",
           "needsReview": true
         },
         {
@@ -13451,7 +13625,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "NRA measures how much plus the patient can accept at near. A low NRA suggests the near correction may already be over-plussed.",
           "needsReview": true
         },
         {
@@ -13479,7 +13653,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "PRA measures how much the patient can accommodate beyond the target. A low PRA suggests weak accommodation, so more plus may help.",
           "needsReview": true
         },
         {
@@ -13507,7 +13681,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Low-contrast near charts can reveal subtle visual loss, for example from early macular disease, that high-contrast charts miss.",
           "needsReview": true
         },
         {
@@ -13535,7 +13709,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A magnifier enlarges the retinal image so smaller detail can be seen.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02721",
@@ -13562,7 +13737,7 @@
               "feedback": "They may not read."
             }
           ],
-          "explanation": "",
+          "explanation": "Young children may not read yet, so use picture or symbol near tests.",
           "needsReview": true
         },
         {
@@ -13590,7 +13765,8 @@
               "feedback": "Lower than expected."
             }
           ],
-          "explanation": ""
+          "explanation": "With healthy eyes and the correct Rx, near VA should reach N5.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02723",
@@ -13617,7 +13793,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The RAF rule measures the near point of accommodation (amplitude) and the near point of convergence.",
           "needsReview": true
         },
         {
@@ -13645,7 +13821,8 @@
               "feedback": "Possible."
             }
           ],
-          "explanation": ""
+          "explanation": "Text that seems to move, shimmer or blur despite a correct Rx can indicate visual stress, which may need a separate assessment, such as for coloured overlays.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02725",
@@ -13672,7 +13849,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Record both the break (when the patient sees double or an eye deviates) and recovery (when single vision returns) for the near point of convergence.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02726",
@@ -13699,7 +13877,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "",
+          "explanation": "Testing with the patient's correction shows the near function they actually have.",
           "needsReview": true
         },
         {
@@ -13727,7 +13905,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Polarised tests such as the Mallett near unit show each eye different parts of the target, revealing suppression while both eyes view.",
           "needsReview": true
         },
         {
@@ -13755,7 +13933,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Poor reading progress can have visual causes, so a full exam including near vision and binocular vision tests is needed.",
           "needsReview": true
         },
         {
@@ -13783,7 +13961,8 @@
               "feedback": "Tiny."
             }
           ],
-          "explanation": ""
+          "explanation": "Large print is usually N16 or larger.",
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x02730",
@@ -13810,7 +13989,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Print subtends a larger angle when held closer, so reading N5 only at 25 cm means poorer acuity than reading N5 at 40 cm.",
           "needsReview": true
         }
       ],
@@ -13920,7 +14099,7 @@
               "feedback": "Introductions matter."
             }
           ],
-          "explanation": "",
+          "explanation": "GOC standard 2.2 requires you to say who you are, that you're a student and who your supervisor is, so the patient can give informed consent.",
           "needsReview": true
         },
         {
@@ -13948,7 +14127,7 @@
               "feedback": "For everyone."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording negative symptoms shows you asked. If they're missing, it looks as if the questions weren't asked.",
           "needsReview": true
         },
         {
@@ -13976,7 +14155,7 @@
               "feedback": "Before."
             }
           ],
-          "explanation": "",
+          "explanation": "Measure unaided vision when the patient has no Rx, has lost their glasses, doesn't always wear them, or needs it for a report (e.g. driving).",
           "needsReview": true
         },
         {
@@ -14004,7 +14183,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ocular motility is tested at about 40 cm, usually without the Rx so frames don't block the view.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0035",
@@ -14139,7 +14319,8 @@
               "feedback": "That's the week 6 ret and subjective assessment."
             }
           ],
-          "explanation": ""
+          "explanation": "Stage 2 assessment eye exams last 50 minutes, the same as year 3 clinics.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0038",
@@ -14166,7 +14347,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Repeat the cover test after refraction when giving a first Rx or a significant change, because the new lenses may alter binocular status.",
           "needsReview": true
         },
         {
@@ -14248,7 +14429,8 @@
               "feedback": "Last."
             }
           ],
-          "explanation": ""
+          "explanation": "Start with the history and symptoms, which guide the rest of the exam.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0132",
@@ -14329,7 +14511,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The cover test is done early (habitual correction) to establish binocular status before changing the lenses.",
           "needsReview": true
         },
         {
@@ -14357,7 +14539,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The general health section covers systemic conditions and medications, which can affect the eyes.",
           "needsReview": true
         },
         {
@@ -14385,7 +14567,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Conditions such as glaucoma and some retinal dystrophies run in families, so family history affects risk and testing.",
           "needsReview": true
         },
         {
@@ -14413,7 +14595,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Confrontation is a quick bedside comparison of the patient's visual field with yours.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0137",
@@ -14440,7 +14623,7 @@
               "feedback": "Not first."
             }
           ],
-          "explanation": "",
+          "explanation": "Wash your hands for infection control and explain what you're going to do, so the patient can consent.",
           "needsReview": true
         },
         {
@@ -14468,7 +14651,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In England, free NHS sight tests cover people under 16 (or under 19 in full-time education), those 60 and over, and some others, such as people with diabetes or glaucoma, or on certain benefits.",
           "needsReview": true
         },
         {
@@ -14496,7 +14679,8 @@
               "feedback": "Consent."
             }
           ],
-          "explanation": ""
+          "explanation": "Valid consent is always needed before examining a patient.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x01310",
@@ -14523,7 +14707,7 @@
               "feedback": "Any time."
             }
           ],
-          "explanation": "",
+          "explanation": "Measure IOP when assessing glaucoma risk, e.g. older patients, those with a family history or other risk factors.",
           "needsReview": true
         },
         {
@@ -14551,7 +14735,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Sight Testing (Examination and Prescription) Regulations 1989 set out what a UK sight test must include.",
           "needsReview": true
         },
         {
@@ -14579,7 +14763,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "If you find signs of injury or disease, you must refer the patient, normally informing their GP.",
           "needsReview": true
         },
         {
@@ -14607,7 +14791,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A sight test must always include an examination of the eye for signs of injury, disease or abnormality, as well as refraction.",
           "needsReview": true
         },
         {
@@ -14635,7 +14819,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A family history of glaucoma raises risk and is a key reason to measure IOP and fields.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0275",
@@ -14662,7 +14847,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ask about driving so you can check they meet the visual standard and advise them on their legal duties.",
           "needsReview": true
         },
         {
@@ -14690,7 +14875,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ocular motility (the H pattern) checks extraocular muscle and nerve function across the gaze positions.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0277",
@@ -14717,7 +14903,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Direct and consensual pupil reflexes test the afferent (optic nerve) and efferent (oculomotor) pathways.",
           "needsReview": true
         },
         {
@@ -14745,7 +14931,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Allergies, including drug allergies, are recorded in the general health and medication section, which matters before using drops.",
           "needsReview": true
         },
         {
@@ -14773,7 +14959,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Occupation and hobbies affect working distances, safety needs and the advice you give.",
           "needsReview": true
         },
         {
@@ -14801,7 +14987,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In England, people aged 40 or over who are close relatives (parent, sibling, child) of someone with glaucoma get free NHS sight tests.",
           "needsReview": true
         },
         {
@@ -14829,7 +15015,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "People with diabetes (or glaucoma) are entitled to free NHS sight tests in England.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02712",
@@ -14856,7 +15043,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Ophthalmoscopy assesses the ocular media, optic disc, retinal vessels and macula.",
           "needsReview": true
         },
         {
@@ -14884,7 +15071,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Fields are especially indicated with glaucoma risk, neurological symptoms or for driving assessments.",
           "needsReview": true
         },
         {
@@ -14912,7 +15099,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An Amsler grid quickly screens for central field distortion or scotomas, e.g. in macular disease.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02715",
@@ -14939,7 +15127,8 @@
               "feedback": "Not usually."
             }
           ],
-          "explanation": ""
+          "explanation": "Stereo tests (with the cover test) check binocular vision in children.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02716",
@@ -14966,7 +15155,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The slit lamp gives a magnified view of the lids, cornea, anterior chamber and lens.",
           "needsReview": true
         },
         {
@@ -14994,7 +15183,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "New flashes and floaters can mean a retinal tear or detachment, so dilate and examine the peripheral retina.",
           "needsReview": true
         },
         {
@@ -15022,7 +15211,8 @@
               "feedback": "Before too, if indicated."
             }
           ],
-          "explanation": ""
+          "explanation": "Before dilating, assess the anterior chamber angle (e.g. van Herick) and get informed consent.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02719",
@@ -15049,7 +15239,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dilation causes blur and glare for several hours, so advise the patient not to drive until their vision has recovered.",
           "needsReview": true
         },
         {
@@ -15077,7 +15267,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Unaided and aided VA are needed for comparison over time and for legal or driving purposes.",
           "needsReview": true
         },
         {
@@ -15105,7 +15295,7 @@
               "feedback": "Structured."
             }
           ],
-          "explanation": "",
+          "explanation": "A structured history covers the presenting complaint, ocular history, general health, medications, family history and social history.",
           "needsReview": true
         },
         {
@@ -15133,7 +15323,7 @@
               "feedback": "Include the patient."
             }
           ],
-          "explanation": "",
+          "explanation": "Introducing yourself and explaining the exam builds rapport and allows informed consent.",
           "needsReview": true
         },
         {
@@ -15161,7 +15351,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Confrontation is a simple bedside test for visual field defects.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02724",
@@ -15188,7 +15379,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Test colour vision in children, for occupational requirements, or when acquired disease is suspected.",
           "needsReview": true
         },
         {
@@ -15216,7 +15407,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Measuring the old spectacles on a focimeter lets you compare the old and new Rx and explain any change.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02726",
@@ -15243,7 +15435,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Measure the near point of convergence routinely, especially if the patient reports near symptoms.",
           "needsReview": true
         },
         {
@@ -15271,7 +15463,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "",
+          "explanation": "Dilating drops stop the pupils reacting, so check the pupils before instilling them.",
           "needsReview": true
         },
         {
@@ -15299,7 +15491,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "",
+          "explanation": "At the end, explain the results and give advice, the Rx (or statement), any referral and the recall interval.",
           "needsReview": true
         },
         {
@@ -15327,7 +15519,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Recall should depend on clinical need and NHS rules, not on convenience.",
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x02730",
@@ -15354,7 +15547,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording negative findings shows the test was done and the result was normal.",
           "needsReview": true
         }
       ],
@@ -15476,7 +15669,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "SOAP stands for Subjective (history), Objective (findings), Assessment (diagnosis) and Plan (management).",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0032",
@@ -15503,7 +15697,8 @@
               "feedback": "Reflection."
             }
           ],
-          "explanation": ""
+          "explanation": "GOC outcome 4.12 covers managing information and keeping clear, accurate records.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0033",
@@ -15530,7 +15725,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In a GOC enquiry, the patient record is the first evidence examined, so it must be complete and clear.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0034",
@@ -15557,7 +15753,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Subject Access Request is a patient's legal right under data protection law to see the personal data you hold on them.",
           "needsReview": true
         },
         {
@@ -15585,7 +15781,7 @@
               "feedback": "6/18 isn't normal."
             }
           ],
-          "explanation": "",
+          "explanation": "6/18 distance with good near vision and no pathology suggests uncorrected low myopia (around −1.00 D).",
           "needsReview": true
         },
         {
@@ -15613,7 +15809,8 @@
               "feedback": "They're easier."
             }
           ],
-          "explanation": ""
+          "explanation": "Electronic records make sketching findings harder, and systems differ between practices.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0037",
@@ -15640,7 +15837,7 @@
               "feedback": "Names matter."
             }
           ],
-          "explanation": "",
+          "explanation": "Records should name everyone involved, including anyone carrying out delegated tasks.",
           "needsReview": true
         },
         {
@@ -15668,7 +15865,7 @@
               "feedback": "Required."
             }
           ],
-          "explanation": "",
+          "explanation": "A good record includes consent, findings, advice and referrals. The patient's opinion of the practice isn't needed.",
           "needsReview": true
         },
         {
@@ -15696,7 +15893,8 @@
               "feedback": "Fine."
             }
           ],
-          "explanation": ""
+          "explanation": "Without the working distance and range, an add can't be checked or reproduced, so always record them.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0131",
@@ -15723,7 +15921,8 @@
               "feedback": "Not required."
             }
           ],
-          "explanation": ""
+          "explanation": "College of Optometrists guidance is to keep adult records for at least 10 years after the last visit.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0132",
@@ -15750,7 +15949,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Children's records are usually kept until age 25 (or 26 if they were 17 at the last visit).",
           "needsReview": true
         },
         {
@@ -15778,7 +15977,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Draw a single line through the error so it stays readable, then initial and date it. Never use correction fluid or remove pages.",
           "needsReview": true
         },
         {
@@ -15806,7 +16005,8 @@
               "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "Under UK GDPR, health data is special category data and needs extra protection.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0135",
@@ -15833,7 +16033,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Use only standard, widely recognised abbreviations so others can understand the record.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0136",
@@ -15860,7 +16061,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Record a did-not-attend (DNA). It may matter for follow-up and safeguarding.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0137",
@@ -15887,7 +16089,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording the advice given shows what the patient was told if it is later questioned.",
           "needsReview": true
         },
         {
@@ -15969,7 +16171,8 @@
               "feedback": "The patient can."
             }
           ],
-          "explanation": ""
+          "explanation": "Through a Subject Access Request, the patient can see their own record.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x01310",
@@ -15996,7 +16199,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "When using a drug, record the drug name, strength, which eye, the time, and the batch number and expiry.",
           "needsReview": true
         },
         {
@@ -16024,7 +16227,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "'If it isn't written down, it wasn't done.' Unrecorded tests or advice can't be proved.",
           "needsReview": true
         },
         {
@@ -16052,7 +16255,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Data Protection Act 2018 works alongside UK GDPR in UK law.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0273",
@@ -16079,7 +16283,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Information Commissioner's Office (ICO) regulates data protection in the UK.",
           "needsReview": true
         },
         {
@@ -16107,7 +16311,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A notifiable personal data breach must be reported to the ICO within 72 hours of becoming aware of it.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0275",
@@ -16134,7 +16339,8 @@
               "feedback": "One month."
             }
           ],
-          "explanation": ""
+          "explanation": "Subject Access Requests usually have to be answered within one month.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0276",
@@ -16161,7 +16367,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Under UK GDPR, Subject Access Requests are usually free, unless they are clearly unfounded or excessive.",
           "needsReview": true
         },
         {
@@ -16189,7 +16395,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Data minimisation means collecting only the personal data you need for the purpose.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0278",
@@ -16216,7 +16423,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The Caldicott principles guide safe, appropriate use and sharing of patient-identifiable information.",
           "needsReview": true
         },
         {
@@ -16244,7 +16451,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Information can be shared without consent only in limited cases: where the law requires it or where there's an overriding public interest (e.g. serious harm).",
           "needsReview": true
         },
         {
@@ -16272,7 +16479,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Paper records must be disposed of securely, for example by confidential shredding.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02711",
@@ -16299,7 +16507,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Protect electronic records with individual passwords, access controls and encryption. Never share logins.",
           "needsReview": true
         },
         {
@@ -16327,7 +16535,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An audit trail shows who viewed or changed a record and when, which protects the record's integrity.",
           "needsReview": true
         },
         {
@@ -16355,7 +16563,7 @@
               "feedback": "Never."
             }
           ],
-          "explanation": "",
+          "explanation": "Never alter a record after a complaint. Add a dated, signed note if you need to clarify something.",
           "needsReview": true
         },
         {
@@ -16383,7 +16591,8 @@
               "feedback": "Write it."
             }
           ],
-          "explanation": ""
+          "explanation": "Record any refusal of a test together with the advice you gave about the risks.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02715",
@@ -16410,7 +16619,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Clinical photos are part of the patient record and are covered by the same confidentiality rules.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02716",
@@ -16437,7 +16647,8 @@
               "feedback": "Always."
             }
           ],
-          "explanation": ""
+          "explanation": "Always record whether a chaperone was present (or offered and declined).",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02717",
@@ -16464,7 +16675,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Records are legal documents and can be used as evidence in complaints or court.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02718",
@@ -16491,7 +16703,8 @@
               "feedback": "Good."
             }
           ],
-          "explanation": ""
+          "explanation": "Records should be made at the time (contemporaneously). Writing them up from memory days later is poor practice.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02719",
@@ -16518,7 +16731,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Other clinicians rely on accurate records for continuity of care and safe decisions.",
           "needsReview": true
         },
         {
@@ -16546,7 +16759,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Patient information must be kept confidential.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02721",
@@ -16573,7 +16787,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Referral information is usually shared with the GP with the patient's consent.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02722",
@@ -16600,7 +16815,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Storage limitation means not keeping personal data longer than needed, in line with retention guidance.",
           "needsReview": true
         },
         {
@@ -16628,7 +16843,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The accuracy principle means data must be correct and kept up to date.",
           "needsReview": true
         },
         {
@@ -16656,7 +16871,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Legal and professional retention duties often mean health records can't be deleted on request. Explain this to the patient.",
           "needsReview": true
         },
         {
@@ -16684,7 +16899,8 @@
               "feedback": "Fine."
             }
           ],
-          "explanation": ""
+          "explanation": "Don't discuss patient information where others could overhear, such as reception or waiting areas.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02726",
@@ -16711,7 +16927,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "'NAD' means no abnormality detected.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02727",
@@ -16738,7 +16955,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An abbreviation only you understand makes the record unclear to others, which is poor practice.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02728",
@@ -16765,7 +16983,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The practice, as data controller, usually owns the records, though patients have the right to access them.",
           "needsReview": true
         },
         {
@@ -16793,7 +17011,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Records made by a locum belong to the practice, which is the data controller.",
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x02730",
@@ -16820,7 +17039,7 @@
               "feedback": "Not enough."
             }
           ],
-          "explanation": "",
+          "explanation": "A referral record should include the reason, urgency, destination and what the patient was told.",
           "needsReview": true
         }
       ],
@@ -16920,7 +17139,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "An autorefractor projects infrared light into the eye and analyses the light reflected from the fundus to calculate the refraction.",
           "needsReview": true
         },
         {
@@ -17110,7 +17329,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Dense cataract scatters and blocks the measuring beam, so the instrument can't get a reliable reading.",
           "needsReview": true
         },
         {
@@ -17138,7 +17357,8 @@
               "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Many autorefractors need a pupil of at least about 2.0 mm (some up to 2.9 mm) to take a measurement.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0037",
@@ -17165,7 +17385,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Autorefraction gives an objective starting point that is then refined by subjective refraction.",
           "needsReview": true
         },
         {
@@ -17193,7 +17413,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Photorefractors such as Plusoptix measure both eyes quickly from a distance with little cooperation, which suits screening children.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0039",
@@ -17274,7 +17495,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Many autorefractors use the Scheiner principle: two beams through separate pupil points only coincide on the retina when the eye is in focus.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0132",
@@ -17301,7 +17523,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Instrument myopia is over-minus caused by accommodating because you know the target is inside the instrument (proximal accommodation).",
           "needsReview": true
         },
         {
@@ -17329,7 +17551,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Open-field autorefractors let the patient view a real distant target, which reduces proximal accommodation and instrument myopia.",
           "needsReview": true
         },
         {
@@ -17357,7 +17579,8 @@
               "feedback": "Wrong sign."
             }
           ],
-          "explanation": ""
+          "explanation": "MSE = sphere + cylinder ÷ 2 = −2.00 + (−0.50) = −2.50 D.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0135",
@@ -17384,7 +17607,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The 95% limits of agreement are the mean difference ± 1.96 standard deviations of the differences.",
           "needsReview": true
         },
         {
@@ -17412,7 +17635,7 @@
               "feedback": "It works."
             }
           ],
-          "explanation": "",
+          "explanation": "Children accommodate during non-cycloplegic autorefraction, which over-estimates myopia (and under-estimates hyperopia).",
           "needsReview": true
         },
         {
@@ -17440,7 +17663,8 @@
               "feedback": "It helps."
             }
           ],
-          "explanation": ""
+          "explanation": "Taking several readings averages out variation from accommodation, fixation and the tear film.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0138",
@@ -17467,7 +17691,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Autokeratorefractors also measure corneal curvature (keratometry).",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0139",
@@ -17494,7 +17719,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In retinoscopy you can see the quality of the reflex (e.g. scissors, media opacities), which an autorefractor's numbers don't show.",
           "needsReview": true
         },
         {
@@ -17522,7 +17747,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Wavefront aberrometers measure lower-order (defocus, astigmatism) and higher-order (e.g. coma, spherical) aberrations.",
           "needsReview": true
         },
         {
@@ -17604,7 +17829,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "The eye focuses infrared light differently from visible light (chromatic aberration), so readings must be corrected to visible-light values.",
           "needsReview": true
         },
         {
@@ -17632,7 +17857,7 @@
               "feedback": "It tries."
             }
           ],
-          "explanation": "",
+          "explanation": "Autorefractors show a distant target, then fog it with plus to encourage accommodation to relax.",
           "needsReview": true
         },
         {
@@ -17660,7 +17885,8 @@
               "feedback": "Too narrow."
             }
           ],
-          "explanation": ""
+          "explanation": "In most adults, autorefraction is within about ±0.50 D of the subjective result.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0275",
@@ -17687,7 +17913,7 @@
               "feedback": "Usually fine."
             }
           ],
-          "explanation": "",
+          "explanation": "Nystagmus, small pupils, irregular corneas and media opacities make autorefraction unreliable.",
           "needsReview": true
         },
         {
@@ -17715,7 +17941,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Handheld devices such as Retinomax, SureSight and Plusoptix can measure young children who can't use a chin rest.",
           "needsReview": true
         },
         {
@@ -17743,7 +17969,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Photorefraction analyses the pattern of light reflected in the pupil in a photograph to estimate refractive error.",
           "needsReview": true
         },
         {
@@ -17771,7 +17997,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "In power vector notation, M is the spherical equivalent (sphere + cylinder ÷ 2).",
           "needsReview": true
         },
         {
@@ -17799,7 +18025,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "MSE = +1.00 + (−2.00 ÷ 2) = 0.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02710",
@@ -17826,7 +18053,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "MSE = −3.00 + (−1.50 ÷ 2) = −3.75 D.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02711",
@@ -17853,7 +18081,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "J0 and J45 are power vectors for astigmatism along the 0/90 and oblique (45/135) axes.",
           "needsReview": true
         },
         {
@@ -17881,7 +18109,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Autorefraction can be affected by accommodation and other errors, so subjective refinement is needed for the final Rx.",
           "needsReview": true
         },
         {
@@ -17909,7 +18137,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "A Shack-Hartmann aberrometer uses a lenslet array to measure how the wavefront leaving the eye deviates.",
           "needsReview": true
         },
         {
@@ -17937,7 +18165,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Wavefront aberrations are usually described with Zernike polynomials.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02715",
@@ -17964,7 +18193,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Coma, spherical aberration and trefoil are higher-order aberrations. Defocus and astigmatism are lower order.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02716",
@@ -17991,7 +18221,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "RMS wavefront error gives a single figure for the total amount of aberration.",
           "needsReview": true
         },
         {
@@ -18019,7 +18249,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Refractive surgery changes the corneal shape and asphericity, which can confuse autorefractor readings.",
           "needsReview": true
         },
         {
@@ -18047,7 +18277,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Children accommodate strongly during measurement, so the reading shows too much minus.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02719",
@@ -18074,7 +18305,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Autorefractors usually give results at a spectacle vertex distance of about 12 mm (or whatever is set).",
           "needsReview": true
         },
         {
@@ -18102,7 +18333,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Repeatability is how closely repeated readings with the same instrument agree.",
           "needsReview": true
         },
         {
@@ -18130,7 +18361,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Retinoscopy still works where autorefractors fail (children, nystagmus, poor cooperation) and shows the quality of the reflex.",
           "needsReview": true
         },
         {
@@ -18158,7 +18389,7 @@
               "feedback": "Not likely."
             }
           ],
-          "explanation": "",
+          "explanation": "Extra minus in a young adult is typical of instrument myopia from proximal accommodation.",
           "needsReview": true
         },
         {
@@ -18186,7 +18417,8 @@
               "feedback": "Unreliable."
             }
           ],
-          "explanation": ""
+          "explanation": "In regular astigmatism, the autorefractor's cylinder axis is usually reliable.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02724",
@@ -18213,7 +18445,7 @@
               "feedback": "Useful."
             }
           ],
-          "explanation": "",
+          "explanation": "Recording the autorefraction alongside your subjective result helps spot unexpected discrepancies that need checking.",
           "needsReview": true
         },
         {
@@ -18241,7 +18473,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Mean bias is the average difference between the two methods. The limits of agreement show the spread.",
           "needsReview": true
         },
         {
@@ -18269,7 +18501,7 @@
               "feedback": "Check it."
             }
           ],
-          "explanation": "",
+          "explanation": "A low confidence score means the reading may be unreliable, so repeat it or confirm with another method.",
           "needsReview": true
         },
         {
@@ -18297,7 +18529,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Eccentric photorefraction screens children for significant refractive error and anisometropia, which are amblyopia risk factors.",
           "needsReview": true
         },
         {
@@ -18325,7 +18557,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power = 337.5 ÷ 7.80 ≈ 43.27 D.",
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x02729",
@@ -18352,7 +18585,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "",
+          "explanation": "Blinking smooths the tear film, so the reading isn't distorted by dry or irregular patches.",
           "needsReview": true
         },
         {
@@ -18380,7 +18613,8 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "Young children have strong accommodation, so they most need cycloplegia for an accurate objective refraction.",
+          "needsReview": true
         }
       ],
       "goDeeper": [],
