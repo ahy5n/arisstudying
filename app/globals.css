@@ -37,7 +37,7 @@
 @theme {
   --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-rounded: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-arabic: 'Amiri', 'Scheherazade New', 'Geeza Pro', serif;
+  --font-arabic: var(--font-amiri), 'Amiri', 'Scheherazade New', 'Geeza Pro', serif;
 
   --radius-card: 22px;
 }

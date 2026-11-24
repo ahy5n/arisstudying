@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import { Amiri } from 'next/font/google'
 import { AppProvider } from '@/components/AppProvider'
 import { Shell } from '@/components/Shell'
 import { ThemeSync } from '@/components/useTheme'
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 }
 
+// Downloaded at build time and served from this site, so visitors' browsers
+// never contact Google (no IP address shared with a third party).
+const amiri = Amiri({ subsets: ['arabic'], weight: ['400', '700'], display: 'swap', variable: '--font-amiri' })
+
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
@@ -23,13 +28,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     // The head script sets data-palette / data-mode before React loads.
-    <html lang="en-GB" suppressHydrationWarning>
+    <html lang="en-GB" className={amiri.variable} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-        <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
       </head>
       <body>
         <AppProvider>

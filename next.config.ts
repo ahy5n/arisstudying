@@ -7,12 +7,12 @@ const CDN = 'https://cdnjs.cloudflare.com' // pdf.js and JSZip (reading slides i
 
 // What the pages may load. Inline scripts are needed for the theme script and
 // Next's own bootstrapping; everything else is limited to this site, the CDN
-// above, Google Fonts and the Supabase project.
+// above and the Supabase project. Fonts are served from this site.
 const csp = [
   `default-src 'self'`,
   `script-src 'self' 'unsafe-inline'${dev ? " 'unsafe-eval'" : ''} ${CDN}`,
-  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
-  `font-src 'self' data: https://fonts.gstatic.com`,
+  `style-src 'self' 'unsafe-inline'`,
+  `font-src 'self' data:`,
   `img-src 'self' data: blob:`,
   `connect-src 'self' ${CDN} ${supabase} ${supabaseWs}${dev ? ' ws:' : ''}`.replace(/\s+/g, ' ').trim(),
   `worker-src 'self' blob: ${CDN}`,
