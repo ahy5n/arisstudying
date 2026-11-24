@@ -70,6 +70,7 @@ export function FlagButton({
           <textarea
             className="field mt-4 min-h-28 resize-y"
             placeholder="e.g. The slides say the blank allowance is 2 mm, not 3 mm."
+            maxLength={2000}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             aria-label="What’s wrong?"

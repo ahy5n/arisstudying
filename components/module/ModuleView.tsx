@@ -175,7 +175,7 @@ export function ModuleView({
                       </span>
                     )}
                   </div>
-                  <div className="flex gap-2 pl-10 sm:pl-0">
+                  <div className="flex flex-wrap gap-2 pl-10 sm:pl-0">
                     <TickButton label="Covered" tone="sage" on={p.covered} describedBy={titleId} onToggle={() => setProgress(r.id, 'covered', !p.covered)} />
                     <TickButton label="Revised" tone="lilac" on={p.revised} describedBy={titleId} onToggle={() => setProgress(r.id, 'revised', !p.revised)} />
                   </div>

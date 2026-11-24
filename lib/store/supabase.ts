@@ -151,7 +151,7 @@ export const supabaseBackend: Backend = {
   },
 
   async changePassword(user, current, next) {
-    if (next.length < 6) throw new Error('Passwords need at least 6 characters.')
+    if (next.trim().length < 6) throw new Error('Passwords need at least 6 characters, not counting spaces.')
     const check1 = await sb().auth.signInWithPassword({ email: toEmail(user.username), password: current })
     if (check1.error) throw new Error('Your current password isn’t right.')
     const { error } = await sb().auth.updateUser({ password: next })

@@ -40,6 +40,7 @@ export function NotesBox({ topicId }: { topicId: string }) {
       <textarea
         className="field min-h-36 resize-y leading-relaxed"
         placeholder="Quick typed notes on this topic."
+        maxLength={20000}
         value={body}
         onChange={(e) => onChange(e.target.value)}
         aria-label="My notes"

@@ -81,7 +81,7 @@ export const localBackend: Backend = {
     const users = read<Users>(USERS, {})
     const entry = users[user.username]
     if (!entry || entry.hash !== (await hash(user.username, current))) throw new Error('Your current password isn’t right.')
-    if (next.length < 6) throw new Error('Passwords need at least 6 characters.')
+    if (next.trim().length < 6) throw new Error('Passwords need at least 6 characters, not counting spaces.')
     entry.hash = await hash(user.username, next)
     write(USERS, users)
   },
