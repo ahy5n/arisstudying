@@ -352,8 +352,3 @@ export const supabaseBackend: Backend = {
   },
 }
 
-/** The signed-in user's access token, so server routes can check who's asking. */
-export async function supabaseAccessToken(): Promise<string | null> {
-  const { data } = await sb().auth.getSession()
-  return data.session?.access_token ?? null
-}

@@ -16,7 +16,6 @@ import { PracticeRunner } from '../practice/PracticeRunner'
 import { ChecklistCard } from './ChecklistCard'
 import { GoDeeper } from './GoDeeper'
 import { NotesBox } from './NotesBox'
-import { ExplainIt } from './ExplainIt'
 
 export const VERIFY_NOTE = 'Written from standard optometry knowledge. Check against your lecture slides.'
 export const SLIDES_NOTE = 'Written from your lecture slides. Sections marked “Not in the slides” are extra background.'
@@ -81,7 +80,6 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
     ...(t.goDeeper.length ? [['go-deeper', 'Go deeper']] : []),
     ...(t.checklist ? [['checklist', 'Checklist']] : []),
     ...(tabs.length ? [['practice', 'Practice']] : []),
-    ['explain', 'Explain it'],
     ['notes', 'My notes'],
     ...(t.links.length ? [['more-info', 'More info']] : []),
   ]
@@ -246,13 +244,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
             </section>
           )}
 
-          {/* 7. Explain it (marked by Claude) */}
-          <section id="explain" className="mt-10">
-            <h2 className="mb-3 text-[22px] font-semibold">Explain it</h2>
-            <ExplainIt topicId={t.id} title={t.title} />
-          </section>
-
-          {/* 8. My notes */}
+          {/* 7. My notes */}
           <section id="notes" className="mt-10">
             <h2 className="mb-3 text-[22px] font-semibold">My notes</h2>
             <NotesBox topicId={t.id} />
