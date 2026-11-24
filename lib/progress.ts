@@ -41,3 +41,8 @@ export function yearLabel(years: number[]): string {
   const contiguous = sorted.every((y, i) => i === 0 || y === sorted[i - 1] + 1)
   return contiguous ? `Years ${sorted[0]}–${sorted[sorted.length - 1]}` : `Years ${sorted.join(', ')}`
 }
+
+/** How many rows aren't fully ticked (covered and revised) yet. */
+export function rowsToGo(rowIds: string[], progress: Record<string, { covered: boolean; revised: boolean }>) {
+  return rowIds.filter((id) => !(progress[id]?.covered && progress[id]?.revised)).length
+}

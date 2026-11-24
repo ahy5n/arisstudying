@@ -2,7 +2,10 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { RETIRED } from '@/lib/leitner'
 import type { PracticeItem } from '@/lib/types'
+import { useApp } from '../AppProvider'
+import { ProgressRing } from '../bits'
 import { FlagButton } from '../FlagButton'
 import { ResetIcon } from '../icons'
 import { CaseCard } from './CaseCard'
@@ -35,14 +38,22 @@ export function PracticeRunner({
   /** Replaces the usual end-of-set message. */
   finishMessage?: (right: number, total: number) => React.ReactNode
 }) {
+  const { data } = useApp()
   const [i, setI] = useState(0)
   const [results, setResults] = useState<boolean[]>([])
   const [answered, setAnswered] = useState(false)
+  // Which of these were in the mistakes deck when the set started, so the end
+  // screen can say how many old mistakes were cleared.
+  const deckAtStart = () => new Set(items.filter((it) => (data?.reviews[it.id]?.box ?? RETIRED) < RETIRED).map((it) => it.id))
+  const [wasInDeck, setWasInDeck] = useState(deckAtStart)
 
   useEffect(() => {
     setI(0)
     setResults([])
     setAnswered(false)
+    setWasInDeck(deckAtStart())
+    // Only when a new set starts, not every time a result is saved.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items])
 
   const done = items.length > 0 && i >= items.length
@@ -56,17 +67,40 @@ export function PracticeRunner({
 
   if (i >= items.length) {
     const right = results.filter(Boolean).length
+    const missed = results.length - right
+    const cleared = items.filter((it, k) => results[k] && wasInDeck.has(it.id)).length
+    // People remember how a session ended, so end on what went well.
+    const headline =
+      right === items.length ? 'Every single one. 🌷' : right >= items.length * 0.7 ? 'Lovely work.' : right > 0 ? 'Good practice.' : 'That was a tough set.'
     return (
       <div className="fade-in rounded-[22px] bg-gradient-to-br from-accent-soft via-surface to-accent-soft p-6 text-center sm:p-8">
-        <p className="font-rounded text-[26px] font-semibold">
+        <div className="mx-auto w-fit">
+          <ProgressRing value={right / items.length} size={88} stroke={8} label={`${right} of ${items.length} right`} />
+        </div>
+        <p className="mt-3 font-rounded text-[26px] font-semibold">
           {right} of {items.length}
         </p>
-        <p className="mt-1 text-muted">
-          {finishMessage ? finishMessage(right, items.length) : right === items.length
-            ? 'Every single one. 🌷'
-            : right >= items.length * 0.7
-              ? 'Lovely work. The ones you missed are in your mistakes deck.'
-              : 'Good practice — the ones you missed are saved in your mistakes deck for later.'}
+        <p className="mt-1 text-[17px] font-semibold">{headline}</p>
+        {(cleared > 0 || missed > 0) && (
+          <ul className="mx-auto mt-4 flex max-w-md flex-wrap justify-center gap-2 text-[14px]">
+            {cleared > 0 && (
+              <li className="rounded-full bg-good-soft px-3 py-1.5 font-semibold text-good-ink">
+                ✓ {cleared} old mistake{cleared === 1 ? '' : 's'} fixed
+              </li>
+            )}
+            {missed > 0 && (
+              <li className="rounded-full bg-bg px-3 py-1.5 font-medium text-muted ring-1 ring-border">
+                {missed} saved to your mistakes deck
+              </li>
+            )}
+          </ul>
+        )}
+        <p className="mt-3 text-muted">
+          {finishMessage
+            ? finishMessage(right, items.length)
+            : right === items.length
+              ? 'Nothing to add to your mistakes deck this time.'
+              : 'The ones you missed come back in a day or two, until they stick.'}
         </p>
         <div className="mt-5 flex flex-wrap justify-center gap-2">
           <button

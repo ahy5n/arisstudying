@@ -9,7 +9,7 @@ import { useApp, useData } from '../AppProvider'
 import { BackLink, type ColourMap, ProgressRing } from '../bits'
 import { SessionRow, useMaterials } from '../home/NextTwoWeeks'
 import { ChevronDown, ChevronRight, PencilIcon } from '../icons'
-import { moduleProgress, yearLabel } from '@/lib/progress'
+import { moduleProgress, rowsToGo, yearLabel } from '@/lib/progress'
 import { TickButton } from './TickButton'
 
 export function ModuleView({
@@ -40,6 +40,10 @@ export function ModuleView({
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState(name)
   const pct = moduleProgress(
+    m.rows.map((r) => r.id),
+    data.progress,
+  )
+  const toGo = rowsToGo(
     m.rows.map((r) => r.id),
     data.progress,
   )
@@ -112,6 +116,12 @@ export function ModuleView({
           </div>
           <ProgressRing value={pct} colour={m.colour} size={64} stroke={6} label={`${Math.round(pct * 100)}% ticked`} />
         </div>
+        {/* Nearly-finished modules get a nudge: people push harder close to a goal. */}
+        {m.rows.length > 0 && pct >= 0.5 && (
+          <p className="border-t border-surface/60 bg-surface/50 px-6 pt-4 text-[15px] font-semibold text-accent-strong sm:px-8">
+            {toGo === 0 ? 'Every topic in this module is ticked off. 🌷' : `Nearly there: ${toGo} topic${toGo === 1 ? '' : 's'} left to tick off.`}
+          </p>
+        )}
         <div className="flex flex-wrap gap-x-6 gap-y-2 border-t border-surface/60 bg-surface/50 px-6 py-4 text-[15px] sm:px-8">
           {leads.map((l) => (
             <p key={l.initials}>

@@ -2,12 +2,15 @@
 
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
+import { RETIRED } from '@/lib/leitner'
 import { ladderOrder, levelKey, ROUND_SIZE, toRounds, unlockedRounds } from '@/lib/quizLadder'
 import type { PracticeItem } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { BackLink } from '../bits'
+import { FirstTimeTip } from '../FirstTimeTip'
 import { PracticeRunner } from './PracticeRunner'
-import { shuffle } from './shuffle'
+import { MistakesFirstToggle, useMistakesFirst } from './MistakesFirst'
+import { mistakesFirst, shuffle } from './shuffle'
 
 /**
  * One topic's quiz in rounds of ten. Get every question in the newest round
@@ -30,7 +33,15 @@ export function TopicQuiz({
   const unlocked = unlockedRounds(data.checklists, topicId, rounds.length)
   const [round, setRound] = useState(unlocked - 1)
   const [run, setRun] = useState(0)
-  const current = useMemo(() => shuffle(rounds[round] ?? []), [rounds, round, run])
+  const [first, setFirst] = useMistakesFirst()
+  const inDeck = (id: string) => (data.reviews[id]?.box ?? RETIRED) < RETIRED
+  const deckCount = (rounds[round] ?? []).filter((it) => inDeck(it.id)).length
+  const current = useMemo(
+    () => (first ? mistakesFirst(shuffle(rounds[round] ?? []), inDeck) : shuffle(rounds[round] ?? [])),
+    // Re-order only when a round starts, not every time an answer is saved.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [rounds, round, run, first],
+  )
 
   const finished = (results: boolean[]) => {
     const perfect = results.length > 0 && results.every(Boolean)
@@ -38,9 +49,9 @@ export function TopicQuiz({
   }
 
   const message = (right: number, total: number) => {
-    if (right < total) return `Get all ${total} right to unlock the next round. The ones you missed are in your mistakes deck.`
-    if (round + 1 < rounds.length) return `Every single one. 🌷 Round ${round + 2} is unlocked.`
-    return 'Every single one, and that was the last round for this topic. 🌷'
+    if (right < total) return `Get all ${total} right to unlock the next round.`
+    if (round + 1 < rounds.length) return `Round ${round + 2} is unlocked.`
+    return 'That was the last round for this topic.'
   }
 
   return (
@@ -78,7 +89,14 @@ export function TopicQuiz({
         })}
       </div>
 
-      <div className="card mt-5 p-5 sm:p-7">
+      <FirstTimeTip id="quiz">
+        Questions you get wrong go into your mistakes deck and come back over the next few days until you get them right.
+      </FirstTimeTip>
+      <div className="mt-3">
+        <MistakesFirstToggle on={first} onChange={setFirst} count={deckCount} />
+      </div>
+
+      <div className="card mt-3 p-5 sm:p-7">
         <PracticeRunner
           items={current}
           onFinish={finished}

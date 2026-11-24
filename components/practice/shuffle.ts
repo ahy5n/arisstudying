@@ -24,3 +24,8 @@ export function weightedSample<T>(items: readonly T[], n: number, weight: (t: T)
   }
   return out
 }
+
+/** Moves items still in the mistakes deck to the front, keeping the order within each group. */
+export function mistakesFirst<T extends { id: string }>(items: readonly T[], inDeck: (id: string) => boolean): T[] {
+  return [...items.filter((t) => inDeck(t.id)), ...items.filter((t) => !inDeck(t.id))]
+}

@@ -7,6 +7,7 @@ import type { PracticeItem, Topic } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { AskClaudeButton } from '../AskClaudeButton'
 import { BackLink } from '../bits'
+import { FirstTimeTip } from '../FirstTimeTip'
 import { DiagramFigure } from '../diagrams/DiagramFigure'
 import { canLabel, LabelDiagram } from '../diagrams/LabelDiagram'
 import { FlagButton } from '../FlagButton'
@@ -147,6 +148,9 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
               <TickButton label="Covered" tone="sage" on={p.covered} onToggle={() => setProgress(t.id, 'covered', !p.covered)} />
               <TickButton label="Revised" tone="lilac" on={p.revised} onToggle={() => setProgress(t.id, 'revised', !p.revised)} />
             </div>
+            <FirstTimeTip id="ticks">
+              Tick <b>Covered</b> when you’ve learnt a topic and <b>Revised</b> when you’ve gone over it again. Each tick fills your module’s progress ring.
+            </FirstTimeTip>
           </header>
 
           {/* 2. Summary, key points, exam traps */}
