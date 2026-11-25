@@ -105,6 +105,13 @@ export interface UserData {
 
 export type NewAssessment = Omit<Assessment, 'id'>
 
+/** Dated study activity, for the weekly summary. */
+export interface RecentActivity {
+  attempts: { at: string; itemId: string; correct: boolean }[]
+  /** Topics ticked Covered or Revised, with when the tick last changed. */
+  ticked: { topicId: string; at: string }[]
+}
+
 export interface Backend {
   mode: 'local' | 'supabase'
   currentUser(): Promise<AuthUser | null>
@@ -112,6 +119,8 @@ export interface Backend {
   signOut(): Promise<void>
   changePassword(user: AuthUser, current: string, next: string): Promise<void>
   load(user: AuthUser): Promise<UserData>
+  /** Quiz answers and topic ticks since a moment (ISO), oldest first. */
+  recentActivity(user: AuthUser, sinceIso: string): Promise<RecentActivity>
   saveProfile(user: AuthUser, patch: Partial<Omit<Profile, 'username'>>): Promise<void>
   saveProgress(user: AuthUser, topicId: string, p: Progress): Promise<void>
   saveChecklist(user: AuthUser, checklistId: string, steps: number[]): Promise<void>

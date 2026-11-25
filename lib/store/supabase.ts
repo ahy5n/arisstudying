@@ -267,6 +267,18 @@ export const supabaseBackend: Backend = {
     )
   },
 
+  async recentActivity(_user, sinceIso) {
+    const c = sb()
+    const [attempts, ticks] = await Promise.all([
+      c.from('quiz_attempts').select('item_id, correct, created_at').gte('created_at', sinceIso).order('created_at').limit(5000),
+      c.from('topic_progress').select('topic_id, covered, revised, updated_at').gte('updated_at', sinceIso),
+    ])
+    return {
+      attempts: (check(attempts) ?? []).map((r) => ({ at: r.created_at as string, itemId: r.item_id as string, correct: !!r.correct })),
+      ticked: (check(ticks) ?? []).filter((r) => r.covered || r.revised).map((r) => ({ topicId: r.topic_id as string, at: r.updated_at as string })),
+    }
+  },
+
   async addAttempt(user, itemId, correct, chosen) {
     check(await sb().from('quiz_attempts').insert({ user_id: user.id, item_id: itemId, correct, chosen }))
   },

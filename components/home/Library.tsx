@@ -140,6 +140,9 @@ export function Library({
         <Tile href="/tracker" title="70% tracker" tone="butter">
           Your marks and what’s left
         </Tile>
+        <Tile href="/week" title="Your week" tone="sky">
+          What you did this week, and what’s next
+        </Tile>
         <Tile href="/slides" title="Slides & materials" tone="rose" wide>
           Every lecture deck and worksheet, by week — with slide-by-slide outlines
         </Tile>

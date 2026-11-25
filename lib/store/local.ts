@@ -1,6 +1,6 @@
 // "This device only" mode: used until Supabase keys are added. Everything
 // lives in localStorage, so ticks don't follow her to another device.
-import type { AuthUser, Backend, UserData } from './types'
+import type { AuthUser, Backend, RecentActivity, UserData } from './types'
 import { emptyData, normaliseUsername, USERNAME_RE } from './types'
 
 const USERS = 'aris:v1:users'
@@ -40,6 +40,20 @@ async function hash(username: string, password: string): Promise<string> {
 
 const newId = () =>
   globalThis.crypto?.randomUUID?.() ?? `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`
+
+// Device-only accounts keep a short dated log for the weekly summary.
+const activityKey = (id: string) => `sc:v1:activity:${id}`
+const KEEP_MS = 60 * 86_400_000
+function logActivity(user: AuthUser, fn: (a: RecentActivity) => void) {
+  const a = read<RecentActivity>(activityKey(user.id), { attempts: [], ticked: [] })
+  fn(a)
+  const cutoff = new Date(Date.now() - KEEP_MS).toISOString()
+  a.attempts = a.attempts.filter((x) => x.at >= cutoff).slice(-3000)
+  a.ticked = a.ticked.filter((x) => x.at >= cutoff)
+  try {
+    write(activityKey(user.id), a)
+  } catch {}
+}
 
 function mutate(user: AuthUser, fn: (d: UserData) => void) {
   const d = read<UserData>(dataKey(user.id), emptyData(user.username))
@@ -96,6 +110,10 @@ export const localBackend: Backend = {
   },
   async saveProgress(user, topicId, p) {
     mutate(user, (d) => void (d.progress[topicId] = p))
+    logActivity(user, (a) => {
+      a.ticked = a.ticked.filter((x) => x.topicId !== topicId)
+      if (p.covered || p.revised) a.ticked.push({ topicId, at: new Date().toISOString() })
+    })
   },
   async saveChecklist(user, id, steps) {
     mutate(user, (d) => void (d.checklists[id] = steps))
@@ -106,8 +124,12 @@ export const localBackend: Backend = {
   async saveReview(user, r) {
     mutate(user, (d) => void (d.reviews[r.itemId] = r))
   },
-  async addAttempt() {
-    // Attempts are only kept server-side; the deck holds what matters locally.
+  async addAttempt(user, itemId, correct) {
+    logActivity(user, (a) => void a.attempts.push({ at: new Date().toISOString(), itemId, correct }))
+  },
+  async recentActivity(user, sinceIso) {
+    const a = read<RecentActivity>(activityKey(user.id), { attempts: [], ticked: [] })
+    return { attempts: a.attempts.filter((x) => x.at >= sinceIso), ticked: a.ticked.filter((x) => x.at >= sinceIso) }
   },
   async addAssessments(user, items) {
     const created = items.map((a) => ({ ...a, id: newId() }))

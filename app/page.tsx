@@ -3,6 +3,7 @@ import { Greeting } from '@/components/home/Greeting'
 import { Library } from '@/components/home/Library'
 import { NextTwoWeeks } from '@/components/home/NextTwoWeeks'
 import { VerseCard } from '@/components/home/VerseCard'
+import { WeekPrompt } from '@/components/home/WeekPrompt'
 import { toLibraryModule } from '@/lib/progress'
 import { materialsBySession } from '@/lib/slides'
 import { getChecklists, getEncouragements, getModules, getPracticeItems, getTimetable, getVerses } from '@/lib/content'
@@ -18,6 +19,7 @@ export default function HomePage() {
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
       <div className="min-w-0 space-y-6">
         <Greeting lines={getEncouragements()} />
+        <WeekPrompt />
         <VerseCard verses={getVerses()} />
         <NextTwoWeeks weeks={weeks} sessions={sessions} colours={colours} materials={materialsBySession()} />
         <AskClaudeButton text={TUTOR_PROMPT} label="Ask my tutor" variant="primary" className="w-full sm:w-auto" />
