@@ -1261,7 +1261,7 @@
               "feedback": "Not quite: it's electronic."
             }
           ],
-          "explanation": "Video magnifiers provide electronic (projection) magnification.",
+          "explanation": "A video magnifier enlarges the image electronically on a screen (projection magnification) and can reverse the contrast to cut glare.",
           "original": {
             "q": "Video magnifiers provide",
             "options": [
@@ -1421,8 +1421,9 @@
               "feedback": "A Galilean telescope gives a positive (upright) magnification."
             }
           ],
-          "explanation": "M = −Fe / Fo.",
-          "link": "lva-aids#telescopes"
+          "explanation": "Galilean telescope magnification M = −Fe ÷ Fo = −(−30) ÷ 10 = 3×.",
+          "link": "lva-aids#telescopes",
+          "needsReview": true
         },
         {
           "id": "lva-ai-3",
@@ -1801,7 +1802,7 @@
               "feedback": "Daylight usually helps."
             }
           ],
-          "explanation": "Bring good light to the task.",
+          "explanation": "Light falls off sharply with distance, so an adjustable lamp close to the page gives far more light where it's needed than a ceiling light.",
           "link": "lva-lighting-nonoptical#lighting-advice",
           "needsReview": true
         },
@@ -2378,7 +2379,7 @@
               "feedback": "Registration only."
             }
           ],
-          "explanation": "The CVI is completed by a consultant ophthalmologist.",
+          "explanation": "A consultant ophthalmologist completes the CVI to certify sight impairment. The optometrist refers the patient for it.",
           "original": {
             "q": "Who completes the CVI?",
             "options": [

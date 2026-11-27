@@ -146,8 +146,9 @@
               "feedback": "Not a competence strategy."
             }
           ],
-          "explanation": "Keep learning, audit and reflect.",
-          "link": "hq-higher-qualifications#staying-competent"
+          "explanation": "Higher qualifications need keeping up: ongoing CPD in that area, audit of your own outcomes, and peer discussion.",
+          "link": "hq-higher-qualifications#staying-competent",
+          "needsReview": true
         },
         {
           "id": "hq-higher-qualifications-x0101",
@@ -228,7 +229,7 @@
               "feedback": "It's recorded."
             }
           ],
-          "explanation": "AS, SP and IP appear as specialist entries on the GOC register.",
+          "explanation": "The GOC register is the source of truth. AS, SP and IP show as specialty entries next to the optometrist's name.",
           "original": {
             "q": "How do AS, SP and IP appear?",
             "options": [
@@ -418,7 +419,7 @@
               "feedback": "Not prescribing."
             }
           ],
-          "explanation": "Independent Prescribing is a therapeutic qualification.",
+          "explanation": "Independent Prescribing lets an optometrist diagnose and prescribe any licensed eye medicine within their competence (except controlled drugs), without a doctor.",
           "original": {
             "q": "Which is a therapeutic qualification?",
             "options": [
@@ -583,7 +584,7 @@
               "feedback": "Raised IOP alone is a reason to refer."
             }
           ],
-          "explanation": "NG81: refer if IOP ≥ 24 mmHg on repeat measurement.",
+          "explanation": "Under NICE NG81, a repeated IOP of 24 mmHg or more with otherwise normal findings means referral for ocular hypertension assessment.",
           "link": "hq-glaucoma#ocular-hypertension",
           "needsReview": true
         },
@@ -640,7 +641,7 @@
               "feedback": "That's perimetry."
             }
           ],
-          "explanation": "Gonioscopy views the drainage angle directly.",
+          "explanation": "Glaucoma treatment depends on whether the angle is open or closed, and only gonioscopy shows the drainage angle directly.",
           "link": "hq-glaucoma#iop-and-corneal-thickness",
           "needsReview": true
         },
@@ -1019,7 +1020,7 @@
               "feedback": "Doesn't treat it."
             }
           ],
-          "explanation": "Suspected wet AMD needs fast-track referral.",
+          "explanation": "New distortion, falling vision and fluid on OCT suggest wet AMD. Anti-VEGF works best early, so fast-track referral within about 2 weeks.",
           "link": "hq-medical-retina#wet-amd-fast-track",
           "original": {
             "q": "A 78-year-old notices door frames look bent in the left eye over a week; VA has dropped from 6/9 to 6/24 and OCT shows subretinal fluid. Best action?",
@@ -1074,7 +1075,7 @@
               "feedback": "Different grade."
             }
           ],
-          "explanation": "New vessels on the disc are R3 (proliferative).",
+          "explanation": "New vessels on the disc mean proliferative retinopathy (R3), which risks bleeding and detachment, so refer urgently for laser or anti-VEGF.",
           "link": "hq-medical-retina#diabetic-eye-screening-grades",
           "original": {
             "q": "New vessels on the disc in a patient with diabetes correspond to which screening grade?",
@@ -1629,7 +1630,7 @@
               "feedback": "Too slow."
             }
           ],
-          "explanation": "Flashes and floaters need a dilated retinal examination.",
+          "explanation": "Flashes and floaters can come from a retinal tear, and only a dilated peripheral examination can find one.",
           "original": {
             "q": "Flashes and floaters need",
             "options": [
@@ -1765,7 +1766,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Urgency is decided by triage by phone or in person.",
+          "explanation": "Triage sorts patients by urgency, not by who called first, so sight-threatening problems are seen quickly.",
           "original": {
             "q": "How is urgency decided?",
             "options": [
@@ -1847,7 +1848,7 @@
               "feedback": "Act."
             }
           ],
-          "explanation": "A retinal tear needs same-day referral.",
+          "explanation": "A horseshoe tear lets fluid under the retina and can quickly become a detachment, so refer the same day for laser.",
           "original": {
             "q": "A retinal tear found on examination needs",
             "options": [
@@ -2061,7 +2062,7 @@
               "feedback": "All optometrists can do that."
             }
           ],
-          "explanation": "AS = additional supply of named POMs.",
+          "explanation": "Additional Supply lets an optometrist sell or supply a list of extra prescription-only medicines in practice, but not write prescriptions.",
           "link": "hq-additional-supply-sp#additional-supply-in-practice",
           "needsReview": true
         },
@@ -2090,7 +2091,7 @@
               "feedback": "IP requires significant training."
             }
           ],
-          "explanation": "IP suits acute, unplanned presentations.",
+          "explanation": "SP needs an agreed clinical management plan with a doctor for each patient. IP doesn't, so new acute cases can be treated at once.",
           "link": "hq-additional-supply-sp#why-ip-took-over",
           "needsReview": true
         },
@@ -2147,7 +2148,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In SP, a doctor (independent prescriber) makes the diagnosis.",
+          "explanation": "In supplementary prescribing, a doctor (the independent prescriber) makes the diagnosis and agrees the plan. The optometrist then prescribes within it.",
           "original": {
             "q": "In SP, who makes the diagnosis?",
             "options": [
@@ -2255,7 +2256,7 @@
               "feedback": "No drugs."
             }
           ],
-          "explanation": "SP suits long-term conditions such as glaucoma.",
+          "explanation": "SP works for stable, long-term conditions like glaucoma, where a doctor can agree a clinical management plan in advance.",
           "original": {
             "q": "SP suits which kind of condition?",
             "options": [
@@ -2309,7 +2310,7 @@
               "feedback": "Most choose IP."
             }
           ],
-          "explanation": "Most optometrists now choose independent prescribing.",
+          "explanation": "IP is more flexible (no management plan needed), so most optometrists now train for independent prescribing directly.",
           "original": {
             "q": "Which route do most optometrists now choose?",
             "options": [
@@ -2527,7 +2528,7 @@
               "feedback": "Not appropriate."
             }
           ],
-          "explanation": "Prescribe antibiotics only when they'll help.",
+          "explanation": "Most acute conjunctivitis is viral or settles by itself, so antibiotics wouldn't help. Advise self-care and safety-net, and keep antibiotics for severe or non-settling cases.",
           "link": "hq-independent-prescribing#antimicrobial-stewardship",
           "needsReview": true
         },

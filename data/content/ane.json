@@ -1977,7 +1977,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Examine in a consistent order from the outside in.",
+          "explanation": "Working in a fixed order, from lids and lashes inwards, means nothing gets missed. Jumping back and forth risks skipping structures.",
           "original": {
             "q": "In what order should you examine the anterior segment?",
             "options": [
@@ -2641,7 +2641,7 @@
               "feedback": "Lid droop."
             }
           ],
-          "explanation": "Madarosis is loss of the eyelashes.",
+          "explanation": "Madarosis is loss of lashes. Common causes include chronic blepharitis, trauma and lid tumours, so always ask why.",
           "needsReview": true
         },
         {
@@ -2753,7 +2753,7 @@
               "feedback": "One cell thick."
             }
           ],
-          "explanation": "The stroma makes up about 90% of the cornea's thickness.",
+          "explanation": "The stroma is about 90% of corneal thickness. Its regularly spaced collagen is what keeps the cornea clear.",
           "needsReview": true
         },
         {
@@ -3395,7 +3395,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Blepharospasm is involuntary, repeated closing of the eyelids.",
+          "explanation": "Blepharospasm is involuntary, repeated lid closure, often bilateral and worse with stress or bright light.",
           "needsReview": true
         },
         {
@@ -3670,7 +3670,8 @@
               "feedback": "True."
             }
           ],
-          "explanation": "The superior angle is usually the narrowest."
+          "explanation": "The superior angle is usually the narrowest and the inferior the widest. So 'inferior narrower than superior' is the false statement.",
+          "needsReview": true
         },
         {
           "id": "ane-van-herick-x0051",
@@ -4031,7 +4032,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Schwalbe's line is the most anterior angle structure.",
+          "explanation": "Schwalbe's line is the most anterior angle structure. If it's the only one you can see, the angle is very narrow or closed.",
           "original": {
             "q": "Which is the most anterior structure in the angle?",
             "options": [
@@ -4251,7 +4252,7 @@
               "feedback": "Grade 1–2."
             }
           ],
-          "explanation": "Shaffer grade 0 means the angle is closed.",
+          "explanation": "Shaffer grades run from 4 (wide open) to 0 (closed), so grade 0 means no angle structures can be seen.",
           "needsReview": true
         },
         {
@@ -4391,7 +4392,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A typical central anterior chamber is about 3 mm deep.",
+          "explanation": "The central anterior chamber is about 3 mm deep. It's shallower in hyperopes and older people, which raises angle-closure risk.",
           "needsReview": true
         },
         {
@@ -4753,7 +4754,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "UBM stands for ultrasound biomicroscopy.",
+          "explanation": "Ultrasound biomicroscopy uses high-frequency ultrasound to image the angle and ciliary body, even behind the iris.",
           "needsReview": true
         },
         {
@@ -5500,7 +5501,7 @@
               "feedback": "It works but stains."
             }
           ],
-          "explanation": "Soft lenses absorb fluorescein, which stains them.",
+          "explanation": "Soft lenses absorb sodium fluorescein and stay stained, so take them out first or use high-molecular-weight fluorescein.",
           "needsReview": true
         },
         {
@@ -5778,7 +5779,7 @@
               "feedback": "It needs a little time."
             }
           ],
-          "explanation": "Lissamine green is best viewed after about 1–4 minutes.",
+          "explanation": "Lissamine green needs about 1–4 minutes to show staining. Look too soon or too late and you'll under-grade it.",
           "needsReview": true
         },
         {
@@ -5890,7 +5891,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Fluorescein stains mainly where the epithelium is damaged.",
+          "explanation": "Fluorescein pools where epithelial cells are lost or their junctions are broken. Healthy, intact epithelium doesn't take it up.",
           "needsReview": true
         },
         {
@@ -6390,7 +6391,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Fluorescein is excited by blue light at about 450–490 nm.",
+          "explanation": "Fluorescein absorbs blue light (about 450–490 nm) and gives off green. A yellow barrier filter makes the green stand out.",
           "needsReview": true
         },
         {
@@ -7133,7 +7134,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The Tearscope shows lipid layer interference patterns.",
+          "explanation": "The Tearscope shows the lipid layer's interference patterns. Thin layers look like a faint meshwork; thicker ones show coloured fringes.",
           "original": {
             "q": "Which tool assesses the lipid layer?",
             "options": [
@@ -7243,7 +7244,7 @@
               "feedback": "Unlikely."
             }
           ],
-          "explanation": "A normal fluorescein TBUT is more than about 10 seconds.",
+          "explanation": "A TBUT over about 10 seconds is normal. Under that suggests an unstable tear film, which is common in evaporative dry eye.",
           "needsReview": true
         },
         {
@@ -7995,7 +7996,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Concentrating on a task reduces how often we blink.",
+          "explanation": "Concentrating suppresses blinking, from about 15–20 to as few as 5 blinks a minute, so the tear film breaks up and screen users feel dry.",
           "needsReview": true
         },
         {
@@ -9111,7 +9112,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Giant papillae are more than 1 mm across.",
+          "explanation": "Papillae over 1 mm are 'giant'. They suggest giant papillary conjunctivitis (e.g. from contact lenses) or vernal disease.",
           "needsReview": true
         },
         {
@@ -9363,7 +9364,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Follicles suggest a viral or chlamydial infection.",
+          "explanation": "Follicles are lymphoid swellings, which point towards a viral or chlamydial cause. Papillae point more to allergy or mechanical irritation.",
           "needsReview": true
         },
         {
@@ -9613,7 +9614,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Normal papillae are smaller than about 0.3 mm.",
+          "explanation": "Normal papillae are under about 0.3 mm. Bigger ones mean something, usually allergy or a contact lens, is irritating the tarsal conjunctiva.",
           "needsReview": true
         },
         {
@@ -9779,7 +9780,7 @@
               "feedback": "Follicles and scarring."
             }
           ],
-          "explanation": "Vernal keratoconjunctivitis flares in spring and summer.",
+          "explanation": "Vernal keratoconjunctivitis is seasonal and allergic, flaring in warm months. It mostly affects young boys and causes cobblestone papillae.",
           "needsReview": true
         },
         {
@@ -10059,7 +10060,7 @@
               "feedback": "Not urgent."
             }
           ],
-          "explanation": "Signs of a penetrating injury need urgent referral.",
+          "explanation": "A penetrating injury can hide an intraocular foreign body or open globe, so it needs same-day emergency referral.",
           "needsReview": true
         },
         {
@@ -10310,7 +10311,7 @@
               "feedback": "Not typical."
             }
           ],
-          "explanation": "Itching is the key symptom of allergic conjunctivitis.",
+          "explanation": "Itching comes from histamine release, which makes it the hallmark of allergic conjunctivitis. Bacterial and viral conjunctivitis are usually gritty rather than itchy.",
           "needsReview": true
         },
         {
@@ -10776,7 +10777,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Chloramphenicol is available in UK pharmacies for bacterial conjunctivitis.",
+          "explanation": "Chloramphenicol drops and ointment can be bought from UK pharmacies for adults and children over 2 with bacterial conjunctivitis.",
           "needsReview": true
         },
         {
@@ -10916,7 +10917,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Preseptal cellulitis needs systemic antibiotics, so it should be referred.",
+          "explanation": "Preseptal cellulitis is an infection that oral antibiotics treat, so refer. Check for orbital signs (pain on eye movement, proptosis, reduced vision) that make it an emergency.",
           "needsReview": true
         },
         {
@@ -11000,7 +11001,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Seasonal allergic conjunctivitis is triggered mainly by pollen.",
+          "explanation": "Pollen drives seasonal allergic conjunctivitis, which is why it peaks in spring and summer. Perennial allergy comes from dust mites and pets.",
           "needsReview": true
         },
         {
@@ -11028,7 +11029,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Adenoviral conjunctivitis is contagious for about two weeks.",
+          "explanation": "Adenovirus spreads easily for around two weeks, so advise good hand hygiene and not sharing towels.",
           "needsReview": true
         },
         {
@@ -11084,7 +11085,7 @@
               "feedback": "Scleritis."
             }
           ],
-          "explanation": "Episcleritis is usually mild and settles by itself.",
+          "explanation": "Episcleritis is mild, often sectoral redness with little pain that settles by itself. Severe pain suggests scleritis, which needs referral.",
           "needsReview": true
         },
         {
@@ -11362,7 +11363,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Atopic keratoconjunctivitis is associated with eczema.",
+          "explanation": "Atopic keratoconjunctivitis occurs in people with atopic eczema and can affect the cornea, so it needs monitoring and treatment.",
           "needsReview": true
         },
         {
@@ -11530,7 +11531,7 @@
               "feedback": "Usually some."
             }
           ],
-          "explanation": "Bacterial conjunctivitis typically causes sticky, purulent discharge.",
+          "explanation": "Bacteria cause a thick, purulent discharge that sticks the lids together. Viral discharge is watery and allergic discharge is stringy.",
           "needsReview": true
         },
         {
@@ -11820,7 +11821,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Posterior subcapsular cataract is linked to steroids and uveitis.",
+          "explanation": "Steroids and chronic uveitis both cause posterior subcapsular cataract. Because it sits right on the visual axis, it causes glare early.",
           "original": {
             "q": "Which cataract type is linked to steroids and uveitis?",
             "options": [
@@ -12482,7 +12483,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A 'snowflake' cataract is linked with poorly controlled diabetes.",
+          "explanation": "'Snowflake' cataract is a rapid cortical opacity seen with very high blood sugar in poorly controlled, usually young, diabetes.",
           "needsReview": true
         },
         {
@@ -12594,7 +12595,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Modern phacoemulsification uses a small incision of about 2–3 mm.",
+          "explanation": "Phacoemulsification breaks up the lens ultrasonically through a 2–3 mm incision. This usually needs no stitches and induces little astigmatism.",
           "needsReview": true
         },
         {
@@ -13154,7 +13155,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Electrical injury or lightning can cause cataract.",
+          "explanation": "Electrical injury or a lightning strike can cause cataract, often appearing months later, so these patients need follow-up.",
           "needsReview": true
         },
         {

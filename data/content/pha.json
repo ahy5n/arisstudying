@@ -424,7 +424,7 @@
               "feedback": "Not without advice."
             }
           ],
-          "explanation": "Leave about 5 minutes between different drops.",
+          "explanation": "The eye only holds about one drop. Without a gap, the second drop washes out the first, so wait about 5 minutes between them.",
           "original": {
             "q": "How long should you wait between two different eye drops?",
             "options": [
@@ -478,7 +478,7 @@
               "feedback": "Not the main barrier."
             }
           ],
-          "explanation": "The corneal stroma is hydrophilic.",
+          "explanation": "The epithelium is fatty (lipophilic) but the stroma is watery (hydrophilic). A very fat-soluble drug crosses the first and stalls in the second, so drugs need a balance of both properties.",
           "original": {
             "q": "The corneal stroma is",
             "options": [
@@ -1689,7 +1689,8 @@
               "feedback": "That's a local anaesthetic."
             }
           ],
-          "explanation": "Cyclopentolate is the routine cycloplegic for children."
+          "explanation": "Cyclopentolate 1% (0.5% under 1 year) gives reliable cycloplegia within 30–60 minutes, enough to relax a child's strong accommodation.",
+          "needsReview": true
         },
         {
           "id": "pha-dd-2",
@@ -1880,7 +1881,7 @@
               "feedback": "Recheck."
             }
           ],
-          "explanation": "Recheck vision after cycloplegia wears off.",
+          "explanation": "Cycloplegia blurs near vision and dilates the pupil for up to 24–48 hours. Recheck vision once it has fully worn off.",
           "original": {
             "q": "When should vision be rechecked after cycloplegic refraction?",
             "options": [
@@ -2154,7 +2155,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Proxymetacaine should be stored in a fridge to keep it stable.",
+          "explanation": "Proxymetacaine breaks down at room temperature, so it's kept in the fridge (2–8°C) to stay effective.",
           "needsReview": true
         },
         {
@@ -2378,7 +2379,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Topical anaesthetics act within about 10–20 seconds.",
+          "explanation": "Topical anaesthetics block sodium channels in corneal nerves and work within about 10–20 seconds, so tonometry can start almost at once.",
           "needsReview": true
         },
         {
@@ -2406,7 +2407,7 @@
               "feedback": "Advise them."
             }
           ],
-          "explanation": "Topical anaesthesia lasts about 15–20 minutes.",
+          "explanation": "Anaesthesia lasts about 15–20 minutes. Until feeling returns, the patient can't feel damage, so they shouldn't rub their eyes.",
           "original": {
             "q": "About how long does topical anaesthesia last?",
             "options": [
@@ -2822,7 +2823,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Cyclopentolate is an antimuscarinic.",
+          "explanation": "Cyclopentolate blocks muscarinic receptors on the iris sphincter and ciliary muscle, causing dilation and cycloplegia.",
           "needsReview": true
         },
         {
@@ -2850,7 +2851,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Phenylephrine is an alpha-1 adrenergic agonist.",
+          "explanation": "Phenylephrine stimulates alpha-1 receptors on the dilator muscle, dilating the pupil without affecting focusing.",
           "needsReview": true
         },
         {
@@ -2934,7 +2935,7 @@
               "feedback": "Up to 24 hours."
             }
           ],
-          "explanation": "Tropicamide is the shortest-acting antimuscarinic for dilation.",
+          "explanation": "Tropicamide wears off in about 4–6 hours, much faster than cyclopentolate or atropine, so it's the usual choice for routine dilation.",
           "original": {
             "q": "Which is the shortest-acting antimuscarinic for dilation?",
             "options": [
@@ -3424,7 +3425,8 @@
               "feedback": "Not relevant."
             }
           ],
-          "explanation": "Topical beta-blockers are contraindicated in asthma."
+          "explanation": "Even topical beta-blockers (e.g. timolol) are absorbed enough to cause bronchospasm, so always ask about asthma and COPD first.",
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0071",
@@ -4193,7 +4195,7 @@
               "feedback": "It's allergic."
             }
           ],
-          "explanation": "Anaphylaxis is a type I (IgE-mediated, immediate) hypersensitivity reaction.",
+          "explanation": "Anaphylaxis is a type I (IgE-mediated) reaction. It happens within minutes, and adrenaline is the treatment.",
           "needsReview": true
         },
         {
@@ -4305,7 +4307,7 @@
               "feedback": "Some do."
             }
           ],
-          "explanation": "Neomycin is a common cause of contact allergy in eye drops.",
+          "explanation": "Neomycin is a common contact allergen, causing red, itchy, swollen lids with repeated use.",
           "needsReview": true
         },
         {
@@ -4557,7 +4559,7 @@
               "feedback": "Acetazolamide."
             }
           ],
-          "explanation": "Brimonidine commonly causes an allergic follicular conjunctivitis.",
+          "explanation": "Up to about 1 in 10 brimonidine users develop an allergic follicular conjunctivitis, often months into treatment. It's a common reason for switching drugs.",
           "needsReview": true
         },
         {
@@ -5044,7 +5046,8 @@
               "feedback": "Not prescribers."
             }
           ],
-          "explanation": "IP optometrists are specialist-registered prescribers."
+          "explanation": "Independent prescribing optometrists are on the GOC specialist register and can prescribe any licensed medicine for eye conditions within their competence, except controlled drugs.",
+          "needsReview": true
         },
         {
           "id": "pha-lw-2",
@@ -5563,7 +5566,7 @@
               "feedback": "They did."
             }
           ],
-          "explanation": "Chloramphenicol eye drops became available as a pharmacy (P) medicine in 2005.",
+          "explanation": "Since 2005, chloramphenicol eye drops (and later ointment) have been P medicines, so pharmacists can supply them without a prescription.",
           "needsReview": true
         },
         {
@@ -5619,7 +5622,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Optometrist independent prescribers can't prescribe controlled drugs.",
+          "explanation": "Controlled drugs are outside optometrists' prescribing rights, even for independent prescribers.",
           "needsReview": true
         },
         {
@@ -7038,7 +7041,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Chloramphenicol is a broad-spectrum antibiotic.",
+          "explanation": "Chloramphenicol works against many Gram-positive and Gram-negative bacteria by blocking protein synthesis. That's why it's first-line for bacterial conjunctivitis.",
           "needsReview": true
         },
         {
@@ -7424,7 +7427,7 @@
               "feedback": "It works."
             }
           ],
-          "explanation": "A bactericidal antibiotic kills bacteria directly.",
+          "explanation": "Bactericidal drugs kill bacteria (e.g. fluoroquinolones). Bacteriostatic ones stop them multiplying so the immune system can clear them.",
           "needsReview": true
         },
         {
@@ -7452,7 +7455,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Gentamicin is an aminoglycoside antibiotic.",
+          "explanation": "Gentamicin is an aminoglycoside that blocks bacterial protein synthesis. It's good against Gram-negatives like Pseudomonas.",
           "needsReview": true
         },
         {
@@ -7480,7 +7483,7 @@
               "feedback": "Aminoglycoside."
             }
           ],
-          "explanation": "Ofloxacin is a fluoroquinolone antibiotic.",
+          "explanation": "Ofloxacin is a fluoroquinolone that blocks bacterial DNA gyrase. It's used for keratitis and contact lens–related infections.",
           "needsReview": true
         },
         {
@@ -7758,7 +7761,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Ketotifen is an antihistamine and mast cell stabiliser.",
+          "explanation": "Ketotifen is dual-acting: it blocks histamine for quick itch relief and stabilises mast cells to prevent further release.",
           "needsReview": true
         },
         {
@@ -7786,7 +7789,7 @@
               "feedback": "That's an antihistamine."
             }
           ],
-          "explanation": "Lodoxamide is a mast cell stabiliser.",
+          "explanation": "Lodoxamide stops mast cells releasing histamine. It's preventive and takes days to work, so it's used regularly through the allergy season.",
           "original": {
             "q": "Lodoxamide is",
             "options": [
@@ -8064,7 +8067,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Topical steroids can raise IOP, so it should be monitored.",
+          "explanation": "Some people are 'steroid responders' whose IOP rises on topical steroids, which can cause glaucoma. Monitor IOP during treatment.",
           "needsReview": true
         },
         {
@@ -8394,8 +8397,9 @@
               "feedback": "Not a mechanism."
             }
           ],
-          "explanation": "Prostaglandin analogues increase uveoscleral outflow.",
-          "link": "pha-glaucoma-medicines#choosing-and-adding-treatment"
+          "explanation": "Latanoprost relaxes the ciliary muscle and remodels its matrix, letting more aqueous drain through the uveoscleral route.",
+          "link": "pha-glaucoma-medicines#choosing-and-adding-treatment",
+          "needsReview": true
         },
         {
           "id": "pha-gm-3",
@@ -8561,7 +8565,7 @@
               "feedback": "Timolol."
             }
           ],
-          "explanation": "Acetazolamide is a carbonic anhydrase inhibitor.",
+          "explanation": "Carbonic anhydrase is needed to make aqueous. Acetazolamide blocks it, cutting production and lowering IOP fast in acute angle closure.",
           "original": {
             "q": "Which drug class is acetazolamide?",
             "options": [
@@ -8615,7 +8619,7 @@
               "feedback": "Used with care."
             }
           ],
-          "explanation": "Brimonidine should be avoided in young children.",
+          "explanation": "Brimonidine crosses the immature blood–brain barrier in young children and can cause drowsiness and dangerous breathing pauses, so avoid it under about 2.",
           "original": {
             "q": "Brimonidine should be avoided in",
             "options": [
@@ -8887,7 +8891,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Brimonidine is an alpha-2 adrenergic agonist.",
+          "explanation": "Brimonidine stimulates alpha-2 receptors, reducing aqueous production and increasing uveoscleral outflow.",
           "needsReview": true
         },
         {
@@ -9081,7 +9085,7 @@
               "feedback": "Tafluprost."
             }
           ],
-          "explanation": "Tafluprost is a preservative-free prostaglandin analogue.",
+          "explanation": "Tafluprost comes preservative-free in single-dose units, which suits patients whose dry eye worsens with preservatives like benzalkonium chloride.",
           "original": {
             "q": "Which prostaglandin analogue is available preservative-free?",
             "options": [
@@ -9329,7 +9333,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Brinzolamide is a topical carbonic anhydrase inhibitor.",
+          "explanation": "Brinzolamide is a carbonic anhydrase inhibitor given as drops, so it lowers aqueous production without acetazolamide's systemic side effects.",
           "needsReview": true
         },
         {
@@ -9413,7 +9417,7 @@
               "feedback": "Acetazolamide."
             }
           ],
-          "explanation": "Brimonidine can cause tiredness and a dry mouth.",
+          "explanation": "Brimonidine's alpha-2 action reaches the brain, causing tiredness and dry mouth, especially in older patients.",
           "needsReview": true
         },
         {
@@ -9469,7 +9473,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Conjunctival redness is a common side effect of netarsudil.",
+          "explanation": "Netarsudil (a Rho kinase inhibitor) widens conjunctival vessels, so redness is very common. It can also cause corneal whorls.",
           "needsReview": true
         },
         {
@@ -9525,7 +9529,7 @@
               "feedback": "Brinzolamide and brimonidine."
             }
           ],
-          "explanation": "Cosopt combines dorzolamide and timolol.",
+          "explanation": "Cosopt combines dorzolamide (a carbonic anhydrase inhibitor) and timolol (a beta-blocker). One bottle covers two mechanisms.",
           "needsReview": true
         },
         {
@@ -9803,7 +9807,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Prostaglandin analogues mainly increase uveoscleral outflow.",
+          "explanation": "Prostaglandin analogues mainly open the uveoscleral outflow route, giving roughly 25–30% IOP reduction once a day.",
           "needsReview": true
         },
         {
@@ -10076,7 +10080,8 @@
               "feedback": "Not relevant."
             }
           ],
-          "explanation": "OCT and fields pick up hydroxychloroquine retinopathy early."
+          "explanation": "Hydroxychloroquine damages the outer retina around the macula. OCT shows the damage and 10-2 fields show the defects, before vision drops. Screen yearly after 5 years of use.",
+          "needsReview": true
         },
         {
           "id": "pha-ss-2",
@@ -10103,7 +10108,7 @@
               "feedback": "Not at 28, and not painful."
             }
           ],
-          "explanation": "Topiramate-induced angle closure is an emergency.",
+          "explanation": "Topiramate can cause fluid around the ciliary body, pushing the lens–iris forward and closing both angles. Expect pain, blur and myopia, and refer as an emergency.",
           "needsReview": true
         },
         {
@@ -10375,7 +10380,7 @@
               "feedback": "Congenital."
             }
           ],
-          "explanation": "Systemic steroids cause posterior subcapsular cataract.",
+          "explanation": "Long-term corticosteroids, by mouth or as drops, cause posterior subcapsular cataract. It sits centrally, so it causes glare and poor near vision early.",
           "original": {
             "q": "Which cataract do systemic steroids cause?",
             "options": [
@@ -10537,7 +10542,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Ethambutol can cause optic neuropathy.",
+          "explanation": "Ethambutol causes a dose-related optic neuropathy with central blur and red–green colour loss. Patients on it need vision and colour checks.",
           "original": {
             "q": "Ethambutol can cause",
             "options": [
@@ -10591,7 +10596,7 @@
               "feedback": "Possible."
             }
           ],
-          "explanation": "Bisphosphonates can cause uveitis or scleritis.",
+          "explanation": "Bisphosphonates (e.g. for osteoporosis) can occasionally cause uveitis or scleritis, so a red, painful eye after starting one needs referral.",
           "needsReview": true
         },
         {
@@ -10647,7 +10652,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Sildenafil can cause a temporary blue tinge to vision.",
+          "explanation": "Sildenafil also weakly blocks PDE6 in the photoreceptors, giving a temporary blue tinge and light sensitivity.",
           "needsReview": true
         },
         {
@@ -10785,7 +10790,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Pentosan polysulfate can cause a pigmentary maculopathy.",
+          "explanation": "Long-term pentosan polysulfate (for interstitial cystitis) can cause a pigmentary maculopathy, so users need retinal screening.",
           "needsReview": true
         },
         {
@@ -10923,7 +10928,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Isoniazid, like ethambutol, can cause optic neuropathy.",
+          "explanation": "Isoniazid, another TB drug, can also cause optic neuropathy, and TB patients often take it with ethambutol.",
           "needsReview": true
         },
         {
@@ -10951,7 +10956,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Long courses of linezolid can cause optic neuropathy.",
+          "explanation": "Linezolid courses longer than about 4 weeks can cause optic neuropathy. Central blur and colour loss on it need urgent review.",
           "original": {
             "q": "Long courses of linezolid can cause",
             "options": [
@@ -11033,7 +11038,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "High doses of thioridazine can cause pigmentary retinopathy.",
+          "explanation": "High-dose thioridazine (over about 800 mg a day) can cause pigmentary retinopathy, sometimes within weeks.",
           "needsReview": true
         },
         {
@@ -11089,7 +11094,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Rifabutin can cause uveitis.",
+          "explanation": "Rifabutin can cause anterior uveitis, especially at high doses or with clarithromycin, which raises its levels.",
           "needsReview": true
         },
         {
@@ -11229,7 +11234,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Opioids typically cause small (pinpoint) pupils.",
+          "explanation": "Opioids act on the Edinger–Westphal nucleus to constrict the pupils, so pinpoint pupils are a classic sign.",
           "needsReview": true
         },
         {
@@ -11341,7 +11346,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Quinine toxicity can cause sudden visual loss.",
+          "explanation": "Quinine overdose is toxic to the retina and can cause sudden, severe, sometimes permanent visual loss. It's an emergency.",
           "needsReview": true
         },
         {
@@ -11481,7 +11486,7 @@
               "feedback": "Not typically."
             }
           ],
-          "explanation": "Tamoxifen can cause a crystalline maculopathy.",
+          "explanation": "Tamoxifen can leave fine, shiny crystals around the macula, sometimes with oedema.",
           "needsReview": true
         },
         {
@@ -11565,7 +11570,7 @@
               "feedback": "Fields."
             }
           ],
-          "explanation": "Digoxin can cause yellow-tinged vision.",
+          "explanation": "Digoxin toxicity causes yellow-tinged vision (xanthopsia). A new colour change in someone on digoxin should prompt a level check.",
           "needsReview": true
         },
         {

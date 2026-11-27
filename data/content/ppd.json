@@ -3341,7 +3341,7 @@
               "feedback": "What you want."
             }
           ],
-          "explanation": "SBAR: Situation, Background, Assessment, Recommendation.",
+          "explanation": "SBAR is Situation, Background, Assessment, Recommendation. This line says who and what's happening now, so it's the Situation.",
           "original": {
             "q": "What does SBAR stand for?",
             "options": [
@@ -3783,7 +3783,7 @@
               "feedback": "History."
             }
           ],
-          "explanation": "SBAR: Situation, Background, Assessment, Recommendation.",
+          "explanation": "Saying what you want to happen next is the Recommendation, the R of SBAR.",
           "original": {
             "q": "In SBAR, R is",
             "options": [
@@ -4089,7 +4089,7 @@
               "feedback": "What you want."
             }
           ],
-          "explanation": "Background gives the relevant history.",
+          "explanation": "Relevant history (lens type, sleeping in them) is Background. It explains why the situation matters.",
           "original": {
             "q": "In SBAR, B stands for",
             "options": [
@@ -5255,7 +5255,7 @@
               "feedback": "Next time."
             }
           ],
-          "explanation": "Gibbs starts with a description of what happened.",
+          "explanation": "This sets the scene of what happened without judging it, which is Gibbs' first stage: Description.",
           "original": {
             "q": "What's the first stage of Gibbs' cycle?",
             "options": [
@@ -6475,7 +6475,7 @@
               "feedback": "Not helpful."
             }
           ],
-          "explanation": "A gap in knowledge is a prompt to plan learning to fill it.",
+          "explanation": "Reflection should end in action, so a knowledge gap becomes a learning goal with a plan (e.g. a CPD session or reading).",
           "needsReview": true
         },
         {

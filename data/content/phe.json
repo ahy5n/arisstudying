@@ -304,7 +304,7 @@
               "feedback": "Certification is possible."
             }
           ],
-          "explanation": "Certification (CVI) is completed by a consultant ophthalmologist.",
+          "explanation": "Only a consultant ophthalmologist can complete the CVI. The optometrist's job is to refer and explain the benefits of certification.",
           "original": {
             "q": "Who certifies sight impairment (CVI)?",
             "options": [
@@ -1552,7 +1552,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In England the CVI is completed by a consultant ophthalmologist.",
+          "explanation": "In England the CVI is signed by a consultant ophthalmologist, so explain you'll refer them. Certification opens up support services and benefits.",
           "original": {
             "q": "Which professional completes the CVI?",
             "options": [
@@ -3926,7 +3926,7 @@
               "feedback": "More."
             }
           ],
-          "explanation": "Smoking increases the risk of AMD by about 2–4 times.",
+          "explanation": "Smoking roughly doubles to quadruples AMD risk and is the biggest modifiable risk factor, so stop-smoking advice belongs in eye care.",
           "needsReview": true
         },
         {
@@ -4314,7 +4314,7 @@
               "feedback": "Not the model."
             }
           ],
-          "explanation": "COM-B: behaviour depends on capability, opportunity and motivation.",
+          "explanation": "COM-B says behaviour needs Capability, Opportunity and Motivation. They want to do it (motivation), but lack a heat mask (opportunity) and keep forgetting (capability).",
           "original": {
             "q": "In the COM-B model, behaviour depends on",
             "options": [
@@ -5251,7 +5251,8 @@
               "feedback": "True."
             }
           ],
-          "explanation": "Effective handwashing removes about 99% of microbes, not 50%."
+          "explanation": "Good handwashing removes about 99% of transient microbes, not 50%, which is why it's the single most important infection control step.",
+          "needsReview": true
         },
         {
           "id": "phe-infection-control-x0451",
@@ -5502,7 +5503,7 @@
               "feedback": "Total kill."
             }
           ],
-          "explanation": "Sterilisation kills all microorganisms, including bacterial spores.",
+          "explanation": "Sterilisation kills everything, including spores. Disinfection reduces microbes but may leave spores, so items entering sterile areas must be sterilised.",
           "needsReview": true
         },
         {
@@ -6336,7 +6337,7 @@
               "feedback": "It's regulated."
             }
           ],
-          "explanation": "Clinical waste is governed by the Controlled Waste Regulations.",
+          "explanation": "Clinical waste is controlled waste under UK law (the Controlled Waste Regulations), so it must be separated, labelled and collected by licensed carriers.",
           "needsReview": true
         },
         {
@@ -6751,7 +6752,8 @@
               "feedback": "Declaration is required when fitness is affected."
             }
           ],
-          "explanation": "From the GOC's guidance on declarations."
+          "explanation": "Students must declare a health condition if it may currently affect their fitness to train. Having a condition alone doesn't need declaring.",
+          "needsReview": true
         },
         {
           "id": "phe-wellbeing-x0451",
@@ -6862,7 +6864,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Most adults need about 7–9 hours of sleep a night.",
+          "explanation": "Most adults need 7–9 hours. Regularly getting less affects memory, mood and concentration, which matters at exam time.",
           "needsReview": true
         },
         {
@@ -6890,7 +6892,7 @@
               "feedback": "NHS non-emergency."
             }
           ],
-          "explanation": "Shout's free crisis text line is 85258.",
+          "explanation": "Text SHOUT to 85258 for free, 24/7 crisis support in the UK.",
           "needsReview": true
         },
         {
@@ -7478,7 +7480,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Student Minds is a UK charity supporting student mental health.",
+          "explanation": "Student Minds is the UK student mental health charity. It runs peer support and campaigns across universities.",
           "needsReview": true
         },
         {
@@ -7812,7 +7814,7 @@
               "feedback": "About 1,000."
             }
           ],
-          "explanation": "The portfolio task is about 1,000 words, with references.",
+          "explanation": "The portfolio task is about 1,000 words with references, so keep it focused and evidence your points.",
           "needsReview": true
         },
         {

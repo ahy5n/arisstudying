@@ -1749,7 +1749,8 @@
               "feedback": "It is the other way round."
             }
           ],
-          "explanation": "+90 D gives 0.76x, +78 D gives 0.93x and +20 D gives 3x."
+          "explanation": "Volk lens magnification is inversely related to power: +90 D gives about 0.76×, +78 D about 0.93× and +20 D about 3×. Lower power gives a bigger, narrower view.",
+          "needsReview": true
         },
         {
           "id": "peg-w3-3",
@@ -2329,7 +2330,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The 60 D lens is held about 13 mm from the cornea.",
+          "explanation": "Each Volk lens works at about its focal length from the cornea. Lower power means further away: a 60 D lens is about 13 mm out.",
           "needsReview": true
         },
         {
@@ -2357,7 +2358,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The 90 D lens is held about 7 mm from the cornea.",
+          "explanation": "A 90 D lens is stronger, so it sits closer: about 7 mm from the cornea.",
           "needsReview": true
         },
         {
@@ -2721,7 +2722,7 @@
               "feedback": "Posterior pole."
             }
           ],
-          "explanation": "To view the superior retina, the patient looks up.",
+          "explanation": "The patient looks towards the area you want to see, so look up to view the superior retina.",
           "needsReview": true
         },
         {
@@ -3291,7 +3292,8 @@
               "feedback": "True."
             }
           ],
-          "explanation": "Arterioles are narrower, so 2:3 or 1:2 is normal."
+          "explanation": "Arterioles are narrower than veins, so the normal A:V ratio is about 2:3. '3:2' is the false statement.",
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0051",
@@ -3510,7 +3512,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A healthy neuroretinal rim is orange-pink.",
+          "explanation": "A healthy rim is orange-pink because of its capillary blood supply. A pale rim suggests nerve fibre loss (optic atrophy).",
           "needsReview": true
         },
         {
@@ -3594,7 +3596,7 @@
               "feedback": "Atrophy."
             }
           ],
-          "explanation": "A swollen disc has blurred, raised margins.",
+          "explanation": "When the disc swells, axons and fluid push the margins up and blur them, often hiding the vessels as they cross the edge.",
           "needsReview": true
         },
         {
@@ -3734,7 +3736,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A localised notch in the neuroretinal rim is a sign of glaucoma.",
+          "explanation": "Glaucoma thins the rim unevenly, often at the top or bottom poles, leaving a localised notch rather than general pallor.",
           "needsReview": true
         },
         {
@@ -3762,7 +3764,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Beta-zone peripapillary atrophy is associated with glaucoma.",
+          "explanation": "Beta-zone atrophy (bare sclera and large choroidal vessels next to the disc) is linked with glaucoma and tends to sit where the rim is thinnest.",
           "needsReview": true
         },
         {
@@ -4126,7 +4128,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In early papilloedema, visual acuity is usually normal.",
+          "explanation": "Papilloedema compresses axons slowly, so acuity usually stays normal early on. An enlarged blind spot is often the only field sign.",
           "needsReview": true
         },
         {
@@ -4294,7 +4296,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In glaucomatous cupping, vessels can be pushed nasally (nasalisation).",
+          "explanation": "As the cup deepens in glaucoma, the central vessels lose their support and get pushed towards the nasal side (nasalisation).",
           "needsReview": true
         },
         {
@@ -4378,7 +4380,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The average vertical disc diameter is about 1.8 mm.",
+          "explanation": "The disc is slightly taller than wide (about 1.8 mm vertically). Disc size matters, because big discs naturally have big cups.",
           "needsReview": true
         },
         {
@@ -4406,7 +4408,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Tilted discs are most common in myopia.",
+          "explanation": "Tilted discs are common in myopia, where the eye has grown long and the nerve leaves the eye at an angle. They can mimic field defects.",
           "needsReview": true
         },
         {
@@ -5050,7 +5052,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The fovea is about 1.5 mm across.",
+          "explanation": "The fovea is about 1.5 mm across, about one disc diameter. Its centre, the foveola, has only cones and gives the sharpest vision.",
           "needsReview": true
         },
         {
@@ -5190,7 +5192,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Arteries are lighter and narrower than veins.",
+          "explanation": "Arteries carry oxygenated blood, so they look lighter, with a brighter reflex. They're also narrower (A:V about 2:3).",
           "needsReview": true
         },
         {
@@ -5274,7 +5276,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Spontaneous venous pulsation is seen in about 80–90% of normal eyes.",
+          "explanation": "Venous pulsation is seen in most normal eyes. Its absence alone isn't diagnostic of raised intracranial pressure.",
           "needsReview": true
         },
         {
@@ -5330,7 +5332,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The foveal avascular zone is about 0.5 mm across.",
+          "explanation": "The fovea's centre has no capillaries (the FAZ, about 0.5 mm), so light reaches the cones unobstructed. It enlarges in diabetic macular ischaemia.",
           "needsReview": true
         },
         {
@@ -5972,7 +5974,7 @@
               "feedback": "Foveola."
             }
           ],
-          "explanation": "The macula is about 5.5 mm across.",
+          "explanation": "The macula is about 5.5 mm across, roughly the area between the temporal arcades, and holds the fovea at its centre.",
           "needsReview": true
         },
         {
@@ -6595,7 +6597,7 @@
               "feedback": "Very high."
             }
           ],
-          "explanation": "Normal IOP is roughly 10–21 mmHg.",
+          "explanation": "About 10–21 mmHg covers most people (mean ±2 SD). Glaucoma can occur within it, and high IOP doesn't always mean glaucoma.",
           "needsReview": true
         },
         {
@@ -6957,7 +6959,7 @@
               "feedback": "Rebound."
             }
           ],
-          "explanation": "The Perkins tonometer is a handheld version of Goldmann applanation.",
+          "explanation": "The Perkins tonometer uses the same applanation principle as the slit-lamp Goldmann, but it's handheld, so it works for patients lying down or in wheelchairs.",
           "needsReview": true
         },
         {
@@ -7069,7 +7071,7 @@
               "feedback": "Schiotz."
             }
           ],
-          "explanation": "The Tono-Pen uses a small applanating probe.",
+          "explanation": "The Tono-Pen flattens a tiny area with a small probe and averages several readings. It works through corneal scars and on patients who can't reach a slit lamp.",
           "needsReview": true
         },
         {
@@ -7209,7 +7211,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Average central corneal thickness is about 540–550 µm.",
+          "explanation": "Central corneal thickness is about 540–550 µm. Thin corneas make IOP read low and thick ones high, which matters for glaucoma risk.",
           "needsReview": true
         },
         {
@@ -7293,7 +7295,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "IOP usually rises a little when lying down.",
+          "explanation": "Lying down raises the pressure in the episcleral veins, so IOP goes up a little. This may matter for night-time glaucoma progression.",
           "needsReview": true
         },
         {
@@ -7321,7 +7323,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Exercise usually causes a temporary fall in IOP.",
+          "explanation": "Aerobic exercise lowers IOP for a short while, so readings straight after exercise may be lower than usual.",
           "needsReview": true
         },
         {
@@ -7517,7 +7519,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The average adult IOP is about 15–16 mmHg.",
+          "explanation": "Average adult IOP is about 15–16 mmHg. Measurements are usually read against the 10–21 mmHg range.",
           "needsReview": true
         },
         {
@@ -7629,7 +7631,7 @@
               "feedback": "Old."
             }
           ],
-          "explanation": "Goldmann applanation is the clinical gold standard.",
+          "explanation": "Goldmann applanation is the reference standard in clinics and studies, so hospital Goldmann readings usually take precedence over NCT.",
           "original": {
             "q": "What's the 'gold standard' clinical tonometer?",
             "options": [
@@ -8094,7 +8096,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Fixation losses over 20% usually make a field unreliable.",
+          "explanation": "6 out of 20 is 30%, above the usual 20% limit for fixation losses. The patient wasn't looking steadily, so repeat the field rather than trusting it.",
           "original": {
             "q": "A field has 25% fixation losses. Is it reliable?",
             "options": [
@@ -8898,7 +8900,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A parent or sibling with glaucoma increases a person's risk.",
+          "explanation": "Glaucoma runs in families. A parent or sibling with it raises the risk several-fold, so ask every patient.",
           "needsReview": true
         },
         {
@@ -10452,7 +10454,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Drusen show on OCT as bumps of the RPE.",
+          "explanation": "Drusen are deposits under the RPE, so on OCT they lift it into dome-shaped bumps.",
           "needsReview": true
         },
         {
@@ -10676,7 +10678,7 @@
               "feedback": "Shadows."
             }
           ],
-          "explanation": "Floaters can cast shadows on the scan.",
+          "explanation": "Floaters block the scanning light and cast shadows on the image underneath. Don't mistake these artefacts for disease.",
           "needsReview": true
         },
         {
@@ -10760,7 +10762,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Ultra-widefield imaging captures about 200° of the retina.",
+          "explanation": "Ultra-widefield cameras (e.g. Optos) capture about 200° in one shot, showing the periphery without dilation. They miss the far edges.",
           "needsReview": true
         },
         {
@@ -10816,7 +10818,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Intraretinal cysts on OCT are a sign of macular oedema.",
+          "explanation": "Fluid collecting within the retina shows on OCT as dark spaces (cysts), the hallmark of macular oedema, e.g. diabetic or after surgery.",
           "needsReview": true
         },
         {
@@ -11705,7 +11707,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "To see the superior periphery, the patient looks up.",
+          "explanation": "The patient looks towards the area you want to see, so look up to view the superior periphery.",
           "needsReview": true
         },
         {
@@ -11761,7 +11763,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Retinoschisis is a splitting between the layers of the retina.",
+          "explanation": "Retinoschisis is a split within the neural retina, usually in the outer plexiform layer. It's often harmless but must be told apart from detachment.",
           "needsReview": true
         },
         {
@@ -11901,7 +11903,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "About 10–15% of acute symptomatic PVDs have a retinal tear.",
+          "explanation": "Around 1 in 10 acute symptomatic PVDs has a retinal tear. That's why every new flashes and floaters case needs a dilated examination.",
           "needsReview": true
         },
         {
@@ -12433,7 +12435,7 @@
               "feedback": "Refer."
             }
           ],
-          "explanation": "Pavingstone degeneration is benign, so it doesn't need referral if typical.",
+          "explanation": "Pavingstone degeneration is a common, benign thinning of the far peripheral retina with sharp edges. It doesn't predispose to detachment.",
           "needsReview": true
         },
         {
@@ -12725,7 +12727,8 @@
               "feedback": "Correct."
             }
           ],
-          "explanation": "Incorrect: only afferent defects cause an RAPD."
+          "explanation": "An RAPD reflects a difference in input (optic nerve or extensive retina). Efferent defects change pupil size, not the relative afferent response.",
+          "needsReview": true
         },
         {
           "id": "peg-pup-2",
@@ -12752,7 +12755,8 @@
               "feedback": "About 5% of people have a physiological difference over 1 mm."
             }
           ],
-          "explanation": "About 20% of people have physiological anisocoria."
+          "explanation": "Up to about 20% of people have a small pupil size difference (usually under 1 mm) that's the same in light and dark. That's normal.",
+          "needsReview": true
         },
         {
           "id": "peg-pup-3",
@@ -12811,7 +12815,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Adie's tonic pupil has a prevalence of about 2 per 1,000."
+          "explanation": "Adie's tonic pupil affects about 2 in 1,000 people. It's usually one-sided in young women, with a dilated pupil that reacts slowly to near.",
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0051",
@@ -13254,7 +13259,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In bright light, pupils are typically about 2–4 mm.",
+          "explanation": "Bright light constricts the pupils to about 2–4 mm, and they widen to about 4–8 mm in dim light.",
           "needsReview": true
         },
         {
@@ -13478,7 +13483,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Adie's tonic pupil is most common in young women.",
+          "explanation": "Adie's tonic pupil mainly affects women aged 20–40, often with reduced tendon reflexes (Holmes-Adie syndrome).",
           "needsReview": true
         },
         {
@@ -13702,7 +13707,7 @@
               "feedback": "Bilateral."
             }
           ],
-          "explanation": "Opioids cause small (miotic) pupils.",
+          "explanation": "Opioids stimulate the Edinger–Westphal nucleus, constricting the pupils. Pinpoint pupils are a sign of opioid use or overdose.",
           "needsReview": true
         },
         {
@@ -14364,7 +14369,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The 24-2 test checks 54 points in the central 24°.",
+          "explanation": "24-2 tests 54 points within 24°, 6° apart. It's the usual glaucoma screening and monitoring grid.",
           "needsReview": true
         },
         {
@@ -14644,7 +14649,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The normal monocular field extends about 100° temporally.",
+          "explanation": "The field reaches about 100° temporally, much further than nasally (about 60°), where the nose blocks it.",
           "needsReview": true
         },
         {
@@ -14672,7 +14677,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The normal monocular field extends about 60° nasally.",
+          "explanation": "The nose limits the nasal field to about 60°. Temporally it reaches about 100°.",
           "needsReview": true
         },
         {
@@ -14812,7 +14817,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The 10-2 test points are spaced 2° apart.",
+          "explanation": "10-2 tests 68 points 2° apart within 10°, a fine grid for central damage, e.g. advanced glaucoma or hydroxychloroquine.",
           "needsReview": true
         },
         {
@@ -14840,7 +14845,7 @@
               "feedback": "Esterman."
             }
           ],
-          "explanation": "The 30-2 test checks 76 points in the central 30°.",
+          "explanation": "30-2 tests 76 points within 30°, wider than 24-2 but slower.",
           "needsReview": true
         },
         {

@@ -1077,7 +1077,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Titanium is very light and hypoallergenic.",
+          "explanation": "Titanium is very light, strong and corrosion-resistant, and it doesn't contain nickel, so it suits people with metal allergies.",
           "needsReview": true
         },
         {
@@ -1355,7 +1355,7 @@
               "feedback": "Too much."
             }
           ],
-          "explanation": "Dress frames usually have a pantoscopic angle of about 8–12°.",
+          "explanation": "Tilting the lower rims in by about 8–12° keeps the lens closer to perpendicular to the line of sight in downgaze, where people look most of the time.",
           "needsReview": true
         },
         {
@@ -2164,7 +2164,7 @@
               "feedback": "Surface curve."
             }
           ],
-          "explanation": "A distometer measures back vertex distance.",
+          "explanation": "A distometer rests on the closed lid and reads the gap between the back of the lens and the cornea, which matters for powers over about ±5.00 D.",
           "needsReview": true
         },
         {
@@ -2528,7 +2528,7 @@
               "feedback": "Contact lens."
             }
           ],
-          "explanation": "A typical vertex distance is about 12–14 mm.",
+          "explanation": "Most frames sit about 12–14 mm from the cornea. Refraction assumes a value like this, so a frame sitting much closer or further changes the effective power of strong lenses.",
           "needsReview": true
         },
         {
@@ -3116,7 +3116,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Adult distance PDs typically range from about 54 to 74 mm.",
+          "explanation": "Adult distance PDs mostly fall between about 54 and 74 mm. Anything outside that is worth re-measuring before ordering.",
           "needsReview": true
         }
       ],
@@ -3632,7 +3632,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "One prism dioptre deviates light by 1 cm at a distance of 1 m.",
+          "explanation": "A prism dioptre is defined by displacement: 1Δ moves the image 1 cm sideways on a screen 1 m away, which is why prism is quoted per metre.",
           "needsReview": true
         },
         {
@@ -3856,7 +3856,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A 2Δ prism displaces 2 cm per metre, so at 2 m it's 4 cm.",
+          "explanation": "Displacement grows in proportion to distance: 2Δ is 2 cm per metre, so it's 4 cm at 2 m.",
           "needsReview": true
         },
         {
@@ -4304,7 +4304,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "One prism dioptre is about 0.57°.",
+          "explanation": "1Δ is 1 cm at 1 m, so tan θ = 0.01 and θ ≈ 0.57°. For small angles, roughly 1.75Δ makes 1°.",
           "needsReview": true
         },
         {
@@ -4971,7 +4971,7 @@
               "feedback": "High-index plastic."
             }
           ],
-          "explanation": "CR39 has a refractive index of about 1.498.",
+          "explanation": "CR39 (index 1.498) is the standard plastic all others are compared with. Anything higher is 'mid' or 'high' index and makes thinner lenses.",
           "needsReview": true
         },
         {
@@ -4999,7 +4999,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Polycarbonate has a low Abbe number of about 30.",
+          "explanation": "Polycarbonate's Abbe number of about 30 means a lot of chromatic aberration, so some wearers notice colour fringes when looking away from the optical centre.",
           "needsReview": true
         },
         {
@@ -5305,7 +5305,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "CR39 has a density of about 1.32 g/cm³.",
+          "explanation": "CR39 is about 1.32 g/cm³, roughly half the density of crown glass (about 2.54), which is why plastic lenses feel so much lighter.",
           "needsReview": true
         },
         {
@@ -5333,7 +5333,7 @@
               "feedback": "Denser."
             }
           ],
-          "explanation": "Trivex is the lightest common lens material, at about 1.11 g/cm³.",
+          "explanation": "Trivex (about 1.11 g/cm³) is lighter even than polycarbonate (about 1.20) and much lighter than CR39 (about 1.32).",
           "needsReview": true
         },
         {
@@ -5389,7 +5389,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Polycarbonate is a thermoplastic, so it can be melted and injection moulded.",
+          "explanation": "Thermoplastics soften when heated, so polycarbonate is injection-moulded rather than cast. This also makes it tough and impact-resistant.",
           "needsReview": true
         },
         {
@@ -5417,7 +5417,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "Polycarbonate's surface scratches easily, so it needs a hard coat.",
+          "explanation": "Polycarbonate is soft enough to scratch easily, so it is always supplied with a scratch-resistant hard coat.",
           "needsReview": true
         },
         {
@@ -5499,7 +5499,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "1.74 plastic has a low Abbe number of about 33.",
+          "explanation": "High-index plastics trade thinness for dispersion. At about 33, 1.74 plastic gives noticeably more colour fringing than CR39 (about 58).",
           "needsReview": true
         },
         {
@@ -5583,7 +5583,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Constringence is another name for the Abbe number.",
+          "explanation": "Constringence and Abbe number mean the same thing: how little a material disperses colours. Higher means less chromatic aberration.",
           "needsReview": true
         },
         {
@@ -5667,7 +5667,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Acetone can damage polycarbonate, causing cracking.",
+          "explanation": "Solvents like acetone attack polycarbonate and cause stress cracking, so it shouldn't be cleaned with them.",
           "needsReview": true
         },
         {
@@ -5723,7 +5723,7 @@
               "feedback": "Glass."
             }
           ],
-          "explanation": "Mid-index plastic has a refractive index of about 1.56.",
+          "explanation": "Mid-index plastics are about 1.56, a step up from CR39 (1.498) that makes lenses a little thinner at a modest cost.",
           "needsReview": true
         },
         {
@@ -6139,7 +6139,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Trivex has an Abbe number of about 45.",
+          "explanation": "Trivex's Abbe number of about 45 is much better than polycarbonate's (about 30), so it combines impact resistance with clearer optics.",
           "needsReview": true
         },
         {
@@ -6736,7 +6736,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Standard photochromic lenses are activated by UV light.",
+          "explanation": "Standard photochromics darken in response to UV. Car windscreens block most UV, so they barely darken while driving.",
           "needsReview": true
         },
         {
@@ -7072,7 +7072,7 @@
               "feedback": "Category 4."
             }
           ],
-          "explanation": "Category 3 sunglasses transmit about 8–18% of light.",
+          "explanation": "Category 3 (8–18% transmission) is the usual dark sunglass for bright sun. It's fine for driving, unlike category 4.",
           "needsReview": true
         },
         {
@@ -7100,7 +7100,7 @@
               "feedback": "Category 4."
             }
           ],
-          "explanation": "Category 2 sunglasses transmit about 18–43% of light.",
+          "explanation": "Category 2 lets through 18–43% of light: a medium tint for moderate sunshine.",
           "needsReview": true
         },
         {
@@ -7688,7 +7688,7 @@
               "feedback": "They do."
             }
           ],
-          "explanation": "Standard photochromics take several minutes to fade indoors.",
+          "explanation": "Photochromics darken quickly but fade more slowly. Standard ones take several minutes to clear indoors, and fade more slowly when it's cold.",
           "needsReview": true
         },
         {
@@ -7932,7 +7932,8 @@
               "feedback": "That is the answer for a +5.00 DS lens."
             }
           ],
-          "explanation": "Round segments add to the prism for myopes."
+          "explanation": "Distance lens: 1.5 cm × 5.00 = 7.5Δ base down (a minus lens below its centre). The round segment's centre is 25 mm below the distance centre, so the NVP is 1 cm above it: 1 × 3.00 = 3Δ base down. Total 10.5Δ base down.",
+          "needsReview": true
         },
         {
           "id": "aad-mf2-2",
@@ -7986,7 +7987,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "D28 describes a flat-top, D-shaped segment 28 mm wide.",
+          "explanation": "Bifocal names give the shape then the width: 'D' is a flat-top segment shaped like the letter D, and 28 is its width in mm.",
           "needsReview": true
         },
         {
@@ -8546,7 +8547,7 @@
               "feedback": "Not necessarily."
             }
           ],
-          "explanation": "A wider segment gives a wider near field of view.",
+          "explanation": "The segment is the only part with the near add, so its width limits how far you can look sideways while reading. A wider segment means less head turning.",
           "needsReview": true
         },
         {
@@ -8574,7 +8575,7 @@
               "feedback": "PPL."
             }
           ],
-          "explanation": "A trifocal has distance, intermediate and near portions.",
+          "explanation": "A trifocal adds an intermediate band (for screens or the dashboard) between the distance and near portions.",
           "needsReview": true
         },
         {
@@ -8936,7 +8937,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A wider segment gives a wider reading area.",
+          "explanation": "The reading area is the segment, so a wider segment (e.g. D35 rather than D28) widens it.",
           "needsReview": true
         },
         {
@@ -9683,7 +9684,7 @@
               "feedback": "They are."
             }
           ],
-          "explanation": "The hidden engravings on a varifocal are about 34 mm apart.",
+          "explanation": "The two hidden circles are 34 mm apart, 17 mm either side of the fitting cross. You use them to re-mark the lens and check its centration.",
           "needsReview": true
         },
         {
@@ -9767,7 +9768,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A Geneva lens measure is calibrated for crown glass, n = 1.523.",
+          "explanation": "A lens measure reads correctly only for the index it's calibrated for (crown glass, 1.523). Readings on other materials need converting.",
           "needsReview": true
         },
         {
@@ -10183,7 +10184,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Callipers measure lens thickness.",
+          "explanation": "Thickness gauges (callipers) check centre and edge thickness, e.g. that a safety or minus lens meets its minimum thickness.",
           "needsReview": true
         },
         {
@@ -10351,7 +10352,7 @@
               "feedback": "Check."
             }
           ],
-          "explanation": "At collection, check acuity, comfort, fit and centration.",
+          "explanation": "At collection you confirm the result, not just the frame: the patient sees well, it's comfortable, it sits correctly and the centres match their eyes.",
           "needsReview": true
         },
         {
@@ -11459,7 +11460,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A standard progressive corridor is typically about 14–18 mm long.",
+          "explanation": "The corridor is where power changes from distance to near. Standard designs use about 14–18 mm; shorter corridors suit shallow frames but feel more distorted.",
           "needsReview": true
         },
         {
@@ -14111,7 +14112,7 @@
               "feedback": "Prolate ellipse."
             }
           ],
-          "explanation": "A hyperbola has p less than 0.",
+          "explanation": "p describes how a conic flattens: p = 1 is a sphere, 0 to 1 a prolate ellipse, 0 a parabola, and below 0 a hyperbola, which flattens the most.",
           "needsReview": true
         },
         {
@@ -14139,7 +14140,7 @@
               "feedback": "Below 0."
             }
           ],
-          "explanation": "An oblate ellipse has p greater than 1.",
+          "explanation": "p above 1 means the curve steepens towards the edge, which is an oblate ellipse. Below 1 it flattens.",
           "needsReview": true
         },
         {
@@ -14251,7 +14252,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "An atoric surface is a toric surface with aspheric meridians.",
+          "explanation": "An atoric surface is toric, but each principal meridian is aspheric. This cuts oblique astigmatism in high-cylinder lenses.",
           "needsReview": true
         },
         {
@@ -14363,7 +14364,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A prolate ellipse surface flattens towards the periphery.",
+          "explanation": "A prolate ellipse (0 < p < 1) flattens away from the centre, like the normal cornea. Aspheric plus lenses use this to reduce off-axis errors.",
           "needsReview": true
         },
         {
@@ -14391,7 +14392,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "An oblate ellipse surface steepens towards the periphery.",
+          "explanation": "An oblate ellipse (p > 1) gets steeper towards the edge, the opposite of the prolate shape.",
           "needsReview": true
         },
         {
@@ -15091,7 +15092,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Conicoids include spheres, ellipsoids, paraboloids and hyperboloids.",
+          "explanation": "Conicoids are the surfaces made by spinning a conic section: spheres, ellipsoids, paraboloids and hyperboloids. Their p value tells them apart.",
           "needsReview": true
         },
         {
@@ -15564,7 +15565,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The Group 1 standard requires reading a number plate at 20 m.",
+          "explanation": "The Group 1 (car) standard is reading a modern number plate at 20 m, plus about 6/12 acuity and an adequate field.",
           "needsReview": true
         },
         {
@@ -15592,7 +15593,7 @@
               "feedback": "Increased robustness."
             }
           ],
-          "explanation": "In EN 166, B means medium-energy impact resistance.",
+          "explanation": "EN 166 impact grades go F (low), B (medium) and A (high energy). B is for goggles and face shields.",
           "needsReview": true
         },
         {
@@ -16038,7 +16039,7 @@
               "feedback": "N."
             }
           ],
-          "explanation": "In EN 166, F means low-energy impact resistance.",
+          "explanation": "F is the lowest impact grade in EN 166, which is the level most safety spectacles meet.",
           "needsReview": true
         },
         {
@@ -16066,7 +16067,7 @@
               "feedback": "K."
             }
           ],
-          "explanation": "In EN 166, A means high-energy impact resistance.",
+          "explanation": "A is the highest impact grade in EN 166, and only face shields can achieve it.",
           "needsReview": true
         },
         {
@@ -16094,7 +16095,7 @@
               "feedback": "3."
             }
           ],
-          "explanation": "In EN 166, K means resistance to damage by fine particles (scratching).",
+          "explanation": "K means the lens resists scratching from fine particles, so it stays clear in dusty work.",
           "needsReview": true
         },
         {
@@ -16122,7 +16123,7 @@
               "feedback": "4."
             }
           ],
-          "explanation": "In EN 166, N means resistance to fogging.",
+          "explanation": "N means the lens resists fogging, which is useful moving between temperatures or wearing a mask.",
           "needsReview": true
         },
         {
@@ -16150,7 +16151,7 @@
               "feedback": "9."
             }
           ],
-          "explanation": "In EN 166, 3 means protection from liquid droplets and splashes.",
+          "explanation": "Field-of-use code 3 means protection from liquid droplets and splashes, e.g. chemicals in a lab.",
           "needsReview": true
         },
         {
@@ -16206,7 +16207,7 @@
               "feedback": "Sunglasses."
             }
           ],
-          "explanation": "EN 207 covers laser eye protection.",
+          "explanation": "Laser eyewear has its own standard, EN 207, because it must block specific wavelengths at stated power levels.",
           "needsReview": true
         },
         {
@@ -16402,7 +16403,7 @@
               "feedback": "Too dark."
             }
           ],
-          "explanation": "Office lighting of around 300–500 lux is typically recommended.",
+          "explanation": "Screen and paperwork usually need around 300–500 lux. Too little causes strain, and too much creates glare on screens.",
           "needsReview": true
         },
         {
@@ -16430,7 +16431,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Disability glare is glare that reduces visual performance.",
+          "explanation": "Disability glare scatters light in the eye and lowers contrast, so you actually see less. Discomfort glare just feels unpleasant.",
           "needsReview": true
         },
         {
@@ -16570,7 +16571,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Polycarbonate is highly impact-resistant, so it's used in sports goggles.",
+          "explanation": "Polycarbonate is very impact-resistant and light, which makes it the usual choice for sports and safety eyewear.",
           "needsReview": true
         },
         {
@@ -16626,7 +16627,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Group 2 drivers need a binocular field of at least 160° horizontally.",
+          "explanation": "Bus and lorry (Group 2) drivers need at least 160° horizontally, and no significant defect within 70° left and right or 30° above and below.",
           "needsReview": true
         },
         {

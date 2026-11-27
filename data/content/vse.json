@@ -928,7 +928,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A type II error is missing a real effect (a false negative).",
+          "explanation": "A type II error is a false negative: concluding there's no effect when there really is one, often because the sample was too small.",
           "needsReview": true
         },
         {
@@ -1750,7 +1750,8 @@
               "feedback": "Descriptive."
             }
           ],
-          "explanation": "T comes from an inferential test."
+          "explanation": "t is a test statistic from an inferential test. Mean, median, mode and SD only describe the data.",
+          "needsReview": true
         },
         {
           "id": "vse-stats-tyk-5",
@@ -2390,7 +2391,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Variance is the standard deviation squared.",
+          "explanation": "Variance is the average squared distance from the mean. The SD is its square root, which puts it back in the original units.",
           "needsReview": true
         },
         {
@@ -2614,7 +2615,7 @@
               "feedback": "Two continuous variables."
             }
           ],
-          "explanation": "Chi-squared tests analyse counts in categories.",
+          "explanation": "Counts in categories (glasses yes/no by sex) are compared with chi-squared. t-tests are for comparing means.",
           "original": {
             "q": "Which test analyses counts in categories (e.g. glasses yes/no by sex)?",
             "options": [
@@ -2668,7 +2669,7 @@
               "feedback": "An interval is needed."
             }
           ],
-          "explanation": "A 95% confidence interval is roughly the mean ± 1.96 SE.",
+          "explanation": "95% CI ≈ mean ± 1.96 × SE = 16 ± 0.98, so about 15 to 17 mmHg.",
           "original": {
             "q": "A 95% confidence interval is roughly",
             "options": [
@@ -3810,7 +3811,7 @@
               "feedback": "CARE."
             }
           ],
-          "explanation": "STROBE is the reporting guideline for observational studies.",
+          "explanation": "STROBE is the checklist for reporting observational studies (cohort, case-control, cross-sectional). CONSORT is for randomised trials.",
           "needsReview": true
         },
         {
@@ -4230,7 +4231,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A preprint is shared publicly before peer review.",
+          "explanation": "A preprint is shared publicly before peer review, so read it with extra caution because its methods haven't been checked yet.",
           "needsReview": true
         },
         {
@@ -4398,7 +4399,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Randomisation balances both known and unknown confounders.",
+          "explanation": "Random allocation spreads confounders, known and unknown, evenly between groups. Observational designs can only adjust for ones they measured.",
           "needsReview": true
         },
         {
@@ -4729,7 +4730,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In PICO, C stands for Comparison.",
+          "explanation": "PICO is Population, Intervention, Comparison, Outcome. The C is what the intervention is compared against (e.g. placebo).",
           "needsReview": true
         },
         {
@@ -4785,7 +4786,7 @@
               "feedback": "That's the Comparison."
             }
           ],
-          "explanation": "The O in PICO is the Outcome, here myopia progression.",
+          "explanation": "The O is the Outcome you'll measure. Here it's myopia progression: the result that shows whether atropine works.",
           "needsReview": true
         },
         {
@@ -4923,7 +4924,7 @@
               "feedback": "Applying comes later."
             }
           ],
-          "explanation": "EBP starts with asking a focused, answerable question.",
+          "explanation": "EBP starts with a focused question (Ask), because a clear PICO question makes the search and appraisal manageable.",
           "needsReview": true
         },
         {
@@ -4979,7 +4980,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In PICO, P stands for Population (or Patient).",
+          "explanation": "P is the Population or Patient group, here myopic children. It defines who the evidence must apply to.",
           "needsReview": true
         },
         {
@@ -5061,7 +5062,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A Cochrane systematic review is pre-appraised evidence.",
+          "explanation": "Cochrane reviews have already searched and appraised the trials, so you can use their conclusions without appraising each study.",
           "needsReview": true
         },
         {
@@ -5313,7 +5314,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "EBP: Ask, Acquire, Appraise, Apply, Assess.",
+          "explanation": "The five steps are Ask, Acquire, Appraise, Apply, Assess. Finding the review is Acquire, and judging its quality is Appraise.",
           "original": {
             "q": "The steps of EBP are often summarised as",
             "options": [
@@ -5367,7 +5368,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In PICO, O stands for Outcome.",
+          "explanation": "O is the Outcome: what you'll measure to judge whether the intervention worked.",
           "needsReview": true
         },
         {
@@ -5395,7 +5396,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In PICO, I stands for Intervention.",
+          "explanation": "I is the Intervention: the treatment or test you're asking about.",
           "needsReview": true
         },
         {
@@ -5423,7 +5424,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "CASP checklists help appraise different types of study.",
+          "explanation": "CASP has a checklist for each study type (RCT, cohort, systematic review and more) to guide appraisal step by step.",
           "needsReview": true
         },
         {
@@ -5451,7 +5452,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "GRADE rates the certainty of a body of evidence.",
+          "explanation": "GRADE rates how confident we can be in a body of evidence (high to very low), based on risk of bias, consistency, precision and more.",
           "needsReview": true
         },
         {
@@ -5479,7 +5480,7 @@
               "feedback": "Driving."
             }
           ],
-          "explanation": "NICE produces national clinical guidelines in the UK.",
+          "explanation": "NICE writes national guidelines in England (e.g. NG81 for glaucoma), using systematic reviews of the evidence.",
           "needsReview": true
         },
         {
@@ -5731,7 +5732,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "PubMed is a free database of biomedical literature.",
+          "explanation": "PubMed searches MEDLINE and more for free, which makes it the standard starting point for biomedical searches.",
           "needsReview": true
         },
         {
@@ -5981,7 +5982,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "PICOS adds S for study design.",
+          "explanation": "PICOS adds S for study design (e.g. 'only RCTs') to narrow a search or review.",
           "needsReview": true
         },
         {
@@ -6920,7 +6921,7 @@
               "feedback": "Truncation."
             }
           ],
-          "explanation": "AND finds papers containing both terms.",
+          "explanation": "AND narrows a search to papers containing both terms. OR broadens it to either, and NOT excludes one.",
           "needsReview": true
         },
         {
@@ -6976,7 +6977,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Quotation marks search for the exact phrase.",
+          "explanation": "Quotation marks search for those words together in that order, which cuts out papers mentioning 'dry' and 'eye' separately.",
           "needsReview": true
         },
         {
@@ -7256,7 +7257,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Copying wording without quotation marks or a citation is plagiarism.",
+          "explanation": "Using someone's exact words without quotation marks and a citation is plagiarism, even if you also cite the source elsewhere.",
           "needsReview": true
         },
         {
@@ -7452,7 +7453,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The Cochrane Library specialises in systematic reviews.",
+          "explanation": "The Cochrane Library specialises in high-quality systematic reviews of trials, so it's the best first stop for 'what works' questions.",
           "original": {
             "q": "Which database specialises in systematic reviews?",
             "options": [
@@ -7967,7 +7968,8 @@
               "feedback": "Vergence may signal distance, but the reason the size changes is size constancy."
             }
           ],
-          "explanation": "Afterimages are evidence for size constancy."
+          "explanation": "An afterimage is a fixed size on the retina. Size constancy makes the brain scale it up when it's seen on a far surface, which shows perceived size includes distance.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-tyk-4",
@@ -7999,7 +8001,8 @@
               "feedback": "Not part of the primary visual pathway."
             }
           ],
-          "explanation": "About 90% of retinal output takes this route."
+          "explanation": "About 90% of retinal ganglion cell axons go through the LGN to striate cortex (V1). The rest go to places like the superior colliculus.",
+          "needsReview": true
         },
         {
           "id": "vse-retina-x0011",
@@ -8218,7 +8221,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Visible light is roughly 380–760 nm.",
+          "explanation": "Human photoreceptors respond to about 380 nm (violet) to 760 nm (red). Shorter is UV, longer is infrared.",
           "needsReview": true
         },
         {
@@ -8246,7 +8249,7 @@
               "feedback": "Some bipolar cells do."
             }
           ],
-          "explanation": "Photoreceptors hyperpolarise to light, but ON bipolar cells depolarise.",
+          "explanation": "Photoreceptors hyperpolarise to light and release less glutamate. ON bipolar cells invert that signal, so they depolarise.",
           "needsReview": true
         },
         {
@@ -8302,7 +8305,7 @@
               "feedback": "They exist."
             }
           ],
-          "explanation": "About 10% of cones are S (blue) cones.",
+          "explanation": "Only about 5–10% of cones are S (blue) cones, and none sit at the very centre of the fovea.",
           "needsReview": true
         },
         {
@@ -8636,7 +8639,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Rods contain the pigment rhodopsin.",
+          "explanation": "Rods contain rhodopsin, which is very sensitive and bleaches in bright light. It peaks around 498 nm, so blue-green looks brightest in dim light.",
           "needsReview": true
         },
         {
@@ -8802,7 +8805,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Each retina has about 6 million cones.",
+          "explanation": "Each retina has about 6 million cones, mostly at the fovea, against about 120 million rods.",
           "needsReview": true
         },
         {
@@ -8830,7 +8833,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "S, M and L cones peak at roughly 420, 530 and 560 nm.",
+          "explanation": "S, M and L cones peak around 420, 530 and 560 nm. Colour comes from comparing their responses.",
           "needsReview": true
         },
         {
@@ -8942,7 +8945,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Vision using only rods is called scotopic vision.",
+          "explanation": "Scotopic vision uses rods alone (very dim light), so there's no colour and poor detail. Photopic uses cones, and mesopic uses both.",
           "needsReview": true
         },
         {
@@ -9222,7 +9225,7 @@
               "feedback": "1 and 2."
             }
           ],
-          "explanation": "LGN layers 1 and 2 are magnocellular.",
+          "explanation": "The LGN has six layers: 1–2 are magnocellular (motion, contrast) and 3–6 parvocellular (detail, colour), with koniocellular cells in between.",
           "needsReview": true
         },
         {
@@ -9761,7 +9764,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Hartline introduced the term 'receptive field' in 1938.",
+          "explanation": "Hartline named the 'receptive field' in 1938 while recording single fibres in the frog's optic nerve.",
           "needsReview": true
         },
         {
@@ -9817,7 +9820,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A transient response is a burst of firing at the onset of a stimulus.",
+          "explanation": "A transient cell fires a burst when a stimulus appears, then quietens even if it stays. Sustained cells keep firing.",
           "needsReview": true
         },
         {
@@ -10403,7 +10406,7 @@
               "feedback": "Parvo."
             }
           ],
-          "explanation": "Midget ganglion cells feed the parvocellular pathway.",
+          "explanation": "Midget ganglion cells have small receptive fields and carry fine detail and red–green colour to the parvocellular LGN layers.",
           "needsReview": true
         },
         {
@@ -10431,7 +10434,7 @@
               "feedback": "Magno."
             }
           ],
-          "explanation": "Parasol ganglion cells feed the magnocellular pathway.",
+          "explanation": "Parasol ganglion cells have large receptive fields and fast responses, carrying motion and contrast to the magnocellular layers.",
           "needsReview": true
         },
         {
@@ -10543,7 +10546,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Firing without any stimulus is spontaneous activity.",
+          "explanation": "Spontaneous activity is a neuron's background firing without a stimulus, so responses can go up (excitation) or down (inhibition).",
           "needsReview": true
         },
         {
@@ -10599,7 +10602,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Phase describes a grating's position relative to a reference point.",
+          "explanation": "Phase says where the bars of a grating sit relative to a reference point, i.e. shifting the grating sideways changes its phase.",
           "needsReview": true
         },
         {
@@ -10711,7 +10714,7 @@
               "feedback": "They respond."
             }
           ],
-          "explanation": "Cat Y cells respond nonlinearly and transiently.",
+          "explanation": "Cat Y cells (like primate parasol cells) respond transiently and don't add up inputs linearly across their receptive field. X cells are linear and sustained.",
           "needsReview": true
         },
         {
@@ -11047,7 +11050,7 @@
               "feedback": "The tracer is carried through the LGN to V1."
             }
           ],
-          "explanation": "The alternating stripes are ocular dominance columns.",
+          "explanation": "The tracer travelled from one eye to its V1 targets, showing alternating stripes of input from each eye: ocular dominance columns.",
           "needsReview": true
         },
         {
@@ -11265,7 +11268,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The cortex is less than 2 mm thick.",
+          "explanation": "The cortex is a thin sheet under 2 mm thick, folded to fit a large area into the skull. V1 has six layers within it.",
           "needsReview": true
         },
         {
@@ -11293,7 +11296,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "LGN input arrives mainly in layer 4C of V1.",
+          "explanation": "LGN axons end mainly in layer 4C, which then passes signals up and down to the other layers.",
           "needsReview": true
         },
         {
@@ -11487,7 +11490,7 @@
               "feedback": "Superficial."
             }
           ],
-          "explanation": "Blobs are most apparent in the superficial layers of V1.",
+          "explanation": "Blobs (colour-processing patches rich in cytochrome oxidase) show most clearly in the superficial layers 2–3.",
           "needsReview": true
         },
         {
@@ -11515,7 +11518,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Brodmann's area 17 is V1, the primary visual cortex.",
+          "explanation": "Brodmann numbered areas by cell structure. Area 17 is V1, also called striate cortex for its visible stripe (the line of Gennari).",
           "needsReview": true
         },
         {
@@ -11655,7 +11658,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Magnocellular input arrives in layer 4Cα of V1.",
+          "explanation": "Magnocellular LGN axons end in layer 4Cα. Parvocellular ones end in 4Cβ, keeping the two streams separate at first.",
           "needsReview": true
         },
         {
@@ -11683,7 +11686,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Parvocellular input arrives in layer 4Cβ of V1.",
+          "explanation": "Parvocellular LGN axons end in layer 4Cβ. Magnocellular ones end in 4Cα.",
           "needsReview": true
         },
         {
@@ -11711,7 +11714,7 @@
               "feedback": "Input."
             }
           ],
-          "explanation": "Layers 2 and 3 send output from V1 to V2.",
+          "explanation": "Layers 2 and 3 send V1's output to other cortical areas, mainly V2.",
           "needsReview": true
         },
         {
@@ -11739,7 +11742,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Layer 6 of V1 sends feedback to the LGN.",
+          "explanation": "Layer 6 sends feedback to the LGN, letting the cortex adjust its own input. Layer 5 projects to the superior colliculus.",
           "needsReview": true
         },
         {
@@ -11879,7 +11882,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The left visual field is represented in the right V1.",
+          "explanation": "Fibres from the left half of each retina's view reach the right side of the brain (after the chiasm), so the left visual field is in right V1.",
           "needsReview": true
         },
         {
@@ -11935,7 +11938,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The fovea is represented at the occipital pole.",
+          "explanation": "The fovea is represented at the occipital pole and the periphery further forward. That's why a pole injury hits central vision.",
           "needsReview": true
         },
         {
@@ -11991,7 +11994,7 @@
               "feedback": "Not directly."
             }
           ],
-          "explanation": "Cells tuned to binocular disparity support stereopsis.",
+          "explanation": "Disparity-tuned V1 cells respond to slight differences between the two eyes' images, the raw signal for stereopsis.",
           "needsReview": true
         },
         {
@@ -12241,7 +12244,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Blob cells are mainly concerned with colour.",
+          "explanation": "Blob cells lack orientation tuning and respond to colour, feeding the colour pathway (through V2 thin stripes to V4).",
           "needsReview": true
         },
         {
@@ -12746,7 +12749,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Damage to V4 is linked with cerebral achromatopsia.",
+          "explanation": "V4, near the fusiform gyrus, is key for colour. Damage there causes cerebral achromatopsia, where the world looks grey but other vision can be intact.",
           "original": {
             "q": "Damage to V4 is linked with which condition?",
             "options": [
@@ -12884,7 +12887,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In Brodmann's scheme V1 is area 17, V2 is area 18 and V3 is roughly area 19.",
+          "explanation": "In Brodmann's numbering, V1 is area 17, V2 is area 18 and V3 roughly area 19, moving forward from the occipital pole.",
           "needsReview": true
         },
         {
@@ -14192,7 +14195,8 @@
               "feedback": "No."
             }
           ],
-          "explanation": "V1 is Brodmann's area 17, the striate cortex."
+          "explanation": "V1 is Brodmann's area 17, also called striate cortex for its visible stripe (the line of Gennari).",
+          "needsReview": true
         },
         {
           "id": "vse-dors-tyk-2",
@@ -14219,7 +14223,8 @@
               "feedback": "Face cells are in IT."
             }
           ],
-          "explanation": "Part of V5 is thought to be specialised for motion."
+          "explanation": "Part of V5 (MT) is specialised for motion: its cells are tuned to direction and speed, and damage causes motion blindness (akinetopsia).",
+          "needsReview": true
         },
         {
           "id": "vse-dors-tyk-3",
@@ -17243,7 +17248,8 @@
               "feedback": "Physical (reflectance)."
             }
           ],
-          "explanation": "Lightness is the perception of reflectance, not a physical property."
+          "explanation": "Lightness is perceived reflectance, worked out by the brain. Luminance and reflectance are the physical quantities.",
+          "needsReview": true
         },
         {
           "id": "vse-light-tyk-3",

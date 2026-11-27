@@ -405,7 +405,7 @@
               "feedback": "Not the key."
             }
           ],
-          "explanation": "What matters most about a phoria is whether it's compensated.",
+          "explanation": "The size of a phoria matters less than whether it's compensated. Symptoms and poor recovery on cover test mean it's breaking down.",
           "original": {
             "q": "What matters most about a phoria?",
             "options": [
@@ -991,7 +991,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A normal AC/A ratio is about 4 ± 2Δ/D, so roughly 3–5Δ/D.",
+          "explanation": "The AC/A ratio is usually about 4 ± 2Δ per dioptre. A high AC/A causes near eso (convergence excess), and a low one a near exo.",
           "needsReview": true
         },
         {
@@ -2713,7 +2713,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Esodeviations are neutralised with base-out prism.",
+          "explanation": "Place the prism with its apex pointing the way the eye is turned. An eso eye is turned in, so the base goes out. Increase it until the cover test shows no movement.",
           "needsReview": true
         },
         {
@@ -2741,7 +2741,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "One prism dioptre is about 0.57°, so 20Δ is about 11°.",
+          "explanation": "1Δ ≈ 0.57°, so 20Δ ≈ 11°.",
           "needsReview": true
         },
         {
@@ -2769,7 +2769,7 @@
               "feedback": "Vertical."
             }
           ],
-          "explanation": "In many UK records, XOP means exophoria.",
+          "explanation": "XOP is shorthand for exophoria (X = exo). XOT is exotropia, and SOP/SOT are esophoria and esotropia.",
           "needsReview": true
         },
         {
@@ -3172,7 +3172,8 @@
               "feedback": "Good prism adaptation argues against prisms."
             }
           ],
-          "explanation": "Less accommodation means less convergence."
+          "explanation": "Plus lenses reduce accommodation, which reduces accommodative convergence. That pulls a near eso slip back towards alignment.",
+          "needsReview": true
         },
         {
           "id": "bvp-mallett-x0061",
@@ -3559,7 +3560,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "There is also a distance Mallett unit, used at about 6 m.",
+          "explanation": "There's a distance Mallett unit as well as the near one, used at about 6 m to check for a fixation disparity at distance.",
           "needsReview": true
         },
         {
@@ -3587,7 +3588,7 @@
               "feedback": "Not directly."
             }
           ],
-          "explanation": "A slip with symptoms suggests a decompensated phoria.",
+          "explanation": "A Mallett slip shows the vergence system is struggling. With symptoms like headaches after reading, that suggests a decompensated phoria that may need prism, exercises or a refractive change.",
           "original": {
             "q": "A slip with symptoms suggests",
             "options": [
@@ -4031,7 +4032,7 @@
               "feedback": "VA."
             }
           ],
-          "explanation": "The Wesson card is a near test of fixation disparity.",
+          "explanation": "The Wesson card measures fixation disparity at near in minutes of arc, which helps judge whether a phoria needs treating.",
           "needsReview": true
         },
         {
@@ -4283,7 +4284,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The distance Mallett unit is used at about 6 m.",
+          "explanation": "The distance unit is used at about 6 m to check for fixation disparity at distance.",
           "needsReview": true
         },
         {
@@ -4781,7 +4782,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "A break of about 6–10 cm or more is often considered abnormal.",
+          "explanation": "A normal NPC break is within about 6–10 cm. A break at 12 cm is receded, which supports convergence insufficiency, especially with symptoms.",
           "original": {
             "q": "What NPC is often considered abnormal?",
             "options": [
@@ -5165,7 +5166,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In CI, the exophoria is larger at near than at distance.",
+          "explanation": "Convergence insufficiency means the eyes struggle to converge for near, so the exophoria is larger at near than at distance.",
           "needsReview": true
         },
         {
@@ -5221,7 +5222,7 @@
               "feedback": "It matters."
             }
           ],
-          "explanation": "Accommodative insufficiency often coexists with CI.",
+          "explanation": "Accommodation and convergence are linked, so accommodative insufficiency often comes with CI. Check both.",
           "original": {
             "q": "Which may coexist with CI?",
             "options": [
@@ -5359,7 +5360,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "CI shows more exophoria at near than at distance.",
+          "explanation": "A larger exo at near than at distance is the classic CI pattern.",
           "needsReview": true
         },
         {
@@ -5471,7 +5472,7 @@
               "feedback": "Too short."
             }
           ],
-          "explanation": "Vergence therapy courses usually last about 12 weeks.",
+          "explanation": "Office-based vergence therapy with home exercises usually runs about 12 weeks (as in the CITT trial).",
           "needsReview": true
         },
         {
@@ -5499,7 +5500,7 @@
               "feedback": "It happens."
             }
           ],
-          "explanation": "Convergence insufficiency is common after concussion.",
+          "explanation": "Concussion often disrupts vergence and accommodation, so CI is common afterwards. Ask about head injury when someone has new near symptoms.",
           "needsReview": true
         },
         {
@@ -5527,7 +5528,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Convergence insufficiency is associated with Parkinson's disease.",
+          "explanation": "Parkinson's disease affects the vergence system, and CI is a common cause of reading difficulty and double vision at near in these patients.",
           "needsReview": true
         },
         {
@@ -5609,7 +5610,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "In children, a CISS score of about 16 or more suggests symptomatic CI.",
+          "explanation": "The CISS questionnaire scores near symptoms. In children, 16 or more is the usual cut-off for symptomatic CI (21 or more in adults).",
           "needsReview": true
         },
         {
@@ -5721,7 +5722,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Low base-out reserves at near support a diagnosis of CI.",
+          "explanation": "Base-out reserves are the convergence a patient can call on. Low reserves at near mean little to spare against an exo, which fits CI.",
           "needsReview": true
         },
         {
@@ -6001,7 +6002,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A low AC/A ratio means accommodation produces little convergence.",
+          "explanation": "A low AC/A means accommodating produces little convergence, so at near the eyes drift out. That's the typical CI pattern.",
           "needsReview": true
         },
         {
@@ -6197,7 +6198,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "CI symptoms can return after therapy, so follow-up is important.",
+          "explanation": "Vergence gains can fade, especially with illness, stress or heavy reading, so review patients after therapy and restart exercises if symptoms come back.",
           "needsReview": true
         },
         {
@@ -6225,7 +6226,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Stereograms train fusion and control of vergence.",
+          "explanation": "Stereograms make the eyes converge or diverge while keeping a fused, single image, which trains fusional vergence control.",
           "needsReview": true
         }
       ],
@@ -6908,7 +6909,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Splitting horizontal prism equally balances the lenses.",
+          "explanation": "Splitting prism between the eyes keeps the two lenses a similar thickness and weight, so they look and feel balanced. The total effect is the same.",
           "original": {
             "q": "How is horizontal prism usually split?",
             "options": [
@@ -7410,7 +7411,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The base of a prism is its thickest edge.",
+          "explanation": "A prism is thickest at its base and thinnest at the apex. Light bends towards the base, and the image moves towards the apex.",
           "needsReview": true
         },
         {
@@ -7578,7 +7579,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "One prism dioptre is about 0.57°.",
+          "explanation": "1Δ = 1 cm at 1 m, so tan θ = 0.01, giving θ ≈ 0.57°. Roughly 1.75Δ makes 1°.",
           "needsReview": true
         },
         {
@@ -7802,7 +7803,7 @@
               "feedback": "Not for base in."
             }
           ],
-          "explanation": "A prism shifts the image towards its apex.",
+          "explanation": "Light bends towards the base, so the image appears shifted towards the apex. Base-in before the right eye has its apex out, so the object appears further out.",
           "original": {
             "q": "A prism shifts the image of an object",
             "options": [
@@ -7856,7 +7857,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "One prism dioptre displaces an image 1 cm at 1 m, so 5Δ displaces it 5 cm.",
+          "explanation": "Prism dioptres are cm of displacement per metre: 5Δ moves the image 5 cm at 1 m.",
           "needsReview": true
         },
         {

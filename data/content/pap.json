@@ -112,7 +112,7 @@
               "feedback": "Investigate first."
             }
           ],
-          "explanation": "Fix and follow is usually present by about 6–8 weeks.",
+          "explanation": "Most babies fix and follow a face by about 6–8 weeks. Not doing so at 3 months needs referral to rule out a visual or neurological problem.",
           "original": {
             "q": "When does fix and follow usually appear?",
             "options": [
@@ -908,7 +908,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Infants show trichromatic colour discrimination by about 2–3 months.",
+          "explanation": "Babies' cones mature fast, and colour discrimination is measurable by about 2–3 months.",
           "needsReview": true
         },
         {
@@ -1020,7 +1020,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "An adult eye is about 23–24 mm long.",
+          "explanation": "The adult eye is about 23–24 mm long. Each extra mm adds about 3 D of myopia.",
           "needsReview": true
         },
         {
@@ -1960,7 +1960,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Grating acuity can overestimate acuity in amblyopia.",
+          "explanation": "Amblyopic eyes see single targets like gratings better than crowded letters, so grating tests can overestimate amblyopic acuity.",
           "original": {
             "q": "Grating acuity in amblyopia can",
             "options": [
@@ -2042,7 +2042,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "Test the better eye last if attention is short.",
+          "explanation": "Test the worse eye first while the child is still cooperating. The better eye is easier, so test it last.",
           "original": {
             "q": "Which eye should be tested last if attention is short?",
             "options": [
@@ -2152,7 +2152,7 @@
               "feedback": "Too close."
             }
           ],
-          "explanation": "Cardiff cards are used at 50 cm or 1 m.",
+          "explanation": "Cardiff cards are calibrated for 50 cm or 1 m, and you choose the distance that fits the child's attention and acuity.",
           "original": {
             "q": "Cardiff cards are used at",
             "options": [
@@ -2316,7 +2316,7 @@
               "feedback": "It is."
             }
           ],
-          "explanation": "CSM: central, steady, maintained.",
+          "explanation": "Fixation is recorded as CSM: central, steady, maintained. Here it's central and steady but not maintained, because it wanders when the other eye is uncovered.",
           "original": {
             "q": "Fixation is recorded as CSM. What does it stand for?",
             "options": [
@@ -2678,7 +2678,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "UK school-entry vision screening is usually done at age 4–5.",
+          "explanation": "UK school-entry screening happens at about age 4–5, early enough to treat amblyopia while the visual system is still developing.",
           "needsReview": true
         },
         {
@@ -3509,7 +3509,7 @@
               "feedback": "Miotic."
             }
           ],
-          "explanation": "Cyclopentolate is the usual cycloplegic for children.",
+          "explanation": "Cyclopentolate 1% (0.5% under about 1 year) gives good cycloplegia within 30–60 minutes, so it's the standard drug for children's cycloplegic refraction.",
           "original": {
             "q": "Which is the usual cycloplegic for children?",
             "options": [
@@ -3699,7 +3699,7 @@
               "feedback": "It recovers."
             }
           ],
-          "explanation": "Cyclopentolate's effect can last up to about 24 hours.",
+          "explanation": "Cyclopentolate's effect on focusing and pupil size can last up to about 24 hours, so warn about blur and glare until tomorrow.",
           "original": {
             "q": "How long can cyclopentolate's effect last?",
             "options": [
@@ -5283,7 +5283,7 @@
               "feedback": "Alternatives exist."
             }
           ],
-          "explanation": "Atropine penalisation of the better eye is an alternative to patching.",
+          "explanation": "Atropine blurs the better eye's near vision, so the amblyopic eye gets used. Trials show it works about as well as patching.",
           "original": {
             "q": "Which is an alternative to patching?",
             "options": [
@@ -6505,7 +6505,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Amblyopia affects about 2–3% of children.",
+          "explanation": "About 2–3% of children have amblyopia, which is why screening at school entry matters.",
           "needsReview": true
         },
         {
@@ -6948,7 +6948,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Higher myopia increases the risk of serious complications.",
+          "explanation": "Every dioptre of myopia raises the lifetime risk of myopic maculopathy, retinal detachment and glaucoma, so slowing progression protects sight.",
           "original": {
             "q": "Why does high myopia matter?",
             "options": [
@@ -7250,7 +7250,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Myopia is usually defined as a spherical equivalent of −0.50 D or more.",
+          "explanation": "Myopia is usually defined as a spherical equivalent of −0.50 D or more, and high myopia as −6.00 D or more.",
           "needsReview": true
         },
         {
@@ -7306,7 +7306,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Retinal detachment is a complication of high myopia.",
+          "explanation": "High myopes have a thin, stretched retina, so flashes with a shadow could mean a retinal detachment. Refer as an emergency.",
           "original": {
             "q": "Which is a complication of high myopia?",
             "options": [

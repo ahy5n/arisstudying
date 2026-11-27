@@ -588,8 +588,9 @@
               "feedback": "Breaches confidentiality."
             }
           ],
-          "explanation": "Keep portfolios anonymised.",
-          "link": "clp-patient-log#confidentiality-in-your-portfolio"
+          "explanation": "Age band, sex and a clinical summary are enough to learn from. Names, dates of birth or anything identifying must never go in a portfolio.",
+          "link": "clp-patient-log#confidentiality-in-your-portfolio",
+          "needsReview": true
         },
         {
           "id": "clp-pl-3",
@@ -616,7 +617,7 @@
               "feedback": "Not its purpose."
             }
           ],
-          "explanation": "Reflection drives improvement.",
+          "explanation": "Models like Gibbs turn 'what happened' into 'what I'll do differently'. The action plan at the end is the point.",
           "link": "clp-patient-log#from-log-to-cpd",
           "needsReview": true
         },
@@ -699,7 +700,7 @@
               "feedback": "Communication."
             }
           ],
-          "explanation": "Gibbs' cycle has six stages.",
+          "explanation": "Gibbs' cycle has six stages: description, feelings, evaluation, analysis, conclusion and action plan, in that order.",
           "original": {
             "q": "Which reflective model has six stages?",
             "options": [
@@ -809,7 +810,7 @@
               "feedback": "Not the point."
             }
           ],
-          "explanation": "Ask for written feedback after observed episodes.",
+          "explanation": "'Fine' doesn't tell you what to keep doing or change. Ask for specific written feedback so you can act on it and evidence it.",
           "original": {
             "q": "What should you ask for after observed episodes?",
             "options": [
@@ -1066,7 +1067,7 @@
               "feedback": "These symptoms need a dilated check."
             }
           ],
-          "explanation": "Flashes and floaters: dilated peripheral retinal examination.",
+          "explanation": "New flashes and a shower of floaters can mean a retinal tear. Only a dilated view of the peripheral retina can rule one out.",
           "link": "clp-routine-exam#tailoring-the-examination",
           "needsReview": true
         },
@@ -1095,7 +1096,7 @@
               "feedback": "Explain your findings."
             }
           ],
-          "explanation": "Prescribe when it helps the patient.",
+          "explanation": "A −0.25 change with 6/5 and no symptoms won't make a noticeable difference. Explain that, and let the patient decide rather than selling glasses they don't need.",
           "link": "clp-routine-exam#deciding-whether-to-prescribe",
           "needsReview": true
         },
@@ -1124,8 +1125,9 @@
               "feedback": "Usual interval is fine."
             }
           ],
-          "explanation": "Base recall on clinical risk.",
-          "link": "clp-routine-exam#recall-intervals"
+          "explanation": "A first-degree relative with glaucoma raises risk several-fold, so recall should be shorter (yearly, from 40, under the NHS).",
+          "link": "clp-routine-exam#recall-intervals",
+          "needsReview": true
         },
         {
           "id": "clp-routine-exam-x0101",
@@ -1318,7 +1320,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Objective refraction is by retinoscopy or autorefraction.",
+          "explanation": "Retinoscopy is objective and needs only brief fixation, so it works when a child can't use an autorefractor.",
           "original": {
             "q": "Which objective refraction methods are used?",
             "options": [
@@ -1562,8 +1564,9 @@
               "feedback": "Records must be kept."
             }
           ],
-          "explanation": "Inform, safety-net and record.",
-          "link": "clp-referrals#safety-netting"
+          "explanation": "After referring, tell the patient why and how urgent it is, give safety-net advice (what to do if it worsens), and record it all.",
+          "link": "clp-referrals#safety-netting",
+          "needsReview": true
         },
         {
           "id": "clp-referrals-x0101",
@@ -1969,7 +1972,7 @@
               "feedback": "Leave investigation to trained professionals."
             }
           ],
-          "explanation": "Record and refer through safeguarding routes.",
+          "explanation": "An injury that doesn't fit the explanation is a safeguarding concern. Record exactly what you saw and were told, then follow your practice's safeguarding procedure. Don't investigate yourself.",
           "link": "clp-records-consent-safeguarding#recognising-safeguarding-concerns",
           "needsReview": true
         },
@@ -2109,7 +2112,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Follow the safeguarding policy and report concerns.",
+          "explanation": "Unexplained bruises plus fear of a parent are safeguarding signs. Follow the policy and report to the safeguarding lead or local services. Don't confront the parent.",
           "original": {
             "q": "What should you do if you suspect abuse?",
             "options": [
@@ -2524,7 +2527,7 @@
               "feedback": "Required."
             }
           ],
-          "explanation": "Professional indemnity insurance is required.",
+          "explanation": "The GOC requires every registrant to hold professional indemnity insurance, including locums, so patients can be compensated if something goes wrong.",
           "original": {
             "q": "What insurance is required?",
             "options": [

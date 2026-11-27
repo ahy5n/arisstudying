@@ -2753,7 +2753,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Pachymetry measures corneal thickness, by ultrasound or optically.",
+          "explanation": "Pachymetry measures corneal thickness, by ultrasound or optically. It matters for glaucoma (thin corneas read low on IOP), keratoconus and refractive surgery.",
           "needsReview": true
         },
         {
@@ -5196,7 +5196,7 @@
               "feedback": "The later one."
             }
           ],
-          "explanation": "Over-refract after the lens has settled.",
+          "explanation": "Straight after insertion, reflex tears and lens settling change the power on the eye. Wait 10–20 minutes and trust the settled over-refraction.",
           "original": {
             "q": "When should over-refraction be done?",
             "options": [
@@ -7767,7 +7767,8 @@
               "feedback": "Check the arithmetic: 1 + (0.012 × 10) = 1.12."
             }
           ],
-          "explanation": "Fc = F / (1 − dF). For −10.00 at 0.012 m: −10 / 1.12 = −8.93 D."
+          "explanation": "Fc = F ÷ (1 − dF) = −10 ÷ (1 + 0.012 × 10) = −10 ÷ 1.12 ≈ −8.93 D, so order −9.00 D. Minus lenses need less power closer to the eye.",
+          "needsReview": true
         },
         {
           "id": "clb-vd-2",
@@ -9126,7 +9127,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Convert 12 mm to metres: 0.012 m.",
+          "explanation": "Vergence formulas use metres (dioptres are per metre), so 12 mm goes in as 0.012.",
           "needsReview": true
         },
         {
@@ -9641,7 +9642,7 @@
               "feedback": "Still need care between cycles."
             }
           ],
-          "explanation": "Daily disposables avoid cases and solutions entirely.",
+          "explanation": "Daily disposables are thrown away each night, so no case or solution touches the eye. That removes the allergy trigger.",
           "original": {
             "q": "Which modality avoids cases and solutions entirely?",
             "options": [
@@ -11146,7 +11147,8 @@
               "feedback": "Painful, with an ulcer over 1 mm."
             }
           ],
-          "explanation": "This describes a SEAL (superior epithelial arcuate lesion)."
+          "explanation": "A SEAL is a mechanical lesion: a stiff lens pressing under the upper lid leaves an arc of staining at about 10–2 o'clock. Changing the lens material or design usually fixes it.",
+          "needsReview": true
         },
         {
           "id": "clb-complications-x0041",
@@ -12341,7 +12343,7 @@
               "feedback": "Not the fix."
             }
           ],
-          "explanation": "Daily disposables carry the lowest risk of CLPC.",
+          "explanation": "Deposits on reused lenses drive CLPC. A fresh daily lens has none, so dailies carry the lowest risk.",
           "original": {
             "q": "Which modality has the lowest risk of CLPC?",
             "options": [
@@ -12649,7 +12651,8 @@
               "feedback": "The CCLRU scale is photographic."
             }
           ],
-          "explanation": "The CCLRU scale uses photographs."
+          "explanation": "The CCLRU (Brien Holden) scales use photographs. Efron's scales use paintings, which some find easier to match by eye.",
+          "needsReview": true
         },
         {
           "id": "clb-grade-tyk-2",
@@ -13230,7 +13233,7 @@
               "feedback": "Grade 4."
             }
           ],
-          "explanation": "Efron grade 0 is normal.",
+          "explanation": "Efron grades run 0 (normal) to 4 (severe). Grades 0–1 usually need no action; 3–4 need it.",
           "needsReview": true
         },
         {
@@ -13286,7 +13289,7 @@
               "feedback": "Grade 0."
             }
           ],
-          "explanation": "Efron grade 4 is severe and needs clinical action.",
+          "explanation": "Efron grade 4 is severe, so you need to act, e.g. stop or change lens wear and treat or refer.",
           "needsReview": true
         },
         {
@@ -16037,7 +16040,7 @@
               "feedback": "It's affected."
             }
           ],
-          "explanation": "Conjunctival goblet cells produce the mucin layer.",
+          "explanation": "Conjunctival goblet cells make the mucin that lets the tear film spread over the eye's surface. Lose them, from scarring or chemical injury, and the film won't wet the eye properly.",
           "original": {
             "q": "Which cells produce the mucin layer?",
             "options": [
@@ -18199,7 +18202,7 @@
               "feedback": "Conventional."
             }
           ],
-          "explanation": "Quarterly lenses are replaced every 3 months.",
+          "explanation": "Quarterly lenses are replaced every 3 months: a middle ground between monthlies and yearly (conventional) lenses.",
           "needsReview": true
         },
         {

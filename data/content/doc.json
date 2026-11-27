@@ -1751,7 +1751,7 @@
               "feedback": "Dismissive."
             }
           ],
-          "explanation": "Be specific about what went wrong.",
+          "explanation": "A good apology names what went wrong and takes responsibility. 'I'm sorry if…' or 'sorry you feel…' sounds like dodging.",
           "original": {
             "q": "Which is a good, specific apology?",
             "options": [
@@ -1887,7 +1887,7 @@
               "feedback": "Not enough."
             }
           ],
-          "explanation": "Give the patient a point of contact.",
+          "explanation": "A named contact gives the patient a clear route for questions and shows you're following it through.",
           "original": {
             "q": "What should you give the patient?",
             "options": [
@@ -2023,7 +2023,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Record the conversation and follow up as promised.",
+          "explanation": "Keeping a promise rebuilds trust, so follow up when you said you would and record that you did.",
           "original": {
             "q": "What should you do after the conversation?",
             "options": [
@@ -3411,7 +3411,7 @@
               "feedback": "Not for this."
             }
           ],
-          "explanation": "Start locally unless that isn't appropriate.",
+          "explanation": "Start locally (supervisor, manager) unless that isn't safe or has already failed. Then escalate, e.g. to the GOC.",
           "original": {
             "q": "Where should you usually start?",
             "options": [
@@ -3905,7 +3905,7 @@
               "feedback": "Not first."
             }
           ],
-          "explanation": "Patient safety comes first.",
+          "explanation": "Your duty is to patients first. Loyalty to a friend doesn't override reporting unsafe practice.",
           "original": {
             "q": "What comes first: patient safety or loyalty to colleagues?",
             "options": [
@@ -5919,7 +5919,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "The Equality Act 2010 lists nine protected characteristics.",
+          "explanation": "The nine are age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation.",
           "needsReview": true
         },
         {

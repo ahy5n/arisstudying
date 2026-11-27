@@ -611,7 +611,7 @@
               "feedback": "It's genetic inheritance."
             }
           ],
-          "explanation": "X-linked recessive inheritance.",
+          "explanation": "The L and M pigment genes are on the X chromosome. Males have one X, so a single faulty copy causes deficiency (about 8% of men vs 0.5% of women).",
           "link": "vpe-colour-vision#types-of-inherited-deficiency",
           "needsReview": true
         },
@@ -1402,7 +1402,7 @@
               "feedback": "Lens rim artefacts are usually peripheral rings."
             }
           ],
-          "explanation": "Vertical-midline defects point to the chiasm or beyond.",
+          "explanation": "Fibres split at the chiasm, so from there backwards each side of the brain serves one half of the field. Defects then stop sharply at the vertical midline.",
           "link": "vpe-visual-fields#reading-a-field-printout",
           "needsReview": true
         },
@@ -1460,7 +1460,7 @@
               "feedback": "Kinetic perimetry maps the far periphery better."
             }
           ],
-          "explanation": "Early glaucoma causes subtle threshold loss.",
+          "explanation": "Early glaucoma lowers sensitivity only slightly. Static threshold perimetry measures sensitivity at each point, so it picks up shallow loss that kinetic tests miss.",
           "link": "vpe-visual-fields#static-and-kinetic-perimetry",
           "needsReview": true
         },
@@ -2797,8 +2797,9 @@
               "feedback": "Used in infants."
             }
           ],
-          "explanation": "Staircases are efficient and adapt to each point.",
-          "link": "vpe-psychophysics#clinical-methods-in-disguise"
+          "explanation": "Staircases raise and lower the stimulus around each point's threshold, homing in efficiently on the sensitivity at that point.",
+          "link": "vpe-psychophysics#clinical-methods-in-disguise",
+          "needsReview": true
         },
         {
           "id": "vpe-ps-3",
@@ -2825,8 +2826,9 @@
               "feedback": "Too large."
             }
           ],
-          "explanation": "ΔI / I is constant, so ΔI scales with I.",
-          "link": "vpe-psychophysics#weber-s-law"
+          "explanation": "Weber's law says ΔI ÷ I stays constant: 5 ÷ 50 = 0.1, so at 200 the JND is 0.1 × 200 = 20.",
+          "link": "vpe-psychophysics#weber-s-law",
+          "needsReview": true
         },
         {
           "id": "vpe-psychophysics-x0091",

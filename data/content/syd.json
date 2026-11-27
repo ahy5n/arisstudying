@@ -531,7 +531,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Amiodarone causes whorl-like corneal deposits (verticillata).",
+          "explanation": "Amiodarone deposits form whorl-shaped lines in the corneal epithelium (verticillata). They rarely affect vision but are a clue to the medication.",
           "needsReview": true
         },
         {
@@ -587,7 +587,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Ethambutol, a TB drug, can cause optic neuropathy.",
+          "explanation": "Ethambutol, a TB drug, causes a dose-related optic neuropathy, so patients on it need vision and colour checks.",
           "needsReview": true
         },
         {
@@ -923,7 +923,7 @@
               "feedback": "Yellow vision."
             }
           ],
-          "explanation": "Sildenafil can cause a temporary blue tinge to vision.",
+          "explanation": "Sildenafil weakly blocks PDE6 in rods and cones, so some users see a temporary blue tinge.",
           "needsReview": true
         },
         {
@@ -1986,7 +1986,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "VITAMIN CDE is a surgical sieve: a checklist of categories of cause.",
+          "explanation": "VITAMIN CDE is a checklist of cause categories (Vascular, Infective, Trauma, Autoimmune, Metabolic, Iatrogenic, Neoplastic, Congenital, Degenerative, Endocrine) so you don't miss a differential.",
           "needsReview": true
         },
         {
@@ -2126,7 +2126,7 @@
               "feedback": "Blur and glare."
             }
           ],
-          "explanation": "Metamorphopsia points to the macula.",
+          "explanation": "Wavy lines (metamorphopsia) mean the photoreceptors are displaced, which points to the macula, e.g. wet AMD or an epiretinal membrane.",
           "original": {
             "q": "Metamorphopsia points to",
             "options": [
@@ -3393,7 +3393,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "M1 includes exudate within 1 disc diameter of the fovea.",
+          "explanation": "In English screening, M1 includes exudate within 1 disc diameter of the fovea, even with good VA, because it threatens central vision.",
           "original": {
             "q": "Which finding counts as maculopathy (M1)?",
             "options": [
@@ -3639,7 +3639,7 @@
               "feedback": "R2."
             }
           ],
-          "explanation": "Background retinopathy (R1) is microaneurysms, dot haemorrhages and exudates.",
+          "explanation": "R1 (background) means microaneurysms, dot or blot haemorrhages and exudates, without pre-proliferative or proliferative changes.",
           "needsReview": true
         },
         {
@@ -3807,7 +3807,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Panretinal photocoagulation (PRP) is used to treat proliferative retinopathy.",
+          "explanation": "PRP lasers the peripheral retina so it needs less oxygen. Less VEGF is made, and the new vessels regress.",
           "needsReview": true
         },
         {
@@ -3947,7 +3947,7 @@
               "feedback": "Proliferative."
             }
           ],
-          "explanation": "R0 is the screening grade for no retinopathy.",
+          "explanation": "R0 means no retinopathy. Grades rise through R1 (background), R2 (pre-proliferative) and R3 (proliferative).",
           "needsReview": true
         },
         {
@@ -3975,7 +3975,7 @@
               "feedback": "Maculopathy."
             }
           ],
-          "explanation": "R3S means stable, treated proliferative retinopathy.",
+          "explanation": "The S in R3S means stable after treatment: proliferative disease that has been lasered and is now quiet, so it's monitored rather than urgently referred.",
           "needsReview": true
         },
         {
@@ -4031,7 +4031,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "IRMA stands for intraretinal microvascular abnormalities.",
+          "explanation": "IRMA are abnormal shunt vessels inside the retina near areas of poor blood flow. They mark pre-proliferative (R2) disease.",
           "needsReview": true
         },
         {
@@ -4169,7 +4169,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "An HbA1c of 48 mmol/mol or more indicates diabetes.",
+          "explanation": "An HbA1c of 48 mmol/mol (6.5%) or more confirms diabetes, and 42–47 is pre-diabetes. It reflects average blood sugar over about 3 months.",
           "needsReview": true
         },
         {
@@ -4391,7 +4391,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "PRP stands for panretinal photocoagulation.",
+          "explanation": "PRP stands for panretinal photocoagulation: laser across the peripheral retina to treat proliferative retinopathy.",
           "needsReview": true
         },
         {
@@ -4727,7 +4727,7 @@
               "feedback": "Graded."
             }
           ],
-          "explanation": "Drusen are a feature of AMD, not diabetic retinopathy.",
+          "explanation": "Drusen are deposits under the RPE seen in ageing and AMD. They aren't a diabetic feature, so they aren't graded in diabetic screening.",
           "needsReview": true
         },
         {
@@ -4972,7 +4972,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Copper and silver wiring indicate arteriosclerosis.",
+          "explanation": "Long-standing hypertension thickens arteriole walls, so the light reflex broadens into 'copper wiring', then 'silver wiring' when the vessel is almost hidden.",
           "original": {
             "q": "What does copper or silver wiring indicate?",
             "options": [
@@ -5190,7 +5190,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A macular star of exudates suggests severe hypertension.",
+          "explanation": "A macular star is exudate leaking from swollen, leaky vessels around the fovea. With hypertension it signals severe, possibly malignant, disease.",
           "needsReview": true
         },
         {
@@ -5300,7 +5300,7 @@
               "feedback": "Later."
             }
           ],
-          "explanation": "Arteriolar narrowing is the earliest retinal sign of hypertension.",
+          "explanation": "Arterioles narrow first as they react to high pressure. Later signs include AV nipping, haemorrhages and cotton wool spots.",
           "needsReview": true
         },
         {
@@ -5438,7 +5438,7 @@
               "feedback": "Low."
             }
           ],
-          "explanation": "Stage 1 hypertension is a clinic reading of 140/90 mmHg or more.",
+          "explanation": "In the UK, stage 1 is clinic BP of 140/90 or more, confirmed by ambulatory or home readings of 135/85 or more.",
           "needsReview": true
         },
         {
@@ -5494,7 +5494,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Chronic hypertension is managed by the GP.",
+          "explanation": "Chronic hypertension is a whole-body condition managed with lifestyle changes and drugs, so the GP manages it. Optometrists refer findings to them.",
           "needsReview": true
         },
         {
@@ -5550,7 +5550,7 @@
               "feedback": "Grade 3."
             }
           ],
-          "explanation": "KWB grade 4 includes papilloedema.",
+          "explanation": "Keith–Wagener–Barker grade 4 includes disc swelling (papilloedema), which means malignant hypertension and an emergency.",
           "original": {
             "q": "Grade 4 hypertensive retinopathy (Keith-Wagener-Barker) includes",
             "options": [
@@ -5852,7 +5852,7 @@
               "feedback": "Mild."
             }
           ],
-          "explanation": "Malignant hypertensive retinopathy includes disc swelling.",
+          "explanation": "In the Wong–Mitchell scheme, disc swelling with other signs makes the retinopathy 'malignant', which needs emergency BP control.",
           "original": {
             "q": "Malignant hypertensive retinopathy includes",
             "options": [
@@ -5990,7 +5990,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Retinal arterial macroaneurysm is linked to hypertension.",
+          "explanation": "A macroaneurysm is a bulge in a retinal artery, often with a ring of exudate. It's strongly linked to hypertension, so check BP.",
           "original": {
             "q": "Retinal arterial macroaneurysm is linked to",
             "options": [
@@ -6044,7 +6044,7 @@
               "feedback": "Stage 1."
             }
           ],
-          "explanation": "A blood pressure below 120/80 mmHg is normal.",
+          "explanation": "Under 120/80 mmHg counts as normal (optimal) BP. 140/90 or more in clinic is stage 1 hypertension.",
           "needsReview": true
         },
         {
@@ -6100,7 +6100,7 @@
               "feedback": "Not only."
             }
           ],
-          "explanation": "Ambulatory monitoring records blood pressure over 24 hours.",
+          "explanation": "An ambulatory monitor takes readings over 24 hours, including sleep. This avoids 'white coat' readings and confirms the diagnosis.",
           "needsReview": true
         },
         {
@@ -6881,7 +6881,7 @@
               "feedback": "High."
             }
           ],
-          "explanation": "Normal IOP is roughly 10–21 mmHg.",
+          "explanation": "Normal IOP is about 10–21 mmHg. It's a statistical range, so glaucoma can occur below 21 and many people above it never get it.",
           "needsReview": true
         },
         {
@@ -7047,7 +7047,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Improvement with a pinhole shows the cause is refractive.",
+          "explanation": "A pinhole cuts out refractive blur. If VA improves, the loss is mostly refractive; if it doesn't, look for disease.",
           "needsReview": true
         },
         {
@@ -7131,7 +7131,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "An incongruous homonymous hemianopia suggests an optic tract lesion.",
+          "explanation": "Optic tract fibres from each eye aren't yet lined up, so tract lesions give incongruous (unmatched) hemianopias. The further back the lesion, the more congruous.",
           "needsReview": true
         },
         {
@@ -7635,7 +7635,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Steep K readings and a scissors reflex suggest keratoconus.",
+          "explanation": "Ks over about 47–48 D and a scissors reflex point to irregular, steep corneas, the classic pattern of keratoconus.",
           "needsReview": true
         },
         {
@@ -8768,7 +8768,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A suspected choroidal melanoma needs urgent referral.",
+          "explanation": "Choroidal melanoma can spread and be fatal, so refer urgently to an ocular oncology service. Signs include thickness, orange pigment, fluid and growth.",
           "needsReview": true
         },
         {
@@ -9160,7 +9160,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A consultant ophthalmologist certifies sight impairment.",
+          "explanation": "Only a consultant ophthalmologist can certify sight impairment (CVI). Optometrists refer and explain the benefits.",
           "needsReview": true
         },
         {
@@ -9384,7 +9384,7 @@
               "feedback": "Eye."
             }
           ],
-          "explanation": "Suspected raised BP without an eye emergency is managed by the GP.",
+          "explanation": "Raised BP without eye signs needing urgent care is a GP matter. Refer to the GP, more urgently if very high or with symptoms.",
           "needsReview": true
         },
         {
@@ -10085,7 +10085,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Blood in the anterior chamber is called a hyphaema.",
+          "explanation": "Hyphaema is blood settling in the anterior chamber, usually after blunt trauma. It needs urgent referral because of re-bleeding and IOP rise.",
           "needsReview": true
         },
         {
@@ -10113,7 +10113,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Pus in the anterior chamber is called a hypopyon.",
+          "explanation": "Hypopyon is a layer of white cells settled in the anterior chamber, seen in severe uveitis or keratitis. It needs urgent referral.",
           "needsReview": true
         },
         {
@@ -10197,7 +10197,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Chemosis and itching suggest allergic conjunctivitis.",
+          "explanation": "Histamine causes itching and leaky vessels, so the conjunctiva swells (chemosis). That combination points to allergy.",
           "needsReview": true
         },
         {
@@ -10419,7 +10419,7 @@
               "feedback": "Not mainly."
             }
           ],
-          "explanation": "Follicles are found mainly in the lower fornix.",
+          "explanation": "Follicles are lymphoid tissue, most prominent in the lower fornix and lower palpebral conjunctiva, so pull down the lower lid to look.",
           "original": {
             "q": "Follicles are found mainly in the",
             "options": [
@@ -10721,7 +10721,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A tender preauricular lymph node is typical of adenoviral conjunctivitis.",
+          "explanation": "A tender lump in front of the ear (preauricular node) is typical of adenoviral conjunctivitis and helps tell it from bacterial.",
           "needsReview": true
         },
         {
@@ -10945,7 +10945,7 @@
               "feedback": "Painful."
             }
           ],
-          "explanation": "A subconjunctival haemorrhage is usually painless.",
+          "explanation": "A subconjunctival haemorrhage is blood under the conjunctiva. It looks alarming but is usually painless and clears in 1–2 weeks. Check BP if it recurs.",
           "needsReview": true
         },
         {
@@ -11307,7 +11307,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Allergic conjunctivitis usually affects both eyes.",
+          "explanation": "Allergens reach both eyes, so allergic conjunctivitis is usually bilateral. Unilateral redness suggests another cause.",
           "needsReview": true
         },
         {
@@ -11917,7 +11917,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A carotid-cavernous fistula causes proptosis with a bruit.",
+          "explanation": "A carotid-cavernous fistula sends arterial blood into the venous system behind the eye, giving proptosis, red eye and a bruit. Refer urgently.",
           "original": {
             "q": "Which proptosis cause has a bruit?",
             "options": [
@@ -13467,7 +13467,7 @@
               "feedback": "Optic."
             }
           ],
-          "explanation": "The abducens nerve (CN VI) supplies the lateral rectus.",
+          "explanation": "LR6 SO4: the lateral rectus is supplied by CN VI (abducens), and the superior oblique by CN IV. CN III does the rest.",
           "needsReview": true
         },
         {
@@ -13495,7 +13495,7 @@
               "feedback": "Sensory."
             }
           ],
-          "explanation": "The trochlear nerve (CN IV) supplies the superior oblique.",
+          "explanation": "LR6 SO4: the superior oblique is supplied by CN IV (trochlear). CN IV palsy causes vertical diplopia worse looking down and in.",
           "needsReview": true
         },
         {
@@ -13797,7 +13797,7 @@
               "feedback": "Mainly depresses and intorts."
             }
           ],
-          "explanation": "The lateral rectus is the main abductor (CN VI).",
+          "explanation": "The lateral rectus (CN VI) is the only muscle that takes the eye outwards past the midline, so weak abduction points to it.",
           "original": {
             "q": "Which muscle is the main abductor of the eye?",
             "options": [
@@ -14787,7 +14787,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A migraine aura typically lasts about 20–60 minutes.",
+          "explanation": "A typical migraine aura builds over about 5–20 minutes and lasts up to an hour. Longer or unusual auras need further assessment.",
           "needsReview": true
         },
         {
@@ -14871,7 +14871,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A headache worse on bending forward suggests sinusitis.",
+          "explanation": "Bending forward raises pressure in blocked sinuses, so a facial headache that's worse when leaning over suggests sinusitis.",
           "needsReview": true
         },
         {
@@ -14899,7 +14899,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A sudden 'thunderclap' headache may be a subarachnoid haemorrhage, so it's an emergency.",
+          "explanation": "A sudden, severe headache that peaks within a minute may be a subarachnoid haemorrhage, so send the patient to emergency services at once.",
           "needsReview": true
         },
         {
@@ -15175,7 +15175,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Painful proptosis suggests orbital cellulitis or an orbital tumour.",
+          "explanation": "Painful proptosis suggests something active in the orbit: infection (cellulitis) or a growing mass. Both need urgent referral.",
           "needsReview": true
         },
         {
@@ -15675,7 +15675,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "GCA is confirmed by temporal artery biopsy or ultrasound.",
+          "explanation": "Temporal artery biopsy or ultrasound confirms GCA. Treatment with steroids starts on suspicion, because sight can be lost within days.",
           "needsReview": true
         },
         {
@@ -15815,7 +15815,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "A headache diary reveals patterns and triggers.",
+          "explanation": "Logging when headaches happen, plus screen time, sleep, food and medication, reveals patterns and triggers that a one-off history misses.",
           "needsReview": true
         },
         {
@@ -16149,7 +16149,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Uveitis usually causes a deep ache with photophobia.",
+          "explanation": "Uveitis inflames the iris and ciliary body, causing a deep ache and photophobia that worsens when the pupil reacts to light.",
           "needsReview": true
         },
         {
@@ -16389,7 +16389,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Vigabatrin, an anti-epilepsy drug, causes constricted fields.",
+          "explanation": "Vigabatrin (for epilepsy) damages the retina and constricts the field in both eyes, so patients need regular field checks.",
           "needsReview": true
         },
         {
@@ -16501,7 +16501,7 @@
               "feedback": "It does."
             }
           ],
-          "explanation": "Optic neuritis typically causes a central scotoma.",
+          "explanation": "Optic neuritis mostly hits the papillomacular fibres, giving a central scotoma with reduced acuity and colour vision.",
           "needsReview": true
         },
         {
@@ -16529,7 +16529,7 @@
               "feedback": "Less typical."
             }
           ],
-          "explanation": "NAION typically causes an altitudinal defect, often inferior.",
+          "explanation": "NAION damages the upper or lower half of the disc's blood supply, so the field loss is altitudinal (respects the horizontal), often inferior.",
           "needsReview": true
         },
         {
@@ -16947,7 +16947,7 @@
               "feedback": "It can."
             }
           ],
-          "explanation": "Ethambutol toxicity typically causes central or centrocaecal scotomas.",
+          "explanation": "Ethambutol damages the papillomacular bundle, causing central or centrocaecal scotomas with colour loss.",
           "needsReview": true
         },
         {
@@ -16975,7 +16975,7 @@
               "feedback": "No."
             }
           ],
-          "explanation": "Vigabatrin typically causes bilateral concentric field constriction.",
+          "explanation": "Vigabatrin causes bilateral concentric constriction, often unnoticed until advanced, so screening matters.",
           "needsReview": true
         },
         {
@@ -17423,7 +17423,7 @@
               "feedback": "Central."
             }
           ],
-          "explanation": "A macular hole causes a small central scotoma.",
+          "explanation": "A macular hole removes the central photoreceptors, leaving a small central scotoma and often distortion around it.",
           "needsReview": true
         },
         {
@@ -17647,7 +17647,7 @@
               "feedback": "Not relevant."
             }
           ],
-          "explanation": "Glaucoma usually spares central vision until late.",
+          "explanation": "Glaucoma damages arcuate fibres first, so central vision usually stays good until late. Patients often don't notice until damage is advanced.",
           "needsReview": true
         },
         {
