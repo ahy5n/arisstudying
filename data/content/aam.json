@@ -756,25 +756,25 @@
             {
               "text": "−2.50 DS",
               "correct": true,
-              "feedback": "Yes: subtract +2.00."
+              "feedback": "Yes: −0.50 − (+2.00) = −2.50."
             },
             {
               "text": "+1.50 DS",
               "correct": false,
-              "feedback": "Wrong sign."
+              "feedback": "You added the working-distance lens. Take it away instead: −0.50 − 2.00."
             },
             {
               "text": "−0.50 DS",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That’s the gross result. You still need to take off the working-distance lens."
             },
             {
               "text": "−2.00 DS",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Close, but that takes off 1.50 (the 67 cm lens). At 50 cm it’s 2.00."
             }
           ],
-          "explanation": "Net = −0.50 − 2.00 = −2.50 DS.",
+          "explanation": "Working at 50 cm means your neutral point already includes 1 ÷ 0.5 = +2.00 D just for the distance you’re sitting at. That +2.00 isn’t part of the patient’s prescription, so take it off: net = gross − working-distance lens = −0.50 − (+2.00) = −2.50 DS. Quick rule: 50 cm → subtract 2.00, 67 cm → subtract 1.50.",
           "needsReview": true
         },
         {
